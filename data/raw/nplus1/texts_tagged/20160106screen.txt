@@ -1,0 +1,199 @@
+# text = # newpar
+# sent_id = 2002
+# text = Американская компания SteelSeries разработала компьютерную мышь Rival 700, сконструированную по модульному принципу.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	SteelSeries	SteelSeries	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	компьютерную	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	мышь	мышь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	Rival	Rival	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	700	700	NUM	_	_	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сконструированную	конструировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	модульному	модульный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	принципу	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2003
+# text = Согласноописаниюна сайте компании, манипулятор оснащен небольшим OLED-экраном, на который во время игры может выводиться различная игровая статистика, подсказки о "горячих клавишах" или пользовательский логотип.Мышь также оснащена подсветкой, цвет свечения которой можно настраивать; для отображения доступны 16,8 миллиона цветов.
+1	Согласноописаниюна	Согласноописаниюный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+2	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+6	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	_
+7	небольшим	небольший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	OLED	OLEd	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	экраном	экран	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	который	который	PRON	_	Case=Acc	17	obl	_	_
+14	во	во	ADP	_	_	16	case	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+18	выводиться	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	21	xcomp	_	_
+19	различная	различный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	игровая	игровой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	статистика	статистика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	подсказки	подсказк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+24	о	о	ADP	_	_	27	case	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	горячих	горячий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	клавишах	клавиша	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	или	или	CCONJ	_	_	31	cc	_	_
+30	пользовательский	пользовательский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	логотип.	логотипункт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+32	Мышь	мышь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	27	appos	_	_
+33	также	также	ADV	_	Degree=Pos	34	advmod	_	_
+34	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+35	подсветкой	подсветка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+38	свечения	свечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	которой	который	PRON	_	Case=Gen	38	nmod	_	_
+40	можно	можно	ADV	_	Degree=Pos	45	parataxis	_	_
+41	настраивать	настраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	45	nsubj	_	SpaceAfter=No
+42	;	;	PUNCT	_	_	41	punct	_	_
+43	для	для	ADP	_	_	44	case	_	_
+44	отображения	отображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+45	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	34	conj	_	_
+46	16,8	16,8	NUM	_	_	47	nummod	_	_
+47	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	nummod:gov	_	_
+48	цветов	цветы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 2004
+# text = Rival 700 имеет выстроенный вибромотор, который также можно настраивать.
+1	Rival	Rival	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	700	700	NUM	_	_	1	nummod	_	_
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выстроенный	выстроенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вибромотор	вибромотор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	можно	можно	ADV	_	Degree=Pos	5	acl:relcl	_	_
+10	настраивать	настраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2005
+# text = В частности, пользователь может задать различные последовательности и силу вибрации для различных игровых событий.Конструкция мыши предусматривает быструю смену провода подключения, сенсора и верхней панели.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	задать	задавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+11	вибрации	вибрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	для	для	ADP	_	_	15	case	_	_
+13	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	игровых	игровой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Конструкция	конструкция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+18	мыши	мыша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	предусматривает	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	быструю	быстрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	смену	смена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	провода	провод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	сенсора	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	conj	_	_
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	верхней	верхний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	панели	панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2006
+# text = В целом масса устройства составляет 159 граммов.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	масса	масс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	159	159	NUM	_	_	7	nummod	_	_
+7	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2007
+# text = Мышь оснащается сенсором с разрешением от ста до 16 тысяч точек на дюйм и частотой опроса один килогерц.
+1	Мышь	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	оснащается	оснащавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	сенсором	сенсор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	ста	сто	NUM	_	Case=Gen	5	nmod	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	16	16	NUM	_	_	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	дюйм	дюйм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+16	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	один	один	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+18	килогерц	килогерц	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2008
+# text = Rival 700 имеет семь кнопок, функции каждой из которых можно настраивать.
+1	Rival	Rival	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	700	700	NUM	_	_	1	nummod	_	_
+3	имеет	имеять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	семь	семь	NUM	_	Case=Nom	5	nummod:gov	_	_
+5	кнопок	кнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+8	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	0	nmod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	которых	который	PRON	_	Case=Gen	8	nmod	_	_
+11	можно	можно	ADV	_	Degree=Pos	0	parataxis	_	_
+12	настраивать	настраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2009
+# text = Все пользовательские настройки хранятся в собственной памяти мыши.Устройство пока не продается.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	пользовательские	пользовательский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	настройки	настройка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	хранятся	храниться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	собственной	собственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	памяти	память	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	мыши.	мыши.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	Устройство	устройство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	appos	_	_
+10	пока	пока	ADV	_	Degree=Pos	12	advmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	продается	продаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2010
+# text = Как ожидается, его поставки в магазины начнется весной текущего года.Василий Сычёв
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	поставки	поставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	магазины	магазин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+8	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+13	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+
+# newpar
+# sent_id = 2011

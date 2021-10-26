@@ -1,0 +1,113 @@
+# text = # newpar
+# sent_id = 64
+# text = Немецкий производитель промышленного оборудования Festo представил робота, способного "плести" объемные структуры из стекловолокна.
+1	Немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	производитель	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	промышленного	промышленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	Festo	Festo	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+6	представил	представлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	способного	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	плести	плодить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	объемные	объемный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	структуры	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	стекловолокна	стекловолокно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 65
+# text = Об устройстве можнопрочитатьна сайте компании.Робот под названием 3D Cocooner представляет собой динамическое роботизированное крепление серии EXPT-45с установленным на него экструдером, через который подается стекловолокно и фотоотверждаемый клей.
+1	Об	о	ADP	_	_	2	case	_	_
+2	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+3	можнопрочитатьна	можнопрочитатьный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+5	компании.	компании.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	Робот	робот	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+9	3D	3d	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Cocooner	Cocooner	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	собой	себя	PRON	_	Case=Ins	11	dep	_	_
+13	динамическое	динамический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+14	роботизированное	роботизированный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	крепление	крепление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+16	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	EXPT	Expt	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	45с	45с	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	appos	_	_
+20	установленным	устанавливать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+23	экструдером	экструдер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	через	через	ADP	_	_	26	case	_	_
+26	который	который	PRON	_	Case=Acc	27	obl	_	_
+27	подается	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
+28	стекловолокно	стекловолокно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj:pass	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	фотоотверждаемый	фотоотверждаемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	клей	клей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 66
+# text = Также на манипулятор смонтирована дисковая пила, которая отрезает части конструкции от экструдера.В программное обеспечение системы проектирования встроен симулятор, что позволяет оценить надежность и жесткость итоговой конструкции еще до начала производства.По словам разработчиков, такой подход позволяет проектировать и изготавливать объемные конструкции без дополнительных поддерживающих элементов.Николай Воронцов
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	смонтирована	монтировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	дисковая	дисковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	пила	пила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	отрезает	отрезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	части	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	экструдера.	экструдера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+14	В	в	ADP	_	_	16	case	_	_
+15	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+17	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	проектирования	проектирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	встроен	встроить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+20	симулятор	симулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+23	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	надежность	надежность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	жесткость	жесткость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	conj	_	_
+28	итоговой	итоговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	еще	еще	ADV	_	Degree=Pos	32	advmod	_	_
+31	до	до	ADP	_	_	32	case	_	_
+32	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	obl	_	_
+33	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	По	по	ADP	_	_	36	case	_	_
+36	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	41	parataxis	_	_
+37	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	40	amod	_	_
+40	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+41	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+42	проектировать	проектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	41	xcomp	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	изготавливать	изготовлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	42	conj	_	_
+45	объемные	объемной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	46	amod	_	_
+46	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	44	obj	_	_
+47	без	без	ADP	_	_	50	case	_	_
+48	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	50	amod	_	_
+49	поддерживающих	поддерживають	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	50	amod	_	_
+50	элементов.	элементовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
+51	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+52	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	flat:name	_	_
+
+# newpar
+# sent_id = 67

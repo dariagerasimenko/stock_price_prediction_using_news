@@ -1,0 +1,105 @@
+# text = # newpar
+# sent_id = 3830
+# text = Ученые Института археологии РАН обнаружили улицу Великую.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	археологии	археология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	РАН	ран	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	улицу	улица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	Великую	великий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3831
+# text = Это старейшая улица города, которая появилась, предположительно, еще вXII веке, сообщается в пресс-релизе, поступившем в редакцию N+1.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	старейшая	старейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	улица	улица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	появилась	появляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	предположительно	предположительно	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	еще	еще	ADV	_	Degree=Pos	12	advmod	_	_
+12	вXII	вxii	NUM	_	_	13	nummod	_	_
+13	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	поступившем	поступивать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	amod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	редакцию	редакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+22	N+1	N+1	NOUN	_	_	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3832
+# text = "Улица Великая проходила в районе Мокринского переулка, она вела от Кремля к пристани и относится к древнейшему этапу строительства города в XII-XIII веках.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Улица	улица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Великая	Великая	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+4	проходила	проходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Мокринского	Мокринский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	переулка	переулок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+11	вела	вести	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	Кремля	кремль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	пристани	пристань	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+18	к	к	ADP	_	_	20	case	_	_
+19	древнейшему	древнейший	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	этапу	этап	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+21	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	в	в	ADP	_	_	27	case	_	_
+24	XII	xii	NUM	_	_	27	nummod	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	XIII	xiii	NUM	_	_	24	nummod	_	_
+27	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3833
+# text = Раскоп заложили в юго-восточной части огромной площадки, где была гостиница, и не прогадали", -- объяснил руководитель раскопок Леонид Беляев, заведующий Отделом археологии Московской Руси ИА РАН.
+1	Раскоп	Раскоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	заложили	закладывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	юго-восточной	юго-восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	огромной	огромный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	площадки	площадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+10	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	гостиница	гостиница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	прогадали	прогадывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	--	--	PUNCT	_	_	15	punct	_	_
+19	объяснил	объяснять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+20	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	Леонид	леонид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+23	Беляев	Беляев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	заведующий	заведующий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+26	Отделом	отдел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	_
+27	археологии	археология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	Московской	московский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	Руси	Русь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	ИА	И	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	РАН.	Ранаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	30	amod	_	_
+
+# newpar
+# sent_id = 3834

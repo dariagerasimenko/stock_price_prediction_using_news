@@ -1,0 +1,243 @@
+# text = # newpar
+# sent_id = 434
+# text = Исследователи из Кембриджского университета разработали систему компьютерного зрения для автомобилей.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Кембриджского	Кембриджский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	компьютерного	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 435
+# text = Авторы считают, что в будущем компьютерное зрение сможет заменить лидар в системе управления беспилотным автомобилем.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+7	компьютерное	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	зрение	зрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	лидар	лидар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+14	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 436
+# text = Доклад был представлен на конференции ICCV 2015 в Сантьяго (Чили), кратко о работе можно прочитать на сайте университета.Система SegNet способна проанализировать представленную фотографию или видеопоток в режиме реального времени, определив каждый пиксель изображения как относящийся к одной из двенадцати категорий: небо, здание, столб, дорожная разметка, дорога, тротуар, информационный указатель, забор, автомобиль, пешеход, велосипедист.
+1	Доклад	доклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	ICCV	Iccv	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	2015	2015	NUM	_	_	6	nummod	_	_
+8	в	в1	ADP	_	_	16	case	_	_
+9	Сантьяго	Сантьяй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Чили	чили	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	кратко	кратко	ADV	_	Degree=Pos	9	advmod	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+17	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+18	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	университета.	университета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	Система	система	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	appos	_	_
+23	SegNet	SegNet	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	conj	_	_
+25	проанализировать	анализировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	dep	_	_
+26	представленную	представлеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+27	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	видеопоток	видеопоток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	conj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	_
+32	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	определив	определять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	25	advcl	_	_
+36	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	пиксель	пиксель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+38	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	как	как	SCONJ	_	_	40	mark	_	_
+40	относящийся	относиться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	0	amod	_	_
+41	к	к	ADP	_	_	42	case	_	_
+42	одной	один	NUM	_	Case=Dat|Gender=Fem	45	nummod	_	_
+43	из	из	ADP	_	_	42	case	_	_
+44	двенадцати	двенадцать	NUM	_	Case=Gen	45	nummod	_	_
+45	категорий	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	SpaceAfter=No
+46	:	:	PUNCT	_	_	45	punct	_	_
+47	небо	небо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	45	parataxis	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	здание	здание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	47	conj	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	столб	столб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	47	conj	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	дорожная	дорожный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	54	amod	_	_
+54	разметка	разметка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	54	punct	_	_
+56	дорога	дорога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	54	conj	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	тротуар	тротуар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	54	conj	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	58	punct	_	_
+60	информационный	информационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	61	amod	_	_
+61	указатель	указатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	61	punct	_	_
+63	забор	забор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	63	conj	_	SpaceAfter=No
+66	,	,	PUNCT	_	_	65	punct	_	_
+67	пешеход	пешеход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	67	punct	_	_
+69	велосипедист	велосипедист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	69	punct	_	_
+
+# sent_id = 437
+# text = Для обучения системы разработчики использовали пять тысяч фотографий, на каждой из которых вручную пометили все пиксели, как принадлежащие к той или иной категории.
+1	Для	для	ADP	_	_	2	case	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	пять	пять	NUM	_	Case=Acc	7	nummod:gov	_	_
+7	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+8	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	obl	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	11	nmod	_	_
+14	вручную	вручную	ADV	_	Degree=Pos	15	advmod	_	_
+15	пометили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	все	весь	DET	_	Case=Nom|Number=Plur	17	amod	_	_
+17	пиксели	пиксель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	как	как	SCONJ	_	_	20	cc	_	_
+20	принадлежащие	принадлежать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+21	к	к	ADP	_	_	25	case	_	_
+22	той	тот	DET	_	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	иной	иной	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	conj	_	_
+25	категории	категория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 438
+# text = На данный момент система точно определяет до 90 процентов пикселей в кадре.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	точно	точно	ADV	_	Degree=Pos	6	advmod	_	_
+6	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	90	90	NUM	_	_	9	nummod	_	_
+9	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	пикселей	пиксель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	кадре	кадр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 439
+# text = Как отмечают сами разработчики, такой точности пока что недостаточно, чтобы использовать SegNet для самостоятельного управления автомобилем.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	точности	точность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+8	пока	пока	ADV	_	Degree=Pos	2	advmod	_	_
+9	что	что	SCONJ	_	_	2	cc	_	_
+10	недостаточно	недостаточно	ADV	_	Degree=Pos	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	advcl	_	_
+14	SegNet	SegNet	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	самостоятельного	самостоятельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+18	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 440
+# text = Тем не менее, SegNet на данном этапе можно использовать как вспомогательную систему, оповещающую водителя о возможной опасности на дороге.Исследователи отмечают, что система в основном обучалась на изображениях с шоссе и городских улиц, поэтому не слишком хорошо справляется с распознаванием изображения за пределами городской черты.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	SegNet	SegNet	PROPN	_	Foreign=Yes	9	nsubj	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	advcl	_	_
+11	как	как	SCONJ	_	_	10	cc	_	_
+12	вспомогательную	вспомогательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	оповещающую	оповещать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	водителя	водитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	о	о	ADP	_	_	19	case	_	_
+18	возможной	возможный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	опасности	опасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	дороге.	дороге.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	23	mark	_	_
+26	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	_
+29	обучалась	обучаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	23	advcl	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	изображениях	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	29	obl	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	шоссе	шоссе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	городских	городской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	улиц	улица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	поэтому	поэтому	ADV	_	Degree=Pos	42	advmod	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	слишком	слишком	ADV	_	Degree=Pos	41	advmod	_	_
+41	хорошо	хорошо	ADV	_	Degree=Pos	42	advmod	_	_
+42	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	29	conj	_	_
+43	с	с	ADP	_	_	44	case	_	_
+44	распознаванием	распознавание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	42	obl	_	_
+45	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	_
+46	за	за	ADP	_	_	47	case	_	_
+47	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	45	nmod	_	_
+48	городской	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	черты	черта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 441
+# text = Проверить работу SegNet можено на специально созданном демонстрационном портале.
+1	Проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+2	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	SegNet	SegNet	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	можено	моживать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	9	case	_	_
+6	специально	специально	ADV	_	Degree=Pos	7	advmod	_	_
+7	созданном	создывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	демонстрационном	демонстрационный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 442

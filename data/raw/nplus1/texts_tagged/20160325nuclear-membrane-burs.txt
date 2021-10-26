@@ -1,0 +1,441 @@
+# text = # newpar
+# sent_id = 3386
+# text = Две независимые группы биологов обнаружили, что в клетках, "протискивающихся" через узкие поры, может происходить разрыв ядерной мембраны.
+1	Две	два	NUM	_	Case=Nom|Gender=Fem	3	nummod:gov	_	_
+2	независимые	независимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	биологов	биолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	клетках	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	протискивающихся	протискиваться	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	через	через	ADP	_	_	16	case	_	_
+15	узкие	узкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	поры	пора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+19	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	разрыв	разрыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3387
+# text = Ранее считалось, что эта оболочка рвется лишь в процессе митотического деления клеток.
+1	Ранее	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	оболочка	оболочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	рвется	рвуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	лишь	лишь	PART	_	_	10	advmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	митотического	митотический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	деления	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3388
+# text = Авторы выяснили механизмы, восстанавливающие оболочку и надеются, что понимание их работы поможет остановить образование метастазов раковых опухолей.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	восстанавливающие	восстанавливать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	оболочку	оболочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	надеются	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	понимание	понимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+13	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	остановить	останавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	метастазов	метастаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	опухолей	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3389
+# text = Работы групп Яна Ламмердинга (Корнельский Университет, США) и Маттье Пьеля (Исследовательский Университет PSL, Франция) опубликованы1,2 в Science, кратко с ними можно ознакомиться в редакционном материале журнала.Биологи наблюдали за движением клеток через узкие поры -- в четыре раза меньше объектов.
+1	Работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+2	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	Яна	ян	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Ламмердинга	Ламмердинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Корнельский	Корнельский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Университет	университет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	1	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Маттье	Маттье	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+13	Пьеля	Пьель	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Исследовательский	Исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	Университет	университет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	_
+17	PSL	Psl	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	Франция	франция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	опубликованы1,2	опубликованы1,2	NUM	_	_	1	nummod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Science	science	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	кратко	кратко	ADV	_	Degree=Pos	28	advmod	_	_
+26	с	с	ADP	_	_	27	case	_	_
+27	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	25	obl	_	_
+28	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+29	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	28	nsubj	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	редакционном	редакционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+33	журнала.	журнала.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+34	Биологи	Биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+35	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	parataxis	_	_
+36	за	за	ADP	_	_	37	case	_	_
+37	движением	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	obl	_	_
+38	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	_
+39	через	через	ADP	_	_	41	case	_	_
+40	узкие	узкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	41	amod	_	_
+41	поры	пора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obl	_	_
+42	--	--	PUNCT	_	_	41	punct	_	_
+43	в	в	ADP	_	_	45	case	_	_
+44	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	45	nummod:gov	_	_
+45	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	obl	_	_
+46	меньше	мало	NUM	_	_	0	nummod:gov	_	_
+47	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	_
+
+# sent_id = 3390
+# text = Для того, чтобы обнаружить возможные изменения, группа Ламмердингаиспользовала генетически модифицированные организмы, в ядрах которых находились флуоресцентные белки.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	возможные	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	Ламмердингаиспользовала	Ламмердингаиспользовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	генетически	генетически	ADV	_	Degree=Pos	12	advmod	_	_
+12	модифицированные	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	организмы	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	ядрах	ядры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+17	которых	который	PRON	_	Case=Gen	16	nmod	_	_
+18	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+19	флуоресцентные	флуоресцентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3391
+# text = Оказалось, в некоторых случаях флуоресцентные вещества просачивались сквозь разрывы в ядерных мембранах.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	5	amod	_	_
+5	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+6	флуоресцентные	флуоресцентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+8	просачивались	просачиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	_
+9	сквозь	сквозь	ADP	_	_	10	case	_	_
+10	разрывы	разрыва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	ядерных	ядерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	мембранах	мембрана	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3392
+# text = Разрывы удалось обнаружить у клеток иммунной системы (Piel et al.) и раковых опухолей (Lammerding et al.).Кроме разрыва ядерной мембраны, биологи обнаружили среды разрывов в самой цепи ДНК.
+1	Разрывы	разрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+4	у	у	ADP	_	_	5	case	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	иммунной	иммунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Piel	Piel	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	et	et	X	_	Foreign=Yes	11	flat:foreign	_	_
+11	al.	al.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	опухолей	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Lammerding	Lammerding	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	et	et	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	al	al	X	_	Foreign=Yes	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+23	Кроме	кроме	ADP	_	_	24	case	_	_
+24	разрыва	разрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+25	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+30	среды	сред	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+31	разрывов	разрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	самой	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	цепи	цепь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+35	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3393
+# text = Однако, у клеток есть механизмы, способные восстановить повреждения.
+1	Однако	однако	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+9	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3394
+# text = По данным группы Ламмердинга, процесс восстановления мембраны начинается уже через две минуты с разрыва, всего на него уходит 10-30 минут.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	9	parataxis	_	_
+3	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Ламмердинга	Ламмердинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	восстановления	восстановление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+11	через	через	ADP	_	_	13	case	_	_
+12	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	13	nummod:gov	_	_
+13	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	разрыва	разрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	всего	всего	PART	_	_	19	advmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	_
+20	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+21	10	10	NUM	_	_	24	nummod	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	30	30	NUM	_	_	21	nummod	_	_
+24	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3395
+# text = Ответственным за заращивание разрыва является белковый комплексESCRT-III, играющий важную роль в транспорте веществ и связанный с мембранами комплекса Гольджи.Обе группы выяснили, что отключение процессов восстановления ядерной мембраны и репарации ДНК приводит к быстрой гибели клетки.
+1	Ответственным	ответственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	заращивание	заращивание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	разрыва	разрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	белковый	белковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	комплексESCRT	комплексescrt	PROPN	_	Foreign=Yes	5	nsubj	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	III	iii	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	играющий	играть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+12	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	транспорте	транспорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	связанный	связывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	мембранами	мембрана	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
+21	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	Гольджи	Гольджи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Обе	оба	NUM	_	Case=Nom|Gender=Fem	25	nummod:gov	_	_
+25	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	отключение	отключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+30	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+31	восстановления	восстановление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	репарации	репарация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	conj	_	_
+36	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+38	к	к	ADP	_	_	40	case	_	_
+39	быстрой	быстрый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	гибели	гибель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	37	obl	_	_
+41	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 3396
+# text = В частности, через разрывы в мембране внутрь ядра начинают попадать ферменты, в норме отвечающие за защиту клетки от вирусной ДНК.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	через	через	ADP	_	_	5	case	_	_
+5	разрывы	разрыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	мембране	мембрана	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+8	внутрь	внутрь	ADP	_	_	9	case	_	_
+9	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	попадать	попадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	ферменты	фермент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	норме	норма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+16	отвечающие	отвечать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	от	от	ADP	_	_	22	case	_	_
+21	вирусной	вирусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3397
+# text = Их роль заключается в расщеплении постороннего генного материала, но попав в ядро они разрушают собственный генный материал клетки.По словам Яна Ламмердинга, если создать препарат, замедляющий работу соответствующих комплексов, то раковые клетки будут в буквальном смысле уничтожать себя при попытке образования метастазов -- разрушая свое ядро при движении между здоровыми клетками.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	расщеплении	расщепление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	постороннего	посторонний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	15	cc	_	_
+11	попав	попадать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	15	advcl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	ядро	ядро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	разрушают	разрушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+16	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	По	по	ADP	_	_	22	case	_	_
+22	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	obl	_	_
+23	Яна	ян	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	Ламмердинга	Ламмердинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	если	если	SCONJ	_	_	0	mark	_	_
+27	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+28	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	замедляющий	замедлять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+31	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+32	соответствующих	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	комплексов	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	то	то	SCONJ	_	_	27	cc	_	_
+36	раковые	раковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	42	nsubj	_	_
+38	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	aux	_	_
+39	в	в	ADP	_	_	41	case	_	_
+40	буквальном	буквальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	obl	_	_
+42	уничтожать	уничтожать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+43	себя	себя	PRON	_	Case=Acc	42	obj	_	_
+44	при	при	ADP	_	_	45	case	_	_
+45	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	obl	_	_
+46	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	метастазов	метастаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	_
+48	--	--	PUNCT	_	_	47	punct	_	_
+49	разрушая	разрушать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	42	advcl	_	_
+50	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	51	amod	_	_
+51	ядро	ядро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	49	obj	_	_
+52	при	при	ADP	_	_	53	case	_	_
+53	движении	движение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	obl	_	_
+54	между	между	ADP	_	_	56	case	_	_
+55	здоровыми	здоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	56	amod	_	_
+56	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	53	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	_
+
+# sent_id = 3398
+# text = Однако необходимо каким-то образом снизить возможный вред от препарата для здоровых клеток.Подобное деформированное состояние не является полностью искусственным для клеток иммунной системы.
+1	Однако	однако	ADV	_	Degree=Pos	2	advmod	_	_
+2	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	каким-то	какой-то	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+5	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+6	возможный	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	вред	вред	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	от	от	ADP	_	_	7	case	_	_
+9	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	здоровых	здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	nmod	_	_
+12	клеток.	клетоколо	ADP	_	_	15	case	_	SpaceAfter=No
+13	Подобное	подобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+14	деформированное	деформированный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+18	полностью	полностью	ADV	_	Degree=Pos	19	advmod	_	_
+19	искусственным	искусственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	иммунной	иммунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3399
+# text = Известно, что "охотясь" за различными микроорганизмами лейкоциты способны "втискиваться" между другими клетками.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	охотясь	охотиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	10	advcl	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	за	за	ADP	_	_	9	case	_	_
+8	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	микроорганизмами	микроорганизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+10	лейкоциты	лейкоцивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+11	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	conj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	втискиваться	втискиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	dep	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	между	между	ADP	_	_	17	case	_	_
+16	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3400
+# text = От процессов залечивания повреждений зависит то, будет ли иммунный ответ организма нормальным или дефектным.Владимир Королёв
+1	От	от	ADP	_	_	2	case	_	_
+2	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+3	залечивания	залечивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	зависит	зависить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+9	ли	ли	PART	_	_	11	advmod	_	_
+10	иммунный	иммунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ответ	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+12	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	нормальным	нормальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	дефектным.	дефектным.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+17	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	_
+
+# newpar
+# sent_id = 3401

@@ -1,0 +1,427 @@
+# text = # newpar
+# sent_id = 4999
+# text = Японским ученым удалось вырастить полноценные мышиные яйцеклетки вполностью искусственных условиях.
+1	Японским	японский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	вырастить	выращивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	полноценные	полноценный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+6	мышиные	мышиный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+8	вполностью	вполность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl:agent	_	_
+9	искусственных	искусственный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+10	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5000
+# text = Результаты работы опубликованы вжурнале Proceedings ofthe National Academy of Sciences.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Proceedings	Proceedings	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ofthe	ofthe	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	National	national	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Academy	academy	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	of	of	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Sciences	Sciences	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5001
+# text = Сотрудники Токийского сельскохозяйственного университета сколлегами издругих вузов на13-й день после оплодотворения забрали умышиных эмбрионов женского пола гоноциты.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	Токийского	Токийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	сельскохозяйственного	сельскохозяйственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	сколлегами	сколлега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	_
+6	издругих	издругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	вузов	вуз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	на13-й	на13-й	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	оплодотворения	оплодотворение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+12	забрали	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	умышиных	умышин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	женского	женский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	гоноциты	гоноцита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5002
+# text = Эти первичные половые клетки, имеющие диплоидный (двойной) набор хромосом, зарождаются вжелточном мешке.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+2	первичные	первичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	половые	половой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	имеющие	иметь	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	диплоидный	диплоидный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	двойной	двойной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+12	хромосом	хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	зарождаются	зарождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	вжелточном	вжелточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	мешке	мешок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5003
+# text = В ходе эмбрионального развития они мигрируют кформирующимся половым железам, где под влиянием вырабатываемых теми факторов проходят все этапы мейоза с образованием яйцеклеток, которые имеют гаплоидный (одинарный) набор хромосом.
+1	В	в	ADP	_	_	4	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	эмбрионального	эмбриональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	мигрируют	мигриревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	кформирующимся	кформируться	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	_
+8	половым	половой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	9	amod	_	_
+9	железам	железин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+12	под	под	ADP	_	_	13	case	_	_
+13	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+14	вырабатываемых	вырабатывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	теми	тот	DET	_	Case=Ins|Number=Plur	16	amod	_	_
+16	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+18	все	весь	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+19	этапы	этап	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+20	мейоза	мейоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	образованием	образование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	_
+23	яйцеклеток	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	которые	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+27	гаплоидный	гаплоидный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	одинарный	одинарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+32	хромосом	хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 5004
+# text = Полученные гоноциты поместили винкубатор с клетками яичников, обеспечивающими рост исозревание фолликулов сяйцеклетками.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	гоноциты	гоноцит	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	винкубатор	винкубатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+7	яичников	яичник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	обеспечивающими	обеспечивать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	исозревание	исозревание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	appos	_	_
+12	фолликулов	фолликул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	сяйцеклетками	сяйцеклетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5005
+# text = Предыдущие подобные попытки приводили кобразованию деформированных или кластеризованных половых клеток, непригодных для оплодотворения.
+1	Предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	приводили	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кобразованию	кобразование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+6	деформированных	деформировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	кластеризованных	кластеризовать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+9	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	непригодных	непригодный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	оплодотворения	оплодотворение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5006
+# text = Досих пор созревания удавалось добиться только путем имплантации частично созревших клеток ворганизм животного.
+1	Досих	Досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	созревания	созревание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	удавалось	удаваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	_
+6	только	только	PART	_	_	8	advmod	_	_
+7	путем	путем	ADP	_	_	8	case	_	_
+8	имплантации	имплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	частично	частично	ADV	_	Degree=Pos	10	advmod	_	_
+10	созревших	созревать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+11	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	ворганизм	ворганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+13	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 5007
+# text = Анализ экспрессии генов секвенированием РНК, проведенный японцами, выявил ввыращиваемых яйцеклетках повышенную экспрессию 547генов.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+3	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	секвенированием	секвенирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+5	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	проведенный	проведять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+8	японцами	японец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	выявил	выявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	ввыращиваемых	ввыращивать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+12	яйцеклетках	яйцеклетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+13	повышенную	повышать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+15	547генов	547ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5008
+# text = Выяснилось, что еевызывает ненормальная активация эстрогеновых рецепторов (она связана сработой сигнальных путей бета-эстрадиола, транскрипционного фактора SP1 ибета-катенина).
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	еевызывает	еевызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+5	ненормальная	ненормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	активация	активация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	эстрогеновых	эстрогеновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj:pass	_	_
+11	связана	вязать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+12	сработой	сработа	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl:agent	_	_
+13	сигнальных	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	бета-	бета-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	эстрадиола	эстрадиол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	транскрипционного	транскрипционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+20	SP1	SP1	NUM	_	_	21	nummod	_	_
+21	ибета-катенина	ибета-катенин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5009
+# text = Чтобы нормализовать рост фолликулов, ученые заблокировали эти рецепторы искусственным антагонистом (ICI 182780), добавляя его впитательную среду клеток.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+2	нормализовать	нормализовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	_
+3	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	фолликулов	фолликул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	заблокировали	заблокировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	эти	этот	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	рецепторы	рецептор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	искусственным	искусственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	антагонистом	антагонист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ICI	Ici	NUM	_	_	14	nummod	_	_
+14	182780	182780	NUM	_	_	11	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	добавляя	добавлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
+19	впитательную	впитательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+21	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# newpar
+# sent_id = 5010
+# text = На17день вторичные фолликулы ссозревающими яйцеклетками перенесли наизолированные среды сдобавлением фолликулостимулирующего гормона (для нормального развития) иполивинилпирролидона (для поддержания целостности клеточных комплексов).
+1	На17день	На17день	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	вторичные	вторичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	фолликулы	фолликул	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	ссозревающими	ссозревать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+5	яйцеклетками	яйцеклетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+6	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наизолированные	наизолировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	среды	сред	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	_
+9	сдобавлением	сдобавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+10	фолликулостимулирующего	фолликулостимулирующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	гормона	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	для	для	ADP	_	_	15	case	_	_
+14	нормального	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	иполивинилпирролидона	иполивинилпирролидон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	для	для	ADP	_	_	20	case	_	_
+20	поддержания	поддержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	_
+21	целостности	целостность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	клеточных	клеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	комплексов	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5011
+# text = К 26дню вфолликулах появились популяции стероидогенных клеток, синтезирующих половые гормоны, как эстрогенового, так игестагенного ряда.
+1	К	к	ADP	_	_	2	case	_	_
+2	26дню	26день	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+3	вфолликулах	вфолликул	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+4	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	популяции	популяция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	стероидогенных	стероидогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	синтезирующих	синтезируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	половые	половой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	эстрогенового	эстрогеновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	0	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	так	так	ADV	_	Degree=Pos	18	advmod	_	_
+17	игестагенного	игестагенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 5012
+# text = С29по33день культивации в яйцеклетках спомощью гонадотропинов иэпидермального фактора роста индуцировали второе деление мейоза, приводящее кформированию полноценных яйцеклеток.
+1	С29по33день	С29по33день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	культивации	культивация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	яйцеклетках	яйцеклетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+5	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+6	гонадотропинов	гонадотропин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	иэпидермального	иэпидермальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	индуцировали	индуцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	второе	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	деление	деление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	мейоза	мейоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	приводящее	приводить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+16	кформированию	кформирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+17	полноценных	полноценный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	яйцеклеток	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5013
+# text = Около половины полученных клеток удалось успешно оплодотворить invitro.
+1	Около	около	ADP	_	_	2	case	_	_
+2	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	успешно	успешно	ADV	_	Degree=Pos	7	advmod	_	_
+7	оплодотворить	оплодотворять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	invitro	invitro	PROPN	_	Animacy=Inan|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5014
+# text = Спустя сутки эмбрионы, достигшие стадии двух клеток, перенесли для вынашивания самкам мышей.
+1	Спустя	спустя	ADP	_	_	2	case	_	_
+2	сутки	сутки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
+3	эмбрионы	эмбриона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	достигшие	достигать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+6	стадии	стадия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	двух	два	NUM	_	Case=Gen	8	nummod	_	_
+8	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	вынашивания	вынашивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	самкам	самка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	_
+14	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5015
+# text = От14до40процентов эмбрионов развились вздоровых мышат, ничем неотличающихся отзачатых естественным путем.
+1	От14до40процентов	От14до40процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	развились	разваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	вздоровых	вздоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	мышат	мышонок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ничем	ничто	PRON	_	Case=Ins	5	nsubj	_	_
+8	неотличающихся	неотличаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+9	отзачатых	отзачинать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	путем	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5016
+# text = Впометах было до семи животных, что соответствует нормальному показателю.
+1	Впометах	Впомет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	root	_	_
+2	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	до	до	ADP	_	_	5	case	_	_
+4	семи	семь	NUM	_	Case=Gen	5	nummod	_	_
+5	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	PRON	_	Case=Nom	8	nsubj	_	_
+8	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+9	нормальному	нормальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	показателю	показатель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar
+# sent_id = 5017
+# text = Целью эксперимента стало получение полноценной модели развития яйцеклетки для изучения этого процесса.
+1	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	получение	получение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	полноценной	полноценный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5018
+# text = Кроме того, вбудущем эта технология может помочь вразработке новых методов лечения женского бесплодия.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	вбудущем	вбудуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+5	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	вразработке	вразработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+10	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	женского	женский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	бесплодия	бесплодий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 5019
+# text = Вфеврале 2016 года китайские исследователи смогли вырастить "впробирке" мышиные сперматозоиды, подходящие для экстракорпорального оплодотворения.
+1	Вфеврале	Вфевраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	китайские	китайский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	вырастить	выращивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	впробирке	впробирка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	мышиные	мышиный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	сперматозоиды	сперматозоид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	подходящие	подходящие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	экстракорпорального	экстракорпоральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	оплодотворения	оплодотворение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5020
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5021

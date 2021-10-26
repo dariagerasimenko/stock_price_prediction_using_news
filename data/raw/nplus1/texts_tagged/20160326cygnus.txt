@@ -1,0 +1,235 @@
+# text = # newpar
+# sent_id = 3491
+# text = Экипаж МКС успешно захватил космический грузовой корабль Cygnus с помощью роботизированной руки Canadarm2.
+1	Экипаж	экипаж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	МКС	Мкс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	успешно	успешно	ADV	_	Degree=Pos	4	advmod	_	_
+4	захватил	захватывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	грузовой	грузовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	Cygnus	Cygnus	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	роботизированной	роботизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+13	Canadarm2	Canadarm2	NOUN	_	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3492
+# text = За управление рукой отвечал астронавт Тим Копра, ему ассистировал Тим Пик.
+1	За	за	ADP	_	_	2	case	_	_
+2	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	рукой	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+4	отвечал	отвечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	астронавт	астронавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	Тим	тот	DET	_	Case=Ins|Gender=Neut|Number=Sing	7	amod	_	_
+7	Копра	Копр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+10	ассистировал	ассистировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	Тим	Тий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Пик	пик	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3493
+# text = Стыковка состоялась в 13:51 по московскому времени итранслироваласьв прямом эфире.После захвата управление Canadarm-2 возьмет на себя центр управления полетами.
+1	Стыковка	Стыковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	состоялась	состояться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	13	13	NUM	_	_	5	nummod	_	SpaceAfter=No
+5	:51	:51	NOUN	_	_	2	obl	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+9	итранслироваласьв	итранслироваласьво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	прямом	прям	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+11	эфире.	эфирбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+12	После	после	ADP	_	_	13	case	_	_
+13	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+15	Canadarm	Canadarm	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	2	2	NUM	_	_	2	nummod	_	_
+18	возьмет	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	себя	себя	PRON	_	Case=Acc	18	obl	_	_
+21	центр	центр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+22	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	полетами	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3494
+# text = Через несколько часов Хьюстон передаст роботу команды для поворота и стыковки грузовика к модулю МКС "Юнити".
+1	Через	через	ADP	_	_	3	case	_	_
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	Хьюстон	Хьюстон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	передаст	передавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	роботу	робота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	стыковки	стыковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+12	грузовика	грузовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
+15	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Юнити	Юнити	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3495
+# text = Ожидается, что корабль будет пристыкован к МКС до мая, после чего экипаж отсоединит его от станции.
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	пристыкован	пристыковать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+9	до	до	ADP	_	_	10	case	_	_
+10	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	чего	что	PRON	_	Case=Gen	15	obl	_	_
+14	экипаж	экипаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	отсоединит	отсоединять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3496
+# text = Впоследствии Cygnus сгорит в плотных слоях атмосферы.Cygnus доставит на МКС оборудование для ряда научных экспериментов, в частности, для изучения химического состава метеоров, влетающих в атмосферу Земли.
+1	Впоследствии	впоследствии	ADV	_	Degree=Pos	3	advmod	_	_
+2	Cygnus	Cygnus	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сгорит	сгорать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	плотных	плотный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	слоях	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+7	атмосферы.Cygnus	атмосферы.Cygnus	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	доставит	доставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	МКС	МКс	PROPN	_	_	8	obl	_	_
+11	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+14	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	21	discourse	_	_
+18	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	fixed	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+22	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	метеоров	метеор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	влетающих	влетать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+29	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3497
+# text = Кроме того, на борту корабля находится 3D-принтер нового поколения и специальная установка Saffire-1 для имитации и изучения пожаров в условиях невесомости.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+6	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-принтер	-принтер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	специальная	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+15	Saffire-	Saffire-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	1	1	NUM	_	_	14	nummod	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	имитации	имитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	в	в	ADP	_	_	21	case	_	_
+23	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	nmod	_	_
+24	невесомости	невесомость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3498
+# text = Последняя будет задействована после того, как Cygnus окажется на безопасном расстоянии от станции.
+1	Последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	задействована	действовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	Cygnus	Cygnus	PROPN	_	Foreign=Yes	9	nsubj	_	_
+9	окажется	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	безопасном	безопасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3499
+# text = Общий вес полезного груза составляет около трех с половиной тонн.Корабль стартовал к МКС 23 марта с мыса Канаверал.
+1	Общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	вес	вес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	полезного	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	9	case	_	_
+7	трех	три	NUM	_	Case=Gen	9	nummod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	половиной	половина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+10	тонн.	тоннаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+11	Корабль	корабль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	стартовал	стартовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+15	23	23	NUM	_	_	12	nummod	_	_
+16	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	мыса	мыс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+19	Канаверал	Канаверать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3500
+# text = На орбиту его доставила ракета-носитель Atlas-V.
+1	На	на	ADP	_	_	2	case	_	_
+2	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+4	доставила	доставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ракета-	ракета-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	носитель	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	Atlas-V	Atlas-v	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3501
+# text = Это пятый успешный полет данного типа грузовых кораблей к МКС.Владимир Королёв
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	пятый	пятый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	успешный	успешный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	данного	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	МКС.	Мксяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+12	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+
+# newpar
+# sent_id = 3502

@@ -1,0 +1,431 @@
+# text = # newpar
+# sent_id = 1896
+# text = Астрономы из Университета Кембриджа разработали новый способ для определения расстояний до звезд.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Кембриджа	Кембридж	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	расстояний	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1897
+# text = Он основан на поиске среди больших выборок звезд "близнецов" -- светил с идентичными спектральными характеристиками.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	поиске	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	среди	среди	ADP	_	_	4	case	_	_
+6	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	выборок	выборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	близнецов	близнец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	--	--	PUNCT	_	_	10	punct	_	_
+13	светил	светять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	идентичными	идентичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+16	спектральными	спектральный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	характеристиками	характеристика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1898
+# text = Метод описанв новой статье в журнале Monthly Notices of the Royal Astronomical Society, а краткое его изложениеприводит сайт университета.
+1	Метод	метод	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	описанв	описанв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	новой	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	статье	статья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+7	Monthly	Monthly	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Notices	notices	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	of	of	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	the	the	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Royal	royal	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Astronomical	Astronomical	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Society	society	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	18	cc	_	_
+16	краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+18	изложениеприводит	изложениеприводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	сайт	сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1899
+# text = Авторы работы вложили в основу метода очень простую идею: если две звезды обладают абсолютно одинаковым строением и химическим составом, то и интенсивность их свечения должна быть схожей.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	вложили	вкладывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	очень	очень	ADV	_	Degree=Pos	8	advmod	_	_
+8	простую	простой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	идею	идея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	если	если	SCONJ	_	_	0	mark	_	_
+12	две	два	NUM	_	Case=Nom|Gender=Fem	13	nummod:gov	_	_
+13	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	обладают	обладить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
+15	абсолютно	абсолютно	ADV	_	Degree=Pos	16	advmod	_	_
+16	одинаковым	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	строением	строение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	химическим	химический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	то	то	SCONJ	_	_	14	cc	_	_
+23	и	и	PART	_	_	24	advmod	_	_
+24	интенсивность	интенсивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	26	nmod	_	_
+26	свечения	свечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	advcl	_	_
+28	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	cop	_	_
+29	схожей	схожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 1900
+# text = А значит разница в расстоянии до звезд должна напрямую сказываться на кажущейся яркости.
+1	А	а	CCONJ	_	_	2	cc	_	_
+2	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	_
+9	напрямую	напрямую	ADV	_	Degree=Pos	10	advmod	_	_
+10	сказываться	сказываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	dep	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	кажущейся	казаться	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	13	amod	_	_
+13	яркости	яркость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1901
+# text = Ученые проанализировали спектры высокого разрешения у 600 звезд и нашли 175 пар таких близнецов, причем в каждой паре расстояние до одного из светил было известно с высокой точностью.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	спектры	спектр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	у	у	ADP	_	_	8	case	_	_
+7	600	600	NUM	_	_	8	nummod	_	_
+8	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	175	175	NUM	_	_	12	nummod	_	_
+12	пар	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+13	таких	такой	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+14	близнецов	близнец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	причем	причем	CCONJ	_	_	24	cc	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	паре	пара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+20	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+21	до	до	ADP	_	_	22	case	_	_
+22	одного	один	NUM	_	Animacy=Anim|Case=Acc|Gender=Masc	24	nmod	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	светил	светать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+26	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	24	advmod	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 1902
+# text = На основе своего предположения авторы сделали оценку расстояний.
+1	На	на	ADP	_	_	2	case	_	_
+2	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	4	amod	_	_
+4	предположения	предположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	расстояний	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1903
+# text = Для сравнения спектров авторы выбирали 400 основных спектральных полос из доступных 280 тысяч.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	спектров	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	выбирали	выбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	400	400	NUM	_	_	9	nummod	_	_
+7	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	спектральных	спектральный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	полос	полос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+10	из	из	ADP	_	_	13	case	_	_
+11	доступных	доступный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	280	280	NUM	_	_	13	nummod	_	_
+13	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1904
+# text = Ученые сравнивают это с анализом фотографий людей --вместо сравнивания снимков по всем точкам, можно сравнивать конкретные детали, например, цвет глаз или форма лица.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнивают	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	анализом	анализ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+6	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	--вместо	--вместо	ADP	_	_	9	case	_	_
+9	сравнивания	сравнивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	всем	весь	DET	_	Case=Dat|Number=Plur	13	amod	_	_
+13	точкам	точка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	можно	можно	ADV	_	Degree=Pos	2	conj	_	_
+16	сравнивать	сравнивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	конкретные	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+23	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	conj	_	_
+26	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1905
+# text = Оказалось, что метод, предложенный астрономами, дает ошибку не более чем в 8 процентов, по сравнению с измерениями на основе годичного параллакса.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	предложенный	предлагать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	астрономами	астроном	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+10	ошибку	ошибка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	более	более	ADV	_	Degree=Cmp	14	advmod	_	_
+13	чем	чем	SCONJ	_	_	12	fixed	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	8	8	NUM	_	_	16	nummod	_	_
+16	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	по	по	ADP	_	_	21	case	_	_
+19	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	fixed	_	_
+20	с	с	ADP	_	_	19	fixed	_	_
+21	измерениями	измерение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	parataxis	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	годичного	годичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	параллакса	параллакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1906
+# text = "Это необыкновенно простая идея -- настолько простая, что трудно поверить, что никто не догадался до нее раньше" -- говорит Жофре Пфейл, один из авторов работы.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	необыкновенно	необыкновенне	ADV	_	Degree=Pos	4	advmod	_	_
+4	простая	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	настолько	настолько	ADV	_	Degree=Pos	8	advmod	_	_
+8	простая	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	acl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	advcl	_	_
+12	поверить	поверить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	никто	никто	PRON	_	Case=Nom	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	догадался	догадываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+18	до	до	ADP	_	_	19	case	_	_
+19	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	17	obl	_	_
+20	раньше	рано	ADV	_	Degree=Cmp	17	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	--	--	PUNCT	_	_	20	punct	_	_
+23	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+24	Жофре	Жофр	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+25	Пфейл	Пфейл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	один	один	NUM	_	Case=Nom|Gender=Masc	17	nummod:gov	_	_
+28	из	из	ADP	_	_	29	case	_	_
+29	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1907
+# text = Наиболее точным из известных методов измерения расстояний в астрономии является метод годичного параллакса.
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	точным	точный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+7	расстояний	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	астрономии	астрономия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	годичного	годичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	параллакса	параллакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1908
+# text = В этом методе ученые анализируют то, насколько смещаются звезды от своего изначального положения в результате смены точки обзора -- положения на земной орбите.
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	методе	метод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	анализируют	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	насколько	насколько	ADV	_	Degree=Pos	9	advmod	_	_
+9	смещаются	смещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl	_	_
+10	звезды	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+11	от	от	ADP	_	_	14	case	_	_
+12	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	14	amod	_	_
+13	изначального	изначальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+17	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+18	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	положения	положение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	земной	земной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1909
+# text = Чем ближе находится звезда, тем сильнее она смещается из-за движения нашей планеты.
+1	Чем	чем	SCONJ	_	_	3	cc	_	_
+2	ближе	близко	ADV	_	Degree=Cmp	3	advmod	_	_
+3	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	тем	тем	SCONJ	_	_	3	mark	_	_
+7	сильнее	сильный	ADJ	_	Degree=Cmp	9	advmod	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+9	смещается	смещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+10	из-за	из-за	ADP	_	_	11	case	_	_
+11	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1910
+# text = Кстати, с понятием параллакса связана единица измерения парсек.
+1	Кстати	кстати	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	понятием	понятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+5	параллакса	параллакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	единица	единица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+8	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	парсек	парська	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1911
+# text = Расстояние до звезды в один парсек означает, что при смещении точки обзора на одну астрономическую единицу (радиус орбиты Земли) звезда сместится на одну угловую секунду.
+1	Расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	до	до	ADP	_	_	3	case	_	_
+3	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	парсек	парсек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+7	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	смещении	смещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+12	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	на	на	ADP	_	_	17	case	_	_
+15	одну	один	NUM	_	Case=Acc|Gender=Fem	17	nummod:gov	_	_
+16	астрономическую	астрономический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	единицу	единица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	радиус	радиус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	parataxis	_	_
+20	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	сместится	смещаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+25	на	на	ADP	_	_	28	case	_	_
+26	одну	один	NUM	_	Case=Acc|Gender=Fem	28	nummod:gov	_	_
+27	угловую	угловый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1912
+# text = Другие методы измерения расстояний связаны с различными теоретическими моделями, предсказывающими интенсивность свечения звезды по спектру или каким-либо другим характеристикам.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	расстояний	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+8	теоретическими	теоретический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	моделями	модель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	предсказывающими	предсказывать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	интенсивность	интенсивность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	свечения	свечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	спектру	спектр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
+17	или	или	CCONJ	_	_	20	cc	_	_
+18	каким-либо	какой-либо	DET	_	Case=Dat|Number=Plur	20	amod	_	_
+19	другим	другий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	20	amod	_	_
+20	характеристикам	характеристика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1913
+# text = Хорошим примером являются цефеиды -- это переменные звезды, на основании периода колебаний яркости которых можно оценить их массу, а с ней и абсолютную звездную величину.
+1	Хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	цефеиды	цефеид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	переменные	перемать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	звезды	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+14	яркости	яркость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+16	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+17	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+18	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	19	nmod	_	_
+19	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	27	cc	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	27	nmod	_	_
+24	и	и	PART	_	_	27	advmod	_	_
+25	абсолютную	абсолютный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+26	звездную	звездный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	величину	величина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 1914

@@ -1,0 +1,274 @@
+# text = # newpar
+# sent_id = 2199
+# text = Американские компании Lockheed Martin и Kaman Aerospace провели испытания опционально пилотируемого синхроптера K-Max на тушение пожаров.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	appos	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	Kaman	Kaman	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	Aerospace	Aerospace	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	obj	_	_
+10	опционально	опционально	ADV	_	Degree=Pos	11	advmod	_	_
+11	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	синхроптера	синхроптнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	K-Max	K-Max	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	тушение	тушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+16	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2200
+# text = КаксообщаетFlightglobal, аппарат использовали для сброса воды на небольшие очаги возгорания.
+1	КаксообщаетFlightglobal	КаксообщаетFlightglobal	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	сброса	сбросо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	очаги	очаг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	_
+11	возгорания	возгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2201
+# text = На испытаниях присутствовали представители министерства внутренних дел и лесной инспекции США.В ходе испытаний Lockheed Martin использовала для поиска пожаров разведывательный квадрокоптер Indago.
+1	На	на	ADP	_	_	2	case	_	_
+2	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	_
+3	присутствовали	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	министерства	министерство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	лесной	лесной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	инспекции	инспекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	В	в	ADP	_	_	15	case	_	_
+14	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	obl	_	_
+16	Lockheed	Lockheed	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Martin	Martin	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	пожаров	пожары	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	разведывательный	разведывательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+24	Indago	Indago	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2202
+# text = Этот аппарат передал данные о найденных пожарах оператору K-Max, который отдал беспилотному синхроптеру команду на тушение.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	3	obj	_	_
+5	о	о	ADP	_	_	7	case	_	_
+6	найденных	находить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	пожарах	пожар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+8	оператору	оператор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	0	obl	_	_
+9	K-Max	K-Max	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	отдал	отдывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	беспилотному	беспилотный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	синхроптеру	синхроптер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+15	команду	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	тушение	тушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2203
+# text = K-Max в автономном режиме поднял емкость с водой, долетел до места пожара и сбросил на него воду.
+1	K-Max	K-Max	NUM	_	_	5	nummod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	автономном	автономный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	поднял	поднимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	емкость	емкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	долетел	долетать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	сбросил	сбрасывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+18	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2204
+# text = За один вылет беспилотник перевез 10,8 тонны воды в емкости на внешней подвеске.Американские ведомства с конца 2014 года проводят тендер на разработку беспилотной авиационной техники, которая была бы способна в автономном режиме тушить лесные пожары.В июне 2015 годастало известно, чтоKaman Aerospace с 2017 года возобновит производство синхроптеров типа K-Max.
+1	За	за	ADP	_	_	3	case	_	_
+2	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	3	nummod:gov	_	_
+3	вылет	вылет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	перевез	перевезать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	10,8	10,8	NUM	_	_	7	nummod	_	_
+7	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	емкости	емкость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	внешней	внешний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	obl	_	_
+13	подвеске.	подвескбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+14	Американские	Американский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	ведомства	ведомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+18	2014	2014	NUM	_	_	19	nummod	_	_
+19	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	тендер	тендер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+24	беспилотной	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	авиационной	авиационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которая	который	PRON	_	Case=Nom	31	nsubj	_	_
+29	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	cop	_	_
+30	бы	бы	PART	_	Mood=Cnd	31	aux	_	_
+31	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	26	acl:relcl	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	автономном	автономный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+35	тушить	тушить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	43	nsubj	_	_
+36	лесные	лесной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	пожары	пожар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	43	nsubj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	В	в	ADP	_	_	40	case	_	_
+40	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	43	nmod	_	_
+41	2015	2015	NUM	_	_	42	nummod	_	_
+42	годастало	годастало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj	_	_
+43	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	50	parataxis	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	чтоKaman	чтоKaman	PROPN	_	Foreign=Yes	50	nsubj	_	_
+46	Aerospace	Aerospace	PROPN	_	Foreign=Yes	45	flat:foreign	_	_
+47	с	с	ADP	_	_	49	case	_	_
+48	2017	2017	NUM	_	_	49	nummod	_	_
+49	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	_
+50	возобновит	возобновлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	31	conj	_	_
+51	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	50	obj	_	_
+52	синхроптеров	синхроптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	51	nmod	_	_
+53	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+54	K-Max	K-Max	PROPN	_	Foreign=Yes	53	flat:foreign	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 2205
+# text = Готовящаяся к открытию производственная линия будет задействована для серийного производства как пилотируемых, так и беспилотных версий вертолета.По данным Kaman Aerospace, компания уже получила заказы от двух компаний.K-Max при длине 15,8 и высоте 4,14 метра оснащен винтами диаметром 14,7 метра каждый.
+1	Готовящаяся	Готовиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+2	к	к	ADP	_	_	3	case	_	_
+3	открытию	открытие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	obl	_	_
+4	производственная	производственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	линия	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	задействована	действовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	серийного	серийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+11	как	как	SCONJ	_	_	12	mark	_	_
+12	пилотируемых	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	17	advmod	_	_
+15	и	и	PART	_	_	17	advmod	_	_
+16	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+18	вертолета.	вертолета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+19	По	по	ADP	_	_	20	case	_	_
+20	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	26	parataxis	_	_
+21	Kaman	Kaman	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Aerospace	Aerospace	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	уже	уже	ADV	_	Degree=Pos	26	advmod	_	_
+26	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+27	заказы	заказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obl	_	_
+28	от	от	ADP	_	_	27	case	_	_
+29	двух	два	NUM	_	Case=Gen	30	nummod	_	_
+30	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	K-Max	K-Max	PUNCT	_	_	30	punct	_	_
+33	при	при	ADP	_	_	34	case	_	_
+34	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+35	15,8	15,8	NUM	_	_	34	nummod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	conj	_	_
+38	4,14	4,14	NUM	_	_	39	nummod	_	_
+39	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+40	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	conj	_	_
+41	винтами	винт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	40	obl	_	_
+42	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	41	nmod	_	_
+43	14,7	14,7	NUM	_	_	44	nummod	_	_
+44	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+45	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 2206
+# text = Максимальная взлетная масса аппарата составляет 5,4 тонны.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	5,4	5,4	NUM	_	_	7	nummod	_	_
+7	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2207
+# text = Синхроптер может развивать скорость до 185 километров в час и выполнять полеты на расстояние до 500 километров.
+1	Синхроптер	Синхроптер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	185	185	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	500	500	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2208
+# text = В настоящее время на базе K-Max создается грузовой беспилотник, испытания которого Морская пехота США проводила в Афганистане с 2011 года.Василий Сычёв
+1	В	в	ADP	_	_	7	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+6	K-Max	K-Max	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	создается	создаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	грузовой	грузовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	14	nmod	_	_
+16	проводила	проводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Афганистане	афганистан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	2011	2011	NUM	_	_	21	nummod	_	_
+21	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+22	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	_
+
+# newpar
+# sent_id = 2209

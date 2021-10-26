@@ -1,0 +1,171 @@
+# text = # newpar
+# sent_id = 2314
+# text = Исследователи Университета штата Северная Каролина (NCSU) и Массачусетского технологического института (MIT) разработали тонкую мембрану из латексного каучука, которая позволит значительно снизить уровень шума в салоне летящего вертолета или самолета.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+2	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Северная	Северной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Каролина	Каролина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	NCSU	Ncsu	PROPN	_	Foreign=Yes	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	MIT	mit	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	тонкую	тонкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	мембрану	мембрана	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	из	из	ADP	_	_	21	case	_	_
+20	латексного	латексный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	каучука	каучук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которая	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	значительно	значительно	ADV	_	Degree=Pos	26	advmod	_	_
+26	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+27	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	шума	шум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	салоне	салон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	_
+31	летящего	летить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	или	или	CCONJ	_	_	34	cc	_	_
+34	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2315
+# text = Доклад об их исследованииопубликованна сайте журнала Applied Physics Letters.Сама мембрана может наноситься в один или несколько слоев на внутреннюю или внешнюю сторону композиционных сэндвич-панелей с наполнителем из сотового метаматериала.
+1	Доклад	доклад	ADV	_	Degree=Pos	4	advmod	_	_
+2	об	о	ADP	_	_	4	case	_	_
+3	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+4	исследованииопубликованна	исследованииопубликованный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+6	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Applied	Applied	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Physics	Physics	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Letters	Letters	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	мембрана	мембрана	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+14	наноситься	наносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	xcomp	_	_
+15	в	в	ADP	_	_	19	case	_	_
+16	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	19	nummod:gov	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	conj	_	_
+19	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+20	на	на	ADP	_	_	24	case	_	_
+21	внутреннюю	внутренний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	внешнюю	внешний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	_
+24	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
+25	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	сэндвич-панелей	сэндвич-панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	наполнителем	наполнитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+29	из	из	ADP	_	_	31	case	_	_
+30	сотового	сотовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	метаматериала	метаматериал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2316
+# text = Такие панели обладают достаточно высокой прочностью и малой массой.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	панели	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	достаточно	достаточно	ADV	_	Degree=Pos	5	advmod	_	_
+5	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	прочностью	прочность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	малой	малый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2317
+# text = В авиации они используются в качестве внутренней обшивки стен, пола и потолка в салоне самолета.По данным NCSU и MIT, сам по себе сотовый метаматериал плохо заглушает низкочастотный шум, исходящий от работающих двигателей.
+1	В	в	ADP	_	_	2	case	_	_
+2	авиации	авиация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj:pass	_	_
+4	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	внутренней	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	обшивки	обшивка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	стен	стена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	потолка	потолок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	салоне	салон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+16	самолета.	самолетаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	По	по	ADP	_	_	18	case	_	_
+18	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	29	parataxis	_	_
+19	NCSU	Ncsu	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	MIT	mit	PROPN	_	Foreign=Yes	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	себе	себя	PRON	_	Case=Dat	23	nmod	_	_
+26	сотовый	сотовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	метаматериал	метаматериал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+28	плохо	плохо	ADV	_	Degree=Pos	29	advmod	_	_
+29	заглушает	заглушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	низкочастотный	низкочастотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	шум	шум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	исходящий	исходить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	31	amod	_	_
+34	от	от	ADP	_	_	36	case	_	_
+35	работающих	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	36	amod	_	_
+36	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 2318
+# text = При этом шум определенной частоты может им даже усиливаться из-за явления резонанса, возникающего в сотах.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	шум	шум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	определенной	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	6	obl	_	_
+8	даже	даже	PART	_	_	9	advmod	_	_
+9	усиливаться	усиливаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+10	из-за	из-за	ADP	_	_	11	case	_	_
+11	явления	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	резонанса	резонанс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	возникающего	возникать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	сотах	сот	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2319
+# text = В ходе экспериментов выяснилось, что сотовый метаматериал на арамидной основе снижает интенсивность шума всего на 0,2 децибелла.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	экспериментов	эксперименты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	сотовый	сотовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	метаматериал	метаматериал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	арамидной	арамидный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+12	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+13	интенсивность	интенсивность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	шума	шум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	всего	всего	PART	_	_	18	advmod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	0,2	0,2	NUM	_	_	18	nummod	_	_
+18	децибелла	децибелл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 2320

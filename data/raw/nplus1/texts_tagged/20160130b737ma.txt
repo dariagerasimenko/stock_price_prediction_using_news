@@ -1,0 +1,363 @@
+# text = # newpar
+# sent_id = 5921
+# text = Пассажирский самолет Boeing 737 нового поколения 30 января 2016 года совершил первый полет.
+1	Пассажирский	пассажирский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	737	737	NUM	_	_	3	nummod	_	_
+5	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+7	30	30	NUM	_	_	6	nummod	_	_
+8	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	2016	2016	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5922
+# text = Согласносообщениюамериканского авиастроительного концерна Boeing, самолет B737 MAX 8 провел в воздухе два часа и 47 минут.
+1	Согласносообщениюамериканского	Согласносообщениюамериканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	авиастроительного	авиастроительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	концерна	концерно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+4	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	B737	B737	NUM	_	_	8	nummod	_	_
+8	MAX	Max	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	8	8	NUM	_	_	8	nummod	_	_
+10	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	два	два	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	47	47	NUM	_	_	17	nummod	_	_
+17	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5923
+# text = Испытания лайнера состоялись на аэродроме в Рентоне штата Вашингтон.В ходе первого полета самолет поднялся на высоту 7,6 тысячи метров и развил скорость в 250 узлов (463 километра в час).
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	состоялись	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	аэродроме	аэродром	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Рентоне	Рентон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Вашингтон	вашингтон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	ADP	_	_	14	case	_	_
+12	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	_
+13	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+15	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	поднялся	подниматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+19	7,6	7,6	NUM	_	_	20	nummod	_	_
+20	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nummod:gov	_	_
+21	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	развил	развивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	250	250	NUM	_	_	27	nummod	_	_
+27	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	463	463	NUM	_	_	30	nummod	_	_
+30	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	parataxis	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5924
+# text = В воздухе летчики-испытатели проверяли работу бортовых систем B737 MAX 8 и поведение самолета.
+1	В	в	ADP	_	_	2	case	_	_
+2	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	испытатели	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	appos	_	_
+6	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	бортовых	бортовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	B737	B737	NUM	_	_	9	nummod	_	_
+11	MAX	Max	PUNCT	_	_	10	punct	_	_
+12	8	8	NUM	_	_	10	nummod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+15	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5925
+# text = На всем протяжении полета с борта лайнера велась трансляция телеметрических данных.
+1	На	на	ADP	_	_	3	case	_	_
+2	всем	весь	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+4	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	борта	борт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	велась	вестись	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	трансляция	трансляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	телеметрических	телеметрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5926
+# text = Первый полет самолета признали успешным.Сборка лайнера, совершившего первый полет,завершиласьв ноябре прошлого года, а выкатку лайнера произвели 8 декабря.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	признали	призонять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	успешным.	успешнымя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+6	Сборка	Сборк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	лайнера	лайнер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	совершившего	совершить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+10	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,завершиласьв	,завершиласьво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	ноябре	ноябра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+14	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	20	cc	_	_
+18	выкатку	выкатка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+19	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	произвели	производить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+21	8	8	NUM	_	_	20	nummod	_	_
+22	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5927
+# text = Первый B737 MAX 8 получил имя Spirit of Renton ("Дух Рентона").
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	B737	B737	NUM	_	_	3	nummod	_	_
+3	MAX	Max	PROPN	_	Foreign=Yes	5	nsubj	_	_
+4	8	8	NUM	_	_	3	nummod	_	_
+5	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	Spirit	Spirit	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Renton	Renton	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Дух	дух	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	_
+13	Рентона	Рентон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5928
+# text = В настоящее время на предприятии Boeing завершается сборка второго и третьего самолетов MAX 8.
+1	В	в	ADP	_	_	7	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	предприятии	предприятие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+6	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+7	завершается	завершаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	третьего	третий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
+12	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+13	MAX	Max	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	8	8	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5929
+# text = Все три лайнера будут переданы авиакомпании Southwest Airlines в третьем квартале 2017 года.Помимо B737 MAX 8 концерн Boeing будет выпускать лайнеры MAX 7, MAX 200 и MAX 9, отличающиеся пассажировместимостью.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	три	три	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	переданы	передавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	Southwest	Southwest	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Airlines	airlines	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	третьем	третий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	квартале	квартал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+12	2017	2017	NUM	_	_	13	nummod	_	_
+13	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	Помимо	Помимо	ADP	_	_	18	case	_	_
+15	B737	B737	NUM	_	_	18	nummod	_	_
+16	MAX	Max	PUNCT	_	_	15	punct	_	_
+17	8	8	NUM	_	_	15	nummod	_	_
+18	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
+19	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+21	выпускать	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+22	лайнеры	лайнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	MAX	Max	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	7	7	NUM	_	_	23	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	MAX	Max	NUM	_	_	29	conj	_	_
+27	200	200	NUM	_	_	26	nummod	_	_
+28	и	и	CCONJ	_	_	26	cc	_	_
+29	MAX	Max	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+30	9	9	NUM	_	_	29	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	отличающиеся	отличаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	33	amod	_	_
+33	пассажировместимостью	пассажировместимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5930
+# text = В общей сложности концерн получил заказы почти на три тысячи лайнеров B737 нового поколения.Новое поколение семейства B737, впервые представленного в 1967 году, отличается от предыдущего на 20 процентов меньшим потреблением топлива.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	заказы	заказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	почти	почти	ADV	_	Degree=Pos	10	advmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	три	три	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+10	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+11	лайнеров	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	B737	B737	NUM	_	_	14	nummod	_	_
+13	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	поколение	поколение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+18	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	B737	B737	NUM	_	_	18	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	впервые	впервые	ADV	_	Degree=Pos	22	advmod	_	_
+22	представленного	представлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	1967	1967	NUM	_	_	25	nummod	_	_
+25	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+28	от	от	ADP	_	_	34	case	_	_
+29	предыдущего	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	20	20	NUM	_	_	32	nummod	_	_
+32	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+33	меньшим	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	потреблением	потребление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+35	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 5931
+# text = На самолеты будут устанавливаться новые турбовентиляторные двигатели LEAP-1B компании CFM International с меньшим удельным расходом топлива.
+1	На	на	ADP	_	_	2	case	_	_
+2	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	устанавливаться	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	турбовентиляторные	турбовентиляторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+8	LEAP	Leap	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	1B	1b	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	CFM	Cfm	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	International	international	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	меньшим	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	удельным	удельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	расходом	расход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+18	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5932
+# text = Добиться большей экономичности позволили и V-образные законцовки крыла.Максимальная взлетная масса B737 MAX 8 составляет 82,2 тонны при длине 39,5 метра и размахе крыла 35,9 метра.
+1	Добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+2	большей	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	экономичности	экономичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+4	позволили	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	V-образные	V-образный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	законцовки	законцовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+8	крыла.	крыла.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	Максимальная	Максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+12	B737	B737	NUM	_	_	11	nummod	_	_
+13	MAX	Max	PUNCT	_	_	12	punct	_	_
+14	8	8	NUM	_	_	11	nummod	_	_
+15	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	82,2	82,2	NUM	_	_	17	nummod	_	_
+17	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+18	при	при	ADP	_	_	19	case	_	_
+19	длине	длин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+20	39,5	39,5	NUM	_	_	21	nummod	_	_
+21	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	размахе	размаха	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	conj	_	_
+24	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	35,9	35,9	NUM	_	_	26	nummod	_	_
+26	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5933
+# text = Самолет сможет развивать скорость до 842 километров в час и перевозить пассажиров на расстояние до 6,7 тысячи километров.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	842	842	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	перевозить	перевозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	6,7	6,7	NUM	_	_	17	nummod	_	_
+17	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nummod:gov	_	_
+18	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5934
+# text = В зависимости от версии лайнеры семейства MAX смогут перевозить от 140 до 220 пассажиров.Сегодня семейство лайнеров B737 насчитывает уже четыре поколения: B737, B737 Classic, B737 NG и B737 MAX.Василий Сычёв
+1	В	в	ADP	_	_	2	case	_	_
+2	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+3	от	от	ADP	_	_	4	case	_	_
+4	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	лайнеры	лайнер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	MAX	Max	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	перевозить	переваживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	140	140	NUM	_	_	9	nummod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	220	220	NUM	_	_	14	nummod	_	_
+14	пассажиров.	пассажировек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	Сегодня	сегодня	ADV	_	Degree=Pos	19	advmod	_	_
+16	семейство	семейство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+17	лайнеров	лайнер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	B737	B737	NUM	_	_	16	nummod	_	_
+19	насчитывает	насчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+20	уже	уже	ADV	_	Degree=Pos	21	advmod	_	_
+21	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	22	nummod:gov	_	_
+22	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	22	punct	_	_
+24	B737	B737	NUM	_	_	34	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	B737	B737	NUM	_	_	27	nummod	_	_
+27	Classic	Classic	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	B737	B737	NUM	_	_	34	nummod	_	_
+30	NG	NG	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	B737	b737	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	conj	_	_
+33	MAX.	Max.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	SpaceAfter=No
+34	Василий	Василие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	parataxis	_	_
+35	Сычёв	сычёво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	nmod	_	_
+
+# newpar
+# sent_id = 5935

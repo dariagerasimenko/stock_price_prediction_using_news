@@ -1,0 +1,374 @@
+# text = # newpar
+# sent_id = 1117
+# text = Исследователи из Иллинойсского университета в Урбане-Шампейне приступили к разработке алгоритма, который в перспективе позволит роботам предугадывать намерения людей.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Иллинойсского	Иллинойсский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Урбане-Шампейне	Урбане-Шампейн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	приступили	приступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	разработке	разработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+15	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+16	роботам	робот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+17	предугадывать	предугадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	намерения	намерение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+19	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1118
+# text = КаксообщаетDefense One, новый алгоритм потенциально будет использоваться во многих системах: автомобилях с автоматической системой управления, экзоскелетах, самолетах или патрульных роботах, которые научатся предугадывать, намерен ли человек выстрелить из пистолета или направить машину на ограждение.Предварительная версия алгоритма уже существует.
+1	КаксообщаетDefense	КаксообщаетDefense	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+2	One	One	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	потенциально	потенциально	ADV	_	Degree=Pos	8	advmod	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+9	во	в	ADP	_	_	11	case	_	_
+10	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	автомобилях	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	автоматической	автоматический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	экзоскелетах	экзоскелет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	conj	_	_
+22	или	или	CCONJ	_	_	24	cc	_	_
+23	патрульных	патрульный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	роботах	робот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	которые	который	PRON	_	Case=Nom	27	nsubj	_	_
+27	научатся	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
+28	предугадывать	предугадывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	намерен	намерен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	parataxis	_	_
+31	ли	ли	PART	_	_	30	advmod	_	_
+32	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+33	выстрелить	выстреливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	45	nsubj	_	_
+34	из	из	ADP	_	_	35	case	_	_
+35	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
+36	или	или	CCONJ	_	_	37	cc	_	_
+37	направить	направлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	40	conj	_	_
+38	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	ограждение.	огражденибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	conj	_	SpaceAfter=No
+41	Предварительная	предварительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+43	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	уже	уже	ADV	_	Degree=Pos	45	advmod	_	_
+45	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 1119
+# text = Для ее проверки ученые воспользовались помощью восьми добровольцев: пяти мужчин и трех женщин в возрасте от 24 до 30 лет.
+1	Для	для	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	воспользовались	пользоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	восьми	восемь	NUM	_	Case=Gen	8	nummod	_	_
+8	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	пяти	пять	NUM	_	Case=Gen	11	nummod:gov	_	_
+11	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	трех	три	NUM	_	Case=Gen	14	nummod	_	_
+14	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	24	24	NUM	_	_	16	nummod	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	30	30	NUM	_	_	21	nummod	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1120
+# text = Добровольцам дали джойстик, которым они должны были совершать различные движения.
+1	Добровольцам	доброволец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+2	дали	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	джойстик	джойстик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которым	который	PRON	_	Case=Dat	7	nmod	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	acl:relcl	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+9	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+10	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1121
+# text = Задание выполнялось в различных условиях, включая и ограничение возможностей для нормального движения.
+1	Задание	задание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	выполнялось	выполнять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	включая	включая	ADV	_	Degree=Pos	2	parataxis	_	_
+8	и	и	PART	_	_	9	advmod	_	_
+9	ограничение	ограничение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	нормального	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1122
+# text = В ходе испытаний выяснилось, что алгоритм способен прогнозировать движение человека в течение нескольких десятых долей секунды, после его начала.По словам разработчиков, в нынешнем виде алгоритм не предсказывает намерения человека.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	advcl	_	_
+9	прогнозировать	прогнозировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	в	в	ADP	_	_	16	case	_	_
+13	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	16	nummod	_	_
+15	десятых	десятый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	долей	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+17	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	после	после	ADP	_	_	21	case	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+21	начала.	начала.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+22	По	по	ADP	_	_	23	case	_	_
+23	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	31	parataxis	_	_
+24	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	нынешнем	нынешний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+29	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	предсказывает	предсказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+32	намерения	намерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	obl	_	_
+33	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1123
+# text = Но он способен спрогнозировать траекторию, по которой будет двигаться человек или его конечность практически сразу после начала движения.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	спрогнозировать	прогнозировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	которой	который	PRON	_	Case=Dat	10	obl	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	acl:relcl	_	_
+11	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	или	или	CCONJ	_	_	14	cc	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	конечность	конечность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+15	практически	практически	ADV	_	Degree=Pos	16	advmod	_	_
+16	сразу	сразу	ADV	_	Degree=Pos	18	advmod	_	_
+17	после	после	ADP	_	_	18	case	_	_
+18	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+19	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1124
+# text = Такие возможности алгоритма в перспективе позволят доработать его, чтобы предугадывать намерения человека.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	возможности	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+6	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	доработать	дорабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+11	предугадывать	предугадывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+12	намерения	намерение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+13	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1125
+# text = Статистика в этом случае не работает.
+1	Статистика	статистика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	4	amod	_	_
+4	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1126
+# text = Во время экспериментов выяснилось, что добровольцы изменяли намерения в среднем спустя 150 миллисекунд после того, как во время их движения возникало для него какое-либо препятствие.Потенциально новый алгоритм позволит роботам быть быстрее людей в ходе перестрелки.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	экспериментов	эксперименты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	добровольцы	доброволец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	изменяли	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	намерения	намерение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	спустя	спустя	ADP	_	_	14	case	_	_
+13	150	150	NUM	_	_	14	nummod	_	_
+14	миллисекунд	миллисекунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+15	после	после	ADP	_	_	16	case	_	_
+16	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	как	как	SCONJ	_	_	16	mark	_	_
+19	во	во	ADP	_	_	22	case	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+23	возникало	возникать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	_
+24	для	для	ADP	_	_	25	case	_	_
+25	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+26	какое-либо	какой-либо	DET	_	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+27	препятствие.	препятствибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	SpaceAfter=No
+28	Потенциально	потенциально	ADV	_	Degree=Pos	29	advmod	_	_
+29	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+31	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	23	conj	_	_
+32	роботам	робот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	31	obl	_	_
+33	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	cop	_	_
+34	быстрее	быстро	ADV	_	Degree=Cmp	31	advmod	_	_
+35	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	fixed	_	_
+38	перестрелки	перестрелка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 1127
+# text = Он же позволит автоматическим систем управления "перехватывать" штурвал самолета, если летчик совершит какое-либо опасное действие.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	автоматическим	автоматический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	перехватывать	перехватывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	штурвал	штурвал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	если	если	SCONJ	_	_	3	mark	_	_
+14	летчик	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	совершит	совершить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	какое-либо	какой-либо	DET	_	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	_
+17	опасное	опасной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1128
+# text = Перспективным алгоритмом уже заинтересовалось Агентство перспективных исследовательских проектов Пентагона, которое занимается реализацией проекта по созданию роботизированного ассистента пилота.Наконец, как отмечает Defense One, алгоритм позволит значительно улучшить возможности современных беспилотных автомобилей.
+1	Перспективным	перспективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	алгоритмом	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	заинтересовалось	заинтересовываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	исследовательских	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	проектов	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	Пентагона	пентагон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которое	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+13	реализацией	реализация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+14	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	созданию	создание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+17	роботизированного	роботизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	ассистента	ассистент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	пилота.	пилота.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+20	Наконец	наконец	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	как	как	SCONJ	_	_	28	mark	_	_
+23	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	_
+24	Defense	Defense	PROPN	_	Foreign=Yes	23	nsubj	_	_
+25	One	One	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	_
+29	значительно	значительно	ADV	_	Degree=Pos	30	advmod	_	_
+30	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+31	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	30	obj	_	_
+32	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+33	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 1129
+# text = Например, такие машины перестанут впадать в ступор, оказавшись на равнозначном перекрестке, к которому со всех сторон приближаются другие машины.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	такие	такой	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	перестанут	переставать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	впадать	впадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	ступор	ступор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	оказавшись	оказываться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	5	advcl	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	равнозначном	равнозначный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	перекрестке	перекресток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	которому	который	PRON	_	Case=Dat	20	obl	_	_
+17	со	с	ADP	_	_	19	case	_	_
+18	всех	весь	DET	_	Case=Gen|Number=Plur	19	amod	_	_
+19	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	_
+20	приближаются	приближаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+21	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1130
+# text = Человеку-водителю на таком перекрестке, как правило, не составляет труда определить, кто из участников движения может продолжить ехать.Василий Сычёв
+1	Человеку-	человеку-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No
+2	водителю	водитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	таком	такой	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	_
+5	перекрестке	перекресток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	8	cc	_	_
+8	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	труда	труд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+13	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	кто	кто	PRON	_	Case=Nom	19	nsubj	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	ехать	ехать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+24	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_
+
+# newpar
+# sent_id = 1131

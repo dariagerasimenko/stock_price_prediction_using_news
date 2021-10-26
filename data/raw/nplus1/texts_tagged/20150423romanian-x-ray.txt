@@ -1,0 +1,171 @@
+# text = # newpar
+# sent_id = 2010
+# text = Румынская компания MB Telecom представила сканер, способный просканировать небольшой самолет целиком и обнаружить контрабанду, оружие и взрывчатые вещества, сообщает Daily Mail.
+1	Румынская	Румынский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	MB	Mb	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Telecom	Telecom	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	сканер	сканнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	способный	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+9	просканировать	сканировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	небольшой	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	целиком	целиком	ADV	_	Degree=Pos	5	advmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+15	контрабанду	контрабанда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	conj	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	взрывчатые	взрывчатый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+23	Daily	daily	PROPN	_	Foreign=Yes	22	nsubj	_	_
+24	Mail	mail	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2011
+# text = Пассажиры и их багаж в аэропортах тщательно досматриваются, в то время как перевозимый частными самолетами груз контролируется слабо, чем и пользуются контрабандисты по всему миру.Комплекс под названием Roboscan 2M Aeria представляет из себя рентгеновский сканер, установленный на роботизированный манипулятор.
+1	Пассажиры	пассажир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+2	и	и	CCONJ	_	_	4	cc	_	_
+3	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+4	багаж	багажа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	conj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	аэропортах	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+7	тщательно	тщательно	ADV	_	Degree=Pos	8	advmod	_	_
+8	досматриваются	досматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	14	advmod	_	_
+11	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	как	как	SCONJ	_	_	12	fixed	_	_
+14	перевозимый	перевозить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	_
+15	частными	частный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
+17	груз	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+18	контролируется	контролирувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+19	слабо	слабо	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	23	cc	_	_
+22	и	и	PART	_	_	23	advmod	_	_
+23	пользуются	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	advmod	_	_
+24	контрабандисты	контрабандист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+25	по	по	ADP	_	_	27	case	_	_
+26	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	27	amod	_	_
+27	миру.	миру.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	Комплекс	комплекс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	_
+29	под	под	ADP	_	_	30	case	_	_
+30	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	obl	_	_
+31	Roboscan	Roboscan	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	2M	2m	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	Aeria	Aeria	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+35	из	из	ADP	_	_	36	case	_	_
+36	себя	себя	PRON	_	Case=Gen	34	obl	_	_
+37	рентгеновский	рентгеновский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	сканер	сканнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	установленный	устанавливать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+41	на	на	ADP	_	_	43	case	_	_
+42	роботизированный	роботизированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 2012
+# text = После приведения манипулятора в рабочее положение специальные движущиеся площадки проводят самолет через конус рентгеновских лучей.
+1	После	после	ADP	_	_	2	case	_	_
+2	приведения	приведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+3	манипулятора	манипулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	рабочее	рабочий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
+7	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+8	движущиеся	движущиеся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	площадки	площадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+12	через	через	ADP	_	_	11	case	_	_
+13	конус	конус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	рентгеновских	рентгеновской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	лучей	луч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2013
+# text = Оператор за пультом управления сразу видит результаты сканирования самолета и может вручную отследить опасный груз.
+1	Оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	пультом	пульт	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	сразу	сразу	ADV	_	Degree=Pos	6	advmod	_	_
+6	видит	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	сканирования	сканирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	вручную	вручную	ADV	_	Degree=Pos	13	advmod	_	_
+13	отследить	отслеживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	опасный	опасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	груз	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2014
+# text = Также комплекс способен обнаруживать оружие и взрывчатку в автоматическом режиме.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	обнаруживать	обнаруживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	взрывчатку	взрывчатка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2015
+# text = Подобный комплекс уже используется пограничниками в странах Восточной Европы для проверки грузовиков.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	пограничниками	пограничник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+8	Восточной	восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Европы	европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+12	грузовиков	грузовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2016
+# text = С его помощью в марте 2015 года на польско-литовской границе был обнаружен тайник с контрабандой, вмурованный в бетонную опору моста.
+1	С	с	ADP	_	_	5	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	марте	март	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+6	2015	2015	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	польско-литовской	польско-литовский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	границе	граница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	обнаружен	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	тайник	тайник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	контрабандой	контрабанда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	вмурованный	вмуровать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	бетонную	бетонный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	опору	опора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+21	моста	мост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# newpar
+# sent_id = 2017

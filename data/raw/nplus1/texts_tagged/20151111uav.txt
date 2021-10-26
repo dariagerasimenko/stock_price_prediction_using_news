@@ -1,0 +1,206 @@
+# text = # newpar
+# sent_id = 320
+# text = Американская компания Aera-I по заказу NASA построила беспилотный летательный аппарат Ptera, сообщаетAviation Week.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	Aera-I	Aera-i	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	заказу	заказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	построила	строить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	Ptera	Ptera	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сообщаетAviation	сообщаетAviation	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	Week	Week	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 321
+# text = За основу для нового аппарата взяли компоновку пассажирского самолета Boeing 737; фактически, Ptera представляет собой уменьшенную почти в десять раз копию лайнера.
+1	За	за	ADP	_	_	2	case	_	_
+2	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	взяли	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	компоновку	компоновка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	пассажирского	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+11	737	737	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	11	punct	_	_
+13	фактически	фактически	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Ptera	Ptera	PROPN	_	Foreign=Yes	16	nsubj	_	_
+16	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+17	собой	себя	PRON	_	Case=Ins	16	obl	_	_
+18	уменьшенную	уменьшеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+19	почти	почти	ADV	_	Degree=Pos	18	advmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	десять	десять	NUM	_	Case=Acc	22	nummod:gov	_	_
+22	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+23	копию	копия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+24	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 322
+# text = Беспилотник планируется использовать для испытаний различных новых систем.Масса первого экземпляра Ptera составляет 90,7 килограмма, а размах крыла -- 3,4 метра.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	_
+6	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	систем.	системаница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	Масса	Масс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	экземпляра	экземпляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Ptera	Ptera	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	90,7	90,7	NUM	_	_	15	nummod	_	_
+15	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	18	cc	_	_
+18	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+19	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	3,4	3,4	NUM	_	_	0	nummod	_	_
+22	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 323
+# text = Аппараты оснащены двумя реактивными двигателями.
+1	Аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	оснащены	оснащивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	двумя	два	NUM	_	Case=Ins	5	nummod	_	_
+4	реактивными	реактивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 324
+# text = Первый полет опытового беспилотника состоялся 22 октября 2015 года.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	опытового	опытовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	22	22	NUM	_	_	5	nummod	_	_
+7	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	2015	2015	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 325
+# text = Во время испытаний аппарат развил скорость в 145 узлов (около 269 километров в час).
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	развил	развивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	145	145	NUM	_	_	9	nummod	_	_
+9	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	около	около	ADP	_	_	13	case	_	_
+12	269	269	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	parataxis	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 326
+# text = Этот беспилотник будут использовать для испытания новых систем управления самолетами.Ptera, разработанный на основе B737, оснащен радиоуправлением и автопилотом Piccolo.Помимо Ptera на базе B737 компания Area-I построила беспилотник, за основу для которого был взят бизнес-джет Bomberdier CRJ700.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	самолетами.Ptera	самолетами.Ptera	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	nsubj:pass	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	B737	B737	NUM	_	_	14	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+18	радиоуправлением	радиоуправление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	автопилотом	автопилот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	conj	_	_
+21	Piccolo.	Piccolo.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+22	Помимо	Помимо	ADP	_	_	23	case	_	_
+23	Ptera	Ptera	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+26	B737	B737	NUM	_	_	27	nummod	_	_
+27	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+28	Area-I	Area-i	NUM	_	_	27	nummod	_	_
+29	построила	строить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	за	за	ADP	_	_	33	case	_	_
+33	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obl	_	_
+34	для	для	ADP	_	_	35	case	_	_
+35	которого	который	PRON	_	Case=Gen	33	nmod	_	_
+36	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	37	aux:pass	_	_
+37	взят	брать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	29	parataxis	_	_
+38	бизнес-джет	бизнес-джет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+39	Bomberdier	Bomberdier	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	CRJ700	CRJ700	NUM	_	_	39	nummod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 327
+# text = Масса второго беспилотника составляет 131,5 килограмма, а размах крыла -- 3,7 метра.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	131,5	131,5	NUM	_	_	6	nummod	_	_
+6	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	9	cc	_	_
+9	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	conj	_	_
+10	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	3,7	3,7	NUM	_	_	13	nummod	_	_
+13	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 328
+# text = Этот аппарат поставили Исследовательскому центру NASA в Лэнгли.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	поставили	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Исследовательскому	исследовательский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	центру	центр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Лэнгли	Лэнгли	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 329
+# text = Беспилотник будет использоваться для изучения эффекта затенения T-образных рулей высоты.Василий Сычёв
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	затенения	затенение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	T-образных	T-образный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	рулей	руль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+13	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+
+# newpar
+# sent_id = 330

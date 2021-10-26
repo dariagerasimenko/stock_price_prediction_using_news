@@ -1,0 +1,247 @@
+# text = # newpar
+# sent_id = 143
+# text = Американский стартап Zipline будет с помощью беспилотников доставлять медикаменты и кровь в отдаленные районы в штатах Мэриленд, Невада и Вашингтон.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	стартап	стартап	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Zipline	Zipline	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+8	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	медикаменты	медикамент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	отдаленные	отдаленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	районы	район	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	штатах	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+17	Мэриленд	Мэриленд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	Невада	Невада	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	Вашингтон	вашингтон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 144
+# text = Компания объявила об этом вчера на семинаре в Белом доме, посвященном беспилотным летательным аппаратам.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	об	о	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	вчера	вчера	ADV	_	Degree=Pos	7	advmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	семинаре	семинар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	Белом	белый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	доме	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	посвященном	посвящать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+13	беспилотным	беспилотный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+14	летательным	летательный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	аппаратам	аппарат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 145
+# text = Об этом сообщает The Verge.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	The	the	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Verge	Verge	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 146
+# text = Специально для доставки медицинских препаратов Zipline разработала беспилотники самолетного типа на электрических батареях, способные перевозить до 1,3 килограммов медикаментов.
+1	Специально	специально	ADV	_	Degree=Pos	3	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+4	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	Zipline	Zipline	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	беспилотники	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	электрических	электрический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	батареях	батарея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+16	перевозить	переваживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	1,3	1,3	NUM	_	_	19	nummod	_	_
+19	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+20	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 147
+# text = Сотрудник больницы может заказать необходимые препараты или кровь с помощью текстового сообщения, дрон доставит их в течение 30 минут и сбросит на парашюте с малой высоты.
+1	Сотрудник	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	больницы	больница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	заказать	заказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	препараты	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	текстового	текстовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	сообщения	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	доставит	доставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	fixed	_	_
+19	30	30	NUM	_	_	20	nummod	_	_
+20	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	сбросит	сбрасывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	парашюте	парашют	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+25	с	с	ADP	_	_	27	case	_	_
+26	малой	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 148
+# text = Беспилотник, названный Zip, весит около 10 килограммов и способен лететь без подзарядки до 120 километров.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	названный	называть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	Zip	Zip	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	весит	весить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	10	10	NUM	_	_	9	nummod	_	_
+9	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	_
+12	лететь	лететь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	без	без	ADP	_	_	14	case	_	_
+14	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	120	120	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 149
+# text = Для навигации дрон использует GPS и сотовые сети.
+1	Для	для	ADP	_	_	2	case	_	_
+2	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	дрон	дрона	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	GPS	gps	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	сотовые	сотовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	сети	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 150
+# text = Ранее компания Zipline договорилась с правительством Руанды о развертывании программы по доставке медикаментов и крови в больницы, расположенные в отдаленных районах страны.
+1	Ранее	рано	ADV	_	Degree=Cmp	4	advmod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Zipline	Zipline	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	договорилась	договариваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	правительством	правительство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	Руанды	Руанды	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	appos	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	развертывании	развертывание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	доставке	доставка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+13	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	больницы	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	расположенные	расположенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	0	amod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	отдаленных	отдаленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	_
+23	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 151
+# text = Программа стартовала в июле, а в августе компания рассчитывает доставлять препараты на половину территории Руанды.
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	стартовала	стартовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	а	а	CCONJ	_	_	10	cc	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+9	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	рассчитывает	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	препараты	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+15	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	Руанды	Руанды	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 152
+# text = После того, как Zipline анонсировала программу в Руанде, к руководству компании обратились представители Белого дома с предложением начать аналогичную программу в Соединенных Штатах.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	Zipline	Zipline	PROPN	_	Foreign=Yes	6	nsubj	_	_
+6	анонсировала	анонсировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+7	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Руанде	Руанд	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	руководству	руководство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+13	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	обратились	обращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+16	Белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	предложением	предложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+20	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	dep	_	_
+21	аналогичную	аналогичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	Соединенных	соединять	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	Штатах	штат	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 153
+# text = Основатель и генеральный директор компании, Келлер Ринаудо (Keller Rinaudo) рассчитывает, что программа стартует в США примерно через год.Екатерина Русакова
+1	Основатель	основатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	и	и	CCONJ	_	_	4	cc	_	_
+3	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Келлер	Келлер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+8	Ринаудо	Ринаудо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Keller	Keller	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Rinaudo	Rinaudo	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	рассчитывает	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	стартует	стартовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	17	obl	_	_
+20	примерно	примерно	ADV	_	Degree=Pos	22	advmod	_	_
+21	через	через	ADP	_	_	22	case	_	_
+22	год.	годакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	flat:name	_	_
+
+# newpar
+# sent_id = 154

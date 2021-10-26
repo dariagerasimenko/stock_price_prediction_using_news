@@ -1,0 +1,151 @@
+# text = # newpar
+# sent_id = 4004
+# text = Командование ВВС США объявило о намерении сократить вдвое команды операторов ударных беспилотных летательных аппаратов MQ-1 Predator и MQ-9 Reaper.
+1	Командование	командование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	объявило	объявлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	вдвое	вдвое	ADV	_	Degree=Pos	7	advmod	_	_
+9	команды	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	операторов	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+12	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+15	MQ-1	mQ-1	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	Predator	Predator	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	MQ	Mq	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+19	-9	-9	NUM	_	_	18	nummod	_	_
+20	Reaper	Reaper	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4005
+# text = КаксообщаетBreaking Defense, благодаря этому военные смогут сократить количество рабочих мест операторов по меньшей мере на тысячу.Для решения поставленной задачи планируется перепроектировать наземные станции управления аппаратами.
+1	КаксообщаетBreaking	КаксообщаетBreaking	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Defense	Defense	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	благодаря	благодаря	ADP	_	_	5	case	_	_
+5	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+6	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	рабочих	рабочий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	мест	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	операторов	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	по	по	ADP	_	_	17	advmod	_	_
+14	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	fixed	_	_
+15	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	fixed	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	тысячу.	тысячу.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+18	Для	для	ADP	_	_	19	case	_	_
+19	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	поставленной	поставлать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+21	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+23	перепроектировать	перепроектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj:pass	_	_
+24	наземные	наземный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+26	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4006
+# text = В настоящее время каждым Predator и Reaper управляют по два человека: один оператор отвечает за полеты беспилотников, а второй -- за сенсоры и вооружения.
+1	В	в	ADP	_	_	8	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	каждым	каждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	Predator	Predator	PROPN	_	Foreign=Yes	8	nsubj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Reaper	Reaper	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	управляют	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+11	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	один	один	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+16	за	за	ADP	_	_	17	case	_	_
+17	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+18	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	21	cc	_	_
+21	второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	за	за	ADP	_	_	24	case	_	_
+24	сенсоры	сенсор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4007
+# text = В наземных станциях управления управлять аппаратом и его системами сможет один человек.Благодаря изменению конструкции станций управления ВВС США рассчитывают справиться с дефицитом операторов беспилотников, который в 2016 году составит 400 человек.
+1	В	в	ADP	_	_	3	case	_	_
+2	наземных	наземный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	станциях	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+4	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	_
+10	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	один	один	NUM	_	Case=Nom|Gender=Masc	10	nsubj	_	_
+12	человек.	человеколо	ADP	_	_	14	case	_	SpaceAfter=No
+13	Благодаря	благодаря	ADP	_	_	14	case	_	_
+14	изменению	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+15	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	18	nmod	_	_
+20	рассчитывают	рассчитывавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	_
+21	справиться	справляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	20	xcomp	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	дефицитом	дефицит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_
+24	операторов	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	который	который	PRON	_	Case=Nom	31	nsubj	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	2016	2016	NUM	_	_	30	nummod	_	_
+30	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+31	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+32	400	400	NUM	_	_	33	nummod	_	_
+33	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 4008
+# text = Высвобожденные в результате сокращения команд операторы будут перенаправлены на управление теми беспилотниками, для которых "экипажи" пока не сформированы.Василий Сычёв
+1	Высвобожденные	Высвобождять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	сокращения	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	операторы	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	перенаправлены	перенаправлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+11	теми	тот	DET	_	Case=Ins|Number=Plur	12	amod	_	_
+12	беспилотниками	беспилотник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	которых	который	PRON	_	Case=Gen	21	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	экипажи	экипаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	пока	пока	ADV	_	Degree=Pos	21	advmod	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	сформированы.	сформированыавнивать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	acl:relcl	_	SpaceAfter=No
+22	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	_
+
+# newpar
+# sent_id = 4009

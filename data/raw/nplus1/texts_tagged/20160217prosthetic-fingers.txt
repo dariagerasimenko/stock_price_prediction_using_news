@@ -1,0 +1,399 @@
+# text = # newpar
+# sent_id = 3120
+# text = Американские исследователи разработали нейроинтерфейс, позволяющий управлять отдельными пальцами биомеханического протеза.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нейроинтерфейс	нейроинтерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	отдельными	отдельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+10	биомеханического	биомеханический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	протеза	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3121
+# text = О своей работе они пишут в Journal of Neural Engineering.
+1	О	о	ADP	_	_	3	case	_	_
+2	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Journal	journal	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Neural	Neural	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Engineering	Engineering	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3122
+# text = Современные протезы, управляемые мозгом пациента, обеспечивают только синхронные движения пальцами, при которых кисть работает, как простой зажим (подобное движение человек совершает, например, когда берет теннисный мяч).
+1	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	протезы	протез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	управляемые	управлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	мозгом	мозг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+6	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	синхронные	синхронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	движения	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	obj	_	_
+12	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	которых	который	PRON	_	Case=Gen	17	obl	_	_
+16	кисть	кисть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	как	как	SCONJ	_	_	21	cc	_	_
+20	простой	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	зажим	зажим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	advmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	подобное	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	parataxis	_	_
+25	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	совершает	совершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	когда	когда	SCONJ	_	_	31	mark	_	_
+31	берет	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
+32	теннисный	теннисный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	мяч	мяч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3123
+# text = Сотрудники Университета Джонса Хопкинса в Балтиморе, штат Мэриленд, пригласили для участия в эксперименте пациента с эпилепсией, которому для выявления очага судорожной активности было назначено электрокортикографическое картирование мозга (ЭКоГ, регистрация мозговой активности с помощью электродов, подведенных непосредственно к коре мозга).
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Джонса	Джонс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Хопкинса	хопкинс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Балтиморе	балтимор	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	штат	штат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+9	Мэриленд	Мэриленд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пригласили	приглашать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	эпилепсией	эпилепсия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которому	который	PRON	_	Case=Dat	27	obl	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+23	очага	очаг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	судорожной	судорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	назначено	назначать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+28	электрокортикографическое	электрокортикографический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	картирование	картирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+30	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	ЭКоГ	Эког	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	регистрация	регистрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	parataxis	_	_
+35	мозговой	мозговой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	с	с	ADP	_	_	39	case	_	_
+38	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	37	fixed	_	_
+39	электродов	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	подведенных	подведать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	39	amod	_	_
+42	непосредственно	непосредственно	ADV	_	Degree=Pos	41	advmod	_	_
+43	к	к	ADP	_	_	44	case	_	_
+44	коре	кор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	41	obl	_	_
+45	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 3124
+# text = На участок коры мозга добровольца, отвечающий за движение кисти, наложили прямоугольную пластину со 128 электродами.
+1	На	на	ADP	_	_	2	case	_	_
+2	участок	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+3	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	добровольца	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	отвечающий	отвечать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+10	кисти	кисть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	наложили	накладывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	прямоугольную	прямоугольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	пластину	пластина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	со	с	ADP	_	_	17	case	_	_
+16	128	128	NUM	_	_	17	nummod	_	_
+17	электродами	электрод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3125
+# text = Каждый из них регистрировал электрическую активность участка мозга диаметром около одного миллиметра.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	регистрировал	регистрировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	участка	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+10	около	около	ADP	_	_	12	case	_	_
+11	одного	один	NUM	_	Case=Gen|Gender=Masc	12	nummod	_	_
+12	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3126
+# text = Затем пациенту предложили поочередно шевелить пальцами и записывали полученные сигналы.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	пациенту	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	поочередно	поочередно	ADV	_	Degree=Pos	5	advmod	_	_
+5	шевелить	шевелить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+6	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	записывали	записывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3127
+# text = Электрическую активность коры при обработке тактильных ощущений зарегистрировали с помощью вибрационной перчатки, раздражающей кончики пальцев.
+1	Электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+3	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	обработке	обработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+6	тактильных	тактильной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	ощущений	ощущение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	зарегистрировали	регистрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	вибрационной	вибрационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	перчатки	перчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	раздражающей	раздражать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	кончики	кончик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3128
+# text = Полученные данные обработали с помощью специально разработанного алгоритма, и путем машинного обучения создали интерфейс упреждающего анализа сигналов мозга.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	nsubj	_	_
+3	обработали	обрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	с	с	ADP	_	_	8	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	специально	специально	ADV	_	Degree=Pos	7	advmod	_	_
+7	разработанного	разработать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	14	cc	_	_
+11	путем	путем	ADP	_	_	13	case	_	_
+12	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+14	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	упреждающего	упреждать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+17	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	сигналов	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3129
+# text = Этот интерфейс позволил участнику исследования управлять пальцами модульного биомеханического протеза руки (Modular Prosthetic Limb) без предварительного обучения.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	участнику	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+5	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	_
+8	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	биомеханического	биомеханический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	протеза	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Modular	Modular	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+14	Prosthetic	Prosthetic	X	_	Foreign=Yes	13	flat:foreign	_	_
+15	Limb	Limb	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	без	без	ADP	_	_	19	case	_	_
+18	предварительного	предварительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3130
+# text = В начале эксперимента точность управления отдельными пальцами составила 76 процентов.
+1	В	в	ADP	_	_	2	case	_	_
+2	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	отдельными	отдельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+8	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	76	76	NUM	_	_	10	nummod	_	_
+10	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3131
+# text = Когда в алгоритме объединили безымянный палец и мизинец, которые в норме часто движутся совместно, этот показатель повысился до 88 процентов.
+1	Когда	когда	ADV	_	Degree=Pos	19	mark	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	алгоритме	алгоритм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	объединили	объединять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
+5	безымянный	безымянный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	палец	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	мизинец	мизинец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	норме	норм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+13	часто	часто	ADV	_	Degree=Pos	14	advmod	_	_
+14	движутся	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+15	совместно	совместно	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+18	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	повысился	повыситься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	до	до	ADP	_	_	22	case	_	_
+21	88	88	NUM	_	_	22	nummod	_	_
+22	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3132
+# text = Точность полного сгибания заданного пальца составила соответственно 64 и 77 процентов.
+1	Точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	сгибания	сгибание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	заданного	задавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	пальца	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	соответственно	соответственно	ADV	_	Degree=Pos	8	advmod	_	_
+8	64	64	NUM	_	_	11	nummod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	77	77	NUM	_	_	8	conj	_	_
+11	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3133
+# text = После оптимизации выбора электродов максимальная точность управления отдельным пальцем достигла 96,5 процента.
+1	После	после	ADP	_	_	2	case	_	_
+2	оптимизации	оптимизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+3	выбора	выбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	электродов	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	отдельным	отдельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	пальцем	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+10	достигла	достигать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	96,5	96,5	NUM	_	_	12	nummod	_	_
+12	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3134
+# text = Движениям и тактильной обратной связи сопутствовала специфическая активация соответствующих участков коры мозга.
+1	Движениям	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
+2	и	и	CCONJ	_	_	5	cc	_	_
+3	тактильной	тактильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	обратной	обратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
+6	сопутствовала	сопутствовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	специфическая	специфический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	активация	активация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+9	соответствующих	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3135
+# text = "Полученные результаты показали, что основанный на ЭКоГ нейроинтерфейс способен использовать природную анатомию сенсомоторной коры для управления отдельными пальцами в реальном времени без предварительных тренировок", -- пишут авторы исследования.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	основанный	основывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	ЭКоГ	Эког	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	нейроинтерфейс	нейроинтерфейс	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	advcl	_	_
+12	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	природную	природный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	анатомию	анатомия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	сенсомоторной	сенсомоторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	для	для	ADP	_	_	16	case	_	_
+18	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	отдельными	отдельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+24	без	без	ADP	_	_	26	case	_	_
+25	предварительных	предварительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	тренировок	тренировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	--	--	PUNCT	_	_	26	punct	_	_
+30	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+32	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3136
+# text = По словам одного из них, профессора неврологии Нэйтана Кроуна (Nathan Crone), для клинического применения технологию необходимо существенно доработать, и основанный на ней протез будет дорогостоящим.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	20	parataxis	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	7	nummod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	профессора	профессор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	неврологии	неврология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+9	Нэйтана	Нэйтан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Кроуна	Кроун	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Nathan	Nathan	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+13	Crone	Crone	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	для	для	ADP	_	_	18	case	_	_
+17	клинического	клинический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+19	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+21	существенно	существенно	ADV	_	Degree=Pos	22	advmod	_	_
+22	доработать	дорабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	и	и	CCONJ	_	_	30	cc	_	_
+25	основанный	основывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	25	obl	_	_
+28	протез	протез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+29	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	cop	_	_
+30	дорогостоящим	дорогостоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3137
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3138

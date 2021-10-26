@@ -1,0 +1,359 @@
+# text = # newpar
+# sent_id = 2035
+# text = Астрофизики проанализировали новый массив данных, переданный космическим аппаратом New Horizons.
+1	Астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	массив	массив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	переданный	передавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	космическим	космический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	_
+10	New	new	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Horizons	Horizons	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2036
+# text = Благодаря этому ученые смогли детально изучить атмосферу Плутона.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	детально	детально	ADV	_	Degree=Pos	6	advmod	_	_
+6	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2037
+# text = Результаты работы опубликованы вжурнале Science.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2038
+# text = Ранее ученым уже удалось выявить некоторые особенности атмосферы планетоида.
+1	Ранее	ранее	ADV	_	Degree=Pos	2	advmod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	особенности	особенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2039
+# text = Впрошлом году автоматическая межпланетная станция получила снимки Плутона, которые помогли увидеть его атмосферу иобнаружить ионизацию ифрагментацию молекул метана вней.
+1	Впрошлом	Впрошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	автоматическая	автоматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	межпланетная	межпланетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	помогли	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	увидеть	увижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	иобнаружить	иобнаружать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+16	ионизацию	ионизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	ифрагментацию	ифрагментация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	метана	метан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	вней	вень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2040
+# text = Кроме того, New Horizons передал первые цветные изображения, накоторых была видна многослойная голубая дымка планетоида.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	New	new	PROPN	_	Foreign=Yes	6	nsubj	_	_
+5	Horizons	Horizons	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+8	цветные	цветной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	накоторых	накоторый	PRON	_	Case=Acc	13	obj	_	_
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+13	видна	видный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	parataxis	_	_
+14	многослойная	многослойный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	голубая	голубый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	дымка	дымка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+17	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2041
+# text = Всвоей работе международная группа исследователей провела комплексный анализ атмосферы Плутона, основанный наданных радиоспектрометра REX, предназначенного для изучения давления итепловых свойств поверхности планетоида, ультрафиолетового спектрометра Alice, который изучал его атмосферу, икамер LORRI иMVIC.
+1	Всвоей	Всвой	DET	_	Case=Dat|Gender=Fem|Number=Sing	2	amod	_	_
+2	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+3	международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	комплексный	комплексный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	основанный	основывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+13	наданных	надать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	радиоспектрометра	радиоспектрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+15	REX	Rex	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	предназначенного	предназначать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+20	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	итепловых	итепловый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+23	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	ультрафиолетового	ультрафиолетовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	спектрометра	спектрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+28	Alice	Alice	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	который	который	PRON	_	Case=Nom	31	nsubj	_	_
+31	изучал	изучать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+32	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	33	nmod	_	_
+33	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	икамер	икамирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+36	LORRI	Lorri	PROPN	_	Foreign=Yes	35	nsubj	_	_
+37	иMVIC	иmvic	PROPN	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 2042
+# text = Ученые обнаружили, что верхние слои атмосферы Плутона гораздо холоднее, чем это предсказывалось моделями, что значительно снижает скорость еедиссипации-- потери вследствие рассеяния газов вкосмическое пространство.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	верхние	верхний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	слои	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+7	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Плутона	Плутон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	гораздо	гораздо	ADV	_	Degree=Pos	10	advmod	_	_
+10	холоднее	холодный	ADJ	_	Degree=Cmp	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	14	mark	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	предсказывалось	предсказываться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	advmod	_	_
+15	моделями	модель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	PRON	_	Case=Nom	19	nsubj	_	_
+18	значительно	значительно	ADV	_	Degree=Pos	19	advmod	_	_
+19	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	еедиссипации	еедиссипация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	потери	тереть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	19	conj	_	_
+25	вследствие	вследствие	ADP	_	_	26	case	_	_
+26	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+27	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	вкосмическое	вкосмический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2043
+# text = Предположительная скорость утечки азота изатмосферы оказалась почти в10тысяч раз ниже ожидаемой, втовремя как для метана предсказания оказались верными.
+1	Предположительная	Предположительной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	утечки	утечка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	изатмосферы	изатмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	почти	почти	ADV	_	Degree=Pos	8	advmod	_	_
+8	в10тысяч	в10тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+9	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	ниже	низкий	ADJ	_	Degree=Cmp	6	amod	_	_
+11	ожидаемой	ожидать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	втовремя	втовремя	ADV	_	Degree=Pos	10	advmod	_	_
+14	как	как	SCONJ	_	_	16	cc	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	метана	метан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	advmod	_	_
+17	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+19	верными	верный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2044
+# text = Низкий уровень потери азота вполне соответствует тому, что уего ближайшего спутника Харона отсутствует атмосфера (тоесть онне"вытягивает" в свою атмосферу азот изатмосферы Плутона), однако это все равно несогласуется сэрозийными особенностями поверхности Плутона.
+1	Низкий	низкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	вполне	вполне	ADV	_	Degree=Pos	6	advmod	_	_
+6	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	уего	уий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	ближайшего	ближайший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+13	Харона	Харон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	_
+14	отсутствует	отсутствовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+15	атмосфера	атмосфера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	онне	онне	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	вытягивает	вытягивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
+24	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+25	азот	азота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+26	изатмосферы	изатмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	однако	однако	ADV	_	Degree=Pos	34	advmod	_	_
+31	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+32	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	advmod	_	_
+33	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	32	fixed	_	_
+34	несогласуется	несогласуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	conj	_	_
+35	сэрозийными	сэрозийный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	amod	_	_
+36	особенностями	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	34	obl	_	_
+37	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2045
+# text = Помнению ученых, это может указывать нато, что впрошлом скорость потери азота была выше.
+1	Помнению	Помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	указывать	указывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	нато	нато	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	6	mark	_	_
+10	впрошлом	впрошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+12	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	азота	азота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	выше	высокий	ADJ	_	Degree=Cmp	6	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2046
+# text = Кроме того, исследователи смогли измерить атмосферное давление планетоида-- оно составляет 11микробар-- атакже изучить состав самой атмосферы.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	измерить	измеривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	атмосферное	атмосферной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	планетоида-	планетоида-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	12	nsubj	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	11микробар--	11микробар--	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	ADV	_	Degree=Pos	15	advmod	_	_
+15	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+16	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2047
+# text = Навысотах менее 1800 километров преобладает молекулярный азот (N2), втовремя как метан (СН4), ацетилен (С2Н2), этилен (С2Н4), атакже этан (C2H6) составляют обширную дымку, окутывающую Плутон.
+1	Навысотах	Навысот	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+2	менее	менее	ADV	_	Degree=Cmp	4	nummod:gov	_	_
+3	1800	1800	NUM	_	_	4	nummod	_	_
+4	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	преобладает	преобладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	молекулярный	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	азот	азот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	N2	N2	NOUN	_	_	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	втовремя	втовремя	ADV	_	Degree=Pos	14	advmod	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	метан	метан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	СН4	СН4	X	_	Foreign=Yes	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	ацетилен	ацетилен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	С2Н2	С2Н2	NOUN	_	_	19	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	этилен	этилен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	С2Н4	С2Н4	X	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	атакже	атакже	CCONJ	_	_	30	cc	_	_
+30	этан	этан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	C2H6	C2H6	X	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	обширную	обширный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	дымку	дымка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	окутывающую	окутывать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	36	amod	_	_
+39	Плутон	Плутон	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 2048
+# text = Данное исследование представляет наданный момент наиболее полное описание атмосферы Плутона.
+1	Данное	данный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	наданный	наданный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	наиболее	наиболее	ADV	_	Degree=Pos	7	advmod	_	_
+7	полное	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+9	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2049
+# text = Кроме того, ученые также детально изучили спутники ивзаимодействие планетоида ссолнечным ветром, энергичными частицами ипылью.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+6	детально	детально	ADV	_	Degree=Pos	7	advmod	_	_
+7	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	спутники	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	ивзаимодействие	ивзаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	ссолнечным	ссолнечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ветром	ветер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	энергичными	энергичной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	частицами	частица	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	_
+16	ипылью	ипыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2050
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2051

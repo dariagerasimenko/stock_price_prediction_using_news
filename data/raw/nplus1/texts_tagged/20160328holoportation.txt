@@ -1,0 +1,107 @@
+# text = # newpar
+# sent_id = 3661
+# text = Исследовательское подразделение Microsoft Research продемонстрировало работу коммуникационной системы, которая может выводить ростовые голограммы собеседников.
+1	Исследовательское	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	Microsoft	Microsoft	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Research	Research	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	продемонстрировало	демонстрировать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	коммуникационной	коммуникационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	ростовые	ростовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	голограммы	голограмма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	собеседников	собеседник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3662
+# text = Такой подход разработчики назвали "голопортацией" (holoportation), демонстрационное видео опубликовано на YouTube.Система позволяет собеседникампри помощи очков дополненной реальности Hololens видеть объемное изображение друг друга в режиме реального времени.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+3	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	голопортацией	голопортация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	holoportation	holoportation	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	демонстрационное	демонстрационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+14	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	YouTube	ютьюб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Система	система	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+20	собеседникампри	собеседникампри	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	obj	_	_
+21	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	очков	очко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	дополненной	дополнять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	реальности	реальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	Hololens	Hololens	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+27	объемное	объемный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+29	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	fixed	_	_
+30	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+33	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 3663
+# text = Для сканирования используются несколько 3D-камер(RGB-D), установленных вокруг транслируемой площадки.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сканирования	сканирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	3D	3d	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	-камер(	-камер(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	RGB-D	Rgb-d	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	установленных	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+11	вокруг	вокруг	ADP	_	_	13	case	_	_
+12	транслируемой	транслируемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	площадки	площадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3664
+# text = На камеру, с которой производится съемка, также установлено дополнительное устройство, которое отслеживает перемещение камеры относительно сцены и позволяет накладывать AR-контент поверх обычного изображения.
+1	На	на	ADP	_	_	2	case	_	_
+2	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	которой	который	PRON	_	Case=Ins	6	obl	_	_
+6	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
+7	съемка	съемка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	установлено	устанавливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	дополнительное	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которое	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	отслеживает	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	перемещение	перемещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	относительно	относительно	ADP	_	_	19	case	_	_
+19	сцены	сцена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+22	накладывать	накладывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	AR-контент	AR-контент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+24	поверх	поверх	ADP	_	_	23	case	_	_
+25	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 3665

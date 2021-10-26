@@ -1,0 +1,473 @@
+# text = # newpar
+# sent_id = 4845
+# text = Несколько российских инженеров, программистов и физиков начали сбор средств на постройку лунного спутника, который будет искать и фотографировать места высадки людей и луноходов.
+1	Несколько	несколько	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	программистов	программист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+8	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	постройку	постройка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	лунного	лунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	acl:relcl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	фотографировать	фотографировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	conj	_	_
+21	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+22	высадки	высадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	луноходов	луноход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4846
+# text = Сбор проводится на краудфадинговой площадке Boomstarter.
+1	Сбор	сбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	краудфадинговой	краудфадинговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	площадке	площадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	Boomstarter	Boomstarter	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4847
+# text = Инициатором проекта стал блогер Виталий Егоров.
+1	Инициатором	инициатор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	блогер	блоггер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Виталий	виталий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	Егоров	егоров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4848
+# text = Готовый спутник, который займется фотографированием "Аполлонов" и "Луноходов", планируется отправить в космос попутным запуском с лунными миссиями России, Индии или Китая в ближайшие десять лет.Предположительно, масса перспективного лунного спутника составит 50 килограммов.
+1	Готовый	готовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	который	который	PRON	_	Case=Nom	5	nsubj	_	_
+5	займется	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+6	фотографированием	фотографирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Аполлонов	Аполлонов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Луноходов	луноходов	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+16	отправить	отправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	dep	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+19	попутным	попутный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	запуском	запуск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	лунными	лунный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	миссиями	миссия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	nmod	_	_
+24	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Индии	индия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	Китая	китай	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
+29	в	в	ADP	_	_	32	case	_	_
+30	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	31	amod	_	_
+31	десять	десять	NUM	_	Case=Acc	32	nummod:gov	_	_
+32	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	Предположительно	Предположительно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+37	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+38	лунного	лунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+40	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	_
+41	50	50	NUM	_	_	42	nummod	_	_
+42	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 4849
+# text = Он будет оснащен гидразинными двигателями или электроракетной двигательной установкой.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	гидразинными	гидразинный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+6	или	или	CCONJ	_	_	9	cc	_	_
+7	электроракетной	электроракетный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	двигательной	двигательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	установкой	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4850
+# text = Аппарат получит трехосную систему ориентации, а также оборудование наблюдения, работающее в S и X диапазонах волн.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	трехосную	трехосный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	ориентации	ориентация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	9	cc	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+10	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	работающее	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	S	s	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	X	x	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	диапазонах	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+18	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4851
+# text = Размеры спутника в транспортном положении составляет 250 на 250 на 480 миллиметров.Согласно пресс-релизу организаторов проекта, поступившему в редакцию N+1, на первоначальную теоретическую проработку и математические расчеты необходимо 800 тысяч рублей.
+1	Размеры	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	транспортном	транспортной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	250	250	NUM	_	_	6	nummod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	250	250	NUM	_	_	7	nummod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	480	480	NUM	_	_	12	nummod	_	_
+12	миллиметров.	миллиметровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	Согласно	согласно	ADP	_	_	14	case	_	_
+14	пресс-релизу	пресс-релиз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+15	организаторов	организатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	поступившему	поступать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	amod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	редакцию	редакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	N+1	N+1	NOUN	_	_	6	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	на	на	ADP	_	_	26	case	_	_
+24	первоначальную	первоначальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	теоретическую	теоретический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	проработку	проработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+27	и	и	CCONJ	_	_	30	cc	_	_
+28	математические	математический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	расчеты	расчет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
+30	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	_
+31	800	800	NUM	_	_	32	nummod	_	_
+32	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nsubj	_	_
+33	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 4852
+# text = На этом этапе планируется определить основные характеристики перспективного спутника и его стоимость.
+1	На	на	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+6	основные	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4853
+# text = В случае, если собранная сумма превысить миллион рублей, дополнительные деньги будут направлены на создание инженерных образцов служебных систем и устройств лунного спутника, причем некоторые системы будут разрабатываться с нуля.В случае, если организаторам проекта удастся собрать более 1,5 миллиона рублей, то дополнительные средства пойдут на разработку бортовой вычислительной системы перспективного спутника.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	собранная	собирать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+7	превысить	превышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	миллион	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	деньги	деньги	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+13	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	направлены	направлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+17	инженерных	инженерной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	служебных	служебный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	conj	_	_
+23	лунного	лунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	причем	причем	CCONJ	_	_	30	cc	_	_
+27	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	28	amod	_	_
+28	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_
+29	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	_
+30	разрабатываться	разрабатываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	conj	_	_
+31	с	с	ADP	_	_	32	case	_	_
+32	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	В	в	ADP	_	_	35	case	_	_
+35	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	если	если	SCONJ	_	_	35	mark	_	_
+38	организаторам	организатор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	40	obl	_	_
+39	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	удастся	удаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	50	conj	_	_
+41	собрать	собирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	50	advcl	_	_
+42	более	более	ADV	_	Degree=Cmp	44	advmod	_	_
+43	1,5	1,5	NUM	_	_	44	nummod	_	_
+44	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nummod:gov	_	_
+45	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	то	то	SCONJ	_	_	41	cc	_	_
+48	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	49	amod	_	_
+49	средства	средства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	50	nsubj	_	_
+50	пойдут	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+51	на	на	ADP	_	_	52	case	_	_
+52	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	50	obl	_	_
+53	бортовой	бортовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_
+54	вычислительной	вычислительной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_
+55	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	52	nmod	_	_
+56	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	57	amod	_	_
+57	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	_
+
+# sent_id = 4854
+# text = Она будет отвечать за стабильную работу аппарата в космосе.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	за	за	ADP	_	_	6	case	_	_
+5	стабильную	стабильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4855
+# text = После запуска перспективный аппарат, вероятно, должен будет самостоятельно выйти на окололунную орбиту, маневрировать и снизиться на высоту до десяти километров, чтобы сделанные им снимки получились максимально детализированными.Реализация программы "Аполлон" началась в США в 1961 году.
+1	После	после	ADP	_	_	2	case	_	_
+2	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+3	перспективный	перспективной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вероятно	вероятно	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	самостоятельно	самостоятельно	ADV	_	Degree=Pos	8	advmod	_	_
+11	выйти	выходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	окололунную	окололунный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	маневрировать	маневрировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	conj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	снизиться	снизиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	0	conj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	до	до	ADP	_	_	23	case	_	_
+22	десяти	десять	NUM	_	Case=Gen	23	nummod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+26	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+27	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	26	obl	_	_
+28	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	получились	получиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+30	максимально	максимально	ADV	_	Degree=Pos	29	advmod	_	_
+31	детализированными.	детализированными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	Реализация	реализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+33	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	Аполлон	Аполлон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37	началась	начинаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	29	parataxis	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	37	obl	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	1961	1961	NUM	_	_	42	nummod	_	_
+42	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 4856
+# text = 20 июня 1969 года в рамках этой программы на луну приземлился аппарат "Аполлон-11", с которого на спутник Земли высадились Нил Армстронг и Базз Олдрин.
+1	20	20	NUM	_	_	6	nummod	_	_
+2	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	1969	1969	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+7	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	луну	луна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+11	приземлился	приземлаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Аполлон	Аполлон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	11	11	NUM	_	_	14	nummod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	спутник	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+23	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	высадились	высадиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	conj	_	_
+25	Нил	Нивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+26	Армстронг	Армстронг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	Базз	Базз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+29	Олдрин	Олдрин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4857
+# text = В общей сложности по программе "Аполлон" были выполнены шесть успешных высадок астронавтов на Луну, последняя из которых состоялась в 1972 году.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Аполлон	Аполлон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	выполнены	выполнать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	шесть	шесть	NUM	_	Case=Nom	13	nummod:gov	_	_
+12	успешных	успешный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	высадок	высадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+14	астронавтов	астронавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	Луну	луна	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	nsubj	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	которых	который	PRON	_	Case=Gen	18	nmod	_	_
+21	состоялась	состояться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	1972	1972	NUM	_	_	24	nummod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4858
+# text = В настоящее время американская программа является единственной за всю историю человечества, в ходе которой люди высаживались на другом астрономическом объекте.Реализация советской программы изучения спутника Земли "Луноход" осуществлялась в 1960-х годах.
+1	В	в	ADP	_	_	6	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+8	за	за	ADP	_	_	10	case	_	_
+9	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	которой	который	PRON	_	Case=Gen	17	obl	_	_
+16	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	высаживались	высаживаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	астрономическом	астрономическ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+21	объекте.	объектбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+22	Реализация	реализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+23	советской	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Луноход	Луноход	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	_
+31	осуществлялась	осуществляться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	1960-х	1960-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	34	amod	_	_
+34	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 4859
+# text = В ее рамках СССР отправил на Луну в общей сложности два дистанционно-управляемых аппарата: "Луноход-1" и "Луноход-2".
+1	В	в	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+4	СССР	ссср	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	отправил	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Луну	луна	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	в	в	ADP	_	_	11	advmod	_	_
+9	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	fixed	_	_
+10	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	fixed	_	_
+11	два	два	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+12	дистанционно-	дистанционно-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	управляемых	управлять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Луноход-	Луноход-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+18	1	1	NUM	_	_	22	nummod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Луноход	Луноход	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	2	2	NUM	_	_	22	nummod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4860
+# text = Всего же по программе были построены четыре аппарата, самый первый из которых не был доставлен на Луну из-за разрушения аэродинамического обтекателя ракеты-носителя, а последний -- так и не был отправлен.Василий Сычев
+1	Всего	всего	PART	_	_	6	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	построены	строить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	четыре	четыре	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	11	nmod	_	_
+14	не	не	PART	_	_	16	advmod	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	доставлен	доставлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	Луну	луна	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+19	из-за	из-за	ADP	_	_	20	case	_	_
+20	разрушения	разрушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+21	аэродинамического	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	обтекателя	обтекатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	а	а	CCONJ	_	_	28	cc	_	_
+28	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	так	так	ADV	_	Degree=Pos	34	advmod	_	_
+31	и	и	PART	_	_	32	advmod	_	_
+32	не	не	PART	_	_	34	advmod	_	_
+33	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+34	отправлен.	отправлен.	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+35	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	appos	_	_
+36	Сычев	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	flat:name	_	_
+
+# newpar
+# sent_id = 4861

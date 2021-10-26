@@ -1,0 +1,75 @@
+# text = # newpar
+# sent_id = 5147
+# text = Археологи обнаружили в окрестностях озера Туркана (Кения) древнейшие каменные инструменты.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	окрестностях	окрестность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	озера	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Туркана	Туркан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Кения	Кение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	древнейшие	древний	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	12	amod	_	_
+11	каменные	каменный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	инструменты	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5148
+# text = Статья с описанием найденных орудийопубликована в Nature.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	найденных	найдеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	nmod	_	_
+5	орудийопубликована	орудийопубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Nature	nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5149
+# text = Возраст найденных каменных орудий составляет около 3,3 миллионов лет.
+1	Возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	каменных	каменный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	орудий	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	3,3	3,3	NUM	_	_	8	nummod	_	_
+8	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5150
+# text = До этого самыми древними считались обнаруженные в Танзании олдувайские орудия с возрастом около 2,7 миллионов лет.
+1	До	до	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	самыми	самой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	древними	одревни	PRON	_	Case=Ins|Number=Plur|Person=3	5	obl	_	_
+5	считались	считаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	обнаруженные	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Танзании	Танзания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	олдувайские	олдувайский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	орудия	орудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	возрастом	возраст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+13	около	около	ADP	_	_	15	case	_	_
+14	2,7	2,7	NUM	_	_	15	nummod	_	_
+15	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5151
+# text = Найденные орудия крупнее олдувайских и более грубо обработаны.
+1	Найденные	находить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	орудия	орудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	крупнее	крупный	ADJ	_	Degree=Cmp	0	root	_	_
+4	олдувайских	олдувайский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	более	более	ADV	_	Degree=Cmp	7	advmod	_	_
+7	грубо	грубо	ADV	_	Degree=Pos	8	advmod	_	_
+8	обработаны	обрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 5152

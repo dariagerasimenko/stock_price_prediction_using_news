@@ -1,0 +1,270 @@
+# text = # newpar
+# sent_id = 2308
+# text = 31 декабря 2016 года станет на одну секунду длиннее для Международного скоординированного времени (UTC).
+1	31	31	NUM	_	_	5	nummod	_	_
+2	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	2016	2016	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	одну	один	NUM	_	Case=Acc|Gender=Fem	8	nummod:gov	_	_
+8	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+9	длиннее	длинный	ADJ	_	Degree=Cmp	5	amod	_	_
+10	для	для	ADP	_	_	13	case	_	_
+11	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	скоординированного	координировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	UTC	Utc	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2309
+# text = Дополнительную секунду вставят в 23:59:59 UTC.
+1	Дополнительную	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	вставят	вставать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	23	23	NUM	_	_	3	nummod	_	SpaceAfter=No
+6	:59:59	:59:59	NUM	_	_	5	nummod	_	_
+7	UTC	Utc	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2310
+# text = Об этом сообщила в бюллетени Международная служба вращения Земли (IERS).
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщила	сообщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	бюллетени	бюллетень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+8	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	parataxis	_	_
+10	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	IERS	Iers	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2311
+# text = Благодаря этому последовательность смены дат в UTC будет выглядеть так: 31 Декабря 2016, 23:59:5931 Декабря 2016, 23:59:6001 Января 2017, 0:00:00 Дополнительные секунды необходимы для того, чтобы сократить разницу между международным скоординированным временем, отмеряемым атомными часами, и UT1, связанным с суточным вращением Земли.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+3	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	дат	дать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	UTC	Utc	PROPN	_	Foreign=Yes	9	obl	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	выглядеть	выглядеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+10	так	так	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	31	31	NUM	_	_	18	nummod	_	_
+13	Декабря	декабрь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	2016	2016	NUM	_	_	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	23	23	NUM	_	_	12	nummod	_	SpaceAfter=No
+17	:59	:59	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	:5931	:5931	NOUN	_	_	20	obl	_	_
+19	Декабря	декабрь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	2016	2016	NUM	_	_	23	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	23	23	NUM	_	_	23	nummod	_	SpaceAfter=No
+23	:59:6001	:59:6001	NOUN	_	_	24	obl	_	_
+24	Января	январь	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	_
+25	2017	2017	NUM	_	_	24	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	0:00	0:00	NUM	_	_	25	nummod	_	SpaceAfter=No
+28	:00	:00	NUM	_	_	27	nummod	_	_
+29	Дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	секунды	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	31	obj	_	_
+31	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	parataxis	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	чтобы	чтобы	SCONJ	_	Mood=Cnd	33	mark	_	_
+36	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	advcl	_	_
+37	разницу	разница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+38	между	между	ADP	_	_	41	case	_	_
+39	международным	международный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+40	скоординированным	скоординировывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	41	amod	_	_
+41	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	отмеряемым	отмерять	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	41	amod	_	_
+44	атомными	атомный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	45	amod	_	_
+45	часами	часы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	43	obl:agent	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	и	и	CCONJ	_	_	48	cc	_	_
+48	UT1	UT1	NOUN	_	_	45	conj	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	связанным	связывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	amod	_	_
+51	с	с	ADP	_	_	53	case	_	_
+52	суточным	суточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	53	amod	_	_
+53	вращением	вращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	50	obl	_	_
+54	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 2312
+# text = За этим следит Международная служба вращения Земли.
+1	За	за	ADP	_	_	2	case	_	_
+2	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+3	следит	следать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2313
+# text = В основе решений о добавлении или наоборот исключении секунды лежат высокоточные наблюдения за удаленными объектами.
+1	В	в	ADP	_	_	2	case	_	_
+2	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	решений	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	добавлении	добавление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	или	или	CCONJ	_	_	8	cc	_	_
+7	наоборот	наоборот	ADV	_	Degree=Pos	8	advmod	_	_
+8	исключении	исключение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	conj	_	_
+9	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+10	лежат	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	высокоточные	высокоточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+13	за	за	ADP	_	_	15	case	_	_
+14	удаленными	удаленной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	объектами	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2314
+# text = Для этого используются радиоинтерферометры со сверхдлинной базой.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	радиоинтерферометры	радиоинтерферометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5	со	с	ADP	_	_	7	case	_	_
+6	сверхдлинной	сверхдлинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	базой	база	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2315
+# text = Как только разрыв достигает 0,9 секунд и выше назначается корректировка UTC.
+1	Как	как	ADV	_	Degree=Pos	4	advmod	_	_
+2	только	только	PART	_	_	1	fixed	_	_
+3	разрыв	разрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	0,9	0,9	NUM	_	_	6	nummod	_	_
+6	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	выше	выше	ADV	_	Degree=Pos	9	advmod	_	_
+9	назначается	назначать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+10	корректировка	корректировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+11	UTC	Utс	ADP	_	_	10	case	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2316
+# text = Для того, чтобы вводить корректировки существует третья система отсчета времени, так называемая TAI -- Международное атомное время.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+6	корректировки	корректировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	третья	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+10	отсчета	отсчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+14	называемая	называть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+15	TAI	Tai	NUM	_	_	19	nummod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	Международное	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+18	атомное	атомный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2317
+# text = В 1972 году его разница с UTC составляла 10 секунд.
+1	В	в	ADP	_	_	3	case	_	_
+2	1972	1972	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	UTC	Utc	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	составляла	составлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	10	10	NUM	_	_	10	nummod	_	_
+10	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2318
+# text = Каждая дополнительная секунда увеличивает эту разницу.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	дополнительная	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	секунда	секунда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	разницу	разница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2319
+# text = К 2017 году разрыв составит 37 секунд.
+1	К	к	ADP	_	_	3	case	_	_
+2	2017	2017	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	разрыв	разрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	37	37	NUM	_	_	7	nummod	_	_
+7	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2320
+# text = По соглашению, секунды добавляются 30 июня или 31 декабря.
+1	По	по	ADP	_	_	2	case	_	_
+2	соглашению	соглашение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	секунды	секунда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	добавляются	добавляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	30	30	NUM	_	_	7	nummod	_	_
+7	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	31	31	NUM	_	_	5	conj	_	_
+10	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2321
+# text = В последний раз секунду добавляли 30 июня 2015 года.
+1	В	в	ADP	_	_	3	case	_	_
+2	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	добавляли	добавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	30	30	NUM	_	_	5	nummod	_	_
+7	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	2015	2015	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2322
+# text = Интересно, что дополнительные секунды иногда оказываются причиной ошибок в работе серверов.
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	секунды	секунда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	иногда	иногда	ADV	_	Degree=Pos	7	advmod	_	_
+7	оказываются	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+8	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	ошибок	ошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	серверов	сервер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2323
+# text = Владимир Королёв
+1	Владимир	владимир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2324

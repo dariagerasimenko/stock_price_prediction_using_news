@@ -1,0 +1,124 @@
+# text = # newpar
+# sent_id = 314
+# text = Компания Google рассказала в блоге о текущих разработках, касающихся функций управления смартфоном для людей с ограниченными физическими возможностями.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	рассказала	рассказывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	о	о	ADP	_	_	8	case	_	_
+7	текущих	текущий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	разработках	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	касающихся	касаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+11	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	смартфоном	смартфон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	с	с	ADP	_	_	19	case	_	_
+17	ограниченными	ограничять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	физическими	физической	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	возможностями	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 315
+# text = Одна из описанных разработок позволяет реализовать голосовое управление интерфейсом телефона -- для этого необходимо загрузить приложение в Google Play.Приложение под названием Voice Access находится в стадии бета-тестирования.
+1	Одна	один	NUM	_	Case=Nom|Gender=Fem	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	описанных	описывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	реализовать	реализовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	голосовое	голосовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	интерфейсом	интерфейс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+10	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+14	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	_
+15	загрузить	загружать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Google	Google	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+19	Play.	play.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	SpaceAfter=No
+20	Приложение	Приложение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	appos	_	_
+21	под	под	ADP	_	_	22	case	_	_
+22	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	_
+23	Voice	Voice	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Access	Access	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_
+28	бета-тестирования	бета-тестирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 316
+# text = Программа позволяет управлять смартфоном при помощи голосовых команд, среди которых как варианты вызова отдельных приложений, так и навигационные команды для перехода по пунктам меню.
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	смартфоном	смартфон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	при	при	ADP	_	_	8	case	_	_
+6	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	fixed	_	_
+7	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	среди	среди	ADP	_	_	11	case	_	_
+11	которых	который	PRON	_	Case=Gen	8	nmod	_	_
+12	как	как	SCONJ	_	_	13	cc	_	_
+13	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	advmod	_	_
+14	вызова	вызов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	приложений	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+19	и	и	PART	_	_	20	advmod	_	_
+20	навигационные	навигационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	команды	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	перехода	переход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	пунктам	пункт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	_
+26	меню	меень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 317
+# text = Кроме того, по отдельному запросу пользователя программа выведет список поддерживаемых голосовых команд.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	6	case	_	_
+5	отдельному	отдельный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	запросу	запрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+7	пользователя	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	выведет	выводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	поддерживаемых	поддерживать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+12	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 318
+# text = По словам разработчиков, такой подход лучше всего подойдет для людей с нарушениями моторных функций.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	лучше	хорошо	ADV	_	Degree=Cmp	9	advmod	_	_
+8	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	подойдет	подходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	нарушениями	нарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	11	nmod	_	_
+14	моторных	моторной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 319

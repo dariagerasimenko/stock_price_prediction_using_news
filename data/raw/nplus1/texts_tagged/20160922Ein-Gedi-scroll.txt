@@ -1,0 +1,209 @@
+# text = # newpar
+# sent_id = 7673
+# text = Американские и израильские ученые впервые прочитали полный текст обугленного свитка, не разворачивая его физически.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	израильские	израильской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	впервые	впервые	ADV	_	Degree=Pos	6	advmod	_	_
+6	прочитали	прочитывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	полный	полный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	обугленного	обуглять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	свитка	свиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	разворачивая	разворачивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	физически	физически	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 7674
+# text = Свиток, содержащий один из древнейших текстов Пятикнижия, был найден в оазисе Эйн Геди в Израиле.
+1	Свиток	свиток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	содержащий	содержать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	один	один	NUM	_	Case=Nom|Gender=Masc	1	nummod:gov	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	древнейших	древний	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	7	amod	_	_
+7	текстов	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	Пятикнижия	Пятикнижие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	найден	находить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	оазисе	оазис	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	Эйн	Эйн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+15	Геди	Геди	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Израиле	израиль	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 7675
+# text = По оценкам ученых, возраст свитка составляет 1500--1900 лет.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	свитка	свиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	1500	1500	NUM	_	_	7	orphan	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	1900	1900	NUM	_	_	12	nummod	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	orphan	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 7676
+# text = Исследование опубликовано в Science Advance.Обугленный свиток, который удалось прочитать исследователям, был найден в 1970 году в оазисе Эйн Геди.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	7	case	_	_
+4	Science	Science	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+5	Advance.	advance.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+6	Обугленный	обугливать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	свиток	свиток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+11	прочитать	прочитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+12	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	найден	находить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	parataxis	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	1970	1970	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	оазисе	оазис	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+21	Эйн	Эйн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+22	Геди	Геди	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 7677
+# text = По разным оценкам, текст на свитке из кожи был написан либо в I--II, либо в III--IV веках нашей эры.
+1	По	по	ADP	_	_	3	case	_	_
+2	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	свитке	свитка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	написан	писать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	либо	либо	CCONJ	_	_	13	cc	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	I-	I-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	II	ii	NUM	_	_	11	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	либо	либо	CCONJ	_	_	16	cc	_	_
+19	в	в	ADP	_	_	24	case	_	_
+20	III	iii	NUM	_	_	24	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	IV	Iv	NUM	_	_	20	nummod	_	_
+24	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+25	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	26	amod	_	_
+26	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 7678
+# text = В Эйн Геди, начиная примерно с VII века до нашей эры, жила большая иудейская община.
+1	В	в	ADP	_	_	2	case	_	_
+2	Эйн	Эйн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+3	Геди	Геди	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	_
+6	примерно	примерно	ADV	_	Degree=Pos	9	advmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	VII	Vii	NUM	_	_	9	nummod	_	_
+9	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
+12	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	жила	жить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	иудейская	иудейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	община	община	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 7679
+# text = В VI веке нашей эры поселение было уничтожено кочевыми арабскими племенами.
+1	В	в	ADP	_	_	3	case	_	_
+2	VI	vi	NUM	_	_	3	nummod	_	_
+3	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	поселение	поселение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	уничтожено	уничтожать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	кочевыми	кочевый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	арабскими	арабской	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	племенами	племя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 7680
+# text = Во время археологических раскопок исследователи нашли синагогальный ковчег (где хранились священные для иудеев тексты Торы) и в нем фрагменты обугленного свитка, которые продолжали распадаться всякий раз, когда до них дотрагивались.
+1	Во	во	ADP	_	_	4	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	археологических	археологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	синагогальный	синагогальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ковчег	ковчег	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+11	хранились	храниться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	parataxis	_	_
+12	священные	священный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	иудеев	иудей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	тексты	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+16	Торы	Тор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+21	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+22	обугленного	обуглять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	свитка	свиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	которые	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	продолжали	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+27	распадаться	распадаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	29	xcomp	_	_
+28	всякий	всякий	DET	_	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	_
+29	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	когда	когда	SCONJ	_	_	26	mark	_	_
+32	до	до	ADP	_	_	33	case	_	_
+33	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	34	obl	_	_
+34	дотрагивались	дотрагиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	26	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 7681
+# text = Таким образом, ученые не могли развернуть обугленные комки из опасения, что они безвозвратно разрушатся.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	развернуть	разверать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	обугленные	обуглять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	комки	комка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	опасения	опасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
+15	безвозвратно	безвозвратно	ADV	_	Degree=Pos	16	advmod	_	_
+16	разрушатся	разрушаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# newpar
+# sent_id = 7682

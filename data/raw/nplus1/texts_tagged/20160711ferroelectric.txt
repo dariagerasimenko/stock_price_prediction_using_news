@@ -1,0 +1,324 @@
+# text = # newpar
+# sent_id = 2666
+# text = Физики из университетов Сиднея и Вулонгонга разработали метод, позволяющий бесконтактно переключать поляризацию в отдельных доменах сегнетоэлектрика.
+1	Физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	Сиднея	сидней	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	Вулонгонга	Вулонгонг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+7	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	бесконтактно	бесконтактно	ADV	_	Degree=Pos	10	advmod	_	_
+12	переключать	переключать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+13	поляризацию	поляризация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	отдельных	отдельный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	доменах	домен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+17	сегнетоэлектрика	сегнетоэлектрик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2667
+# text = По словам авторов, это позволит по меньшей мере в сто раз увеличить плотность записи информации по сравнению с современными устройствами.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	по	по	ADP	_	_	12	advmod	_	_
+8	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	fixed	_	_
+9	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	fixed	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	сто	сто	NUM	_	Case=Acc	12	nummod:gov	_	_
+12	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+14	плотность	плотность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	по	по	ADP	_	_	21	case	_	_
+18	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	fixed	_	_
+19	с	с	ADP	_	_	18	fixed	_	_
+20	современными	современный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	устройствами	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2668
+# text = Исследование опубликовано в журналеPhysical Review Letters, кратко о нем сообщаетPhysics.Сегнетоэлектрики -- материалы, внутри которых может возникать и поддерживаться диэлектрическая поляризация.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журналеPhysical	журналеPhysical	NOUN	_	_	2	obl	_	_
+5	Review	Review	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Letters	Letters	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	0	nmod	_	_
+11	сообщаетPhysics.	сообщаетPhysicsей	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	Сегнетоэлектрики	сегнетоэлектрик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	материалы	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	внутри	внутри	ADV	_	Degree=Pos	18	advmod	_	_
+17	которых	который	PRON	_	Case=Gen	16	nmod	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	возникать	возникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	поддерживаться	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	23	conj	_	_
+22	диэлектрическая	диэлектрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+23	поляризация	поляризация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2669
+# text = Это явление обычно связано с существованием внутри диэлектриков (непроводящих материалов, например, пластика) электрического поля, направленного в противоположном направлении, по отношению ко внешнему полю.
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	явление	явление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	_
+4	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	существованием	существование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	внутри	внутри	ADV	_	Degree=Pos	8	advmod	_	_
+8	диэлектриков	диэлектрик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	непроводящих	непроводящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	например	например	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	направленного	направлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	противоположном	противоположный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	по	по	ADP	_	_	29	case	_	_
+26	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	fixed	_	_
+27	ко	к	ADP	_	_	26	fixed	_	_
+28	внешнему	внешний	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	полю	поле	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2670
+# text = В сегнетоэлектриках это поле может поддерживаться даже после отключения внешнего поля.Память на основе тонких слоев сегнетоэлектриков основана на том, что эти материалы можно разбить на небольшие домены, поляризация внутри которых может быть независима от поляризации в окружающем веществе.
+1	В	в	ADP	_	_	2	case	_	_
+2	сегнетоэлектриках	сегнетоэлектрика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+3	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	поле	поле	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	поддерживаться	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	5	xcomp	_	_
+7	даже	даже	PART	_	_	9	advmod	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	отключения	отключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Память	память	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	тонких	тонкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	сегнетоэлектриков	сегнетоэлектрик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	основана	основывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	эти	этот	DET	_	Case=Nom|Number=Plur	25	amod	_	_
+25	материалы	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+26	можно	можно	ADV	_	Degree=Pos	21	advcl	_	_
+27	разбить	разбивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	домены	домен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	поляризация	поляризация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+33	внутри	внутри	ADV	_	Degree=Pos	34	advmod	_	_
+34	которых	который	PRON	_	Case=Gen	32	nmod	_	_
+35	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+36	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	37	cop	_	_
+37	независима	независимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	35	obl	_	_
+38	от	от	ADP	_	_	39	case	_	_
+39	поляризации	поляризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	окружающем	окружать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	42	amod	_	_
+42	веществе	вещество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 2671
+# text = Для кодирования в доменах нулей и единиц поляризацию можно направлять вверх или вниз внутри слоя.
+1	Для	для	ADP	_	_	2	case	_	_
+2	кодирования	кодирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	доменах	домена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	нулей	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+8	поляризацию	поляризация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	направлять	направлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	вверх	вверх	ADV	_	Degree=Pos	10	advmod	_	_
+12	или	или	CCONJ	_	_	15	cc	_	_
+13	вниз	вниз	ADV	_	Degree=Pos	15	orphan	_	_
+14	внутри	внутри	ADV	_	Degree=Pos	15	advmod	_	_
+15	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2672
+# text = Одной из главных проблем технологии является отсутствие надежного метода записи информации -- изменения поляризации домена.В существующих методиках для записи информации в домен необходимо прикоснуться к нему острой заряженной иглой.
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem	6	nummod	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	главных	главный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	надежного	надежный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	_
+14	поляризации	поляризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	домена	домен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	В	в	ADP	_	_	19	case	_	_
+18	существующих	существовать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	методиках	методика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	домен	домен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+25	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+26	прикоснуться	прикасаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	25	nsubj	_	_
+27	к	к	ADP	_	_	28	case	_	_
+28	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	26	obl	_	_
+29	острой	острый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+30	заряженной	заряженный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	иглой	игла	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2673
+# text = Это создает сильное электрическое поле, меняющее поляризацию в материале.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сильное	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	электрическое	электрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	поле	поле	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	меняющее	менять	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	поляризацию	поляризация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2674
+# text = Вместе с тем, физическое прикосновение повреждает тонкий слой сегнетоэлектрика или иглу, что со временем ухудшает работоспособность элемента памяти.В новой работе авторы предложили переключать поляризацию в сегнетоэлектрическом домене без физического контакта с ним.
+1	Вместе	вместе	ADV	_	Degree=Pos	7	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	физическое	физический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	прикосновение	прикосновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	повреждает	повреждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	сегнетоэлектрика	сегнетоэлектрик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	иглу	игл	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	0	mark	_	_
+15	со	с	ADP	_	_	16	case	_	_
+16	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+17	ухудшает	ухудшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+18	работоспособность	работоспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+19	элемента	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	памяти.	памяти.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	В	в	ADP	_	_	23	case	_	_
+22	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+24	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+26	переключать	переключать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	dep	_	_
+27	поляризацию	поляризация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	сегнетоэлектрическом	сегнетоэлектрический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	домене	домен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+31	без	без	ADP	_	_	33	case	_	_
+32	физического	физический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2675
+# text = По словам ученых, для этого можно использовать электронные пучки, например, слетающие с острия металлической иглы.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	электронные	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	пучки	пучка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	например	например	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	слетающие	слетать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	острия	острие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+17	металлической	металлический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	иглы	игла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2676
+# text = В теории, таким образом можно работать с доменами размером в пять нанометров -- в десять раз меньше, чем в современных коммерчески доступных устройствах.
+1	В	в	ADP	_	_	2	case	_	_
+2	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	amod	_	_
+5	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	доменами	домен	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+10	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	пять	пять	NUM	_	Case=Acc	13	nummod:gov	_	_
+13	нанометров	нанометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	десять	десять	NUM	_	Case=Acc	17	nummod:gov	_	_
+17	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+18	меньше	малый	ADJ	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чем	чем	SCONJ	_	_	25	cc	_	_
+21	в	в	ADP	_	_	25	case	_	_
+22	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+23	коммерчески	коммерчески	ADV	_	Degree=Pos	24	advmod	_	_
+24	доступных	доступный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2677
+# text = Это соответствует стократному росту плотности записи информации.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	стократному	стократный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	росту	рост	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	плотности	плотность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar
+# sent_id = 2678

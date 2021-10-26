@@ -1,0 +1,77 @@
+# text = # newpar
+# sent_id = 1211
+# text = Концерн "Радиоэлектронные технологии" провел модернизацию самолета-амфибии Бе-200ЧС, расширив его функциональные возможности.
+1	Концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Радиоэлектронные	Радиоэлектронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	модернизацию	модернизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	самолета-	самолета-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	амфибии	амфибия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Бе-200ЧС	Бе-200чс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	расширив	расширивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+14	функциональные	функциональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1212
+# text = Согласносообщениюконцерна, модернизированный самолет может использоваться для тушения пожаров на нефтяных платформах и судах в открытом море на большом удалении от берега.
+1	Согласносообщениюконцерна	Согласносообщениюконцерный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	модернизированный	модернизированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+6	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	5	xcomp	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	тушения	тушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+9	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	нефтяных	нефтяной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	платформах	платформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	судах	судно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	conj	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	открытом	открытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	море	море	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	удалении	удаление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	берега	берег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1213
+# text = Раньше Бе-200ЧС мог тушить только большие по площади лесные пожары.
+1	Раньше	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	Бе-200ЧС	Бе-200Чс	PROPN	_	_	3	obl	_	_
+3	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	тушить	тушить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	большие	больший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	площади	площадь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+9	лесные	лесной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	пожары	пожар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1214
+# text = Работы были проведены на самолете, принадлежащем Министерству по чрезвычайным ситуациям.
+1	Работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	проведены	проводить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	принадлежащем	принадлежать	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	Министерству	Министерство	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	чрезвычайным	чрезвычайный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	ситуациям	ситуация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 1215

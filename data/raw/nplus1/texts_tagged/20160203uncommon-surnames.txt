@@ -1,0 +1,450 @@
+# text = # newpar
+# sent_id = 658
+# text = Испанские ученые выяснили, что мужчины, обладающие довольно редкими фамилиями, являются дальними родственниками друг друга.
+1	Испанские	испанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	обладающие	обладать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	довольно	довольно	ADV	_	Degree=Pos	8	advmod	_	_
+10	редкими	редкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	фамилиями	фамилия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+14	дальними	дальний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	родственниками	родственник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+16	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	fixed	_	_
+17	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 659
+# text = Результаты исследования опубликованы в журнале European Journal of Human Genetics.Фамилия, как правило, передается из поколения в поколение по мужской линии, как и Y-хромосома.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	European	European	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Journal	journal	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Human	Human	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Genetics.	Genetics.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+11	Фамилия	Фамилий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	передается	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	поколение	поколение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+21	по	по	ADP	_	_	23	case	_	_
+22	мужской	мужской	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	линии	линия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	как	как	SCONJ	_	_	27	cc	_	_
+26	и	и	PART	_	_	27	advmod	_	_
+27	Y-хромосома	Y-хромосом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 660
+# text = В своем исследовании ученые попытались выявить связь между фамилиями мужчин и возможным сходством Y-хромосом у них.В исследовании приняли участие почти две тысячи волонтеров из Испании.
+1	В	в	ADP	_	_	3	case	_	_
+2	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	попытались	пытаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	фамилиями	фамилиь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+10	мужчин	мужчина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	возможным	возможной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	сходством	сходство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	conj	_	_
+14	Y-хромосом	Y-хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+15	у	у	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	19	case	_	_
+19	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+20	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	почти	почти	ADV	_	Degree=Pos	23	advmod	_	_
+23	две	два	NUM	_	Case=Nom|Gender=Fem	24	nummod:gov	_	_
+24	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+25	волонтеров	волонтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	Испании	испания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 661
+# text = Ученые выбрали 37 испанских фамилий, которые были распространены в различных регионах страны.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	37	37	NUM	_	_	5	nummod	_	_
+4	испанских	испанский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	распространены	распространять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+13	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 662
+# text = Затем фамилии были поделены на пять групп в зависимости от их встречаемости: очень распространенные (более 150 тысяч носителей), распространенные (от 15 до 150 тысяч носителей), нераспространенные (от 5 до 15 тысяч носителей), редкие (от 3 до 5 тысяч носителей) и очень редкие (от 100 носителей до 3 тысяч).
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	поделены	делить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	пять	пять	NUM	_	Case=Acc	7	nummod:gov	_	_
+7	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+10	от	от	ADP	_	_	12	case	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	встречаемости	встречаемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	_
+15	распространенные	распространенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	150	150	NUM	_	_	19	nummod	_	_
+19	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_
+20	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	распространенные	распространенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	amod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	от	от	ADP	_	_	26	case	_	_
+26	15	15	NUM	_	_	23	nummod	_	_
+27	до	до	ADP	_	_	29	case	_	_
+28	150	150	NUM	_	_	29	nummod	_	_
+29	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+30	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	_
+33	нераспространенные	нераспространенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	parataxis	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	от	от	ADP	_	_	36	case	_	_
+36	5	5	NUM	_	_	33	nummod	_	_
+37	до	до	ADP	_	_	39	case	_	_
+38	15	15	NUM	_	_	39	nummod	_	_
+39	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	_
+40	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	40	punct	_	_
+43	редкие	редкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	61	amod	_	_
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	от	от	ADP	_	_	46	case	_	_
+46	3	3	NUM	_	_	43	nummod	_	_
+47	до	до	ADP	_	_	49	case	_	_
+48	5	5	NUM	_	_	49	nummod	_	_
+49	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	46	nmod	_	_
+50	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	_
+52	и	и	CCONJ	_	_	54	cc	_	_
+53	очень	очень	ADV	_	Degree=Pos	54	advmod	_	_
+54	редкие	редкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	43	conj	_	_
+55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	от	от	ADP	_	_	58	case	_	_
+57	100	100	NUM	_	_	58	nummod	_	_
+58	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	61	obl	_	_
+59	до	до	ADP	_	_	61	case	_	_
+60	3	3	NUM	_	_	61	nummod	_	_
+61	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	conj	_	SpaceAfter=No
+62	)	)	PUNCT	_	_	61	punct	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 663
+# text = После ученые собрали 1766 образцов ДНК у мужчин, которые носили одну из выбранных фамилий.
+1	После	после	ADP	_	_	2	case	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	1766	1766	NUM	_	_	5	nummod	_	_
+5	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	у	у	ADP	_	_	8	case	_	_
+8	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	носили	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	одну	один	NUM	_	Case=Acc|Gender=Fem	11	nummod:gov	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	выбранных	выбирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 664
+# text = Между собой мужчины не были связаны прямыми родственными связями.
+1	Между	между	ADP	_	_	2	case	_	_
+2	собой	себя	PRON	_	Case=Ins	6	obl	_	_
+3	мужчины	мужчин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	не	не	PART	_	_	6	advmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	прямыми	прямой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+8	родственными	родственный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	связями	связь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 665
+# text = В результате исследования ученые выяснили, что корреляция между наличием общей фамилии и сходством Y-хромосом не зависит ни от региона, где проживает её носитель, ни от типа происхождения фамилии (производное от имени отца, от профессии).
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	корреляция	корреляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	наличием	наличие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+11	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	сходством	сходство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	conj	_	_
+15	Y-хромосом	Y-хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+18	ни	ни	CCONJ	_	_	20	cc	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	где	где	ADV	_	Degree=Pos	23	advmod	_	_
+23	проживает	проживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	23	obj	_	_
+25	носитель	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	ни	ни	CCONJ	_	_	29	cc	_	_
+28	от	от	ADP	_	_	29	case	_	_
+29	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+30	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	производное	производный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	parataxis	_	_
+34	от	от	ADP	_	_	35	case	_	_
+35	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+36	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	от	от	ADP	_	_	39	case	_	_
+39	профессии	профессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 666
+# text = Корреляция напрямую связана с распространенностью фамилии.
+1	Корреляция	корреляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	напрямую	напрямую	ADV	_	Degree=Pos	3	advmod	_	_
+3	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	распространенностью	распространенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 667
+# text = Мужчины, которые являлись носителями необычной фамилии (не более 6 тысяч носителей), как правило, имели очень схожие Y-хромосомы (коэффициент корреляции 0,906, p0,0001).
+1	Мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которые	который	PRON	_	Case=Nom	4	nsubj	_	_
+4	являлись	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	_
+5	носителями	носитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+6	необычной	необычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	не	не	PART	_	_	10	advmod	_	_
+10	более	более	ADV	_	Degree=Cmp	12	nummod:gov	_	_
+11	6	6	NUM	_	_	12	nummod	_	_
+12	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+13	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	как	как	SCONJ	_	_	4	mark	_	_
+17	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+20	очень	очень	ADV	_	Degree=Pos	21	advmod	_	_
+21	схожие	схожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	Y-хромосомы	Y-хромосом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	коэффициент	коэффициент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	parataxis	_	_
+25	корреляции	корреляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	0,906	0,906	NUM	_	_	25	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	p0,0001	p0,0001	NUM	_	_	26	nummod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 668
+# text = Таким образом, ученые предположили, что у обладателей редких фамилий имеются общие дальние предки.Согласно исследованию, средний возраст этих фамилий составляет около 500 лет, однако некоторые из них старше и достигают возраста в 800 лет.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	обладателей	обладатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+10	редких	редкой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	имеются	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+13	общие	общий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	дальние	дальний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	предки.	предки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	Согласно	согласно	ADP	_	_	17	case	_	_
+17	исследованию	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	средний	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+21	этих	этот	DET	_	Case=Gen|Number=Plur	22	amod	_	_
+22	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+24	около	около	ADP	_	_	26	case	_	_
+25	500	500	NUM	_	_	26	nummod	_	_
+26	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	однако	однако	ADV	_	Degree=Pos	32	advmod	_	_
+29	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	32	nsubj	_	_
+30	из	из	ADP	_	_	31	case	_	_
+31	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	29	nmod	_	_
+32	старше	старший	ADJ	_	Degree=Cmp	0	conj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	достигают	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	800	800	NUM	_	_	38	nummod	_	_
+38	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 669
+# text = Этот возраст рассчитывался путем определения наиболее недавнего общего предка участников исследования с конкретной фамилией.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	рассчитывался	рассчитываться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	путем	путем	ADP	_	_	5	case	_	_
+5	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	наиболее	наиболее	ADV	_	Degree=Pos	7	advmod	_	_
+7	недавнего	недавний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	предка	предок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	конкретной	конкретный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	фамилией	фамилия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 670
+# text = Так что, отмечают ученые, это не истинный возраст фамилии, а скорее точка во времени, когда у участников был обнаружен самый недавний общий предок.В то же время, у носителей распространенных фамилий такого сходства Y-хромосом обнаружено не было.
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	истинный	истинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+11	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	14	cc	_	_
+14	скорее	скорее	ADV	_	Degree=Pos	10	conj	_	_
+15	точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+16	во	в	ADP	_	_	17	case	_	_
+17	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	когда	когда	SCONJ	_	_	17	mark	_	_
+20	у	у	ADP	_	_	21	case	_	_
+21	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	обнаружен	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	_
+24	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	недавний	недавний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	предок	предок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj:pass	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	В	в	ADP	_	_	32	case	_	_
+30	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	32	amod	_	_
+31	же	же	PART	_	_	30	advmod	_	_
+32	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	у	у	ADP	_	_	35	case	_	_
+35	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	obl	_	_
+36	распространенных	распространенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+38	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	39	amod	_	_
+39	сходства	сходство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+40	Y-хромосом	Y-хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	41	obl:agent	_	_
+41	обнаружено	обнаруживать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	23	conj	_	_
+42	не	не	PART	_	_	43	advmod	_	_
+43	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	41	aux:pass	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 671
+# text = Подобное исследование, ранее проведенное британскими учеными, также дало сходные результаты.
+1	Подобное	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ранее	ранее	ADV	_	Degree=Pos	5	advmod	_	_
+5	проведенное	проводить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+6	британскими	британский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	дало	давать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	сходные	сходный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 672
+# text = Однако исследование, проведенное ирландскими учеными, показало противоположный результат.
+1	Однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проведенное	проводить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	ирландскими	ирландский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	противоположный	противоположный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 673
+# text = В Ирландии носители распространенных фамилий имели схожие Y-хромосомы, в то время как обладатели редких фамилий не обладали таким сходством.Кристина Уласович
+1	В	в	ADP	_	_	2	case	_	_
+2	Ирландии	Ирландия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	носители	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	распространенных	распространенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	схожие	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	Y-хромосомы	Y-хромосома	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	14	cc	_	_
+11	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	как	как	SCONJ	_	_	12	fixed	_	_
+14	обладатели	обладатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+15	редких	редкой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	фамилий	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	обладали	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+19	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_
+20	сходством.	сходствоманица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	Кристина	Кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+22	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
+
+# newpar
+# sent_id = 674

@@ -1,0 +1,163 @@
+# text = # newpar
+# sent_id = 4275
+# text = Американский авиастроительный концерн Boeing провел летные испытания нового бортового компьютера ADCP II, оборудованного многоядерным процессором, для истребителя-бомбардировщика F-15E Strike Eagle.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	летные	летный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+8	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	бортового	бортовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	ADCP	Adcp	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	II	ii	NUM	_	_	14	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	оборудованного	оборудовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+15	многоядерным	многоядерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	процессором	процессор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	истребителя-бомбардировщика	истребителя-бомбардировщик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+20	F-15E	F-15e	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Strike	Strike	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Eagle	Eagle	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4276
+# text = Как сообщает Defense Aerospace, испытательный полет продолжался 2 часа 53 минуты; испытания проводились на авиабазе "Эглин" во Флориде.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Defense	Defense	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Aerospace	Aerospace	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	испытательный	испытательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	продолжался	продолжаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	2	2	NUM	_	_	10	nummod	_	_
+10	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	53	53	NUM	_	_	12	nummod	_	_
+12	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	_	_	12	punct	_	_
+14	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj:pass	_	_
+15	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	8	conj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	авиабазе	авиабаза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Эглин	Эглин	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	во	в	ADP	_	_	22	case	_	_
+22	Флориде	флорида	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4277
+# text = Проверка вычислительной системы признана успешной.Новый компьютер способен в несколько потоков обрабатывать данные с различных бортовых систем истребителя и выводить данные на многофункциональные дисплеи.
+1	Проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	вычислительной	вычислительной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	признана	признавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	успешной	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	parataxis	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	обрабатывать	обрабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+14	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	13	obl	_	_
+15	с	с	ADP	_	_	14	case	_	_
+16	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	бортовых	бортовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+19	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+22	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	21	obl	_	_
+23	на	на	ADP	_	_	22	case	_	_
+24	многофункциональные	многофункциональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	дисплеи	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4278
+# text = Благодаря этому увеличивается скорость обработки информации и точность наведения вооружения.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	увеличивается	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+9	наведения	наведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4279
+# text = Кроме того, новая система имеет большее время наработки на ошибку, чем нынешние компьютеры F-15 с одноядерными процессорами.На F-15 ADCP II будет управлять пассивно-активными системами самозащиты, инфракрасной поисково-следящей системой, радиолокационной станцией и системами связи.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	большее	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	наработки	наработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	ошибку	ошибка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чем	чем	SCONJ	_	_	15	cc	_	_
+14	нынешние	нынешний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	advmod	_	_
+16	F-15	f-15	X	_	Foreign=Yes	15	flat:foreign	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	одноядерными	одноядерный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	процессорами	процессор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	На	на	ADP	_	_	22	case	_	_
+22	F-15	F-15	NOUN	_	_	26	obl	_	_
+23	ADCP	Adcp	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	II	Ii	NUM	_	_	26	advmod	_	_
+25	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+26	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	nsubj	_	_
+27	пассивно-	пассивно-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	активными	активный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	_
+30	самозащиты	самозащита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	инфракрасной	инфракрасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+33	поисково-следящей	поисково-следящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	радиолокационной	радиолокационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	станцией	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	_
+40	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 4280
+# text = Новая вычислительная система для истребителя позволяет несколько проще и быстрее разрабатывать новое программное обеспечение и обновлять его.Василий Сычёв
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	вычислительная	вычислительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	несколько	несколько	ADV	_	Degree=Pos	8	advmod	_	_
+8	проще	просто	ADV	_	Degree=Cmp	11	advmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	быстрее	быстро	ADV	_	Degree=Cmp	11	advmod	_	_
+11	разрабатывать	разрабатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+12	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	обновлять	обновлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	conj	_	_
+17	его.Василий	его.Василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_
+
+# newpar
+# sent_id = 4281

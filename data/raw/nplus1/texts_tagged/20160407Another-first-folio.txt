@@ -1,0 +1,299 @@
+# text = # newpar
+# sent_id = 5534
+# text = В поместье Маунт Стюарт на шотландском острове Бьют нашли первое собрание пьес Шекспира (первое фолио).
+1	В	в	ADP	_	_	2	case	_	_
+2	поместье	поместье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	Маунт	Маунт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	шотландском	шотландский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	острове	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+8	Бьют	бьвать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+10	первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	собрание	собрание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	пьес	пьо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	Шекспира	Шекспир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	фолио	фолио	X	_	Foreign=Yes	12	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5535
+# text = Книга была издана в 1623 году, через семь лет после смерти драматурга.
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	издана	издавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	1623	1623	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	через	через	ADP	_	_	10	case	_	_
+9	семь	семь	NUM	_	Case=Acc	10	nummod:gov	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+11	после	после	ADP	_	_	10	case	_	_
+12	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	драматурга	драматург	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5536
+# text = О находке сообщает The Guardian.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	The	the	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Guardian	guardian	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5537
+# text = Книга принадлежала Айзеку Риду, редактору произведений Шекспира, жившему в Лондоне в XVIII веке.
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	принадлежала	принадлежать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Айзеку	Айзек	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+4	Риду	Рид	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	редактору	редактор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	произведений	произведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	Шекспира	Шекспир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	жившему	жить	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Лондоне	лондон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	XVIII	xviii	NUM	_	_	15	nummod	_	_
+15	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5538
+# text = Сохранилось письмо Рида, в котором он пишет, что приобрел фолио в 1786 году.
+1	Сохранилось	сохраняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	письмо	письмо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+3	Рида	рид	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	котором	который	PRON	_	Case=Loc	8	obl	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	приобрел	приобретать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+12	фолио	фолио	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	1786	1786	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5539
+# text = После его смерти в 1807 году книга была продана, а затем ее следы теряются.
+1	После	после	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	1807	1807	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	продана	продавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	15	cc	_	_
+12	затем	затем	ADV	_	Degree=Pos	15	advmod	_	_
+13	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
+14	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+15	теряются	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5540
+# text = В списке сохранившихся экземпляров первого собрания пьес, составленного в 1906 году, книга не значится.
+1	В	в	ADP	_	_	2	case	_	_
+2	списке	список	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+3	сохранившихся	сохраняться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	4	amod	_	_
+4	экземпляров	экземпляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	собрания	собрание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	пьес	пьо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	составленного	оставлеть	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	1906	1906	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	значится	значиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5541
+# text = В какой-то момент между этими двумя датами фолио приобрел владелец Маунт Стюарт, так как в каталоге библиотеки поместья книга упоминается в 1896 году.
+1	В	в	ADP	_	_	3	case	_	_
+2	какой-то	какой-то	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+4	между	между	ADP	_	_	7	case	_	_
+5	этими	этот	DET	_	Case=Ins|Number=Plur	7	amod	_	_
+6	двумя	два	NUM	_	Case=Ins	7	nummod	_	_
+7	датами	дат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+8	фолио	фолио	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	приобрел	приобредать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Маунт	Маунт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	9	mark	_	_
+15	как	как	SCONJ	_	_	14	fixed	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	каталоге	каталог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+18	библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	поместья	поместье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+21	упоминается	упоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	1896	1896	NUM	_	_	24	nummod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5542
+# text = Книга, найденная в поместье необычна, вместо одного большого тома она была переплетена в три, с большим числом пустых страниц, которые, возможно, предполагалось использовать для иллюстраций.
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	найденная	находить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	поместье	поместие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+6	необычна	необычный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вместо	вместо	ADP	_	_	11	case	_	_
+9	одного	один	NUM	_	Case=Gen|Gender=Masc	11	nummod	_	_
+10	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	тома	том	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	переплетена	переплеитать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	три	три	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	числом	число	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	conj	_	_
+21	пустых	пустой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	страниц	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	28	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	возможно	возможно	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	предполагалось	предполагаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
+29	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	иллюстраций	иллюстрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 5543
+# text = Подлинность фолио была удостоверена профессором Оксфордского университета шекспироведом Эммой Смит.
+1	Подлинность	подлинность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	фолио	фолио	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	удостоверена	удостоверять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	профессором	профессор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+6	Оксфордского	оксфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	шекспироведом	шекспировед	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	Эммой	Эмма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Смит	Сметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5544
+# text = Вместе с найденной книгой известно 234 сохранившиеся копии первого собрания пьес Шекспира.
+1	Вместе	вместе	ADV	_	Degree=Pos	5	advmod	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	найденной	найденный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	книгой	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+5	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	234	234	NUM	_	_	8	nummod	_	_
+7	сохранившиеся	сохраняться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	8	amod	_	_
+8	копии	копия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	_
+9	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	собрания	собрание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	пьес	пьосить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	Шекспира	шекспир	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5545
+# text = Первым фолио называлось собрание 36 пьес Шекспира, изданное в 1623 году Джоном Хемингсом и Генри Конделлом, коллегами Шекспира по театру "Глобус".
+1	Первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	фолио	фолио	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	называлось	называться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	собрание	собрание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+5	36	36	NUM	_	_	4	nummod	_	_
+6	пьес	пьосить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	Шекспира	шекспир	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	изданное	издавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	1623	1623	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	Джоном	джон	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	appos	_	_
+14	Хемингсом	Хемингс	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	Генри	Генри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+17	Конделлом	Конделл	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	appos	_	_
+20	Шекспира	Шекспир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	театру	театр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	Глобус	глобус	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5546
+# text = Более половины пьес, вошедших в издание, например "Буря" или "Макбет", были напечатаны в нем впервые.
+1	Более	более	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	_
+3	пьес	пьо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вошедших	входить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	издание	издание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	например	например	ADV	_	Degree=Pos	11	advmod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Буря	Бурь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	или	или	CCONJ	_	_	15	cc	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Макбет	Макбет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	напечатаны	напечатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+22	впервые	впервые	ADV	_	Degree=Pos	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5547
+# text = Книга была напечатана размером в полный печатный лист (по-латыни in folio) и содержала 998 страниц большого формата.Екатерина Русакова
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	напечатана	напечатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	полный	полный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	печатный	печатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	лист	лист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	по-латыни	по-латынить	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+11	in	in	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	folio	folio	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	содержала	содержать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+16	998	998	NUM	_	_	17	nummod	_	_
+17	страниц	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+18	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	формата.	формата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 5548

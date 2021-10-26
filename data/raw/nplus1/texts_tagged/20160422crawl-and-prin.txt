@@ -1,0 +1,81 @@
+# text = # newpar
+# sent_id = 2309
+# text = Специалисты Siemens Corporate Technology создали экспериментальный проект роботов-пауков, способных совместно работать над созданием одного объекта спомощью аддитивных технологий.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Siemens	Siemens	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Corporate	Corporate	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Technology	technology	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	экспериментальный	экспериментальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	роботов-пауков	роботов-паук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+11	совместно	совместно	ADV	_	Degree=Pos	12	advmod	_	_
+12	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+13	над	над	ADP	_	_	14	case	_	_
+14	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	одного	один	NUM	_	Case=Gen|Gender=Masc	16	nummod	_	_
+16	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+18	аддитивных	аддитивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2310
+# text = Кратко оразработке сообщает The Engineer.
+1	Кратко	кратко	ADV	_	Degree=Pos	3	advmod	_	_
+2	оразработке	оразработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	The	the	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Engineer	Engineer	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2311
+# text = Гексаподы под названием SiSipis оборудованы экструдером для печати PLA-пластиком, атакже камерой илазерным сканером для изучения рабочей поверхности.
+1	Гексаподы	Гексапод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	под	под	ADP	_	_	3	case	_	_
+3	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	SiSipis	SiSipis	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	оборудованы	оборудовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	экструдером	экструдер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	для	для	ADP	_	_	6	case	_	_
+8	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	PLA	Pla	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	пластиком	пластик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	атакже	атакже	CCONJ	_	_	14	cc	_	_
+14	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
+15	илазерным	илазерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	сканером	сканер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	рабочей	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2312
+# text = Управляются робопауки модифицированной версией системы автоматизированного проектированияNX, которая координирует совместную работу сразу нескольких устройств над одним объектом.
+1	Управляются	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	робопауки	робопаука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+3	модифицированной	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+4	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl:agent	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	автоматизированного	автоматизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	проектированияNX	проектированияnx	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	координирует	координировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+11	совместную	совместной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	сразу	сразу	ADV	_	Degree=Pos	14	advmod	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	15	nummod	_	_
+15	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+16	над	над	ADP	_	_	18	case	_	_
+17	одним	один	NUM	_	Case=Ins|Gender=Masc	18	nummod	_	_
+18	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 2313

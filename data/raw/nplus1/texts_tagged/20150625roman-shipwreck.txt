@@ -1,0 +1,189 @@
+# text = # newpar
+# sent_id = 4693
+# text = Итальянские водолазы обнаружили древнеримский корабль, затонувший около 2000 лет назад в проливе Бонифачо между островами Сардиния и Корсика.
+1	Итальянские	итальянский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	водолазы	водолаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	древнеримский	древнеримский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	затонувший	затонувать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+8	около	около	ADP	_	_	10	case	_	_
+9	2000	2000	NUM	_	_	10	nummod	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+11	назад	назад	ADV	_	Degree=Pos	7	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	проливе	пролив	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+14	Бонифачо	Бонифачо	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	между	между	ADP	_	_	16	case	_	_
+16	островами	острово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	13	nmod	_	_
+17	Сардиния	Сардиние	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	Корсика	Корсик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4694
+# text = Судно перевозило груз терракотовой черепицы, вероятно, произведенной неподалеку от Рима.
+1	Судно	судно	ADV	_	Degree=Pos	2	advmod	_	_
+2	перевозило	перевожать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	груз	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	терракотовой	терракотовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	черепицы	черепица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	вероятно	вероятно	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	произведенной	произведять	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+10	неподалеку	неподалеку	ADV	_	Degree=Pos	9	advmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	Рима	рим	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4695
+# text = Об открытии сообщает The Telegraph.Место крушения было найдено в результате совместной операции итальянской полиции и археологов.
+1	Об	о	ADP	_	_	2	case	_	_
+2	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+4	The	The	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Telegraph.	Telegraph.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	Место	место	ADP	_	_	7	case	_	_
+7	крушения	крушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	найдено	находить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	итальянской	итальянской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4696
+# text = По словам археологов, и сам корабль и его груз хорошо сохранились.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	_
+3	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	груз	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
+11	хорошо	хорошо	ADV	_	Degree=Pos	12	advmod	_	_
+12	сохранились	сохраняться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4697
+# text = Трюм корабля размером 20.8 квадратных метров был полностью заполнен плитками черепицы.
+1	Трюм	Трюм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	20.8	20.8	NUM	_	_	6	nummod	_	_
+5	квадратных	квадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+8	полностью	полностью	ADV	_	Degree=Pos	9	advmod	_	_
+9	заполнен	заполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	плитками	плитк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+11	черепицы	черепица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4698
+# text = Авторы открытия предполагают, что корабль следовал или в Испанию, или к западному побережью Сардинии.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	следовал	следовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Испанию	испания	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	или	или	CCONJ	_	_	15	cc	_	_
+13	к	к	ADP	_	_	15	case	_	_
+14	западному	западный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	побережью	побережье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+16	Сардинии	сардиния	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4699
+# text = Его груз мог предназначаться для строительства виллы богатого чиновника или торговца.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	груз	груз	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	предназначаться	предназначаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	виллы	вилла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	богатого	богатый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	чиновника	чиновник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	торговца	торговец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4700
+# text = Ученые отмечают, что слишком большой вес черепицы мог в итоге стать одной из причин кораблекрушения.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	слишком	слишком	ADV	_	Degree=Pos	6	advmod	_	_
+6	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	вес	вес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+8	черепицы	черепица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+13	одной	один	NUM	_	Case=Ins|Gender=Fem	12	nummod	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	кораблекрушения	кораблекрушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4701
+# text = Для археологов эта находка может стать важным источником информации о торговле в древнем Риме.
+1	Для	для	ADP	_	_	2	case	_	_
+2	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+3	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	находка	находка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	xcomp	_	_
+7	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	источником	источник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	торговле	торговля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	древнем	древний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Риме	рим	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4702
+# text = Полиция же в настоящее время опасается внимания "черных археологов", поэтому не разглашает точное место крушения.
+1	Полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	в	в	ADP	_	_	6	advmod	_	_
+4	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	fixed	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	опасается	опасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	черных	черный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	поэтому	поэтому	ADV	_	Degree=Pos	15	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	разглашает	разглашать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+16	точное	точный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+18	крушения	крушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 4703

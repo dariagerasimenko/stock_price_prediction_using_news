@@ -1,0 +1,467 @@
+# text = # newpar
+# sent_id = 5027
+# text = Ракета Falcon 9 взорвалась на 139-й секунде полета.
+1	Ракета	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Falcon	Falcon	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	9	9	NUM	_	_	1	nummod	_	_
+4	взорвалась	взорваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	139-й	139-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	секунде	секунда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5028
+# text = Старт транслировался в прямом эфире на сайте NASA.Согласно программе полета, первые 159 секунд работает первая ступень.
+1	Старт	старт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	транслировался	транслироваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	прямом	прямой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	эфире	эфир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+8	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod	_	SpaceAfter=No
+9	Согласно	согласно	ADP	_	_	10	case	_	_
+10	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	159	159	NUM	_	_	2	nummod	_	_
+15	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	первая	первий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ступень	ступень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5029
+# text = Через три секунды после этого она отсоединяется и включается вторая ступень.
+1	Через	через	ADP	_	_	3	case	_	_
+2	три	три	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+6	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj:pass	_	_
+7	отсоединяется	отсоединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	включается	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+10	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	ступень	ступень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5030
+# text = Таким образом, неполадки возникли во время работы именно первой ступени.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	неполадки	неполадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	возникли	возникать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	во	в	ADP	_	_	8	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	именно	именно	PART	_	_	10	advmod	_	_
+10	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5031
+# text = Известно, что взрыв стал результатом именно неполадки, а не был вызван командой с Земли.Вскоре после аварии Элон Маск сообщил в своем Twitter, что незадолго до взрыва во второй ступени наблюдалась аномалия: повышенное давление в баке с кислородом.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+6	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	именно	именно	PART	_	_	6	advmod	_	_
+8	неполадки	неполадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	13	cc	_	_
+11	не	не	PART	_	_	13	advmod	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	вызван	вызывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+14	командой	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	Земли.	Земли.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	Вскоре	вскоре	ADV	_	Degree=Pos	16	advmod	_	_
+18	после	после	ADP	_	_	19	case	_	_
+19	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+20	Элон	Элон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+21	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+22	сообщил	сообщать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	25	amod	_	_
+25	Twitter	Twitter	PROPN	_	Foreign=Yes	22	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	что	что	SCONJ	_	_	22	mark	_	_
+28	незадолго	незадолго	ADV	_	Degree=Pos	34	advmod	_	_
+29	до	до	ADP	_	_	30	case	_	_
+30	взрыва	взрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
+31	во	в	ADP	_	_	33	case	_	_
+32	второй	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	ступени	ступень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+34	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	22	advcl	_	_
+35	аномалия	аномалия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj:pass	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	35	punct	_	_
+37	повышенное	повышать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+38	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	parataxis	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	баке	бак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	nmod	_	_
+41	с	с	ADP	_	_	42	case	_	_
+42	кислородом	кислород	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 5032
+# text = При этом Маск добавил, что детали аварии предстоит выяснить специальной комиссии.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	добавил	добавлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+8	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	специальной	специальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	комиссии	комиссия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5033
+# text = В частности, необходимо проанализировать, как сообщается на сайте NASA, данные собранные по 3 000 каналам телеметрии.В настоящее время вдоль побережья Флориды идет сбор обломков.
+1	В	в	ADP	_	_	4	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	проанализировать	анализировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	8	mark	_	_
+8	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	advmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+11	NASA	Nasa	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	27	obj	_	_
+14	собранные	собирать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+15	по	по	ADP	_	_	18	case	_	_
+16	3	3	NUM	_	_	18	nummod	_	_
+17	000	000	NUM	_	_	16	nummod	_	_
+18	каналам	канал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+19	телеметрии	телеметрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	В	в	ADP	_	_	27	advmod	_	_
+22	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	fixed	_	_
+23	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	_
+24	вдоль	вдоль	ADP	_	_	25	case	_	_
+25	побережья	побережье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+26	Флориды	Флорида	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+28	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	обломков	обломок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5034
+# text = Американское космическое агентство выпустило специальное предупреждение, согласно которому гражданским лицам не следует приближаьбся к обломкам.
+1	Американское	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	выпустило	выпускать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	специальное	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	предупреждение	предупреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	согласно	согласно	ADP	_	_	9	case	_	_
+9	которому	который	PRON	_	Case=Dat	13	obl	_	_
+10	гражданским	гражданский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	лицам	лицо	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+14	приближаьбся	приближаьбся	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	nsubj	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	обломкам	обломк	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5035
+# text = Вместо этого при обнаружении следует обратиться непосредственно в агентство.На борту ракеты находилась грузовая капсула Dragon.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	обнаружении	обнаружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+5	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	обратиться	обращаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	nsubj	_	_
+7	непосредственно	непосредственно	ADV	_	Degree=Pos	6	advmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	агентство	агентство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	На	на	ADP	_	_	12	case	_	_
+12	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+13	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+15	грузовая	грузовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	капсула	капсула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	Dragon	Dragon	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5036
+# text = Она везла продовольствие и приборы на Международную космическую станцию.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	везла	везать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	продовольствие	продовольствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	приборы	прибор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
+6	на	на	ADP	_	_	9	case	_	_
+7	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5037
+# text = В NASA и Роскосмосе заявили, что потеря груза не скажется на работе экипажа МКС.
+1	В	в	ADP	_	_	2	case	_	_
+2	NASA	Nasa	PROPN	_	Foreign=Yes	5	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	Роскосмосе	Роскосмос	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	_
+5	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	скажется	сказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5038
+# text = "В настоящее время на МКС имеется достаточный запас всего необходимого для обеспечения нормальной жизнедеятельности и работы членов экспедиции МКС-44," - говорится в сообщении Федерального космического агентства.Среди прочего на орбиту планировалось доставить специальный стыковочный адаптер.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	В	в	ADP	_	_	6	case	_	_
+3	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	fixed	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	МКС	МКс	PROPN	_	_	7	obl	_	_
+7	имеется	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	достаточный	достаточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+10	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	11	amod	_	_
+11	необходимого	необходимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	nmod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	жизнедеятельности	жизнедеятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+18	членов	член	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	экспедиции	экспедиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	44,"	44,"	PUNCT	_	_	20	punct	_	_
+23	-	-	PUNCT	_	_	20	punct	_	_
+24	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	parataxis	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+27	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+28	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	агентства.	агентства.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	Среди	среди	ADP	_	_	31	case	_	_
+31	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	nmod	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	_
+34	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+35	доставить	доставивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	nsubj:pass	_	_
+36	специальный	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+37	стыковочный	стыковочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	адаптер	адаптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5039
+# text = Дело в том, что часть стыковочных узлов станции выполнена по технологии APAS-95, разработанной еще для стыковки шаттлов с космической станцией "Мир".
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+7	стыковочных	стыковочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	выполнена	выполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	технологии	технология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+13	APAS-	APAS-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	95	95	NUM	_	_	10	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	разработанной	разрабатывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+17	еще	еще	ADV	_	Degree=Pos	16	advmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	стыковки	стыковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+20	шаттлов	шаттл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	космической	космический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	станцией	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	nmod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Мир	мир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5040
+# text = Адаптер позволит перевести блок на более новый формат NDS/IDSS.
+1	Адаптер	Адаптер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	перевести	переводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	блок	блок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	на	на	ADP	_	_	8	case	_	_
+6	более	более	ADV	_	Degree=Cmp	7	advmod	_	_
+7	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	формат	формат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+9	NDS/IDSS	Nds/idss	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5041
+# text = В NASA уже заявили, что изготовят еще.
+1	В	в	ADP	_	_	2	case	_	_
+2	NASA	Nasa	PROPN	_	Foreign=Yes	4	obl	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	изготовят	изготовлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+8	еще	еще	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5042
+# text = Ракета-носитель Falcon 9 была разработана в 2000-х годах, а ее первый запуск состоялся в июне 2010 года.
+1	Ракета-носитель	Ракета-носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Falcon	Falcon	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	9	9	NUM	_	_	1	nummod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	2000-х	2000-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	14	cc	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	13	nmod	_	_
+12	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	запуск	запуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	2010	2010	NUM	_	_	18	nummod	_	_
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5043
+# text = Двигатели носителя работают на керосине и жидком кислороде в качестве окислителя.
+1	Двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	керосине	керосина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	жидком	жидкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	кислороде	кислород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	окислителя	окислитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5044
+# text = Ракета может нести полезную нагрузку массой от 4,8 до 13 тонн.
+1	Ракета	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	4,8	4,8	NUM	_	_	3	nummod	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	13	13	NUM	_	_	11	nummod	_	_
+11	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5045
+# text = Стоимость вывода коммерческих спутников на орбиту носителем оценивается в 61-62 миллиона долларов.Среди прочего Falcon 9 представляет интерес возвращаемой первой ступенью.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+2	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	коммерческих	коммерческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+7	носителем	носитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+8	оценивается	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	13	case	_	_
+10	61	61	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	-62	-62	NUM	_	_	12	nummod	_	_
+12	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	Среди	среди	ADP	_	_	15	case	_	_
+15	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	iobj	_	_
+16	Falcon	Falcon	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	9	9	NUM	_	_	16	nummod	_	_
+18	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+19	интерес	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	возвращаемой	возвращать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+21	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	ступенью	ступень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5046
+# text = После отработки ступень должна не падать, а опускаться на специальную платформу в океане.
+1	После	после	ADP	_	_	2	case	_	_
+2	отработки	отработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+3	ступень	ступень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	падать	падать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	9	cc	_	_
+9	опускаться	опускаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	специальную	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	океане	океан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5047
+# text = Последняя попытка посадить ступень на платформу была в апреле 2015 года.
+1	Последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	попытка	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	ступень	ступень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+10	2015	2015	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5048
+# text = Как и две попытки до нее она закончилась неудачей.
+1	Как	как	ADV	_	Degree=Pos	4	cc	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	две	два	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+4	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+5	до	до	ADP	_	_	6	case	_	_
+6	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+8	закончилась	заканчиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	неудачей	неудачий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5049
+# text = Четвертую попытку планировалось предпринять после сегодняшнего запуска.
+1	Четвертую	четвертый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	попытку	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	предпринять	предпринимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	после	после	ADP	_	_	7	case	_	_
+6	сегодняшнего	сегодняшний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar
+# sent_id = 5050

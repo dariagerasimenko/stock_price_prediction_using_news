@@ -1,0 +1,302 @@
+# text = # newpar
+# sent_id = 5999
+# text = Грибы, собранные в Антарктике, смогли выжить на МКС в условиях, приближенных к марсианским.
+1	Грибы	гриб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	собранные	собирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Антарктике	Антарктика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	приближенных	приближать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	марсианским	марсианский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 6000
+# text = Статья об этом опубликована в журнале Astrobiology.В рамках эксперимента ученые собрали в Антарктике в сухих долинах Мак-Мердо два вида криптоэндолитов: грибы Cryomyces antarcticus и Cryomyces minteri.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Astrobiology	astrobiology	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	В	в	ADP	_	_	10	case	_	_
+10	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+11	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Антарктике	Антарктика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	сухих	сухий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	долинах	долина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+19	Мак-Мердо	Мак-Мерд	ADP	_	_	21	case	_	_
+20	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	21	nummod:gov	_	_
+21	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+22	криптоэндолитов	криптоэндолит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	22	punct	_	_
+24	грибы	гриб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	appos	_	_
+25	Cryomyces	Cryomyces	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	antarcticus	antarcticus	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	Cryomyces	Cryomyces	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+29	minteri	minteri	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 6001
+# text = Криптоэндолиты -- это организмы, приспособленные к жизни в сложных условиях и обитающие в пустотах в пористых породах.
+1	Криптоэндолиты	Криптоэндолит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	организмы	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	приспособленные	приспособлять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	сложных	сложный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	обитающие	обитать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	пустотах	пустоты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	пористых	пористый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	породах	породи	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 6002
+# text = Цель эксперимента состояла в том, чтобы отправить эти грибы на МКС и проверить, как будут реагировать организмы на марсианские условия и на нахождение в космосе.В течение 18 месяцев грибы были помещены в специальные ячейки в камере на платформе EXPOSE-E, созданной для экспериментов.
+1	Цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	состояла	состоять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+8	отправить	отправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+9	эти	этот	DET	_	Case=Acc|Number=Plur	10	amod	_	_
+10	грибы	гриб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	МКС	Мкс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	ADV	_	Degree=Pos	18	advmod	_	_
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	реагировать	реагировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+19	организмы	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	марсианские	марсианский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obl	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	нахождение	нахождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	conj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	космосе.	космосе.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+28	В	в	ADP	_	_	31	case	_	_
+29	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	fixed	_	_
+30	18	18	NUM	_	_	31	nummod	_	_
+31	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	_
+32	грибы	гриб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
+33	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	помещены	помещать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	parataxis	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	специальные	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+37	ячейки	ячейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	34	obl	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	камере	камера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+40	на	на	ADP	_	_	41	case	_	_
+41	платформе	платформ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	nmod	_	_
+42	EXPOSE-E	Expose-e	X	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	созданной	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	41	amod	_	_
+45	для	для	ADP	_	_	46	case	_	_
+46	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 6003
+# text = Всё это время они подвергались воздействию условий, близких к марсианским.
+1	Всё	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+2	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	подвергались	подвергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	воздействию	воздействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+7	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	близких	близкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	марсианским	марсианский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 6004
+# text = Речь идет об атмосфере, состоящей на 95 процентов из углекислого газа, 2,7 процентов азота, 1,6 процентов аргона, 0,15 процентов кислорода.
+1	Речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	об	о	ADP	_	_	4	case	_	_
+4	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	состоящей	состоять	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	95	95	NUM	_	_	9	nummod	_	_
+9	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	2,7	2,7	NUM	_	_	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+16	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	1,6	1,6	NUM	_	_	19	nummod	_	_
+19	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
+20	аргона	аргон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	0,15	0,15	NUM	_	_	23	nummod	_	_
+23	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_
+24	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 6005
+# text = Кроме того, камера содержала всего 370 миллионных долей воды и находилась под давлением примерно в сто раз меньшим, чем на Земле, а грибы все время подвергались воздействию ультрафиолета примерно эквивалентному марсианскому.В результате эксперимента, 60 процентов клеток грибов остались неповрежденными, а точнее, согласно отчету ученых, их ДНК не была повреждена.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	содержала	содержать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	всего	всего	PART	_	_	7	advmod	_	_
+7	370	370	NUM	_	_	9	nummod	_	_
+8	миллионных	миллионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	долей	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+10	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+13	под	под	ADP	_	_	14	case	_	_
+14	давлением	давление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	сто	сто	NUM	_	Case=Acc	18	nummod:gov	_	_
+18	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+19	меньшим	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	23	cc	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	Земле	земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	29	cc	_	_
+26	грибы	гриб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+27	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obl	_	_
+29	подвергались	подвергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+30	воздействию	воздействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+31	ультрафиолета	ультрафиолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	примерно	примерно	ADV	_	Degree=Pos	33	advmod	_	_
+33	эквивалентному	эквивалентный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+34	марсианскому	марсианский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	В	в	ADP	_	_	37	case	_	_
+37	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	appos	_	_
+38	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	60	60	NUM	_	_	41	nummod	_	_
+41	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	nsubj	_	_
+42	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+43	грибов	гриб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+44	остались	оставаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	37	conj	_	_
+45	неповрежденными	неповрежденный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	а	а	CCONJ	_	_	51	cc	_	_
+48	точнее	точно	ADV	_	Degree=Cmp	51	parataxis	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	согласно	согласно	ADP	_	_	51	case	_	_
+51	отчету	отчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	44	conj	_	_
+52	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	51	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	55	nmod	_	_
+55	ДНК	Днк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	58	nsubj	_	_
+56	не	не	PART	_	_	58	advmod	_	_
+57	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	58	aux:pass	_	_
+58	повреждена	повреждать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	44	conj	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	58	punct	_	_
+
+# sent_id = 6006
+# text = Ученые считают, что эти результаты помогут оценить жизнеспособность и стабильность микроорганизмов и биоиндикаторов на поверхности Марса, что будет актуально для поисков жизни на планете.Не так давно ученые проверяли возможность жизни на Марсе в сухих долинах Мак-Мердо, вечная мерзлота которых максимально похожа на марсианский грунт.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	эти	этот	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	стабильность	стабильность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+12	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	биоиндикаторов	биоиндикатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+17	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	PRON	_	Case=Nom	21	nsubj	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	актуально	актуальный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	поисков	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	планете.	планетбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	SpaceAfter=No
+27	Не	не	PART	_	_	28	advmod	_	_
+28	так	так	ADV	_	Degree=Pos	31	advmod	_	_
+29	давно	давно	ADV	_	Degree=Pos	31	advmod	_	_
+30	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+31	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	nsubj	_	_
+32	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	сухих	сухий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	38	amod	_	_
+38	долинах	долина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	32	nmod	_	_
+39	Мак-Мердо	Мак-Мердо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	мерзлота	мерзлота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	45	nsubj	_	_
+43	которых	который	PRON	_	Case=Gen	42	nmod	_	_
+44	максимально	максимально	ADV	_	Degree=Pos	45	advmod	_	_
+45	похожа	похожий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	31	parataxis	_	_
+46	на	на	ADP	_	_	48	case	_	_
+47	марсианский	марсианский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	_
+48	грунт	грунт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 6007
+# text = Детальный анализ почв долины показал, что активная жизнь микроорганизмов там отсутствует.Кристина Уласович
+1	Детальный	детальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	почв	чть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	_
+4	долины	долина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	там	там	ADV	_	Degree=Pos	12	advmod	_	_
+12	отсутствует.	отсутствуето	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	SpaceAfter=No
+13	Кристина	Кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_
+14	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_
+
+# newpar
+# sent_id = 6008

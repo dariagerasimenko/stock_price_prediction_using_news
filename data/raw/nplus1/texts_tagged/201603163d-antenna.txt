@@ -1,0 +1,154 @@
+# text = # newpar
+# sent_id = 1309
+# text = Европейское Космическое Агентство (ESA) приступило к испытаниям двухзеркальных антенн для небольших спутников.
+1	Европейское	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	Космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ESA	Esa	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	приступило	приступать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
+10	двухзеркальных	двухзеркальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	антенн	антенна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	для	для	ADP	_	_	11	case	_	_
+13	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1310
+# text = Примечательно, что антенны впервые в истории агентства были целиком напечатаны на 3D-принтере.
+1	Примечательно	примечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	антенны	антенн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+5	впервые	впервые	ADV	_	Degree=Pos	7	advmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+10	целиком	целиком	ADV	_	Degree=Pos	11	advmod	_	_
+11	напечатаны	напечатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	3D	3d	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+14	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1311
+# text = Об этом сообщает пресс-релиз агентства.Основной каркас антенны, включающий в себя два отражателя и излучающий (или принимающий) элемент был напечатан одним элементом с помощью обыкновенного 3D-принтера.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Основной	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	каркас	каркас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+9	антенны	антенна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	включающий	включать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	себя	себя	PRON	_	Case=Acc	11	obl	_	_
+14	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	15	nummod:gov	_	_
+15	отражателя	отражатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	излучающий	излучать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	conj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	принимающий	принимать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	conj	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	напечатан	напечатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+25	одним	один	NUM	_	Case=Ins|Gender=Masc	26	nummod	_	_
+26	элементом	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+27	с	с	ADP	_	_	30	case	_	_
+28	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	fixed	_	_
+29	обыкновенного	обыкновенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	3D	3d	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+31	-принтера	-принтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1312
+# text = Для того, чтобы антенна могла выполнять свои функции, впоследствии ее покрыли слоем меди и перешли к испытаниям.По словам инженеров, 3D-печатные антенны обладают не такой гладкой поверхностью какая получается при традиционной сборке.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	антенна	антенна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	свои	свой	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	впоследствии	впоследствии	ADV	_	Degree=Pos	13	advmod	_	_
+12	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obj	_	_
+13	покрыли	покрыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+14	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	меди	медь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	перешли	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	испытаниям.	испытаниямя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+20	По	по	ADP	_	_	21	case	_	_
+21	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	26	parataxis	_	_
+22	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	3D-печатные	3D-печатный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	антенны	антенн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	30	amod	_	_
+29	гладкой	гладкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+31	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+32	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	conj	_	_
+33	при	при	ADP	_	_	35	case	_	_
+34	традиционной	традиционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	сборке	сборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 1313
+# text = Вместе с тем, наличие исходной трехмерной модели позволяет надежно моделировать ее взаимодействие с электромагнитной волной, что значительно повышает точность устройства.
+1	Вместе	вместе	ADV	_	Degree=Pos	9	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	наличие	наличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+6	исходной	исходный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	трехмерной	трехмерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	надежно	надежно	ADV	_	Degree=Pos	11	advmod	_	_
+11	моделировать	моделировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obj	_	_
+13	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	электромагнитной	электромагнитный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	волной	волна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	PRON	_	Case=Nom	20	nsubj	_	_
+19	значительно	значительно	ADV	_	Degree=Pos	20	advmod	_	_
+20	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1314
+# text = Благодаря печать всего каркаса одной деталью удается избежать недочетов при сборке.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	печать	печать	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+3	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	каркаса	каркас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	одной	один	NUM	_	Case=Gen|Gender=Fem	6	nummod	_	_
+6	деталью	деталь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+7	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	избежать	избежать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	недочетов	недочет	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	сборке	сборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 1315

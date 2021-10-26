@@ -1,0 +1,378 @@
+# text = # newpar
+# sent_id = 4195
+# text = Международный коллектив ученых создал алгоритм для синхронизации мобильных устройств между собой без использования PIN-кодов, а при помощи данных акселерометров.
+1	Международный	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+6	для	для	ADP	_	_	5	case	_	_
+7	синхронизации	синхронизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	между	между	ADP	_	_	11	case	_	_
+11	собой	себя	PRON	_	Case=Ins	13	obl	_	_
+12	без	без	ADP	_	_	13	case	_	_
+13	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+14	PIN	Pin	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	кодов	код	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	22	cc	_	_
+19	при	при	ADP	_	_	22	case	_	_
+20	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	данных	данный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	акселерометров	акселерометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4196
+# text = Для создания защищенного канала между двумя устройствами достаточно сложить их вместе и несколько раз встряхнуть.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+3	защищенного	защищать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	между	между	ADP	_	_	7	case	_	_
+6	двумя	два	NUM	_	Case=Ins	7	nummod	_	_
+7	устройствами	устройства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	nmod	_	_
+8	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	сложить	складывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	9	obj	_	_
+11	вместе	вместе	ADV	_	Degree=Pos	15	advmod	_	_
+12	и	и	PART	_	_	13	advmod	_	_
+13	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+14	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+15	встряхнуть	встряхнуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4197
+# text = Работа описана в препринте, выложенном на arxiv.org.Новый алгоритм основан на том, что при встряхивании акселерометр записывает последовательность данных, которую практически невозможно повторить намеренно.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	описана	описывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	препринте	препринт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	выложенном	выложать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	arxiv.org	arxiv.org	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+12	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	встряхивании	встряхивание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+19	акселерометр	акселерометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	записывает	записывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
+21	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которую	который	PRON	_	Case=Acc	26	obj	_	_
+25	практически	практически	ADV	_	Degree=Pos	26	advmod	_	_
+26	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	22	acl:relcl	_	_
+27	повторить	повторять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+28	намеренно	намеренно	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4198
+# text = Если два устройства сложены вместе, для них обоих показания акселерометров будут очень похожими, хотя и не идеально совпадающими.
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	два	два	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+4	сложены	сложать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вместе	вместе	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+9	обоих	оба	NUM	_	Case=Gen|Gender=Masc	14	nummod	_	_
+10	показания	показание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+11	акселерометров	акселерометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	очень	очень	ADV	_	Degree=Pos	14	advmod	_	_
+14	похожими	похожий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	хотя	хотя	SCONJ	_	_	4	cc	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	идеально	идеально	ADV	_	Degree=Pos	20	advmod	_	_
+20	совпадающими	совпадають	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4199
+# text = Авторы показали, что, обрабатывая сырые данные определенным образом, можно получить двоичный код, который будет совпадать для устройств, которые встряхивали вместе.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	обрабатывая	обрабатывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+7	сырые	сырый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	6	obj	_	_
+9	определенным	определенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+13	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	двоичный	двоичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	19	nsubj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	совпадать	совпадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которые	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	встряхивали	встряхивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	вместе	вместе	ADV	_	Degree=Pos	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4200
+# text = Именно этот код и будет использован для подтверждения синхронизации.Для проверки алгоритма ученые попросили добровольцев в течение пяти секунд "потрясти" два сложенных вместе смартфона.
+1	Именно	именно	ADV	_	Degree=Pos	2	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	код	код	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	и	и	PART	_	_	6	advmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	использован	использовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	подтверждения	подтверждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+9	синхронизации.	синхронизациией	DET	_	Case=Gen|Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+10	Для	для	ADP	_	_	11	case	_	_
+11	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+12	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	попросили	просить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	fixed	_	_
+18	пяти	пять	NUM	_	Case=Gen	19	nummod	_	_
+19	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	потрясти	потрясть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	два	два	NUM	_	Case=Nom|Gender=Masc	24	nummod:gov	_	_
+24	сложенных	сложеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+25	вместе	вместе	ADV	_	Degree=Pos	26	advmod	_	_
+26	смартфона	смартфоный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4201
+# text = Всего удалось собрать 150 независимых измерений.
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	собрать	собирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	150	150	NUM	_	_	6	nummod	_	_
+5	независимых	независимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	измерений	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4202
+# text = Для проверки авторы также создали 300 случайных пар сигналов, чтобы измерить вероятность того, что независимые "встряхивания" приведут к одному и тому же двоичному коду.Оказалось, что в 76 процентах случаев смартфоны, которые встряхивали вместе, независимо генерировали один и тот же двоичный код, то есть в реальном случае синхронизация бы прошла успешно.
+1	Для	для	ADP	_	_	2	case	_	_
+2	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	300	300	NUM	_	_	8	nummod	_	_
+7	случайных	случайной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	пар	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	сигналов	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+12	измерить	измерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+13	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	независимые	независимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	встряхивания	встряхивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	приведут	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	29	advcl	_	_
+22	к	к	ADP	_	_	28	case	_	_
+23	одному	один	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	тому	тот	DET	_	Case=Dat|Gender=Masc|Number=Sing	23	conj	_	_
+26	же	же	PART	_	_	25	advmod	_	_
+27	двоичному	двоичный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	коду.	коду.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+29	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	76	76	NUM	_	_	34	nummod	_	_
+34	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	43	obl	_	_
+35	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	смартфоны	смартфона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	которые	который	PRON	_	Case=Nom	39	nsubj	_	_
+39	встряхивали	встряхивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	36	acl:relcl	_	_
+40	вместе	вместе	ADV	_	Degree=Pos	39	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	независимо	независимо	ADV	_	Degree=Pos	43	advmod	_	_
+43	генерировали	генерировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	advcl	_	_
+44	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+45	и	и	CCONJ	_	_	46	cc	_	_
+46	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	44	conj	_	_
+47	же	же	PART	_	_	46	advmod	_	_
+48	двоичный	двоичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	58	mark	_	_
+52	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	fixed	_	_
+53	в	в	ADP	_	_	55	case	_	_
+54	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	58	obl	_	_
+56	синхронизация	синхронизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	58	nsubj	_	_
+57	бы	бы	PART	_	Mood=Cnd	58	aux	_	_
+58	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	43	parataxis	_	_
+59	успешно	успешно	ADV	_	Degree=Pos	58	advmod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	59	punct	_	_
+
+# sent_id = 4203
+# text = При этом в четырех процентах экспериментов случайные пары данных также создавали одинаковый код.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	четырех	четыре	NUM	_	Case=Loc	5	nummod	_	_
+5	процентах	проценты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+6	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	случайные	случайной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	пары	пар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	создавали	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	одинаковый	одинаковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4204
+# text = Авторы отмечают, что предложенный способ синхронизации номинально обладает той же степенью защиты, что и традиционные PIN-коды.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	предложенный	предлагать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	синхронизации	синхронизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	номинально	номинально	ADV	_	Degree=Pos	9	advmod	_	_
+9	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing	12	amod	_	_
+11	же	же	PART	_	_	10	advmod	_	_
+12	степенью	степень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+13	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	и	и	PART	_	_	17	advmod	_	_
+17	традиционные	традиционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	PIN	Pin	PROPN	_	Foreign=Yes	13	nsubj	_	SpaceAfter=No
+19	-коды	-код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4205
+# text = Надежность определяется количеством бит в двоичном коде.
+1	Надежность	надежность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	определяется	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+4	бит	бита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	двоичном	двоичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	коде	код	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4206
+# text = В технологии Bluetooth он обычно включает 10-13 бит, тогда как в новом алгоритме авторы использовали около 15.
+1	В	в	ADP	_	_	2	case	_	_
+2	технологии	технология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	Bluetooth	Bluetooth	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	обычно	обычно	ADV	_	Degree=Pos	6	advmod	_	_
+6	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	10	10	NUM	_	_	9	nummod	_	SpaceAfter=No
+8	-13	-13	NUM	_	_	9	nummod	_	_
+9	бит	бит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	тогда	тогда	ADV	_	Degree=Pos	6	mark	_	_
+12	как	как	SCONJ	_	_	11	fixed	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	алгоритме	алгоритм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+18	около	около	ADP	_	_	19	case	_	_
+19	15	15	NUM	_	_	17	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4207
+# text = В качестве слабого места работы ученые отмечают не столь высокие показатели по частоте успешных синхронизаций.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	слабого	слабый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	столь	столь	ADV	_	Degree=Pos	10	advmod	_	_
+10	высокие	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	показатели	показатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	частоте	частота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+14	успешных	успешный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	синхронизаций	синхронизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4208
+# text = Для решения этой проблемы предлагается использовать более совершенные подходы к выбору признаков, которые извлекаются из сигнала, и по которым в конечном счете генерируется код.
+1	Для	для	ADP	_	_	2	case	_	_
+2	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj:pass	_	_
+7	более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+8	совершенные	совершенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	подходы	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	выбору	выбор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+12	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	извлекаются	извлекаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	25	cc	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	которым	который	PRON	_	Case=Dat	25	obl	_	_
+22	в	в	ADP	_	_	25	advmod	_	_
+23	конечном	конечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	fixed	_	_
+24	счете	счет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	fixed	_	_
+25	генерируется	генерировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+26	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nsubj:pass	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4209
+# text = В данной работе признаки выбирались вручную, однако более детальное исследование позволит улучшить общую производительность.
+1	В	в	ADP	_	_	3	case	_	_
+2	данной	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+5	выбирались	выбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	вручную	вручную	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+9	более	более	ADV	_	Degree=Cmp	10	advmod	_	_
+10	детальное	детальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	общую	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	производительность	производительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 4210

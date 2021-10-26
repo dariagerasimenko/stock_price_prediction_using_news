@@ -1,0 +1,364 @@
+# text = # newpar
+# sent_id = 2377
+# text = Управление попродуктам илекарствам США (FDA) приостановилоII фазу клинических испытаний ROCKET одного изсамых перспективных наданный момент методов лечения рака.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+2	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	conj	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FDA	Fda	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	приостановилоII	приостановилоii	NUM	_	_	9	nummod	_	_
+9	фазу	фаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	conj	_	_
+10	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	ROCKET	Rocket	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	одного	один	NUM	_	Case=Gen|Gender=Masc	17	nummod	_	_
+14	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+15	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+16	наданный	наданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+18	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2378
+# text = Поводом для этого стала смерть трех участников, пишет Business Wire.
+1	Поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	смерть	смерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	трех	три	NUM	_	Case=Gen	7	nummod	_	_
+7	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+10	Business	business	PROPN	_	Foreign=Yes	9	nsubj	_	_
+11	Wire	Wire	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2379
+# text = Входе испытаний проверяли эффективность и безопасность биопрепарата JCAR015 для лечения рецидивирующего или устойчивого ктерапии В-клеточного острого лимфобластного лейкоза.
+1	Входе	входе	ADP	_	_	2	case	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+3	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+7	биопрепарата	биопрепарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	JCAR015	JCAR015	NUM	_	_	7	nummod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	рецидивирующего	рецидивирующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	устойчивого	устойчивый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
+14	ктерапии	ктерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+15	В-клеточного	В-клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	острого	острый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	лимфобластного	лимфобластный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	лейкоза	лейкоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2380
+# text = Препарат, разработанный компанией Juno Therapeutics, представляет собой геноинженерные Т-лимфоциты схимерными антигенными рецепторами (CAR-T), предназначенные для активации целенаправленной иммунной атаки нараковые клетки.
+1	Препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	Juno	Juno	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Therapeutics	Therapeutics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	собой	себя	PRON	_	Case=Ins	8	obl	_	_
+10	геноинженерные	геноинженерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	Т-лимфоциты	Т-лимфоцит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+12	схимерными	схимерный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+13	антигенными	антигенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	рецепторами	рецептор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	CAR	Car	PROPN	_	Foreign=Yes	14	appos	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	T	t	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	предназначенные	предназначать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	активации	активация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+24	целенаправленной	целенаправленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	иммунной	иммунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	атаки	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+27	нараковые	нараковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2381
+# text = Это один изнаиболее перспективных экспериментальных методов лечения злокачественных новообразований, спомощью которого недавно удалось добиться полного излечения нескольких десятков пациентов, которые считались безнадежными (подробнее обэтой технологии читайте внашем материале).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc	0	root	_	_
+3	изнаиболее	изнаиболее	ADV	_	Degree=Pos	4	advmod	_	_
+4	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	экспериментальных	экспериментальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+7	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	злокачественных	злокачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	новообразований	новообразование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	недавно	недавно	ADV	_	Degree=Pos	14	advmod	_	_
+14	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+15	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	nsubj	_	_
+16	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	излечения	излечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	нескольких	несколько	NUM	_	Case=Gen	19	nummod	_	_
+19	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj:pass	_	_
+23	считались	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	20	acl:relcl	_	_
+24	безнадежными	безнадежный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	подробнее	подробно	ADV	_	Degree=Cmp	29	advmod	_	_
+27	обэтой	обэтот	DET	_	Case=Gen|Gender=Fem|Number=Sing	28	amod	_	_
+28	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	читайте	читать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+30	внашем	внаш	DET	_	Case=Loc|Gender=Masc|Number=Sing	31	amod	_	_
+31	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2382
+# text = Один изучастников испытаний скончался вмае 2016 года ототека мозга.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	4	nsubj	_	_
+2	изучастников	изучастник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	скончался	кончаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вмае	вмай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+6	2016	2016	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	ототека	ототека	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+9	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2383
+# text = Смерть еще двух пациентов наступила потойже причине вначале июля.
+1	Смерть	смерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	еще	еще	ADV	_	Degree=Pos	4	advmod	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	наступила	наступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	потойже	тойзко	ADV	_	Degree=Cmp	7	advmod	_	_
+7	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+8	вначале	вначале	ADV	_	Degree=Pos	9	advmod	_	_
+9	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2384
+# text = Все пациенты были младше 25лет.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	пациенты	пациент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	младше	младший	ADJ	_	Degree=Cmp	0	root	_	_
+5	25лет	25лет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2385
+# text = Врезультате этого FDA приняло решение приостановить испытания.
+1	Врезультате	Врезультате	PART	_	_	4	advmod	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	FDA	Fda	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	приняло	принимать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	приостановить	приостанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2386
+# text = Сразу после этого стоимость акций производителя снизилась более чем начетверть.
+1	Сразу	сразу	ADV	_	Degree=Pos	3	advmod	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+4	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	акций	акция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	производителя	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	снизилась	снизиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	более	более	ADV	_	Degree=Cmp	10	advmod	_	_
+9	чем	чем	SCONJ	_	_	8	fixed	_	_
+10	начетверть	начетверть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2387
+# text = Повыводам экспертов Juno Therapeutics, летальные исходы были связаны схимиотерапией, которая проводилась пациентам перед введением CAR-T клеток.
+1	Повыводам	Повывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+2	экспертов	эксперт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Juno	Juno	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Therapeutics	Therapeutics	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	летальные	летальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	исходы	исход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	схимиотерапией	схимиотерапия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj:pass	_	_
+13	проводилась	проводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
+14	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+15	перед	перед	ADP	_	_	16	case	_	_
+16	введением	введение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+17	CAR	CAR	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	T	T	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2388
+# text = Доинцидента еепроводили только циклофосфамидом, однако впоследствии было решено добавить кнему флударабин.
+1	Доинцидента	Доинцидент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	еепроводили	еепроводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	только	только	PART	_	_	4	advmod	_	_
+4	циклофосфамидом	циклофосфамид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+7	впоследствии	впоследствии	ADV	_	Degree=Pos	9	advmod	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	решено	решать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+10	добавить	добавлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	кнему	окн	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+12	флударабин	флударабин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2389
+# text = Такую комбинацию получили все умершие участники.
+1	Такую	такой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	комбинацию	комбинация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	все	весь	DET	_	Case=Acc|Number=Plur	6	amod	_	_
+5	умершие	умерать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+6	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2390
+# text = Всвязи сэтим Juno Therapeutics предложила продолжить испытания, исключив изсхемы предварительной терапии флударабин.
+1	Всвязи	Всвязь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сэтим	сэтимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	Juno	Juno	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Therapeutics	Therapeutics	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	предложила	предлагать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+6	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	исключив	исключать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+10	изсхемы	изсхема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	предварительной	предварительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	флударабин	флударабина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2391
+# text = Сейчас компания должна предоставить четыре документа: пересмотренную форму информированного согласия пациента, пересмотренную памятку исследователя, пересмотренный протокол испытаний икопию презентации для FDA.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	предоставить	предоставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	пересмотренную	пересмотреть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	информированного	информированный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	согласия	согласие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пересмотренную	пересмотреть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	памятку	памятка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+16	исследователя	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	пересмотренный	пересмотрять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	протокол	протокол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+20	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+21	икопию	икопие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+22	презентации	презентация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	FDA	Fda	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2392
+# text = Эти документы будут подготовлены наследующей неделе, после чего у управления будет 30дней напринятие решения.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	документы	документ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	подготовлены	подготавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	наследующей	наследуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	чего	что	PRON	_	Case=Gen	11	obl	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	30дней	30дний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	напринятие	напринятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	_
+15	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2393
+# text = Остальные клинические испытания CAR-T клеток, проводимые вданное время, Juno приостанавливать ненамерена.
+1	Остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+4	CAR	CAR	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	T	T	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проводимые	проводить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	вданное	вданный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Juno	Juno	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+14	приостанавливать	приостанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+15	ненамерена	ненамеренный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2394
+# text = При этом ееэксперты неисключают, что дали повод FDA для глубокого расследования потенциальной опасности всей перспективной технологии CAR-T, разработку и испытания которой сейчас проводят несколько ведущих биотехнологических компаний.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	ееэксперты	ееэксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	неисключают	неисключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	дали	дывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+8	повод	повод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	FDA	Fda	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	глубокого	глубокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	расследования	расследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+13	потенциальной	потенциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	17	amod	_	_
+16	перспективной	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	CAR-	CAR-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	T	t	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+22	и	и	CCONJ	_	_	26	cc	_	_
+23	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	_
+24	которой	который	PRON	_	Case=Gen	23	nmod	_	_
+25	сейчас	сейчас	ADV	_	Degree=Pos	26	advmod	_	_
+26	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+27	несколько	несколько	NUM	_	Case=Nom	30	nummod:gov	_	_
+28	ведущих	ведущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+29	биотехнологических	биотехнологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2395
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2396

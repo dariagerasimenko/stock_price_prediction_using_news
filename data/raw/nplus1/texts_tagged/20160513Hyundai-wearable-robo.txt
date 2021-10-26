@@ -1,0 +1,65 @@
+# text = # newpar
+# sent_id = 5363
+# text = Южнокорейская компания Hyundai Motor Group представила экзоскелет, который сами представители компании называют "носимым роботом".
+1	Южнокорейская	Южнокорейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Hyundai	hyundai	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Motor	Motor	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Group	group	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	экзоскелет	экзоскелет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Acc	13	obj	_	_
+10	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+12	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	носимым	носимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5364
+# text = Обэтом сообщает The Verge соссылкой наофициальный блог компании.
+1	Обэтом	Обэто	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	The	the	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Verge	Verge	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	соссылкой	соссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	наофициальный	наофициальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	блог	блог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5365
+# text = Новый экзоскелет предлагается использовать для реабилитации, атакже напроизводстве иввоенных целях.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	экзоскелет	экзоскелет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	реабилитации	реабилитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	атакже	атакже	CCONJ	_	_	9	cc	_	_
+9	напроизводстве	напроизводство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+10	иввоенных	иввоенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	целях	цель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5366
+# text = Пословам разработчиков, устройство позволяет поднимать "сотни килограммов".
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	5	obl	_	_
+2	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	поднимать	поднимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	сотни	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 5367

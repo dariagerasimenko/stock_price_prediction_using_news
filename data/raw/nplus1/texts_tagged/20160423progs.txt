@@ -1,0 +1,322 @@
+# text = # newpar
+# sent_id = 2532
+# text = Программная и аппаратная части перспективного истребителя F-35 Lightning II выполнены с открытой архитектурой, что значительно облегчает разработку дополнительных программ для боевого самолета.
+1	Программная	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	аппаратная	аппаратный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+5	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	F-35	f-35	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Lightning	Lightning	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	II	Ii	NUM	_	_	8	nummod	_	_
+10	выполнены	выполнять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	открытой	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	архитектурой	архитектура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	17	nsubj	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	облегчает	облегчать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+18	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	для	для	ADP	_	_	23	case	_	_
+22	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2533
+# text = Об этом, как сообщаетAviation Week, заявил генеральный директор подразделения Lahav компании IAI Бенни Коген.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	cc	_	_
+5	сообщаетAviation	сообщаетAviation	PROPN	_	Foreign=Yes	2	advmod	_	_
+6	Week	Week	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	подразделения	подразделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Lahav	Lahav	NUM	_	_	11	nummod	_	_
+13	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	IAI	Iai	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Бенни	Бенни	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+16	Коген	Коген	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2534
+# text = По его словам, разрабатывать программы для F-35 не сложнее, чем создавать приложения для смартфонов.Основное программное обеспечение истребителя F-35, по словам Когена, является своего рода операционной системой, функциональные возможности которой можно пополнять новыми приложениями.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	5	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разрабатывать	разрабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+6	программы	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	F-35	F-35	NOUN	_	_	5	obl	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	сложнее	сложный	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	13	mark	_	_
+13	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	advmod	_	_
+14	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+15	для	для	ADP	_	_	19	case	_	_
+16	смартфонов.	смартфоновей	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+17	Основное	Основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+18	программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+20	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	F-35	f-35	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	parataxis	_	_
+25	Когена	Коген	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+28	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	29	amod	_	_
+29	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+30	операционной	операционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	функциональные	функциональной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	возможности	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_
+35	которой	который	PRON	_	Case=Gen	34	nmod	_	_
+36	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+37	пополнять	пополнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	nsubj	_	_
+38	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	amod	_	_
+39	приложениями	приложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 2535
+# text = В управлении программы F-35 заявили, что открытая архитектура действительно облегчает разработку программ для истребителя, но самостоятельное создание приложений другими странами не приветствуется.В настоящее время соглашение со странами, участвующими в проекте F-35, предусматривает создание дополнительных программ или аппаратных комплексов для истребителя только с одобрения правительства США и при обязательном участии двух американских компаний -- системных интеграторов.
+1	В	в	ADP	_	_	2	case	_	_
+2	управлении	управление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	F-35	f-35	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	открытая	открывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	архитектура	архитектура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	действительно	действительно	ADV	_	Degree=Pos	11	advmod	_	_
+11	облегчает	облегчать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+12	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	но	но	CCONJ	_	_	19	cc	_	_
+18	самостоятельное	самостоятельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	conj	_	_
+20	приложений	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+21	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	приветствуется	приветствуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	В	в	ADP	_	_	38	advmod	_	_
+27	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	fixed	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	fixed	_	_
+29	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_
+30	со	с	ADP	_	_	31	case	_	_
+31	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	участвующими	участвовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	31	amod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+36	F-35	f-35	X	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	предусматривает	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+39	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	_
+40	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	nmod	_	_
+42	или	или	CCONJ	_	_	44	cc	_	_
+43	аппаратных	аппаратной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+44	комплексов	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	conj	_	_
+45	для	для	ADP	_	_	46	case	_	_
+46	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+47	только	только	PART	_	_	49	advmod	_	_
+48	с	с	ADP	_	_	49	case	_	_
+49	одобрения	одобрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	nmod	_	_
+50	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_
+51	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	50	nmod	_	_
+52	и	и	CCONJ	_	_	55	cc	_	_
+53	при	при	ADP	_	_	55	case	_	_
+54	обязательном	обязательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	55	amod	_	_
+55	участии	участие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	conj	_	_
+56	двух	два	NUM	_	Case=Gen	58	nummod	_	_
+57	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	58	amod	_	_
+58	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	55	nmod	_	_
+59	--	--	PUNCT	_	_	58	punct	_	_
+60	системных	системный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	61	amod	_	_
+61	интеграторов	интегратор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	58	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 2536
+# text = Израиль добивается для себя исключения.В начале апрелястало известно, что подразделение Lahav завершило разработку управляющего программно-аппаратного комплекса для истребителя F-35I Adir, создаваемого на базе американского F-35A Lightning II.
+1	Израиль	израиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	добивается	добиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	себя	себя	PRON	_	Case=Gen	5	nmod	_	_
+5	исключения	исключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	В	в	ADP	_	_	8	case	_	_
+8	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+9	апрелястало	апрелястать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	9	mark	_	_
+13	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+14	Lahav	Lahav	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	завершило	завершать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+16	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	управляющего	управляющий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	программно-аппаратного	программно-аппаратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	_
+22	F-35I	F-35i	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Adir	Adir	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	создаваемого	создавать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	21	amod	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_
+28	американского	американской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	F-35A	F-35a	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+30	Lightning	Lightning	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	II	ii	NUM	_	_	30	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2537
+# text = Новая система будет использоваться для обмена данными с другими самолетами, получения заданий, составления полетного плана и различных вычислений.Комплекс построен с применением технологии программно-определяемого радио.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+13	заданий	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	составления	составление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	23	nsubj:pass	_	_
+16	полетного	полетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	плана	план	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Комплекс	комплекс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+23	построен	строить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	применением	применение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	obl	_	_
+26	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	программно-определяемого	программно-определяеть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_
+28	радио	радио	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2538
+# text = Эта технология позволяет программно настраивать частоту вещания, а также передавать информацию по любому радиоканалу, включая сотовую связь.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	программно	программно	ADV	_	Degree=Pos	5	advmod	_	_
+5	настраивать	настраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	частоту	частота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	вещания	вещание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+12	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	по	по	ADP	_	_	15	case	_	_
+14	любому	любой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	радиоканалу	радиоканал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	включая	включая	ADV	_	Degree=Pos	0	nmod	_	_
+18	сотовую	сотовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2539
+# text = Новая система позволит F-35I обмениваться данными с истребителями F-16 Netz/Barak/Sufa и F-15 Baz/Ra'am без каких-либо потери данных.К настоящему времени министерство обороны Израиля приобрело для ВВС девять истребителей F-35I.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	F-35I	F-35i	NUM	_	_	5	nummod	_	_
+5	обмениваться	обмениваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+6	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	5	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	истребителями	истребитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+9	F-16	F-16	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Netz/Barak	Netz/Barak	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	/Sufa	/Sufa	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	F-15	f-15	X	_	Foreign=Yes	11	flat:foreign	_	_
+14	Baz/Ra'am	Baz/Ra'am	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	без	без	ADP	_	_	17	case	_	_
+16	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+17	потери	потеря	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	obl	_	_
+18	данных.	данныхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+19	К	к	ADP	_	_	21	case	_	_
+20	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
+22	министерство	министерство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+23	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	Израиля	израиль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	приобрело	приобретать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obl	_	_
+28	девять	девять	NUM	_	Case=Acc	27	nummod:gov	_	_
+29	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	F-35I	F-35i	X	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2540
+# text = В общей сложности военное ведомство намерено купить 50 таких самолетов.
+1	В	в	ADP	_	_	3	case	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+4	военное	военный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	ведомство	ведомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	намерено	намерен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	купить	купать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	50	50	NUM	_	_	10	nummod	_	_
+9	таких	такой	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2541
+# text = От базовой американской версии этот самолет будет отличаться доработанным программным обеспечением в части управления вооружением, несколькими израильскими системами и оружием.Василий Сычёв
+1	От	от	ADP	_	_	4	case	_	_
+2	базовой	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	отличаться	отличаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+9	доработанным	доработанный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	программным	программный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обеспечением	обеспечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+14	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	вооружением	вооружение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	несколькими	несколько	NUM	_	Case=Ins	19	nummod	_	_
+18	израильскими	израильский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	оружием.	оружиемя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
+22	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+
+# newpar
+# sent_id = 2542

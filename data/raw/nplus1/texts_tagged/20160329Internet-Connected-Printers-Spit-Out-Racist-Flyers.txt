@@ -1,0 +1,93 @@
+# text = # newpar
+# sent_id = 3877
+# text = Американский хакер Эндрю Ауэрнхаймер, известный под никнеймом weev, взломал более 20тысяч принтеров изаставил ихпечатать флаеры расистского характера.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	хакер	хакер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	Эндрю	эндрю	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Ауэрнхаймер	Ауэрнхаймер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	appos	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	никнеймом	никнейм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	weev	weev	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	взломал	взломывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	более	более	ADV	_	Degree=Cmp	13	advmod	_	_
+13	20тысяч	20тысяч	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	принтеров	принтеров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	изаставил	изаставлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+16	ихпечатать	ихпечатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	флаеры	флаер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	расистского	расистский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	характера	характер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3878
+# text = Обэтом сообщает портал Motherboard.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	сообщает	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	Motherboard	Motherboard	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3879
+# text = Пословам Ауэрнхаймера, оннаписал скрипт, который может просканировать интернет-пространство инайти принтеры, укоторых имеется свободный доступ кпорту 9100.
+1	Пословам	Послова	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	4	obl	_	_
+2	Ауэрнхаймера	Ауэрнхаймер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оннаписал	оннаписать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	скрипт	скрипт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	который	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	просканировать	сканировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+11	-пространство	-пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	инайти	инаходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	принтеры	принтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	укоторых	укоторый	PRON	_	Case=Acc	16	obj	_	_
+16	имеется	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+17	свободный	свободный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	доступ	доступ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	кпорту	кпорт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
+20	9100	9100	NUM	_	_	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3880
+# text = Этот порт обычно используется сетевыми принтерами для подключения кинтернету.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	порт	порт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	_
+4	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	сетевыми	сетевой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	принтерами	принтер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+7	для	для	ADP	_	_	6	case	_	_
+8	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	кинтернету	кинтернет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3881
+# text = Затем этот скрипт отправил команду печати расистские листовки навсе принтеры, ккоторым ему удалось получить доступ-- ихполучилось более 20тысяч.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	скрипт	скрипт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	отправил	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	команду	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	печати	печать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	расистские	расистский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	листовки	листовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+9	навсе	навсе	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+10	принтеры	принтер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ккоторым	ккоторый	PRON	_	Case=Dat	14	obl	_	_
+13	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	14	obl	_	_
+14	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	acl:relcl	_	_
+15	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	доступ--	доступ--	PUNCT	_	_	15	punct	_	_
+17	ихполучилось	ихполучиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+18	более	более	ADV	_	Degree=Cmp	19	advmod	_	_
+19	20тысяч.	20тысяч.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+
+# newpar
+# sent_id = 3882

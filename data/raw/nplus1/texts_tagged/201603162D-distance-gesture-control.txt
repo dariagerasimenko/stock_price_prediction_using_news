@@ -1,0 +1,344 @@
+# text = # newpar
+# sent_id = 1293
+# text = Программисты и инженеры из Вашингтонского университета разработали программную систему FingerIO, которая позволяет дистанционно управлять устройством посредством прикосновений к любой близлежащей поверхности.
+1	Программисты	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	Вашингтонского	вашингтонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	программную	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	FingerIO	Fingerio	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+14	дистанционно	дистанционно	ADV	_	Degree=Pos	15	advmod	_	_
+15	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+16	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+17	посредством	посредством	ADP	_	_	18	case	_	_
+18	прикосновений	прикосновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+19	к	к	ADP	_	_	22	case	_	_
+20	любой	любой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	близлежащей	близлежащий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1294
+# text = Это должно облегчить управление гаджетами с небольшими дисплеями.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	облегчить	облегчать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	гаджетами	гаджет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	небольшими	небольшой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	дисплеями	дисплей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1295
+# text = О разработке, которая будет представлена в мае на конференции CHI 2016, сообщается на сайте университета.
+1	О	о	ADP	_	_	2	case	_	_
+2	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	которая	который	PRON	_	Case=Nom	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	представлена	представлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+11	CHI	Chi	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	2016	2016	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1296
+# text = Система FingerIO отслеживает движения пользователя при помощи имеющихся в устройстве микрофонов и динамиков.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	FingerIO	Fingerio	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	отслеживает	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	пользователя	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	при	при	ADP	_	_	8	mark	_	_
+7	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	fixed	_	_
+8	имеющихся	иметься	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	0	amod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	микрофонов	микрофон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	динамиков	динамик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1297
+# text = Через динамики система испускает звуковые волны, а, затем, используя микрофоны, она улавливает отраженный от пальцев звук.
+1	Через	Через	ADP	_	_	2	case	_	_
+2	динамики	динамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	испускает	испускавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	звуковые	звуковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	волны	волна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	16	cc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	затем	затем	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+13	микрофоны	микрофон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+16	улавливает	улавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	отраженный	отражеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+20	звук	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1298
+# text = Фактически, FingerIO превращает устройство в мини-сонар.
+1	Фактически	фактически	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	FingerIO	Fingerio	PROPN	_	Foreign=Yes	4	nsubj	_	_
+4	превращает	превращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+6	в	в	ADP	_	_	5	case	_	_
+7	мини	миня	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-сонар	-сонары	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1299
+# text = Для обеспечения точности отслеживания положения пальцев, инженеры используют систему, подобную OFDM, в которой используется большое количество близко расположенных ортогональных поднесущих.
+1	Для	для	ADP	_	_	2	case	_	_
+2	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+3	точности	точность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	отслеживания	отслеживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	подобную	подобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	OFDM	Ofdm	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которой	который	PRON	_	Case=Loc	17	obl	_	_
+17	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
+18	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
+20	близко	близко	ADV	_	Degree=Pos	22	advmod	_	_
+21	расположенных	расположенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	ортогональных	ортогональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	nmod	_	_
+23	поднесущих	поднесуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	dep	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1300
+# text = Такие системы применяются для беспроводной связи, цифрового телевидения и передачи данных.
+1	Такие	такой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	применяются	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	беспроводной	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	цифрового	цифровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	телевидения	телевидение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+12	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1301
+# text = По словам разработчиков, FingerIO, которую испытали на Samsung Galaxy S4, может отслеживать движения на плоскости с точностью до 8 миллиметров.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	FingerIO	Fingerio	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которую	который	PRON	_	Case=Acc	8	obj	_	_
+8	испытали	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	Samsung	samsung	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Galaxy	Galaxy	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	S4	S4	NUM	_	_	10	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+15	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	плоскости	плоскость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+21	до	до	ADP	_	_	23	case	_	_
+22	8	8	NUM	_	_	23	nummod	_	_
+23	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1302
+# text = Умные часы смогли отследить движения с точностью до 12 миллиметров с расстояния примерно в полметра.
+1	Умные	умный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	часы	час	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отследить	отследивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	12	12	NUM	_	_	10	nummod	_	_
+10	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	примерно	примерно	ADV	_	Degree=Pos	15	advmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	полметра	полметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1303
+# text = Преимуществом данной системы является то, что звуковые волны могут проходить сквозь ткань, а значит, управлять устройством при помощи жестов можно, даже если оно находится в кармане или под рукавом.
+1	Преимуществом	преимущество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+2	данной	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	звуковые	звуковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	волны	волна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	сквозь	сквозь	ADP	_	_	13	case	_	_
+13	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	18	cc	_	_
+16	значит	значит	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+19	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+20	при	при	ADP	_	_	22	case	_	_
+21	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	fixed	_	_
+22	жестов	жест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+23	можно	можно	ADV	_	Degree=Pos	10	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	даже	даже	PART	_	_	26	advmod	_	_
+26	если	если	SCONJ	_	_	0	mark	_	_
+27	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	28	nsubj	_	_
+28	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	кармане	карман	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+31	или	или	CCONJ	_	_	33	cc	_	_
+32	под	под	ADP	_	_	33	case	_	_
+33	рукавом	рукав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1304
+# text = Создатели системы считают, что она должна облегчить управление гаджетами с миниатюрными дисплеями, так как, например, управление умными часами при помощи пальцев бывает достаточно затруднено.
+1	Создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	26	advcl	_	_
+8	облегчить	облегчать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	гаджетами	гаджет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	миниатюрными	миниатюрный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	дисплеями	дисплей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	так	так	ADV	_	Degree=Pos	8	mark	_	_
+16	как	как	SCONJ	_	_	15	fixed	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	например	например	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+21	умными	умный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	часами	час	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	_
+23	при	при	ADP	_	_	25	case	_	_
+24	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	fixed	_	_
+25	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+26	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	conj	_	_
+27	достаточно	достаточно	ADV	_	Degree=Pos	28	advmod	_	_
+28	затруднено	затруднять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1305
+# text = В дальнейшем специалисты планируют продолжить заниматься разработкой и научить систему распознавать движение нескольких пальцев одновременно, а также в трехмерном пространстве.
+1	В	в	ADP	_	_	2	case	_	_
+2	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+3	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	xcomp	_	_
+7	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	научить	научать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+10	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	нескольких	несколько	NUM	_	Case=Gen	14	nummod	_	_
+14	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	одновременно	одновременно	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	21	cc	_	_
+18	также	также	ADV	_	Degree=Pos	21	advmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	трехмерном	трехмерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1306
+# text = Ранее компания Elliptic Labs предложила убрать из современных смартфонов бесконтактные датчики близости, заменив их ультразвуковой эхолокацией.
+1	Ранее	рано	ADV	_	Degree=Cmp	5	advmod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Elliptic	Elliptic	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Labs	labs	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	предложила	предлагать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	убрать	убирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	бесконтактные	бесконтактный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	датчики	датчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+12	близости	близость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	заменив	заменять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obj	_	_
+16	ультразвуковой	ультразвуковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	эхолокацией	эхолокация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1307
+# text = Технология под названием Beauty также предполагает использование уже имеющихся в смартфоне динамика и микрофона в качестве ультразвукового излучателя и приемника.Кристина Уласовиич
+1	Технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	под	под	ADP	_	_	3	case	_	_
+3	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	Beauty	Beauty	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+6	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	имеющихся	иметься	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	6	amod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	смартфоне	смартфон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	динамика	динамик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	микрофона	микрофон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	ультразвукового	ультразвуковой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	излучателя	излучатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	приемника.	приемника.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+21	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	Уласовиич	Уласовиич	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+
+# newpar
+# sent_id = 1308

@@ -1,0 +1,63 @@
+# text = # newpar
+# sent_id = 3127
+# text = Инженеры CERN установили фрагмент нового сепаратора для неустойчивых изотопов, содержащих слишком много или наоборот слишком мало нейтронов.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	CERN	Cern	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	фрагмент	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	сепаратора	сепаратор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	неустойчивых	неустойчивый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	изотопов	изотоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	содержащих	содержать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	слишком	слишком	ADV	_	Degree=Pos	11	advmod	_	_
+13	много	много	ADV	_	Degree=Pos	11	conj	_	_
+14	или	или	CCONJ	_	_	13	cc	_	_
+15	наоборот	наоборот	ADV	_	Degree=Pos	16	advmod	_	_
+16	слишком	слишком	ADV	_	Degree=Pos	17	advmod	_	_
+17	мало	мало	ADV	_	Degree=Pos	0	nmod	_	_
+18	нейтронов	нейтрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3128
+# text = Он позволит получать интенсивные пучки частиц, необходимые для изучения процессов в широком спектре областей: от астрофизики до ядерной медицины.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	интенсивные	интенсивный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	пучки	пучка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	0	amod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	широком	широкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+15	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	астрофизики	астрофизика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3129
+# text = О новом приборе HIE-ISOLDE сообщает пресс-релиз организации.
+1	О	о	ADP	_	_	3	case	_	_
+2	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	приборе	прибор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	HIE	Hie	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	ISOLDE	Isolde	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	пресс-релиз	пресс-релиз	ADP	_	_	9	case	_	_
+9	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 3130

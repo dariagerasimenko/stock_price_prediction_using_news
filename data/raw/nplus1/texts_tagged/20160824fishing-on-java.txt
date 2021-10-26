@@ -1,0 +1,297 @@
+# text = # newpar
+# sent_id = 3024
+# text = Зоологи собрали средства напоиски яванской кошки-рыболова (Prionailurus viverrinus rhizophoreus) -- чрезвычайно редкого подвида, возможно, недожившего донаших дней.
+1	Зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	средства	средство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	напоиски	напоиска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	яванской	яванский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	кошки	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	рыболова	рыболов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Prionailurus	Prionailurus	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	viverrinus	viverrinus	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	rhizophoreus	rhizophoreus	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	--	--	PUNCT	_	_	12	punct	_	_
+15	чрезвычайно	чрезвычайно	ADV	_	Degree=Pos	16	advmod	_	_
+16	редкого	редкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	подвида	подвид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	возможно	возможно	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	недожившего	недожить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+22	донаших	донаш	DET	_	Case=Gen|Number=Plur	23	amod	_	_
+23	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3025
+# text = Добыть финансирование помог краудфандинговый проект Experiment.
+1	Добыть	добывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+2	финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	помог	помогать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	краудфандинговый	краудфандинговый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Experiment	Experiment	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3026
+# text = Кошка-рыболов (также крапчатая, виверровая или рыбная кошка, Prionailurus viverrinus)-- редкое животное, обитающее наШри-Ланке, вИндии, Непале истранах Юго-Восточной Азии.
+1	Кошка-	кошка-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No
+2	рыболов	рыбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	также	также	ADV	_	Degree=Pos	2	advmod	_	_
+5	крапчатая	крапчатый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	виверровая	виверровый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	рыбная	рыбный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
+10	кошка	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Prionailurus	Prionailurus	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	viverrinus	viverrinus	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	--	--	PUNCT	_	_	13	punct	_	_
+16	редкое	редкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	обитающее	обитать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	наШри-Ланке	наШри-Ланка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	вИндии	вИндия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Непале	Непал	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	conj	_	_
+25	истранах	истран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	conj	_	_
+26	Юго-Восточной	юго-восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	Азии	азия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3027
+# text = Яванский-- единственный известный подвид кошки-рыболова, онобитает на расстоянии более 2000 километров отостальной популяции.
+1	Яванский--	Яванский--	PUNCT	_	_	2	punct	_	_
+2	единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	подвид	подвид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	кошки	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	-рыболова	-рыболов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	онобитает	онобитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	более	более	ADV	_	Degree=Cmp	13	advmod	_	_
+12	2000	2000	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+14	отостальной	отостальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3028
+# text = Этот подвид был впервые описан в1938году, иего представителей впоследний раз наблюдали в начале 1990-х, после чего авторы исследования порекомендовали отнести его к находящимся вкритическом состоянии (награни исчезновения).
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	подвид	подвид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+4	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+5	описан	описывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в1938году	в1938год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	иего	иий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+10	впоследний	впоследний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+12	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	1990-х	1990-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	после	после	ADP	_	_	18	case	_	_
+18	чего	что	PRON	_	Case=Gen	12	obl	_	_
+19	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+20	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	порекомендовали	рекомендовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+22	отнести	относить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+24	к	к	ADP	_	_	27	case	_	_
+25	находящимся	находиться	VERB	_	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	27	amod	_	_
+26	вкритическом	вкритический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	награни	награнить	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+30	исчезновения	исчезновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	29	obj	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3029
+# text = Однако никаких попыток посохранению непредпринималось, иряд последующих наблюдений незарегистрировал ниодной яванской кошки-рыболова.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	никаких	никакой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	попыток	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	посохранению	посохранение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl:agent	_	_
+5	непредпринималось	непредпринимать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	иряд	иряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	последующих	последующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	незарегистрировал	незарегистрировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	ниодной	ниодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	яванской	яванский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	кошки	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	рыболова	рыболов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 3030
+# text = Ученые изОбщества посохранению находящихся под угрозой хищников иихмеждународным экологическим исследованиям (S.P.E.C.I.E.S.) нашли финансирование для начала проекта попоиску иоценке популяции Prionailurus viverrinus rhizophoreus.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	изОбщества	изОбщество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+3	посохранению	посохранение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+4	находящихся	находиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+5	под	под	ADP	_	_	6	case	_	_
+6	угрозой	угроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+8	иихмеждународным	иихмеждународный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+9	экологическим	экологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	0	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	S.	s.	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+13	P.E.C.I.E.S.	P.E.C.I.E.S.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+19	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	попоиску	попоиску	SCONJ	_	_	15	mark	_	_
+21	иоценке	иоценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+22	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	Prionailurus	Prionailurus	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	viverrinus	viverrinus	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	rhizophoreus	rhizophoreus	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3031
+# text = Дополнительные 3,5 тысячи изнеобходимых 11тысяч долларов они собрали краудфандингом.
+1	Дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	3,5	3,5	NUM	_	_	8	nummod	_	_
+3	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	изнеобходимых	изнеобходимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	11тысяч	11тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	собрали	обрать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	краудфандингом	краудфандинг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 3032
+# text = Наэти средства исследователи планируют арендовать транспорт ипровести масштабные опросы местного населения всеми местах предполагаемого обитания кошки назападе Явы.
+1	Наэти	Наэтот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	средства	средства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	арендовать	арендовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	транспорт	транспорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	ипровести	ипроводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+8	масштабные	масштабный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	опросы	опрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	местного	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	всеми	товс	DET	_	Case=Ins|Number=Plur	13	amod	_	_
+13	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	_
+14	предполагаемого	предполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	кошки	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	назападе	назападе	ADV	_	Degree=Pos	18	advmod	_	_
+18	Явы	Явый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3033
+# text = Поихзамыслу, это должно сузить круг поисков, которые будут проводиться сиспользованием камер слежения, регистрации следов, атакже оценки пригодности среды обитания исостояния естественных источников пищи.
+1	Поихзамыслу	поихзамыслу	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	сузить	сузить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	круг	круг	ADP	_	_	7	case	_	_
+7	поисков	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	7	acl:relcl	_	_
+12	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+13	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	слежения	слежение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	регистрации	регистрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	следов	след	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	атакже	атакже	CCONJ	_	_	20	cc	_	_
+20	оценки	оценок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+21	пригодности	пригодность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	исостояния	исостояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	естественных	естественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3034
+# text = Кроме того, ученые намерены снабдить местное население печатными материалами, подчеркивающими важность сообщений олюбых наблюдениях редкого подвида иего охраны.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	снабдить	снабдать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	местное	местный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	население	население	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	печатными	печатной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	материалами	материал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	подчеркивающими	подчеркивать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	важность	важность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	олюбых	олюбой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	наблюдениях	наблюдение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	nmod	_	_
+17	редкого	редкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	подвида	подвид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	иего	иий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	охраны	охрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 3035
+# text = Если удастся обнаружить признаки существования яванской кошки-рыболова, исследователи намерены организовать кампанию поеесохранению с привлечением Международного союза охраны природы (IUCN) иместных властей.
+1	Если	если	SCONJ	_	_	12	mark	_	_
+2	удастся	удаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+3	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	яванской	яванский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	кошки	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	рыболова	рыболов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+13	организовать	организовывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	кампанию	кампания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	поеесохранению	поеесохранение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	привлечением	привлечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	_
+18	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	союза	союз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	охраны	охрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	IUCN	Iucн-лат	NOUN	_	_	26	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	иместных	иместный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	властей	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 3036

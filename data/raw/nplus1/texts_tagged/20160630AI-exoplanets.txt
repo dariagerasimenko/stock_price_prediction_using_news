@@ -1,0 +1,330 @@
+# text = # newpar
+# sent_id = 1268
+# text = Ученый изУниверситетского колледжа вЛондоне создал нейросеть, которая поможет определить атмосферный состав экзопланет.
+1	Ученый	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	изУниверситетского	изУниверситетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	колледжа	колледж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	вЛондоне	влондоне	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	_
+5	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	атмосферный	атмосферный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	экзопланет	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1269
+# text = Разработка будет представлена наНациональном астрономическом собрании вНоттингеме, статья ученых ранее была опубликована The Astrophysical Journal.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлена	представливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	наНациональном	наНациональный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	астрономическом	астрономический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	собрании	собрание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	вНоттингеме	вНоттингема	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+10	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	ранее	ранее	ADV	_	Degree=Pos	13	advmod	_	_
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+14	The	the	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Journal	journal	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1270
+# text = Задача нейросети RobERt (Robotic Exoplanet Recognition) будет состоять в том, чтобы отфильтровывать данные об излучении, которое исходит отдалеких планетных систем, ипоспектру получать информацию огазах, находящихся ватмосфере планеты.Нейросеть относится к классуглубоких сетей доверия DBNи состоит изтрех скрытых слоев (скрытые слои находятся между входным и выходным слоем) -- напервый слой из500нейронов, подается входная информация, которую онотфильтровывает ипередает наследующий слой.
+1	Задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	RobERt	Robert	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Robotic	Robotic	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Exoplanet	Exoplanet	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Recognition	Recognition	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+15	отфильтровывать	отфильтровывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	_
+16	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	15	obj	_	_
+17	об	о	ADP	_	_	18	case	_	_
+18	излучении	излучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которое	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	исходит	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	отдалеких	отдалекий	DET	_	Case=Gen|Number=Plur	24	amod	_	_
+23	планетных	планетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	ипоспектру	тереипоспекть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+27	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+29	огазах	огаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	находящихся	находиться	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	32	amod	_	_
+32	ватмосфере	ватмосфер	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+33	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	Нейросеть	Нейросеть	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+36	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	_
+37	к	к	ADP	_	_	39	case	_	_
+38	классуглубоких	классуглубокий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	obl	_	_
+40	доверия	доверия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
+41	DBNи	DBNя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+43	изтрех	изтри	NUM	_	Case=Gen	45	nummod	_	_
+44	скрытых	скрытой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	nsubj	_	_
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	скрытые	скрытый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	48	amod	_	_
+48	слои	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	49	nsubj	_	_
+49	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	42	conj	_	_
+50	между	между	ADP	_	_	54	case	_	_
+51	входным	входной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	выходным	выходный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	51	conj	_	_
+54	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	54	punct	_	_
+56	--	--	PUNCT	_	_	54	punct	_	_
+57	напервый	напервый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	58	amod	_	_
+58	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	61	nsubj:pass	_	_
+59	из500нейронов	из500нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	58	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	подается	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+62	входная	входной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	_
+63	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	61	nsubj:pass	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	которую	который	PRON	_	Case=Acc	66	obj	_	_
+66	онотфильтровывает	онотфильтровывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	63	acl:relcl	_	_
+67	ипередает	ипередать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	66	parataxis	_	_
+68	наследующий	наследующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	69	amod	_	_
+69	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	67	nsubj	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	69	punct	_	_
+
+# sent_id = 1271
+# text = Второй слой из200 нейронов дополнительно уточняет данные ипередает ихнапоследний слой, который уже окончательно определяет, какие газы присутствуют ватмосфере планеты.
+1	Второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	из200	из200	NUM	_	_	4	nummod	_	_
+4	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	дополнительно	дополнительно	ADV	_	Degree=Pos	6	advmod	_	_
+6	уточняет	уточнявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	6	obj	_	_
+8	ипередает	ипередать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+9	ихнапоследний	ихнапоследний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+13	уже	уже	ADV	_	Degree=Pos	14	advmod	_	_
+14	окончательно	окончательно	ADV	_	Degree=Pos	15	advmod	_	_
+15	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	какие	какой	DET	_	Case=Nom|Number=Plur	18	amod	_	_
+18	газы	газ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+19	присутствуют	присутствевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+20	ватмосфере	ватмосфера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+21	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1272
+# text = Для обучения RobERt астрофизик использовал 85750 смоделированных спектров, которые наблюдались напяти типах экзопланет, таких как GJ1214b (потенциальная планета-океан) или WASP-12 (один изсамых горячих юпитеров).
+1	Для	для	ADP	_	_	2	case	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	RobERt	Robert	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	астрофизик	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	85750	85750	NUM	_	_	8	nummod	_	_
+7	смоделированных	смоделировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	спектров	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	наблюдались	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	_
+12	напяти	напять	NUM	_	_	13	nummod	_	_
+13	типах	тип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+14	экзопланет	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	таких	такой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+17	как	как	SCONJ	_	_	18	cc	_	_
+18	GJ1214b	GJ1214b	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	потенциальная	потенциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	планета-	планета-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	океан	океан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	WASP	Wasp	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	12	12	NUM	_	_	25	nummod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	один	один	NUM	_	Case=Nom|Gender=Masc	32	nummod:gov	_	_
+30	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	горячих	горячий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	юпитеров	юпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1273
+# text = Каждый спектр содержал следы присутствия одного вида газа, например, H2O или CH4,инейросеть должна была определить, какой именно это был газ.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	спектр	спектр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	содержал	содержать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	присутствия	присутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	одного	один	NUM	_	Case=Gen|Gender=Masc	7	nummod	_	_
+7	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	например	например	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	H2O	H2o	PROPN	_	Foreign=Yes	15	nsubj	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	CH4,инейросеть	CH4,инейросеть	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
+15	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	parataxis	_	_
+16	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
+20	именно	именно	PART	_	_	19	advmod	_	_
+21	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	газ	газ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1274
+# text = Нейросети удалось добиться точности распознавания в99,7процентов.
+1	Нейросети	Нейросетя	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	точности	точность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+5	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	в99,7процентов	в99,7процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1275
+# text = "RobERt научился учитывать такие факторы, как шум, ограниченные диапазоны длин волн исмеси газов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	RobERt	robert	PROPN	_	Foreign=Yes	3	nsubj	_	_
+3	научился	научаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	учитывать	учитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	такие	такой	DET	_	Case=Acc|Number=Plur	6	amod	_	_
+6	факторы	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	9	cc	_	_
+9	шум	шум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ограниченные	ограничивать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	диапазоны	диапазон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	advcl	_	_
+13	длин	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	исмеси	исмесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1276
+# text = Онможет определять такие компоненты, как вода иметан, ватмосфере сосмешанным составом свысокой вероятностью, даже если входные данные состоят изограниченного диапазона волн",-- комментирует автор работы.
+1	Онможет	Онмочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	такие	такой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	компоненты	компонент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	0	mark	_	_
+7	вода	вода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	иметан	иметывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ватмосфере	ватмосфера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+11	сосмешанным	сосмешанный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+13	свысокой	свысокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+14	вероятностью	вероятность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	даже	даже	PART	_	_	19	advmod	_	_
+17	если	если	SCONJ	_	_	16	mark	_	_
+18	входные	входной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	20	nsubj	_	_
+20	состоят	состоать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+21	изограниченного	изограничять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	диапазона	диапазон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+23	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,--	,--	PUNCT	_	_	23	punct	_	_
+26	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+27	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+28	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1277
+# text = Кроме того, RobERt может работать аналогично алгоритму Deep Dream "вобратную сторону", самостоятельно генерируя спектры, которые могут соответствовать тому или иному газу.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	RobERt	robert	PROPN	_	Foreign=Yes	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	аналогично	аналогично	ADV	_	Degree=Pos	6	advmod	_	_
+8	алгоритму	алгоритма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9	Deep	deep	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Dream	Dream	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	вобратную	вобратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	самостоятельно	самостоятельно	ADV	_	Degree=Pos	17	advmod	_	_
+17	генерируя	генерировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+18	спектры	спектр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	соответствовать	соответствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	тому	тот	DET	_	Case=Dat|Gender=Masc|Number=Sing	26	amod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	иному	иной	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	_
+26	газу	газ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1278
+# text = Пословам ученого, это может быть полезно, когда нужно определить присутствие газов при неполной информации.
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	2	nmod	_	_
+2	ученого	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	cop	_	_
+7	полезно	полезный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	когда	когда	SCONJ	_	_	7	mark	_	_
+10	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	advcl	_	_
+11	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	присутствие	присутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	при	при	ADP	_	_	16	case	_	_
+15	неполной	неполный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	информации	информация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1279
+# text = Втаких случаях искусственный интеллект сможет заполнить пробелы.
+1	Втаких	Втакой	DET	_	Case=Loc|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+3	искусственный	искусственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	заполнить	заполнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	пробелы	пробел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1280
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 1281

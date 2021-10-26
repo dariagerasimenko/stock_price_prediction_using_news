@@ -1,0 +1,478 @@
+# text = # newpar
+# sent_id = 365
+# text = Пользователь соцсети "ВКонтакте" Mik Ketov создал нейронную сеть, которая генерирует твиты в стиле Рамзана Кадырова.
+1	Пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	соцсети	соцсеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	ВКонтакте	ВКонтакт	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	Mik	Mik	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	Ketov	Ketov	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нейронную	нейронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	генерирует	генерировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	твиты	твит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	стиле	стиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	Рамзана	Рамзан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Кадырова	кадыров	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 366
+# text = Они публикуются в соответствующем канале в Twitter.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj:pass	_	_
+2	публикуются	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	соответствующем	соответствующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	канале	канал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Twitter	Twitter	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 367
+# text = По словам автора, на создание нейросети его вдохновил проект DeepDrumpf.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+7	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	вдохновил	вдохнавливать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	DeepDrumpf	DeepDrumpf	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 368
+# text = Это система машинного обучения, которая генерирует твиты на основе стенограмм дебатов кандидата в президенты США Дональда Трампа.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	генерирует	генерировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+8	твиты	твит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	стенограмм	стенограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	дебатов	дебат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	кандидата	кандидат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	президенты	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+16	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	15	nmod	_	_
+17	Дональда	Дональд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+18	Трампа	Трамп	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 369
+# text = Кадыров был выбран из российских политиков из-за большого количества выступлений и постов в социальных сетях, которые дают обширный материал для обучения нейросети.
+1	Кадыров	Кадыров	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выбран	выбирать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	политиков	политик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	из-за	из-за	ADP	_	_	9	case	_	_
+8	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+10	выступлений	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	постов	пост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	социальных	социальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	дают	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+19	обширный	обширный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+23	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 370
+# text = Для создания системы генерации текста автор российской версии пользовался тем же алгоритмом char-rnn, что и создатели DeepDrumpf.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	генерации	генерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	пользовался	пользоваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	тем	тот	DET	_	Case=Ins|Gender=Masc|Number=Sing	12	amod	_	_
+11	же	же	PART	_	_	10	advmod	_	_
+12	алгоритмом	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+13	char-	char-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	rnn	rnn	PROPN	_	Foreign=Yes	12	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	9	mark	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	advcl	_	_
+19	DeepDrumpf	DeepDrumpf	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 371
+# text = Char-rnn это многослойная реккурентная нейросеть, созданная сотрудником Стенфордского университета Андрем Карпати.
+1	Char-	Char-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	rnn	rnn	X	_	Foreign=Yes	6	nsubj	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	многослойная	многослойный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	реккурентная	реккурентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	созданная	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	сотрудником	сотрудник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	_
+10	Стенфордского	стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Андрем	Андирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+13	Карпати	Карпати	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 372
+# text = Упрощенно можно сказать, что сhar-rnn работает как генератор текста, в котором каждый последующий символ предсказывается на основании множества предыдущих -- они подаются на вход нейросети.При этом то, как именно нейросеть интерпретирует входную информацию (и какой текст она в результате генерирует), зависит от того, на чем она обучалась.
+1	Упрощенно	упрощенне	ADV	_	Degree=Pos	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	сhar-rnn	сhar-rnn	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	как	как	SCONJ	_	_	9	cc	_	_
+9	генератор	генератор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	advmod	_	_
+10	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	котором	который	PRON	_	Case=Loc	17	obl	_	_
+14	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	последующий	последующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	символ	символ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+17	предсказывается	предсказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+20	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj:pass	_	_
+24	подаются	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	вход	вход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+27	нейросети.	нейросети.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl:agent	_	SpaceAfter=No
+28	При	при	ADP	_	_	29	case	_	_
+29	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	35	obl	_	_
+30	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	35	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	как	как	ADV	_	Degree=Pos	35	advmod	_	_
+33	именно	именно	PART	_	_	32	fixed	_	_
+34	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+35	интерпретирует	интерпретирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
+36	входную	входный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	и	и	CCONJ	_	_	45	cc	_	_
+40	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	41	amod	_	_
+41	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	obj	_	_
+42	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	45	nsubj	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	45	obl	_	_
+45	генерирует	генериревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	parataxis	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	45	punct	_	_
+48	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+49	от	от	ADP	_	_	50	case	_	_
+50	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	48	obl	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	на	на	ADP	_	_	53	case	_	_
+53	чем	что	PRON	_	Case=Loc	55	obl	_	_
+54	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	55	nsubj	_	_
+55	обучалась	обучаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	50	acl	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 373
+# text = Как и с другими нейросетями, обучение на тренировочной выборке определяет весовые коэффициенты между нейронами, и именно это обеспечивает характерный "стиль" для генерируемого текста.
+1	Как	как	ADV	_	Degree=Pos	5	cc	_	_
+2	и	и	PART	_	_	5	advmod	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	нейросетями	нейросеть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	тренировочной	тренировочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	выборке	выборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	весовые	весовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	коэффициенты	коэффициент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	obj	_	_
+14	между	между	ADP	_	_	15	case	_	_
+15	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	20	cc	_	_
+18	именно	именно	PART	_	_	19	advmod	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	характерный	характерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	стиль	стиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	для	для	ADP	_	_	27	case	_	_
+26	генерируемого	генерируемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 374
+# text = Таким образом можно научить нейросеть создавать тексты с стиле Толстого, писать статьи похожие на статьи Википедии, генерировать код ядра Линукса и так далее.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	научить	научать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+7	тексты	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	стиле	стиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Толстого	толстой	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	_
+13	статьи	статья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	похожие	похожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	статьи	статья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	_
+17	Википедии	Википедия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	генерировать	генерировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+20	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	Линукса	Линукс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	так	так	ADV	_	Degree=Pos	25	fixed	_	_
+25	далее	далее	ADV	_	Degree=Pos	12	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 375
+# text = Подробнее об использовании рекуррентных сетей и char-rnnдля генерации текстов можно прочитать здесь.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	11	advmod	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	рекуррентных	рекуррентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	char-	char-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	rnnдля	rnnдля	ADP	_	_	9	case	_	_
+9	генерации	генерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+10	текстов	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+12	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	здесь	здесь	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 376
+# text = В данном случае в роли тренировочной выборки выступил массив текстов Кадырова, автоматически извлеченный из его настоящего блога.
+1	В	в	ADP	_	_	3	case	_	_
+2	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+6	тренировочной	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	выборки	выборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	выступил	выступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	массив	массив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	текстов	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	Кадырова	кадыров	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	автоматически	автоматически	ADV	_	Degree=Pos	14	advmod	_	_
+14	извлеченный	извлекать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+15	из	из	ADP	_	_	18	case	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+17	настоящего	настоящий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	блога	блог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 377
+# text = "Рамзан Ахматович не менее одиозен, чем Трамп и производит много увлекательного контента, но, кстати, -- и это проблема, -- весьма однообразного", -- объясняет Mik Ketov.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Рамзан	Рамзанный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	Ахматович	Ахматович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	менее	менее	ADV	_	Degree=Cmp	6	advmod	_	_
+6	одиозен	одиозный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чем	чем	SCONJ	_	_	9	cc	_	_
+9	Трамп	Трамп	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	много	много	ADV	_	Degree=Pos	14	nummod:gov	_	_
+13	увлекательного	увлекательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	контента	контент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	но	но	CCONJ	_	_	23	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	кстати	кстати	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	--	--	PUNCT	_	_	18	punct	_	_
+21	и	и	CCONJ	_	_	18	cc	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+23	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	--	--	PUNCT	_	_	23	punct	_	_
+26	весьма	весьма	ADV	_	Degree=Pos	27	advmod	_	_
+27	однообразного	однообразный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	0	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	--	--	PUNCT	_	_	27	punct	_	_
+31	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+32	Mik	Mik	PROPN	_	Foreign=Yes	31	nsubj	_	_
+33	Ketov	Ketov	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 378
+# text = В силу этого нейросеть преимущественно упоминает Аллаха, отца и брата Кадырова, а также многочисленные мечети.
+1	В	в	ADP	_	_	2	case	_	_
+2	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	преимущественно	преимущественне	ADV	_	Degree=Pos	6	advmod	_	_
+6	упоминает	упоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Аллаха	аллах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	брата	брат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+12	Кадырова	кадыров	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	17	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+16	многочисленные	многочисленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	мечети	мечеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 379
+# text = В нейросети, созданной Mik Ketov, можно варьировать количество скрытых слоев и количество предыдущих символов, которые подаются на вход нейросети (от 20 до 140).
+1	В	в	ADP	_	_	2	case	_	_
+2	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	созданной	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	Mik	Mik	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+6	Ketov	Ketov	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	варьировать	варьировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	скрытых	скрытой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+15	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	символов	символ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj:pass	_	_
+19	подаются	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	вход	вход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+22	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	от	от	ADP	_	_	25	case	_	_
+25	20	20	NUM	_	_	22	nummod	_	_
+26	до	до	ADP	_	_	27	case	_	_
+27	140	140	NUM	_	_	25	nummod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 380
+# text = Как и в системе DeepDrumpf, в русскоязычной версии для твитов используется далеко не весь генерируемый нейросетью текст -- значительную его часть приходится выкидывать с помощью ручного отбора.
+1	Как	как	ADV	_	Degree=Pos	4	cc	_	_
+2	и	и	PART	_	_	4	advmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+5	DeepDrumpf	DeepDrumpf	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	русскоязычной	русскоязычный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	твитов	твит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	далеко	далеко	ADV	_	Degree=Pos	14	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+16	генерируемый	генерируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	нейросетью	нейросеть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+18	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	значительную	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	22	nmod	_	_
+22	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+23	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+24	выкидывать	выкидывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+25	с	с	ADP	_	_	28	case	_	_
+26	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	fixed	_	_
+27	ручного	ручный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 381
+# text = Дополнительной сложностью по сравнению с англоязычной версией является необходимость согласовывать род и падежи в предложениях (из-за ограниченной глубины символов нейросеть порой просто не видит начала предложения).
+1	Дополнительной	дополнительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	сложностью	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+3	по	по	ADP	_	_	7	case	_	_
+4	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	fixed	_	_
+5	с	с	ADP	_	_	4	fixed	_	_
+6	англоязычной	англоязычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+8	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	необходимость	необходимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	согласовывать	согласовывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	род	род	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	падежи	падеж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	предложениях	предложение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	21	obl	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	из-за	из-за	ADP	_	_	19	case	_	_
+18	ограниченной	ограничать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	глубины	глубина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+20	символов	символ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	нейросеть	нейросеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	dep	_	_
+22	порой	порой	ADV	_	Degree=Pos	25	advmod	_	_
+23	просто	просто	PART	_	_	24	advmod	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	видит	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+27	предложения	предложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 382
+# text = Ранее с помощью подобной же технологии сотрудники Яндекса создали генератор текстов в стиле группы "Гражданская оборона" и записали соответствующий альбом.
+1	Ранее	рано	ADV	_	Degree=Cmp	9	advmod	_	_
+2	с	с	ADP	_	_	6	case	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	_
+4	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	же	же	PART	_	_	4	advmod	_	_
+6	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+7	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	Яндекса	Яндекс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	генератор	генератор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	текстов	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	стиле	стиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+14	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Гражданская	гражданский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	оборона	оборона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	записали	писать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	соответствующий	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	альбом	альб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# newpar
+# sent_id = 383

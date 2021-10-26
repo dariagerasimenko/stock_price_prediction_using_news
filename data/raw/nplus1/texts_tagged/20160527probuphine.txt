@@ -1,0 +1,328 @@
+# text = # newpar
+# sent_id = 1789
+# text = Управление попродуктам илекарствам США (FDA) одобрило кприменению первый имплантат для заместительной терапии опиоидной зависимости, говорится в пресс-релизе организации.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FDA	Fda	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	одобрило	одобрять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	кприменению	кприменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+10	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	имплантат	имплантат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	заместительной	заместительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	опиоидной	опиоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+21	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1790
+# text = Подкожный имплантат под названием Probuphine представляет собой четыре стержневидных системы доставки лекарства ProNeura длиной 2,5сантиметра, которые помещают под кожу пациента врайоне плеча.
+1	Подкожный	Подкожный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	имплантат	имплантат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+5	Probuphine	Probuphine	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	собой	себя	PRON	_	Case=Ins	6	dep	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+9	стержневидных	стержневидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	_
+11	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	ProNeura	ProNeura	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+15	2,5сантиметра	2,5сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	помещают	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+19	под	под	ADP	_	_	20	case	_	_
+20	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	пациента	элепациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+22	врайоне	врайона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+23	плеча	плечо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1791
+# text = Они содержат парциальный агонист опиоидных рецепторов бупренорфин иэтиленвинилацетат, обеспечивающий его равномерное постепенное высвобождение втечение полугода.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	парциальный	парциальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	агонист	агонист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	опиоидных	опиоидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	бупренорфин	бупренорфина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	иэтиленвинилацетат	иэтиленвинилацетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	обеспечивающий	обеспечивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	равномерное	равномерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	постепенное	постепенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	высвобождение	высвобождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+15	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+16	полугода	полугод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1792
+# text = Система разработана компаниями Titan Pharmaceuticals иBraeburn Pharmaceuticals.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	компаниями	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+4	Titan	Titan	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Pharmaceuticals	Pharmaceuticals	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	иBraeburn	иBraeburn	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Pharmaceuticals	Pharmaceuticals	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1793
+# text = Основанием для решения FDA стали результаты плацебо-контролируемых клинических испытаний сучастием 163 и287человек.63 процента изних воздерживались отвведения нелегальных опиоидов напротяжении 24недель.
+1	Основанием	основание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	FDA	Fda	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	плацебо-контролируемых	плацебо-контролируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+10	сучастием	сучастие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+11	163	163	NUM	_	_	10	nummod	_	_
+12	и287человек.	и287человеколо	ADP	_	_	14	case	_	SpaceAfter=No
+13	63	63	NUM	_	_	14	nummod	_	_
+14	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	изних	изний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	воздерживались	воздерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	5	conj	_	_
+17	отвведения	отвведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj:pass	_	_
+18	нелегальных	нелегальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	опиоидов	опиоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	напротяжении	напротяжения	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	24недель	24неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1794
+# text = Терапевтическая система одобрена кприменению утех пациентов, которые стабилизированы нанизких или умеренных дозах бупренорфина вформе таблеток или буккальных пленок.
+1	Терапевтическая	Терапевтический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	одобрена	одобривать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	кприменению	кприменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+5	утех	тоут	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+9	стабилизированы	табилизировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+10	нанизких	нанизкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	умеренных	умеренный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	conj	_	_
+13	дозах	доза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+14	бупренорфина	бупренорфин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	вформе	вформа	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+16	таблеток	таблетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	или	или	CCONJ	_	_	19	cc	_	_
+18	буккальных	буккальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	пленок	пленка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1795
+# text = "Злоупотребление опиоидами изависимость отних приносят большие лишения американским семьям.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Злоупотребление	злоупотребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	опиоидами	опиоид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
+4	изависимость	изависимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	отних	оотни	PRON	_	Case=Acc|Number=Plur|Person=3	6	obj	_	_
+6	приносят	приносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	лишения	лишение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+9	американским	американский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	семьям	семья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1796
+# text = Мыдолжны делать все для внедрения новых методов лечения, которые помогут пациентам вернуть контроль над своей жизнью.
+1	Мыдолжны	Мыдолжен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+2	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	dep	_	_
+3	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+6	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+13	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	контроль	контроль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	над	над	ADP	_	_	17	case	_	_
+16	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	17	amod	_	_
+17	жизнью	жизнь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1797
+# text = Сегодняшнее решение даст пациентам первый имплантат, поддерживающий ихусилия по продолжению терапии как части общей реабилитационной программы",-- заявил представитель FDA Роберт Калифф (Robert Califf).
+1	Сегодняшнее	сегодняшний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	даст	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+5	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	имплантат	имплантат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поддерживающий	поддерживать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	ихусилия	ихусилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	продолжению	продолжение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
+12	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	advmod	_	_
+15	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	реабилитационной	реабилитационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,--	,--	PUNCT	_	_	17	punct	_	_
+20	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+21	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	FDA	Fda	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Роберт	роберт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	_
+24	Калифф	Калифф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Robert	robert	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	Califf	Califf	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1798
+# text = Пооценкам, около 2,1 миллиона жителей США имеют зависимость отрецептурных опиоидов иеще 467 тысяч-- отгероина.
+1	Пооценкам	Пооценк	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	около	около	ADP	_	_	5	case	_	_
+4	2,1	2,1	NUM	_	_	5	nummod	_	_
+5	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+6	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	зависимость	зависимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	отрецептурных	отрецептурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	опиоидов	опиоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	иеще	иеще	ADV	_	Degree=Pos	13	advmod	_	_
+13	467	467	NUM	_	_	15	nummod	_	_
+14	тысяч--	тысяч--	PUNCT	_	_	13	punct	_	_
+15	отгероина	отгероина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1799
+# text = Число смертей от передозировки с1999 года выросло вчетверо до28647в 2014году.
+1	Число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	смертей	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	от	от	ADP	_	_	4	case	_	_
+4	передозировки	передозировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	с1999	с1999	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	выросло	вырастать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	вчетверо	вчетверо	ADV	_	Degree=Pos	7	advmod	_	_
+9	до28647в	до28647в	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	2014году	2014год	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1800
+# text = Заместительная терапия опиоидной зависимости представляет собой замену нелегальных препаратов нааптечные, содержащие известное количество очищенного действующего вещества ипринимаемые внутрь.
+1	Заместительная	заместительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	опиоидной	опиоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собой	себя	PRON	_	Case=Ins	5	dep	_	_
+7	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	нелегальных	нелегальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	нааптечные	нааптечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+13	известное	известный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	очищенного	очищать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+16	действующего	действовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+17	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+18	ипринимаемые	ипринимать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+19	внутрь	внутрь	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1801
+# text = Это значительно снижает риск передозировки иосложнения, связанные снестерильными инъекциями.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	значительно	значительно	ADV	_	Degree=Pos	3	advmod	_	_
+3	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	передозировки	передозировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	иосложнения	иосложнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+9	снестерильными	снестерильный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	инъекциями	инъекция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1802
+# text = В качестве препаратов для заместительной терапии обычно используются полный агонист опиоидных рецепторов метадон или частичный-- бупренорфин.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	заместительной	заместительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	обычно	обычно	ADV	_	Degree=Pos	8	advmod	_	_
+8	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	агонист	агонист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11	опиоидных	опиоидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	метадон	метадон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	частичный	частичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	бупренорфин	бупренорфин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1803
+# text = Внекоторых странах для лечения тяжелой зависимости одобрен также промышленно произведенный стерильный раствор героина.
+1	Внекоторых	Внекоторый	DET	_	Case=Loc|Number=Plur	2	amod	_	_
+2	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	тяжелой	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	одобрен	одобрять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+9	промышленно	промышленно	ADV	_	Degree=Pos	10	advmod	_	_
+10	произведенный	произведать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	стерильный	стерильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+13	героина	героин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1804
+# text = Заместительная терапия применяется вомногих странах мира, вРоссии она запрещена.
+1	Заместительная	заместительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	применяется	применявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	вомногих	вомногие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+6	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вРоссии	вРоссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+9	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj:pass	_	_
+10	запрещена	запрещать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1805
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 1806

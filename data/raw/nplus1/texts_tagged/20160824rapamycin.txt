@@ -1,0 +1,701 @@
+# text = # newpar
+# sent_id = 3164
+# text = Американским ученым удалось продлить жизнь мышей ограниченным курсом рапамицина впожилом возрасте.
+1	Американским	американский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	продлить	продлевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+7	ограниченным	ограниченный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	курсом	курс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	рапамицина	рапамицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	впожилом	впожилой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3165
+# text = Результаты работы опубликованы вжурнале eLife.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	eLife	eLife	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 3166
+# text = Рапамицин (сиролимус)-- иммуносупрессант, который применяется для профилактики отторжения после трансплантации почек иеще по нескольким показаниям.
+1	Рапамицин	Рапамицин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	сиролимус	сиролимус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	3	punct	_	_
+7	иммуносупрессант	иммуносупрессант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	профилактики	профилактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	отторжения	отторжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	трансплантации	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+16	почек	почка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	иеще	иеще	ADV	_	Degree=Pos	20	advmod	_	_
+18	по	по	ADP	_	_	20	case	_	_
+19	нескольким	несколько	NUM	_	Case=Dat	20	nummod	_	_
+20	показаниям	показание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3167
+# text = Вряде экспериментов было показано, что регулярный прием относительно небольших доз этого препарата существенно продлевает жизнь мышей инекоторых других животных.
+1	Вряде	Врядя	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+2	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	регулярный	регулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	прием	прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+9	относительно	относительно	ADP	_	_	11	case	_	_
+10	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	доз	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	_
+13	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	существенно	существенно	ADV	_	Degree=Pos	15	advmod	_	_
+15	продлевает	продлевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+16	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	инекоторых	инекоторый	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+19	других	другие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3168
+# text = Препарат также замедлял такие связанные состарением процессы, как ослабление умственных функций, нарушения сердечной деятельности, снижение иммунитета и развитие рака.
+1	Препарат	препарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	замедлял	замедлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	такие	такой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+5	связанные	связывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+6	состарением	состарение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl:agent	_	_
+7	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	ослабление	ослабление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	advmod	_	_
+11	умственных	умственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	parataxis	_	_
+15	сердечной	сердечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+19	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	conj	_	_
+22	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3169
+# text = Пилотные клинические испытания продемонстрировали, что шестинедельный курс производного рапамицина RAD001 улучшает иммунный ответ у пожилых людей.
+1	Пилотные	пилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	шестинедельный	шестинедельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	курс	курс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	производного	производный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	рапамицина	рапамицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	RAD001	RAD001	NUM	_	_	8	nummod	_	_
+12	улучшает	улучшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+13	иммунный	иммунный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	у	у	ADP	_	_	17	case	_	_
+16	пожилых	пожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3170
+# text = При этом оптимальные схемы назначения, длительность курса идозировка препарата для замедления старения пока невыяснены.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+3	оптимальные	оптимальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	схемы	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+5	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	длительность	длительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+8	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	идозировка	идозировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+10	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	замедления	замедление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+13	старения	старение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+15	невыяснены	невыясненный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 3171
+# text = Сотрудники Центра исследования рака имени Фреда Хатчинсона, Университетов Вашингтона иМиссури втечение 90дней вводили рапамицин мышам в возрасте 20--21 месяца (это примерно соответствует 60-летнему возрасту человека).
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+2	Центра	центр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Фреда	Фред	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	Хатчинсона	хатчинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Университетов	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+10	Вашингтона	Вашингтон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	иМиссури	имиссури	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+12	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	90дней	90день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	рапамицин	рапамицин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+19	20	20	NUM	_	_	21	nummod	_	SpaceAfter=No
+20	--21	--21	NUM	_	_	19	nummod	_	_
+21	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+24	примерно	примерно	ADV	_	Degree=Pos	25	advmod	_	_
+25	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+26	60-летнему	60-летний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	возрасту	возраст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	obl	_	_
+28	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3172
+# text = Использованная доза была относительно большой-- восемь миллиграммов на килограмм массы тела вдень внутрибрюшинно (это в27раз больше, чем применяли впредыдущих работах спостоянным приемом рапамицина).
+1	Использованная	Использовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	доза	доза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	относительно	относительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	восемь	восемь	NUM	_	Case=Acc	9	nummod:gov	_	_
+9	миллиграммов	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	килограмм	килограмм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	тела	тать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	вдень	вдень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	внутрибрюшинно	внутрибрюшинно	ADV	_	Degree=Pos	13	advmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+18	в27раз	в27раз	SCONJ	_	_	19	cc	_	_
+19	больше	больше	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	22	mark	_	_
+22	применяли	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	advmod	_	_
+23	впредыдущих	впредыдущий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	работах	работы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	obl	_	_
+25	спостоянным	спостоянный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	приемом	прием	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+27	рапамицина	рапамицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3173
+# text = Эффекты препарата у самцов исамок оценивались поотдельности.
+1	Эффекты	Эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	исамок	исамка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	оценивались	оцениваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	поотдельности	поотдельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar
+# sent_id = 3174
+# text = Вовремя курса терапии умышей мужского пола наблюдалось значительное снижение массы тела при потреблении прежнего количества пищи, причем этот эффект сохранялся напротяжении нескольких недель после отмены препарата.
+1	Вовремя	вовремя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+2	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	мужского	мужской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	значительное	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+10	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	потреблении	потребление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+14	прежнего	прежний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	причем	причем	CCONJ	_	_	21	cc	_	_
+19	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
+20	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	сохранялся	сохраняться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+22	напротяжении	напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+23	нескольких	несколько	NUM	_	Case=Gen	24	nummod	_	_
+24	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	после	после	ADP	_	_	22	case	_	_
+26	отмены	отмена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+27	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3175
+# text = Ожидаемая продолжительность жизни после окончания лечения уних увеличилась на60процентов посравнению смышами изконтрольной группы.
+1	Ожидаемая	ожидать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	уних	уний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	nmod	_	_
+8	увеличилась	увеличаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	на60процентов	на60процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+10	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
+11	смышами	смыш	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	_
+12	изконтрольной	изконтрольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3176
+# text = Общая ожидаемая продолжительность жизни отрождения увеличилась на16процентов.
+1	Общая	обть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+2	ожидаемая	ожидать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	отрождения	отрождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	на16процентов	на16процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3177
+# text = Самец мыши, проживший после курса терапии дольше всех, жил еще 710 дней довозраста около 1400 дней (примерно 140 человеческих лет), что сделало его одной изсамых долгоживущих мышей завсю историю наблюдений.
+1	Самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	мыши	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проживший	жить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	дольше	долго	ADV	_	Degree=Cmp	9	advmod	_	_
+9	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	жил	жить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+13	710	710	NUM	_	_	14	nummod	_	_
+14	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	довозраста	довозраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	около	около	ADP	_	_	18	case	_	_
+17	1400	1400	NUM	_	_	18	nummod	_	_
+18	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	примерно	примерно	ADV	_	Degree=Pos	21	advmod	_	_
+21	140	140	NUM	_	_	23	nummod	_	_
+22	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	что	что	PRON	_	Case=Nom	27	nsubj	_	_
+27	сделало	сделать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+28	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obj	_	_
+29	одной	один	NUM	_	Case=Gen|Gender=Fem	32	nummod	_	_
+30	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	долгоживущих	долгоживущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	27	obl	_	_
+33	завсю	завсть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
+34	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# newpar
+# sent_id = 3178
+# text = Усамок мышей также наблюдалось снижение веса, однако существенного продления жизни уних добиться неудалось.
+1	Усамок	Усамка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+2	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+6	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+9	существенного	существенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	продления	продление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	уних	уний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	_
+13	добиться	добаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	nsubj:pass	_	_
+14	неудалось	неудать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3179
+# text = Помнению исследователей, это связано снаблюдавшимся повышением заболеваемости агрессивными формами рака кроветворной системы (при этом риск рака других органов значительно снизился) посравнению сконтрольной группой.
+1	Помнению	помненить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+5	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	_
+6	снаблюдавшимся	снаблюдавшиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+7	повышением	повышение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+8	заболеваемости	заболеваемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	агрессивными	агрессивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	формами	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	_
+11	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+12	кроветворной	кроветворный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	при	при	ADP	_	_	16	case	_	_
+16	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+17	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+18	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	значительно	значительно	ADV	_	Degree=Pos	22	advmod	_	_
+22	снизился	снижаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+25	сконтрольной	сконтрольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+26	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3180
+# text = Усамцов подобного увеличения заболеваемости раком ненаблюдалось.
+1	Усамцов	Усамцов	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	подобного	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	увеличения	увеличение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	заболеваемости	заболеваемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	раком	рак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	conj	_	_
+6	ненаблюдалось	ненаблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3181
+# text = Навторой стадии эксперимента, когда дозу препарата умышей аналогичного возраста снизили втрое, ожидаемая продолжительность жизни после трехмесячного курса лечения увеличилась уживотных обоих полов: после лечения -- всреднем на42процента, абсолютная-- на13процентов.
+1	Навторой	Навторый	DET	_	Case=Gen|Gender=Fem|Number=Sing	2	amod	_	_
+2	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+3	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	когда	когда	SCONJ	_	_	6	mark	_	_
+6	дозу	доза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+7	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	аналогичного	аналогичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	снизили	снизлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	_
+12	втрое	втрое	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ожидаемая	ожидать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+16	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	после	после	ADP	_	_	19	case	_	_
+18	трехмесячного	трехмесячный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+20	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+22	уживотных	уживотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	обоих	оба	NUM	_	Case=Gen|Gender=Masc	24	nummod	_	_
+24	полов	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	24	punct	_	_
+26	после	после	ADP	_	_	27	case	_	_
+27	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	parataxis	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	conj	_	_
+30	на42процента	на42процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	абсолютная-	абсолютная-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	-	-	PUNCT	_	_	30	punct	_	_
+34	на13процентов	на13процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	appos	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 3182
+# text = Также упринимавших рапамицин мышей показатели мышечной силы ивыносливости были выше, чем в контрольной группе, напротяжении как минимум полугода.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	упринимавших	упринимать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+3	рапамицин	рапамицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+4	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+6	мышечной	мышечной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	ивыносливости	ивыносливость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	15	cc	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	контрольной	контрольный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	группе	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	напротяжении	напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	conj	_	_
+18	как	как	SCONJ	_	_	20	advmod	_	_
+19	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	fixed	_	_
+20	полугода	полугод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 3183
+# text = Кроме того, выяснилось, что прием препарата вызывал существенные изменения вкишечном микробиоме животных.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	прием	прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	вызывал	вызывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	существенные	существенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	вкишечном	вкишечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	микробиоме	микробиом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3184
+# text = Наиболее значимым изних оказалось увеличение доли иобщего числа сегментоядерных нитчатых бактерий в тонкой кишке.
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	значимым	значимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+3	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+4	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	доли	доль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	иобщего	иобщий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	сегментоядерных	сегментоядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	нитчатых	нитчатый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	тонкой	тонкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	кишке	кишка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3185
+# text = Эти грам-положительные микроорганизмы маловирулентны и неинвазивны, ноихвзаимодействие скишечным эпителием активирует дифференцировку иммунных клеток, усиливая иммунный ответ.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+2	грам-	грам-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	положительные	положительной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	маловирулентны	маловирулентный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	неинвазивны	неинвазивный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ноихвзаимодействие	ноихвзаимодействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+10	скишечным	скишечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	эпителием	эпителие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+12	активирует	активировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	дифференцировку	дифференцировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	иммунных	иммунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	усиливая	усиливать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+18	иммунный	иммунный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3186
+# text = Внорме упожилых животных значимого ихколичества ненаблюдается.
+1	Внорме	Внорма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+2	упожилых	упожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	значимого	значимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	ихколичества	ихколичество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	ненаблюдается	ненаблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3187
+# text = Значение подобного воздействия намикробиом для общего здоровья ипродолжительности жизни пока неуточнено.
+1	Значение	значение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+2	подобного	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	намикробиом	намикробиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	ипродолжительности	ипродолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	пока	пока	ADV	_	Degree=Pos	11	advmod	_	_
+11	неуточнено	неуточненный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 3188
+# text = Рапамицин ингибирует сигнальный путь важнейшего регулятора клеточного роста mTOR (механистической мишени рапамицина).
+1	Рапамицин	Рапамицин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ингибирует	ингибировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сигнальный	сигнальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	важнейшего	важнейший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	регулятора	регулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	клеточного	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	mTOR	mtor	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	механистической	механистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	parataxis	_	_
+13	рапамицина	рапамицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3189
+# text = Это приводит к разнообразным изменениям обмена веществ иэнергии вклетках, атакже ихреакции надействие биологически активных веществ (гормонов, цитокинов ит.п.).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	разнообразным	разнообразный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	изменениям	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	obl	_	_
+6	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	иэнергии	иэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	вклетках	вклетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	атакже	атакже	CCONJ	_	_	13	cc	_	_
+12	ихреакции	ихреакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	надействие	надействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+14	биологически	биологически	ADV	_	Degree=Pos	15	advmod	_	_
+15	активных	активный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	гормонов	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	цитокинов	цитокин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	_
+21	ит.п.	ито	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3190
+# text = Как именно эти изменения увеличивают продолжительность жизни, остается вцелом неизвестным.
+1	Как	как	ADV	_	Degree=Pos	5	advmod	_	_
+2	именно	именно	PART	_	_	1	fixed	_	_
+3	эти	этот	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	увеличивают	увеличиваять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+6	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	вцелом	вцел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	неизвестным	неизвестный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 3191
+# text = Над проблемой здорового старения ипродления жизни работают многие лаборатории мира, которые исследуют различные фармакологические и нефармакологические подходы.
+1	Над	над	ADP	_	_	2	case	_	_
+2	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+3	здорового	здоровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	старения	старение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	ипродления	ипродление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+10	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	исследуют	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+15	фармакологические	фармакологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	нефармакологические	нефармакологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	conj	_	_
+18	подходы	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3192
+# text = Помимо такролимуса наиболее перспективными препаратами считаются никотинамидрибозид (производное витамина В3), а также ингибиторы регулирующего транскрипцию сигнального пути JAK-STAT иинсулиноподобного фактора роста 1типа (IGF-1).
+1	Помимо	помимо	ADP	_	_	2	case	_	_
+2	такролимуса	такролимус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+3	наиболее	наиболее	ADV	_	Degree=Pos	4	advmod	_	_
+4	перспективными	перспективный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	препаратами	препарат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	obl:agent	_	_
+6	считаются	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	никотинамидрибозид	никотинамидрибозид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	производное	производный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	витамина	витамин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	parataxis	_	_
+11	В3	в3	PROPN	_	_	10	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+16	ингибиторы	ингибитор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+17	регулирующего	регулировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+18	транскрипцию	транскрипция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	сигнального	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	JAK-STAT	Jak-stat	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	иинсулиноподобного	иинсулиноподобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+24	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	1типа	1тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	IGF-1	IGF-1	NOUN	_	_	25	parataxis	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3193
+# text = Также сцелью продления здоровой жизни исследуются генная, клеточная итканевая терапия, ограничение потребляемых калорий, назначение гормонов иантиоксидантов, "очистка" организма от состарившихся клеток, активация фермента теломеразы, удаление изклеток поврежденных митохондрий идругие методики.
+1	Также	также	CCONJ	_	_	2	cc	_	_
+2	сцелью	сцель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+3	продления	продление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	здоровой	здоровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	исследуются	исследувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	генная	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	клеточная	клеточной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_
+10	итканевая	итканевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ограничение	ограничение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+14	потребляемых	потреблять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	калорий	калория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	назначение	назначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+18	гормонов	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	иантиоксидантов	иантиоксидант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	очистка	очистка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	от	от	ADP	_	_	27	case	_	_
+26	состарившихся	остариться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	27	amod	_	_
+27	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	активация	активация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+30	фермента	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	теломеразы	теломераза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	удаление	удаление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+34	изклеток	изклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
+35	поврежденных	повреждать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+36	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+38	методики	методика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3194
+# text = Большинство изних находятся в стадии лабораторного изучения или доклинических испытаний.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	изних	изний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	лабораторного	лабораторной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	или	или	CCONJ	_	_	10	cc	_	_
+9	доклинических	доклинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3195
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3196

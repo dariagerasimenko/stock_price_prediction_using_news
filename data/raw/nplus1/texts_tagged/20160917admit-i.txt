@@ -1,0 +1,480 @@
+# text = # newpar
+# sent_id = 6898
+# text = Американские власти ужесточили требования кобнародованию результатов клинических испытаний медикаментов.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	ужесточили	ужесточать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	требования	требование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	кобнародованию	кобнародование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+6	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 6899
+# text = Соответствующий окончательный регламент выпустили совместно Минздрав США иНациональные институты здоровья (NIH).
+1	Соответствующий	Соответствувать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+2	окончательный	окончательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	регламент	регламент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	выпустили	выпускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	совместно	совместно	ADV	_	Degree=Pos	4	advmod	_	_
+6	Минздрав	Минздрав	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	иНациональные	иНациональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	институты	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+10	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	NIH	Nih	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 6900
+# text = Пояснительная статья к ней опубликована вJAMA.
+1	Пояснительная	Пояснительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	ней	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+5	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	вJAMA	вjama	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 6901
+# text = Клинические испытания лекарств, биомедицинской продукции и медтехники служат основанием для ихпоследующего внедрения вклиническую практику.
+1	Клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+3	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	биомедицинской	биомедицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	медтехники	медтехника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+9	служат	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	основанием	основание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	ихпоследующего	ихпоследующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+14	вклиническую	вклинический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	практику	практика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 6902
+# text = Они также являются тем этапом исследований, накотором экспериментальные медицинские технологии впервые применяются клюдям.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	тем	тот	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	amod	_	_
+5	этапом	этап	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	накотором	накоторый	DET	_	Case=Loc|Gender=Neut|Number=Sing	11	amod	_	_
+9	экспериментальные	экспериментальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	медицинские	медицинский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+12	впервые	впервые	ADV	_	Degree=Pos	13	advmod	_	_
+13	применяются	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+14	клюдям	чекловек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 6903
+# text = При этом исследователи зачастую непубликуют отрицательные или сомнительные результаты испытаний или невключают вотчет полную информацию опобочных эффектах.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	зачастую	зачастую	ADV	_	Degree=Pos	5	advmod	_	_
+5	непубликуют	непубликовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	отрицательные	отрицательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	сомнительные	сомнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	conj	_	_
+9	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+10	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	невключают	невключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	вотчет	вотчет	ADV	_	Degree=Pos	12	advmod	_	_
+14	полную	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	опобочных	опобочный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	эффектах	эффект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 6904
+# text = Согласно статистике, менее половины клинических испытаний, профинансированных NIH (основным ихспонсором вСША), публикуются врецензируемых журналах втечение 30месяцев после окончания.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	статистике	статистика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	менее	менее	ADV	_	Degree=Cmp	17	advmod	_	_
+5	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	профинансированных	финансировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	NIH	Nih	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	ихспонсором	ихспонсор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	appos	_	_
+14	вСША	всш	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	публикуются	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+18	врецензируемых	врецензируть	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+19	журналах	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+20	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
+21	30месяцев	30месяец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	после	после	ADP	_	_	23	case	_	_
+23	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 6905
+# text = Около трети подобных исследований неимеют публикаций ичерез четыре года.
+1	Около	около	ADP	_	_	2	case	_	_
+2	трети	треть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	неимеют	неиметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	публикаций	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	ичерез	ичерез	ADP	_	_	9	case	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 6906
+# text = Согласно новому регламенту, все клинические испытания должны быть зарегистрированы вобщедоступной официальной базе данных ClinicalTrials.gov непозже 21дня смомента включения вних первого добровольца.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	новому	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	регламенту	регламент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+8	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	aux:pass	_	_
+10	зарегистрированы	зарегистрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	dep	_	_
+11	вобщедоступной	вобщедоступный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	официальной	официальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	базе	база	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+14	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	ClinicalTrials.gov	ClinicalTrials.gov	NUM	_	_	14	nummod	_	_
+16	непозже	непозже	ADV	_	Degree=Pos	17	advmod	_	_
+17	21дня	21дня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+18	смомента	смомент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	вних	вний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	добровольца	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 6907
+# text = Окончательные результаты требуется опубликовать втечение года после завершения исследования.
+1	Окончательные	окончательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	_
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	опубликовать	опубликовывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	завершения	завершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+9	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 6908
+# text = Эти требования относятся киспытаниям лекарств (включая биопрепараты), медицинской техники иповеденческой терапии, втом числе кихпервой фазе (в ней изучают переносимость терапии нанебольшом числе добровольцев, чаще всего здоровых).
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	требования	требование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	относятся	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	киспытаниям	киспытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+5	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	включая	включать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	parataxis	_	_
+8	биопрепараты	биопрепарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	медицинской	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	иповеденческой	иповеденческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	advmod	_	_
+18	кихпервой	кихпервый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	фазе	фаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	в	в	ADP	_	_	22	case	_	_
+22	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	23	obl	_	_
+23	изучают	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+24	переносимость	переносимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	нанебольшом	нанебольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	nmod	_	_
+28	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чаще	часто	ADV	_	Degree=Cmp	32	advmod	_	_
+31	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	здоровых	здоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 6909
+# text = Помимо сроков регистрации ипубликации регламент требует обнародовать полную информацию обэтнической принадлежности участников ивсех зарегистрированных побочных эффектах.
+1	Помимо	помимо	ADP	_	_	2	case	_	_
+2	сроков	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+3	регистрации	регистрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ипубликации	ипубликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	регламент	регламент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	обнародовать	обнародовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	полную	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	обэтнической	обэтнический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	принадлежности	принадлежность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+13	ивсех	ивсе	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	16	nmod	_	_
+14	зарегистрированных	зарегистрировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	побочных	побочный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	эффектах	эффект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 6910
+# text = НаNIH возлагается задача недопускать проведения клинических испытаний, которые имеют сомнительный дизайн, дублируют предыдущие исследования, слишком сложны, включают недостаточное число участников или неоправданно дороги.
+1	НаNIH	Наnih	PROPN	_	Foreign=Yes	2	nsubj:pass	_	_
+2	возлагается	возлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+4	недопускать	недопускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	проведения	проведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+6	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	сомнительный	сомнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	дублируют	дублировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	предыдущие	предыдущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	слишком	слишком	ADV	_	Degree=Pos	19	advmod	_	_
+19	сложны	сложный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	включают	включаять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+22	недостаточное	недостаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+24	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	или	или	CCONJ	_	_	27	cc	_	_
+26	неоправданно	неоправданно	ADV	_	Degree=Pos	27	advmod	_	_
+27	дороги	дорогой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 6911
+# text = Также документ содержит требование отом, чтобы все исследователи, проводящие испытания, атакже сотрудники NIH, одобряющие ихпроведение и оценивающие результаты, предварительно проходили обучение стандартам Надлежащей клинической практики (Good Clinical Practice, GCP).
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	документ	документ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	требование	требование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+8	все	весь	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+9	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	проводящие	проводить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	CCONJ	_	_	15	cc	_	_
+15	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
+16	NIH	Nih	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	одобряющие	одобрять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+19	ихпроведение	ихпроведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	оценивающие	оценивать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+22	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	предварительно	предварительно	ADV	_	Degree=Pos	25	advmod	_	_
+25	проходили	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+26	обучение	обучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	стандартам	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
+28	Надлежащей	Надлежащий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+29	клинической	клинический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	практики	практика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Good	Good	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+33	Clinical	Clinical	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Practice	Practice	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	GCP	Gcp	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 6912
+# text = Рецензию каждого раздела итоговой публикации должны проводить соответствующие эксперты (клинические исследователи, фармакологи, медицинские статистики идругие).
+1	Рецензию	рецензия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+2	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	раздела	раздел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	итоговой	итоговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	соответствующие	соответствующий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	фармакологи	фармаколог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	медицинские	медицинский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	статистики	статистик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 6913
+# text = При проведении мультицентровых испытаний ихсуммарные результаты теперь обязан оценивать единый совет рецензентов (внастоящее время результаты каждой клиники может оценивать свой совет, что часто приводит кконфликтующим заключениям и замедляет процесс рецензирования).
+1	При	при	ADP	_	_	2	case	_	_
+2	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+3	мультицентровых	мультицентровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	ихсуммарные	ихсуммарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	теперь	теперь	ADV	_	Degree=Pos	8	advmod	_	_
+8	обязан	обязанный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+9	оценивать	оценивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	единый	единый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	совет	совет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	рецензентов	рецензент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	внастоящее	внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	_
+16	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	_
+17	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	клиники	клиника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+20	оценивать	оценивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
+22	совет	совет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+25	часто	часто	ADV	_	Degree=Pos	26	advmod	_	_
+26	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+27	кконфликтующим	кконфликтуть	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+28	заключениям	заключение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	26	obl	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	замедляет	замедлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_
+31	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+32	рецензирования	рецензирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 6914
+# text = Регламент также подразумевает создание единой электронной базы данных клинических испытаний, которая призвана облегчить иунифицировать контроль ихпроведения ипубликации результатов.
+1	Регламент	регламент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	единой	единый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	электронной	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	_
+9	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	призвана	призванный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	acl:relcl	_	_
+14	облегчить	облегчать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	иунифицировать	иунифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	контроль	контроль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	ихпроведения	ихпроведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	ипубликации	ипубликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 6915
+# text = Новые требования вступают всилу 18января 2017года.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	требования	требование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	вступают	вступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всилу	всила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	18января	18январь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	2017года	2017годь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 6916
+# text = Их нарушителям грозят крупные штрафы.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	нарушителям	нарушитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	грозят	грозеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	штрафы	штраф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 6917
+# text = Подобные нововведения могут увеличить стоимость проведения клинических исследований, которые итак весьма затратны.
+1	Подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	нововведения	нововведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+11	итак	итак	ADV	_	Degree=Pos	13	advmod	_	_
+12	весьма	весьма	ADV	_	Degree=Pos	13	advmod	_	_
+13	затратны	затратный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 6918
+# text = Только NIH ежегодно вкладывает вних более трех миллиардов долларов, финансирование поступает иотдругих государственных организаций ичастных компаний.
+1	Только	только	CCONJ	_	_	4	cc	_	_
+2	NIH	Nih	PROPN	_	Foreign=Yes	4	nsubj	_	_
+3	ежегодно	ежегодно	ADV	_	Degree=Pos	2	advmod	_	_
+4	вкладывает	вкладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вних	овни	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+6	более	более	ADV	_	Degree=Cmp	8	nummod:gov	_	_
+7	трех	три	NUM	_	Case=Gen	8	nummod	_	_
+8	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+9	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	поступает	поступавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	иотдругих	иотдругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	государственных	государственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	организаций	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
+16	ичастных	ичастный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 6919
+# text = При этом нарынок витоге поступает неболее 10 процентов лекарств, для которых проводились клинические испытания.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	нарынок	нарынок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	витоге	витог	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+5	поступает	поступавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	неболее	неболее	ADV	_	Degree=Cmp	8	advmod	_	_
+7	10	10	NUM	_	_	8	nummod	_	_
+8	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	13	obl	_	_
+13	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+14	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 6920
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 6921

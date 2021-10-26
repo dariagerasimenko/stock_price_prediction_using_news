@@ -1,0 +1,354 @@
+# text = # newpar
+# sent_id = 3697
+# text = Американским ученым удалось восстановить внутриглазное давление умышей сглаукомой путем трансплантации стволовых клеток.
+1	Американским	американский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	внутриглазное	внутриглазный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	сглаукомой	сглаукомый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+9	путем	путем	ADP	_	_	10	case	_	_
+10	трансплантации	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3698
+# text = Отчет оработе опубликован вProceedings ofthe National Academy ofSciences.
+1	Отчет	отчет	ADV	_	Degree=Pos	2	advmod	_	_
+2	оработе	оработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	опубликован	опубликовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вProceedings	вProceedings	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	ofthe	ofthe	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	National	national	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Academy	academy	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	ofSciences	ofSciences	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3699
+# text = Глаукома-- это заболевание, при котором нарушается нормальная циркуляция внутриглазной жидкости, что приводит к повышению внутриглазного давления (ВГД) и, как следствие, кдегенерации ганглионарных клеток сетчатки ипрогрессирующему ухудшению зрения вплоть до полной слепоты.
+1	Глаукома-	Глаукома-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	это	это	PART	_	_	4	parataxis	_	_
+4	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	котором	который	PRON	_	Case=Loc	8	obl	_	_
+8	нарушается	нарушаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	_
+9	нормальная	нормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	циркуляция	циркуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	внутриглазной	внутриглазный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	4	nsubj	_	_
+15	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	повышению	повышение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+18	внутриглазного	внутриглазный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	ВГД	Вгд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	38	cc	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	как	как	SCONJ	_	_	26	cc	_	_
+26	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	кдегенерации	кдегенерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	ганглионарных	ганглионарный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+31	сетчатки	сетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	ипрогрессирующему	ипрогрессируть	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+33	ухудшению	ухудшение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	32	obl	_	_
+34	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	fixed	_	_
+35	вплоть	вплоть	ADV	_	Degree=Pos	38	case	_	_
+36	до	до	ADP	_	_	35	fixed	_	_
+37	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	слепоты	слепота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3700
+# text = Наиболее часто встречается открытоугольная глаукома, при которой повышение ВГД связано снарушением оттока внутриглазной жидкости из передней камеры глаза через трабекулярную сеть, вызванным дисфункцией игибелью клеток этой структуры.
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	часто	часто	ADV	_	Degree=Pos	3	advmod	_	_
+3	встречается	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	открытоугольная	открытоугольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	глаукома	глаукома	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	которой	который	PRON	_	Case=Loc	11	obl	_	_
+9	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+10	ВГД	Вгд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	связано	вязать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+12	снарушением	снарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+13	оттока	отток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	внутриглазной	внутриглазный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+19	глаза	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	через	через	ADP	_	_	22	case	_	_
+21	трабекулярную	трабекулярный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	вызванным	вызывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+25	дисфункцией	дисфункция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_
+26	игибелью	игибель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	_
+27	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+28	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	_
+29	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3701
+# text = Сотрудники Университета Айовы получили индуцированные плюрипотентные стволовые клетки измышиных фибробластов.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Айовы	Айова	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	индуцированные	индуцировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	плюрипотентные	плюрипотентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	стволовые	стволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
+9	измышиных	измышин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	фибробластов	фибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3702
+# text = Эти клетки дифференцировали впервичные клетки трабекулярной сети, очистили ипересадили впереднюю камеры глаза трансгенным мышам соткрытоугольной глаукомой.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	дифференцировали	дифференцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	впервичные	впервичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
+6	трабекулярной	трабекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	очистили	очищать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+10	ипересадили	ипересаждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	впереднюю	впередний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+13	глаза	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	трансгенным	трансгять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	мышам	мыш	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
+16	соткрытоугольной	соткрытоугольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	глаукомой	глаукома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3703
+# text = Пересадку провели ввозрасте четырех месяцев, когда начинается потеря клеток трабекулярной сети ипоявляются первые признаки роста ВГД.
+1	Пересадку	пересадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ввозрасте	ввозраста	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	четырех	четыре	NUM	_	Case=Gen	5	nummod	_	_
+5	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	когда	когда	SCONJ	_	_	0	mark	_	_
+8	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+9	потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	трабекулярной	трабекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	ипоявляются	ипоявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	parataxis	_	_
+14	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+16	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	ВГД	Вгд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3704
+# text = Трансгенным мышам из контрольной группы ввели натрий-фосфатный буферный раствор без клеток.
+1	Трансгенным	Трансгенный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	мышам	мышь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	контрольной	контрольной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	ввели	вводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	натрий	натрий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	-фосфатный	-фосфатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	буферный	буферный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	раствор	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+11	без	без	ADP	_	_	12	case	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3705
+# text = Умышей изконтрольной группы выраженное ухудшение оттока жидкости иповышение ВГД наблюдались через шесть недель после инъекции иусугубились кконцу девятой недели.
+1	Умышей	Умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+2	изконтрольной	изконтрольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	выраженное	выражять	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	ухудшение	ухудшение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	оттока	отток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	иповышение	иповышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	ВГД	Вгд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	через	через	ADP	_	_	13	case	_	_
+12	шесть	шесть	NUM	_	Case=Acc	13	nummod:gov	_	_
+13	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	иусугубились	иусугубиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	10	conj	_	_
+17	кконцу	кконец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+18	девятой	девятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3706
+# text = Уживотных, получивших терапию стволовыми клетками, эти показатели оставались нормальными втечение всего девятинедельного периода наблюдения.
+1	Уживотных	Уживотной	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	получивших	получать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+4	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	стволовыми	стволовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	эти	этот	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+9	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+10	оставались	оставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	нормальными	нормальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+13	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	15	amod	_	_
+14	девятинедельного	девятинедельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3707
+# text = Гистологическое исследование сетчатки через 12 недель после вмешательства показало, что плотность ганглионарных клеток сетчатки умышей изконтрольной группы значительно ниже, чем уздоровых животных (всреднем 1706,9 против 2171,9 клетки наквадратный миллиметр).
+1	Гистологическое	Гистологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+3	сетчатки	сетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	через	через	ADP	_	_	6	case	_	_
+5	12	12	NUM	_	_	6	nummod	_	_
+6	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	вмешательства	вмешательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+9	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	плотность	плотность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+13	ганглионарных	ганглионарный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	сетчатки	сетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	изконтрольной	изконтрольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	значительно	значительно	ADV	_	Degree=Pos	20	advmod	_	_
+20	ниже	низкий	ADJ	_	Degree=Cmp	9	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	24	cc	_	_
+23	уздоровых	уздоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	20	advmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	parataxis	_	_
+27	1706,9	1706,9	NUM	_	_	26	nummod	_	_
+28	против	против	ADP	_	_	30	case	_	_
+29	2171,9	2171,9	NUM	_	_	30	nummod	_	_
+30	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+31	наквадратный	наквадратный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	миллиметр	миллиметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3708
+# text = После лечения стволовыми клетками плотность этих клеток осталась нормальной (2222,1 клетки наквадратный миллиметр).
+1	После	после	ADP	_	_	2	case	_	_
+2	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	стволовыми	стволовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+5	плотность	плотность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	этих	этот	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	осталась	оставаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	нормальной	нормальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	2222,1	2222,1	NUM	_	_	12	nummod	_	_
+12	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+13	наквадратный	наквадратный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	миллиметр	миллиметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3709
+# text = Аналогичная картина наблюдалась вотношении клеток трабекулярной сети.
+1	Аналогичная	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	картина	картина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	вотношении	вотношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	трабекулярной	трабекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3710
+# text = Наблюдение запролиферацией индуцированных стволовых клеток invitro иих транскрипционный анализ invivo показал, что, хотя пересаженные клетки сохраняли жизнеспособность напротяжении как минимум 12 недель, заосновной эффект терапии отвечала вызванная ими пролиферация собственных клеток трабекулярной сети.
+1	Наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	запролиферацией	запролиферациь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	индуцированных	индуцировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+6	invitro	invitro	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+7	иих	иий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	_
+8	транскрипционный	транскрипционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	invivo	invivo	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	хотя	хотя	SCONJ	_	_	11	mark	_	_
+16	пересаженные	пересажять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+18	сохраняли	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+19	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	напротяжении	напротяжения	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	как	как	SCONJ	_	_	23	advmod	_	_
+22	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	fixed	_	_
+23	12	12	NUM	_	_	24	nummod	_	_
+24	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	заосновной	заосновный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+28	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	отвечала	отвечать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+30	вызванная	вызывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+31	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	30	obl:agent	_	_
+32	пролиферация	пролиферация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+33	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	_
+35	трабекулярной	трабекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 3711
+# text = Разработав перспективный метод лечения открытоугольной глаукомы, исследователи намерены проверить его эффективность при других формах этого заболевания.
+1	Разработав	Разрабатывать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	_
+2	перспективный	перспективной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	открытоугольной	открытоугольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	глаукомы	глаукома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+10	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	при	при	ADP	_	_	15	case	_	_
+14	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	формах	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+16	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	17	amod	_	_
+17	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3712
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3713

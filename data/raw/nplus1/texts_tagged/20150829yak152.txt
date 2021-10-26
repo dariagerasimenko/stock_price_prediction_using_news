@@ -1,0 +1,190 @@
+# text = # newpar
+# sent_id = 1171
+# text = Новый учебно-тренировочный самолет Як-152, предназначенный для базовой подготовки летчиков, совершит первый полет в 2016 году.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	учебно-	учебно-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	тренировочный	тренировочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	Як	якать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	-152	-152	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	предназначенный	предназначать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	базовой	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+12	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	совершит	совершать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	2016	2016	NUM	_	_	19	nummod	_	_
+19	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1172
+# text = Об этом, каксообщаетРИА Новости, заявил главнокомандующий Воздушно-космическими силами России генерал-полковник Виктор Бондарев.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каксообщаетРИА	каксообщаетриа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+5	Новости	новость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	главнокомандующий	главнокомандующий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	Воздушно-космическими	Воздушно-космический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	nmod	_	_
+11	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	генерал-полковник	генерал-полковник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+13	Виктор	виктор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	Бондарев	Бондарев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1173
+# text = По его словам, первые курсанты начнут обучаться на новом самолете в 2017 году.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	курсанты	курсант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	обучаться	обучаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	2017	2017	NUM	_	_	14	nummod	_	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1174
+# text = "Я думаю, что за один год мы его доведем", -- отметил Бондарев.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	за	за	ADP	_	_	8	case	_	_
+7	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	8	nummod:gov	_	_
+8	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+10	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obj	_	_
+11	доведем	доводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	--	--	PUNCT	_	_	11	punct	_	_
+15	отметил	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	Бондарев.	Бондаревадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	obl	_	_
+
+# sent_id = 1175
+# text = Як-152 выполнен по схеме двухместного одномоторного низкоплана с убирающимся трехопорным шасси.
+1	Як-152	Як-152	NUM	_	_	2	nummod	_	_
+2	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	двухместного	двухместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	одномоторного	одномоторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	низкоплана	низкоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	с	с	ADP	_	_	11	case	_	_
+9	убирающимся	убираться	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+10	трехопорным	трехопорный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1176
+# text = Места для летчиков (инструктора и курсанта) расположены тандемно.
+1	Места	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	инструктора	инструктор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	курсанта	курсант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+10	тандемно	тандемно	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1177
+# text = Бортовое оборудование перспективного самолета позволяет производить начальную подготовку летчиков, обучая их работать с пилотажно-навигационным и прицельным оборудованием, а также системами связи.Взлетный вес нового самолета составляет 1,3 тонны.
+1	Бортовое	Бортовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	начальную	начальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	обучая	обучать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	с	с	ADP	_	_	18	case	_	_
+15	пилотажно-навигационным	пилотажно-навигационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	прицельным	прицельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	conj	_	_
+18	оборудованием	оборудование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	22	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	conj	_	_
+23	связи.	связией	DET	_	Case=Gen|Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+24	Взлетный	Взлетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	вес	вес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+26	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	1,3	1,3	NUM	_	_	30	nummod	_	_
+30	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1178
+# text = Он оснащен двигателем мощностью 320 лошадиных сил, который позволяет ему разгоняться до скорости в 500 километров в час.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+5	320	320	NUM	_	_	7	nummod	_	_
+6	лошадиных	лошадиный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+12	разгоняться	разгоняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+13	до	до	ADP	_	_	14	case	_	_
+14	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	500	500	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1179
+# text = Максимальная дальность полета самолета составляет около тысячи километров.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	7	case	_	_
+7	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1180
+# text = Як-152 рассчитан на 30 лет службы.
+1	Як-	Як-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	152	152	NUM	_	_	3	nummod	_	_
+3	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	30	30	NUM	_	_	6	nummod	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar
+# sent_id = 1181

@@ -1,0 +1,216 @@
+# text = # newpar
+# sent_id = 1182
+# text = Американский невролог и автор множества научно-популярных книг о работе мозга Оливер Сакс умер сегодня в Нью Йорке в возрасте 82 лет.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	невролог	невролог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	научно-популярных	научно-популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Оливер	Оливер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+12	Сакс	сакс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	умер	умирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	сегодня	сегодня	ADV	_	Degree=Pos	13	advmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Нью	Нья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+17	Йорке	Йорке	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+20	82	82	NUM	_	_	21	nummod	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1183
+# text = Об этом сообщает New York Times.Ученый скончался в результате рецидива меланомы, о котором стало известно в феврале этого года.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+4	New	new	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	York	york	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Times	times	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Ученый	ученый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	скончался	скончаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	рецидива	рецидив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	меланомы	меланома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	котором	который	PRON	_	Case=Loc	17	obl	_	_
+17	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+18	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	17	amod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	_
+21	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1184
+# text = О своем диагнозе (речь идет о неоперабельной терминальной стадии заболевания) Сакс написал колонку вNew York Times, которая сама стала поводом для множества публикация в других СМИ: в ней известный ученый подводит итог своей жизни.Сакс наиболее известен своими научно-популярными книгами, посвященными аномалиям в работе мозга: "Человек, который принял свою жену за шляпу", "Антрополог на Марсе", "Музыкофилия", "Глаз разума" и некоторыми другими.
+1	О	о	ADP	_	_	3	case	_	_
+2	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	диагнозе	диагноз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	о	о	ADP	_	_	10	case	_	_
+8	неоперабельной	неоперабельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	терминальной	терминальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+11	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	Сакс	Сакс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	написал	писать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	колонку	колонка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	вNew	вNew	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	York	york	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Times	times	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которая	который	PRON	_	Case=Nom	22	nsubj	_	_
+21	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	acl	_	_
+22	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
+23	поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+24	для	для	ADP	_	_	23	case	_	_
+25	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+26	публикация	публикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	СМИ	сми	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	_	_	29	punct	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	35	obl	_	_
+33	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	ученый	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+35	подводит	подводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+36	итог	итог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+37	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	38	amod	_	_
+38	жизни.	жизни.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	Сакс	Сакс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	appos	_	_
+40	наиболее	наиболее	ADV	_	Degree=Pos	41	advmod	_	_
+41	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	amod	_	_
+42	своими	свой	DET	_	Case=Ins|Number=Plur	44	amod	_	_
+43	научно-популярными	научно-популярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	44	amod	_	_
+44	книгами	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	посвященными	свящить	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	44	amod	_	_
+47	аномалиям	аномалия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	46	obl	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	41	nmod	_	_
+50	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+51	:	:	PUNCT	_	_	50	punct	_	_
+52	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	Человек	человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	56	appos	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	который	который	PRON	_	Case=Nom	56	nsubj	_	_
+56	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	50	parataxis	_	_
+57	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	58	amod	_	_
+58	жену	жена	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	56	obj	_	_
+59	за	за	ADP	_	_	60	case	_	_
+60	шляпу	шляпа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	56	obl	_	SpaceAfter=No
+61	"	"	PUNCT	_	_	60	punct	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	60	punct	_	_
+63	"	"	PUNCT	_	_	64	punct	_	SpaceAfter=No
+64	Антрополог	антрополог	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+65	на	на	ADP	_	_	66	case	_	_
+66	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
+67	"	"	PUNCT	_	_	66	punct	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	66	punct	_	_
+69	"	"	PUNCT	_	_	70	punct	_	SpaceAfter=No
+70	Музыкофилия	Музыкофилия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	64	appos	_	SpaceAfter=No
+71	"	"	PUNCT	_	_	70	punct	_	SpaceAfter=No
+72	,	,	PUNCT	_	_	70	punct	_	_
+73	"	"	PUNCT	_	_	74	punct	_	SpaceAfter=No
+74	Глаз	глаз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	64	conj	_	_
+75	разума	разум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	74	nmod	_	SpaceAfter=No
+76	"	"	PUNCT	_	_	75	punct	_	_
+77	и	и	CCONJ	_	_	79	cc	_	_
+78	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur	79	amod	_	_
+79	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	75	conj	_	SpaceAfter=No
+80	.	.	PUNCT	_	_	79	punct	_	_
+
+# sent_id = 1185
+# text = Эти книги основаны на обширной клинической практике автора, который на протяжении многих лет работал в Медицинском колледже Альберта Эйнштейна и Медицинской школе Университета Нью Йорка.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	книги	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	основаны	основывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	7	case	_	_
+5	обширной	обширный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	клинической	клинический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+13	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	Медицинском	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	колледже	колледж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+19	Альберта	альберт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Эйнштейна	Эйнштейн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	Медицинской	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+24	Университета	Университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	Нью	Нья	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	0	appos	_	_
+26	Йорка	Йорк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1186
+# text = В них, на примере отдельных аномалий и редких клинических случаев, раскрываются общие принципы работы мозга, механизмы памяти, мышления, анализа зрительной и слуховой информации.
+1	В	в	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	примере	пример	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+6	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	аномалий	аномалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	11	cc	_	_
+9	редких	редкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	общие	общий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	принципы	принцип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	conj	_	_
+20	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	мышления	мышление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_
+25	зрительной	зрительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	слуховой	слуховый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	_
+28	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1187
+# text = Кроме того, Сакс является автором множества научных статей по неврологии и нейробиологии.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Сакс	Сакс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	автором	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	неврологии	неврология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	нейробиологии	нейробиология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 1188

@@ -1,0 +1,286 @@
+# text = # newpar
+# sent_id = 3502
+# text = Армия США обратилась к Комиссии по ядерной регламентации США с просьбой разрешить ей владеть и распоряжаться небольшим количеством урана.
+1	Армия	армия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	обратилась	обращаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	Комиссии	комиссия	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	ядерной	ядерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	регламентации	регламентация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	просьбой	просьба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+12	разрешить	разрешать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+13	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	12	obl	_	_
+14	владеть	владеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	распоряжаться	распоряжаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	conj	_	_
+17	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+19	урана	уран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3503
+# text = КаксообщаетAssociated Press, речь идет об уране, находящимся на полигонах, где проводились испытания ядерных надкалиберных боеприпасов M388 "Дэви Крокетт" (Davy Crockett).В первую очередь военных интересует полигон "Форт Силл" на юго-западе Оклахомы.
+1	КаксообщаетAssociated	КаксообщаетAssociated	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Press	press	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	об	о	ADP	_	_	7	case	_	_
+7	уране	уран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	находящимся	находиться	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	полигонах	полигон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	где	где	ADV	_	Degree=Pos	14	advmod	_	_
+14	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
+15	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj:pass	_	_
+16	ядерных	ядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	надкалиберных	надкалиберный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	M388	M388	NUM	_	_	21	nummod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Дэви	Дэви	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+22	Крокетт	Крокетт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Davy	Davy	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+26	Crockett	Crockett	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	В	в	ADP	_	_	32	discourse	_	_
+30	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	fixed	_	_
+31	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	fixed	_	_
+32	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+33	интересует	интересевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+34	полигон	полигон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	Форт	Форт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	appos	_	_
+37	Силл	силл	PROPN	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	юго-западе	юго-запад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+41	Оклахомы	Оклахома	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 3504
+# text = В 1950-1960-х годах Армия США использовала "Дэви Крокетта" на учениях -- военные стреляли учебными версиями M388 -- M101 -- в которых в качестве имитатора боезаряда использовались 190 граммов обедненного урана.
+1	В	в	ADP	_	_	4	case	_	_
+2	1950	1950	NUM	_	_	4	nummod	_	SpaceAfter=No
+3	-1960-х	-1960-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+5	Армия	армия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
+7	использовала	использовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Дэви	Дэви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	Крокетта	Крокетта	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	учениях	учение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	стреляли	стрелять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	учебными	учебной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	версиями	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	_
+19	M388	M388	NUM	_	_	16	nummod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	M101	M101	NUM	_	_	19	nummod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	которых	который	PRON	_	Case=Loc	16	obl	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	fixed	_	_
+27	имитатора	имитатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
+28	боезаряда	боезаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	16	parataxis	_	_
+30	190	190	NUM	_	_	31	nummod	_	_
+31	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nsubj:pass	_	_
+32	обедненного	обеднять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	урана	уран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3505
+# text = По оценке Армии США, этот уран может представлять опасность для людей и окружающей среды."Дэви Крокетт" был одним из самых маленьких ядерных боеприпасов.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+3	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	уран	уран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+9	представлять	представлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	опасность	опасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Дэви	Дэви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+19	Крокетт	Крокетт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+22	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+23	из	из	ADP	_	_	27	case	_	_
+24	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	маленьких	маленькой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+26	ядерных	ядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3506
+# text = Его разработали в конце 1950-х годов для противодействия советским войскам в случае наступления в Западной Германии.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	1950-х	1950-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	противодействия	противодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	советским	советский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	войскам	войска	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	advmod	_	_
+13	наступления	наступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	Западной	западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Германии	германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3507
+# text = Мощность боеприпаса составляла от десяти до 20 тонн в тротиловом эквиваленте; ее можно было изменять перед выстрелом.Длина снаряда составляла 78,7 сантиметра, а диаметр -- 28 сантиметров.
+1	Мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составляла	составлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	десяти	десять	NUM	_	Case=Dat	8	nummod	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	20	20	NUM	_	_	5	nummod	_	_
+8	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	тротиловом	тротиловый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	эквиваленте	эквивалент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	11	punct	_	_
+13	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
+14	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	изменять	изменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+17	перед	перед	ADP	_	_	18	case	_	_
+18	выстрелом.	выстреломя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+19	Длина	длин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	снаряда	снаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	составляла	составлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+22	78,7	78,7	NUM	_	_	23	nummod	_	_
+23	сантиметра	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	26	cc	_	_
+26	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	conj	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	28	28	NUM	_	_	29	nummod	_	_
+29	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3508
+# text = Масса снаряда составляла 34,5 килограмма при массе боевой части 23 килограмма.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	снаряда	снаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составляла	составлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	34,5	34,5	NUM	_	_	5	nummod	_	_
+5	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	массе	масса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	23	23	NUM	_	_	11	nummod	_	_
+11	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3509
+# text = "Дэви Крокетт" использовался для стрельбы из минометов M28 или M29 калибра 120 и 150 миллиметров соответственно.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Дэви	Дэви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	Крокетт	Крокетт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	5	punct	_	_
+5	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	из	из	ADP	_	_	7	case	_	_
+9	минометов	миномет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	M28	M28	NUM	_	_	9	nummod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	M29	M29	NUM	_	_	5	conj	_	_
+13	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	120	120	NUM	_	_	17	nummod	_	_
+15	и	и	CCONJ	_	_	14	cc	_	_
+16	150	150	NUM	_	_	14	nummod	_	_
+17	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+18	соответственно	соответственно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3510
+# text = Испытания боевых зарядов боеприпаса состоялись в 1962 году на полигоне в Неваде.M388 получил название в честь американского офицера и конгрессмена Дэвида Крокетта, погибшего в 1836 году при защите крепости Аламо во время войны за независимость Техаса.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+2	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	зарядов	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	состоялись	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	1962	1962	NUM	_	_	8	nummod	_	_
+8	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	полигоне	полигон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Неваде.M388	Неваде.M388	NUM	_	_	5	nummod	_	_
+13	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+17	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	офицера	офицер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	конгрессмена	конгрессмен	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
+21	Дэвида	дэвид	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	appos	_	_
+22	Крокетта	Крокетт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	погибшего	погибать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	1836	1836	NUM	_	_	27	nummod	_	_
+27	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+28	при	при	ADP	_	_	29	case	_	_
+29	защите	защита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+30	крепости	крепость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	Аламо	Аламо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+32	во	во	ADP	_	_	34	case	_	_
+33	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	fixed	_	_
+34	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+35	за	за	ADP	_	_	36	case	_	_
+36	независимость	независимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+37	Техаса	Техас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 3511
+# text = Боеприпас M388 был снят с вооружения США в конце 1970-х годов.Василий Сычёв
+1	Боеприпас	Боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	M388	M388	NUM	_	_	1	nummod	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	снят	снимать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	в	в	ADP	_	_	6	case	_	_
+9	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+10	1970-х	1970-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	годов.	годовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+13	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+
+# newpar
+# sent_id = 3512

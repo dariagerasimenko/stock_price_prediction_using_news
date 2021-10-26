@@ -1,0 +1,133 @@
+# text = # newpar
+# sent_id = 575
+# text = Исследователи из Иллинойсского университета разработали систему, которая позволяет при помощи дронов следить за прогрессом строительства объектов и отслеживать места, где по какой-то причине строительство замедлилось.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Иллинойсского	Иллинойсский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	при	при	ADP	_	_	12	case	_	_
+11	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
+12	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+13	следить	следить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	прогрессом	прогресс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+16	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+20	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	где	где	ADV	_	Degree=Pos	27	advmod	_	_
+23	по	по	ADP	_	_	25	case	_	_
+24	какой-то	какой-то	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
+26	строительство	строительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+27	замедлилось	замедляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 576
+# text = Об этомсообщаетMIT Technology Review.Система применяется на строительстве нового стадиона в Калифорнии.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этомсообщаетMIT	этомсообщаетmit	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+3	Technology	technology	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Review.Система	Review.Система	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	строительстве	строительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	стадиона	стадион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 577
+# text = Раз в день несколько дронов подымаются в воздух и облетают по кругу место стройки.
+1	Раз	раз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	5	nummod:gov	_	_
+5	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	подымаются	подыматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	облетают	облетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	кругу	круг	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+13	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+14	стройки	стройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 578
+# text = Программное обеспечение анализирует отснятое видео и строит 3D-модель объекта стройки, после чего его можно сравнить с изначально запланированным темпом строительством.
+1	Программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	анализирует	анализиревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отснятое	отснимать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	строит	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+11	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	стройки	стройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	чего	что	PRON	_	Case=Gen	10	nmod	_	_
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+17	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+18	сравнить	сравнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	с	с	ADP	_	_	22	case	_	_
+20	изначально	изначально	ADV	_	Degree=Pos	21	advmod	_	_
+21	запланированным	планировать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	темпом	темп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+23	строительством	строительство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 579
+# text = По словам разработчиков, в систему заложены ключевые точки объекта и по тому, какой участок стройки замедлился, можно достаточно точно определить слабое место и выяснить причину, по которой началось отставание от графика.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+7	заложены	закладывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	ключевые	ключевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	точки	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+10	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	участок	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	стройки	стройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	замедлился	замедляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	можно	можно	ADV	_	Degree=Pos	18	conj	_	_
+21	достаточно	достаточно	ADV	_	Degree=Pos	22	advmod	_	_
+22	точно	точно	ADV	_	Degree=Pos	23	advmod	_	_
+23	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+24	слабое	слабый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	conj	_	_
+28	причину	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	по	по	ADP	_	_	31	case	_	_
+31	которой	который	PRON	_	Case=Dat	32	obl	_	_
+32	началось	начинаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	28	acl:relcl	_	_
+33	отставание	отставание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+34	от	от	ADP	_	_	35	case	_	_
+35	графика	график	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# newpar
+# sent_id = 580

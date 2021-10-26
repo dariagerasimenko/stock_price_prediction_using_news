@@ -1,0 +1,326 @@
+# text = # newpar
+# sent_id = 3174
+# text = Впервые астрофизики определили состав атмосферы экзопланеты, которая относится к классу суперземель.
+1	Впервые	впервый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+12	суперземель	суперземель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3175
+# text = Оказалось, что планета 55 Рака е обладает сухой атмосферой без признаков водяного пара.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	планета	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	55	55	NUM	_	_	6	nummod	_	_
+6	Рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	е	е	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	сухой	сухой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	атмосферой	атмосфера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	без	без	ADP	_	_	12	case	_	_
+12	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	водяного	водяной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	пара	пар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3176
+# text = Препринт статьи был выложен на сайте arXiv.org, а результаты исследования будут опубликованы в Astrophysical Journal.Ученые провели спектроскопические наблюдения транзита планеты по диску звезды, используя широкоугольную камеруWFC3 на борту телескопа "Хаббл".
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	выложен	выкладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	arXiv.org	arXiv.org	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+11	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Journal.	journal.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+17	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+19	спектроскопические	спектроскопический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+21	транзита	транзит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	диску	диск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+25	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+28	широкоугольную	широкоугольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	obj	_	_
+29	камеруWFC3	камеруwfc3	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	nmod	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	_
+32	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 3177
+# text = Также исследователи воспользовались методом пространственного сканирования, который заключается в том, что телескоп делает снимки с разных точек орбиты.
+1	Также	также	CCONJ	_	_	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	воспользовались	пользоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	пространственного	пространственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сканирования	сканирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+16	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+20	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3178
+# text = Так как родительская звезда планеты очень яркая, такой метод позволяет избежать попадания избытка света на детектор телескопа и получить более качественные спектры.
+1	Так	так	ADV	_	Degree=Pos	7	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	родительская	родительский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	_
+7	яркая	яркий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+10	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	попадания	попадание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+14	избытка	избыток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	детектор	детектор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+18	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	_
+21	более	более	ADV	_	Degree=Cmp	22	advmod	_	_
+22	качественные	качественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	спектры	спектр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3179
+# text = Общее время экспозиции составило восемь секунд.Из полученных спектров ученые извлекли спектро-фотометрические кривые блеска, которые позволяют обнаружить поглощение света звезды различными газами в атмосфере экзопланеты.
+1	Общее	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	экспозиции	экспозиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	составило	составлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	восемь	восемь	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	секунд.	секунданица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	Из	из	ADP	_	_	9	case	_	_
+8	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	спектров	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	извлекли	извлекать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+12	спектро-фотометрические	спектро-фотометрический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+13	кривые	кривой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	блеска	блеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которые	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	поглощение	поглощение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	газами	газ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3180
+# text = Затем исследователи с помощью компьютерной симуляции проверили, какие именно вещества могли вызвать изменения в блеске звезды.
+1	Затем	затем	ADV	_	Degree=Pos	7	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	с	с	ADP	_	_	6	case	_	_
+4	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	fixed	_	_
+5	компьютерной	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	симуляции	симуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	проверили	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	какие	какой	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+10	именно	именно	PART	_	_	11	advmod	_	_
+11	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+12	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	вызвать	вызывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	блеске	блеска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+17	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3181
+# text = Результаты показали, что в атмосфере экзопланеты отсутствуют водяные пары, зато присутствует смесь водорода и гелия.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+7	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	отсутствуют	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	водяные	водяной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	пары	пар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	зато	зато	CCONJ	_	_	13	cc	_	_
+13	присутствует	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+14	смесь	смесь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	гелия	гелие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3182
+# text = Также ученым удалось обнаружить признаки содержания циановодорода, а также возможное наличие углекислого газа, монооксида углерода и ацетилена.
+1	Также	также	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	циановодорода	циановодород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	12	cc	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	возможное	возможный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	наличие	наличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+13	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	монооксида	монооксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+17	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	ацетилена	ацетилен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3183
+# text = Это может свидетельствовать о том, что атмосфера суперземли богата углеродом.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	свидетельствовать	свидетельствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	атмосфера	атмосфера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	суперземли	суперземль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	богата	богатый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	advcl	_	_
+11	углеродом	углерод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3184
+# text = 55 Рака е вращается вокруг солнцеподобной звезды, которая удалена от Земли на расстояние в 40 световых лет.
+1	55	55	NUM	_	_	2	nummod	_	_
+2	Рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	е	е	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	вращается	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вокруг	вокруг	ADP	_	_	7	case	_	_
+6	солнцеподобной	солнцеподобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj:pass	_	_
+10	удалена	удалять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+15	в	в	ADP	_	_	14	case	_	_
+16	40	40	NUM	_	_	18	nummod	_	_
+17	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3185
+# text = Планета больше Земли примерно в два раза, а ее масса составляет около восьми земных масс.
+1	Планета	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	больше	много	NUM	_	_	3	nummod:gov	_	_
+3	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	примерно	примерно	ADV	_	Degree=Pos	7	advmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod:gov	_	_
+7	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	12	cc	_	_
+10	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+11	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	около	около	ADP	_	_	16	case	_	_
+14	восьми	восемь	NUM	_	Case=Gen	16	nummod	_	_
+15	земных	земной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3186
+# text = Она располагается очень близко к своему солнцу, поэтому год на планете длится примерно 18 часов, а температура достигает двух тысяч градусов Цельсия.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	располагается	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	_
+4	близко	близко	ADV	_	Degree=Pos	2	advmod	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	своему	свой	DET	_	Case=Dat|Gender=Neut|Number=Sing	7	amod	_	_
+7	солнцу	солнце	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	_
+10	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	длится	длиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+14	примерно	примерно	ADV	_	Degree=Pos	15	advmod	_	_
+15	18	18	NUM	_	_	16	nummod	_	_
+16	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+21	двух	два	NUM	_	Case=Gen	22	nummod	_	_
+22	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	_
+23	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	Цельсия	Цельсий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3187
+# text = Кроме нее в системе 55 Рака находятся еще четыре планеты.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+5	55	55	NUM	_	_	6	nummod	_	_
+6	Рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	еще	еще	ADV	_	Degree=Pos	9	advmod	_	_
+9	четыре	четыре	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3188
+# text = Александр Еникеев
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3189

@@ -1,0 +1,398 @@
+# text = # newpar
+# sent_id = 1754
+# text = Две независимых исследовательских группы показали, что сперма мышей содержит фрагменты транспортных РНК, которые способны влиять на метаболизм потомства.
+1	Две	два	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+2	независимых	независимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	исследовательских	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	группы	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	сперма	сперма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	транспортных	транспортной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	11	acl:relcl	_	_
+17	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	метаболизм	метаболизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+20	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1755
+# text = Такой путь эпигенетического наследования ранее не был известен.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	эпигенетического	эпигенетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	наследования	наследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	ранее	ранее	ADV	_	Degree=Pos	8	advmod	_	_
+6	не	не	PART	_	_	8	advmod	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1756
+# text = Эти работы американскихи китайскихученых опубликованы в одном выпускеScience.В последнее время появляется все больше свидетельств того, что нарушения метаболизма потомства могут зависеть от диеты отца.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	американскихи	американскихой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	китайскихученых	китайскихученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	одном	один	NUM	_	Case=Loc|Gender=Masc	8	nummod	_	_
+8	выпускеScience.	выпускеScience.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	В	в	ADP	_	_	11	case	_	_
+10	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+12	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+13	все	все	PART	_	_	14	advmod	_	_
+14	больше	много	NUM	_	_	15	nummod:gov	_	_
+15	свидетельств	свидетельство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+16	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+20	метаболизма	метаболизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+23	зависеть	зависеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	от	от	ADP	_	_	25	case	_	_
+25	диеты	диета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+26	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1757
+# text = Предполагается, что такие признаки, как, например, ожирение, могут передаваться эпигенетически -- независимо от последовательности ДНК, однако точный механизм пока неизвестен.Первое исследованиепоказало, чтосокращение количества белка в пище мышей приводит к повышению у потомства активности генов, вовлеченных в метаболизм жиров и холестерина.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	11	cc	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	например	например	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ожирение	ожирение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+14	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	xcomp	_	_
+15	эпигенетически	эпигенетически	ADV	_	Degree=Pos	14	advmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	независимо	независимо	ADV	_	Degree=Pos	26	advmod	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+20	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	однако	однако	ADV	_	Degree=Pos	26	advmod	_	_
+23	точный	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	пока	пока	ADV	_	Degree=Pos	26	advmod	_	_
+26	неизвестен	неизвестный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	исследованиепоказало	исследованиепоказало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	чтосокращение	чтосокращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	conj	_	_
+32	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	пище	пище	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	nmod	_	_
+36	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	37	obl	_	_
+37	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	_
+38	к	к	ADP	_	_	39	case	_	_
+39	повышению	повышение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	37	obl	_	_
+40	у	у	ADP	_	_	39	case	_	_
+41	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+42	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	вовлеченных	вовлекать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	метаболизм	метаболизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obl	_	_
+48	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	47	nmod	_	_
+49	и	и	CCONJ	_	_	50	cc	_	_
+50	холестерина	холестерин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 1758
+# text = Ученые сравнили состав спермы мышей, содержавшихся на различной диете, и обнаружили повышенное содержание некоторых типов РНК у мышей с низкобелковым питанием.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнили	сравнивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	спермы	сперма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	содержавшихся	содержаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	5	amod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	различной	различный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	диете	диета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	повышенное	повышать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+17	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+19	у	у	ADP	_	_	20	case	_	_
+20	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	низкобелковым	низкобелковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	питанием	питание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1759
+# text = Один из них -- фрагмент глициновой транспортной РНК (тРНК), который может участвовать в регуляции активности генетических элементов, действующих на ранних стадиях развития зародыша.Во втором исследованииизучали наследственность мышей на высокожировой диете.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	31	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	фрагмент	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+6	глициновой	глициновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+7	транспортной	транспортной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+8	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	тРНК	трнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
+15	участвовать	участвовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	генетических	генетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	действующих	действовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	ранних	ранний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	стадиях	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	obl	_	_
+26	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	зародыша	зародыш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Во	в	ADP	_	_	30	case	_	_
+30	втором	вторый	PRON	_	Case=Loc	31	obl	_	_
+31	исследованииизучали	исследованииизучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+32	наследственность	наследственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	_
+34	на	на	ADP	_	_	36	case	_	_
+35	высокожировой	высокожировый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	диете	диета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 1760
+# text = Хотя их потомство питалось нормально и не страдало ожирением, у него наблюдались некоторые отклонения, как у отцов-- повышенное поглощение глюкозы клетками и пониженная чувствительность к инсулину.Ученые смогли определить, какие вещества задействованы в наследовании этих признаков.
+1	Хотя	хотя	PART	_	_	4	advmod	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	потомство	потомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	питалось	питаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	нормально	нормально	ADV	_	Degree=Pos	4	advmod	_	_
+6	и	и	PART	_	_	8	advmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	страдало	страдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	ожирением	ожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+13	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+14	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	15	amod	_	_
+15	отклонения	отклонение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	как	как	SCONJ	_	_	19	cc	_	_
+18	у	у	ADP	_	_	19	case	_	_
+19	отцов	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	повышенное	повышать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	поглощение	поглощение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	parataxis	_	_
+24	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+25	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	23	nmod	_	_
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	пониженная	нижить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	conj	_	_
+29	к	к	ADP	_	_	30	case	_	_
+30	инсулину.	инсулину.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+32	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	какие	какой	DET	_	Case=Nom|Number=Plur	36	amod	_	_
+36	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	37	nsubj:pass	_	_
+37	задействованы	действовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	conj	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	наследовании	наследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+40	этих	этот	DET	_	Case=Gen|Number=Plur	41	amod	_	_
+41	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 1761
+# text = Они искусственно оплодотворили мышиные яйцеклетки спермой обычных мышей с добавлением фрагментов тРНК из спермы мышей на высокожировой диете.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	искусственно	искусственно	ADV	_	Degree=Pos	3	advmod	_	_
+3	оплодотворили	оплодотворивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мышиные	мышиный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	спермой	спермый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	добавлением	добавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	obl	_	_
+11	фрагментов	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	тРНК	трнк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	спермы	сперма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+15	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	высокожировой	высокожировый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	диете	диета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1762
+# text = У полученного поколения наблюдались изменения в профиле экспрессии генов и все те же признаки мышей с ожирением.
+1	У	у	ADP	_	_	3	case	_	_
+2	полученного	получать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+4	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	профиле	профил	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	14	cc	_	_
+11	все	весь	DET	_	Case=Nom|Number=Plur	14	amod	_	_
+12	те	тот	DET	_	Case=Nom|Number=Plur	14	amod	_	_
+13	же	же	PART	_	_	12	advmod	_	_
+14	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+15	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	conj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	ожирением	ожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1763
+# text = Оба исследования показывают, что фрагменты тРНК, содержащиеся в сперме, способны влиять на экспрессию генов и дальнейшее формирование фенотипа потомства.Недавнее исследование выявило роль другого типа РНК в эпигенетике.
+1	Оба	оба	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+7	тРНК	трнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	содержащиеся	содержаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	сперме	сперм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	26	conj	_	_
+14	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+17	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	дальнейшее	дальнейший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	формирование	формирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
+21	фенотипа	фенотип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Недавнее	недавний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+26	выявило	выявлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+27	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	эпигенетике	эпигенетика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1764
+# text = Группа американских исследователей показала, что микроРНК участвуют в наследовании приобретенных реакций на стресс у мышей.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	микроРНК	микрорнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	наследовании	наследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	приобретенных	приобретать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	на	на	ADP	_	_	12	case	_	_
+14	стресс	стресс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+15	у	у	ADP	_	_	16	case	_	_
+16	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1765
+# text = Еще одна работа была посвящена связи между метаболизмом отца и его потомства через другой механизм -- метилирование ДНК.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	одна	один	NUM	_	Case=Nom|Gender=Fem	3	nummod:gov	_	_
+3	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	посвящена	посвящать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	связи	связь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+7	между	между	ADP	_	_	8	case	_	_
+8	метаболизмом	метаболизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+9	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	_
+13	через	через	ADP	_	_	15	case	_	_
+14	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	метилирование	метилирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	appos	_	_
+18	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1766
+# text = Датские ученыеисследовалиобразцы спермы нормальных мужчин и страдающих ожирением и выявили различия в паттернах метилирования ДНК.
+1	Датские	Датской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученыеисследовалиобразцы	ученыеисследовалиобразец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+3	спермы	сперма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	нормальных	нормальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	страдающих	страдать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+8	ожирением	ожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	выявили	выявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	различия	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	паттернах	паттерна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+14	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1767
+# text = Так как такой паттерн передается потомству, ожирение отца может повышать вероятность развития ожирения у его детей.Анна Образцова
+1	Так	так	ADV	_	Degree=Pos	5	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	паттерн	паттерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	передается	передаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	потомству	потомство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ожирение	ожирение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	повышать	повышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	у	у	ADP	_	_	17	case	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+17	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Анна	Анн	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	appos	_	_
+20	Образцова	Образцов	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	flat:name	_	_
+
+# newpar
+# sent_id = 1768

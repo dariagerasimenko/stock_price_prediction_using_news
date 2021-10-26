@@ -1,0 +1,367 @@
+# text = # newpar
+# sent_id = 2193
+# text = Астрономы обнаружили на снимках автоматизированного обзора ASAS-SN всплеск светимости одной из звезд в галактике М66 из триплета Льва.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+5	автоматизированного	автоматизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ASAS-	ASAS-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	SN	Sn	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+9	всплеск	всплеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+10	светимости	светимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	одной	один	NUM	_	Case=Gen|Gender=Fem	10	nummod	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	галактике	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	М66	М66	NUM	_	_	15	nummod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	триплета	триплет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Льва	лев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2194
+# text = Спектроскопические данные подтверждают, что обнаруженный объект представляет собой сверхновую, взрыв которой произошёл около 33 миллионов лет назад, но лишь сейчас свет от нее достиг Земли.
+1	Спектроскопические	Спектроскопический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	nsubj	_	_
+3	подтверждают	подтверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	обнаруженный	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	собой	себя	PRON	_	Case=Ins	8	obl	_	_
+10	сверхновую	сверхновая	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	которой	который	PRON	_	Case=Gen	12	nmod	_	_
+14	произошёл	произошодить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	около	около	ADP	_	_	17	case	_	_
+16	33	33	NUM	_	_	17	nummod	_	_
+17	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	назад	назад	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	но	но	CCONJ	_	_	27	cc	_	_
+22	лишь	лишь	PART	_	_	23	advmod	_	_
+23	сейчас	сейчас	ADV	_	Degree=Pos	27	advmod	_	_
+24	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	24	nmod	_	_
+27	достиг	достигать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2195
+# text = Яркость объекта не позволяет увидеть его в любительские телескопы -- она составляет около 16,7 звездной величины.
+1	Яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	любительские	любительский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	телескопы	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	около	около	ADP	_	_	16	case	_	_
+14	16,7	16,7	NUM	_	_	16	nummod	_	_
+15	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2196
+# text = Сверхновая получила обозначение SN 2016cok.
+1	Сверхновая	сверхновая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	обозначение	обозначение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	SN	Sn	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	2016cok	2016cok	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2197
+# text = О находке сообщаетAstronomer's telegram, цветной снимок галактики со сверхновой опубликовал в своем альбоме на Flickr Терри Хэнкок.Первоначально объект был обнаружен на снимках телескопа Brutus, расположенного на Гавайских островах, но впоследствии находку подтвердили в австралийской обсерватории Runaway Bay.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+3	сообщаетAstronomer's	сообщаетAstronomer's	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	telegram	telegram	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	цветной	цветной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	снимок	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	со	с	ADP	_	_	10	case	_	_
+10	сверхновой	сверхновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	nmod	_	_
+11	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	amod	_	_
+14	альбоме	альбом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	Flickr	Flickr	PROPN	_	Foreign=Yes	0	nmod	_	_
+17	Терри	Терри	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	Хэнкок	Хэнкок	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Первоначально	Первоначально	ADV	_	Degree=Pos	23	advmod	_	_
+21	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	обнаружен	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	_
+26	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Brutus	Brutus	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	Гавайских	гавайский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	32	amod	_	_
+32	островах	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	но	но	CCONJ	_	_	37	cc	_	_
+35	впоследствии	впоследствии	ADV	_	Degree=Pos	37	advmod	_	_
+36	находку	находка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+37	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	_
+38	в	в	ADP	_	_	40	case	_	_
+39	австралийской	австралийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	37	obl	_	_
+41	Runaway	Runaway	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	Bay	Bay	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 2198
+# text = Свет от вспышки мог прийти на Землю в промежутке между 24 и 28 мая, поскольку на снимках галактики М66, сделанных до того момента, яркий источник отсутствует.
+1	Свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	от	от	ADP	_	_	3	case	_	_
+3	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	прийти	приходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	промежутке	промежуток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	между	между	ADP	_	_	11	case	_	_
+11	24	24	NUM	_	_	9	nummod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	28	28	NUM	_	_	11	conj	_	_
+14	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	поскольку	поскольку	SCONJ	_	_	5	mark	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+19	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	М66	М66	NUM	_	_	19	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	25	amod	_	_
+25	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	яркий	яркий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+29	отсутствует	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2199
+# text = Впоследствии китайские астрономы из Юннаньской обсерватории установили спектральный класс объекта.
+1	Впоследствии	впоследствии	ADV	_	Degree=Pos	7	advmod	_	_
+2	китайские	китайский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	Юннаньской	Юннаньский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	спектральный	спектральный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	класс	класс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2200
+# text = Сопоставив кривую изменения блеска с архивными данными ученые выяснили, что сверхновая относится к классу IIP и очень похожа наSN 1999em.
+1	Сопоставив	сопоставлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	_
+2	кривую	кривая	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	блеска	блеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	архивными	архивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	4	nmod	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	сверхновая	сверхновая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	IIP	Iip	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	очень	очень	ADV	_	Degree=Pos	19	advmod	_	_
+19	похожа	похожий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	13	conj	_	_
+20	наSN	наsn	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	1999em	1999em	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2201
+# text = Последняя в максимуме своей светимости достигла 13,5 звездной величины.Сверхновые IIP класса отличаются тем, что в их спектрах есть линии водорода.
+1	Последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	максимуме	максимум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	светимости	светимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	достигла	достигать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	13,5	13,5	NUM	_	_	9	nummod	_	_
+8	звездной	звездный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	величины.	величины.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	Сверхновые	Сверхновой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	IIP	Iip	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+12	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	19	nmod	_	_
+19	спектрах	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	advcl	_	_
+20	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+21	линии	линие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+22	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2202
+# text = Считается, что их взрывы являются следствиями коллапса массивных звезд.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
+5	взрывы	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+7	следствиями	следствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+8	коллапса	коллапс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	массивных	массивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2203
+# text = Буква P в названии класса означает, что в кривой изменения блеска сверхновых есть плато.
+1	Буква	буква	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	P	p	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	названии	название	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+5	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	кривой	крива	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+11	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	блеска	блеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	сверхновых	сверхнов	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+14	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	плато	платый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2204
+# text = Самым известным представителем II-P является событиеSN 1987Aв Большом Магеллановом Облаке.
+1	Самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	известным	известный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	представителем	представитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	II	Ii	NUM	_	_	6	nummod	_	SpaceAfter=No
+5	-P	-p	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	событиеSN	событиеsn	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	1987Aв	1987Aв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Большом	больш	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	flat:name	_	_
+10	Магеллановом	Магелланов	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	Облаке	облаке	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2205
+# text = Интересно отметить, что первые зарегистрированные внегалактические нейтрино были ассоциированы именно с этим событием.Открытия сверхновых в окружающих галактиках происходят часто -- так, за 2015 год только ASAS-SN открыл более 150 объектов.
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	зарегистрированные	зарегистрировывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	внегалактические	внегалактический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	_
+8	нейтрино	нейтринский	ADJ	_	Degree=Pos	10	advmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	ассоциированы	ассоциировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+11	именно	именно	PART	_	_	13	advmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+14	событием.	событиеманица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	Открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	сверхновых	сверхнов	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	nmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	окружающих	окружать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	галактиках	галактик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	_
+20	происходят	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	часто	часто	ADV	_	Degree=Pos	20	advmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	так	так	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	за	за	ADP	_	_	27	case	_	_
+26	2015	2015	NUM	_	_	27	nummod	_	_
+27	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+28	только	только	PART	_	_	29	advmod	_	_
+29	ASAS-SN	Asas-sn	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+30	открыл	открывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+31	более	более	ADV	_	Degree=Cmp	33	nummod:gov	_	_
+32	150	150	NUM	_	_	33	nummod	_	_
+33	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2206
+# text = Вместе с тем, в Млечном Пути сверхновые не наблюдались с момента изобретения телескопа.
+1	Вместе	вместе	ADV	_	Degree=Pos	10	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Млечном	Млечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Пути	путь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+8	сверхновые	сверхновой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	изобретения	изобретение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2207
+# text = Самый близкий к Земле взрыв был зафиксирован в 2014 году в галактике М81 в созвездии Большой Медведицы.
+1	Самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	близкий	близкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	Земле	земля	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+5	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	зафиксирован	фиксировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	2014	2014	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	галактике	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+13	М81	М81	NOUN	_	_	7	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	созвездии	созвездие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	Большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Медведицы	Медведица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2208
+# text = Его блеск достиг 10,5 звездных величин.Владимир Королёв
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	блеск	блеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	достиг	достигать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	10,5	10,5	NUM	_	_	6	nummod	_	_
+5	звездных	звездный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	величин	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+9	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	_
+
+# newpar
+# sent_id = 2209

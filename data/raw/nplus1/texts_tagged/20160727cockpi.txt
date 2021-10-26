@@ -1,0 +1,150 @@
+# text = # newpar
+# sent_id = 5115
+# text = NASA опубликовало фотографию панели приборов нового гибридного самолета X-57, сборка которого ведется в настоящее время.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	опубликовало	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	панели	панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	X	x	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	57	57	NUM	_	_	9	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	которого	который	PRON	_	Case=Gen	13	nmod	_	_
+15	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+16	в	в	ADP	_	_	15	advmod	_	_
+17	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	fixed	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	fixed	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5116
+# text = Большинство приборов и рукоятей управления кабина пилотов унаследовала от самолета Tecnam P2006T, на базе которого создается X-57.На панели приборов присутствуют стандартные индикаторы нормали, направления, поворота и скольжения и GPS.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	рукоятей	рукоять	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	conj	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	кабина	кабин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	унаследовала	унаследовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	Tecnam	Tecnam	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	P2006T	P2006t	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+16	которого	который	PRON	_	Case=Gen	15	nmod	_	_
+17	создается	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+18	X	x	NUM	_	_	20	nummod	_	SpaceAfter=No
+19	-57.	-57	NUM	_	_	18	nummod	_	SpaceAfter=No
+20	На	на	ADP	_	_	21	case	_	_
+21	панели	панель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
+22	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	присутствуют	присутствевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+24	стандартные	стандартный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	индикаторы	индикатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+26	нормали	нормать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	направления	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	conj	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	скольжения	скольжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	conj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	GPS	Gps	PROPN	_	Foreign=Yes	28	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 5117
+# text = Кроме того, в кабине установлен магнитный компас, коммуникационное и навигационное оборудование, альтиметр, указатель скорости и вертикальной скорости.Самолет получил раздельные рукояти управления электромоторами левой и правой консолей крыла, шагом винтов и складыванием лопастей вспомогательных винтов, включения обогрева карбюратора вспомогательной установки с генератором.На месте второго пилота большая часть приборов отсутствует.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	кабине	кабин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	магнитный	магнитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	компас	компас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	коммуникационное	коммуникационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	навигационное	навигационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	альтиметр	альтиметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	указатель	указатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+18	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	вертикальной	вертикальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	скорости.	скоростианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	раздельные	раздельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	рукояти	рукоять	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+26	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	электромоторами	электромотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	_
+28	левой	левый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	правой	правый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	conj	_	_
+31	консолей	консоля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+32	крыла	крыл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	шагом	шаг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	conj	_	_
+35	винтов	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	складыванием	складывание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+38	лопастей	лопасть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	_
+39	вспомогательных	вспомогательной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	винтов	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	conj	_	_
+43	обогрева	обогрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	карбюратора	карбюратор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	вспомогательной	вспомогательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_
+47	с	с	ADP	_	_	48	case	_	_
+48	генератором.	генераторомя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+49	На	на	ADP	_	_	50	case	_	_
+50	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	48	nmod	_	_
+51	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	52	amod	_	_
+52	пилота	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	50	nmod	_	_
+53	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	54	amod	_	_
+54	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	56	nsubj	_	_
+55	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	54	nmod	_	_
+56	отсутствует	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	_
+
+# sent_id = 5118
+# text = Там установлены только хронометр, индикатор напряжения в бортовой сети, температуры и положения закрылков.
+1	Там	там	ADV	_	Degree=Pos	2	advmod	_	_
+2	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	только	только	PART	_	_	4	advmod	_	_
+4	хронометр	хронометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	индикатор	индикатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+7	напряжения	напряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	бортовой	бортовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	сети	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+15	закрылков	закрылок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5119
+# text = Присутствуют также переключатели освещения.
+1	Присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	также	также	ADV	_	Degree=Pos	1	advmod	_	_
+3	переключатели	переключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+4	освещения	освещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar
+# sent_id = 5120

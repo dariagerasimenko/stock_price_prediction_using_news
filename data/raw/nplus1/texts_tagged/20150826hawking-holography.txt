@@ -1,0 +1,521 @@
+# text = # newpar
+# sent_id = 587
+# text = На сегодняшней конференции по излучению Хокинга в Королевском техническом институте (Стокгольм, Швеция)
+1	На	на	ADP	_	_	3	case	_	_
+2	сегодняшней	сегодняшний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	излучению	излучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	Хокинга	Хокинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	Королевском	королевский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	техническом	технический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	институте	институт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Стокгольм	Стокгольм	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Швеция	швеция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 588
+# text = Стивен Хокинг предложил новый способ разрешения парадокса исчезновения информации в черной дыре.
+1	Стивен	Стивенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+2	Хокинг	хокинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	предложил	предлагать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+4	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	парадокса	парадокс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	исчезновения	исчезновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	черной	черный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	дыре	дыра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 589
+# text = По словам физика, информация не исчезает и не оказывается записана где-то внутри черной дыры -- вместо этого она хранится на поверхности горизонта событий сверхмассивного объекта в форме голограммы.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	физика	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	исчезает	исчезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+11	записана	писать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	где-то	где-то	ADV	_	Degree=Pos	15	advmod	_	_
+13	внутри	внутри	ADV	_	Degree=Pos	14	advmod	_	_
+14	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	вместо	вместо	ADP	_	_	18	case	_	_
+18	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+19	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+20	хранится	храниться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	parataxis	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	горизонта	горизонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
+25	сверхмассивного	сверхмассивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+29	голограммы	голограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 590
+# text = Краткое изложение лекцииХокингаприведенона сайте института.Исчезновение информации в черных дырах -- одна из значительных проблем в современной теоретической физике.
+1	Краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	изложение	изложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	лекцииХокингаприведенона	лекцииХокингаприведенон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	сайте	сайть	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	института.	института.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	Исчезновение	исчезновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+7	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	черных	черный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	дырах	дыры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	одна	один	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	значительных	значительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	современной	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	теоретической	теоретический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	физике	физика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 591
+# text = Единственным параметром, описывающим невращающуюся незаряженную черную дыру, является ее масса.
+1	Единственным	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	параметром	параметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	описывающим	описывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+5	невращающуюся	невращающийся	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+6	незаряженную	незаряженный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	дыру	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+12	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 592
+# text = Стивен Хокинг в 1975 году показал, что эти сверхмассивные объекты также постепенно испаряются за счет излучения, которое было названо излучением Хокинга.
+1	Стивен	Стивенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+2	Хокинг	хокинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	1975	1975	NUM	_	_	5	nummod	_	_
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	эти	этот	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+10	сверхмассивные	сверхмассивный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	постепенно	постепенно	ADV	_	Degree=Pos	14	advmod	_	_
+14	испаряются	испаряться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+15	за	за	ADP	_	_	17	case	_	_
+16	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которое	который	PRON	_	Case=Nom	21	nsubj	_	_
+20	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	названо	называть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+22	излучением	излучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+23	Хокинга	хокинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 593
+# text = Поскольку это излучение хаотично, а также поскольку внешний наблюдатель не может узнать что находится внутри черной дыры (ее не может покидать свет, а значит и любая другая информация), то вся информация о свойствах конкретной поглощенной частицы куда-то пропадает.Это можно показать мысленным экспериментом.
+1	Поскольку	поскольку	SCONJ	_	_	4	cc	_	_
+2	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	хаотично	хаотичный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	а	а	CCONJ	_	_	12	cc	_	_
+7	также	также	ADV	_	Degree=Pos	12	advmod	_	_
+8	поскольку	поскольку	SCONJ	_	_	7	cc	_	_
+9	внешний	внешний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	наблюдатель	наблюдатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+15	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	parataxis	_	_
+16	внутри	внутри	ADV	_	Degree=Pos	18	advmod	_	_
+17	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+23	покидать	покидать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	а	а	CCONJ	_	_	27	cc	_	_
+27	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	advcl	_	_
+28	и	и	PART	_	_	31	advmod	_	_
+29	любая	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+30	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	31	punct	_	_
+34	то	то	SCONJ	_	_	27	cc	_	_
+35	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	36	amod	_	_
+36	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
+37	о	о	ADP	_	_	38	case	_	_
+38	свойствах	свойство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	36	nmod	_	_
+39	конкретной	конкретной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+40	поглощенной	поглощать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	41	amod	_	_
+41	частицы	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+42	куда-то	куда-то	ADV	_	Degree=Pos	43	advmod	_	_
+43	пропадает	пропадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	parataxis	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	Это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	43	obj	_	_
+46	можно	можно	ADV	_	Degree=Pos	22	conj	_	_
+47	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	46	nsubj	_	_
+48	мысленным	мысленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	экспериментом	эксперимент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 594
+# text = Предположим, наша черная дыра поглотила частицу определенной массы.
+1	Предположим	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+4	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	поглотила	поглотывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	частицу	частица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	определенной	определять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 595
+# text = При этом масса черной дыры увеличилась.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 596
+# text = Затем, положим, поглощений не происходило, но черная дыра излучила энергию, соответствующую массе частицы и ее состояние вернулось в исходное.
+1	Затем	затем	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	положим	полагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	поглощений	поглощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	но	но	CCONJ	_	_	12	cc	_	_
+10	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	излучила	излучать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	соответствующую	соответствовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	массе	масса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+17	частицы	частица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	21	cc	_	_
+19	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	20	nmod	_	_
+20	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	вернулось	вернуться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	исходное	исходный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 597
+# text = Так как излучение не несет информации, а черная дыра определяется лишь ее массой -- информация о состоянии частицы потерялась.
+1	Так	так	ADV	_	Degree=Pos	5	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+6	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	11	cc	_	_
+9	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+11	определяется	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+12	лишь	лишь	PART	_	_	14	advmod	_	_
+13	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
+14	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+17	о	о	ADP	_	_	18	case	_	_
+18	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+19	частицы	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	потерялась	теряться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 598
+# text = Такое наблюдение не совместимо с квантовой теорией поля, поскольку нарушает один из ее базовых принципов -- унитарность преобразований.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	совместимо	совместимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	квантовой	квантовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	теорией	теория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+8	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	поскольку	поскольку	SCONJ	_	_	4	mark	_	_
+11	нарушает	нарушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+12	один	один	NUM	_	Case=Nom|Gender=Masc	11	nummod:gov	_	_
+13	из	из	ADP	_	_	16	case	_	_
+14	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+15	базовых	базовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	принципов	принцип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	унитарность	унитарность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+19	преобразований	преобразование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 599
+# text = Информация не должна исчезать.Новое предположение физика заключается в том, что информация о частицах попросту даже не проникает внутрь черной дыры.
+1	Информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	исчезать	исчезать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	предположение	предположение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	физика	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	частицах	частиец	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	_
+17	попросту	попросту	PART	_	_	19	advmod	_	_
+18	даже	даже	PART	_	_	19	advmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	проникает	проникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+21	внутрь	внутрь	ADP	_	_	23	case	_	_
+22	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 600
+# text = Вместо этого она остается записанной на поверхности горизонта событий в виде его супертрансляций (серия работгруппы BMS -- Bondi--Metzner--Sachs).
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	записанной	записывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	горизонта	горизонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	супертрансляций	супертрансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	серия	серия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	parataxis	_	_
+16	работгруппы	работгруппа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	BMS	Bms	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	Bondi--Metzner--Sachs	Bondi--Metzner--Sachs	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 601
+# text = Хокинг сравнивает это понятие с голограммой: в классическом использовании голограмм, при освещении двумерной пластинки лазером, она "возвращает" трехмерное изображение, которое было на нее записано.
+1	Хокинг	Хокинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сравнивает	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+4	понятие	понятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	голограммой	голограмма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	классическом	классический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+11	голограмм	миллиголограметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	освещении	освещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+15	двумерной	двумерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	пластинки	пластинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	лазером	лазер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	возвращает	возвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	трехмерное	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	которое	который	PRON	_	Case=Nom	29	nsubj	_	_
+27	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	cop	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	acl:relcl	_	_
+30	записано	записывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	29	parataxis	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 602
+# text = "Идея в том, что супертрансляции -- голограммы поглощенных частиц".
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	супертрансляции	супертрансляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	advcl	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	голограммы	голограмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+10	поглощенных	поглощать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 603
+# text = В случае горизонта событий, записанная информация возвращается в виде четырехмерного снимка пространства-времени.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	горизонта	горизонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	записанная	писать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	возвращается	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	_	_
+11	четырехмерного	четырехмерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	снимка	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+13	пространства-времени	пространства-времена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 604
+# text = По словам физика, обратно эта информация уносится излучением Хокинга, но "в хаотичном и бесполезном виде".
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	_
+3	физика	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	обратно	обратно	ADV	_	Degree=Pos	8	advmod	_	_
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	уносится	уносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	излучением	излучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	Хокинга	хокинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	18	cc	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	в	в	ADP	_	_	18	case	_	_
+15	хаотичном	хаотичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	бесполезном	бесполезной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
+18	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 605
+# text = "Для всех практических применений эта информация потеряна" -- добавляет Хокинг.Проблема потери информации в черных дырах на протяжении 40 лет оставалась актуальной в теоретической физике.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Для	для	ADP	_	_	5	case	_	_
+3	всех	весь	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+4	практических	практический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	применений	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	_
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	потеряна	терять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	--	--	PUNCT	_	_	8	punct	_	_
+11	добавляет	добавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	Хокинг.	Хокинод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	Проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+14	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	черных	черный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	дырах	дыер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+21	40	40	NUM	_	_	22	nummod	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	оставалась	оставаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+24	актуальной	актуальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+25	в	в	ADP	_	_	24	case	_	_
+26	теоретической	теоретический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	физике	физика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 606
+# text = Существует ее разрешение в рамках предположения о том, что наша Вселенная имеет отрицательную кривизну (представляет собой так называемое анти-де-ситтеровское пространство), однако в случае плоской или положительной кривизны этот механизм разрешения парадокса не работает.
+1	Существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+6	предположения	предположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
+12	Вселенная	вселенная	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+14	отрицательную	отрицательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	кривизну	кривизна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+18	собой	себя	PRON	_	Case=Ins	20	obl	_	_
+19	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+20	называемое	называть	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	22	amod	_	_
+21	анти-де-ситтеровское	анти-де-ситтеровский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	однако	однако	ADV	_	Degree=Pos	37	advmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+28	плоской	плоский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+29	или	или	CCONJ	_	_	30	cc	_	_
+30	положительной	положительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	conj	_	_
+31	кривизны	кривизна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+32	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	33	amod	_	_
+33	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+34	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+35	парадокса	парадокс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	не	не	PART	_	_	37	advmod	_	_
+37	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 607
+# text = Недавно физики предположили, что потери информации можно избежать при наличии различных корреляций между частицами в излучении Хокинга.
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	_
+2	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	потери	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+7	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	3	advcl	_	_
+9	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	корреляций	корреляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	между	между	ADP	_	_	15	case	_	_
+15	частицами	частица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	излучении	излучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	Хокинга	хокинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 608

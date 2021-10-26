@@ -1,0 +1,84 @@
+# text = # newpar
+# sent_id = 3366
+# text = Астрономы из Университета Калифорнии обнаружили, что взрыв сверхновой SN 1987А, наблюдавшийся в 1987 году в Большом Магеллановом облаке, был несимметричным.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Калифорнии	Калифорния	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+9	сверхновой	сверхновой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	SN	Sn	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+11	1987А	1987	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	наблюдавшийся	наблюдываться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	8	amod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	1987	1987	NUM	_	_	16	nummod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	в	в1	ADP	_	_	18	case	_	_
+18	Большом	больш	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+19	Магеллановом	Магелланов	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	flat:name	_	_
+20	облаке	облаке	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	несимметричным	несимметричный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3367
+# text = В результате взрыва оболочка звезды начала двигаться в одну, а оставшийся материал (нейтронная звезда или черная дыра) в другую сторону.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	взрыва	взрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	оболочка	оболочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	одну	один	NUM	_	Case=Acc|Gender=Fem	13	nummod:gov	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	12	cc	_	_
+12	оставшийся	оставаться	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	13	amod	_	_
+13	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	нейтронная	нейтронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	parataxis	_	_
+17	или	или	CCONJ	_	_	19	cc	_	_
+18	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3368
+# text = Работа опубликована8 мая в журнале Science, а кратко ознакомиться с ее содержанием можно на сайте Jet Propulsion Laboratory.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+2	опубликована8	опубликована8	NUM	_	_	3	nummod	_	_
+3	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+6	Science	science	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+10	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	1	conj	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	13	nmod	_	_
+13	содержанием	содержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	_
+14	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Jet	Jet	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Propulsion	Propulsion	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Laboratory	Laboratory	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3369
+# text = Поделиться
+1	Поделиться	делиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	0	nsubj	_	_
+
+# newpar
+# sent_id = 3370

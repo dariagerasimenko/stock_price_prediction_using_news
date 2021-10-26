@@ -1,0 +1,219 @@
+# text = # newpar
+# sent_id = 3202
+# text = Коллаборация ученых изнескольких институтов США разработала новый катализатор наоснове нанокубиков палладия, который может заменить фермент пероксидазу вряде медицинских тестов.
+1	Коллаборация	Коллаборация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	изнескольких	изнесколько	NUM	_	Case=Gen	4	nummod	_	_
+4	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	катализатор	катализатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	наоснове	наоснова	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+10	нанокубиков	нанокубик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	палладия	палладий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	фермент	фермент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+17	пероксидазу	пероксидаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	вряде	вряде	ADV	_	Degree=Pos	20	advmod	_	_
+19	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	тестов	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3203
+# text = Его эффективность продемонстрировали враспространенном тесте нарак простаты, повысив чувствительность этого метода нанесколько порядков.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	враспространенном	враспространять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	тесте	тест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	нарак	нарак	ADV	_	Degree=Pos	3	advmod	_	_
+7	простаты	простата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	повысив	повышать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	_
+10	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	нанесколько	нанесколько	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+14	порядков	порядок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3204
+# text = Работа опубликована вACS Nano.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вACS	вacs	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Nano	Nano	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3205
+# text = Ученые синтезировали катализатор вдве стадии: напервом этапе получали кубические наночастицы палладия различных размеров, которые затем были использованы вкачестве центров кристаллизации иридия.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	синтезировали	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	катализатор	катализатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	вдве	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	5	nummod:gov	_	_
+5	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	напервом	напервый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+9	получали	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+10	кубические	кубический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	палладия	палладий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+17	затем	затем	ADV	_	Degree=Pos	19	advmod	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+20	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+21	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	иридия	иридие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3206
+# text = Полученные наночастицы представляли собой кубики размерами 7, 18и51нанометр (так называемые наночастицы ядро-оболочка).
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	представляли	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собой	себя	PRON	_	Case=Ins	3	obl	_	_
+5	кубики	кубик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	размерами	размеер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+7	7	7	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	18и51нанометр	18и51нанометр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+12	называемые	называть	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	appos	_	_
+14	ядро-оболочка	ядро-оболочок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3207
+# text = Такие частицы выступают вкачестве катализатора вреакциях восстановления пероксосоединений, подобно ферменту пероксидазе.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	частицы	частица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	выступают	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+5	катализатора	катализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	вреакциях	вреакция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	_
+7	восстановления	восстановление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	пероксосоединений	пероксосоединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	подобно	подобно	ADP	_	_	11	case	_	_
+11	ферменту	фермент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	_
+12	пероксидазе	пероксидаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3208
+# text = Вмедицине пероксидаза хрена применяется вряде иммунохимических методов, например, при проведении ПСА-теста, позволяющего выявлять рак предстательной железы.
+1	Вмедицине	Вмедицина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+2	пероксидаза	пероксидаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	хрена	хрен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
+4	применяется	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	вряде	вряде	ADV	_	Degree=Pos	7	advmod	_	_
+6	иммунохимических	иммунохимический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	например	например	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	parataxis	_	_
+13	ПСА-теста	ПСА-тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	позволяющего	позволять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+16	выявлять	выявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	рак	рак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	предстательной	предстательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	железы	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3209
+# text = Активность нового катализатора оказалась примерно в400 раз выше, чем упероксидазы, что привело кувеличению чувствительности ПСА-теста в110раз.
+1	Активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	катализатора	катализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	примерно	примерно	ADV	_	Degree=Pos	7	advmod	_	_
+6	в400	в400	NUM	_	_	7	nummod	_	_
+7	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	выше	высокий	ADJ	_	Degree=Cmp	14	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чем	чем	SCONJ	_	_	11	cc	_	_
+11	упероксидазы	упероксидаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	кувеличению	кувеличение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+16	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	ПСА-теста	Пса-теста	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	в110раз	в110раза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3210
+# text = Пословам авторов публикации, ключевую роль вповышении эффективности катализатора играет слой иридия, который, поихмнению, улучшает связывание реагентов, какбы делая поверхность наночастиц "липкой".
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	2	nmod	_	_
+2	авторов	автор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+3	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ключевую	ключевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+7	вповышении	вповышение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+8	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	катализатора	катализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	иридия	иридие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	18	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	поихмнению	поихмнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	улучшает	улучшавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+19	связывание	связывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+20	реагентов	реагент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	какбы	какба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_
+23	делая	делый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+25	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	липкой	липка	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	25	appos	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3211
+# text = Природные пероксидазы имеют ряд недостатков, которых лишены Pd@Ir наночастицы: они более требовательны ктемпературе исоставу среды, кроме того, ихсложнее синтезировать.
+1	Природные	природный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	пероксидазы	пероксидаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	недостатков	недостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которых	который	PRON	_	Case=Gen	8	obl	_	_
+8	лишены	лисать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9	Pd@Ir	Pd@Ir	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+13	более	более	ADV	_	Degree=Cmp	14	advmod	_	_
+14	требовательны	требовательный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+15	ктемпературе	ктемпература	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+16	исоставу	исостав	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	conj	_	_
+17	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	кроме	кроме	ADP	_	_	20	case	_	_
+20	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	ихсложнее	ихсложный	ADJ	_	Degree=Cmp	20	acl	_	_
+23	синтезировать	синтезировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# newpar
+# sent_id = 3212

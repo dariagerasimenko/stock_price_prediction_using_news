@@ -1,0 +1,238 @@
+# text = # newpar
+# sent_id = 5441
+# text = Фил Спенсер, глава игрового подразделения Microsoft, объявил, что компания намерена объединить игровые консоли Xbox One с Windows 10 для создания единой игровой платформы.
+1	Фил	Фать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+2	Спенсер	Спенсер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	игрового	игровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	подразделения	подразделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	advcl	_	_
+14	объединить	объединять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	игровые	игровый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	консоли	консоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+17	Xbox	Xbox	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	One	One	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	Windows	Windows	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+21	10	10	NUM	_	_	20	nummod	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	единой	единый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	игровой	игровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5442
+# text = Информация опубликована на сайте The Guardian.По словам Спенсера, компания займется созданием универсальной платформы -- Universal Windows Platform, -- которая позволит запускать игровые приложения на персональных компьютерах, Xbox, планшетах и смартфонах.
+1	Информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	The	The	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Guardian.	Guardian.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+7	По	по	ADP	_	_	8	case	_	_
+8	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	_
+9	Спенсера	Спенсер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	займется	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+13	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+14	универсальной	универсальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	Universal	Universal	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Windows	Windows	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Platform	Platform	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	--	--	PUNCT	_	_	17	punct	_	_
+22	которая	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+24	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	игровые	игровый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	приложения	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	24	obj	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	персональных	персональный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	компьютерах	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	Xbox	Xbox	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	29	punct	_	_
+33	планшетах	планшет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	conj	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	смартфонах	смартфон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 5443
+# text = Xbox перестанет следовать принципу, что аппаратное обеспечение консолей не должно меняться годами, а обновляется только с выходом новых поколений приставок.
+1	Xbox	Xbox	NUM	_	_	2	nummod	_	_
+2	перестанет	переставать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	принципу	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	0	mark	_	_
+7	аппаратное	аппаратный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	консолей	консуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	_
+12	меняться	меняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	dep	_	_
+13	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	16	cc	_	_
+16	обновляется	обновляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	conj	_	_
+17	только	только	PART	_	_	19	advmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	выходом	выход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+20	новых	новой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+22	приставок	приставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5444
+# text = Xbox One, таким образом, станет больше похожей на персональный компьютер, поскольку Microsoft будет время от времени выпускать для приставки более мощные процессоры и видеокарты.
+1	Xbox	Xbox	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+2	One	One	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	amod	_	_
+5	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	больше	много	NUM	_	_	9	nummod	_	_
+9	похожей	похожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	персональный	персональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	поскольку	поскольку	SCONJ	_	_	7	mark	_	_
+15	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	advcl	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	выпускать	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	dep	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	приставки	приставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	более	более	ADV	_	Degree=Cmp	24	advmod	_	_
+24	мощные	мощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	процессоры	процессор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	видеокарты	видеокарт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5445
+# text = Это позволит решить проблему с обратной совместимостью, то есть на новом аппаратном обеспечении можно будет поиграть в старые игры, что отличит Xbox One от ближайшего конкурента PlayStation 4, для которой недоступны многие игры с PlayStation 3.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	обратной	обратный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	совместимостью	совместимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	mark	_	_
+10	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	fixed	_	_
+11	на	на	ADP	_	_	14	case	_	_
+12	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	аппаратном	аппаратный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	parataxis	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	поиграть	играть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	старые	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	игры	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+23	отличит	отличать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+24	Xbox	Xbox	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	One	One	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	от	от	ADP	_	_	28	case	_	_
+27	ближайшего	ближайший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	конкурента	конкурент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+29	PlayStation	PlayStation	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	4	4	NUM	_	_	28	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	которой	который	PRON	_	Case=Gen	34	nmod	_	_
+34	недоступны	недоступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	30	acl:relcl	_	_
+35	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
+36	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	34	nsubj	_	_
+37	с	с	ADP	_	_	38	case	_	_
+38	PlayStation	PlayStation	PROPN	_	Foreign=Yes	36	nmod	_	_
+39	3	3	NUM	_	_	38	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5446
+# text = Также представители Microsoft уверяют, что объединение Xbox и Windows даст компании возможность выпускать больше новых игр, чем раньше.Ранее, в январе 2015 года, Microsoft анонсировала, что игровые приложения на Xbox также станут доступны для пользователей Windows 10.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	уверяют	уверявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	объединение	объединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+8	Xbox	Xbox	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	Windows	Windows	PROPN	_	Foreign=Yes	8	conj	_	_
+11	даст	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+12	компании	компания	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+13	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	выпускать	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	больше	много	NUM	_	_	17	nummod:gov	_	_
+16	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	чем	чем	SCONJ	_	_	20	mark	_	_
+20	раньше.	раньшбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	SpaceAfter=No
+21	Ранее	рано	ADV	_	Degree=Cmp	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	январе	январь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+25	2015	2015	NUM	_	_	26	nummod	_	_
+26	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+29	анонсировала	анонсировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	игровые	игровый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	33	amod	_	_
+33	приложения	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	37	nsubj	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	Xbox	Xbox	PROPN	_	Foreign=Yes	33	nmod	_	_
+36	также	также	ADV	_	Degree=Pos	37	advmod	_	_
+37	станут	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	29	advcl	_	_
+38	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	37	obl	_	_
+39	для	для	ADP	_	_	40	case	_	_
+40	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+41	Windows	Windows	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	10	10	NUM	_	_	41	nummod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 5447
+# text = В ноябре компания выпустила обновления для Xbox One, сделав ее совместимой с Windows 10.Александр Еникеев
+1	В	в	ADP	_	_	2	case	_	_
+2	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	выпустила	выпусчивать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	обновления	обновление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	Xbox	Xbox	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	One	One	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сделав	делать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	16	advcl	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+12	совместимой	совместима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	Windows	Windows	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	10.	10	NUM	_	_	14	nummod	_	SpaceAfter=No
+16	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+17	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	_
+
+# newpar
+# sent_id = 5448

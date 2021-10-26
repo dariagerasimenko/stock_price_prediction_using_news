@@ -1,0 +1,478 @@
+# text = # newpar
+# sent_id = 442
+# text = Сразу две группы ученых одновременно отчитались в престижных журналах Science1и Nature Medicine2 о получении прототипа "универсальной" вакцины от гриппа.
+1	Сразу	сразу	ADV	_	Degree=Pos	2	advmod	_	_
+2	две	два	NUM	_	Case=Nom|Gender=Fem	3	nummod:gov	_	_
+3	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	одновременно	одновременно	ADV	_	Degree=Pos	6	advmod	_	_
+6	отчитались	отчитываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	престижных	престижный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	журналах	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+10	Science1и	Science1я	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Nature	Nature	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Medicine2	Medicine2	NUM	_	_	11	nummod	_	_
+13	о	о	ADP	_	_	14	case	_	_
+14	получении	получение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+15	прототипа	прототип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	универсальной	универсальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+20	от	от	ADP	_	_	21	case	_	_
+21	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 443
+# text = Речь идет о создании антигена, антитела к которому реагируют на несколько разных штаммов вируса гриппа, что убирает необходимость каждый год создавать новую вакцину.Две группы исследователей использовали один и тот же подход, но с разными модификациями.
+1	Речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	антигена	антиген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	антитела	антител	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	которому	который	PRON	_	Case=Dat	10	obl	_	_
+10	реагируют	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+11	на	на	ADP	_	_	14	case	_	_
+12	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+13	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	штаммов	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+15	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	PRON	_	Case=Nom	19	nsubj	_	_
+19	убирает	убирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	необходимость	необходимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
+23	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+24	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	вакцину.	вакцину.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	Две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	27	nummod:gov	_	_
+27	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nsubj	_	_
+28	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	30	conj	_	_
+33	же	же	PART	_	_	32	advmod	_	_
+34	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	но	но	CCONJ	_	_	39	cc	_	_
+37	с	с	ADP	_	_	39	case	_	_
+38	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	amod	_	_
+39	модификациями	модификация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 444
+# text = Целью обоих коллективов было получение стабильного фрагмента "ствола" гемагглютинина вируса гриппа (ГВГ).
+1	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	обоих	оба	NUM	_	Case=Gen|Gender=Masc	3	nummod	_	_
+3	коллективов	коллектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+5	получение	получение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+6	стабильного	стабильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	фрагмента	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	гемагглютинина	гемагглютинина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+12	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	ГВГ	Гвг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 445
+# text = Этот гликопротеин находится на поверхности вируса и отвечает за его присоединение к клетке хозяина.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	гликопротеин	гликопротеин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	за	за	ADP	_	_	11	case	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	присоединение	присоединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	клетке	клетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+14	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 446
+# text = ГВГ имеет два структурных фрагмента: "ствол", которым он крепится к вирусу, и "голову", которая присоединяется к другой клетке.
+1	ГВГ	Гвг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	два	два	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+4	структурных	структурной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	фрагмента	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	ствол	ствол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	которым	который	PRON	_	Case=Dat	13	obl	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj:pass	_	_
+13	крепится	крепить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	вирусу	вирус	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	голову	голова	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	которая	который	PRON	_	Case=Nom	23	nsubj:pass	_	_
+23	присоединяется	присоединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	_
+24	к	к	ADP	_	_	26	case	_	_
+25	другой	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	клетке	клетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 447
+# text = "Голова" является очень вариабельным фрагментом, то есть быстро мутирует от штамма к штамму, тогда как "ствол" сохраняет практически неизменную структуру для разных штаммов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Голова	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	_
+6	вариабельным	вариабельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	фрагментом	фрагмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	mark	_	_
+10	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	fixed	_	_
+11	быстро	быстро	ADV	_	Degree=Pos	12	advmod	_	_
+12	мутирует	мутировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	штамма	штамма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	штамму	штамм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	тогда	тогда	ADV	_	Degree=Pos	12	mark	_	_
+19	как	как	SCONJ	_	_	18	fixed	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	ствол	ствол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	сохраняет	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+24	практически	практически	ADV	_	Degree=Pos	25	advmod	_	_
+25	неизменную	неизменный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+27	для	для	ADP	_	_	29	case	_	_
+28	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	штаммов	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 448
+# text = Из-за того, что именно "голова" легче всего доступна внешним агентам, она вызывает самый сильный иммунный ответ.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	PRON	_	Case=Nom	2	mark	_	_
+5	именно	именно	PART	_	_	7	advmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	голова	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	легче	легкий	ADJ	_	Degree=Cmp	11	advmod	_	_
+10	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	16	conj	_	_
+12	внешним	внешний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	агентам	агент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+16	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	сильный	сильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	иммунный	иммунный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 449
+# text = Но для каждой новой мутации вируса необходимы новые антитела, чем и объясняется "сезонное действие" вакцин для гриппа.
+1	Но	но	CCONJ	_	_	7	cc	_	_
+2	для	для	ADP	_	_	5	case	_	_
+3	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	мутации	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+6	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	антитела	антитело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чем	что	PRON	_	Case=Ins	13	obl	_	_
+12	и	и	PART	_	_	13	advmod	_	_
+13	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	сезонное	сезонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	вакцин	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	для	для	ADP	_	_	18	case	_	_
+20	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 450
+# text = В новой работе ученые получили антитела, которые реагируют только на "ствол".
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	антитела	антитело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	реагируют	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	только	только	PART	_	_	13	advmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ствол	ствол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 451
+# text = Для этого авторы при помощи методов генной инженерии удалили из ГВГ "голову" и некоторые другие фрагменты, а "ствол" стабилизировали при помощи молекулярных "сшивок", чтобы он не потерял своей нативной структуры.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	при	при	ADP	_	_	6	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	генной	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	инженерии	инженерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	удалили	удалять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	ГВГ	Гвг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	18	amod	_	_
+17	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	24	cc	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	ствол	ствол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	стабилизировали	табилизировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	при	при	ADP	_	_	29	case	_	_
+26	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	fixed	_	_
+27	молекулярных	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	сшивок	сшивки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	чтобы	чтобы	SCONJ	_	Mood=Cnd	24	mark	_	_
+33	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	35	nsubj	_	_
+34	не	не	PART	_	_	35	advmod	_	_
+35	потерял	терять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
+36	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	38	amod	_	_
+37	нативной	нативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 452
+# text = Один из коллективов добился стабилизации, привив модифицированный ГВГ к наночастицам, другая группа использовала только генетические методы.Полученные фрагменты ГВГ были использованы для получения моноклональных нейтрализующих антител.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	коллективов	коллектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	добился	добиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	стабилизации	стабилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	привив	прививать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	15	advcl	_	_
+8	модифицированный	модифицированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ГВГ	Гвг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	наночастицам	наночастица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	только	только	PART	_	_	17	advmod	_	_
+17	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+21	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+22	ГВГ	Гвг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	obl	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+27	моноклональных	моноклональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+28	нейтрализующих	нейтрализующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	антител	антитело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 453
+# text = Вакцину и сыворотку антител в отдельных экспериментах проверяли на мышах и хорьках, вводя им препараты различных штаммов вируса гриппа.
+1	Вакцину	вакцина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	сыворотку	сыворотка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+4	антител	антитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	отдельных	отдельный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+8	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	хорьках	хорька	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вводя	вводить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+15	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	14	obl	_	_
+16	препараты	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	штаммов	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 454
+# text = Большинство вакцинированных животных выжило после введения смертельной дозы возбудителя, тогда как невакцинированные мыши и хорьки погибли.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	вакцинированных	вакцинировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	выжило	выживать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	смертельной	смертельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	дозы	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	возбудителя	возбудитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	тогда	тогда	ADV	_	Degree=Pos	4	mark	_	_
+12	как	как	SCONJ	_	_	11	fixed	_	_
+13	невакцинированные	невакцинированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	мыши	мыша	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	хорьки	хорек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	conj	_	_
+17	погибли	погибать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 455
+# text = В экспериментах на обезьянах ни одна из них не погибла, однако вакцинированные животные гораздо легче перенесли заболевание.
+1	В	в	ADP	_	_	2	case	_	_
+2	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	обезьянах	обезьяна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	ни	ни	CCONJ	_	_	6	cc	_	_
+6	одна	один	NUM	_	Case=Nom|Gender=Fem	10	nsubj	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	погибла	погибать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	17	advmod	_	_
+13	вакцинированные	вакцинировывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	_
+15	гораздо	гораздо	ADV	_	Degree=Pos	16	advmod	_	_
+16	легче	легко	ADV	_	Degree=Cmp	17	advmod	_	_
+17	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+18	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 456
+# text = Аналогичные результаты наблюдались в экспериментах с готовой сывороткой антител.В предыдущие попытки получить антитела к "стволу" ГГ ученым не удавалось создать устойчивый антиген, легкодоступный для антитела.
+1	Аналогичные	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	готовой	готовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	сывороткой	сыворотка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+9	антител.	антителовек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	В	в	ADP	_	_	12	case	_	_
+11	предыдущие	предыдущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	попытки	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
+13	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+14	антитела	антитело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+15	к	к	ADP	_	_	17	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	стволу	ствол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	ГГ	гг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+20	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	удавалось	удаваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+23	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	устойчивый	устойчивый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	антиген	антиген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	легкодоступный	легкодоступный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	acl	_	_
+28	для	для	ADP	_	_	29	case	_	_
+29	антитела	антител	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 457
+# text = Из-за этого иммунный ответ на ГГ был слабым, или антитела синтезировались сразу к нескольким фрагментам, поэтому вакцина оказывалась недостаточно эффективный.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+3	иммунный	иммунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	ответ	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	ГГ	гг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	слабым	слабый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	антитела	антитело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	conj	_	_
+12	синтезировались	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+14	к	к	ADP	_	_	16	case	_	_
+15	нескольким	несколько	NUM	_	Case=Dat	16	nummod	_	_
+16	фрагментам	фрагмент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	поэтому	поэтому	ADV	_	Degree=Pos	20	advmod	_	_
+19	вакцина	вакцина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	оказывалась	оказываться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	_
+21	недостаточно	недостаточно	ADV	_	Degree=Pos	22	advmod	_	_
+22	эффективный	эффективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 458
+# text = По словам специалиста, не участвовавшего непосредственно в новых исследованиях, пока еще очень рано говорить о настоящей "универсальной" вакцине от гриппа, но, безусловно, наблюдается уверенное движение в ее сторону.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	специалиста	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	участвовавшего	участвовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+7	непосредственно	непосредственно	ADV	_	Degree=Pos	6	advmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+13	еще	еще	ADV	_	Degree=Pos	14	advmod	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	_
+15	рано	рано	ADV	_	Degree=Pos	16	advmod	_	_
+16	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+17	о	о	ADP	_	_	22	case	_	_
+18	настоящей	настоящий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	универсальной	универсальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	вакцине	вакцина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+23	от	от	ADP	_	_	24	case	_	_
+24	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	но	но	CCONJ	_	_	30	cc	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	безусловно	безусловно	ADV	_	Degree=Pos	30	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+31	уверенное	уверенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj:pass	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	35	nmod	_	_
+35	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# newpar
+# sent_id = 459

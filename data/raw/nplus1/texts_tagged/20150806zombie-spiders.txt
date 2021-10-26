@@ -1,0 +1,156 @@
+# text = # newpar
+# sent_id = 3935
+# text = Исследователи изУниверситета Карнеги -- Меллона разработали фреймворк Encore, который позволят в полуавтоматическом режиме проектировать различные доработки для уже существующих объектов при помощи 3D-печати.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	изУниверситета	изУниверситет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Карнеги	Карнеги	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	Меллона	Меллон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+6	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	фреймворк	фреймворк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	Encore	Encore	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	полуавтоматическом	полуавтоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	проектировать	ектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+16	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	доработки	доработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+18	для	для	ADP	_	_	21	case	_	_
+19	уже	уже	ADV	_	Degree=Pos	20	advmod	_	_
+20	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+21	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+22	при	при	ADP	_	_	25	case	_	_
+23	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	fixed	_	_
+24	3D	3d	PROPN	_	Foreign=Yes	25	nsubj	_	SpaceAfter=No
+25	-печати	-печать	NUM	_	Case=Loc	15	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3936
+# text = Работа опубликована в цифровой библиотеке ACM Digital Library.Фреймворк позволяет "улучшать" предметы тремя способами: печать непосредственно на предмете, печать для последующего прикрепления к предмету и печать сквозь предмет.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	цифровой	цифровый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	библиотеке	библиотека	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	ACM	Acm	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Digital	digital	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Library	Library	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Фреймворк	Фреймворк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	улучшать	улучшать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+16	тремя	три	NUM	_	Case=Ins	17	nummod	_	_
+17	способами	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	17	punct	_	_
+19	печать	печать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj:pass	_	_
+20	непосредственно	непосредственно	ADV	_	Degree=Pos	19	advmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	предмете	предмет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	печать	печать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	conj	_	_
+25	для	для	ADP	_	_	27	case	_	_
+26	последующего	последующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	прикрепления	прикрепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+28	к	к	ADP	_	_	29	case	_	_
+29	предмету	предмет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	obl	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	печать	печать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	conj	_	_
+32	сквозь	сквозь	ADP	_	_	33	case	_	_
+33	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3937
+# text = После того, как пользователь укажет желаемое расположение крепежа на существующем объекте, фреймворк самостоятельно высчитает необходимые в процессе печати временные опорные конструкции и разобьет процесс печати на несколько этапов, если это необходимо.Как считают разработчики, фреймворк способствует прикладному использованию 3D-печати в быту, поскольку позволяет пользоваться 3D-принтером даже людям, не знакомым с проектированием трехмерных моделей.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	укажет	указывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	advcl	_	_
+7	желаемое	желать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	расположение	расположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	крепежа	крепеж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	существующем	существовать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	объекте	объект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	фреймворк	фреймворк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	самостоятельно	самостоятельно	ADV	_	Degree=Pos	16	advmod	_	_
+16	высчитает	высчитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	временные	временной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+22	опорные	опорной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	разобьет	разобьть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+26	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	30	nummod:gov	_	_
+30	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	если	если	SCONJ	_	_	0	mark	_	_
+33	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+34	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	Как	как	ADV	_	Degree=Pos	41	mark	_	_
+37	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	parataxis	_	_
+38	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	фреймворк	фреймворк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+41	способствует	способствуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	parataxis	_	_
+42	прикладному	прикладный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	использованию	использование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	41	obl	_	_
+44	3D	3d	PROPN	_	Foreign=Yes	43	flat:foreign	_	SpaceAfter=No
+45	-печати	-печати	ADV	_	Degree=Pos	47	advmod	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	быту	быт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	поскольку	поскольку	SCONJ	_	_	34	mark	_	_
+50	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl	_	_
+51	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	50	xcomp	_	_
+52	3D	3d	PROPN	_	Foreign=Yes	51	flat:foreign	_	SpaceAfter=No
+53	-принтером	-принтером	ADV	_	Degree=Pos	51	advmod	_	_
+54	даже	даже	PART	_	_	55	advmod	_	_
+55	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	51	obl	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	не	не	PART	_	_	58	advmod	_	_
+58	знакомым	знакомый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	55	conj	_	_
+59	с	с	ADP	_	_	60	case	_	_
+60	проектированием	проектирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	58	nmod	_	_
+61	трехмерных	трехмерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	62	amod	_	_
+62	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	_
+
+# sent_id = 3938
+# text = Авторы выступят с подробным докладом и продемонстрируют работу Encore на симпозиуме UIST 2015,посвященном пользовательским интерфейсам и технологиям.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выступят	выступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	подробным	подробный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	докладом	доклад	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	продемонстрируют	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	Encore	Encore	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	симпозиуме	симпозиум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+12	UIST	Uist	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	2015,посвященном	2015,посвящять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	пользовательским	пользовательский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	интерфейсам	интерфейс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	технологиям	технология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 3939

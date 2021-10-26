@@ -1,0 +1,138 @@
+# text = # newpar
+# sent_id = 4886
+# text = Австралийским химикам впервые удалось получить незамещенный [5]радиален, соединение, формально являющееся мономером фуллерена C60.
+1	Австралийским	Австралийской	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	химикам	химик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	незамещенный	незамещенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+7	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	5	5	NUM	_	_	9	nummod	_	SpaceAfter=No
+9	]радиален	]радиальный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	соединение	соединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	формально	формально	ADV	_	Degree=Pos	14	advmod	_	_
+14	являющееся	являться	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+15	мономером	мономер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+16	фуллерена	фуллерять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+17	C60	C60	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4887
+# text = Несмотря на кажущуюся простой структуру, ни одна из попыток ее синтеза за последние 20 лет не увенчалась успехом.Синтез описан в Journal ofAmerican Chemical Society.Авторы работы определили с помощью методов компьютерного моделирования, что [5]радиален обладает очень высокой (на 3-6 порядков) реакционной способностью по сравнению с другими представителями своего класса.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	5	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	кажущуюся	казаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+4	простой	простой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ни	ни	CCONJ	_	_	8	cc	_	_
+8	одна	один	NUM	_	Case=Nom|Gender=Fem	11	nummod:gov	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	попыток	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+12	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+13	за	за	ADP	_	_	16	case	_	_
+14	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	20	20	NUM	_	_	16	nummod	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	увенчалась	увенчать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	29	conj	_	_
+19	успехом.	успехомя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
+20	Синтез	синтез	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	описан	описывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	29	advcl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Journal	journal	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	ofAmerican	ofAmerican	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Chemical	Chemical	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	Society.	society.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+27	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+28	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+30	с	с	ADP	_	_	32	case	_	_
+31	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	fixed	_	_
+32	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
+33	компьютерного	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	что	что	SCONJ	_	_	29	mark	_	_
+37	[	[	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	5]радиален	5]радиален	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+39	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
+40	очень	очень	ADV	_	Degree=Pos	41	advmod	_	_
+41	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	на	на	ADP	_	_	47	case	_	_
+44	3	3	NUM	_	_	47	nummod	_	SpaceAfter=No
+45	-	-	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	6	6	NUM	_	_	44	nummod	_	_
+47	порядков	порядок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	parataxis	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	_
+49	реакционной	реакционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	_
+50	способностью	способность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	obl	_	_
+51	по	по	ADP	_	_	55	case	_	_
+52	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	51	fixed	_	_
+53	с	с	ADP	_	_	52	fixed	_	_
+54	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	55	amod	_	_
+55	представителями	представитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	50	nmod	_	_
+56	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	57	amod	_	_
+57	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	_
+
+# sent_id = 4888
+# text = В частности он легко вступает в реакцию Дильса-Альдера, в ходе которой две отдельные молекулы соединяются в новое циклическое соединение.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	легко	легко	ADV	_	Degree=Pos	5	advmod	_	_
+5	вступает	вступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	Дильса-Альдера	Дильса-Альдер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	которой	который	PRON	_	Case=Gen	16	obl	_	_
+13	две	два	NUM	_	Case=Nom|Gender=Fem	15	nummod:gov	_	_
+14	отдельные	отдельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	соединяются	соединяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+19	циклическое	циклический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	соединение	соединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4889
+# text = Поэтому в ходе синтеза предшественники радиалена, как и он сам, "собирались" на специальном стабилизирующем "верстаке" -- карбонильном комплексе железа.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	fixed	_	_
+4	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	предшественники	предшественник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+6	радиалена	радиалять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	6	mark	_	_
+9	и	и	PART	_	_	10	advmod	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+11	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	собирались	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	на	на	ADP	_	_	20	case	_	_
+17	специальном	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+18	стабилизирующем	стабилизирующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	верстаке	верстак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	--	--	PUNCT	_	_	20	punct	_	_
+23	карбонильном	карбонильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	комплексе	комплекс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+25	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# newpar
+# sent_id = 4890

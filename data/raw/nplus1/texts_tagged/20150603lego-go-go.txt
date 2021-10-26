@@ -1,0 +1,236 @@
+# text = # newpar
+# sent_id = 1512
+# text = Американская компанияFeinstein Gewehr Werke началапродаватьприклады Mk8 для винтовки AR-15, сделанные из кубиков Lego.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+2	компанияFeinstein	компанияFeinstein	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Gewehr	Gewehr	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Werke	Werke	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	началапродаватьприклады	началапродаватьприклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+6	Mk8	Mk8	NUM	_	_	5	nummod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	AR-15	ar-15	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	кубиков	кубик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	Lego	lego	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1513
+# text = Компания такжеопубликовалаподробную инструкцию сборки приклада, в которой содержатся каталожные номера всех деталей Lego, используемых в конструкции.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+2	такжеопубликовалаподробную	такжеопубликовалаподробный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	инструкцию	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	сборки	сборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	приклада	приклад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	которой	который	PRON	_	Case=Loc	9	obl	_	_
+9	содержатся	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	_
+10	каталожные	каталожный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	номера	номер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+12	всех	весь	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	Lego	lego	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1514
+# text = Собирать приклад для винтовки покупателям предлагается совместно с ребенком.
+1	Собирать	собирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj:pass	_	_
+2	приклад	приклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	покупателям	покупатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+6	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	совместно	совместно	ADV	_	Degree=Pos	9	advmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	ребенком	ребенок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1515
+# text = Стоимость Mk8 составляет 40 долларов без учета налогов и стоимости доставки.Сборку приклада рекомендуется производить в несколько этапов.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Mk8	Mk8	NUM	_	_	1	nummod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	40	40	NUM	_	_	5	nummod	_	_
+5	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	без	без	ADP	_	_	7	case	_	_
+7	учета	учет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	налогов	налог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	стоимости	стоимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+11	доставки.	доставки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+12	Сборку	сборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+13	приклада	приклад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	рекомендуется	рекомендовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+15	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	nsubj:pass	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1516
+# text = Согласно инструкции, сперва ребенок должен собрать приклад, после чего взрослый его проверит и разберет.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	сперва	сперва	ADV	_	Degree=Pos	6	advmod	_	_
+5	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	собрать	собирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	приклад	приклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	14	obl	_	_
+12	взрослый	взрослый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+14	проверит	проверлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	разберет	разбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1517
+# text = Затем сборку и проверку нужно повторить.
+1	Затем	затем	ADV	_	Degree=Pos	2	advmod	_	_
+2	сборку	сборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	проверку	проверка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+5	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	повторить	повторять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1518
+# text = Уже после этого взрослый должен выполнить окончательную сборку Mk8, для которой потребуются несколько металлических болтов, суперклей и двухкомпонентная эпоксидная смола.
+1	Уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+4	взрослый	взрослый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	выполнить	выполнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	окончательную	окончательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	сборку	сборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	Mk8	Mk8	NOUN	_	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Gen	13	obl	_	_
+13	потребуются	требуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+14	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+15	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	болтов	болт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	суперклей	суперкль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	_
+19	и	и	CCONJ	_	_	22	cc	_	_
+20	двухкомпонентная	двухкомпонентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	эпоксидная	эпоксидный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	смола	смола	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1519
+# text = Эти компоненты, необходимые для сборки, также входят в набор.Приклад Mk8 предназначен для винтовки AR-15, однако может быть установлен на любое другое стрелковое оружие с креплением на буферную трубку.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	компоненты	компонент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	необходимые	необходимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	сборки	сборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	набор.	наборамм	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	Приклад	Приклад	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+13	Mk8	Mk8	NUM	_	_	12	nummod	_	_
+14	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	advcl	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+17	AR-15	Ar-15	NOUN	_	_	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	20	advmod	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	aux:pass	_	_
+22	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23	на	на	ADP	_	_	27	case	_	_
+24	любое	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+25	другое	другий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+26	стрелковое	стрелковой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	креплением	крепление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	буферную	буферный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	трубку	трубка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1520
+# text = По данным Feinstein Gewehr Werke, приклад прошел испытания на помповом ружье Remington 870 12-го калибра.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	8	parataxis	_	_
+3	Feinstein	Feinstein	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Gewehr	Gewehr	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Werke	Werke	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	приклад	приклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	прошел	проходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	помповом	помповый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	ружье	ружье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+13	Remington	Remington	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+14	870	870	NUM	_	_	13	nummod	_	_
+15	12-го	12-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1521
+# text = Из этого ружья сделали 24 выстрела подряд; приклад выдержал все нагрузки и успешно прошел испытания.
+1	Из	из	ADP	_	_	3	case	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	ружья	ружье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+4	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	24	24	NUM	_	_	4	nummod	_	_
+6	выстрела	выстрел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	подряд	подряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	7	punct	_	_
+9	приклад	приклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	выдержал	выдерживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	все	весь	DET	_	Case=Acc|Number=Plur	12	amod	_	_
+12	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	успешно	успешно	ADV	_	Degree=Pos	15	advmod	_	_
+15	прошел	проходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1522
+# text = Следует отметить, что Feinstein Gewehr Werke также занимается разработкой нижней части ствольной коробки AR-15, которая тоже будет собираться из Lego.
+1	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	Feinstein	Feinstein	PROPN	_	Foreign=Yes	9	nsubj	_	_
+6	Gewehr	Gewehr	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Werke	Werke	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+10	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	нижней	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	ствольной	ствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	AR-15	Ar-15	NOUN	_	_	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которая	который	PRON	_	Case=Nom	20	nsubj	_	_
+18	тоже	тоже	PART	_	_	20	advmod	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	собираться	собираться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	acl:relcl	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	Lego	lego	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# newpar
+# sent_id = 1523

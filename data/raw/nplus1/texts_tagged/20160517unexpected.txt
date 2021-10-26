@@ -1,0 +1,250 @@
+# text = # newpar
+# sent_id = 6002
+# text = Вустерский политехнический институт в Массачусетсе совместно с компанией Aurora Flight Sciences приступил к исследованиям в области программного обеспечения, контролирующего автономные полеты беспилотных летательных аппаратов.
+1	Вустерский	Вустерский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	политехнический	политехнический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Массачусетсе	Массачусетс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	совместно	совместно	ADV	_	Degree=Pos	8	advmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+9	Aurora	Aurora	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Flight	Flight	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Sciences	Sciences	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	приступил	приступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+17	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	контролирующего	контролировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	автономные	автономной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+23	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+24	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 6003
+# text = Как пишет Aviation Week, результатом работы должно стать создание новой программы, которая позволит беспилотникам находить оптимальные решения нестандартных ситуаций.Заказчиком исследования выступили ВВС США, выделившие на проведение работ 185 тысяч долларов.
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+7	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	dep	_	_
+10	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+11	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которая	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	беспилотникам	беспилотник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+17	находить	находить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	оптимальные	оптимальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+20	нестандартных	нестандартный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	ситуаций	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Заказчиком	заказчик	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+24	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+25	выступили	выступивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+26	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+27	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	выделившие	выделять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	25	amod	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	проведение	проведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obl	_	_
+32	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+33	185	185	NUM	_	_	34	nummod	_	_
+34	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nummod:gov	_	_
+35	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 6004
+# text = Исследование будет проводиться на протяжении ближайших полутора лет.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	ближайших	ближайший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	полутора	полтора	NUM	_	Case=Gen	8	nummod	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 6005
+# text = Основной целью проекта является повышение безопасности автономных полетов беспилотников в едином воздушном пространстве, особенно при возникновении различного рода неожиданностей.По оценке исследователей, новое программное обеспечение автономных беспилотников должно быть создано с использованием линейной темпоральной логики, то есть логики, учитывающей временной аспект.
+1	Основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	автономных	автономный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	едином	единой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	воздушном	воздушный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	особенно	особенно	ADV	_	Degree=Pos	17	advmod	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	возникновении	возникновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+18	различного	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	неожиданностей	неожиданность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	По	по	ADP	_	_	23	case	_	_
+23	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	parataxis	_	_
+24	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+29	автономных	автономный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+32	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	aux:pass	_	_
+33	создано	создавать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	31	dep	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	obl	_	_
+36	линейной	линейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+37	темпоральной	темпоральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	логики	логика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	mark	_	_
+41	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	fixed	_	_
+42	логики	логика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	parataxis	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	учитывающей	учитывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	42	amod	_	_
+45	временной	временной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	аспект	аспект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 6006
+# text = Таким образом в программах, помимо стандартных логических операторов типа AND, OR или NOT, появятся темпоральные ALWAYS DO, NEVER DO или DO AFTER.Исследователи полагают, что темпоральная логика значительно упростит программирование беспилотников.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	программах	программа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	помимо	помимо	ADP	_	_	9	case	_	_
+7	стандартных	стандартный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	логических	логический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	операторов	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+10	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	AND	and	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	OR	Or	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	NOT	Not	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	появятся	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	темпоральные	темпоральный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	ALWAYS	Always	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+20	DO	Do	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	NEVER	Never	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+23	DO	Do	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	DO	Do	PROPN	_	Foreign=Yes	23	conj	_	_
+26	AFTER.	After.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+27	Исследователи	Исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	что	что	SCONJ	_	_	28	mark	_	_
+31	темпоральная	темпоральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	логика	логика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+33	значительно	значительно	ADV	_	Degree=Pos	34	advmod	_	_
+34	упростит	упрощать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	28	advcl	_	_
+35	программирование	программирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	_
+36	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 6007
+# text = Благодаря этому не нужно будет описывать в алгоритме все возможные ситуации и все возможные способы их решения.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	описывать	описывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	алгоритме	алгоритм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	все	весь	DET	_	Case=Acc|Number=Plur	11	amod	_	_
+10	возможные	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	все	весь	DET	_	Case=Acc|Number=Plur	15	amod	_	_
+14	возможные	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	способы	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	conj	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 6008
+# text = Достаточно будет лишь составить список действий, которые аппарат может выполнить, и действий, которые он не должен выполнять ни при каких обстоятельствах.Некоторые элементы нового программного обеспечения уже созданы и проходят испытания беспилотном летательном аппарате Orion.
+1	Достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	лишь	лишь	PART	_	_	4	advmod	_	_
+4	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	dep	_	_
+5	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	выполнить	выполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которые	который	PRON	_	Case=Acc	19	obj	_	_
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	acl:relcl	_	_
+20	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	ни	ни	PART	_	_	24	advmod	_	_
+22	при	при	ADP	_	_	24	case	_	_
+23	каких	какой	DET	_	Case=Loc|Number=Plur	24	amod	_	_
+24	обстоятельствах	обстоятельство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	27	amod	_	_
+27	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj:pass	_	_
+28	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+29	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+31	уже	уже	ADV	_	Degree=Pos	32	advmod	_	_
+32	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	conj	_	_
+35	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	34	nsubj	_	_
+36	беспилотном	беспилотный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+37	летательном	летательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	_
+39	Orion	Orion	PROPN	_	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 6009
+# text = Другие подробности о новых исследованиях не уточняются.Василий Сычёв
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	исследованиях	исследования	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	уточняются	уточняоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 6010

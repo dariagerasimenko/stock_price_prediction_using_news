@@ -1,0 +1,103 @@
+# text = # newpar
+# sent_id = 4206
+# text = Исследователи из Университета Карнеги -- Меллона приспособили 3D-принтер для печати волос, щетины и нитей.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Карнеги	Карнеги	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	Меллона	Меллон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_
+7	приспособили	приспособивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	3D	3d	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+9	-принтер	-принтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+12	волос	волос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	щетины	щетина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	нитей	нить	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4207
+# text = Доклад будет представлен конференции UIST 2015, подробнее с работой можно ознакомиться на сайте одного из авторов (PDF).Чтобы добиться 3D-печати тонких нитей, исследователи доработали программное обеспечение принтера.
+1	Доклад	доклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	конференции	конференция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+5	UIST	Uist	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	2015	2015	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	подробнее	подробно	ADV	_	Degree=Cmp	11	advmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	работой	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+11	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+12	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	nsubj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	одного	один	NUM	_	Case=Gen|Gender=Masc	14	nummod	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	PDF	Pdf	PROPN	_	Foreign=Yes	17	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	Чтобы	чтобы	SCONJ	_	Mood=Cnd	30	mark	_	_
+23	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	30	advcl	_	_
+24	3D	3d	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+25	-печати	-печать	NUM	_	Case=Gen	27	nummod	_	_
+26	тонких	тонкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	нитей	нить	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+30	доработали	дорабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+31	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+33	принтера	принтер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 4208
+# text = Управляющий алгоритм модифицировали таким образом, чтобы принтер выдавливал совсем немного пластика и сразу отводил экструдер в сторону от модели.
+1	Управляющий	управлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	модифицировали	модифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	amod	_	_
+5	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+8	принтер	принтер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	выдавливал	выдавливать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	совсем	совсем	ADV	_	Degree=Pos	11	advmod	_	_
+11	немного	немного	ADV	_	Degree=Pos	9	advmod	_	_
+12	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	сразу	сразу	ADV	_	Degree=Pos	15	advmod	_	_
+15	отводил	отводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+16	экструдер	экструдер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4209
+# text = Таким образом получаются быстрозастывающие гибкие нити, подобные тем, которые получаются при использовании клея.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	получаются	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	быстрозастывающие	быстрозастывающий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	гибкие	гибкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	нити	нить	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	тем	тот	DET	_	Case=Dat|Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	получаются	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	клея	клей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 4210

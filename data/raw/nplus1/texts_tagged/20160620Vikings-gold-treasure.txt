@@ -1,0 +1,345 @@
+# text = # newpar
+# sent_id = 5674
+# text = Трое датских археологов-любителей обнаружили на прошлой неделе в местечке Вайен на юге полуострова Ютландия золотые артефакты эпохи викингов.
+1	Трое	трое	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	датских	датский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	appos	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	прошлой	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	местечке	местечка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	Вайен	Вайен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	юге	юг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	полуострова	полуостров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Ютландия	Ютландий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	золотые	золотый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+19	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5675
+# text = Находку датировали X веком,сообщает The Local.
+1	Находку	находка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	датировали	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	X	x	NUM	_	_	4	nummod	_	_
+4	веком	век	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+5	,сообщает	,сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+6	The	the	PROPN	_	Foreign=Yes	5	nsubj	_	_
+7	Local	Local	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5676
+# text = Археологи-любители исследовали с помощью металлоискателей то же поле, где в 1911 году была найдена золотая цепь, датированная временем викингов.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	любители	любитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
+4	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	металлоискателей	металлоискатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
+9	же	же	PART	_	_	8	advmod	_	_
+10	поле	поле	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	1911	1911	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	найдена	находить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+18	золотая	золотой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	цепь	цепь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	датированная	датировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+22	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+23	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5677
+# text = Первый золотой браслет был найден через 10 минут после начала поисков.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	золотой	золотой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	браслет	браслет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	найден	находить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	через	через	ADP	_	_	8	case	_	_
+7	10	10	NUM	_	_	8	nummod	_	_
+8	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	после	после	ADP	_	_	10	case	_	_
+10	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+11	поисков	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5678
+# text = После того, как археологи обнаружили три браслета, они связались с музеем Сондерсков (Sonderskov museum), который находится в соседнем городке Бройроп (Brrup).
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	три	три	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	браслета	браслет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+11	связались	связаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	музеем	музей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+14	Сондерсков	Сондерсков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Sonderskov	Sonderskov	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	museum	museum	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	который	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	acl:relcl	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	соседнем	соседний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	городке	городок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+25	Бройроп	Бройроп	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Brrup	Brrup	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5679
+# text = Всего троица обнаружила один серебряный и шесть золотых браслетов весом около 900 граммов.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	троица	троица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	обнаружила	обнаружать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	5	nummod:gov	_	_
+5	серебряный	серебряный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	шесть	шесть	NUM	_	Case=Nom	9	nummod:gov	_	_
+8	золотых	золотый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	браслетов	браслет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+10	весом	вес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+11	около	около	ADP	_	_	13	case	_	_
+12	900	900	NUM	_	_	13	nummod	_	_
+13	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5680
+# text = Два из найденных браслетов были сделаны в так называемом стиле Еллинг (Jelling), для которого были характерны изображения стилизованных животных.
+1	Два	два	NUM	_	Case=Nom|Gender=Masc	6	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	браслетов	браслет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	так	так	ADV	_	Degree=Pos	9	advmod	_	_
+9	называемом	называть	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	стиле	стил	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	Еллинг	Еллинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Jelling	Jelling	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	которого	который	PRON	_	Case=Gen	19	nmod	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	характерны	характерный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	acl:relcl	_	_
+20	изображения	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	_
+21	стилизованных	стилизованный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5681
+# text = Артефакты, сделанные в стиле Еллинг ассоциируются с элитой общества.
+1	Артефакты	Артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	стиле	стиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Еллинг	Еллинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+7	ассоциируются	ассоциироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	элитой	элита	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+10	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5682
+# text = По словам специалиста по эпохе викингов из Национального музея Дании в Копенгагене, Петера Пентца (Peter Pentz), кто-то из предводителей викингов мог дарить эти браслеты как награду своим преданным сторонникам или использовать их при заключении союзов.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	parataxis	_	_
+3	специалиста	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	эпохе	эпоха	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	Национального	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	музея	музей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	Дании	Дания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Копенгагене	Копенгаген	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Петера	Петер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+15	Пентца	Пентца	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Peter	peter	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Pentz	Pentz	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	кто-то	кто-то	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+22	из	из	ADP	_	_	23	case	_	_
+23	предводителей	предводитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+26	дарить	дарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	эти	этот	DET	_	Case=Acc|Number=Plur	28	amod	_	_
+28	браслеты	браслета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+29	как	как	SCONJ	_	_	30	cc	_	_
+30	награду	награда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	advmod	_	_
+31	своим	свой	DET	_	Case=Dat|Number=Plur	33	amod	_	_
+32	преданным	преданный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	33	amod	_	_
+33	сторонникам	сторонник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	_
+34	или	или	CCONJ	_	_	35	cc	_	_
+35	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	conj	_	_
+36	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	35	obj	_	_
+37	при	при	ADP	_	_	38	case	_	_
+38	заключении	заключение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	35	obl	_	_
+39	союзов	союз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5683
+# text = По словам Пентца эта находка "уникальна", так как большинство артефактов времен викингов, найденных до сих пор, были сделаны из серебра.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	Пентца	Пентец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	находка	находка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	уникальна	уникальный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	так	так	ADV	_	Degree=Pos	7	mark	_	_
+11	как	как	SCONJ	_	_	10	fixed	_	_
+12	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+13	артефактов	артефакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	времен	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	до	до	ADP	_	_	20	case	_	_
+19	сих	сей	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	серебра	серебро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5684
+# text = Возможно, найденные артефакты были частью того же клада, что и найденная в 1911 году золотая цепь.
+1	Возможно	возможно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+7	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+8	же	же	PART	_	_	7	advmod	_	_
+9	клада	клад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	0	mark	_	_
+12	и	и	PART	_	_	13	advmod	_	_
+13	найденная	находить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	1911	1911	NUM	_	_	16	nummod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	золотая	золотой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	цепь	цепь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5685
+# text = "Клад могли зарыть во время проведения какого-то ритуала в X веке.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Клад	Клад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	зарыть	зарывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+5	во	во	ADP	_	_	7	case	_	_
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+8	какого-то	какой-то	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ритуала	ритуал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	X	x	NUM	_	_	12	nummod	_	_
+12	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5686
+# text = Но сокровища могли быть зарыты человеком, который потом не смог вернуться и выкопать их", -- объясняет Пентц.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	сокровища	сокровище	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+3	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	зарыты	зарывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+9	потом	потом	ADV	_	Degree=Pos	11	advmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+12	вернуться	вернуваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	выкопать	выкопывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	_
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	--	--	PUNCT	_	_	14	punct	_	_
+19	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	Пентц	Пентц	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5687
+# text = В марте этого года датский археолог-любитель нашел на поле на острове Фюн золотое распятие X века.
+1	В	в	ADP	_	_	2	case	_	_
+2	марте	март	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	датский	датский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	археолог-	археолог-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	любитель	любитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	нашел	находить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	поле	поле	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	острове	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	Фюн	Фюн	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+14	золотое	золотый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	распятие	распятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+16	X	x	NUM	_	_	17	nummod	_	_
+17	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5688
+# text = Ученые считают артефакт одним из древнейших распятий, найденных на территории Дании.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	артефакт	артефакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	одним	один	NUM	_	Case=Ins|Gender=Masc	2	nummod	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	древнейших	древний	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	7	amod	_	_
+7	распятий	распятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	Дании	дания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5689
+# text = Екатерина Русакова
+1	Екатерина	екатерина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Русакова	Русакова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5690

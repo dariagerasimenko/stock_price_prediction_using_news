@@ -1,0 +1,223 @@
+# text = # newpar
+# sent_id = 11
+# text = Ученые из Университета Сапиенца в Риме предложили метод классификации стран в соответствии с типом их экономики.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Сапиенца	Сапиенц	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Риме	рим	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	классификации	классификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	соответствии	соответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	с	с	ADP	_	_	12	fixed	_	_
+14	типом	тип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+16	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 12
+# text = Метод позволяет сказать, насколько поведение страны поддается прогнозу и соответствует ли оно "ламинарному" или "хаотическому" типу развития.
+1	Метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	насколько	насколько	ADV	_	Degree=Pos	6	advmod	_	_
+6	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	поддается	поддаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+9	прогнозу	прогноз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	ли	ли	PART	_	_	11	advmod	_	_
+13	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	11	nsubj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	ламинарному	ламинарный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	или	или	CCONJ	_	_	19	cc	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	хаотическому	хаотический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+22	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 13
+# text = Работа опубликованав журнале PLoS ONE, кратко о ней можнопрочитатьна сайте Nature.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	опубликованав	опубликованать	VERB	_	Aspect=Imp|Tense=Past|VerbForm=Conv|Voice=Act	3	amod	_	_
+3	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	PLoS	Plos	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	ONE	One	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+10	можнопрочитатьна	можнопрочитатьный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+11	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Nature	nature	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 14
+# text = Главной задачей исследования был поиск метрики, которая максимально точно могла бы предсказать, как будет развиваться экономика данной страны в будущем.
+1	Главной	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	задачей	задача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+5	поиск	поиск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	метрики	метрика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+9	максимально	максимально	ADV	_	Degree=Pos	10	advmod	_	_
+10	точно	точно	ADV	_	Degree=Pos	11	advmod	_	_
+11	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+12	бы	бы	PART	_	Mood=Cnd	11	aux	_	_
+13	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	ADV	_	Degree=Pos	17	advmod	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+17	развиваться	развиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	ccomp	_	_
+18	экономика	экономика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+19	данной	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 15
+# text = Ранее в качестве такой метрики была предложенадиверсифицированность экспорта -- иными словами, то, насколько разные товары экспортирует страна.
+1	Ранее	рано	ADV	_	Degree=Cmp	7	advmod	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	метрики	метрика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	предложенадиверсифицированность	предложенадиверсифицированность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+8	экспорта	экспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	то	то	SCONJ	_	_	7	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	насколько	насколько	ADV	_	Degree=Pos	17	advmod	_	_
+16	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+18	экспортирует	экспортировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 16
+# text = Эта метрика получила название индекса экономической сложности (ECI) и, несмотря на свою простоту, показала значительную предсказательную силу.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	метрика	метрика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	индекса	индекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	экономической	экономический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ECI	Eci	PROPN	_	Foreign=Yes	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	16	cc	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	несмотря	несмотря	ADV	_	Polarity=Neg	16	case	_	_
+14	на	на	ADP	_	_	13	fixed	_	_
+15	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	простоту	простота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	значительную	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	предсказательную	предсказательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 17
+# text = Однако ECI, как выявили наблюдения, сама по себе способна сильно меняться с годами и для некоторых стран ведет себя аномально.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	ECI	Eci	NUM	_	_	5	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	mark	_	_
+5	выявили	выявливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	obj	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	себе	себя	PRON	_	Case=Dat	8	nmod	_	_
+11	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	amod	_	_
+12	сильно	сильно	ADV	_	Degree=Pos	11	advmod	_	_
+13	меняться	меняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	dep	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	для	для	ADP	_	_	19	case	_	_
+18	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	19	amod	_	_
+19	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	conj	_	_
+20	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+21	себя	себя	PRON	_	Case=Acc	20	obj	_	_
+22	аномально	аномально	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 18
+# text = Чтобы понять природу этого поведения, ученые занялись моделированием многолетней динамики экономики на двумерной диаграмме.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+2	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+3	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	amod	_	_
+5	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	занялись	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	моделированием	моделирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	многолетней	многолетний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	динамики	динамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	двумерной	двумерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	диаграмме	диаграмма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 19
+# text = По вертикальной оси на ней был отложен уровень подушевого ВВП, а по горизонтальной -- "приспособленность" (упрощая, можно сказать, что это усовершенствованный вариант ECI с упором на нематериальные активы).
+1	По	по	ADP	_	_	3	case	_	_
+2	вертикальной	вертикальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	оси	ось	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	отложен	отлагать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	подушевого	подушевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	ВВП	ввп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	14	cc	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	горизонтальной	горизонтальная	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	приспособленность	приспособленность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	упрощая	упрощать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	можно	можно	ADV	_	Degree=Pos	17	parataxis	_	_
+23	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	23	mark	_	_
+26	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+27	усовершенствованный	усовершенствовывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	advcl	_	_
+29	ECI	Eci	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+30	с	с	ADP	_	_	31	case	_	_
+31	упором	упор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	nmod	_	_
+32	на	на	ADP	_	_	34	case	_	_
+33	нематериальные	нематериальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	активы	актив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	_
+
+# newpar
+# sent_id = 20

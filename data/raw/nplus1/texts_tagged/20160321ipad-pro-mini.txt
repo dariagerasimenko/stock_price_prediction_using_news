@@ -1,0 +1,115 @@
+# text = # newpar
+# sent_id = 2312
+# text = Компания Apple в рамках весенней презентации Special Event представила новую модель планшета iPad Pro с экраном диагональю 9,7 дюймов.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	Apple	эппл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+5	весенней	весенний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	презентации	презентация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	Special	special	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Event	Event	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	планшета	планшет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	iPad	iPad	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Pro	Pro	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	экраном	экран	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+17	диагональю	диагональ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	_
+18	9,7	9,7	NUM	_	_	19	nummod	_	_
+19	дюймов	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2313
+# text = Об этом представители Apple сообщили в прямой трансляции на сайте компании.По сравнению с предыдущим iPad Pro, который компания представила осенью, экран планшета значительно уменьшился -- 9,7 дюйма против 12,9 дюйма.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	Apple	Apple	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	прямой	прямой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	По	по	ADP	_	_	17	case	_	_
+14	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	fixed	_	_
+15	с	с	ADP	_	_	14	fixed	_	_
+16	предыдущим	предыдущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	iPad	iPad	PROPN	_	Foreign=Yes	28	nsubj	_	_
+18	Pro	Pro	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	который	который	PRON	_	Case=Acc	22	obj	_	_
+21	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	представила	представивать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+23	осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	экран	экран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+26	планшета	планшет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	значительно	значительно	ADV	_	Degree=Pos	28	advmod	_	_
+28	уменьшился	уменьшаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	9,7	9,7	NUM	_	_	31	nummod	_	_
+31	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
+32	против	против	ADP	_	_	34	case	_	_
+33	12,9	12,9	NUM	_	_	34	nummod	_	_
+34	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2314
+# text = Кроме того, уменьшенная версия iPad Pro обладает четырьмя встроенными динамиками.Экран планшета научился адаптироваться к освещению, меняя палитру отображаемых цветов с поправкой на оттенок внешних источников цвета.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	уменьшенная	уменьшенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	iPad	iPad	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Pro	Pro	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	обладает	обладавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	четырьмя	четыре	NUM	_	Case=Ins	11	nummod	_	_
+10	встроенными	встроеть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	динамиками	динамик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Экран	экран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	планшета	планшет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	научился	научаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+16	адаптироваться	адаптироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	освещению	освещение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	меняя	менять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+21	палитру	палитр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+22	отображаемых	отображать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	цветов	цветы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	поправкой	поправка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	nmod	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	оттенок	оттенок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	внешних	внешний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2315
+# text = По словам представителей компании, благодаря такой подстройке изображение выглядит естественней для глаз.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	благодаря	благодаря	ADP	_	_	8	case	_	_
+7	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	8	amod	_	_
+8	подстройке	подстройка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+9	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	естественней	естественний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 2316

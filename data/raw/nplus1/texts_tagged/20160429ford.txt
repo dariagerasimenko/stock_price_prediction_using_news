@@ -1,0 +1,230 @@
+# text = # newpar
+# sent_id = 3643
+# text = Американский автомобильный концерн Ford объявил о намерении разработать электромобиль, который будет конкурировать с Chevrolet Bolt и Tesla Model 3.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	автомобильный	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	электромобиль	электромобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	конкурировать	конкурировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	acl:relcl	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	Chevrolet	Chevrolet	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Bolt	Bolt	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	Tesla	Tesla	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+19	Model	Model	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	3	3	NUM	_	_	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3644
+# text = Об этом, каксообщаетAutomotive News, заявил исполнительный директор концерна Марк Филдс.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каксообщаетAutomotive	каксообщаетAutomotive	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+5	News	news	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	исполнительный	исполнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	концерна	концерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Марк	Марк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	Филдс	Филдс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3645
+# text = Свой новый автомобиль Ford намерен назвать Model E, а его производство -- начать в 2019 году на заводе в Мексике.По предварительным данным, дальность электромобиля Ford составит около 322 километров.
+1	Свой	свой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+5	намерен	намерен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	Model	model	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	E	e	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	2019	2019	NUM	_	_	17	nummod	_	_
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+20	в	в1	ADP	_	_	21	mark	_	_
+21	Мексике.	Мексикбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+22	По	по	ADP	_	_	24	case	_	_
+23	предварительным	предварительный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	24	amod	_	_
+24	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	29	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+27	электромобиля	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+29	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	около	около	ADP	_	_	32	case	_	_
+31	322	322	NUM	_	_	32	nummod	_	_
+32	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3646
+# text = По неподтвержденным данным, Model E будет предлагаться в трех вариантах: гибридном, гибридном с возможностью подзарядки от электросети и электрическом.
+1	По	по	ADP	_	_	3	case	_	_
+2	неподтвержденным	неподтвержденный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Model	model	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	E	e	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	предлагаться	предлагаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	трех	три	NUM	_	Case=Loc	11	nummod	_	_
+11	вариантах	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	гибридном	гибридный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	гибридном	гибридный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	возможностью	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+18	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	электросети	электросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	электрическом	электрический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3647
+# text = Другие подробности о новом автомобиле пока неизвестны.В декабре прошлого года концерн объявил о намерении потратить 4,5 миллиарда долларов на разработку 13 новых гибридных или электрических моделей к 2020 году.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	автомобиле	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+7	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	В	в	ADP	_	_	10	case	_	_
+10	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+11	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+17	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	4,5	4,5	NUM	_	_	19	nummod	_	_
+19	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nummod:gov	_	_
+20	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+23	13	13	NUM	_	_	28	nummod	_	_
+24	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+25	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+26	или	или	CCONJ	_	_	27	cc	_	_
+27	электрических	электрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	conj	_	_
+28	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+29	к	к	ADP	_	_	31	case	_	_
+30	2020	2020	NUM	_	_	31	nummod	_	_
+31	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3648
+# text = При этом Филдс отмечал, что к этому времени 40 процентов автомобилей модельного ряда Ford будут так или иначе электрическими.В настоящее время в США Ford продает электрическую версию Focus.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	Филдс	Филдс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	отмечал	отмечать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	_
+9	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+10	40	40	NUM	_	_	11	nummod	_	_
+11	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+12	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	модельного	модельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+16	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
+17	так	так	ADV	_	Degree=Pos	27	advmod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	иначе	иначе	ADV	_	Degree=Pos	17	conj	_	_
+20	электрическими.	электрическими.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+21	В	в	ADP	_	_	27	advmod	_	_
+22	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	fixed	_	_
+23	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	27	obl	_	_
+26	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	продает	продавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+28	электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+30	Focus	Focus	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3649
+# text = Машина, получившая название Focus Electric, имеет дальность езды в 122 километра.
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	получившая	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	Focus	Focus	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Electric	electric	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	езды	езда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	122	122	NUM	_	_	13	nummod	_	_
+13	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3650
+# text = С осени текущего года запас хода автомобиля планируется увеличить до 161 километра.
+1	С	с	ADP	_	_	2	case	_	_
+2	осени	осень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+3	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	до	до	ADP	_	_	11	case	_	_
+11	161	161	NUM	_	_	12	nummod	_	_
+12	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3651
+# text = Мощность электромотора Focus Electric составляет 145 лошадиных сил.
+1	Мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	электромотора	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Focus	Focus	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Electric	electric	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	145	145	NUM	_	_	8	nummod	_	_
+7	лошадиных	лошадиный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3652
+# text = Машина продается за 29,2 тысячи долларов.Василий Сычёв
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	продается	продаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	за	за	ADP	_	_	5	case	_	_
+4	29,2	29,2	NUM	_	_	5	nummod	_	_
+5	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+6	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+
+# newpar
+# sent_id = 3653

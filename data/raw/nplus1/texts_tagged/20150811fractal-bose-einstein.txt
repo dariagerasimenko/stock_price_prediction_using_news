@@ -1,0 +1,109 @@
+# text = # newpar
+# sent_id = 4273
+# text = В Google произошла масштабная реструктуризации: основатели компании Ларри Пейдж иСергей Брин создали новую компанию Alphabet, которая поглотила Google.
+1	В	в	ADP	_	_	2	case	_	_
+2	Google	Google	PROPN	_	Foreign=Yes	3	obl	_	_
+3	произошла	происходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	масштабная	масштабной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	реструктуризации	реструктуризация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	основатели	основатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	Ларри	ларри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	Пейдж	Пейдж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	иСергей	иСергя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+12	Брин	Брин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+14	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	компанию	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	Alphabet	Alphabet	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которая	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	поглотила	поглотывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4274
+# text = Новым главой Google назначенСундар Пичай.
+1	Новым	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	главой	глава	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	Google	гугл	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	назначенСундар	назначенСундар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	Пичай	Пичай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4275
+# text = Об этом Ларри Пейджсообщилв официальном блоге Google.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+3	Ларри	ларри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Пейджсообщилв	Пейджсообщилв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+7	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4276
+# text = "Для нас с Сергеем рождение Alphabet -- это новая удивительная глава в жизни Google.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Для	для	ADP	_	_	3	case	_	_
+3	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	Сергеем	сергей	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+6	рождение	рождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nsubj	_	_
+7	Alphabet	Alphabet	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+10	новая	новий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	удивительная	удивительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	глава	глава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	Google	Google	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4277
+# text = Нам нравится название Alphabet ("Алфавит"), потому что оно означает набор букв, используемых в языке, величайшем достижении человечества.
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	obl	_	_
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	Alphabet	Alphabet	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Алфавит	Алфавит	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	потому	потому	ADV	_	Degree=Pos	0	mark	_	_
+12	что	что	SCONJ	_	_	11	fixed	_	_
+13	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	14	nsubj	_	_
+14	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+15	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	букв	буква	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	языке	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	величайшем	великий	ADJ	_	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	23	amod	_	_
+23	достижении	достижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+24	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4278
+# text = Кроме того, мы используем алфавит для индексации поиска Google!"
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	используем	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	алфавит	алфавит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	индексации	индексация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	10	punct	_	_
+
+# newpar
+# sent_id = 4279

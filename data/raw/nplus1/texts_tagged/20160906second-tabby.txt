@@ -1,0 +1,304 @@
+# text = # newpar
+# sent_id = 5121
+# text = Астрофизики обнаружили звезду, яркость которой периодически уменьшается более чем наполовину.
+1	Астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	которой	который	PRON	_	Case=Gen	5	nmod	_	_
+7	периодически	периодически	ADV	_	Degree=Pos	8	advmod	_	_
+8	уменьшается	уменьшаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+9	более	более	ADV	_	Degree=Cmp	11	case	_	_
+10	чем	чем	SCONJ	_	_	9	fixed	_	_
+11	наполовину	наполовину	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5122
+# text = Это уже второе небесное тело наряду со"звездой Табби", значительное потускнение которого пока что неудается доконца объяснить.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	небесное	небесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	наряду	наряду	ADV	_	Degree=Pos	13	parataxis	_	_
+7	со"	со"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	звездой	звезда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	Табби	Табби	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	значительное	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	потускнение	потускнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	appos	_	_
+14	которого	который	PRON	_	Case=Gen	13	nmod	_	_
+15	пока	пока	ADV	_	Degree=Pos	5	mark	_	_
+16	что	что	SCONJ	_	_	15	fixed	_	_
+17	неудается	неудаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+18	доконца	доконца	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+19	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	dep	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5123
+# text = Работа ученых будет опубликована вжурнале Monthly Notices ofthe Royal Astronomical Society, препринт статьи доступен насайте ArXiv.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	Monthly	Monthly	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Notices	notices	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	ofthe	ofthe	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Royal	royal	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Astronomical	Astronomical	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Society	society	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	препринт	препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	доступен	доступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+16	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	ArXiv	ArXiv	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5124
+# text = Соктября прошлого года астрономы активно обсуждают звезду KIC 8462852, известную также как "звезда Табби".
+1	Соктября	Соктября	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	активно	активно	ADV	_	Degree=Pos	6	advmod	_	_
+6	обсуждают	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	KIC	Kic	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	8462852	8462852	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	известную	известный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+12	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+13	как	как	SCONJ	_	_	15	cc	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	advmod	_	_
+16	Табби	Табби	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	appos	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5125
+# text = Результаты прошлогодних исследований кривой блеска этого объекта показывают, что его яркость падает навеличину до22процентов напротяжении различных промежутков времени-- от5до80дней.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	прошлогодних	прошлогодний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	кривой	кривый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	блеска	блеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	_
+7	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	падает	падавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+14	навеличину	навеличина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	до22процентов	до22процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	напротяжении	напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+17	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	промежутков	промежуток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	от5до80дней	от5до80дний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5126
+# text = Более того, новый анализ снимков, сделанных обсерваторией "Кеплер", показал, что яркость "звезды Табби" нетолько периодически падает, ноипостоянно снижается.
+1	Более	более	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+6	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	обсерваторией	обсерватория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Кеплер	Кеплер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Табби	Табби	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	нетолько	нетолько	ADV	_	Degree=Pos	24	advmod	_	_
+23	периодически	периодически	ADV	_	Degree=Pos	24	advmod	_	_
+24	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	ноипостоянно	ноипостоянно	ADV	_	Degree=Pos	27	advmod	_	_
+27	снижается	снижаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5127
+# text = Такое поведение ненаблюдалось удругих подобных небесных тел, что послужило основой для выдвижения самых различных гипотез, втом числе ио строительстве высокоразвитой цивилизацией вокруг KIC 8462852 гигантского астроинженерного сооружения для аккумулирования ееэнергии, вроде сферы Дайсона.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	ненаблюдалось	ненаблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	удругих	удругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+5	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	PRON	_	Case=Nom	10	nsubj	_	_
+10	послужило	служить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	выдвижения	выдвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	гипотез	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	advmod	_	_
+20	ио	ио	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	строительстве	строительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	conj	_	_
+22	высокоразвитой	высокоразвитый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	цивилизацией	цивилизация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	nmod	_	_
+24	вокруг	вокруг	ADP	_	_	25	case	_	_
+25	KIC	Kic	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+26	8462852	8462852	NUM	_	_	29	nummod	_	_
+27	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+28	астроинженерного	астроинженерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	сооружения	сооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	аккумулирования	аккумулирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+32	ееэнергии	ееэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	вроде	вроде	ADP	_	_	35	case	_	_
+35	сферы	сфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+36	Дайсона	дайсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 5128
+# text = Однако теперь исследователи сообщили отом, что нашли вторую звезду, укоторой блеск "скачет" подобным образом, иони предполагают, что утакого поведения может быть общее объяснение.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	вторую	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	укоторой	укоторый	PRON	_	Case=Dat	13	nmod	_	_
+13	блеск	блеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	скачет	скачет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	подобным	подобный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	иони	ионя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	утакого	утакой	DET	_	Case=Gen|Gender=Neut|Number=Sing	25	amod	_	_
+25	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+26	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
+27	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	cop	_	_
+28	общее	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	объяснение	объяснение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5129
+# text = Новая звезда, получившая название EPIC 204278916, была обнаружена спомощью телескопа "Кеплер" врамках миссии К2.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	получившая	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+5	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	EPIC	Epic	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	204278916	204278916	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	обнаружена	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl:agent	_	_
+12	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Кеплер	Кеплер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	врамках	врамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	_
+17	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	К2	К2	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5130
+# text = Она находится наранней стадии звездной эволюции, иееразмер сравним сразмерами нашего Солнца, хотя сама она почти вдва раза легче него.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	наранней	наранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	иееразмер	иееразмер	ADV	_	Degree=Pos	9	advmod	_	_
+9	сравним	сравний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	сразмерами	сразмер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	obl	_	_
+11	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	хотя	хотя	SCONJ	_	_	0	mark	_	_
+15	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+17	почти	почти	ADV	_	Degree=Pos	18	advmod	_	_
+18	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	19	nummod:gov	_	_
+19	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+20	легче	легкий	ADJ	_	Degree=Cmp	0	conj	_	_
+21	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5131
+# text = Исследователи проводили наблюдения заееблеском втечение 79дней изаметили, что впервые 25дней яркость небесного тела падала навеличину до65процентов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	заееблеском	заееблесок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+5	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+6	79дней	79день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	изаметили	изамещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	впервые	впервые	ADV	_	Degree=Pos	11	advmod	_	_
+11	25дней	25дный	ADJ	_	Degree=Cmp	7	advcl	_	_
+12	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	небесного	небесной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	падала	паать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+16	навеличину	навеличина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	до65процентов	до65процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5132
+# text = После этого поведение EPIC 204278916 было вполне обычным: ееблеск изменялся сдовольно четкой периодичностью, что было связано свращением звезды.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+3	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	EPIC	Epic	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	204278916	204278916	NUM	_	_	4	nummod	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	вполне	вполне	ADV	_	Degree=Pos	8	advmod	_	_
+8	обычным	обычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	ееблеск	ееблеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	изменялся	изменяться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	parataxis	_	_
+12	сдовольно	сдовольно	ADV	_	Degree=Pos	11	advmod	_	_
+13	четкой	четкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+14	периодичностью	периодичность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	PRON	_	Case=Nom	18	nsubj	_	_
+17	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+19	свращением	свращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+20	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 5133

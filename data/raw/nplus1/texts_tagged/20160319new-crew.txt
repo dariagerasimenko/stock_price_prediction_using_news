@@ -1,0 +1,149 @@
+# text = # newpar
+# sent_id = 2117
+# text = Транспортный пилотируемый корабль "Союз ТМА-20М" успешно пристыковался к МКС.
+1	Транспортный	транспортный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	пилотируемый	пилотируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+6	ТМА-20М	ТМА-20М	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	успешно	успешно	ADV	_	Degree=Pos	6	advmod	_	_
+9	пристыковался	пристыковаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2118
+# text = Корабль пристыковался к модулю "Поиск" российского сегмента МКС в 06:09 по московскому времени, сообщает Роскосмос.На борту корабля на Международную космическую станцию прибыли члены экипажа 47/48.
+1	Корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	пристыковался	пристыковаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Поиск	поиск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	сегмента	сегмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+10	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	16	case	_	_
+12	06	06	NUM	_	_	16	nummod	_	SpaceAfter=No
+13	:09	:09	NUM	_	_	12	nummod	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+19	Роскосмос.	Роскосмосяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	На	на	ADP	_	_	21	case	_	_
+21	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+22	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	на	на	ADP	_	_	26	case	_	_
+24	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+27	прибыли	прибыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	члены	член	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+29	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	47/48	47/48	X	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2119
+# text = Космонавты Алексей Овчинин и Олег Скрипочка, а также астронавт Джеффри Уильямс.Научная программа экспедиции включает в себя около 50 экспериментов в сфере медицины, биологии и биотехнологии.
+1	Космонавты	космонавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+2	Алексей	алексей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Овчинин	Овчинин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Олег	Олег	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	Скрипочка	Скрипочка	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	14	cc	_	_
+9	также	также	ADV	_	Degree=Pos	8	advmod	_	_
+10	астронавт	астронавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	Джеффри	Джеффри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Уильямс.	уильямс.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	SpaceAfter=No
+13	Научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+15	экспедиции	экспедиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	себя	себя	PRON	_	Case=Acc	16	obl	_	_
+19	около	около	ADP	_	_	21	case	_	_
+20	50	50	NUM	_	_	21	nummod	_	_
+21	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+24	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	биотехнологии	биотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2120
+# text = Планируемая продолжительность пребывания на орбите составляет 173 дня.Ракета-носитель "Союз-ФГ" с пилотируемым космическим кораблем "Союз ТМА-20М" стартовала с Байконура 19 марта около 00:26 минут по московскому времени.
+1	Планируемая	Планируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	пребывания	пребывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	173	173	NUM	_	_	8	nummod	_	_
+8	дня.	дня.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	Ракета-носитель	Ракета-носитель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Союз-ФГ	союз-фг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	с	с	ADP	_	_	16	case	_	_
+14	пилотируемым	пилотировать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	космическим	космический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	кораблем	корабль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+19	ТМА-	ТМА-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	20М	20	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	_
+22	стартовала	стартовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	Байконура	Байконур	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+25	19	19	NUM	_	_	24	nummod	_	_
+26	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	около	около	ADP	_	_	30	case	_	_
+28	00	00	NUM	_	_	30	nummod	_	SpaceAfter=No
+29	:26	:26	NUM	_	_	30	nummod	_	_
+30	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	_
+31	по	по	ADP	_	_	33	case	_	_
+32	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2121
+# text = Это должен быть завершающий полет серии "Союз ТМА-М", им на смену должны прийти транспортные корабли "Союз МС".Николай Воронцов
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	cop	_	_
+4	завершающий	завершавать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+6	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+9	ТМА-М	ТМА-М	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	15	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	смену	смена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+15	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	parataxis	_	_
+16	прийти	приходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	транспортные	транспортный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	корабли	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Союз	союз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+21	МС	мс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+25	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 2122

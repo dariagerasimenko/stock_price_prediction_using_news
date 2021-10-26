@@ -1,0 +1,153 @@
+# text = # newpar
+# sent_id = 309
+# text = Израильская компания Meteor Aerospace занялась разработкой нового беспилотного летательного аппарата Impact,сообщаетFlightglobal.
+1	Израильская	израильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Meteor	Meteor	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Aerospace	Aerospace	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	Impact,сообщаетFlightglobal	Impact,сообщаетFlightglobal	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 310
+# text = Новый аппарат планируется поставлять на экспорт.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	поставлять	поставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	экспорт	экспорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 311
+# text = По словам исполнительного директора компании Ицхака Ниссана, беспилотник получит несколько технологий, отличающих его от других аппаратов такого же класса.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	parataxis	_	_
+3	исполнительного	исполнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	директора	директор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Ицхака	Ицхак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	Ниссана	Ниссан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	получит	лучить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	несколько	несколько	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	отличающих	отличать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+19	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	21	amod	_	_
+20	же	же	PART	_	_	19	advmod	_	_
+21	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 312
+# text = Каких именно, Meteor Aerospace пока не раскрывает.Impact будет оснащаться поршневым двигателем с инжекторной системой подачи топлива.
+1	Каких	какой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+2	именно	именно	PART	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Meteor	Meteor	PROPN	_	Foreign=Yes	10	nsubj	_	_
+5	Aerospace	Aerospace	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	пока	пока	ADV	_	Degree=Pos	10	advmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	раскрывает.Impact	раскрывает.Impact	PROPN	_	Foreign=Yes	10	nsubj	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	оснащаться	оснащаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+11	поршневым	поршневый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	инжекторной	инжекторный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+16	подачи	подача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 313
+# text = Мощность силовой установки составит сто лошадиных сил.
+1	Мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сто	сто	NUM	_	Case=Acc	7	nummod:gov	_	_
+6	лошадиных	лошадиный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 314
+# text = Беспилотник, относящийся к классу средневысотных аппаратов с большой продолжительностью полета, сможет находиться в воздухе более 24 часов и нести полезную нагрузку массой до 150 килограммов.По данным Meteor Aerospace, компания уже получила несколько заказов на поставку беспилотников Impact стоимостью около ста миллионов долларов.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	относящийся	относиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	1	amod	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	средневысотных	средневысотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	продолжительностью	продолжительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+11	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	более	более	ADV	_	Degree=Cmp	19	nummod:gov	_	_
+18	24	24	NUM	_	_	19	nummod	_	_
+19	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	conj	_	_
+22	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+25	до	до	ADP	_	_	27	case	_	_
+26	150	150	NUM	_	_	27	nummod	_	_
+27	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+28	По	по	ADP	_	_	29	case	_	_
+29	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	35	parataxis	_	_
+30	Meteor	Meteor	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Aerospace	Aerospace	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+34	уже	уже	ADV	_	Degree=Pos	35	advmod	_	_
+35	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+36	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	37	nummod:gov	_	_
+37	заказов	заказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	_
+38	на	на	ADP	_	_	37	case	_	_
+39	поставку	поставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+40	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+41	Impact	Impact	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	стоимостью	стоимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+43	около	около	ADP	_	_	45	case	_	_
+44	ста	сто	NUM	_	Case=Gen	45	nummod	_	_
+45	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+46	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 315
+# text = Эти контракты также содержат опционы на поставку аппаратов еще на 150 миллионов долларов.Василий Сычёв
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	контракты	контракт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	опционы	опцион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поставку	поставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	аппаратов	аппараты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	еще	еще	ADV	_	Degree=Pos	12	advmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	150	150	NUM	_	_	12	nummod	_	_
+12	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+13	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+15	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 316

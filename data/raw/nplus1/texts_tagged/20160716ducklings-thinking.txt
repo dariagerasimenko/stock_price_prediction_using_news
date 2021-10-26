@@ -1,0 +1,381 @@
+# text = # newpar
+# sent_id = 3614
+# text = Ученые обнаружили, что утята могут замечать сходство объектов поопределенному признаку и переносить обнаруженные аналогии на другие предметы.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	утята	утята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	замечать	замечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	поопределенному	поопределать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+11	признаку	признак	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	переносить	переносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+14	обнаруженные	обнаружять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	аналогии	аналогия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3615
+# text = Статья ученых опубликована вжурнале Science.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3616
+# text = Известно, что утята после вылупления начинают повсюду следовать засвоей матерью-- такой процесс называется "реакция следования" ионпредставляет собой форму запечатления.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	утята	утята	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	вылупления	вылупление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	повсюду	повсюду	ADV	_	Degree=Pos	9	advmod	_	_
+9	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+10	засвоей	засвоь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
+11	матерью	мать	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
+15	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	реакция	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+19	следования	следование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	ионпредставляет	ионпредставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+22	собой	себя	PRON	_	Case=Ins	23	obl	_	_
+23	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	запечатления	запечатление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3617
+# text = Однако птенцы могут принять зародителя любой другой движущийся объект, например, робота или ноги человека, ибудут узнавать его независимо оттого, летаетон, ходит или плавает.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	птенцы	птенец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	зародителя	зародитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	движущийся	движущийся	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	ноги	нога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
+16	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	ибудут	ибыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	узнавать	узнавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+20	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+21	независимо	независимо	ADV	_	Degree=Pos	24	advmod	_	_
+22	оттого	оттого	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	летаетон	летаетон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	ходит	ходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	плавает	плавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3618
+# text = Ученые решили проверить, запоминаютли птенцы исключительно внешний вид матери или они способны распознавать абстрактные аналогии типа одинаковый-- разный.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	запоминаютли	запоминаютть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	птенцы	птенец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	исключительно	исключительно	ADV	_	Degree=Pos	8	advmod	_	_
+8	внешний	внешний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+10	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	или	или	CCONJ	_	_	13	cc	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+14	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	абстрактные	абстрактной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	аналогии	аналогия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+17	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	одинаковый	одинаковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	orphan	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	18	punct	_	_
+21	разный	разный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	orphan	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3619
+# text = Такое умение характерно для человека и небольшого числа животных.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	умение	умение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	характерно	характерный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+9	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3620
+# text = Для этого исследователи поместили яйца, изкоторых должны были вылупиться утята, втемное помещение.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	яйца	яйцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	изкоторых	изкоторый	PRON	_	Case=Acc	8	obj	_	_
+8	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	вылупиться	вылупяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	dep	_	_
+11	утята	утята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	втемное	втемный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	помещение	помещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3621
+# text = После того, как птенцы появлялись насвет, ихпереносили восвещенные вольеры, где перед ними покругу двигались пары предметов, имеющие сходство поцвету или поформе.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	птенцы	птенец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	появлялись	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+7	насвет	насвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ихпереносили	ихпереносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	восвещенные	восвещять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	вольеры	вольер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+14	перед	перед	ADP	_	_	15	case	_	_
+15	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	17	obl	_	_
+16	покругу	покругу	ADV	_	Degree=Pos	17	advmod	_	_
+17	двигались	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+18	пары	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+19	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	имеющие	иметь	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	поцвету	поцвет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	поформе	поформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3622
+# text = Спустя некоторое время после того, как утенок начинал следовать засвоим "родителем", его снова возвращали втемное помещение, азатем его снова помещали восвещенный вольер, где покругу двигалась уже неодна, адве пары предметов.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	утенок	утенок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	начинал	начинать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	засвоим	засвоий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	родителем	родитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+17	снова	снова	ADV	_	Degree=Pos	18	advmod	_	_
+18	возвращали	возвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	втемное	втемный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	помещение	помещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	азатем	азаитать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	25	xcomp	_	_
+23	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+24	снова	снова	ADV	_	Degree=Pos	25	advmod	_	_
+25	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	_
+26	восвещенный	восвещенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	вольер	вольер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	где	где	ADV	_	Degree=Pos	31	advmod	_	_
+30	покругу	покругу	ADV	_	Degree=Pos	31	advmod	_	_
+31	двигалась	двигаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	27	acl:relcl	_	_
+32	уже	уже	ADV	_	Degree=Pos	33	advmod	_	_
+33	неодна	неодный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	36	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	адве	адва	NUM	_	Case=Nom|Gender=Fem	36	nummod:gov	_	_
+36	пары	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nsubj	_	_
+37	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 3623
+# text = Одна пара имела сходство потомуже признаку, что ипервая "мама" утенка, авторая-- нет.
+1	Одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	имела	иметь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	потомуже	потомуже	ADV	_	Degree=Pos	6	advmod	_	_
+6	признаку	признака	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	ипервая	ипервый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	мама	мама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	утенка	утенка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	авторая-	авторая-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	13	punct	_	_
+17	нет	нет	PART	_	_	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3624
+# text = Утенок должен был выбрать, закем следовать повольеру.
+1	Утенок	Утенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	закем	закем	ADV	_	Degree=Pos	7	advmod	_	_
+7	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+8	повольеру	повольера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3625
+# text = Врезультате эксперимента, из113 утят 77последовали запредметами, похожими поцвету или форме, анезапредметами, которые имели изначальную форму или изначальный цвет.
+1	Врезультате	Врезультате	PART	_	_	2	advmod	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	из113	из113	NUM	_	_	2	nummod	_	_
+5	утят	ущать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	77последовали	77последовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+7	запредметами	запредмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	похожими	похожий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	поцвету	поцвет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	анезапредметами	анезапредмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которые	который	PRON	_	Case=Acc	17	obj	_	_
+17	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	изначальную	изначальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	или	или	CCONJ	_	_	22	cc	_	_
+21	изначальный	изначальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3626
+# text = Тоесть если впервый раз птенцы видели два мячика, тововторой раз они следовали незамячиком ицилиндром, азадвумя цилиндрами.
+1	Тоесть	Тоедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+2	если	если	SCONJ	_	_	1	mark	_	_
+3	впервый	впервый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+5	птенцы	птенец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	видели	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	два	два	NUM	_	Case=Nom|Gender=Masc	8	nummod:gov	_	_
+8	мячика	мячик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	тововторой	тововторый	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	следовали	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	незамячиком	незамячик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+15	ицилиндром	ицилиндр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	азадвумя	азадва	NUM	_	Case=Ins	18	nummod	_	_
+18	цилиндрами	цилиндр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3627
+# text = Помнению ученых это свидетельствует отом, что утята могут логическим образом рассуждать осходстве иразличии предметов иобнаруживать относительно абстрактные взаимосвязи вокружающем мире.
+1	Помнению	Помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	утята	утята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	логическим	логический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+12	рассуждать	рассуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	осходстве	осходство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+14	иразличии	иразличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+15	предметов	предметы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	иобнаруживать	иобнаруживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+17	относительно	относительно	ADP	_	_	19	case	_	_
+18	абстрактные	абстрактный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	взаимосвязи	взаимосвязь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+20	вокружающем	вокружать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+21	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3628
+# text = Подобная способность, как замечают исследователи, наблюдалась только уобезьян, ворон ипопугаев.
+1	Подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	8	mark	_	_
+5	замечают	замечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	уобезьян	уобезьивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ворон	ворон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+13	ипопугаев	ипопугай	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3629
+# text = Однако они сомневаются, что способность "абстрактно рассуждать" можно развить уболее взрослых особей, так как процесс, как полагают авторы работы, связан непосредственно смоментом запечатления.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	сомневаются	сомневаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	абстрактно	абстрактно	ADV	_	Degree=Pos	9	advmod	_	_
+9	рассуждать	рассуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	можно	можно	ADV	_	Degree=Pos	3	advcl	_	_
+12	развить	развивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	уболее	уболее	ADV	_	Degree=Cmp	12	advmod	_	_
+14	взрослых	взрослый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	так	так	ADV	_	Degree=Pos	12	mark	_	_
+18	как	как	SCONJ	_	_	17	fixed	_	_
+19	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nsubj:pass	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	как	как	SCONJ	_	_	26	mark	_	_
+22	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	_
+23	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+24	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	_
+27	непосредственно	непосредственне	ADV	_	Degree=Pos	28	advmod	_	_
+28	смоментом	смомент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+29	запечатления	запечатление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3630
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3631

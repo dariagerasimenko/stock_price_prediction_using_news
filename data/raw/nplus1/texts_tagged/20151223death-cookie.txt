@@ -1,0 +1,200 @@
+# text = # newpar
+# sent_id = 743
+# text = Ученые из Университета Джорджии выяснили, что такие опасные бактерии, как Salmonella могут сохранять жизнеспособность в печенье и крекерах до полугода.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Джорджии	Джорджия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	такие	такой	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+9	опасные	опасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	14	mark	_	_
+13	Salmonella	Salmonella	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+15	сохранять	сохранять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	advcl	_	_
+16	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	печенье	печение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	крекерах	крекер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	conj	_	_
+21	до	до	ADP	_	_	22	case	_	_
+22	полугода	полугод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 744
+# text = Исследованиеопубликованов Journal of Food Protection.В своих экспериментах исследователи использовали пять серотипов Salmonella, которые были выделены из сухих продуктов, вызвавших отравления.
+1	Исследованиеопубликованов	Исследованиеопубликован	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+2	Journal	journal	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	of	of	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	Food	Food	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Protection.	Protection.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+6	В	в	ADP	_	_	8	case	_	_
+7	своих	свой	DET	_	Case=Loc|Number=Plur	8	amod	_	_
+8	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+9	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	пять	пять	NUM	_	Case=Acc	12	nummod:gov	_	_
+12	серотипов	серотип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	Salmonella	Salmonella	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	17	nsubj	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	выделены	выделять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	сухих	сухой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	вызвавших	вызвать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	amod	_	_
+23	отравления	отравление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 745
+# text = Ученые сделали сэндвичи из крекеров и печенья, предварительно добавив в начинку бактерии.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сэндвичи	сэндвича	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+4	из	из	ADP	_	_	3	case	_	_
+5	крекеров	крекер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	печенья	печенье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	предварительно	предварительно	ADV	_	Degree=Pos	10	advmod	_	_
+10	добавив	добавлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	начинку	начинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 746
+# text = Для крекеров были выбраны начинки из сыра и арахисового масла, а для печенья использовали шоколадный и ванильный наполнитель.
+1	Для	для	ADP	_	_	2	case	_	_
+2	крекеров	крекер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	выбраны	выбирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	начинки	начинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	сыра	сыр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	арахисового	арахисовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	масла	масло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	15	cc	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	печенья	печенье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+15	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	шоколадный	шоколадный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	ванильный	ванильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	_
+19	наполнитель	наполнитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 747
+# text = Сэндвичи хранили при температуре 25 градусов Цельсия и периодически проверяли наличие живых бактерий.Даже после полугода хранения бактерии сохраняли жизнеспособность, чего исследователи, по их словам, никак не ожидали.
+1	Сэндвичи	Сэндвич	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	хранили	хранить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	температуре	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	25	25	NUM	_	_	6	nummod	_	_
+6	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	Цельсия	Цельсие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	периодически	периодически	ADV	_	Degree=Pos	10	advmod	_	_
+10	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	наличие	наличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	живых	живой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Даже	даже	PART	_	_	17	advmod	_	_
+16	после	после	ADP	_	_	17	case	_	_
+17	полугода	полугод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+18	хранения	хранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	сохраняли	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чего	что	PRON	_	Case=Gen	32	obl	_	_
+24	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	по	по	ADP	_	_	28	case	_	_
+27	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	28	nmod	_	_
+28	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	32	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	никак	никак	ADV	_	Degree=Pos	32	advmod	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	ожидали	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 748
+# text = В дальнейшем они планируют протестировать все возможные ингредиенты, используемые в сухих продуктах.Ученые говорят, что их работа показывает, что для многих типов пищевых продуктов необходимо пересмотреть нормы их производства.
+1	В	в	ADP	_	_	2	case	_	_
+2	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	протестировать	протестировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	все	весь	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+7	возможные	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	ингредиенты	ингредиент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	используемые	использовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	сухих	сухий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	nsubj	_	_
+16	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+20	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	для	для	ADP	_	_	26	case	_	_
+25	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+27	пищевых	пищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	advcl	_	_
+30	пересмотреть	пересматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	nsubj	_	_
+31	нормы	норма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	30	obj	_	_
+32	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	33	nmod	_	_
+33	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 749
+# text = Практически безводные начинки, такие как варенья, сыры, шоколад и масло, на самом деле не являются полностью безопасными и не гарантируют отсутствия бактерий.Анна Образцова
+1	Практически	Практически	ADV	_	Degree=Pos	2	advmod	_	_
+2	безводные	безводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	начинки	начинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	как	как	SCONJ	_	_	5	cc	_	_
+7	варенья	варенье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сыры	сыр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	шоколад	шоколад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	масло	масло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	полностью	полностью	ADV	_	Degree=Pos	21	advmod	_	_
+21	безопасными	безопасный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	obl	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	гарантируют	гарантировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+25	отсутствия	отсутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+26	бактерий.	бактерий.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	Анна	Анн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	Образцова	Образцов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	flat:name	_	_
+
+# newpar
+# sent_id = 750

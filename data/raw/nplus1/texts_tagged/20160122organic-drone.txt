@@ -1,0 +1,74 @@
+# text = # newpar
+# sent_id = 4485
+# text = Насайте EBay один изпользователей выдал ветку оттоматов за"органический веганский беспилотник".
+1	Насайте	Насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	EBay	EBay	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	один	один	NUM	_	Case=Nom|Gender=Masc	4	nummod:gov	_	_
+4	изпользователей	изпользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+5	выдал	выдавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	ветку	ветка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	оттоматов	оттомат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	за	за	ADP	_	_	12	case	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	органический	органический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	веганский	веганский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4486
+# text = Объявление можно посмотреть насайте.
+1	Объявление	объявление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 4487
+# text = Продавец утверждает, что ветка, внешне напоминающая квадрокоптер, является веганской сливовидной версией беспилотника.
+1	Продавец	продавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	утверждает	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	cc	_	_
+5	ветка	ветка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	внешне	внешне	ADV	_	Degree=Pos	8	advmod	_	_
+8	напоминающая	напоминать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+9	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+12	веганской	веганский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	сливовидной	сливовидный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+15	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4488
+# text = Это уникальная модель, выполненная взеленом цвете.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	уникальная	уникальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	выполненная	выполнять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	взеленом	взеленый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	цвете	цвет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4489
+# text = Кдрону прилагается пульт отPlaystation Sony, так как оригинальный пульт владелец потерял.
+1	Кдрону	Кдрон	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+2	прилагается	прилагавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	пульт	пульт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+4	отPlaystation	отPlaystation	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Sony	Sony	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	так	так	ADV	_	Degree=Pos	0	mark	_	_
+8	как	как	SCONJ	_	_	7	fixed	_	_
+9	оригинальный	оригинальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пульт	пульт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	потерял	терять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 4490

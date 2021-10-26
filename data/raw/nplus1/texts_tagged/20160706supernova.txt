@@ -1,0 +1,124 @@
+# text = # newpar
+# sent_id = 2122
+# text = Астрономы из команды ASAS-SN, занимающейся автоматизированным обзором неба, случайно приняли карликовую планеты Макемаке за сверхновую, расположенную в другой галактике.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	ASAS-	ASAS-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	SN	Sn	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	занимающейся	заниматься	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	1	amod	_	_
+8	автоматизированным	автоматизировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	обзором	обзор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	неба	небо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	случайно	случайно	ADV	_	Degree=Pos	13	advmod	_	_
+13	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	карликовую	карликовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	планеты	планета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	Макемаке	Макемаке	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	сверхновую	сверхновая	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	расположенную	расположенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	amod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	другой	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	галактике	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2123
+# text = Небесное тело оказалось на линии между Землей и галактикой NGC 4725, и ввело в заблуждение астрономов.
+1	Небесное	небесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	линии	линия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	Землей	земля	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	галактикой	галактика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_
+10	NGC	Ngс	ADP	_	_	11	case	_	_
+11	4725	4725	NUM	_	_	3	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	ввело	вводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	заблуждение	заблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+17	астрономов	астроном	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2124
+# text = Ученые рассказали об этом в The Astronomer's Telegram.Намек на сверхновую в галактике NGC 4725 астрономы нашли на снимках, сделанных 5 июля в 09:48 по московскому времени.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	рассказали	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	об	о	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	The	the	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	Astronomer's	Astronomer's	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Telegram	telegram	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Намек	намек	ADV	_	Degree=Pos	2	advmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	сверхновую	сверхновая	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	галактике	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+15	NGC	Ngс	ADP	_	_	16	case	_	_
+16	4725	4725	NUM	_	_	17	nummod	_	_
+17	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	5	5	NUM	_	_	24	nummod	_	_
+24	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	09	09	NUM	_	_	27	nummod	_	SpaceAfter=No
+27	:48	:48	NOUN	_	_	22	obl	_	_
+28	по	по	ADP	_	_	30	case	_	_
+29	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2125
+# text = Блеск объекта, обнаруженного авторами, достигал 17-й звездной величины, при этом до 26 июня в той же области неба не наблюдалось никаких похожих объектов.
+1	Блеск	блеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	обнаруженного	обнаруживать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	авторами	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	достигал	достигать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	17-й	ок17-порядк	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	26	26	NUM	_	_	16	nummod	_	_
+16	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	20	amod	_	_
+19	же	же	PART	_	_	18	advmod	_	_
+20	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+21	неба	небо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nsubj:pass	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	_
+24	никаких	никакой	DET	_	Case=Gen|Number=Plur	26	amod	_	_
+25	похожих	похожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2126
+# text = Существование объекта подтвердили независимыми наблюдениями.
+1	Существование	существование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	независимыми	независимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	наблюдениями	наблюдение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 2127

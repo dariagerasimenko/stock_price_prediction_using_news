@@ -1,0 +1,235 @@
+# text = # newpar
+# sent_id = 2157
+# text = Прах американских "Фифинелл" разрешат хоронить на Арлингтонском национальном кладбище.
+1	Прах	прах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Фифинелл	фифинелл	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	разрешат	разрешать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	хоронить	хоронить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	на	на	ADP	_	_	11	case	_	_
+9	Арлингтонском	Арлингтонский	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	национальном	национальной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	кладбище	кладбище	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2158
+# text = КаксообщаетMilitary.
+1	КаксообщаетMilitary.	КаксообщаетMilitary.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 2159
+# text = com, группа сенаторов потребовала от командования Армии США отменить запрет на захоронение женщин, служивших летчиками во время Второй мировой войны в рядах Женской службы пилотов ВВС (WASP).
+1	com	com	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	сенаторов	сенатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	потребовала	требовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	командования	командование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+8	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	отменить	отменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	dep	_	_
+11	запрет	запрет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	захоронение	захоронение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+14	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	служивших	лужить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	14	amod	_	_
+17	летчиками	летчик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+18	во	во	ADP	_	_	22	case	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	Второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	рядах	ряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+25	Женской	женский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	appos	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	WASP	Wasp	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2160
+# text = Таким образом женщинам можно будет выразить воинские почести за заслуги во время войны.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	parataxis	_	_
+3	женщинам	женщина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	выразить	выразать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+7	воинские	воинский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	почести	почесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	заслуги	заслуга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	nmod	_	_
+11	во	во	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2161
+# text = Когда именно "Фифинеллы" вновь получат право на захоронение на военном кладбище, пока неизвестно."Женская служба" стала известна как "Фифинеллы" после того, как в конце 1943 года получила разрешение студии Walt Disney на использование одноименных мультипликационных персонажей в качестве официального талисмана.
+1	Когда	когда	ADV	_	Degree=Pos	22	mark	_	_
+2	именно	именно	PART	_	_	4	advmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Фифинеллы	Фифинелла	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	вновь	вновь	ADV	_	Degree=Pos	7	advmod	_	_
+7	получат	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	advcl	_	_
+8	право	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	захоронение	захоронение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	военном	военный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	кладбище	кладбище	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	пока	пока	SCONJ	_	_	16	cc	_	_
+16	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Женская	женский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+23	известна	известный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	22	parataxis	_	_
+24	как	как	SCONJ	_	_	26	cc	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Фифинеллы	Фифинелла	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	после	после	ADP	_	_	29	case	_	_
+29	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	как	как	SCONJ	_	_	29	mark	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	obl	_	_
+34	1943	1943	NUM	_	_	35	nummod	_	_
+35	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	advcl	_	_
+37	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	obj	_	_
+38	студии	студия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+39	Walt	walt	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	Disney	disney	PROPN	_	Foreign=Yes	39	flat:foreign	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	nmod	_	_
+43	одноименных	одноименный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+44	мультипликационных	мультипликационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	персонажей	персонаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+46	в	в	ADP	_	_	49	case	_	_
+47	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	46	fixed	_	_
+48	официального	официальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	талисмана	талисман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 2162
+# text = Фифинеллами называлисьгремлины женского пола, выдуманные существа, помогавшие летчикам в войне против фашистской Германии.
+1	Фифинеллами	фифинеллами	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	называлисьгремлины	называлисьгремлина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	nsubj	_	_
+3	женского	женский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	выдуманные	выдумать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	существа	существо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	помогавшие	помогать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+10	летчикам	летчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	войне	война	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+13	против	против	ADP	_	_	15	case	_	_
+14	фашистской	фашистский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Германии	германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2163
+# text = Фифинеллы изображались на нашивках летчиц "Женской службы".Несмотря на то, что WASP,созданная 5 августа 1943 года, была подразделением ВВС США, а женщины-летчицы управляли военными самолетами (бомбардировщиками, транспортниками, а иногда и истребителями), служба считалась гражданским формированием.
+1	Фифинеллы	Фифинелл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	изображались	изображаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	нашивках	нашивка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	летчиц	летчица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Женской	женский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	Несмотря	несмотря	ADV	_	Polarity=Neg	13	case	_	_
+12	на	на	ADP	_	_	11	fixed	_	_
+13	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	WASP	Wasp	PROPN	_	Foreign=Yes	24	nsubj	_	SpaceAfter=No
+17	,созданная	,создать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+18	5	5	NUM	_	_	17	nummod	_	_
+19	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	1943	1943	NUM	_	_	21	nummod	_	_
+21	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	подразделением	подразделение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	advcl	_	_
+25	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	а	а	CCONJ	_	_	31	cc	_	_
+29	женщины	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	SpaceAfter=No
+30	-летчицы	-летчица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_
+31	управляли	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	conj	_	_
+32	военными	военной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+33	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	бомбардировщиками	бомбардировщик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	транспортниками	транспортник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	а	а	CCONJ	_	_	42	cc	_	_
+40	иногда	иногда	ADV	_	Degree=Pos	42	advmod	_	_
+41	и	и	PART	_	_	42	advmod	_	_
+42	истребителями	истребитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	42	punct	_	_
+45	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	nsubj:pass	_	_
+46	считалась	считать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+47	гражданским	гражданский	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_
+48	формированием	формированье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	46	obl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 2164
+# text = Ее организовали для того, чтобы освободить как можно больше мужчин-летчиков от "не опасных" заданий.
+1	Ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+2	организовали	организовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+7	освободить	освобаживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+8	как	как	ADV	_	Degree=Pos	9	fixed	_	_
+9	можно	можно	ADV	_	Degree=Pos	7	advmod	_	_
+10	больше	много	NUM	_	_	11	nummod:gov	_	_
+11	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	-летчиков	-летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	от	от	ADP	_	_	18	case	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	не	не	PART	_	_	16	advmod	_	_
+16	опасных	опасный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	заданий	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2165
+# text = Поскольку "Фифинеллы" были гражданской службой никаких льгот, положенных военнослужащим.
+1	Поскольку	поскольку	SCONJ	_	_	7	mark	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Фифинеллы	Фифинелла	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	гражданской	гражданский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	службой	служба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+8	никаких	никакой	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	льгот	льгота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	положенных	положенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	военнослужащим.	военнослужащимечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+
+# newpar
+# sent_id = 2166

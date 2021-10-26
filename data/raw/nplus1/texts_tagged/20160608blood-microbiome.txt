@@ -1,0 +1,229 @@
+# text = # newpar
+# sent_id = 3840
+# text = Американские, нидерландские ифинские ученые обнаружили, что вкрови здоровых людей ипациентов сразличными заболеваниями присутствует микробиом.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	нидерландские	нидерландский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	ифинские	ифинский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	вкрови	вкрывать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	conj	_	_
+10	здоровых	здоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+12	ипациентов	ипациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	сразличными	сразличный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+14	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	obl	_	_
+15	присутствует	присутствевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+16	микробиом	микроби	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3841
+# text = Также выяснилось, что при шизофрении микробный состав крови отличается высоким разнообразием.
+1	Также	также	ADV	_	Degree=Pos	2	advmod	_	_
+2	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	шизофрении	шизофрение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+7	микробный	микробный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+11	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	разнообразием	разнообразие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3842
+# text = Препринт исследования опубликован насервисе bioRxiv.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	насервисе	насервиса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	bioRxiv	bioRxiv	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3843
+# text = Сотрудники Калифорнийских университетов вЛос-Анджелесе, Дэвисе иСан-Франциско сколлегами издругих научных центров собрали кровь у 192человек.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	Калифорнийских	калифорнийской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	вЛос-Анджелесе	вЛос-Анджелесе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Дэвисе	Дэвиса	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	1	appos	_	_
+7	иСан-Франциско	иСан-Франциский	ADJ	_	Degree=Pos	8	amod	_	_
+8	сколлегами	сколлега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	nmod	_	_
+9	издругих	издругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	192человек	192человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	iobj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3844
+# text = Ввыборку вошли 49здоровых человек, атакже по48пациентов с шизофренией ибиполярным расстройством и47человек сбоковым амиотрофическим склерозом.
+1	Ввыборку	Ввыборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	вошли	входить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	49здоровых	49здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	атакже	атакже	CCONJ	_	_	7	cc	_	_
+7	по48пациентов	по48пациент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	шизофренией	шизофрения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+10	ибиполярным	ибиполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	conj	_	_
+12	и47человек	и47человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	сбоковым	сбоковой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	амиотрофическим	амиотрофический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	склерозом	склероз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3845
+# text = Вовсех образцах цельной крови выполнили полное секвенирование РНК.
+1	Вовсех	Вовсе	PRON	_	Animacy=Anim|Case=Loc|Number=Plur	5	obl	_	_
+2	образцах	образец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+3	цельной	цельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	выполнили	выполинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	полное	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	секвенирование	секвенирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3846
+# text = Изполученных данных исключили прочтения, характерные для человеческого генома итранскриптома, атакже низкокачественные или слишком простые считывания.
+1	Изполученных	Изполучеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	3	obl	_	_
+3	исключили	исключать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	прочтения	прочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	характерные	характерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	итранскриптома	итранскриптом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	атакже	атакже	CCONJ	_	_	13	cc	_	_
+13	низкокачественные	низкокачественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	слишком	слишком	ADV	_	Degree=Pos	16	advmod	_	_
+16	простые	простой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	conj	_	_
+17	считывания	считывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3847
+# text = Оставшиеся качественные данные, предположительно принадлежащие представителям кровяной микробиоты, использовали для филогенетического и таксономического анализа сиспользованием маркерных генов.
+1	Оставшиеся	оставаться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	3	amod	_	_
+2	качественные	качественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	11	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	предположительно	предположительно	ADV	_	Degree=Pos	6	advmod	_	_
+6	принадлежащие	принадлежать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+7	представителям	представитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+8	кровяной	кровяной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	микробиоты	микробиота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	для	для	ADP	_	_	16	case	_	_
+13	филогенетического	филогенетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	таксономического	таксономический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	_
+16	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+17	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+18	маркерных	маркерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3848
+# text = Всреднем по1235 прочтений (1,24процента) изкаждого образца удалось отнести ксемействам генов бактерий или архей.
+1	Всреднем	Всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+2	по1235	по1235	NUM	_	_	3	nummod	_	_
+3	прочтений	прочтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	1,24процента	1,24процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	изкаждого	изкаждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	образца	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+9	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	отнести	отнедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	ксемействам	ксемейство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	obl	_	_
+12	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	архей	архь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3849
+# text = Всего в исследованной крови обнаружили 1880 микробных таксонов, относящихся к23 биологическим типам (всреднем 4,1 2типа укаждого человека).
+1	Всего	всего	PART	_	_	4	advmod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	исследованной	исследованный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	1880	1880	NUM	_	_	8	nummod	_	_
+7	микробных	микробный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	таксонов	таксон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	относящихся	относиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	8	amod	_	_
+11	к23	к23	NUM	_	_	13	nummod	_	_
+12	биологическим	биологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	типам	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	parataxis	_	_
+16	4,1	4,1	NUM	_	_	17	nummod	_	_
+17	2типа	2тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	укаждого	укаждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3850
+# text = Большинство изних принадлежало кбактериям, остальные-- кархеям.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+3	принадлежало	принадлежать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	кбактериям	кбактерие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	остальные-	остальные-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	4	punct	_	_
+8	кархеям	кархей	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3851
+# text = Признаков присутствия эукариот ивирусов вобразцах небыло.
+1	Признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+2	присутствия	присутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	эукариот	эукариота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	ивирусов	ивирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	вобразцах	вобразец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	небыло	небыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3852
+# text = Чтобы исключить вероятность микробного загрязнения образцов, протокол анализа протестировали наобразцах стерильных и зараженных различными патогенами клеточных линий.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+2	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+3	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	микробного	микробный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	загрязнения	загрязнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	протокол	протокол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+9	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	протестировали	протестировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	наобразцах	наобразец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+12	стерильных	стерильный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	зараженных	заражать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+15	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	патогенами	патоген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
+17	клеточных	клеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	линий	линия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 3853

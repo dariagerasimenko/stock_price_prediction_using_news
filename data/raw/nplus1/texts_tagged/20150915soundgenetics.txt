@@ -1,0 +1,197 @@
+# text = # newpar
+# sent_id = 2911
+# text = Молекулярные биологи из Института Салка в Калифорнии разработали технологию, которая позволяет избирательно управлять активностью нейронов с помощью ультразвука.
+1	Молекулярные	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Салка	салк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	избирательно	избирательно	ADV	_	Degree=Pos	14	advmod	_	_
+14	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+16	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	с	с	ADP	_	_	16	case	_	_
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	_
+19	ультразвука	ультразвук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2912
+# text = По аналогии с методом оптогенетики, где для той же задачи используется свет, авторы назвали свой метод соногенетикой.
+1	По	по	ADP	_	_	2	case	_	_
+2	аналогии	аналогия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	оптогенетики	оптогенетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+8	для	для	ADP	_	_	11	case	_	_
+9	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+10	же	же	PART	_	_	9	advmod	_	_
+11	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+12	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+13	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	соногенетикой	соногенетика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2913
+# text = Работа опубликована в журнале Nature Communications.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2914
+# text = Метод основан на использовании для активации нейронов механорецепторов -- трансмембранных белков, которые открываются для ионов при механическом воздействии, например, при растяжении клеточной мембранны, в которой они находятся.
+1	Метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	для	для	ADP	_	_	4	case	_	_
+6	активации	активация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	механорецепторов	механорецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	трансмембранных	трансмембранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	открываются	открываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	ионов	ион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	при	при	ADP	_	_	19	case	_	_
+18	механическом	механический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	воздействии	воздействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	при	при	ADP	_	_	24	case	_	_
+24	растяжении	растяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+25	клеточной	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	мембранны	мембранна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	которой	который	PRON	_	Case=Loc	31	obl	_	_
+30	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	31	nsubj	_	_
+31	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2915
+# text = В оптогенетике аналогичную роль выполняют белки каналродопсины, которые реагируют на облучение светом.
+1	В	в	ADP	_	_	2	case	_	_
+2	оптогенетике	оптогенетика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	аналогичную	аналогичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	выполняют	выполнявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	каналродопсины	каналродопсина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	реагируют	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	облучение	облучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+13	светом	свет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2916
+# text = Открытие канала приводит к устремлению в клетку ионов кальция, деполяризации мембраны и, в конце концов, срабатыванию ("активации") нейрона в форме серии спайков.
+1	Открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	устремлению	устремление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	клетку	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	ионов	ион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	кальция	кальций	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	деполяризации	деполяризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+12	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	19	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	19	advmod	_	_
+16	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	fixed	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	срабатыванию	срабатывание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	conj	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	активации	активация	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	parataxis	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	_
+25	нейрона	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_
+28	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	спайков	спайк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2917
+# text = Для открытия механоцепторов авторы использовали ультразвук -- примерно той же энергии, что применяется в медицинской диагностики.
+1	Для	для	ADP	_	_	2	case	_	_
+2	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	механоцепторов	механоцептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ультразвук	ультразвук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	примерно	примерно	ADV	_	Degree=Pos	9	advmod	_	_
+9	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+10	же	же	PART	_	_	9	advmod	_	_
+11	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	медицинской	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2918
+# text = Ультразвук гораздо лучше света проникает в ткани, поэтому удаленную активацию нейронов в мозге потенциально можно проводить вообще без какой-либо хирургической операции (которая требуется в оптогенетике).
+1	Ультразвук	ультразвук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	гораздо	гораздо	ADV	_	Degree=Pos	3	advmod	_	_
+3	лучше	хорошо	ADV	_	Degree=Cmp	5	advmod	_	_
+4	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	проникает	проникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поэтому	поэтому	ADV	_	Degree=Pos	10	advmod	_	_
+10	удаленную	удалеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	активацию	активация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+12	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	потенциально	потенциально	ADV	_	Degree=Pos	16	advmod	_	_
+16	можно	можно	ADV	_	Degree=Pos	5	conj	_	_
+17	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+18	вообще	вообще	ADV	_	Degree=Pos	17	advmod	_	_
+19	без	без	ADP	_	_	22	case	_	_
+20	какой-либо	какой-либо	DET	_	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
+21	хирургической	хирургический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	которая	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	parataxis	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	оптогенетике	оптогенетика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 2919

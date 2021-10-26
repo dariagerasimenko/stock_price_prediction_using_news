@@ -1,0 +1,94 @@
+# text = # newpar
+# sent_id = 2147
+# text = Космический аппарат "Кассини" начал передавать на Землю снимки в высоком разрешении, на которых запечатлено северное полушарие Энцелада, шестого по размеру спутника Сатурна.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Кассини	Кассини	PROPN	_	Foreign=Yes	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	высоком	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	разрешении	разрешение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Loc	17	obl	_	_
+17	запечатлено	запечатлевать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+18	северное	северный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	полушарие	полушарие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
+20	Энцелада	Энцелад	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	шестого	шестой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	размеру	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	_
+25	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	Сатурна	сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2148
+# text = Снимки опубликованы на сайте NASA.Снимки сделаны 14 октября, во время пролета космического аппарата на высоте 1839 километров над поверхностью Энцелада.
+1	Снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+6	Снимки	Снимка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	appos	_	_
+7	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+8	14	14	NUM	_	_	9	nummod	_	_
+9	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	во	во	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	пролета	пролет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+14	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+18	1839	1839	NUM	_	_	19	nummod	_	_
+19	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	над	над	ADP	_	_	21	case	_	_
+21	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Энцелада	Энцелад	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2149
+# text = Отснятый материал зонд будет передавать на Землю на протяжении недели.
+1	Отснятый	Отснятый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	зонд	зонда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+10	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2150
+# text = На уже полученных снимках видно, что северная часть луны Сатурна оказалась покрыта кратерами и гигантскими разломами.
+1	На	на	ADP	_	_	4	case	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	полученных	лучить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+5	видно	видно	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	северная	северной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	луны	луна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	оказалась	оказаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+13	покрыта	покрывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+14	кратерами	кратер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	гигантскими	гигантский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	разломами	разлом	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 2151

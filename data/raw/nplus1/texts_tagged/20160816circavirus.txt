@@ -1,0 +1,548 @@
+# text = # newpar
+# sent_id = 1765
+# text = Ученые обнаружили, что надинамику заражения вирусами может влиять время суток, когда это заражение происходит, что связано сдействием циркадных ритмов клетки.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	надинамику	надинамика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	заражения	заражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	вирусами	вирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	когда	когда	SCONJ	_	_	8	mark	_	_
+14	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	_
+15	заражение	заражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	связано	связать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	advcl	_	_
+20	сдействием	сдействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+21	циркадных	циркадный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	ритмов	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1766
+# text = Более того, вирусы сами способны использовать колебания суточной активности хозяина, хотя как именно, пока неясно.
+1	Более	более	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	вирусы	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	колебания	колебание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+9	суточной	суточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	хотя	хотя	SCONJ	_	_	0	mark	_	_
+14	как	как	ADV	_	Degree=Pos	18	advmod	_	_
+15	именно	именно	PART	_	_	14	fixed	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	пока	пока	ADV	_	Degree=Pos	18	advmod	_	_
+18	неясно	неясный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1767
+# text = Обэтом рассказывает статья, опубликованная журналомProceedings of the National Academy of Sciences.Вирусы-- внутриклеточные паразиты, которые используют для размножения биохимические механизмы хозяина.
+1	Обэтом	Обэто	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+2	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	опубликованная	опубликовывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	журналомProceedings	журналомProceedings	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	of	of	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	the	the	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	National	national	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Academy	academy	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	of	of	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	Sciences.	Sciences.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+13	Вирусы	вирус	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	compound	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	_
+16	внутриклеточные	внутриклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	паразиты	паразит	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	размножения	размножение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+23	биохимические	биохимической	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+25	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1768
+# text = При этом клетка-хозяин остается под влиянием внешних факторов, втом числе ирегуляторов циркадных ритмов.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	клетка-	клетка-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	хозяин	хозяин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	под	под	ADP	_	_	7	case	_	_
+7	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+8	внешних	внешний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	conj	_	_
+13	ирегуляторов	ирегулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	циркадных	циркадный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	ритмов	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1769
+# text = Учитывая этот факт, исследователи изгруппы кембриджского профессора Ахилеша Редди (Akhilesh Reddy) предположили, что время инфицирования должно влиять нарепликацию вируса.
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	факт	факт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+6	изгруппы	изгруппа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	кембриджского	кембриджский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	профессора	профессор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Ахилеша	Ахилеш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	Редди	Редди	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Akhilesh	Akhilesh	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	Reddy	Reddy	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+19	инфицирования	инфицирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	advcl	_	_
+21	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	dep	_	_
+22	нарепликацию	нарепликация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1770
+# text = Чтобы проверить эту гипотезу, авторы вводили мышам частицы рекомбинантного герпесвируса MuHV-4, несущего ген люциферазы-- флуоресцентного белка, который позволяет следить заразмножением ираспространением вируса.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+2	проверить	верить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	мышам	мыш	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+9	частицы	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	рекомбинантного	рекомбинантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	герпесвируса	герпесвирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	MuHV-	MuHV-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	4	4	NUM	_	_	16	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	несущего	несущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+17	люциферазы	люцифераза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	флуоресцентного	флуоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	который	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+25	следить	следить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	заразмножением	заразмножение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	_
+27	ираспространением	ираспространение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	nmod	_	_
+28	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1771
+# text = Мыши содержались вусловиях лаборатории, сострогим чередованием 12часов света и12часов темноты.Как оказалось, максимально стремительно вирус распространялся после заражения всамом конце фазы активности иначале отдыха (время около 0часов).
+1	Мыши	мыша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+2	содержались	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	вусловиях	вусловие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	obl	_	_
+4	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сострогим	сострогий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	чередованием	чередование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+8	12часов	12час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	и12часов	и12час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	темноты	темнота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Как	как	ADV	_	Degree=Pos	19	mark	_	_
+14	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	максимально	максимально	ADV	_	Degree=Pos	17	advmod	_	_
+17	стремительно	стремительно	ADV	_	Degree=Pos	19	advmod	_	_
+18	вирус	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	распространялся	распространяться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+20	после	после	ADP	_	_	21	case	_	_
+21	заражения	заражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+22	всамом	всамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+24	фазы	фаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	иначале	иначале	ADV	_	Degree=Pos	27	advmod	_	_
+27	отдыха	отдых	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	parataxis	_	_
+30	около	около	ADP	_	_	31	case	_	_
+31	0часов	0час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1772
+# text = Надевятый день развития инфекции при этом регистрировалось напорядок больше вирионов, чем умышей, зараженных незадолго доначала активной фазы суток (время 10часов).
+1	Надевятый	Надевимать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	регистрировалось	регистрироваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	напорядок	напорядок	ADV	_	Degree=Pos	9	advmod	_	_
+9	больше	много	NUM	_	_	10	nummod:gov	_	_
+10	вирионов	вирион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	13	cc	_	_
+13	умышей	умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	зараженных	заражать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	незадолго	незадолго	ADV	_	Degree=Pos	17	advmod	_	_
+17	доначала	доначать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	активной	активный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	фазы	фаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+20	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	parataxis	_	_
+23	10часов	10час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1773
+# text = То, что этот эффект связан именно сработой механизмов, регулирующих циркадные ритмы, показали аналогичные эксперименты, поставленные намышах сдефектным геном Bmal1, который необходим для создания циклов суточной активности.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+6	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+7	именно	именно	PART	_	_	8	advmod	_	_
+8	сработой	сработа	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	регулирующих	регулировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	циркадные	циркадный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	ритмы	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	аналогичные	аналогичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	поставленные	ставить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	намышах	намыш	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_
+21	сдефектным	сдефектный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Bmal1	Bmal1	NOUN	_	_	22	appos	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	который	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	необходим	необходимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	23	acl:relcl	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	циклов	цикел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	суточной	суточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1774
+# text = Вэтом случае животные содержались втехже условиях, ноникакой зависимости течения инфекции отвремени заражения мыши Bmal1-/- непоказали.Ахилеша Редди иего коллеги также удостоверились втом, что эти эффекты несвязаны скакими-то особенностями использованного вируса MuHV-4.
+1	Вэтом	Вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	2	amod	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+4	содержались	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	втехже	втехже	PART	_	_	6	advmod	_	_
+6	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ноникакой	ноникакой	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	течения	течение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	отвремени	отвремя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	заражения	заражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	мыши	мыша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	Bmal1-/-	Bmal1-/-	PUNCT	_	_	14	punct	_	_
+16	непоказали.	непоказали.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+17	Ахилеша	Ахилеш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Редди	Редди	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	иего	иий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+21	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+22	удостоверились	удостовериваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+23	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	22	mark	_	_
+26	эти	этот	DET	_	Case=Nom|Number=Plur	27	amod	_	_
+27	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	несвязаны	несвязанный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	22	advcl	_	_
+29	скакими-то	скакими-то	ADV	_	Degree=Pos	30	advmod	_	_
+30	особенностями	особенностя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	nmod	_	_
+31	использованного	использовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	MuHV-	MuHV-	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	4	4	NUM	_	_	32	nummod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 1775
+# text = Для этого были проведены эксперименты срекомбинантным герпесвирусом другого вида (обычным HSV-1), которые дали такую же картину суточной зависимости.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	проведены	проводить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	срекомбинантным	срекомбинантный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	герпесвирусом	герпесвирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	_
+8	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	обычным	обычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	parataxis	_	_
+12	HSV-	HSV-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	1	1	NUM	_	_	11	conj	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	которые	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	дали	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	20	amod	_	_
+19	же	же	PART	_	_	18	advmod	_	_
+20	картину	картина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+21	суточной	суточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1776
+# text = Наконец, подобные результаты были получены ивопытах свирусом совершенно другого типа, ортомиксовирусом гриппа IAV.
+1	Наконец	наконец	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	получены	получать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	ивопытах	ивопыт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+8	свирусом	свирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+9	совершенно	совершенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ортомиксовирусом	ортомиксовирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	_
+14	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	IAV	Iav	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1777
+# text = Вовсех случаях умышей Bmal1-/- отмечалось больше вирусных частиц, чем удикого типа.Опыты продолжились наклеточных культурах сработающими циркадными ритмами и показали, что максимально ярко инфекции MuHV-4 иHSV-1 развиваются после заражения впериод роста активности Bmal1.
+1	Вовсех	Вовсе	PRON	_	Animacy=Anim|Case=Loc|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+3	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	Bmal1-/-	Bmal1-/-	PUNCT	_	_	3	punct	_	_
+5	отмечалось	отмечать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+6	больше	много	NUM	_	_	8	nummod:gov	_	_
+7	вирусных	вирусный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чем	чем	SCONJ	_	_	12	cc	_	_
+11	удикого	удикий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	типа.	типа.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	Опыты	Опыт	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	appos	_	_
+14	продолжились	продолживаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	наклеточных	наклеточный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	культурах	культура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+17	сработающими	сработать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+18	циркадными	циркадный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	ритмами	ритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	максимально	максимально	ADV	_	Degree=Pos	25	advmod	_	_
+25	ярко	ярко	ADV	_	Degree=Pos	29	advmod	_	_
+26	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	MuHV-4	MuHV-4	NUM	_	_	28	nummod	_	_
+28	иHSV-1	иHSV-1	NOUN	_	_	26	nmod	_	_
+29	развиваются	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	advcl	_	_
+30	после	после	ADP	_	_	31	case	_	_
+31	заражения	заражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+32	впериод	впериода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+33	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	Bmal1	Bmal1	NOUN	_	_	34	appos	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 1778
+# text = Как и на мышах, в культурах клеток с нефункциональнымBmal1-/-инфекция развивалась еще сильнее.
+1	Как	как	ADV	_	Degree=Pos	4	cc	_	_
+2	и	и	PART	_	_	4	advmod	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	культурах	культура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	_
+8	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	нефункциональнымBmal1-/-инфекция	нефункциональнымBmal1-/-инфекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	развивалась	развиваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+13	сильнее	сильно	ADV	_	Degree=Cmp	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1779
+# text = "Мыпредположили, что герпесвирусы способны манипулировать молекулярными часами вовремя инфекции",-- пишут ученые.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мыпредположили	Мыпредположивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	герпесвирусы	герпесвирусы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	advcl	_	_
+7	манипулировать	манипулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	молекулярными	молекулярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	часами	часа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+10	вовремя	вовремя	ADV	_	Degree=Pos	0	advmod	_	_
+11	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,--	,--	PUNCT	_	_	11	punct	_	_
+14	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1780
+# text = Для проверки этой гипотезы они использовали клетки мышиных фибробластов, несущих ген люциферазы, активность которого запускается темже промотором, что иактивность гена Bmal1.
+1	Для	для	ADP	_	_	2	case	_	_
+2	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	мышиных	мышин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	фибробластов	фибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	несущих	нести	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+12	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	люциферазы	люцифераз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	которого	который	PRON	_	Case=Gen	15	nmod	_	_
+17	запускается	запускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+18	темже	темже	PART	_	_	19	advmod	_	_
+19	промотором	промотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	17	mark	_	_
+22	иактивность	иактивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+23	гена	гивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	_
+24	Bmal1	Bmal1	NUM	_	_	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1781
+# text = Заразив такие клетки герпесвирусом, ученые отметили, что шесть часов спустя активность Bmal1 (и, соответственно, флуоресцентный сигнал люциферазы) вклетках увеличивается.Эти результаты выглядят даже парадоксально: если уклеток снарушенной экспрессией Bmal1 инфекция развивается сильнее, тозачем вирус стимулирует активность этого гена-- нелучшели подавлять его "Одним изочевидных объяснений может быть хроническая аритмичность клеток Bmal1-/-, которая может делать ихменее готовыми квстрече свирусом",-- расплывчато сообщают Редди иего соавторы, отмечая, что разобраться вэтой запутанной истории позволят исследования надругих животных идругих клеточных моделях снарушениями разных аспектов работы циркадных механизмов.Роман Фишман
+1	Заразив	заразать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	такие	такой	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+3	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	герпесвирусом	герпесвирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	отметили	отмечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	шесть	шесть	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+12	спустя	спустя	ADP	_	_	11	case	_	_
+13	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+14	Bmal1	Bmal1	NOUN	_	_	25	nsubj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	и	и	CCONJ	_	_	21	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	соответственно	соответственно	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	флуоресцентный	флуоресцентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+22	люциферазы	люцифераза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	вклетках	вклетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	obl	_	_
+25	увеличивается	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Эти	этот	DET	_	Case=Nom|Number=Plur	28	amod	_	_
+28	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+30	даже	даже	PART	_	_	31	advmod	_	_
+31	парадоксально	парадоксальный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	29	obl	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	31	punct	_	_
+33	если	если	SCONJ	_	_	34	mark	_	_
+34	уклеток	уклетка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	39	nsubj	_	_
+35	снарушенной	нарушеть	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+36	экспрессией	экспрессия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	obl:agent	_	_
+37	Bmal1	Bmal1	NUM	_	_	38	nummod	_	_
+38	инфекция	инфекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+39	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	44	advcl	_	_
+40	сильнее	сильно	ADV	_	Degree=Cmp	39	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	тозачем	тозачем	ADV	_	Degree=Pos	44	advmod	_	_
+43	вирус	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+44	стимулирует	стимулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	49	conj	_	_
+45	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
+46	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	гена-	гена-	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	-	-	PUNCT	_	_	46	punct	_	_
+49	нелучшели	нелучшевать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	56	conj	_	_
+50	подавлять	подавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+51	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	50	obj	_	_
+52	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	Одним	один	NUM	_	Case=Ins|Gender=Neut	55	nummod	_	_
+54	изочевидных	изочевидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	55	amod	_	_
+55	объяснений	объяснение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	50	obl	_	_
+56	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	parataxis	_	_
+57	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	59	cop	_	_
+58	хроническая	хронический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	59	amod	_	_
+59	аритмичность	аритмичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	56	nsubj	_	_
+60	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	59	nmod	_	_
+61	Bmal1-	Bmal1-	PUNCT	_	_	60	punct	_	SpaceAfter=No
+62	/	/	PUNCT	_	_	60	punct	_	SpaceAfter=No
+63	-	-	PUNCT	_	_	60	punct	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	60	punct	_	_
+65	которая	который	PRON	_	Case=Nom	66	nsubj	_	_
+66	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	59	acl:relcl	_	_
+67	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	66	xcomp	_	_
+68	ихменее	ихменее	ADV	_	Degree=Cmp	67	advmod	_	_
+69	готовыми	готов	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	70	amod	_	_
+70	квстрече	квстреча	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	67	obl	_	_
+71	свирусом	свирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	70	appos	_	SpaceAfter=No
+72	"	"	PUNCT	_	_	71	punct	_	SpaceAfter=No
+73	,--	,--	PUNCT	_	_	71	punct	_	_
+74	расплывчато	расплывчато	ADV	_	Degree=Pos	29	advmod	_	_
+75	сообщают	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+76	Редди	Редди	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	75	obj	_	_
+77	иего	иий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	78	amod	_	_
+78	соавторы	соавтор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	75	nsubj	_	SpaceAfter=No
+79	,	,	PUNCT	_	_	78	punct	_	_
+80	отмечая	отмечать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	75	advcl	_	SpaceAfter=No
+81	,	,	PUNCT	_	_	80	punct	_	_
+82	что	что	SCONJ	_	_	80	mark	_	_
+83	разобраться	разбираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	87	xcomp	_	_
+84	вэтой	вэтот	DET	_	Case=Gen|Gender=Fem|Number=Sing	86	amod	_	_
+85	запутанной	путать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	86	amod	_	_
+86	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	83	obl	_	_
+87	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	80	advcl	_	_
+88	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	87	obj	_	_
+89	надругих	надругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	90	amod	_	_
+90	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	88	nmod	_	_
+91	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	93	amod	_	_
+92	клеточных	клеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	93	amod	_	_
+93	моделях	модель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	94	nmod	_	_
+94	снарушениями	снарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	90	nmod	_	_
+95	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	96	amod	_	_
+96	аспектов	аспект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	94	nmod	_	_
+97	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	96	nmod	_	_
+98	циркадных	циркадный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	99	amod	_	_
+99	механизмов.	механизмовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	97	nmod	_	SpaceAfter=No
+100	Роман	роман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	87	nsubj	_	_
+101	Фишман	Фишман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	100	flat:name	_	_
+
+# newpar
+# sent_id = 1782

@@ -1,0 +1,222 @@
+# text = # newpar
+# sent_id = 3523
+# text = Астрономы из Аризонского университета с помощью космического телескопа "Хаббл" сумели разглядеть вращение гигантской экзопланеты, которая удалена от Земли на расстояние в 170 световых лет.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Аризонского	Аризонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	сумели	уметь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	разглядеть	разглядевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	вращение	вращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	гигантской	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которая	который	PRON	_	Case=Nom	19	nsubj:pass	_	_
+19	удалена	удалять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+20	от	от	ADP	_	_	21	case	_	_
+21	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+24	в	в	ADP	_	_	27	case	_	_
+25	170	170	NUM	_	_	27	nummod	_	_
+26	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3524
+# text = Препринт статьи доступен на сайте arXiv.org, Результаты исследования будут опубликованы в журналеThe Astrophysical Journal.Ученые получили фотометрические снимки планеты 2M1207b в инфракрасном диапазоне, используя широкоугольную камеру-3 на борту хаббловского космического телескопа.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	доступен	доступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	arXiv.org	arXiv.org	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Результаты	Результат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	журналеThe	журналеThe	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Journal.	journal.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+16	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+18	фотометрические	фотометрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+20	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	2M1207b	2M1207b	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	инфракрасном	инфракрасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	_
+27	широкоугольную	широкоугольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	3	3	NUM	_	_	28	nummod	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+33	хаббловского	хаббловский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+34	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3525
+# text = Наблюдения длились в течение восьми часов и 40 минут.Высокое разрешение камеры позволило астрономам зафиксировать изменения в кривой блеска из-за вращения экзопланеты вокруг своей оси.
+1	Наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	длились	длиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	восьми	восемь	NUM	_	Case=Gen	6	nummod	_	_
+6	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	40	40	NUM	_	_	9	nummod	_	_
+9	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Высокое	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	астрономам	астроном	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+16	зафиксировать	фиксировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	dep	_	_
+17	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	кривой	кривый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	блеска	блеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+21	из-за	из-за	ADP	_	_	22	case	_	_
+22	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+23	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	вокруг	вокруг	ADP	_	_	26	case	_	_
+25	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	26	amod	_	_
+26	оси	ось	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3526
+# text = Облака в разных полушариях по-разному отражают свет, и это дало ученым возможность определить, что продолжительность суток на планете равна 10-11 часам.
+1	Облака	облака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	полушариях	полушарие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	_
+5	по-разному	по-разному	ADV	_	Degree=Pos	6	advmod	_	_
+6	отражают	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	дало	дать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+13	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+18	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_
+21	равна	равн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+22	10	10	NUM	_	_	25	nummod	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	11	11	NUM	_	_	22	nummod	_	_
+25	часам	час	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	14	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3527
+# text = Такая скорость вращения сравнима с Юпитером и Сатурном, которые имеют периоды в 9,9 и 10,5 часов соответственно.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	сравнима	сравнимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	Юпитером	Юпитер	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Сатурном	Сатурн	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	периоды	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	в	в	ADP	_	_	17	case	_	_
+14	9,9	9,9	NUM	_	_	17	nummod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	10,5	10,5	NUM	_	_	14	conj	_	_
+17	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+18	соответственно	соответственно	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3528
+# text = 2M1207b -- экзопланета, которая по своей массе в четыре раза превышает Юпитер и вращается вокруг коричневого карлика.
+1	2M1207b	2M1207b	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	экзопланета	экзопланета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	своей	свой	DET	_	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+8	массе	масса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+12	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+13	Юпитер	Юпитер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	вращается	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+16	вокруг	вокруг	ADP	_	_	18	case	_	_
+17	коричневого	коричневый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	карлика	карлик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3529
+# text = Орбита гигантской планеты удалена от родительской звезды на расстояние в 50 астрономических единиц или 8 миллиардов километров.
+1	Орбита	орбита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	гигантской	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	удалена	удалять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	родительской	родительской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+10	в	в	ADP	_	_	9	case	_	_
+11	50	50	NUM	_	_	13	nummod	_	_
+12	астрономических	астрономический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	8	8	NUM	_	_	16	nummod	_	_
+16	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3530
+# text = Астрономы полагают, что 2M1207b не формировалась из протопланетного диска, а является остывшим коричневым карликом.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	2M1207b	2M1207b	PROPN	_	Foreign=Yes	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	формировалась	формироваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	протопланетного	протопланетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	диска	диск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	13	cc	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+14	остывшим	остывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	amod	_	_
+15	коричневым	коричневой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	карликом	карлик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3531
+# text = Александр Еникеев
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3532

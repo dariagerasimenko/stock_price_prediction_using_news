@@ -1,0 +1,489 @@
+# text = # newpar
+# sent_id = 2820
+# text = Американские ученые обнаружили, что одна из разновидностей лейкоцитов, которая должна бороться с гельминтами, на самом деле необходима для их роста и развития.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	одна	один	NUM	_	Case=Nom|Gender=Fem	19	nummod:gov	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	разновидностей	разновидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	лейкоцитов	лейкоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	acl:relcl	_	_
+13	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	dep	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	гельминтами	гельминт	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	nmod	_	_
+20	необходима	необходимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	advcl	_	_
+21	для	для	ADP	_	_	23	case	_	_
+22	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	23	nmod	_	_
+23	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2821
+# text = Выводы исследователей опубликованы в журнале PLOS Pathogens.
+1	Выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	PLOS	Plos	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Pathogens	Pathogens	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2822
+# text = Попадание паразитических червей в ткани человека вызывает миграцию к ним эозинофилов -- разновидности лейкоцитов, играющей важную роль в иммунной защите, развитии аллергии, а также восстановлении поврежденных тканей и обмене веществ в них.
+1	Попадание	попадание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	паразитических	паразитический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	червей	черви	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+6	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	миграцию	миграция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	ним	они	PRON	_	Case=Dat|Number=Plur|Person=3	8	nmod	_	_
+11	эозинофилов	эозинофил	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	разновидности	разновидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	лейкоцитов	лейкоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	играющей	играть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	иммунной	иммунный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	защите	защита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+24	аллергии	аллергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	а	а	CCONJ	_	_	28	cc	_	_
+27	также	также	ADV	_	Degree=Pos	28	advmod	_	_
+28	восстановлении	восстановление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+29	поврежденных	повреждать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+30	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	обмене	обмен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	conj	_	_
+33	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	32	nmod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2823
+# text = Как именно эозинофилы взаимодействуют с гельминтами, точно установлено не было.
+1	Как	как	ADV	_	Degree=Pos	4	advmod	_	_
+2	именно	именно	PART	_	_	1	fixed	_	_
+3	эозинофилы	эозинофила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	взаимодействуют	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	гельминтами	гельминт	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	точно	точно	ADV	_	Degree=Pos	9	advmod	_	_
+9	установлено	устанавливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2824
+# text = Сотрудники Корнелльского университета в Итаке, штат Нью-Йорк, заражали мышей личинками трихинеллы -- круглого червя, живущего в мышечной ткани.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	Корнелльского	Корнелльский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Итаке	Итак	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	штат	штат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+8	Нью-Йорк	нью-йорк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	заражали	заражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	личинками	личинка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	_
+13	трихинеллы	трихинелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	круглого	круглый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	червя	червь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	живущего	живущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	мышечной	мышечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2825
+# text = Местную реакцию организма регистрировали генетическими, цитологическими и иммунохимическими методами.
+1	Местную	местный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+3	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	регистрировали	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	генетическими	генетический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	цитологическими	цитологический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	иммунохимическими	иммунохимический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+10	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2826
+# text = Выяснилось, что внедрение паразита в мышечную ткань вызывает реакцию, схожую с ответом на травму.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	внедрение	внедрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	паразита	паразит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	мышечную	мышечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+9	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+10	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	схожую	схожий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	ответом	ответ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	травму	травма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2827
+# text = Эозинофилы мигрируют к участку повреждения, чтобы обеспечить процессы регенерации.
+1	Эозинофилы	Эозинофила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	мигрируют	мигрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	участку	участок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+8	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+9	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	регенерации	регенерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2828
+# text = Они изменяют метаболизм мышцы, действуя на белок-переносчик глюкозы 4 типа и протеинкиназу В. Это повышает уровень глюкозы в тканевой жидкости и ее потребление личинкой трихинеллы, которая начинает активно запасать сахар в форме гликогена.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	изменяют	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	метаболизм	метаболизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	мышцы	мышца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	действуя	действовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	белок-	белок-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	переносчик	переносчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	4	4	NUM	_	_	12	nummod	_	_
+12	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	протеинкиназу	протеинкиназ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	conj	_	_
+15	В.	в.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	тканевой	тканевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	25	nmod	_	_
+25	потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+26	личинкой	личинкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	трихинеллы	трихинелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которая	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+31	активно	активно	ADV	_	Degree=Pos	32	advmod	_	_
+32	запасать	запасать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+33	сахар	сахар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	obj	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	nmod	_	_
+36	гликогена	гликоген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 2829
+# text = Эксперименты на трансгенных мышах показали, что подобные метаболические эффекты эозинофилов, обеспечивающие трихинеллу питанием, зависят от выработки интерлейкина-4.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	трансгенных	трансгенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	мышах	мыш	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+9	метаболические	метаболический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+11	эозинофилов	эозинофил	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	обеспечивающие	обеспечивать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+14	трихинеллу	трихинелла	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	питанием	питание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	зависят	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	выработки	выработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+20	интерлейкина	интерлейкина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	4	4	NUM	_	_	20	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2830
+# text = Отсутствие этого цитокина замедляет развитие личинки, но не останавливает его, в то время как в отсутствие эозинофилов ее рост прекращается.
+1	Отсутствие	отсутствие	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	цитокина	цитокина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	замедляет	замедлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	личинки	личинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	останавливает	останавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	18	advmod	_	_
+14	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	как	как	SCONJ	_	_	15	fixed	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+19	эозинофилов	эозинофил	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+20	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	21	nmod	_	_
+21	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+22	прекращается	прекращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2831
+# text = Предыдущая работа того же исследовательского коллектива показала, что, помимо метаболической поддержки, эозинофилы защищают трихинелл от повреждающего действия местного воспаления.
+1	Предыдущая	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+4	же	же	PART	_	_	3	advmod	_	_
+5	исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	коллектива	коллективо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	помимо	помимо	ADP	_	_	13	case	_	_
+12	метаболической	метаболический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	эозинофилы	эозинофила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+16	защищают	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+17	трихинелл	трихинелл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	от	от	ADP	_	_	20	case	_	_
+19	повреждающего	повреждать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+21	местного	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2832
+# text = Повышая выработку интерлейкина-10, эти лейкоциты снижают синтез тканями важного медиатора воспаления --оксида азота (NO), токсичного для развивающегося гельминта.
+1	Повышая	повышать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+2	выработку	выработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	интерлейкина	интерлейкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	10	10	NUM	_	_	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	эти	этот	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	лейкоциты	лейкоцит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+9	снижают	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	тканями	ткаень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+12	важного	важный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	медиатора	медиатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	--оксида	--оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	NO	No	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	токсичного	токсичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+22	для	для	ADP	_	_	24	case	_	_
+23	развивающегося	развиваться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	24	amod	_	_
+24	гельминта	гельминт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2833
+# text = Таким образом, трихинелла в процессе эволюции "научилась" использовать иммунную реакцию организма в своих целях.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	трихинелла	трихинелла	PART	_	_	6	advmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	научилась	научаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+12	иммунную	иммунный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	своих	свой	DET	_	Case=Loc|Number=Plur	17	amod	_	_
+17	целях	цель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2834
+# text = Поскольку эозинофилы скапливаются в месте инвазии любых паразитических червей, вполне вероятно, что другие их представители освоили схожий механизм "обмана" иммунитета, считают исследователи.
+1	Поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+2	эозинофилы	эозинофила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	скапливаются	скапливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	инвазии	инвазия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	любых	любой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	паразитических	паразитический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	червей	черви	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вполне	вполне	ADV	_	Degree=Pos	12	advmod	_	_
+12	вероятно	вероятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	освоили	осваивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+19	схожий	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	обмана	обман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+27	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2835
+# text = Полученные результаты открывают путь к разработке новых методов профилактики и терапии глистных инвазий.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	открывают	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	разработке	разработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+7	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	профилактики	профилактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+12	глистных	глистный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	инвазий	инвазия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2836
+# text = Трихинеллы -- опасные паразиты, заражение которыми происходит при употреблении мяса зараженных животных (термическая обработка при этом малоэффективно, поскольку черви в мышечной ткани формируют вокруг себя защитную капсулу, богатую кальцием).
+1	Трихинеллы	Трихинелл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	опасные	опасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	паразиты	паразит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	заражение	заражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	которыми	который	PRON	_	Case=Ins	6	nmod	_	_
+8	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	употреблении	употребление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	зараженных	заражать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	термическая	термический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+19	малоэффективно	малоэффективный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	поскольку	поскольку	SCONJ	_	_	19	mark	_	_
+22	черви	черви	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	мышечной	мышечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+26	формируют	формировывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+27	вокруг	вокруг	ADP	_	_	28	case	_	_
+28	себя	себя	PRON	_	Case=Gen	26	obl	_	_
+29	защитную	защитный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	капсулу	капсула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	богатую	богатый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	кальцием	кальций	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2837
+# text = Находящаяся в просвете кишечника самка трихинеллы откладывает тысячи личинок в слизистую оболочку, откуда они с током крови разносятся по всему организму, поражая мышцы с хорошим кровоснабжением, в первую очередь, жевательные, глазодвигательные и диафрагму.
+1	Находящаяся	находиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	просвете	просвет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	кишечника	кишечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	самка	самка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	трихинеллы	трихинелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	откладывает	откладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+9	личинок	личинка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	слизистую	слизистый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	оболочку	оболочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	откуда	откуда	ADV	_	Degree=Pos	19	advmod	_	_
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	током	ток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+18	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	разносятся	разноситься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+20	по	по	ADP	_	_	22	case	_	_
+21	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	22	amod	_	_
+22	организму	организм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	поражая	поражать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	_	_
+25	мышцы	мышца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+26	с	с	ADP	_	_	28	case	_	_
+27	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	кровоснабжением	кровоснабжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	в	в	ADP	_	_	34	discourse	_	_
+31	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	fixed	_	_
+32	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	fixed	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	жевательные	жевательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	0	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	глазодвигательные	глазодвигательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	диафрагму	диафрагма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2838
+# text = Обширная инвазия в диафрагму приводит к остановке дыхания и смерти, что делает трихинеллу одним из самых опасных гельминтов.Олег Лищук
+1	Обширная	обширный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	инвазия	инвазия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	диафрагму	диафрагма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	остановке	остановка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+8	дыхания	дыхание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	5	mark	_	_
+13	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	трихинеллу	трихинелла	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	одним	один	NUM	_	Case=Ins|Gender=Masc	13	nummod	_	_
+16	из	из	ADP	_	_	19	case	_	_
+17	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	опасных	опасный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	гельминтов.	гельминтовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	Олег	олег	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+21	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 2839

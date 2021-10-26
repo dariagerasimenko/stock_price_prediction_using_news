@@ -1,0 +1,156 @@
+# text = # newpar
+# sent_id = 351
+# text = Японская компания Sharp представила смартфон Robohon, который выполнен в виде небольшого человекоподобного робота.
+1	Японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Sharp	Sharp	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	Robohon	Robohon	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+9	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10	в	в	ADP	_	_	14	case	_	_
+11	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	человекоподобного	человекоподобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 352
+# text = Подробнее о гаджете можно прочитать на отдельной странице или на сайте компании Sharp.Телефон представляет собой гуманоидного робота высотой 19,5 сантиметров и весом около 390 граммов.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	гаджете	гаджет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	отдельной	отдельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	странице	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	или	или	CCONJ	_	_	11	cc	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	conj	_	_
+12	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Sharp.	sharp.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+14	Телефон	телефона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	собой	себя	PRON	_	Case=Ins	15	dep	_	_
+17	гуманоидного	гуманоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	_
+19	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+20	19,5	19,5	NUM	_	_	21	nummod	_	_
+21	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	весом	вес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	_
+24	около	около	ADP	_	_	26	case	_	_
+25	390	390	NUM	_	_	26	nummod	_	_
+26	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 353
+# text = Конечности Robohon снабжены приводами, в голове установлены динамик, камера и проектор, а глаза используются как световая индикация.
+1	Конечности	конечность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+2	Robohon	Robohon	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	снабжены	снабжать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	приводами	привод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	голове	голова	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+8	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	динамик	динамик	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	проектор	проектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+17	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+18	как	как	SCONJ	_	_	20	cc	_	_
+19	световая	световый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	индикация	индикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 354
+# text = Микрофон, судя по промо-видео, установлен в ногах, двухдюймовый экран с тачскрином смонтирован на спине.Управляет робосмартфоном процессор Qualcomm Snapdragon 400 MSM8926, других подробностей о технической начинке производитель не раскрывает.
+1	Микрофон	микрофон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	промо-видео	промо-видео	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	ногах	нога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	двухдюймовый	двухдюймовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	экран	экран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	тачскрином	тачскрин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+15	смонтирован	монтировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	спине.	спинеаница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	Управляет	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	робосмартфоном	робосмартфон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+20	процессор	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+21	Qualcomm	Qualcomm	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Snapdragon	Snapdragon	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	400	400	NUM	_	_	27	nummod	_	_
+24	MSM8926	Msm8926	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	подробностей	подробность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+28	о	о	ADP	_	_	30	case	_	_
+29	технической	технический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	начинке	начинка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+31	производитель	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	не	не	PART	_	_	33	advmod	_	_
+33	раскрывает	раскрывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 355
+# text = Основной упор представители компании делают именно на форм-фактор гаджета.
+1	Основной	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	упор	упор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	именно	именно	PART	_	_	9	advmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	форм-	форм-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	фактор	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+10	гаджета	гаджет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 356
+# text = Робот может ходить, узнавать разных людей и реагировать на голосовые команды.
+1	Робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ходить	ходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	узнавать	узнавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+6	разных	разный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	реагировать	реагировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	голосовые	голосовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	команды	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 357
+# text = Серийное производство Robohon запланировано на первую половину 2016 года.Николай Воронцов
+1	Серийное	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	Robohon	Robohon	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	запланировано	планировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	2016	2016	NUM	_	_	9	nummod	_	_
+9	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+11	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
+
+# newpar
+# sent_id = 358

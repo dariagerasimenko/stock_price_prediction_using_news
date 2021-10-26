@@ -1,0 +1,340 @@
+# text = # newpar
+# sent_id = 3564
+# text = Исследователи изГарвардского университета создали новую версию бионического листа, который может превращать свет вбиомассу сэффективностью, превышающей эффективность растений вдесять раз.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	изГарвардского	изГарвардский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	бионического	бионический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	листа	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	превращать	превращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	вбиомассу	вбиомасса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	сэффективностью	сэффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	превышающей	превышать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	вдесять	вдесять	NUM	_	Case=Acc	21	nummod:gov	_	_
+21	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3565
+# text = Статья ученых опубликована вжурнале Science.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3566
+# text = Bionic leaf 2.0 создан наоснове предыдущей версии листа, разработкой которого занималась таже команда ученых.
+1	Bionic	Bionic	PROPN	_	Foreign=Yes	4	nsubj:pass	_	_
+2	leaf	leaf	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	2.0	2.0	NUM	_	_	2	nummod	_	_
+4	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	наоснове	наоснова	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	предыдущей	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	листа	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	занималась	заниматься	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+13	таже	таже	PART	_	_	14	advmod	_	_
+14	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+15	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3567
+# text = Устройство состоит из солнечной панели, зажатой между листами кобальтового катализатора и ячейки с бактериями Ralstonia eutropha, занимающими нижнюю половину листа.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	панели	панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	зажатой	зажата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	листами	лист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	_
+10	кобальтового	кобальтовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	катализатора	катализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	ячейки	ячейка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	бактериями	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	_
+16	Ralstonia	Ralstonia	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	eutropha	eutropha	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	занимающими	занимать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+20	нижнюю	нижний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	листа	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3568
+# text = При погружении в сосуд с водой при комнатной температуре и нормальном давлении искусственный лист имитирует фотосинтез.
+1	При	при	ADP	_	_	2	case	_	_
+2	погружении	погружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	сосуд	сосуд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+7	при	при	ADP	_	_	9	case	_	_
+8	комнатной	комнатный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	температуре	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	нормальном	нормальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	давлении	давление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	conj	_	_
+13	искусственный	искусственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	лист	лист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	имитирует	имитировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	фотосинтез	фотосинтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3569
+# text = Ток из солнечных пластин Bionic leaf 2.0подается на катализаторы, которые расщепляют молекулы воды накислород иводород.
+1	Ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	солнечных	солнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	пластин	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	Bionic	Bionic	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	leaf	leaf	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	2.	2	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	0подается	0податься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	катализаторы	катализатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	расщепляют	расщеплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	накислород	накислорода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	иводород	иводород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3570
+# text = Затем водород попадает в ячейки с ГМ-бактериям, которые отличаются тем, что могут соединять молекулы водорода с полученным из воздуха углеродом и превращают их в жидкое топливо.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	водород	водород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	попадает	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	ячейки	ячейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	ГМ	Гй	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+8	-бактериям	-бактерия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	отличаются	отличаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+12	тем	тот	DET	_	Case=Dat|Number=Plur	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	соединять	соединять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	с	с	ADP	_	_	23	case	_	_
+20	полученным	получать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+23	углеродом	углерод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	превращают	превращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	25	obj	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	жидкое	жидкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	топливо	топливо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3571
+# text = Система уже была использована для создания изобутанола, изопентанола и полигидроксибутирата.Исследователи говорят, что бактерии Bionic leaf 2.0 за киловатт-час поглощают из 230 000 литров воздуха 130 граммов CO2, чтобы произвести 60 граммов спирта.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	использована	использовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	изобутанола	изобутанол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	изопентанола	изопентанол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	полигидроксибутирата.	полигидроксибутирата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+17	Bionic	Bionic	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	leaf	leaf	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	2.0	2.0	NUM	_	_	18	nummod	_	_
+20	за	за	ADP	_	_	21	case	_	_
+21	киловатт-час	киловатт-час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
+22	поглощают	поглощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+23	из	из	ADP	_	_	26	case	_	_
+24	230	230	NUM	_	_	26	nummod	_	_
+25	000	000	NUM	_	_	24	nummod	_	_
+26	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+27	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	130	130	NUM	_	_	29	nummod	_	_
+29	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	CO2	co2	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	_
+33	произвести	производить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	advcl	_	_
+34	60	60	NUM	_	_	35	nummod	_	_
+35	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	obl	_	_
+36	спирта	спирт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 3572
+# text = Установка бионического листа на существующие солнечные батареи позволила бы достигнуть десятипроцентной энергетической эффективности при переработке CO2, что в десять раз превышает эффективность фотосинтеза большинства растений.
+1	Установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	бионического	бионический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	листа	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	на	на	ADP	_	_	7	case	_	_
+5	существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+6	солнечные	солнечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nmod	_	_
+8	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	бы	бы	PART	_	Mood=Cnd	8	aux	_	_
+10	достигнуть	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	десятипроцентной	десятипроцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	энергетической	энергетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	переработке	переработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+16	CO2	co2	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	10	mark	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	десять	десять	NUM	_	Case=Acc	21	nummod:gov	_	_
+21	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+22	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+23	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	фотосинтеза	фотосинтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3573
+# text = Повышения эффективности ученым удалось добиться спомощью замены никель-молибден-цинкового катализатора, который при использовании при получении водорода вкачестве побочного продукта создавал активные формы кислорода, разрушавшие ДНК бактерий.
+1	Повышения	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+2	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	nsubj	_	_
+6	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	никель-молибден-цинкового	никель-молибден-цинковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	катализатора	катализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	получении	получение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+18	побочного	побочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	продукта	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	создавал	создавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+21	активные	активной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+23	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	разрушавшие	разрушать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	26	amod	_	_
+26	ДНК	Днк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+27	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3574
+# text = Чтобы избежать этого, исследователям приходилось запускать систему при более высоком напряжении, что снижало общую эффективность системы.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	_
+2	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+6	приходилось	приходиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	при	при	ADP	_	_	12	case	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	высоком	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	напряжении	напряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+15	снижало	снижать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+16	общую	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3575
+# text = "Для этой работы мыразработали новый катализатор наоснове кобальта ифосфора, который непроизводит реактивных форм кислорода.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Для	для	ADP	_	_	4	case	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	мыразработали	мыразработавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	катализатор	катализатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	наоснове	наоснова	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+9	кобальта	кобальт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	ифосфора	ифосфор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	непроизводит	непроизводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	реактивных	реактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+16	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3576
+# text = Это позволило снизить нам напряжение, что привело крезкому росту эффективности",-- комментирует один изавторов работы.В будущем ученые планируют повысить эффективность данного устройства для того, чтобы использовать его в развивающихся странах.Кристина Уласович
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	3	obl	_	_
+5	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	PRON	_	Case=Nom	8	nsubj	_	_
+8	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	крезкому	крезкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	росту	рост	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+11	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,--	,--	PUNCT	_	_	11	punct	_	_
+14	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	один	один	NUM	_	Case=Nom|Gender=Masc	16	nummod:gov	_	_
+16	изавторов	изавтор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	20	case	_	_
+20	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+21	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	данного	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	28	mark	_	_
+31	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	advcl	_	_
+32	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obj	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	развивающихся	развиваться	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	35	amod	_	_
+35	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	Кристина	Кристина	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+38	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	flat:name	_	_
+
+# newpar
+# sent_id = 3577

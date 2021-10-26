@@ -1,0 +1,242 @@
+# text = # newpar
+# sent_id = 4041
+# text = Группа ученых из США создала алгоритм для создания изображений, похожих на фотографии реальных объектов.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+5	создала	создавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+9	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	похожих	похожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	реальных	реальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4042
+# text = Программа получает исходную картинку в небольшом разрешении (например, 4 на 4 пикселя), а затем последовательно увеличивает разрешение, добавляя на каждом шаге детали.
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	исходную	исходный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	небольшом	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	разрешении	разрешение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	например	например	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	4	4	NUM	_	_	14	nummod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	4	4	NUM	_	_	14	nummod	_	_
+14	пикселя	пиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	а	а	CCONJ	_	_	20	cc	_	_
+18	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+19	последовательно	последовательно	ADV	_	Degree=Pos	20	advmod	_	_
+20	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	добавляя	добавлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	шаге	шаг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+27	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4043
+# text = При опросе добровольцев в 40 процентах случаев оказывалось, что люди путали сгенерированное программой изображение с реальной фотографией.
+1	При	при	ADP	_	_	2	case	_	_
+2	опросе	опрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	40	40	NUM	_	_	6	nummod	_	_
+6	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	_
+7	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	оказывалось	оказываться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	путали	путать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	сгенерированное	сгенерировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	программой	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl:agent	_	_
+15	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	obj	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	реальной	реальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	фотографией	фотография	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4044
+# text = Препринт исследования опубликован на сайте arXiv.org.Для тренировки программы авторы использовали методы глубокого машинного обучения.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	arXiv.org	arXiv.org	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Для	для	ADP	_	_	5	case	_	_
+9	тренировки	тренировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+10	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+13	методы	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	глубокого	глубокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4045
+# text = Основная часть алгоритма была представлена двумя подсистемами.
+1	Основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	представлена	представлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	двумя	два	NUM	_	Case=Ins	7	nummod	_	_
+7	подсистемами	подсистема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4046
+# text = Одну из них тренировали отличать сгенерированные изображения от фотографий.
+1	Одну	один	NUM	_	Case=Acc|Gender=Fem	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	тренировали	тренировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отличать	отличать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	сгенерированные	сгенерировавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4047
+# text = При этом другую старались научить, как из случайно сгенерированного шума и заданной матрицы меньшего разрешения создать картинку, которая бы могла обмануть первую подсистему.После обучения, ученые применяли полученный алгоритм для последовательной детализации изображений.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	другую	другий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	obj	_	_
+4	старались	стараться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	научить	научать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	из	из	ADP	_	_	11	case	_	_
+9	случайно	случайно	ADV	_	Degree=Pos	10	advmod	_	_
+10	сгенерированного	генерировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	шума	шум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	заданной	задавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	матрицы	матрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+15	меньшего	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+17	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+18	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которая	который	PRON	_	Case=Nom	22	nsubj	_	_
+21	бы	бы	PART	_	Mood=Cnd	22	aux	_	_
+22	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+23	обмануть	обмаать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	подсистему.	подсистему.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	После	после	ADP	_	_	27	case	_	_
+27	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+30	применяли	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	полученный	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+33	для	для	ADP	_	_	35	case	_	_
+34	последовательной	последовательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	детализации	детализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	_
+36	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 4048
+# text = Процесс начинался с матрицы 2.2 или 4.4 пикселя и доходил до "полного" изображения 64.64 пикселя.
+1	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	начинался	начинаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	матрицы	матрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	2.	2	NUM	_	_	6	nummod	_	SpaceAfter=No
+6	2	2	NUM	_	_	9	nummod:gov	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	4.4	4.4	NUM	_	_	6	conj	_	_
+9	пикселя	пиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	доходил	доходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	до	до	ADP	_	_	16	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+17	64.64	64.64	NUM	_	_	18	nummod	_	_
+18	пикселя	пиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4049
+# text = Такое представление изображений называется "пирамида Лапласа".
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	представление	представление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	пирамида	пирамида	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	Лапласа	Лаплас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4050
+# text = При этом ученые подчеркивают, что при создании изображений алгоритм не обучался на полноформатных картинках.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+9	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	обучался	обучаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	полноформатных	полноформатный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	картинках	картинка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4051
+# text = Взамен, он концентрировался на каждом шаге детализации: как из одного пикселя с усредненной информацией сделать 4 (2.2) пикселя с большим количеством деталей.
+1	Взамен	взамен	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	концентрировался	концентрироваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	шаге	шаг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	детализации	детализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	как	как	SCONJ	_	_	13	cc	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	одного	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	пикселя	пиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	усредненной	усредненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+17	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+18	4	4	NUM	_	_	17	nummod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	2.2	2.2	NUM	_	_	18	nummod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	пикселя	пиксель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	nmod	_	_
+26	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 4052

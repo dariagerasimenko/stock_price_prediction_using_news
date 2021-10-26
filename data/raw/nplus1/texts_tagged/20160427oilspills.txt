@@ -1,0 +1,389 @@
+# text = # newpar
+# sent_id = 3230
+# text = Британская компания Oil Spill Response совместно с T2 Aviation занялась конвертацией двух грузовых самолетов Boeing 727-200, выкупленных у FedEx, в самолеты борьбы с разливом нефти.
+1	Британская	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	Oil	Oil	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Spill	Spill	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Response	Response	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	совместно	совместно	ADV	_	Degree=Pos	10	advmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	T2	T2	NOUN	_	_	6	nmod	_	_
+9	Aviation	Aviation	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	конвертацией	конвертация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	двух	два	NUM	_	Case=Gen	14	nummod	_	_
+13	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	727	727	NUM	_	_	15	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	200	200	NUM	_	_	16	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	выкупленных	выкуплеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+21	у	у	ADP	_	_	22	case	_	_
+22	FedEx	FedEx	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+26	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	разливом	разлив	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	_
+29	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3231
+# text = Как пишетAviation Week, такое решение позволит быстрее реагировать на аварийные ситуации и добираться до нефтяных разливов, чтобы ограничить их распространение и упростить ликвидацию последствий.Работы по конвертации уже ведутся и один самолет уже получил все необходимое оборудование.
+1	Как	как	ADV	_	Degree=Pos	32	mark	_	_
+2	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Week	Week	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	32	parataxis	_	_
+8	быстрее	быстро	ADV	_	Degree=Cmp	9	advmod	_	_
+9	реагировать	реагировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	аварийные	аварийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	добираться	добираться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	conj	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	нефтяных	нефтяной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	разливов	разлив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+20	ограничить	ограничивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	упростить	упрощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	conj	_	_
+25	ликвидацию	ликвидация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	последствий	последствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	по	по	ADP	_	_	30	case	_	_
+30	конвертации	конвертация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
+31	уже	уже	ADV	_	Degree=Pos	32	advmod	_	_
+32	ведутся	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+33	и	и	PART	_	_	34	advmod	_	_
+34	один	один	NUM	_	Case=Nom|Gender=Masc	35	nummod:gov	_	_
+35	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+36	уже	уже	ADV	_	Degree=Pos	37	advmod	_	_
+37	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
+38	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	40	amod	_	_
+39	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 3232
+# text = Речь идет о внутренних баках для диспергентов, насосах и установках для распыления.
+1	Речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	внутренних	внутренний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	баках	бак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	диспергентов	диспергент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	насосах	насос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	установках	установки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	conj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	распыления	распыление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3233
+# text = Один конвертированный самолет уже поставлен заказчику и с 31 марта текущего года стоит на дежурстве.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+2	конвертированный	конвертированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	поставлен	ставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	заказчику	заказчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+7	и	и	CCONJ	_	_	13	cc	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	31	31	NUM	_	_	13	nummod	_	_
+10	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	дежурстве	дежурство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3234
+# text = Он является первым в мире реактивным самолетом, специализированным для борьбы с нефтяными разливами.По данным Oil Spill Response, ее модифицированный Boeing 727-200 способен доставить диспергенты в любую точку мира в течение четырех часов после получения сигнала.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	реактивным	реактивный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	специализированным	специализированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	нефтяными	нефтяной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	разливами	разлива	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	По	по	ADP	_	_	17	case	_	_
+17	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	28	parataxis	_	_
+18	Oil	Oil	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Spill	Spill	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Response	Response	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	24	nmod	_	_
+23	модифицированный	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+25	727	727	NUM	_	_	24	nummod	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	200	200	NUM	_	_	25	nummod	_	_
+28	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	parataxis	_	_
+29	доставить	доставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	dep	_	_
+30	диспергенты	диспергент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	любую	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
+34	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	в	в	ADP	_	_	38	case	_	_
+36	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	fixed	_	_
+37	четырех	четыре	NUM	_	Case=Gen	38	nummod	_	_
+38	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+39	после	после	ADP	_	_	40	case	_	_
+40	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+41	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 3235
+# text = Техническая разработка проекта конвертации велась с 2013 года.
+1	Техническая	технический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	конвертации	конвертация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	велась	вестись	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	2013	2013	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3236
+# text = В рамках программы была создана независимая система, которую можно установить на любой грузовой самолет.Система получила название Tersus.
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	создана	создавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	независимая	независимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которую	который	PRON	_	Case=Acc	10	obj	_	_
+10	можно	можно	ADV	_	Degree=Pos	7	acl:relcl	_	_
+11	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	на	на	ADP	_	_	15	case	_	_
+13	любой	любой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	грузовой	грузовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	самолет.Система	самолет.Система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
+16	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+17	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	Tersus	Tersus	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3237
+# text = В ее состав входят семь баков общей емкостью 15 тысяч литров, а также специальные насосы, которые начинают работать с момента взлета.
+1	В	в	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	входят	вхость	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	семь	семь	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	баков	бак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+7	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	емкостью	емкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	15	15	NUM	_	_	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	16	cc	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	насосы	насос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+23	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3238
+# text = При подлете к нефтяному пятну система переключает контур с внутренней рециркуляции на распыление.
+1	При	при	ADP	_	_	2	case	_	_
+2	подлете	подлет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	нефтяному	нефтяной	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	пятну	пятн	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	переключает	переключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	контур	контур	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	внутренней	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	рециркуляции	рециркуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	распыление	распыление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3239
+# text = Таким образом распыление диспергентов начинается без задержки.Распылители устанавливаются за задней кромкой крыла.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	распыление	распыление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	диспергентов	диспергент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	без	без	ADP	_	_	7	case	_	_
+7	задержки.	задержки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+8	Распылители	распылитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+9	устанавливаются	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	parataxis	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	задней	заднь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
+12	кромкой	кромка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+13	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3240
+# text = Они имеют сопла с электронным регулированием, благодаря которым скорость расходования рабочей жидкости может варьироваться от 600 до 1400 литров в минуту.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сопла	сопло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	электронным	электронный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	регулированием	регулирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	благодаря	благодаря	ADP	_	_	9	case	_	_
+9	которым	который	PRON	_	Case=Dat	14	obl	_	_
+10	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	расходования	расходование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	рабочей	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+15	варьироваться	варьироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	600	600	NUM	_	_	15	nummod	_	_
+18	до	до	ADP	_	_	20	case	_	_
+19	1400	1400	NUM	_	_	20	nummod	_	_
+20	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3241
+# text = Стоимость модифицирования одного самолета составила около 14 миллионов долларов.В настоящее время для распыления диспергентов на нефтяные пятна используются вертолеты, специальные версии турбовинтовых самолетов и суда.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	модифицирования	модифицирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	4	nummod	_	_
+4	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	14	14	NUM	_	_	8	nummod	_	_
+8	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	В	в	ADP	_	_	19	advmod	_	_
+11	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	fixed	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	распыления	распыление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+15	диспергентов	диспергент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	нефтяные	нефтяной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	пятна	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+19	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+20	вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	версии	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+24	турбовинтовых	турбовинтовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3242
+# text = Например, для ликвидации разлива нефти в Мексиканском заливе в июле 2010 года использовались турбовинтовые самолетыL-382G Commercial Hercules.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	ликвидации	ликвидация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+5	разлива	разлив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	Мексиканском	Мексиканский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	заливе	залив	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	2010	2010	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+15	турбовинтовые	турбовинтовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	самолетыL	самолетыl	PROPN	_	Foreign=Yes	14	nsubj	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	382G	382g	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	Commercial	Commercial	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Hercules	Hercules	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3243
+# text = Вертолеты и винтовые самолеты не позволяют оперативно среагировать на аварию.Диспергенты представляют собой поверхностно-активные вещества, которые разрушают сплошную нефтяную пленку на поверхности воды.
+1	Вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	и	и	CCONJ	_	_	4	cc	_	_
+3	винтовые	винтовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	оперативно	оперативно	ADV	_	Degree=Pos	8	advmod	_	_
+8	среагировать	среагировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	аварию.	аварию.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	Диспергенты	Диспергент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	собой	себя	PRON	_	Case=Ins	12	dep	_	_
+14	поверхностно-	поверхностно-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	активные	активный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	разрушают	разрушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	сплошную	сплошный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	нефтяную	нефтяный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	пленку	пленка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+25	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3244
+# text = В результате образуются мелкие нефтяные капельки, которые затем опускаются на дно, где постепенно перерабатываются микроорганизмами.Василий Сычёв
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	образуются	образовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	нефтяные	нефтяной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	капельки	капелька	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	10	nsubj:pass	_	_
+9	затем	затем	ADV	_	Degree=Pos	10	advmod	_	_
+10	опускаются	опускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	дно	дно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	где	где	ADV	_	Degree=Pos	16	advmod	_	_
+15	постепенно	постепенно	ADV	_	Degree=Pos	16	advmod	_	_
+16	перерабатываются	перерабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	_	_
+17	микроорганизмами	микроорганизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+20	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	_
+
+# newpar
+# sent_id = 3245

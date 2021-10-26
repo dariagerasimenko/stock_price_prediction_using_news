@@ -1,0 +1,292 @@
+# text = # newpar
+# sent_id = 4141
+# text = Агентство оборонных разработок Южной Кореи приступило к созданию нового ударного беспилотного летательного аппарата KUS-X, сообщаетAviation Week.
+1	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Кореи	корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	приступило	приступать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	созданию	создание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+9	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+10	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+14	KUS-	KUS-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	X	x	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	сообщаетAviation	сообщаетAviation	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Week	Week	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4142
+# text = В настоящее время на проект выделено 16 миллиардов вон (около 13,7 миллиона долларов).
+1	В	в	ADP	_	_	6	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	выделено	выделять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	16	16	NUM	_	_	8	nummod	_	_
+8	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+9	вон	вон	ADV	_	Degree=Pos	14	advmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	около	около	ADP	_	_	14	case	_	_
+12	13,7	13,7	NUM	_	_	13	nummod	_	_
+13	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nummod:gov	_	_
+14	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4143
+# text = Работы планируется завершить к 2021 году.
+1	Работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+2	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	завершить	завершать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj:pass	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	2021	2021	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4144
+# text = В проекте участвуют корейские компании Korean Air Lines и Korea Aerospace Industries.В рамках программы разработки планируется создать один полномасштабный макет перспективного беспилотника и восемь уменьшенных моделей.
+1	В	в	ADP	_	_	2	case	_	_
+2	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	корейские	корейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	Korean	korean	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Air	air	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Lines	Lines	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	Korea	Korea	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Aerospace	Aerospace	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Industries	Industries	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	В	в	ADP	_	_	15	case	_	_
+15	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+16	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+19	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	nsubj:pass	_	_
+20	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	22	nummod:gov	_	_
+21	полномасштабный	полномасштабный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	макет	макет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+23	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	28	cc	_	_
+26	восемь	восемь	NUM	_	Case=Nom	28	nummod:gov	_	_
+27	уменьшенных	уменьшеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4145
+# text = Макет будет использоваться для отработки технологий малозаметности, в то время как на уменьшенных моделях конструкторы проверят управляемость выбранных аэродинамических схем.В настоящее время основной схемой, по которой планируется создавать беспилотник, выбрано "летающее крыло".
+1	Макет	макет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	отработки	отработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	малозаметности	малозаметность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	17	cc	_	_
+10	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	как	как	SCONJ	_	_	11	fixed	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	уменьшенных	уменьшенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	моделях	модель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_
+16	конструкторы	конструктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	проверят	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	управляемость	управляемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	выбранных	выбирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+20	аэродинамических	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	схем.	схеманица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	В	в	ADP	_	_	19	advmod	_	_
+23	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	fixed	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	схемой	схема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	по	по	ADP	_	_	29	case	_	_
+29	которой	который	PRON	_	Case=Dat	30	obl	_	_
+30	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	acl:relcl	_	_
+31	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	nsubj:pass	_	_
+32	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	выбрано	выбирать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	летающее	летающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	крыло	крыло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj:pass	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 4146
+# text = Предполагается, что размах крыла нового беспилотника составит 15 метров.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+5	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	15	15	NUM	_	_	10	nummod	_	_
+10	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4147
+# text = Уменьшенные модели аппарата получат размах крыла в три метра.
+1	Уменьшенные	Уменьшять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	получат	получивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+6	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	три	три	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4148
+# text = Другие технические характеристики перспективного аппарата пока неизвестны.Как ожидается, KUS-X получит радиопоглощающее покрытие, внутренние отсеки вооружения, воздухозаборник и сопло двигателя, сконструированные таким образом, чтобы быть малозаметными для радаров и инфракрасных систем.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+7	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Как	как	ADV	_	Degree=Pos	14	mark	_	_
+10	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	KUS-	KUS-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	X	x	PROPN	_	Foreign=Yes	14	nsubj	_	_
+14	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	радиопоглощающее	радиопоглощать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	внутренние	внутренний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	отсеки	отсека	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+20	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	воздухозаборник	воздухозаборник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	сопло	сопло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	conj	_	_
+25	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	сконструированные	конструировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+28	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	29	amod	_	_
+29	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+32	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	cop	_	_
+33	малозаметными	малозаметный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	obl	_	_
+34	для	для	ADP	_	_	35	case	_	_
+35	радаров	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+36	и	и	CCONJ	_	_	38	cc	_	_
+37	инфракрасных	инфракрасный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 4149
+# text = Антенны для систем связи беспилотника будут размещены под обшивкой корпуса.В декабре прошлого годасообщалось, что Южная Корея намерена заняться разработкой малозаметного разведывательного беспилотника, который будет использоваться для наблюдения за территорией Северной Кореи, в частности, для определений позиций артиллерии и мобильных ракетных установок.Опытно-конструкторские работы по проекту будут производиться в 2017-2019 годах.
+1	Антенны	антенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	nsubj	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	размещены	размещать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	обшивкой	обшивка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+10	корпуса.	корпуса.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	SpaceAfter=No
+11	В	в	ADP	_	_	12	case	_	_
+12	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+13	прошлого	прошлое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	годасообщалось	годасообщать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	Южная	южный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Корея	корея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	advcl	_	_
+20	заняться	заниматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	19	dep	_	_
+21	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+22	малозаметного	малозаметной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+23	разведывательного	разведывательной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	который	который	PRON	_	Case=Nom	28	nsubj	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	24	acl:relcl	_	_
+29	для	для	ADP	_	_	30	case	_	_
+30	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+31	за	за	ADP	_	_	32	case	_	_
+32	территорией	территория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	obl	_	_
+33	Северной	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	Кореи	корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	40	discourse	_	_
+37	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	fixed	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	для	для	ADP	_	_	40	case	_	_
+40	определений	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	nmod	_	_
+41	позиций	позиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	_
+42	артиллерии	артиллерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	и	и	CCONJ	_	_	52	cc	_	_
+44	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+45	ракетных	ракетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	acl	_	_
+46	установок.	установоколо	ADP	_	_	48	case	_	SpaceAfter=No
+47	Опытно-конструкторские	опытно-конструкторский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	48	amod	_	_
+48	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	52	obl	_	_
+49	по	по	ADP	_	_	50	case	_	_
+50	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	52	nmod	_	_
+51	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	52	aux:pass	_	_
+52	производиться	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	42	conj	_	_
+53	в	в	ADP	_	_	57	case	_	_
+54	2017	2017	NUM	_	_	57	nummod	_	SpaceAfter=No
+55	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	2019	2019	NUM	_	_	54	nummod	_	_
+57	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	52	obl	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	_
+
+# sent_id = 4150
+# text = Новый аппарат сможет летать на большей высоте, чем беспилотники, уже принятые на вооружение Южной Кореи.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	большей	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чем	чем	SCONJ	_	_	10	cc	_	_
+10	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+13	принятые	принимать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+16	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Кореи	корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4151
+# text = Другие подробности об этом беспилотнике пока неизвестны.Василий Сычёв
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	об	о	ADP	_	_	5	case	_	_
+4	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	_
+5	беспилотнике	беспилотник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+7	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 4152

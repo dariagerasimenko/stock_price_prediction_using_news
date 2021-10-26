@@ -1,0 +1,257 @@
+# text = # newpar
+# sent_id = 1020
+# text = Биологи обнаружили, что бльшую часть времени акулы-молоты проводят, плавая на боку.
+1	Биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	бльшую	бльший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	акулы-молоты	акулы-молот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	плавая	плавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	боку	бок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1021
+# text = Эксперименты и расчеты показали, что это позволяет им экономить энергию, не тратя сил на поддержание плавучести.
+1	Эксперименты	Эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	расчеты	расчет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	8	obl	_	_
+10	экономить	экономить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	тратя	тратить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+15	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	поддержание	поддержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	плавучести	плавучесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1022
+# text = Об этом сообщает статья, опубликованнаяжурналом Nature Communications.В нормальном положении выдающийся спинной плавник акул участвует в создании тяги и обеспечивает хорошую маневренность при боковых поворотах, а грудные плавники создают при движении направленную вверх подъемную силу, которая компенсирует отрицательную плавучесть тела рыбы.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	опубликованнаяжурналом	опубликованнаяжурнал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Nature	Nature	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Communications	communications	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	В	в	ADP	_	_	12	case	_	_
+11	нормальном	нормальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+13	выдающийся	выдаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+14	спинной	пить	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	плавник	плавник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+16	акул	акулы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+20	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	хорошую	хороший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	маневренность	маневренность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	при	при	ADP	_	_	27	case	_	_
+26	боковых	боковой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	поворотах	поворот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	а	а	CCONJ	_	_	32	cc	_	_
+30	грудные	грудной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	плавники	плавник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+32	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	при	при	ADP	_	_	34	case	_	_
+34	движении	движение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	38	obl	_	_
+35	направленную	направлеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+36	вверх	вверх	ADV	_	Degree=Pos	35	advmod	_	_
+37	подъемную	подъемный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	которая	который	PRON	_	Case=Nom	41	nsubj	_	_
+41	компенсирует	компенсиревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	acl:relcl	_	_
+42	отрицательную	отрицательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	плавучесть	плавучесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	41	obj	_	_
+44	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
+45	рыбы	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 1023
+# text = Однако Николас Пейн (Nicholas Payne), Джил Иосилевски (Gil Iosilevskii) и их коллеги из Японии, Великобритании, США, Австралии и других стран обнаружили, что в семействе акул-молотов (Sphyrnidae) те же плавники могут выполнять другие задачи, пока рыбы плавают на боку.Ученые выловили пару диких акул-молотов (Sphyrna mokarran) у Большого Барьерного рифа (Австралия) и Мезоамериканского рифа (Белиз), разместили на них акселерометры и выпустили на волю.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	Николас	Николас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	Пейн	Пейн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Nicholas	Nicholas	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Payne	Payne	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	Джил	Джать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	Иосилевски	Иосилевски	ADV	_	Degree=Pos	9	parataxis	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Gil	Gil	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	Iosilevskii	Iosilevskii	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	Японии	япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	_
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	_
+29	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	семействе	семейство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	41	obl	_	_
+34	акул-молотов	акул-молот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	Sphyrnidae	Sphyrnidae	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	_
+38	те	тот	DET	_	Case=Nom|Number=Plur	40	amod	_	_
+39	же	же	PART	_	_	38	advmod	_	_
+40	плавники	плавник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	41	nsubj	_	_
+41	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
+42	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	xcomp	_	_
+43	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	44	amod	_	_
+44	задачи	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	nsubj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	пока	пока	SCONJ	_	_	0	mark	_	_
+47	рыбы	рыба	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	48	nsubj	_	_
+48	плавают	плавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+49	на	на	ADP	_	_	50	case	_	_
+50	боку.	боку.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	48	obl	_	SpaceAfter=No
+51	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	52	nsubj	_	_
+52	выловили	выловлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	48	conj	_	_
+53	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	52	obj	_	_
+54	диких	дикий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	55	amod	_	_
+55	акул-молотов	акул-молот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	53	nmod	_	_
+56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
+57	Sphyrna	Sphyrna	PROPN	_	Foreign=Yes	55	flat:foreign	_	_
+58	mokarran	mokarran	PROPN	_	Foreign=Yes	57	flat:foreign	_	SpaceAfter=No
+59	)	)	PUNCT	_	_	58	punct	_	_
+60	у	у	ADP	_	_	63	case	_	_
+61	Большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	63	amod	_	_
+62	Барьерного	Барьерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	63	amod	_	_
+63	рифа	риф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+64	(	(	PUNCT	_	_	65	punct	_	SpaceAfter=No
+65	Австралия	австралия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	63	parataxis	_	SpaceAfter=No
+66	)	)	PUNCT	_	_	65	punct	_	_
+67	и	и	CCONJ	_	_	69	cc	_	_
+68	Мезоамериканского	Мезоамериканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	69	amod	_	_
+69	рифа	риф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+70	(	(	PUNCT	_	_	71	punct	_	SpaceAfter=No
+71	Белиз	Белиз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	69	appos	_	SpaceAfter=No
+72	)	)	PUNCT	_	_	71	punct	_	SpaceAfter=No
+73	,	,	PUNCT	_	_	71	punct	_	_
+74	разместили	размещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+75	на	на	ADP	_	_	76	case	_	_
+76	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	74	obl	_	_
+77	акселерометры	акселерометр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	74	obj	_	_
+78	и	и	CCONJ	_	_	79	cc	_	_
+79	выпустили	выпускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	74	conj	_	_
+80	на	на	ADP	_	_	81	case	_	_
+81	волю	воля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	79	obl	_	SpaceAfter=No
+82	.	.	PUNCT	_	_	81	punct	_	_
+
+# sent_id = 1024
+# text = Собранные таким путем данные показали, что первая рыба в течение более чем 90 процентов из последовавших за этим 18 часов плавала на боку, под углом от 60 до 75 градусов от обычного вертикального положения, меняя сторону каждые 5-10 минут.
+1	Собранные	собирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+2	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	_
+3	путем	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	5	nsubj	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	рыба	рыба	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+10	в	в	ADP	_	_	15	case	_	_
+11	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	более	более	ADV	_	Degree=Cmp	15	case	_	_
+13	чем	чем	SCONJ	_	_	12	fixed	_	_
+14	90	90	NUM	_	_	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	последовавших	последовавший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+18	за	за	ADP	_	_	19	case	_	_
+19	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_
+20	18	18	NUM	_	_	21	nummod	_	_
+21	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+22	плавала	плавать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	боку	бок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	под	под	ADP	_	_	27	case	_	_
+27	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+28	от	от	ADP	_	_	29	case	_	_
+29	60	60	NUM	_	_	22	nummod	_	_
+30	до	до	ADP	_	_	32	case	_	_
+31	75	75	NUM	_	_	32	nummod	_	_
+32	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+33	от	от	ADP	_	_	32	case	_	_
+34	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+35	вертикального	вертикальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	меняя	менять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	advcl	_	_
+39	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+40	каждые	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	39	amod	_	_
+41	5	5	NUM	_	_	44	nummod	_	SpaceAfter=No
+42	-	-	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	10	10	NUM	_	_	41	nummod	_	_
+44	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 1025
+# text = Это поведение наблюдалось независимо о того, набирала ли она глубину, поднималась к поверхности или плавала на одном уровне.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	независимо	независимо	ADV	_	Degree=Pos	3	advmod	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	набирала	набирать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	_
+9	ли	ли	PART	_	_	8	advmod	_	_
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+11	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поднималась	подниматься	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	плавала	плавать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	одном	один	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1026
+# text = Аналогично вела себя и вторая акула.
+1	Аналогично	аналогично	ADV	_	Degree=Pos	2	advmod	_	_
+2	вела	вести	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	себя	себя	PRON	_	Case=Acc	2	obj	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	акула.	акула.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	_
+
+# newpar
+# sent_id = 1027

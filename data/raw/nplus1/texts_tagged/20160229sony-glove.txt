@@ -1,0 +1,83 @@
+# text = # newpar
+# sent_id = 5011
+# text = Компания Sony Computer Entertainment подала заявку на патента контроллера для виртуальной реальности в виде перчатки, которая может регистрировать движения отдельных пальцев.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Sony	Sony	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Computer	computer	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Entertainment	entertainment	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	подала	подавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	заявку	заявка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	патента	патент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+9	контроллера	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	виртуальной	виртуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	реальности	реальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	перчатки	перчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которая	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+19	регистрировать	регистрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
+21	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5012
+# text = На заявку, поданную в Ведомство по патентам и товарным знакам США, обратил внимание портал Motherboard.В патенте описывается перчатка, которая способна отслеживать движения отдельной фаланги.
+1	На	на	ADP	_	_	2	case	_	_
+2	заявку	заявка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	поданную	подать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Ведомство	ведомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	патентам	патент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	товарным	товарный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	знакам	знак	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	conj	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	обратил	обращать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+16	портал	портать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+17	Motherboard.	Motherboard.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	В	в	ADP	_	_	19	case	_	_
+19	патенте	патент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+20	описывается	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	conj	_	_
+21	перчатка	перчатка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которая	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	21	acl:relcl	_	_
+25	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	dep	_	_
+26	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_
+27	отдельной	отдельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	фаланги	фаланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5013
+# text = Кроме встроенных в перчатку датчиков для позиционирования рук в виртуальной реальности также используется камера, направленная на пользователя.
+1	Кроме	кроме	ADP	_	_	5	case	_	_
+2	встроенных	встраивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	перчатку	перчатка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	позиционирования	позиционирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	виртуальной	виртуальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	реальности	реальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+14	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	направленная	направлять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	пользователя	пользователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 5014

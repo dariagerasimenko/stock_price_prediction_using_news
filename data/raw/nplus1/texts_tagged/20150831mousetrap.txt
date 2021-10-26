@@ -1,0 +1,225 @@
+# text = # newpar
+# sent_id = 1230
+# text = Американец Ален Мауэрразработали собрал мышеловку на базе контроллера Raspberry Pi.
+1	Американец	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Ален	Ален	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Мауэрразработали	Мауэрразработавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собрал	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+5	мышеловку	мышеловка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	контроллера	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Raspberry	Raspberry	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Pi	Pi	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1231
+# text = Получившееся устройство автоматически срабатывает, когда в него попадает животное, захлопывая дверцу и делая фотографию своего пленника.
+1	Получившееся	получаться	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	автоматически	автоматически	ADV	_	Degree=Pos	4	advmod	_	_
+4	срабатывает	срабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	когда	когда	SCONJ	_	_	4	mark	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+9	попадает	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	животное	животное	NOUN	_	Animacy=Anim|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	захлопывая	захлопывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+13	дверцу	дверца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	делая	делать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	conj	_	_
+16	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	пленника	пленник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1232
+# text = Фотография затем автоматически отправляется на электронную почту владельца мышеловки.Устройство собрано из листов вспененного поливинилхлорида.
+1	Фотография	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+3	автоматически	автоматически	ADV	_	Degree=Pos	4	advmod	_	_
+4	отправляется	отправляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	электронную	электронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	почту	почта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	владельца	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	мышеловки.	мышеловки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+10	Устройство	Устройство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+11	собрано	собирать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	листов	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	вспененного	вспененный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	поливинилхлорида	поливинилхлорид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1233
+# text = Этот материал достаточно прочен, чтобы удерживать грызуна, и очень прост в обработке.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	достаточно	достаточно	ADV	_	Degree=Pos	4	advmod	_	_
+4	прочен	прочный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+7	удерживать	удерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+8	грызуна	грызуна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	очень	очень	ADV	_	Degree=Pos	12	advmod	_	_
+12	прост	простой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	обработке	обработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1234
+# text = Отсек с контроллером, работающим на базеArch Linux, отделен от отсека с приманкой для крыс или мышей.
+1	Отсек	отсек	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	контроллером	контроллер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	работающим	работать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	базеArch	базеArch	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Linux	linux	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	отделен	отделять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	отсека	отсек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	приманкой	приманка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	крыс	крысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1235
+# text = Для определения того, что животное попало внутрь, используются инфракрасные датчики.Захлопывающаяся дверца выполнена свободной с небольшим утяжелителем внизу.
+1	Для	для	ADP	_	_	2	case	_	_
+2	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+3	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	попало	попадать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	внутрь	внутрь	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	инфракрасные	инфракрасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	датчики	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Захлопывающаяся	Захлопываться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+15	дверца	дверца	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+16	выполнена	выполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	_	_
+17	свободной	свободный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	утяжелителем	утяжелитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+21	внизу	внизу	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1236
+# text = Она удерживается при помощи своего рода проволочного засова.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	удерживается	удерживаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	при	при	ADP	_	_	6	case	_	_
+4	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+7	проволочного	проволочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	засова	засов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1237
+# text = После того, как животное пересечет инфракрасный луч, сервопривод повернется и выдернет засов.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	пересечет	пересечь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+7	инфракрасный	инфракрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	луч	луч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сервопривод	сервопривод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	повернется	вернться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	выдернет	выдернуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	_
+14	засов	зас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1238
+# text = Дверца под своей тяжестью опустится.
+1	Дверца	Дверца	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	под	под	ADP	_	_	4	case	_	_
+3	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	4	amod	_	_
+4	тяжестью	тяжесть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+5	опустится	опускаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1239
+# text = Внутри мышеловка оборудована светодиодом для освещения пойманного животного.Разработчик использовал и стандартную камеру для Raspberry Pi, на которую прикрепил миниатюрный объектив типа "рыбий глаз".
+1	Внутри	внутри	ADV	_	Degree=Pos	3	advmod	_	_
+2	мышеловка	мышеловка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	оборудована	оборудовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	светодиодом	светодиод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	для	для	ADP	_	_	4	case	_	_
+6	освещения	освещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	пойманного	пойманный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	животного.	животноготец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	Разработчик	Разработчик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	стандартную	стандартный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	Raspberry	Raspberry	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Pi	Pi	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	которую	который	PRON	_	Case=Acc	20	obl	_	_
+20	прикрепил	прикреплять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+21	миниатюрный	миниатюрный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	объектив	объектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+23	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	рыбий	рыбий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	глаз	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1240
+# text = По словам Мауэра, поскольку камера не имеет автофокуса, то изображения с нее из-за объектива получаются немного размытыми.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	parataxis	_	_
+3	Мауэра	Мауэр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	поскольку	поскольку	SCONJ	_	_	17	mark	_	_
+6	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+9	автофокуса	автофокус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	то	то	SCONJ	_	_	8	cc	_	_
+12	изображения	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+15	из-за	из-за	ADP	_	_	16	case	_	_
+16	объектива	объектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+17	получаются	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	немного	немного	ADV	_	Degree=Pos	19	advmod	_	_
+19	размытыми	размывать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1241
+# text = Этот недостаток разработчик планирует устранить.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	недостаток	недостаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	устранить	устранять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 1242

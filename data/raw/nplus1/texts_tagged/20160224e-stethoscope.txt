@@ -1,0 +1,245 @@
+# text = # newpar
+# sent_id = 3990
+# text = Японские ученые разработали электронный фонендоскоп, способный распознавать заболевания дыхательной системы.
+1	Японские	японский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	электронный	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	фонендоскоп	фонендоскоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	способный	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+8	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+10	дыхательной	дыхательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3991
+# text = Отчет об их работе опубликован в Annals of Internal Medicine.
+1	Отчет	отчет	ADV	_	Degree=Pos	4	advmod	_	_
+2	об	о	ADP	_	_	4	case	_	_
+3	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+4	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Annals	Annals	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Internal	Internal	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Medicine	Medicine	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3992
+# text = Новое устройство включает микрофон и приложение, названное Respiratory Sounds Visualizer.
+1	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	микрофон	микрофон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	названное	назвать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	Respiratory	Respiratory	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+10	Sounds	Sounds	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Visualizer	Visualizer	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3993
+# text = Для разработки алгоритма, анализирующего дыхательные шумы, сотрудники Университета Хиросимы и Фукусимского медицинского университета записали аускультативные звуки 878 пациентов с различными заболеваниями легких.
+1	Для	для	ADP	_	_	2	case	_	_
+2	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+3	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	анализирующего	анализировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+6	дыхательные	дыхательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	шумы	шум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+10	Университета	Университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Хиросимы	Хиросима	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	Фукусимского	Фукусимский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	медицинского	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+16	записали	записывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	аускультативные	аускультативный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	звуки	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+19	878	878	NUM	_	_	20	nummod	_	_
+20	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	16	obl	_	_
+24	легких	легкий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3994
+# text = Результаты обследования интерпретировал коллектив врачей-пульмонологов; их заключения легли в основу алгоритма, оценивающего продолжительность, частоту и интенсивность звуков.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	обследования	обследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	интерпретировал	интерпретировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	врачей-	врачей-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	пульмонологов	пульмонолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+9	заключения	заключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+10	легли	легать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	оценивающего	оценивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	частоту	частота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	интенсивность	интенсивность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+21	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3995
+# text = На основании этих характеристик программа относит аускультативный профиль пациента к одной из пяти категорий, соответствующих различным типам поражения дыхательных путей.
+1	На	на	ADP	_	_	2	case	_	_
+2	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	относит	относить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	аускультативный	аускультативный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	профиль	профиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	одной	один	NUM	_	Case=Gen|Gender=Fem	8	nummod	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	пяти	пять	NUM	_	Case=Gen	14	nummod	_	_
+14	категорий	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	соответствующих	соответствовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	различным	различный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	типам	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+19	поражения	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	дыхательных	дыхательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3996
+# text = Исследователи отмечают, что созданное ими устройство может помочь в работе врачам, которые работают в шумных условиях (например, в отделении неотложной помощи или полевом госпитале), где выслушать незначительные отклонения в дыхательных звуках сложно.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	созданное	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	5	obl:agent	_	_
+7	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	врачам	врач	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	шумных	шумный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	отделении	отделение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+24	неотложной	неотложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	или	или	CCONJ	_	_	28	cc	_	_
+27	полевом	полевом	ADP	_	_	28	case	_	_
+28	госпитале	госпиталь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	28	punct	_	_
+31	где	где	ADV	_	Degree=Pos	32	advmod	_	_
+32	выслушать	выслушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	nsubj	_	_
+33	незначительные	незначительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	отклонения	отклонение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	32	obj	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	дыхательных	дыхательный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	37	amod	_	_
+37	звуках	звук	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	obl	_	_
+38	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3997
+# text = Кроме того, электронный фонендоскоп может выявить сочетания респираторных заболеваний, распознать которые на слух способны только самые опытные специалисты.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	электронный	электронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	фонендоскоп	фонендоскоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	сочетания	сочетание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+9	респираторных	респираторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	распознать	распознавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	dep	_	_
+13	которые	который	PRON	_	Case=Acc	12	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	слух	слух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+16	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	acl:relcl	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	опытные	опытный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3998
+# text = Respiratory Sounds Visualizer позволяет сохранять дыхательные звуки и шумы в электронной медицинской карте пациента и делиться результатами обследования с различными врачами.
+1	Respiratory	Respiratory	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	Sounds	Sounds	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Visualizer	Visualizer	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сохранять	сохранять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	дыхательные	дыхательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	звуки	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	шумы	шум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	электронной	электронный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	медицинской	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	карте	карта	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+14	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	делиться	делиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	_
+17	результатами	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+18	обследования	обследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	врачами	врач	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3999
+# text = По словам одного из разработчиков Синитиро Осимо (Shinichiro Ohshimo), приложение станет доступным для скачивания в ближайшее время.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	14	parataxis	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	2	nmod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	Синитиро	Синитиро	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	Осимо	Осимо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Shinichiro	Shinichiro	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Ohshimo	Ohshimo	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	приложение	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	доступным	доступный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	obl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	скачивания	скачивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4000
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 4001

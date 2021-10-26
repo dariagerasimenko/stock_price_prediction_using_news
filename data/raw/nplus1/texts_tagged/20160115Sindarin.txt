@@ -1,0 +1,136 @@
+# text = # newpar
+# sent_id = 3222
+# text = Кодню рождения Джона Р.Р.
+1	Кодню	Кодня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+2	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	Джона	джон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Р.Р.	р.Р.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+
+# sent_id = 3223
+# text = Толкиена команда Яндекса добавила в "Яндекс.Переводчик" синдарин-- язык эльфов.
+1	Толкиена	Толкиать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+2	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	Яндекса	Яндекс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	добавила	добавлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Яндекс.	яндекс.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+8	Переводчик	переводчик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	синдарин	синдарин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+13	эльфов	эльф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3224
+# text = Об этом сообщается в официальном сообществе Яндекса Вконтакте.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сообществе	сообщество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	Яндекса	Яндекс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Вконтакте	Вконтакт	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3225
+# text = Переводить сэльфийского иобратно можно любой из66языков, представленных впереводчике, однако пока это работает только ввеб-версии итолько вальфа-режиме.
+1	Переводить	переводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	сэльфийского	сэльфийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	1	obl	_	_
+3	иобратно	иобратно	ADV	_	Degree=Pos	4	advmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	любой	любой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	из66языков	из66язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	представленных	представлять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	впереводчике	впереводчика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	14	advmod	_	_
+12	пока	пока	ADV	_	Degree=Pos	14	advmod	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	ввеб-версии	ввеб-версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+17	итолько	итолько	ADV	_	Degree=Pos	16	advmod	_	_
+18	вальфа-	вальфа-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3226
+# text = Для отображения слов насиндарине используется письменность Tengwar.
+1	Для	для	ADP	_	_	2	case	_	_
+2	отображения	отображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	насиндарине	насиндарина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	obl:agent	_	_
+5	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	письменность	письменность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+7	Tengwar	Tengwar	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3227
+# text = Вкомпании отмечают, что команда сервиса "Яндекс.Переводчик" изучила эльфийские рукописи и попыталась восстановить один издревних языков Средиземья.
+1	Вкомпании	Вкомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	сервиса	сервис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Яндекс.	яндекс.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+9	Переводчик	переводчик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	изучила	изучать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+12	эльфийские	эльфийский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	рукописи	рукопись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	попыталась	пытаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	conj	_	_
+16	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	19	nummod:gov	_	_
+18	издревних	издревний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	языков	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+20	Средиземья	Средиземье	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3228
+# text = Благодаря машинному обучению итехнологической магии имэто удалось.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	машинному	машинный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	обучению	обучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+4	итехнологической	итехнологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	магии	магия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	имэто	имэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3229
+# text = Теперь вЯндекс.Переводчике можно перевести такие фразы как "моя прелесть", "тынепройдешь" и"нельзя просто так взять изайти вМордор".
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	_
+2	вЯндекс.	вЯндексяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+3	Переводчике	Переводчика	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	перевести	переводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	advcl	_	_
+6	такие	такой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	фразы	фраза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	как	как	SCONJ	_	_	5	cc	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	_
+11	прелесть	прелесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	тынепройдешь	тынепройдти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	и"	и"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	нельзя	нельзя	ADV	_	Degree=Pos	4	conj	_	_
+19	просто	просто	PART	_	_	20	advmod	_	_
+20	так	так	ADV	_	Degree=Pos	21	advmod	_	_
+21	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+22	изайти	изаходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	вМордор	вМордор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# newpar
+# sent_id = 3230

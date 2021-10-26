@@ -1,0 +1,470 @@
+# text = # newpar
+# sent_id = 3239
+# text = Американские ученые обнаружили, что бисфенолS, который используется как "безопасная" альтернатива бисфенолуА, способен вызывать нарушения развития половых клеток иповышать эмбриональную смертность.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	бисфенолS	бисфенолs	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+9	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+10	как	как	SCONJ	_	_	12	cc	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	безопасная	безопасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	альтернатива	альтернатива	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	бисфенолуА	бисфенолуа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	parataxis	_	_
+18	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	dep	_	_
+19	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+20	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	иповышать	иповышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	conj	_	_
+24	эмбриональную	эмбриональный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	смертность	смертность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3240
+# text = Обэтом сообщается настраницах журнала PLOS Genetics.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	настраницах	настраница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+4	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	PLOS	Plos	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Genetics	Genetics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3241
+# text = Бисфенол А-- распространенный компонент пластиков, термобумаги для кассовых аппаратов идругих материалов.
+1	Бисфенол	Бисфенол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	А--	А--	PUNCT	_	_	1	punct	_	_
+3	распространенный	распространенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	компонент	компонент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	пластиков	пластик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	термобумаги	термобумаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	кассовых	кассовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3242
+# text = Онобладает слабой эстрогенной активностью (тоесть напоминает подействию женские половые гормоны), но его концентрация, с которой люди сталкиваются в повседневной жизни, обычно невелика.
+1	Онобладает	Онобладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	слабой	слабый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	эстрогенной	эстрогенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	подействию	подействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+9	женские	женской	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+10	половые	половой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	но	но	CCONJ	_	_	16	cc	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	концентрация	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	которой	который	PRON	_	Case=Ins	21	obl	_	_
+20	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	сталкиваются	сталкиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	acl:relcl	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	повседневной	повседневный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	обычно	обычно	ADV	_	Degree=Pos	27	advmod	_	_
+27	невелика	небольшой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3243
+# text = Тем неменее, исследования нагрызунах имакаках показали, что даже крайне низкие дозы этого вещества могут нарушать развитие первичных половых клеток, изкоторых в процессе созревания формируются яйцеклетки.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+5	нагрызунах	нагрызуно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	_
+6	имакаках	имакако	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	nmod	_	_
+7	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	даже	даже	PART	_	_	11	advmod	_	_
+11	крайне	крайне	ADV	_	Degree=Pos	12	advmod	_	_
+12	низкие	низкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	дозы	доз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+14	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	15	amod	_	_
+15	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+17	нарушать	нарушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	первичных	первичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+20	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	изкоторых	изкоторый	PRON	_	Case=Gen	27	obl	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+26	созревания	созревание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	формируются	формироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+28	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3244
+# text = Всилу этого вСША идругих странах его все чаще заменяют другими веществами.
+1	Всилу	Всилу	ADV	_	Degree=Pos	4	advmod	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	вСША	всш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	идругих	идругой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+7	все	все	PART	_	_	8	advmod	_	_
+8	чаще	часто	ADV	_	Degree=Cmp	9	advmod	_	_
+9	заменяют	заменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	веществами	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3245
+# text = Одним изпопулярных заменителей служит бисфенол S.
+1	Одним	один	NUM	_	Case=Ins|Gender=Neut	3	nummod	_	_
+2	изпопулярных	изпопулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	заменителей	заменитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	служит	служивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	бисфенол	бисфенол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	S	s	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3246
+# text = Учитывая значительное структурное сходство этих соединений, сотрудники Калифорнийского университета вЛос-Анджелесе сравнили действие различных доз бисфеноловА иS наразвитие половых клеток ирепродуктивную функцию популярного модельного организма-- круглого червя Caenorhabditis elegans.
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+2	значительное	значительной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	структурное	структурный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+5	этих	этот	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+9	Калифорнийского	Калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	вЛос-Анджелесе	вЛос-Анджелесе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	сравнили	сравнивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	доз	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	бисфеноловА	бисфенолов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	иS	иs	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	наразвитие	наразвитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+19	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	ирепродуктивную	ирепродуктивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+23	популярного	популярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+24	модельного	модельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+25	организма--	организма--	PUNCT	_	_	24	punct	_	_
+26	круглого	круглый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	червя	червь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+28	Caenorhabditis	Caenorhabditis	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	elegans	elegans	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3247
+# text = Оказалось, что оба вещества существенно невлияют начисло яйцеклеток изачатых эмбрионов, однако резко повышают эмбриональную смертность, причем максимальная доза (500микромоль) бисфенолаА увеличивает еевтрое, а бисфенола S-- впятеро.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	оба	оба	NUM	_	Case=Nom|Gender=Neut	5	nummod:gov	_	_
+5	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	существенно	существенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	невлияют	невлиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	начисло	начисло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	яйцеклеток	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	изачатых	изачатый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+14	резко	резко	ADV	_	Degree=Pos	15	advmod	_	_
+15	повышают	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	эмбриональную	эмбриональный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	смертность	смертность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	причем	причем	CCONJ	_	_	21	cc	_	_
+20	максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	доза	доза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	500микромоль	500микромоль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	бисфенолаА	бисфенолаа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	увеличивает	увеличивавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+27	еевтрое	еевтрый	PRON	_	Case=Nom	26	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	а	а	CCONJ	_	_	30	cc	_	_
+30	бисфенола	бисфенола	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+31	S--	S--	PUNCT	_	_	30	punct	_	_
+32	впятеро	впятеро	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 3248
+# text = Также выяснилось, что оба соединения нарушают нормальный процесс мейоза (клеточного деления, врезультате которого образуются половые клетки снепарным набором хромосом).
+1	Также	также	ADV	_	Degree=Pos	2	advmod	_	_
+2	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	оба	оба	NUM	_	Case=Nom|Gender=Neut	6	nummod:gov	_	_
+6	соединения	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	нарушают	нарушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	нормальный	нормальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	мейоза	мейоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	клеточного	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	деления	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	врезультате	врезультат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	которого	который	PRON	_	Case=Gen	15	nmod	_	_
+17	образуются	образовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+18	половые	половой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+20	снепарным	снепарный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	набором	набор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	_
+22	хромосом	хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3249
+# text = Это приводит кизменениям вструктуре и количестве хромосом, появлению дефектных половых клеток или ихгибели.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	кизменениям	кизменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	obl	_	_
+4	вструктуре	вструктура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	conj	_	_
+7	хромосом	хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+10	дефектных	дефектный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	ихгибели	ихгибель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 3250
+# text = Анализ экспрессии генов под действием бисфенолов показал, что механизмы ихдействия назародышевые половые клетки существенно отличаются, хотя имеют схожие черты.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	под	под	ADP	_	_	5	case	_	_
+5	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+6	бисфенолов	бисфенол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+11	ихдействия	ихдействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	назародышевые	назародышевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+13	половые	половой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+15	существенно	существенно	ADV	_	Degree=Pos	16	advmod	_	_
+16	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	хотя	хотя	SCONJ	_	_	16	mark	_	_
+19	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+20	схожие	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	черты	черта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3251
+# text = Бисфенол Аизменял регуляцию 623, абисфенол S-- 878 генов, причем только 142 изних оказались общими для обоих веществ.
+1	Бисфенол	Бисфенол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	Аизменял	Аизменять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	регуляцию	регуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	623	623	NUM	_	_	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	абисфенол	абисфенол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	orphan	_	_
+7	S-	S-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	878	878	NUM	_	_	10	nummod	_	_
+10	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	orphan	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	причем	причем	CCONJ	_	_	16	cc	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	142	142	NUM	_	_	15	nummod	_	_
+15	изних	изний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+17	общими	общий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	обоих	оба	NUM	_	Case=Gen|Gender=Masc	20	nummod	_	_
+20	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3252
+# text = При этом бисфенол Sзначительно сильнее бисфенолаА нарушал работу систем, восстанавливающих ДНК после повреждения.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	бисфенол	бисфенол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	Sзначительно	Sзначительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	сильнее	сильный	ADJ	_	Degree=Cmp	3	amod	_	_
+6	бисфенолаА	бисфенолаа	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	нарушал	нарушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	восстанавливающих	восстанавливать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 3253
+# text = Токсическое действие бисфенолаS само посебе требует дополнительного изучения споследующим пересмотром возможностей его использования впотребительских продуктах.
+1	Токсическое	Токсический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	бисфенолаS	бисфенолаs	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	посебе	посебе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	дополнительного	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+9	споследующим	споследующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пересмотром	пересмотр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+11	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	впотребительских	впотребительский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3254
+# text = Разница механизмов действия вызывает дополнительные опасения, поскольку сочетания бисфенолов идругих схожих по строению исфере применения веществ могут привести ксуммированию этих механизмов и усилению повреждающего действия наполовые клетки, отмечают авторы работы.
+1	Разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	опасения	опасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поскольку	поскольку	SCONJ	_	_	4	mark	_	_
+9	сочетания	сочетание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+10	бисфенолов	бисфенол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+12	схожих	схожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	строению	строение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+15	исфере	исфера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+16	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+17	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+18	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+19	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	ксуммированию	ксуммирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+21	этих	этот	DET	_	Case=Gen|Number=Plur	22	amod	_	_
+22	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	усилению	усиление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	conj	_	_
+25	повреждающего	повреждать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+26	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	28	obj	_	_
+27	наполовые	наполовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+32	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 3255
+# text = Бисфенолы-- далеко непервые вещества, токсическое действие которых обнаружилось после многих лет широкого применения.
+1	Бисфенолы	Бисфенол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	далеко	далеко	ADV	_	Degree=Pos	5	advmod	_	_
+5	непервые	непервый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	токсическое	токсический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	которых	который	PRON	_	Case=Gen	9	nmod	_	_
+11	обнаружилось	обнаруживаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	после	после	ADP	_	_	14	case	_	_
+13	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	широкого	широкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3256
+# text = Яркими примерами этого могут служить канцерогенный асбест, токсичный для эндокринной системы дуст и общетоксичный свинец вкрасителях идобавках кбензину.
+1	Яркими	яркий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	примерами	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	канцерогенный	канцерогенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	асбест	асбест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	токсичный	токсичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	эндокринной	эндокринный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	дуст	дуста	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	общетоксичный	общетоксичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	свинец	свинец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
+17	вкрасителях	вкраситель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	7	conj	_	_
+18	идобавках	идобавка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	nmod	_	_
+19	кбензину	кбензина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3257
+# text = Сообщения оподобных случаях иногда приводят ктому, что люди начинают опасаться веществ, вред которых неудалось обнаружить в ходе многочисленных научных исследований (пример -- пищевая добавка глутамат натрия).
+1	Сообщения	сообщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+2	оподобных	оподобный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+4	иногда	иногда	ADV	_	Degree=Pos	1	nmod	_	_
+5	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ктому	кто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	опасаться	опасаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вред	вред	ADP	_	_	15	case	_	_
+15	которых	который	PRON	_	Case=Gen	16	obl	_	_
+16	неудалось	неудаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+17	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+18	в	в	ADP	_	_	22	case	_	_
+19	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	fixed	_	_
+20	многочисленных	многочисленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	obl	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	parataxis	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	пищевая	пищевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	добавка	добавка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	conj	_	_
+28	глутамат	глутаматы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+29	натрия	натрий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3258
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3259

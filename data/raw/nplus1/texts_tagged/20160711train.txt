@@ -1,0 +1,375 @@
+# text = # newpar
+# sent_id = 2811
+# text = Исследователи из Федеральной политехнической школы в Лозанне в Швейцарии предложили скрестить железнодорожный вагон и самолет.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	из	из	ADP	_	_	5	case	_	_
+3	Федеральной	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	политехнической	политехнический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Лозанне	Лозанн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Швейцарии	швейцария	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+10	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	скрестить	скресщать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	железнодорожный	железнодорожный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	вагон	вагон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2812
+# text = Концепт получил название Clip-Air.
+1	Концепт	концепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	Clip-Air	Clip-Air	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2813
+# text = По оценке исследователей, если он будет реализован, проект позволит существенно сократить количество пересадок, совершаемых пассажирами при перелетах, включая такси и поезда.По оценке исследователей, при должном финансировании проект может быть реализован в течение ближайших 50 лет.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	если	если	SCONJ	_	_	2	mark	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	реализован	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+12	существенно	существенно	ADV	_	Degree=Pos	13	advmod	_	_
+13	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	пересадок	пересадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	совершаемых	совершать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	пассажирами	пассажир	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	obl:agent	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	перелетах	перелет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	включая	включая	ADV	_	Degree=Pos	34	advmod	_	_
+23	такси	такси	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	поезда.	поезда.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+26	По	по	ADP	_	_	27	case	_	_
+27	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	34	parataxis	_	_
+28	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	при	при	ADP	_	_	32	case	_	_
+31	должном	должный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	финансировании	финансирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	_
+33	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+34	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+35	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	aux:pass	_	_
+36	реализован	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+37	в	в	ADP	_	_	41	case	_	_
+38	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	fixed	_	_
+39	ближайших	ближайший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+40	50	50	NUM	_	_	41	nummod	_	_
+41	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 2814
+# text = КаксообщаетThe Verge, швейцарцы уже сформировали консорциум Clip-Air, который в ближайшие пять-десять лет создаст прототипы вагона и самолета-носителя, по размерам соответствующих частным бизнес-джетам.
+1	КаксообщаетThe	КаксообщаетThe	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Verge	Verge	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	швейцарцы	швейцарец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	сформировали	формировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	консорциум	консорциум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	Clip-	Clip-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Air	Air	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	ближайшие	близкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	16	amod	_	_
+14	пять-	пять-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	десять	десять	NUM	_	Case=Acc	16	nummod:gov	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+17	создаст	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+18	прототипы	прототип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	вагона	вагон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	самолета-носителя	самолета-носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	_
+25	соответствующих	соответствовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	27	amod	_	_
+26	частным	частной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	27	amod	_	_
+27	бизнес-джетам	бизнес-джет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2815
+# text = Прототип вагона будет вмещать до 150 пассажиров.Clip-Air предполагает создание вагонов и автобусов, корпус которых будет выполнен в виде фюзеляжа самолета.
+1	Прототип	прототип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	вагона	вагон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	вмещать	вмещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	150	150	NUM	_	_	7	nummod	_	_
+7	пассажиров.Clip-Air	пассажиров.Clip-Air	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+8	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	вагонов	вагон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	автобусов	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	fixed	_	_
+20	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+21	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2816
+# text = Каждый такой вагон сможет перевозить до 30 тонн грузов или 450 пассажиров.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	вагон	вагон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	перевозить	переваживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	30	30	NUM	_	_	8	nummod	_	_
+8	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	450	450	NUM	_	_	12	nummod	_	_
+12	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2817
+# text = Такие транспортные средства получат системы крепления.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	транспортные	транспортный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	средства	средства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	получат	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	крепления	крепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2818
+# text = После прибытия в аэропорт они будут пристегиваться к специальному самолету-носителю.Самолет-носитель Clip-Air предполагается выполнить трехдвигательным по схеме "летающего крыла".
+1	После	после	ADP	_	_	2	case	_	_
+2	прибытия	прибытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	аэропорт	аэропорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	пристегиваться	пристегиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	специальному	специальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	самолету-носителю	самолету-носитель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Самолет-	Самолет-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	носитель	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	Clip-	Clip-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Air	Air	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+17	выполнить	выполинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	трехдвигательным	трехдвигательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	летающего	летать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+23	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2819
+# text = Самолет сможет нести до трех вагонов-фюзеляжей.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	до	до	ADP	_	_	6	case	_	_
+5	трех	три	NUM	_	Case=Gen	6	nummod	_	_
+6	вагонов	вагон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	фюзеляжей	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2820
+# text = Швейцарские исследователи полагают, что проект Clip-Air позволит более полно использовать самолет за счет сокращения времени его простоя в аэропорту.
+1	Швейцарские	швейцарский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Clip-	Clip-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Air	Air	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	полно	полно	ADV	_	Degree=Pos	12	advmod	_	_
+12	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+13	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	за	за	ADP	_	_	16	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	сокращения	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+17	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+19	простоя	простое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	аэропорту	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2821
+# text = Впервые швейцарцы предложили проект Clip-Air в 2011 году.В ноябре прошлого года Бюро по патентам и торговым знакам США выдало европейскому авиастроительному концерну Airbus патент на разделяемый самолет.
+1	Впервые	впервый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	швейцарцы	швейцарец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	Clip-	Clip-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Air	Air	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	2011	2011	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	ADP	_	_	12	case	_	_
+12	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+13	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Бюро	Бюро	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	патентам	патент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	торговым	торговой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	20	amod	_	_
+20	знакам	знак	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	conj	_	_
+21	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	20	nmod	_	_
+22	выдало	выдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	европейскому	европейский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	авиастроительному	авиастроительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	концерну	концерн	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+26	Airbus	Airbus	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	патент	патент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nsubj	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	разделяемый	разделяемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2822
+# text = В этом летательном аппарате предусмотрено крепление съемной капсулы с пассажирским салоном и грузовым отсеком.
+1	В	в	ADP	_	_	4	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	4	amod	_	_
+3	летательном	летательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	предусмотрено	предусматривать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	крепление	крепление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+7	съемной	съемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	капсулы	капсула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	пассажирским	пассажирский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	салоном	салон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	грузовым	грузовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	отсеком	отсек	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2823
+# text = По оценке концерна, такая капсула позволит ускорить пассажиро- и грузооборот в аэропортах и значительно сократить время простоя самолетов.Предполагается, что на земле капсула будет частью терминала аэропорта.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	концерна	концерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	капсула	капсула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	пассажиро	пассажиро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	грузооборот	грузооборот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	аэропортах	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	простоя	простой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	самолетов.	самолетовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+26	капсула	капсул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+28	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	advcl	_	_
+29	терминала	терминал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	аэропорта	аэропорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2824
+# text = Еще до прибытия самолета в нее загрузят багаж, а пассажиры займут свои места.
+1	Еще	еще	ADV	_	Degree=Pos	3	advmod	_	_
+2	до	до	ADP	_	_	3	case	_	_
+3	прибытия	прибытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+4	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+7	загрузят	загрузить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	багаж	багаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	пассажиры	пассажир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	займут	занимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	свои	свой	DET	_	Case=Acc|Number=Plur	14	amod	_	_
+14	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2825
+# text = Когда самолет прилетит в аэропорт, специальный кран снимет с него капсулу с пассажирами и установит вместо нее новую.
+1	Когда	когда	ADV	_	Degree=Pos	9	mark	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	прилетит	прилетать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	аэропорт	аэропорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	кран	кран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	снимет	снимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+12	капсулу	капсула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	пассажирами	пассажир	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	установит	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	вместо	вместо	ADP	_	_	18	case	_	_
+18	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+19	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2826
+# text = Сразу после этого самолет сможет снова взлететь.
+1	Сразу	сразу	ADV	_	Degree=Pos	5	advmod	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	снова	снова	ADV	_	Degree=Pos	7	advmod	_	_
+7	взлететь	взлетать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2827
+# text = Таким образом значительно сократится время, проведенное самолетом на земле.Василий Сычёв
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	значительно	значительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	сократится	сокращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	проведенное	проводить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	земле.	землбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+11	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+
+# newpar
+# sent_id = 2828

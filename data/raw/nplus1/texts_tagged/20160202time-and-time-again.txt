@@ -1,0 +1,249 @@
+# text = # newpar
+# sent_id = 400
+# text = Специалисты Google после каждого изменения в программном обеспечении беспилотных автомобилей запускают проверку работоспособности системы управления на симуляторе.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Google	гугл	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	после	после	ADP	_	_	5	case	_	_
+4	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+9	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	запускают	запускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	проверку	проверка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	работоспособности	работоспособность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	симуляторе	симулятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 401
+# text = Благодаря ранее записанным данным система управления заново проезжает те же самые маршруты, которые гугломобили проехали в прошлом по реальным дорогам.
+1	Благодаря	благодаря	ADP	_	_	4	case	_	_
+2	ранее	ранее	ADV	_	Degree=Cmp	3	advmod	_	_
+3	записанным	писать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	8	obl	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	заново	заново	ADV	_	Degree=Pos	8	advmod	_	_
+8	проезжает	проезжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	те	тот	DET	_	Case=Acc|Number=Plur	12	amod	_	_
+10	же	же	PART	_	_	9	advmod	_	_
+11	самые	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	маршруты	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	гугломобили	гугломобивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+16	проехали	ехать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	прошлом	прошлое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+19	по	по	ADP	_	_	21	case	_	_
+20	реальным	реальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 402
+# text = Об этом говорится в опубликованном ежемесячном отчете, рассказывающем о проделанной работе в рамках проекта беспилотных автомобилей Google Self-Driving Car.Кроме использования уже пройденных на реальных дорогах маршрутов симулятор используется для проверки поведения автомобилей в смоделированных ситуациях и в ситуациях, когда водитель-испытатель взял управление в свои руки.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	7	case	_	_
+5	опубликованном	опубликовать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	ежемесячном	ежемесячный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	отчете	отчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	рассказывающем	рассказывать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	о	о	ADP	_	_	12	case	_	_
+11	проделанной	проделывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+15	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	Google	google	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+19	Self-Driving	Self-driving	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+20	Car.	car.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+21	Кроме	кроме	ADP	_	_	22	case	_	_
+22	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+23	уже	уже	ADV	_	Degree=Pos	24	advmod	_	_
+24	пройденных	йдеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	реальных	реальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	obl	_	_
+28	маршрутов	маршрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+29	симулятор	симулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+30	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	_
+33	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	смоделированных	смоделированный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	37	amod	_	_
+37	ситуациях	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	42	obl	_	_
+38	и	и	CCONJ	_	_	40	cc	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	ситуациях	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	42	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	когда	когда	SCONJ	_	_	30	mark	_	_
+43	водитель-	водитель-	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	испытатель	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	_
+45	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
+46	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	45	obj	_	_
+47	в	в	ADP	_	_	49	case	_	_
+48	свои	свой	DET	_	Case=Acc|Number=Plur	49	amod	_	_
+49	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	45	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 403
+# text = Специалисты проекта условно "выключают" водителя на симуляторе и смотрят, что могло произойти без вмешательства со стороны человека.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	условно	условно	ADV	_	Degree=Pos	5	advmod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	выключают	выключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	симуляторе	симулятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	смотрят	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+15	произойти	происходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	без	без	ADP	_	_	17	case	_	_
+17	вмешательства	вмешательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	со	со	ADP	_	_	20	case	_	_
+19	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	fixed	_	_
+20	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 404
+# text = По словам представителей Google, каждый день программное обеспечение беспилотных автомобилей проезжает на симуляторе до пяти миллионов километров.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+10	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	проезжает	проезжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	симуляторе	симулятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	пяти	пять	NUM	_	Case=Gen	17	nummod	_	_
+17	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+18	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 405
+# text = На данный момент на дорогах общего пользования передвигается 55 автомобилей проекта Google Self-Driving Car.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+6	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	передвигается	передвигаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	55	55	NUM	_	_	10	nummod	_	_
+10	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_
+11	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Google	Google	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Self-Driving	Self-Driving	X	_	Foreign=Yes	12	flat:foreign	_	_
+14	Car	Car	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 406
+# text = Из них 22 автомобиля -- переоборудованные серийные Lexus RX450h, а остальные 33 -- беспилотные электромобили собственной разработки Google.
+1	Из	из	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+3	22	22	NUM	_	_	4	nummod	_	_
+4	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	переоборудованные	переоборудовать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	серийные	серийный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	Lexus	Lexus	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+9	RX450h	RX450h	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	33	33	NUM	_	_	8	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	беспилотные	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	электромобили	электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+17	собственной	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 407
+# text = За время существования проекта автомобили в режиме самоуправления проехали чуть меньше 2,3 миллионов километров, на данном этапе эта цифра увеличивается на 15-25 тысяч километров в неделю.
+1	За	за	ADP	_	_	2	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+3	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	самоуправления	самоуправление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	проехали	проезжать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	чуть	чуть	ADV	_	Degree=Pos	11	advmod	_	_
+11	меньше	мало	NUM	_	_	13	nummod:gov	_	_
+12	2,3	2,3	NUM	_	_	13	nummod	_	_
+13	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+14	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+19	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+20	цифра	цифра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	увеличивается	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+22	на	на	ADP	_	_	25	case	_	_
+23	15	15	NUM	_	_	25	nummod	_	SpaceAfter=No
+24	-25	-25	NUM	_	_	25	nummod	_	_
+25	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	obl	_	_
+26	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 408
+# text = Ранее сообщалось, что проект Google Self-Driving Car планирует включить в программу тестирования беспилотных автомобилей на дорогах общего пользования четыре новых города.Николай Воронцов
+1	Ранее	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	сообщалось	сообщаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	Google	Google	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Self-Driving	Self-Driving	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Car	Car	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	включить	включать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	тестирования	тестирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+18	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	22	nummod:gov	_	_
+21	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+25	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 409

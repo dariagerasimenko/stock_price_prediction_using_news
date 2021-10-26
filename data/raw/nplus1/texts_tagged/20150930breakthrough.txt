@@ -1,0 +1,628 @@
+# text = # newpar
+# sent_id = 4629
+# text = Группа исследователей из Дартмутского института политики в области здравоохранения и клинической практики и Университета Карнеги-Меллон обнаружила, что употребление слов "прорыв" (breakthrough) и даже "многообещающее" (promising) в описании лекарств значительно увеличивает уверенность потребителей в их эффективности.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	Дартмутского	Дартмутский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	политики	политика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+9	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	клинической	клинический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	практики	практика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+15	Карнеги-Меллон	Карнеги-Меллон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	_
+16	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	36	conj	_	_
+20	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	breakthrough	breakthrough	X	_	Foreign=Yes	22	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	и	и	CCONJ	_	_	30	cc	_	_
+28	даже	даже	PART	_	_	30	advmod	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	многообещающее	многообещающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	promising	promising	X	_	Foreign=Yes	30	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	39	obl	_	_
+37	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	36	nmod	_	_
+38	значительно	значительно	ADV	_	Degree=Pos	39	advmod	_	_
+39	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+40	уверенность	уверенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	_
+41	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	_
+42	в	в	ADP	_	_	44	case	_	_
+43	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	44	nmod	_	_
+44	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 4630
+# text = Работа опубликована в журнале JAMA Internal Medicine.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	JAMA	Jama	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Internal	Internal	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Medicine	Medicine	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4631
+# text = В повседневной жизни слово "прорыв" обозначает любое по-настоящему значительное, открывающее новые горизонты продвижение в какой-либо области.
+1	В	в	ADP	_	_	3	case	_	_
+2	повседневной	повседневный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+4	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	обозначает	обозначать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	любое	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	по-настоящему	по-настоящему	ADV	_	Degree=Pos	11	advmod	_	_
+11	значительное	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	открывающее	открывать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+14	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	горизонты	горизонт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+16	продвижение	продвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	какой-либо	какой-либо	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	amod	_	_
+19	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4632
+# text = Однако в области фармакологии оно имеет вполне конкретный смысл.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+4	фармакологии	фармакология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	вполне	вполне	ADV	_	Degree=Pos	8	advmod	_	_
+8	конкретный	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	смысл	смысл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4633
+# text = С 2012 года Управление по санитарному надзору за качеством пищевых продуктов и медикаментов США (US Food and Drug Administration) может называть таким образом лекарства, которые "лечат серьезные или опасные для жизни состояния" или "демонстрируют значительное улучшение результатов лечения по сравнению с уже существующими видами терапии".
+1	С	с	ADP	_	_	3	case	_	_
+2	2012	2012	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+4	Управление	управление	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	санитарному	санитарный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	надзору	надзор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	качеством	качество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+10	пищевых	пищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	US	Us	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	Food	Food	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	and	and	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	Drug	Drug	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Administration	Administration	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+23	называть	называть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	25	amod	_	_
+25	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+26	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	лечат	лечить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+31	серьезные	серьезный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+32	или	или	CCONJ	_	_	33	cc	_	_
+33	опасные	опасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	conj	_	_
+34	для	для	ADP	_	_	35	case	_	_
+35	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+36	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	_
+38	или	или	CCONJ	_	_	40	cc	_	_
+39	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	демонстрируют	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj	_	_
+41	значительное	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
+42	улучшение	улучшение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obj	_	_
+43	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+44	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
+45	по	по	ADP	_	_	50	case	_	_
+46	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	45	fixed	_	_
+47	с	с	ADP	_	_	46	fixed	_	_
+48	уже	уже	ADV	_	Degree=Pos	49	advmod	_	_
+49	существующими	существовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	50	amod	_	_
+50	видами	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	44	obl	_	_
+51	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	51	punct	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	51	punct	_	_
+
+# sent_id = 4634
+# text = Такая характеристика может даваться только на основании предварительных экспериментальных доказательств и позволяет получить ускоренное одобрение FDA.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	характеристика	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	даваться	давать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	3	xcomp	_	_
+5	только	только	PART	_	_	7	advmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	предварительных	предварительной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	экспериментальных	экспериментальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	ускоренное	ускорять	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	одобрение	одобрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	FDA	Fda	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4635
+# text = В то же время, простые потребители лекарств склонны толковать слово "прорыв" иначе.
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	простые	простой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	потребители	потребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	склонны	склонный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+10	толковать	толковать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	иначе	иначе	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4636
+# text = Чаще всего они интерпретируют этот сугубо технический для FDA термин как подтверждение особой "чудодейственной" эффективности препарата.
+1	Чаще	часто	ADV	_	Degree=Cmp	4	advmod	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	интерпретируют	интерпретировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+6	сугубо	сугубо	ADV	_	Degree=Pos	7	advmod	_	_
+7	технический	технический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	FDA	FDA	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	термин	термина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	как	как	SCONJ	_	_	12	cc	_	_
+12	подтверждение	подтверждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	advmod	_	_
+13	особой	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	чудодейственной	чудодейственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+18	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4637
+# text = Чтобы проверить влияние характеристики "прорыв" на мнение потребителей, ученые провели онлайн-исследование.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	_
+2	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	advcl	_	_
+3	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	мнение	мнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+10	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	онлайн	онлайн	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4638
+# text = 597 рядовых американцев (средний возраст 36 лет, все окончили колледж или университет) были разбиты на пять групп.
+1	597	597	NUM	_	_	3	nummod	_	_
+2	рядовых	рядовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	американцев	американец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	средний	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
+7	36	36	NUM	_	_	8	nummod	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	11	nsubj	_	_
+11	окончили	окончать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	колледж	колледж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	университет	университет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	разбиты	разбивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	пять	пять	NUM	_	Case=Acc	20	nummod:gov	_	_
+20	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4639
+# text = Первая получала описание недавно одобренного FDA лекарства против рака легких, базирующегося исключительно на твердо установленных об этом препарате фактах, взятых из пресс-релиза FDA.
+1	Первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получала	получать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	недавно	недавно	ADV	_	Degree=Pos	5	advmod	_	_
+5	одобренного	одобрять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	FDA	Fda	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+8	против	против	ADP	_	_	9	case	_	_
+9	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	легких	легкий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	базирующегося	базируться	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	_
+13	исключительно	исключительно	ADV	_	Degree=Pos	12	advmod	_	_
+14	на	на	ADP	_	_	20	case	_	_
+15	твердо	твердо	ADV	_	Degree=Pos	16	advmod	_	_
+16	установленных	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+17	об	о	ADP	_	_	19	case	_	_
+18	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	19	amod	_	_
+19	препарате	препарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+20	фактах	факт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	взятых	брать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	пресс-релиза	пресс-релиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+25	FDA	Fda	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4640
+# text = Это описание содержало все критерии, которые FDA посчитало достаточными, чтобы охарактеризовать лекарство как "прорывное", но не содержало самого слова "прорыв".
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	содержало	содержать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	все	весь	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	критерии	критерий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	FDA	Fda	PROPN	_	Foreign=Yes	9	nsubj	_	_
+9	посчитало	считать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	достаточными	достаточной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+13	охарактеризовать	охарактеризовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+14	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	как	как	SCONJ	_	_	17	cc	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	прорывное	прорывный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	но	но	CCONJ	_	_	22	cc	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	содержало	содержать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+23	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nsubj	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4641
+# text = Описание для второй группы было идентичным первому, но содержало обозначение "многообещающее", а для третьей, соответственно, слово "прорыв".
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	для	для	ADP	_	_	4	case	_	_
+3	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	идентичным	идентичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	первому	первый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	но	но	CCONJ	_	_	10	cc	_	_
+10	содержало	содержать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+11	обозначение	обозначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	многообещающее	многообещающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	третьей	третий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	соответственно	соответственно	ADV	_	Degree=Pos	22	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4642
+# text = Четвертая и пятая группы также получили описания нового препарата со словом "прорыв", но в одном случаем использовался особый профессиональный язык, выражающий неуверенность и предположительную эффективность лекарства (конструкции типа "возможно, это лекарство предотвращает возникновение метастазов"), а во втором все формулировки носили определенный и категорический характер (например, "лекарство предотвращает возникновение метастазов").
+1	Четвертая	четвертый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	пятая	пятой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	группы	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+5	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+6	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	описания	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+8	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	со	с	ADP	_	_	11	case	_	_
+11	словом	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	но	но	CCONJ	_	_	20	cc	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	одном	одный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	случаем	случай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+20	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
+21	особый	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	профессиональный	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	язык	язык	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	выражающий	выражать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	неуверенность	неуверенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	предположительную	предположительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_
+30	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	appos	_	_
+33	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	возможно	возможно	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	38	amod	_	_
+38	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	39	nsubj	_	_
+39	предотвращает	предотвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+40	возникновение	возникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	39	obj	_	_
+41	метастазов	метастаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	41	punct	_	_
+45	а	а	CCONJ	_	_	50	cc	_	_
+46	во	в	ADP	_	_	47	case	_	_
+47	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+48	все	весь	DET	_	Case=Acc|Number=Plur	49	amod	_	_
+49	формулировки	формулировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	50	obj	_	_
+50	носили	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+51	определенный	определять	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	категорический	категорический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	51	conj	_	_
+54	характер	характер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	50	obj	_	_
+55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	например	например	ADV	_	Degree=Pos	60	parataxis	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	"	"	PUNCT	_	_	59	punct	_	SpaceAfter=No
+59	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	60	obj	_	_
+60	предотвращает	предотвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	54	parataxis	_	_
+61	возникновение	возникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	60	obj	_	_
+62	метастазов	метастаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	61	nmod	_	SpaceAfter=No
+63	"	"	PUNCT	_	_	62	punct	_	SpaceAfter=No
+64	)	)	PUNCT	_	_	62	punct	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	62	punct	_	_
+
+# sent_id = 4643
+# text = Выяснилось, что употребление любой из двух характеристик -- "прорыв" и "многообещающее" значительно увеличивает процент респондентов, считающих что препарат "очень эффективен" или "абсолютно эффективен" по сравнению с группой получившей сугубо фактологическое описание (23 и 25 процентов против 11).
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+5	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	двух	два	NUM	_	Case=Gen	8	nummod	_	_
+8	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	многообещающее	многообещающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	значительно	значительно	ADV	_	Degree=Pos	18	advmod	_	_
+18	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+19	процент	процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
+20	респондентов	респондент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	считающих	считать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+23	что	что	PRON	_	Case=Acc	24	mark	_	_
+24	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	очень	очень	ADV	_	Degree=Pos	27	advmod	_	_
+27	эффективен	эффективный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	24	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	или	или	CCONJ	_	_	32	cc	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	абсолютно	абсолютно	ADV	_	Degree=Pos	32	advmod	_	_
+32	эффективен	эффективный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	27	conj	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	_
+34	по	по	ADP	_	_	37	case	_	_
+35	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	34	fixed	_	_
+36	с	с	ADP	_	_	35	fixed	_	_
+37	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	nmod	_	_
+38	получившей	получать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	37	amod	_	_
+39	сугубо	сугубо	ADV	_	Degree=Pos	38	advmod	_	_
+40	фактологическое	фактологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+41	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	23	23	NUM	_	_	46	nummod	_	_
+44	и	и	CCONJ	_	_	45	cc	_	_
+45	25	25	NUM	_	_	46	nummod	_	_
+46	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	parataxis	_	_
+47	против	против	ADP	_	_	48	case	_	_
+48	11	11	NUM	_	_	46	nummod	_	SpaceAfter=No
+49	)	)	PUNCT	_	_	48	punct	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 4644
+# text = Вера в надежность и достоверность полученных экспериментальных доказательств препарата также увеличилась (59 и 63 процента против 43).
+1	Вера	вера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	надежность	надежность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	достоверность	достоверность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+6	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	экспериментальных	экспериментальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+9	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	59	59	NUM	_	_	11	nummod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	63	63	NUM	_	_	13	conj	_	_
+16	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	против	против	ADP	_	_	18	case	_	_
+18	43	43	NUM	_	_	16	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4645
+# text = В то же время, что интересно, как "предположительный" стиль описания лекарства, так и "определенный" снижали ложное убеждение, что "доказано -- препарат спасает жизни людей" по сравнению с описанием, использующим слово "прорыв" (16 и 10 процентов соответственно против 31).
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+7	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	11	cc	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	предположительный	предположительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	стиль	стиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+14	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	лекарства	лекарство	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+18	и	и	PART	_	_	20	advmod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	определенный	определенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	снижали	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+23	ложное	ложной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	убеждение	убеждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	что	что	SCONJ	_	_	22	mark	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	доказано	доказывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	31	conj	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+31	спасает	спасать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
+32	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	31	obj	_	_
+33	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	33	punct	_	_
+35	по	по	ADP	_	_	38	case	_	_
+36	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	35	fixed	_	_
+37	с	с	ADP	_	_	36	fixed	_	_
+38	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	использующим	использовать	VERB	_	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	41	amod	_	_
+41	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	appos	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	16	16	NUM	_	_	49	nummod	_	_
+47	и	и	CCONJ	_	_	48	cc	_	_
+48	10	10	NUM	_	_	49	nummod	_	_
+49	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	_
+50	соответственно	соответственно	ADV	_	Degree=Pos	52	advmod	_	_
+51	против	против	ADP	_	_	52	case	_	_
+52	31	31	NUM	_	_	31	nummod	_	SpaceAfter=No
+53	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	52	punct	_	_
+
+# sent_id = 4646
+# text = В завершении исследования всем испытуемым дали два описания двух разных препаратов, лечащих одну и ту же болезнь -- одно, построенное на фактах и второе использующее слово "прорыв".
+1	В	в	ADP	_	_	2	case	_	_
+2	завершении	завершение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	3	nmod	_	_
+5	испытуемым	испытуть	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	дали	даль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	два	два	NUM	_	Case=Acc|Gender=Neut	8	nummod:gov	_	_
+8	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nsubj	_	_
+9	двух	два	NUM	_	Case=Gen	11	nummod	_	_
+10	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	лечащих	лечать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+14	одну	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+17	же	же	PART	_	_	16	advmod	_	_
+18	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	одно	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	построенное	построать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	фактах	факт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	_
+25	и	и	CCONJ	_	_	28	cc	_	_
+26	второе	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	использующее	использовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+28	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	conj	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4647
+# text = После чего спросили: "Какой из двух препаратов вы будете принимать, если ваше заболевание, потенциально, будет угрожать смертельным исходом".
+1	После	после	ADP	_	_	2	case	_	_
+2	чего	что	PRON	_	Case=Gen	3	obl	_	_
+3	спросили	спрашивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+9	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	12	nsubj	_	_
+11	будете	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	если	если	SCONJ	_	_	12	mark	_	_
+15	ваше	ваш	DET	_	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	_
+16	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	потенциально	потенциально	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+21	угрожать	угрожать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	_
+22	смертельным	смертельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	исходом	исход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4648
+# text = 92 процента респондентов выбрали лекарство со словом "прорыв".Даниил Кузнецов
+1	92	92	NUM	_	_	2	nummod	_	_
+2	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	респондентов	элереспондент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	со	с	ADP	_	_	7	case	_	_
+7	словом	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	Даниил	Даниивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	Кузнецов	Кузнецов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+
+# newpar
+# sent_id = 4649

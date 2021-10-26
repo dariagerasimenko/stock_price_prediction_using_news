@@ -1,0 +1,215 @@
+# text = # newpar
+# sent_id = 3832
+# text = Один из оставшихся на Земле прототипов лунных вездеходов, созданных в рамках программы "Аполлон" для передвижения космонавтов по поверхности Луны, в прошлом году был продан на металлолом.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	28	nsubj	_	_
+2	из	из	ADP	_	_	3	mark	_	_
+3	оставшихся	оставаться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	1	amod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Земле	земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	прототипов	прототип	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	лунных	лунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	вездеходов	вездеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	созданных	создавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+13	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Аполлон	Аполлон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+19	космонавтов	космонавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+22	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	_
+27	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	продан	продавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+29	на	на	ADP	_	_	30	case	_	_
+30	металлолом	металлолом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3833
+# text = Об этом, сообщает портал Motherboard со ссылкой на запрошенные внутренние документы NASA.Согласно документам, уничтоженный лунный вездеход (Lunar Scientific Survey Module, LSSM) был разработан и проходил испытания в Центре космических полётов имени Джорджа Маршалла в 1965-1966 годах.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+6	Motherboard	Motherboard	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	со	с	ADP	_	_	8	case	_	_
+8	ссылкой	ссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+9	на	на	ADP	_	_	12	case	_	_
+10	запрошенные	запрошать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	внутренние	внутренний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	документы	документы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+13	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+14	Согласно	согласно	ADP	_	_	15	case	_	_
+15	документам	документ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	уничтоженный	уничтожать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	лунный	лунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	вездеход	вездеход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Lunar	Lunar	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+22	Scientific	Scientific	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Survey	Survey	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Module	Module	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	LSSM	Lssm	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	aux:pass	_	_
+29	разработан	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	проходил	проходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	conj	_	_
+32	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	31	obl	_	_
+33	в	в	ADP	_	_	32	case	_	_
+34	Центре	центр	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+35	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	полётов	полёт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+37	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+38	Джорджа	джордж	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	Маршалла	маршалл	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	flat:name	_	_
+40	в	в	ADP	_	_	44	case	_	_
+41	1965	1965	NUM	_	_	44	nummod	_	SpaceAfter=No
+42	-	-	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	1966	1966	NUM	_	_	41	nummod	_	_
+44	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 3834
+# text = В одном из документов указывается, что вездеход был 6,4 метра в длину, 4,5 метра в ширину и весил более трех с половиной тонн.
+1	В	в	ADP	_	_	2	case	_	_
+2	одном	один	NUM	_	Case=Loc|Gender=Masc	5	nummod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	документов	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	указывается	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	вездеход	вездеход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	6,4	6,4	NUM	_	_	11	nummod	_	_
+11	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	advcl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	4,5	4,5	NUM	_	_	16	nummod	_	_
+16	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	ширину	ширина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	весил	вешивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+21	более	более	ADV	_	Degree=Cmp	22	advmod	_	_
+22	трех	три	NUM	_	Case=Gen	24	nummod	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	половиной	половина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+25	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3835
+# text = Прототип лунного автомобиля имел шесть колес диаметром полтора метра.На необычное транспортное средство обратил внимание историк, имя которого не называется.
+1	Прототип	прототип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	лунного	лунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	шесть	шесть	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	колес	колесо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+7	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	полтора	полтора	NUM	_	Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	метра.	метра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	На	на	ADP	_	_	9	case	_	_
+11	необычное	необычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	транспортное	транспортный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	средство	средство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+14	обратил	обращать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	историк	историк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+19	которого	который	PRON	_	Case=Gen	18	nmod	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	называется	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3836
+# text = Он в феврале 2014 года приехал навестить мать, живущую в городе Бланствилл, штат Алабама, и увидел лунный вездеход, стоящий на заднем дворе дома напротив.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	2014	2014	NUM	_	_	5	nummod	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	приехал	приехывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	навестить	навещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	мать	мать	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	живущую	жить	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	Бланствилл	Бланствилл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	штат	штат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+16	Алабама	Алабам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+20	лунный	лунный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	вездеход	вездеход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	стоящий	стоять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	заднем	задний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	дворе	двор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+27	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	напротив	напротив	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3837
+# text = Ученый оповестил NASA, однако агентство не отреагировало оперативно.
+1	Ученый	ученый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	obj	_	_
+2	оповестил	оповескать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+6	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	отреагировало	отреагировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	оперативно	оперативно	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3838
+# text = В декабре 2014 года представители NASA вышли на контакт с текущим владельцем дома и выяснили, что предыдущий хозяин уже умер, а вездеход отправлен на металлолом.
+1	В	в	ADP	_	_	2	case	_	_
+2	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	2014	2014	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	вышли	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	контакт	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	текущим	текущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	владельцем	владелец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+13	дома	дома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	предыдущий	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	хозяин	хозяин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	уже	уже	ADV	_	Degree=Pos	21	advmod	_	_
+21	умер	умирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	вездеход	вездеход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+25	отправлен	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	conj	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	металлолом	металлолом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 3839

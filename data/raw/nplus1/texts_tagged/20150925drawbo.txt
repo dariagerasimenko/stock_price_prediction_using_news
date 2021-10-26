@@ -1,0 +1,170 @@
+# text = # newpar
+# sent_id = 4032
+# text = Программист из ЦюрихаМауриц Бос сконструировал небольшого робота, который раз в несколько минут стирает надпись на доске и пишет на том же месте маркером текущее время.
+1	Программист	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	ЦюрихаМауриц	ЦюрихаМауриц	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Бос	Бос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	сконструировал	конструировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	небольшого	небольшой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+10	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	13	nummod:gov	_	_
+13	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	стирает	стирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+15	надпись	надпись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	доске	доска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	на	на	ADP	_	_	23	case	_	_
+21	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	23	amod	_	_
+22	же	же	PART	_	_	21	advmod	_	_
+23	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+24	маркером	маркер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+25	текущее	текущий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4033
+# text = Файлы для печати деталей роботаопубликованыв репозитории GitHub.Управляет роботом микроконтроллерPIC16F1454 с радиопередатчиком.
+1	Файлы	файл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	роботаопубликованыв	роботаопубликованыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	репозитории	репозитория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	GitHub	GitHub	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Управляет	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	микроконтроллерPIC16F1454	микроконтроллерpic16f1454	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	nmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	радиопередатчиком	радиопередатчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4034
+# text = Такой же микроконтроллер подключен к компьютеру, который отправляет роботу задания по самописному протоколу, в котором даже предусмотрена простейшая система защиты от ошибок при передаче данных.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	микроконтроллер	микроконтроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	подключен	подключать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	компьютеру	компьютер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	отправляет	отправлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	роботу	робота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	задания	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	по	по	ADP	_	_	14	case	_	_
+13	самописному	самописный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	протоколу	протокол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	котором	который	PRON	_	Case=Loc	19	obl	_	_
+18	даже	даже	PART	_	_	19	advmod	_	_
+19	предусмотрена	предусматривать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+20	простейшая	простейшый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+22	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	от	от	ADP	_	_	24	case	_	_
+24	ошибок	ошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+25	при	при	ADP	_	_	26	case	_	_
+26	передаче	передача	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4035
+# text = Для экономии памяти контроллера каждая часть фломастерного дисплея может отображать только те символы, которые ей необходимы, поэтому, например, на левую часть дисплея робот-часы может выводить только цифры 1 и 2.Все механические части устройства изготовлены при помощи 3D-печати.
+1	Для	для	ADP	_	_	2	case	_	_
+2	экономии	экономия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+3	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	контроллера	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	фломастерного	фломастерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	дисплея	дисплей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	отображать	отображать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	только	только	PART	_	_	12	advmod	_	_
+12	те	тот	DET	_	Case=Acc|Number=Plur	13	amod	_	_
+13	символы	символ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	17	nsubj	_	_
+16	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
+17	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	поэтому	поэтому	ADV	_	Degree=Pos	28	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	левую	левый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
+26	дисплея	дисплей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	робот-часы	робот-часа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+29	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+30	только	только	PART	_	_	31	advmod	_	_
+31	цифры	цифра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+32	1	1	NUM	_	_	31	nummod	_	_
+33	и	и	CCONJ	_	_	37	cc	_	_
+34	2.	2	NUM	_	_	37	nummod	_	SpaceAfter=No
+35	Все	весь	DET	_	Case=Nom|Number=Plur	37	amod	_	_
+36	механические	механический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	conj	_	_
+38	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	изготовлены	изготовлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+40	при	при	ADP	_	_	43	case	_	_
+41	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	fixed	_	_
+42	3D	3d	PROPN	_	Foreign=Yes	43	nsubj	_	SpaceAfter=No
+43	-печати	-печать	NUM	_	Case=Loc	39	nummod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 4036
+# text = Управление манипулятором производится при помощи трех сервоприводов: два двигают руку в плоскости доски, третий отвечает за вынимание фломастера из колпачка.Ранее необычный подход при проектировании часов проявил инженер Дэвид Ын,сконструировавна базе Arduino часы с алкотестером.Николай Воронцов
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	манипулятором	манипулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+3	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	при	при	ADP	_	_	7	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	трех	три	NUM	_	Case=Gen	7	nummod	_	_
+7	сервоприводов	сервопривод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	два	два	NUM	_	Case=Nom|Gender=Masc	10	nsubj	_	_
+10	двигают	двигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	плоскости	плоскость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+14	доски	доска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	третий	третие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	conj	_	_
+17	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	за	за	ADP	_	_	19	case	_	_
+19	вынимание	вынимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+20	фломастера	фломастер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	колпачка.	колпачка.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	Ранее	орана	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	25	nmod	_	_
+24	необычный	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+26	при	при	ADP	_	_	27	case	_	_
+27	проектировании	проектирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	nmod	_	_
+28	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	проявил	проявливать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+31	Дэвид	дэвид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	appos	_	_
+32	Ын,сконструировавна	Ын,сконструировавный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	parataxis	_	_
+33	базе	база	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	32	nmod	_	_
+34	Arduino	Arduino	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	часы	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	38	obj	_	_
+36	с	с	ADP	_	_	37	case	_	_
+37	алкотестером.	алкотестеромя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+39	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	flat:name	_	_
+
+# newpar
+# sent_id = 4037

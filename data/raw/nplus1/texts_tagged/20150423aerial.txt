@@ -1,0 +1,126 @@
+# text = # newpar
+# sent_id = 1904
+# text = Американский палубный беспилотный летательный аппарат -- демонстратор технологий X-47B UCAS-D впервые совершил дозаправку в воздухе, говорится в пресс-релизе компании Northrop Grumman.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+2	палубный	палубный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	летательный	летательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	демонстратор	демонстратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+8	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	X	x	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	47B	47b	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	UCAS-D	UCAS-d	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	впервые	впервые	ADV	_	Degree=Pos	14	advmod	_	_
+14	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	дозаправку	дозаправка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	parataxis	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+22	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	Northrop	Northrop	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Grumman	Grumman	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1905
+# text = Испытательный полет под контролем ВМС США состоялся 22 апреля 2015 года и был признан успешным.
+1	Испытательный	испытательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	контролем	контроль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
+7	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	22	22	NUM	_	_	7	nummod	_	_
+9	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	2015	2015	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	признан	признавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+15	успешным	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1906
+# text = Таким образом X-47B стал первым в мире беспилотником, способным дозаправляться в воздухе.Во время испытаний X-47B сблизился с самолетом-заправщиком KC-707 авиакомпании Omega Air и, получив сигнал экипажа летающего танкера, зашел в хвост.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	_
+3	X	x	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	47B	47b	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	беспилотником	беспилотник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	способным	способный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+13	дозаправляться	дозаправляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	dep	_	_
+14	в	в1	ADP	_	_	15	case	_	_
+15	воздухе.	воздухбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+16	Во	во	ADP	_	_	18	case	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	fixed	_	_
+18	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	obl	_	_
+19	X	x	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	47B	47b	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+22	сблизился	сближаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	заправщиком	заправщик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	appos	_	_
+27	KC-	Kc-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+28	707	707	NUM	_	_	29	nummod	_	_
+29	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	Omega	Omega	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Air	air	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	и	и	CCONJ	_	_	40	cc	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	получив	получать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	40	advcl	_	_
+35	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+36	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	летающего	летать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+38	танкера	танкер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	зашел	заходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	хвост	хвост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 1907
+# text = После этого беспилотник в автономном режиме выдвинул топливоприемник и соединился с конусом заправочного шланга.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+3	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	автономном	автономный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	выдвинул	выдвигать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	топливоприемник	топливоприемник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	соединился	соединяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	конусом	конус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	заправочного	заправочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	шланга	шланг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1908
+# text = По окончании заправки американский беспилотник вернулся на базу.
+1	По	по	ADP	_	_	2	case	_	_
+2	окончании	окончание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	заправки	заправка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 1909

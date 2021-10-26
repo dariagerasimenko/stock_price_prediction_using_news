@@ -1,0 +1,538 @@
+# text = # newpar
+# sent_id = 5157
+# text = Иммунологи из Мэрилендского университета полагают, что нашли антитела, способные эффективно лечить больных ближневосточным респираторным синдромом, быстро распространяющимся коронавирусом MERS-CoV с летальностью до 40 процентов.
+1	Иммунологи	Иммунолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Мэрилендского	Мэрилендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+9	антитела	антитело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	acl	_	_
+12	эффективно	эффективно	ADV	_	Degree=Pos	13	advmod	_	_
+13	лечить	лечить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+14	больных	больной	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	ближневосточным	ближневосточной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	респираторным	респираторный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	синдромом	синдром	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	быстро	быстро	ADV	_	Degree=Pos	20	advmod	_	_
+20	распространяющимся	распространяться	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	25	amod	_	_
+21	коронавирусом	коронавирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+22	MERS	Mers	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	CoV	Cov	PROPN	_	Foreign=Yes	22	appos	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	летальностью	летальность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
+27	до	до	ADP	_	_	29	case	_	_
+28	40	40	NUM	_	_	29	nummod	_	_
+29	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5158
+# text = Пока обнадеживающие результаты удалось показать лишь в опытах на мышах, на следующем этапе запланированы клинические испытания на людях.
+1	Пока	пока	SCONJ	_	_	2	mark	_	_
+2	обнадеживающие	обнадеживать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	лишь	лишь	PART	_	_	8	advmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	опытах	опыт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	запланированы	планировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+16	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj:pass	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	людях	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5159
+# text = Соответствующее исследование опубликовано в Proceedings of the National Academy of Sciences, кратко о нем пишет сайт университета.
+1	Соответствующее	соответствующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Proceedings	proceedings	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	of	of	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	National	national	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Academy	academy	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	of	of	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Sciences	Sciences	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	кратко	кратко	ADV	_	Degree=Pos	16	advmod	_	_
+14	о	о	ADP	_	_	15	case	_	_
+15	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+16	пишет	пихать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+17	сайт	сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5160
+# text = Ученые во главе с иммунологом Мэттью Фриманом (Matthew Frieman) разработали и проверили на "очеловеченных" мышах два антитела REGN3051 и REGN3048, борющихся с коронавирусом MERS-CoV.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	nsubj	_	_
+2	во	во	ADP	_	_	5	case	_	_
+3	главе	глава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	иммунологом	иммунолог	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+6	Мэттью	Мэтть	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	appos	_	_
+7	Фриманом	Фриман	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Matthew	Matthew	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Frieman	Frieman	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	проверили	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+15	на	на	ADP	_	_	19	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	очеловеченных	очеловеченный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+20	два	два	NUM	_	Case=Nom|Gender=Masc	21	nummod:gov	_	_
+21	антитела	антител	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+22	REGN3051	REGN3051	NOUN	_	_	21	appos	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	REGN3048	REGN3048	NOUN	_	_	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	борющихся	бороться	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	22	amod	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	коронавирусом	коронавирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_
+29	MERS	Mers	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	-CoV	-cov	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5161
+# text = По механизму действия оба антитела сходны.
+1	По	по	ADP	_	_	2	case	_	_
+2	механизму	механизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+3	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	оба	оба	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+5	антитела	антител	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сходны	сходный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5162
+# text = Моноклинальные полностью человеческие антитела REGN3051 и REGN3048 связывают белок Spike, входящий в состав вирусной оболочки MERS-CoV и, таким образом, препятствуют ее входу в клетки.
+1	Моноклинальные	Моноклинальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	полностью	полностью	ADV	_	Degree=Pos	3	advmod	_	_
+3	человеческие	человеческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	антитела	антитело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+5	REGN3051	REGN3051	NOUN	_	_	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	REGN3048	REGN3048	NOUN	_	_	5	conj	_	_
+8	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	белок	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	Spike	Spike	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	входящий	входить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+15	вирусной	вирусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	оболочки	оболочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	MERS	Mers	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	CoV	Cov	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+20	и	и	CCONJ	_	_	25	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	23	amod	_	_
+23	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	препятствуют	препятствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+26	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	27	nmod	_	_
+27	входу	входа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5163
+# text = Каждое из этих антител имеет собственные точки присоединения к молекуле Spike, поэтому они могут использовать одновременно.
+1	Каждое	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	антител	антитело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+5	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	точки	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	присоединения	присоединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	молекуле	молекула	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	Spike	Spike	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поэтому	поэтому	ADV	_	Degree=Pos	15	advmod	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+16	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	одновременно	одновременно	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5164
+# text = Как отмечают авторы работы, это значительно снижает вероятность возникновения устойчивости: одна точечная мутация вируса может привести к изменению лишь одного из этих двух участков, а две одновременные мутации маловероятны.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	значительно	значительно	ADV	_	Degree=Pos	8	advmod	_	_
+8	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+9	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	устойчивости	устойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	точечная	точечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	мутация	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	_
+18	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	изменению	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+21	лишь	лишь	PART	_	_	22	advmod	_	_
+22	одного	один	NUM	_	Case=Gen|Gender=Masc	18	nummod	_	_
+23	из	из	ADP	_	_	26	case	_	_
+24	этих	этот	DET	_	Case=Gen|Number=Plur	26	amod	_	_
+25	двух	два	NUM	_	Case=Gen	26	nummod	_	_
+26	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	а	а	CCONJ	_	_	32	cc	_	_
+29	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	31	nummod:gov	_	_
+30	одновременные	одновременный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	31	amod	_	_
+31	мутации	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nsubj	_	_
+32	маловероятны	маловероятный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5165
+# text = В экспериментах у тех инфицированных коронавирусом мышей, которым вводили указанные антитела, наблюдалось лишь легкое воспаление в легочной ткани, обычно поражаемых MERS-CoV.
+1	В	в	ADP	_	_	2	case	_	_
+2	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+3	у	у	ADP	_	_	7	case	_	_
+4	тех	тот	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+5	инфицированных	инфицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	коронавирусом	коронавирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которым	который	PRON	_	Case=Ins	10	obl	_	_
+10	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	указанные	указывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	антитела	антитело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+15	лишь	лишь	PART	_	_	16	advmod	_	_
+16	легкое	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	воспаление	воспаление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	легочной	легочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	обычно	обычно	ADV	_	Degree=Pos	23	advmod	_	_
+23	поражаемых	поражать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	MERS	Mers	PROPN	_	Foreign=Yes	0	flat:foreign	_	SpaceAfter=No
+25	-CoV	-cov	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5166
+# text = Ученые отмечают, что пока речь идет лишь о первых шагах по борьбе с заболеванием.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+6	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	лишь	лишь	PART	_	_	11	advmod	_	_
+9	о	о	ADP	_	_	11	case	_	_
+10	первых	первый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	шагах	шаги	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	борьбе	борьба	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	заболеванием	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5167
+# text = На следующем этапе предстоит отработать эту смесь антител на людях, что потребует клинических испытаний на добровольцах.
+1	На	на	ADP	_	_	3	case	_	_
+2	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отработать	отрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	смесь	смесь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	антител	антитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	людях	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	потребует	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+14	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	добровольцах	доброволец	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5168
+# text = Исследователи указывают, что поскольку обычные мыши, в отличии от людей, не подвержены MERS-CoV, ученые вывели новую линию так называемых "частично очеловеченных" мышей специально для проведения описываемой работы.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	указывают	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	поскольку	поскольку	SCONJ	_	_	7	cc	_	_
+6	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	мыши	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	7	case	_	_
+10	отличии	отличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	подвержены	подверженный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	19	advcl	_	_
+16	MERS-CoV	Mers-cov	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	вывели	выветать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+20	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	линию	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	так	так	ADV	_	Degree=Pos	23	advmod	_	_
+23	называемых	называть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	частично	частично	ADV	_	Degree=Pos	26	advmod	_	_
+26	очеловеченных	очеловечеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl:agent	_	_
+29	специально	специально	ADV	_	Degree=Pos	31	advmod	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+32	описываемой	описывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5169
+# text = Для этого мышам заменили ген DPP4, отвечающий за выработку фермента дипептидилпептидазы-4, на человеческий вариант того же гена.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	заменили	заменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	DPP4	DPP4	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	отвечающий	отвечать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	выработку	выработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	фермента	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	дипептидилпептидазы	дипептидилпептидаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	4	4	NUM	_	_	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	человеческий	человеческий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	вариант	вариант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+19	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	21	amod	_	_
+20	же	же	PART	_	_	19	advmod	_	_
+21	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5170
+# text = Дипептидилпептидаза-4 является поверхностным антигеном, присутствующим на поверхности большинства клеток организма.
+1	Дипептидилпептидаза	Дипептидилпептидаза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	4	4	NUM	_	_	1	nummod	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	поверхностным	поверхностный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	антигеном	антиген	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	присутствующим	присутствовать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5171
+# text = Считается, что именно с ней связывается MERS-CoV, используя DPP4 для вхождения в клетку человека.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	именно	именно	PART	_	_	6	advmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+7	связывается	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	advcl	_	_
+8	MERS-CoV	Mers-cov	NUM	_	_	7	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+11	DPP4	DPP4	NUM	_	_	13	nummod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	вхождения	вхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	клетку	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5172
+# text = Поскольку собственная мышиная DPP4 слегка отличается от человеческой, вирус к ней не прикреплялся, из-за чего ранее использовать мышей для отработки борьбы с заболеваниями не удавалось.
+1	Поскольку	поскольку	SCONJ	_	_	6	advmod	_	_
+2	собственная	собственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	мышиная	мышиная	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	DPP4	DPP4	NUM	_	_	5	nummod	_	_
+5	слегка	слегка	ADV	_	Degree=Pos	6	advmod	_	_
+6	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	человеческой	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вирус	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	ней	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	прикреплялся	прикрепляться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	27	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	из-за	из-за	ADP	_	_	17	case	_	_
+17	чего	что	PRON	_	Case=Gen	19	obl	_	_
+18	ранее	ранее	ADV	_	Degree=Pos	19	advmod	_	_
+19	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	nsubj	_	_
+20	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	отработки	отработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	23	nmod	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	удавалось	удаваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5173
+# text = Ближневосточный респираторный синдром впервые был зафиксирован в Саудовской Аравии в 2012 году, где он, как считается, был передан от верблюдов (инфицированных летучими мышами) к человеку.
+1	Ближневосточный	Ближневосточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	респираторный	респираторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	синдром	синдром	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	впервые	впервые	ADV	_	Degree=Pos	6	advmod	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	зафиксирован	фиксировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	Саудовской	саудовский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Аравии	аравия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	2012	2012	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	где	где	ADV	_	Degree=Pos	21	advmod	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	как	как	SCONJ	_	_	21	mark	_	_
+18	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	передан	передавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+22	от	от	ADP	_	_	23	case	_	_
+23	верблюдов	верблюд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	инфицированных	инфицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+26	летучими	летучий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	мышами	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	23	parataxis	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	к	к	ADP	_	_	30	case	_	_
+30	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5174
+# text = На конец апреля этого года было известно о 1 100 заболевших, из которых 422 погибло.
+1	На	на	ADP	_	_	2	case	_	_
+2	конец	конец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+3	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	1	1	NUM	_	_	11	nummod	_	_
+10	100	100	NUM	_	_	9	nummod	_	_
+11	заболевших	заболевать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	которых	который	PRON	_	Case=Gen	16	obl	_	_
+15	422	422	NUM	_	_	16	nummod	_	_
+16	погибло	погибать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5175
+# text = 20 мая 2015 года вспышка этого заболевания охватила Южную Корею.
+1	20	20	NUM	_	_	8	nummod	_	_
+2	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	2015	2015	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	вспышка	вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	7	amod	_	_
+7	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	охватила	охващать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	Южную	южный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Корею	корея	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5176
+# text = Число заболевших в этой стране на сегодня составляет 180 человек, из которых около 30 уже умерло.
+1	Число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	заболевших	заболевать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	5	amod	_	_
+5	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	сегодня	сегодня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+8	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	180	180	NUM	_	_	10	nummod	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	17	obl	_	_
+14	около	около	ADP	_	_	15	case	_	_
+15	30	30	NUM	_	_	17	nummod	_	_
+16	уже	уже	ADV	_	Degree=Pos	17	advmod	_	_
+17	умерло	умервать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5177
+# text = Паллиативная терапия, используемая для лечения больных им людей сегодня, слабо снижает вероятность летального исхода у заболевших.
+1	Паллиативная	Паллиативный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	используемая	использовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	больных	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+10	сегодня	сегодня	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	слабо	слабо	ADV	_	Degree=Pos	13	advmod	_	_
+13	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	летального	летальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	исхода	исход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	у	у	ADP	_	_	18	mark	_	_
+18	заболевших	заболевать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5178
+# text = Как правило, порядка 40 процентов из них погибают.
+1	Как	как	ADV	_	Degree=Pos	9	cc	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	порядка	порядка	ADP	_	_	6	case	_	_
+5	40	40	NUM	_	_	6	nummod	_	_
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+9	погибают	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 5179

@@ -1,0 +1,292 @@
+# text = # newpar
+# sent_id = 4475
+# text = Управление попродуктам илекарствам США (FDA) одобрило кприменению первую в стране вакцину против холеры, говорится насайте ведомства.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FDA	Fda	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	одобрило	одобрять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	кприменению	кприменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+10	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	вакцину	вакцина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+14	против	против	ADP	_	_	15	case	_	_
+15	холеры	холера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+18	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	17	nsubj:pass	_	_
+19	ведомства	ведомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4476
+# text = Препарат под названием Vaxchora производится компанией PaxVax Bermuda.
+1	Препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	под	под	ADP	_	_	3	case	_	_
+3	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	Vaxchora	Vaxchora	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	PaxVax	PaxVax	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Bermuda	Bermuda	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4477
+# text = Онсодержит живой ослабленный штамм Vibrio cholerae серогруппыО1, наиболее распространенной вмире.
+1	Онсодержит	Онсодержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	живой	живой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	ослабленный	ослабленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	штамм	штамм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	Vibrio	Vibrio	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	cholerae	cholerae	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	серогруппыО1	серогруппыО1	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	наиболее	наиболее	ADV	_	Degree=Pos	10	advmod	_	_
+10	распространенной	распространять	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	вмире	вмира	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4478
+# text = Вакцина назначается ввиде раствора для приема внутрь, одна доза имеет объем около 100 миллилитров.
+1	Вакцина	вакцина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	назначается	назначавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	ввиде	ввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+4	раствора	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	приема	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	внутрь	внутрь	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	доза	доза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	объем	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	около	около	ADP	_	_	15	case	_	_
+14	100	100	NUM	_	_	15	nummod	_	_
+15	миллилитров	миллилитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4479
+# text = Как отмечается впресс-релизе, препарат предназначен для профилактики инфекции улюдей ввозрасте от18до64лет, выезжающих врегионы, эндемичные похолере (всамих США заболевание практически невстречается).
+1	Как	как	ADV	_	Degree=Pos	24	mark	_	_
+2	отмечается	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	advcl	_	_
+3	впресс-релизе	впресс-релиза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+6	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	advcl	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	профилактики	профилактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	улюдей	чеуловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	от18до64лет	от18до64год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	выезжающих	выезжать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	врегионы	врегион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	эндемичные	эндемичной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	похолере	похолере	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	всамих	всамий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	18	nmod	_	_
+22	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+23	практически	практически	ADV	_	Degree=Pos	24	advmod	_	_
+24	невстречается	невстречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4480
+# text = Принимать его необходимо как минимум за10дней допредполагаемой поездки.
+1	Принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+2	его	оно	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	1	obj	_	_
+3	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	как	как	SCONJ	_	_	6	advmod	_	_
+5	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	за10дней	за10днь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	advmod	_	_
+7	допредполагаемой	допредполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	поездки	поездка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4481
+# text = Поводом для одобрения вакцины стали результаты клинических испытаний сучастием 197пациентов.
+1	Поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	одобрения	одобрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	сучастием	сучастие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+10	197пациентов	197пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4482
+# text = Она оказалась эффективной у90процентов участников спустя 10дней иу80процентов-- через три месяца после приема.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	эффективной	эффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	у90процентов	у90процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+5	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	спустя	спустя	ADP	_	_	7	case	_	_
+7	10дней	10день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	иу80процентов	иу80процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	через	через	ADP	_	_	13	case	_	_
+12	три	три	NUM	_	Animacy=Inan|Case=Acc	13	nummod:gov	_	_
+13	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+14	после	после	ADP	_	_	13	case	_	_
+15	приема	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4483
+# text = В дополнительных исследованиях, проведенных вСША иАвстралии, препарат вызвал образование антител кхолере у93процентов добровольцев ввозрасте от18до45 лет иу90процентов-- ввозрасте от46до64лет.
+1	В	в	ADP	_	_	3	case	_	_
+2	дополнительных	дополнительный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	проведенных	проводить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	вСША	всш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	иАвстралии	иАвстралия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	вызвал	вызывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	антител	антитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+13	кхолере	кхолера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+14	у93процентов	у93процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	22	conj	_	_
+17	от18до45	от18до45	NUM	_	_	18	nummod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+19	иу90процентов	иу90процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	10	conj	_	_
+23	от46до64лет	от46до64лет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4484
+# text = Безопасность применения Vaxchora проверили вчетырех рандомизированных мультицентровых исследованиях, входе которых 3235 человек получили препарат, и 562-- плацебо.
+1	Безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	Vaxchora	Vaxchora	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	проверили	проверивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вчетырех	вчетыре	NUM	_	Animacy=Anim|Case=Acc	8	nummod:gov	_	_
+6	рандомизированных	рандомизировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	мультицентровых	мультицентровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	входе	входе	ADP	_	_	11	case	_	_
+11	которых	который	PRON	_	Case=Gen	14	obl	_	_
+12	3235	3235	NUM	_	_	13	nummod	_	_
+13	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+15	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	562--	562--	PUNCT	_	_	17	punct	_	_
+19	плацебо	плацебо	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4485
+# text = Вцелом лекарство переносилось хорошо, самыми частыми побочными эффектами были повышенная утомляемость, головная боль, потеря аппетита, боль в животе, тошнота, рвота идиарея.
+1	Вцелом	Вцел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	переносилось	переносиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	хорошо	хорошо	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+7	частыми	частой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+8	побочными	побочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	эффектами	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+10	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+11	повышенная	вышить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	утомляемость	утомляемость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	головная	головной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	боль	боль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+18	аппетита	аппетит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	боль	боль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	животе	живот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	тошнота	тошнота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	рвота	рвота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+27	идиарея	идиарей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4486
+# text = Холера-- это высокозаразное острое инфекционное заболевание, чаще всего передающееся через загрязненную фекалиями воду.
+1	Холера-	Холера-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	это	это	PART	_	_	7	cop	_	_
+4	высокозаразное	высокозаразный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+5	острое	острый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	инфекционное	инфекционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чаще	часто	ADV	_	Degree=Cmp	11	advmod	_	_
+10	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	передающееся	передаваться	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+12	через	через	ADP	_	_	15	case	_	_
+13	загрязненную	загрязнать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	фекалиями	фекалия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl:agent	_	_
+15	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4487
+# text = Оно проявляется резкой слабостью ипрофузным поносом, который ведет ктяжелому обезвоживанию, могущему привести ксмерти.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	резкой	резкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	слабостью	слабость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	ипрофузным	ипрофузный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	поносом	понос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	ктяжелому	ктяжелый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обезвоживанию	обезвоживание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	могущему	могуть	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	привести	приветать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	ксмерти	ксмерть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4488
+# text = Пооценкам Всемирной организации здравоохранения, ежегодно вмире заболевают холерой от1,4 до4,3 миллиона человек, от28до142 тысяч изкоторых умирают.
+1	Пооценкам	Пооценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	8	obl	_	_
+2	Всемирной	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ежегодно	ежегодно	ADV	_	Degree=Pos	8	advmod	_	_
+7	вмире	вмироко	ADV	_	Degree=Cmp	8	advmod	_	_
+8	заболевают	заболевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	холерой	холера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	от1,4	от1,4	NUM	_	_	12	nummod	_	_
+11	до4,3	до4,3	NUM	_	_	12	nummod	_	_
+12	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nummod:gov	_	_
+13	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	от28до142	от28до142	NUM	_	_	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nsubj	_	_
+17	изкоторых	изкоторый	PRON	_	Case=Gen	16	nmod	_	_
+18	умирают	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4489
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 4490

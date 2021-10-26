@@ -1,0 +1,344 @@
+# text = # newpar
+# sent_id = 1602
+# text = Австралийским ученым впервые удалось снять навидео процесс обесцвечивания кораллов.
+1	Австралийским	Австралийской	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	снять	снимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	навидео	навидео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	обесцвечивания	обесцвечивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	кораллов	коралл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1603
+# text = Результаты работы опубликованы вжурнале Coral Reefs.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Coral	Coral	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Reefs	Reefs	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 1604
+# text = Обесцвечиванием называется процесс утраты кораллами внутриклеточных симбионтов-- фотосинтезирующих жгутиковых простейших (зооксантелл), относящихся кроду Symbiodinium.
+1	Обесцвечиванием	Обесцвечивание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+2	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	утраты	утрата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	кораллами	коралл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_
+6	внутриклеточных	внутриклеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	симбионтов	симбионт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	compound	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	фотосинтезирующих	фотосинтезируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+11	жгутиковых	жгутиковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	простейших	простой	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	18	amod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	зооксантелл	зооксантелл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	относящихся	относиться	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	18	amod	_	_
+18	кроду	крод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+19	Symbiodinium	Symbiodinium	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1605
+# text = Эти одноклеточные водоросли снабжают кораллы питательной органикой вобмен на неорганические вещества изащиту, аихпигменты придают коралловым полипам характерные цвета.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	одноклеточные	одноклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	водоросли	водоросль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	снабжают	снабжавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кораллы	коралл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
+6	питательной	питательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	органикой	органика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	вобмен	вобмена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	неорганические	неорганический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obl	_	_
+12	изащиту	изащит	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	аихпигменты	аихпигмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	придают	придавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	коралловым	коралловый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	_
+17	полипам	полип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+18	характерные	характерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	цвета	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1606
+# text = Кораллы выбрасывают изсебя симбионтов вответ наразличные стрессовые условия, такие как изменения температуры (основной фактор), солености инасыщения кислородом воды, характер донных отложений, действие химических загрязнителей иинфекций.
+1	Кораллы	коралл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выбрасывают	выбрасывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	изсебя	изсы	PRON	_	Case=Acc|Number=Sing|Person=2	2	obj	_	_
+4	симбионтов	симбионт	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	вответ	вотвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	наразличные	наразличный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+7	стрессовые	стрессовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	такие	такой	DET	_	Case=Nom|Number=Plur	24	amod	_	_
+11	как	как	SCONJ	_	_	12	cc	_	_
+12	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	advmod	_	_
+13	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	основной	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	фактор	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	солености	соленость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+20	инасыщения	инасыщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	кислородом	кислород	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:agent	_	_
+22	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	характер	характер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+25	донных	донный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	отложений	отложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+29	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	загрязнителей	загрязнитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	иинфекций	иинфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1607
+# text = Такие обесцвеченные кораллы часто сохраняют жизнеспособность, норезко замедляют рост, причем чем быстрее происходит обесцвечивание, тем выше шансы навыживание.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	обесцвеченные	обесцвеченный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	кораллы	коралл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	часто	часто	ADV	_	Degree=Pos	5	advmod	_	_
+5	сохраняют	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	норезко	норезко	ADV	_	Degree=Pos	9	advmod	_	_
+9	замедляют	замедлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	причем	причем	CCONJ	_	_	15	cc	_	_
+13	чем	чем	SCONJ	_	_	15	cc	_	_
+14	быстрее	быстро	ADV	_	Degree=Cmp	15	advmod	_	_
+15	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	обесцвечивание	обесцвечивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	тем	тем	SCONJ	_	_	19	cc	_	_
+19	выше	высокий	ADJ	_	Degree=Cmp	0	advmod	_	_
+20	шансы	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	навыживание	навыживание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1608
+# text = Предполагается, что этот процесс служит адаптацией к резкой перемене условий, однако точные его механизмы и роль пока неизвестны.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	служит	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	адаптацией	адаптация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	резкой	резкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	перемене	перемена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	20	advmod	_	_
+14	точные	точный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+19	пока	пока	ADV	_	Degree=Pos	20	advmod	_	_
+20	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 1609
+# text = Сотрудники Квинслендского технологического института поместили ваквариум одиночные кораллы вида Heliofungia actiniformis ивтечение 12часов повысили температуру воды с26до32градусов Цельсия.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Квинслендского	Квинслендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	поместили	местить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ваквариум	ваквариум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	одиночные	одиночной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	кораллы	коралл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
+9	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Heliofungia	Heliofungia	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	actiniformis	actiniformis	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	ивтечение	ивтечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+13	12часов	12час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	повысили	повышать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+15	температуру	температура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	с26до32градусов	с26до32градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	Цельсия	Цельсий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1610
+# text = После этого они наблюдали заполипами втечение восьми дней, используя замедленное фотографирование спомощью цифровой камеры имикроскопа.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	заполипами	заполип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+6	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	восьми	восемь	NUM	_	Case=Gen	8	nummod	_	_
+8	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+11	замедленное	медлеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	фотографирование	фотографирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+13	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+14	цифровой	цифровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	имикроскопа	имикроскоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# newpar
+# sent_id = 1611
+# text = Выброс симбионтов начался уже через два часа после повышения температуры.
+1	Выброс	выброс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	симбионтов	симбионт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	начался	начинаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+5	через	через	ADP	_	_	7	case	_	_
+6	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod:gov	_	_
+7	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	повышения	повышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+10	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1612
+# text = Онпроисходил через ротовое отверстие коралла путем пульсирующих сокращений его тканей.
+1	Онпроисходил	Онпроисходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	через	через	ADP	_	_	4	case	_	_
+3	ротовое	ротовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	отверстие	отверстие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+5	коралла	коралл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	путем	путем	ADP	_	_	8	case	_	_
+7	пульсирующих	пульсируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	сокращений	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	obl	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1613
+# text = Интенсивность иамплитуда пульсаций нарастали втечение 55часов, причем вих ходе полипы раздувались на340 процентов от первоначального объема.
+1	Интенсивность	интенсивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	иамплитуда	иамплитуда	ADV	_	Degree=Pos	4	advmod	_	_
+3	пульсаций	пульсация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	нарастали	нарастать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	55часов	55час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	причем	причем	CCONJ	_	_	12	cc	_	_
+9	вих	вий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+11	полипы	полип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	раздувались	раздуваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+13	на340	на340	NUM	_	_	14	nummod	_	_
+14	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+15	от	от	ADP	_	_	14	case	_	_
+16	первоначального	первоначальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	объема	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1614
+# text = Запериод отдвух довосьми дней все кораллы погибли, причем уних наблюдалась деградация эпидермальной (покровной) ткани.
+1	Запериод	Запериод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	отдвух	отдва	NUM	_	Case=Gen	4	nummod	_	_
+3	довосьми	довосемь	NUM	_	Case=Gen	4	nummod	_	_
+4	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	кораллы	коралл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	погибли	погибать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	причем	причем	CCONJ	_	_	11	cc	_	_
+10	уних	оуни	PRON	_	Case=Gen|Number=Plur|Person=3	11	obl	_	_
+11	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	_
+12	деградация	деградация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+13	эпидермальной	эпидермальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	покровной	покровный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 1615
+# text = "Массовое обесцвечивание кораллов вызывает озабоченность ученых всего мира.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Массовое	массовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	обесцвечивание	обесцвечивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	кораллов	коралл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	озабоченность	озабоченность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1616
+# text = Связанные сним недавние изменения вБольшом барьерном рифе продемонстрировали опасность растущей температуры мирового океана для рифовых экосистем",-- подчеркнул исследователь Люк Нотдарфт (Luke Nothdurft).
+1	Связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+2	сним	снее	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl:agent	_	_
+3	недавние	недавний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+5	вБольшом	вБольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	барьерном	барьерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	рифе	риф	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	растущей	расти	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	мирового	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	рифовых	рифовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	экосистем	экосистема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,--	,--	PUNCT	_	_	16	punct	_	_
+19	подчеркнул	подчеркивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	исследователь	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	Люк	люк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+22	Нотдарфт	Нотдарфт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	Luke	Luke	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	Nothdurft	Nothdurft	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1617
+# text = С1980 года массовое обесцвечивание кораллов Большого барьерного рифа происходило восемь раз, причем нанекоторых участках смертность полипов доходила до90 процентов.
+1	С1980	С1980	NUM	_	_	2	nummod	_	_
+2	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+3	массовое	массовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	обесцвечивание	обесцвечивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	кораллов	коралл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	Большого	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	барьерного	барьерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	рифа	риф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	восемь	восемь	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	причем	причем	CCONJ	_	_	18	cc	_	_
+14	нанекоторых	нанекоторый	DET	_	Case=Loc|Number=Plur	15	amod	_	_
+15	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+16	смертность	смертность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+17	полипов	полип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	доходила	доходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+19	до90	до90	NUM	_	_	20	nummod	_	_
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1618
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 1619

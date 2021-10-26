@@ -1,0 +1,199 @@
+# text = # newpar
+# sent_id = 2470
+# text = Исследователи из Нанькайского университета разработали протез руки, который может оповещать своего владельца о слишком высокой температуре предмета при помощи слабых ударов током.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Нанькайского	Нанькайский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	протез	протез	ADP	_	_	7	case	_	_
+7	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	оповещать	оповещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	_
+13	владельца	владелец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	о	о	ADP	_	_	17	case	_	_
+15	слишком	слишком	ADV	_	Degree=Pos	16	advmod	_	_
+16	высокой	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	температуре	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+18	предмета	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	при	при	ADP	_	_	22	case	_	_
+20	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	слабых	слабый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	ударов	удар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+23	током	ток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2471
+# text = Об этом сообщает портал 3dprint.comЗа основу ученые взяли пластиковую бионическую руку, детали которой распечатали на 3D-принтере.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	3dprint.com	3dprint.com	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	За	за	ADP	_	_	7	case	_	_
+7	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	взяли	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	пластиковую	пластиковий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	бионическую	бионический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+15	которой	который	PRON	_	Case=Gen	14	nmod	_	_
+16	распечатали	распечатавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	3D	3d	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+19	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2472
+# text = Когда рука хватает предмет, датчики температуры в искусственной ладони передают сигнал на управляющую схему.
+1	Когда	когда	ADV	_	Degree=Pos	11	mark	_	_
+2	рука	рука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+4	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	датчики	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	искусственной	искусственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	ладони	ладонь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+11	передают	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	управляющую	управлять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	схему	схема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2473
+# text = Если встроенный в протез микроконтроллер считает, что предмет слишком горячий, то он разжимает пальцы, не давая взять предмет, и бьет током носителя бионической руки.
+1	Если	если	SCONJ	_	_	15	mark	_	_
+2	встроенный	встраивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	протез	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	микроконтроллер	микроконтроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	слишком	слишком	ADV	_	Degree=Pos	11	advmod	_	_
+11	горячий	горячий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	то	то	SCONJ	_	_	6	cc	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	разжимает	разжимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	пальцы	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	давая	давать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	_
+20	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	бьет	бьть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+25	током	ток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+26	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	бионической	бионический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2474
+# text = При этом сила удара зависит от температуры предмета.Современные протезы рук в последнее время все чаще изготавливаются с применением 3D-печати, что позволяет подстаивать протез под каждого пациента индивидуально.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	удара	удар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	предмета.	предмета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No
+9	Современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	протезы	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+11	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+15	все	все	PART	_	_	16	advmod	_	_
+16	чаще	часто	ADV	_	Degree=Cmp	17	advmod	_	_
+17	изготавливаются	изготавливаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	применением	применение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+20	3D	3d	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	-печати	-печать	NUM	_	Case=Gen	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	PRON	_	Case=Nom	24	nsubj	_	_
+24	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	подстаивать	подстаивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	протез	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	под	под	ADP	_	_	29	case	_	_
+28	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+30	индивидуально	индивидуально	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2475
+# text = При этом большая часть пластиковых изделий полученных при помощи 3D-печати действительно уязвима к высоким температурам.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+3	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+5	пластиковых	пластиковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	изделий	изделие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	nmod	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	fixed	_	_
+10	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+11	-печати	-печати	ADV	_	Degree=Pos	13	advmod	_	_
+12	действительно	действительно	ADV	_	Degree=Pos	13	advmod	_	_
+13	уязвима	уязвимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+14	к	к	ADP	_	_	16	case	_	_
+15	высоким	высокий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	_
+16	температурам	температура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2476
+# text = Слишком горячий предмет может запросто расплавить части протеза, что приведет к невозможности его использования.
+1	Слишком	слишком	ADV	_	Degree=Pos	2	advmod	_	_
+2	горячий	горячий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	запросто	запросто	ADV	_	Degree=Pos	6	advmod	_	_
+6	расплавить	расплавлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	части	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	протеза	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	11	nsubj	_	_
+11	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	невозможности	невозможность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2477
+# text = Предполагается, что технология авторов поможет обладателям как сберечь бионическую руку, так и не обжечься горячим напитком.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	обладателям	обладатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+8	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+9	сберечь	беречь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+10	бионическую	бионический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	так	так	ADV	_	Degree=Pos	16	advmod	_	_
+14	и	и	PART	_	_	13	fixed	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	обжечься	обжекаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	conj	_	_
+17	горячим	горячий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	напитком	напиток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 2478

@@ -1,0 +1,508 @@
+# text = # newpar
+# sent_id = 200
+# text = Сотрудники Стэнфордского университета научились вводить крыс в бессознательное состояние и выводить из него воздействием на одну и ту же группу нейронов, говорится в отчете об исследовании, опубликованном в журнале eLife.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	Стэнфордского	стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	научились	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	крыс	крыса	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+7	в	в	ADP	_	_	6	case	_	_
+8	бессознательное	бессознательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+14	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+15	на	на	ADP	_	_	20	case	_	_
+16	одну	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	же	же	PART	_	_	18	advmod	_	_
+20	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+21	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	отчете	отчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+26	об	о	ADP	_	_	27	case	_	_
+27	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	опубликованном	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+32	eLife	eLife	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 201
+# text = С пресс-релизом можно ознакомиться на сайте EurekAlert!.
+1	С	с	ADP	_	_	2	case	_	_
+2	пресс-релизом	пресс-релиз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	nsubj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	EurekAlert	EurekAlert	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 202
+# text = По словам исследователей, это существенно улучшило понимание процессов регуляции сна и бодрствования.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	существенно	существенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	улучшило	улучшать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	понимание	понимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	сна	сн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	бодрствования	бодрствование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 203
+# text = В ходе работы ученые под руководством доцента Чин Хён Ли использовали оптогенетический подход для изучения работы нейронов таламуса.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+5	под	под	ADP	_	_	6	case	_	_
+6	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+7	доцента	доцент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Чин	чин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+9	Хён	Хён	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	_
+10	Ли	ли	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	оптогенетический	оптогенетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 204
+# text = Таламус -- это отдел головного мозга, проводящий сигналы от органов чувств к коре.
+1	Таламус	Таламус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	отдел	отдел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	проводящий	проводить	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+9	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+12	чувств	чувство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	коре	кор	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 205
+# text = Он принимает участие в регуляции сна и бодрствования, внимания и памяти.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	принимает	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	сна	сн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	бодрствования	бодрствование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 206
+# text = Оптогенетический метод состоит в том, что интересующие исследователей клетки (в данном случае нейроны) генетически модифицируют так, чтобы они экспрессировали светочувствительные ионные каналы.
+1	Оптогенетический	Оптогенетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	интересующие	интересовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+10	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	в	в	ADP	_	_	14	case	_	_
+13	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+15	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	генетически	генетически	ADV	_	Degree=Pos	18	advmod	_	_
+18	модифицируют	модифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+19	так	так	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+23	экспрессировали	экспрессировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+24	светочувствительные	светочувствительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+25	ионные	ионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	каналы	канал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 207
+# text = За счет этого клеки начинают воспринимать лазерную стимуляцию, и у ученых появляется инструмент для управления ими.
+1	За	за	ADP	_	_	3	case	_	_
+2	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	клеки	клека	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	воспринимать	воспринимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	лазерную	лазерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	стимуляцию	стимуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+14	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 208
+# text = Возбуждение лазером нейронов центрального таламуса спящих мышей с частотой от 40 до 100 импульсов в секунду вызывало немедленное пробуждение животных.
+1	Возбуждение	возбуждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+2	лазером	лазер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+3	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	центрального	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	спящих	спить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+7	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	40	40	NUM	_	_	1	nummod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	100	100	NUM	_	_	14	nummod	_	_
+14	импульсов	импульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+17	вызывало	вызывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	немедленное	немедленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	пробуждение	пробуждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+20	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 209
+# text = Воздействие на те же нейроны с меньшей частотой -- 10 импульсов в секунду -- вызывало глубокий сон, которому предшествовало нарушение сознания, напоминающее абсанс (форма эпилептических судорог, при которой пациент замирает с открытыми глазами и не реагирует на внешние раздражители).
+1	Воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	на	на	ADP	_	_	5	case	_	_
+3	те	тот	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+4	же	же	PART	_	_	3	advmod	_	_
+5	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	меньшей	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	10	10	NUM	_	_	11	nummod	_	_
+11	импульсов	импульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	вызывало	вызывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	глубокий	глубокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	сон	сон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которому	который	PRON	_	Case=Dat	20	obl	_	_
+20	предшествовало	предшествовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+22	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	напоминающее	напоминать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+25	абсанс	абсанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	parataxis	_	_
+28	эпилептических	эпилептический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	судорог	судорог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	при	при	ADP	_	_	32	case	_	_
+32	которой	который	PRON	_	Case=Loc	34	obl	_	_
+33	пациент	пациент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+34	замирает	замирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+35	с	с	ADP	_	_	37	case	_	_
+36	открытыми	открытый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	37	amod	_	_
+37	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	34	obl	_	_
+38	и	и	CCONJ	_	_	40	cc	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	реагирует	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	на	на	ADP	_	_	43	case	_	_
+42	внешние	внешний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	43	amod	_	_
+43	раздражители	раздражитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 210
+# text = Проведенные во время лазерной стимуляции функциональная МРТ и электроэнцефалограмма показали, что в зависимости от частоты импульсации нейронов таламуса связанные с ними отделы мозга (в частности, соматосенсорная кора) возбуждались или, наоборот, угнетались.
+1	Проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+2	во	во	ADP	_	_	5	case	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	лазерной	лазерной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	стимуляции	стимуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+6	функциональная	функциональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	МРТ	мрт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	электроэнцефалограмма	электроэнцефалограмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+10	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+15	от	от	ADP	_	_	14	case	_	_
+16	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	импульсации	импульсация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	20	obl	_	_
+23	отделы	отдел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj:pass	_	_
+24	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	в	в	ADP	_	_	30	case	_	_
+27	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	fixed	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	соматосенсорная	соматосенсорный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	кора	кора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	возбуждались	возбуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	10	advcl	_	_
+33	или	или	CCONJ	_	_	37	cc	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	наоборот	наоборот	ADV	_	Degree=Pos	37	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	угнетались	угнетаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	32	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 211
+# text = То, что одни и те же нейроны, посылая импульсы разной частоты, вызывают противоположные реакции других отделов мозга, выглядело весьма необычно.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	те	тот	DET	_	Case=Nom|Number=Plur	4	conj	_	_
+7	же	же	PART	_	_	6	advmod	_	_
+8	нейроны	нейрон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	посылая	посылать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+11	импульсы	импульс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+16	противоположные	противоположный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	реакции	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+18	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	отделов	отдеел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	выглядело	выглядеть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+23	весьма	весьма	ADV	_	Degree=Pos	22	advmod	_	_
+24	необычно	необычно	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 212
+# text = Дальнейшие эксперименты показали, что подобный эффект может быть связан с необычной импульсацией тормозных нейронов в соседнем с таламусом отделе мозга -- неопределенном слое (zona incerta) субталамуса.
+1	Дальнейшие	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	aux:pass	_	_
+10	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	необычной	необычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	импульсацией	импульсация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+14	тормозных	тормозной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	в	в	ADP	_	_	20	case	_	_
+17	соседнем	соседний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	таламусом	таламус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+20	отделе	отдель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+21	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	неопределенном	неопределенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	слое	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	zona	zona	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	incerta	incerta	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	субталамуса	субталамус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 213
+# text = При низкочастотной стимуляции эти нейроны посылают тормозные сигналы к другим отделам мозга, чего при высокой частоте стимуляции не наблюдается.
+1	При	при	ADP	_	_	3	case	_	_
+2	низкочастотной	низкочастотный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стимуляции	стимуляция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	посылают	посылавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	тормозные	тормозный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	отделам	отдел	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+12	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	чего	что	PRON	_	Case=Gen	20	nsubj:pass	_	_
+15	при	при	ADP	_	_	17	case	_	_
+16	высокой	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	частоте	частота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+18	стимуляции	стимуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 214
+# text = Когда исследователи заблокировали нейроны неопределенного слоя, низкочастотная стимуляция таламуса не приводила к подавлению сенсорной коры, а, напротив, стимулировала ее.
+1	Когда	когда	ADV	_	Degree=Pos	12	mark	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	заблокировали	заблокировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+4	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	неопределенного	неопределенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	низкочастотная	низкочастотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	стимуляция	стимуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	приводила	приводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	подавлению	подавление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+15	сенсорной	сенсорный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	22	cc	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	напротив	напротив	ADV	_	Degree=Pos	22	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	стимулировала	стимулировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+23	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 215
+# text = "Мы выяснили, как связи в мозге могут регулировать сон и бодрствование.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	3	mark	_	_
+6	связи	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	сон	сон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	бодрствование	бодрствование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 216
+# text = Надеемся, что эти данные помогут усовершенствовать метододики лечения травм мозга и других неврологических нарушений", -- заключила Ли.
+1	Надеемся	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	6	obj	_	_
+6	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	усовершенствовать	совершенствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	метододики	метододик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	травм	травма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	неврологических	неврологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	нарушений	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	--	--	PUNCT	_	_	11	punct	_	_
+19	заключила	заключать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+20	Ли	ли	PART	_	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 217
+# text = Роль нейронов центрального таламуса в процессах сна и пробуждения интересовала исследователей давно из-за потенциала лечебного воздействия на них при состояниях с минимальным сознанием.
+1	Роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	центрального	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+7	сна	сн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	пробуждения	пробуждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+10	интересовала	интересовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	давно	давно	ADV	_	Degree=Pos	14	advmod	_	_
+13	из-за	из-за	ADP	_	_	12	case	_	_
+14	потенциала	потенциал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+15	лечебного	лечебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obl	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	состояниях	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	obl	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	минимальным	минимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	сознанием	сознание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 218
+# text = Однако, несмотря на единичный удачный эксперимент по элекстростимуляции таламуса, современного понимания механизмов его работы недостаточно для разработки универсальной клинической методики.
+1	Однако	однако	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	несмотря	несмотря	ADV	_	Polarity=Neg	7	case	_	_
+4	на	на	ADP	_	_	3	fixed	_	_
+5	единичный	единичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	удачный	удачный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	элекстростимуляции	элекстростимуляция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+10	таламуса	таламус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	современного	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+14	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	недостаточно	недостаточно	ADV	_	Degree=Pos	19	advmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+20	универсальной	универсальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	клинической	клинический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 219
+# text = Работа стэнфордских ученых существенно улучшила понимание этого вопроса.Олег Лищук
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	стэнфордских	стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	существенно	существенно	ADV	_	Degree=Pos	5	advmod	_	_
+5	улучшила	улучшать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	понимание	понимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+8	вопроса	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Олег	олег	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+11	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
+
+# newpar
+# sent_id = 220

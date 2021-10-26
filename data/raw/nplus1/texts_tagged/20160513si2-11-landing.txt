@@ -1,0 +1,119 @@
+# text = # newpar
+# sent_id = 5412
+# text = Solar Impulse 2завершил одиннадцатый посчету участок кругосветного маршрута.
+1	Solar	Solar	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	Impulse	Impulse	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	2завершил	2завершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	одиннадцатый	одиннадцатый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	посчету	посчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	участок	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+7	кругосветного	кругосветный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	маршрута	маршрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5413
+# text = Обэтом сообщается вофициальном твиттере проекта.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	вофициальном	вофициальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	твиттере	твиттер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5414
+# text = Самолет насолнечных батареях приземлился вМеждународном аэропорту Талса вОклахоме 13мая в7:15 помосковскому времени.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	насолнечных	насолнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	батареях	батарея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+4	приземлился	приземлаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вМеждународном	вМеждународный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	аэропорту	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Талса	Талс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	вОклахоме	вОклахоме	ADP	_	_	9	case	_	_
+9	13мая	13май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+10	в7	в7	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	:15	:15	NUM	_	_	13	nummod	_	_
+12	помосковскому	помосковский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5415
+# text = Полет продлился чуть больше 18часов, заштурвалом самолета находился Бертран Пикар.
+1	Полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	продлился	продливаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	чуть	чуть	ADV	_	Degree=Pos	4	advmod	_	_
+4	больше	много	NUM	_	_	5	nummod:gov	_	_
+5	18часов	18час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	заштурвалом	заштурвалом	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+10	Бертран	бертран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Пикар	Пикар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5416
+# text = Solar Impulse 2-- самолет насолнечных батареях, неиспользующий других источников энергии.
+1	Solar	Solar	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Impulse	Impulse	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	2--	2--	PUNCT	_	_	2	punct	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	насолнечных	насолнечный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	батареях	батарея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	неиспользующий	неиспользуть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5417
+# text = Изначально планировалось, что проект кругосветного путешествия SI2 продлится около пяти месяцев ибудет состоять из12отрезков маршрута общей протяженностью 35000километров, однако позднее из-за погодных условий иполомоккоманде проекта пришлось менять маршрут.
+1	Изначально	изначально	ADV	_	Degree=Pos	2	advmod	_	_
+2	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	кругосветного	кругосветный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	путешествия	путешествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	SI2	SI2	NOUN	_	_	5	nmod	_	_
+9	продлится	длиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+10	около	около	ADP	_	_	12	case	_	_
+11	пяти	пять	NUM	_	Case=Gen	12	nummod	_	_
+12	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+13	ибудет	ибыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+14	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+15	из12отрезков	из12отрезок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+16	маршрута	маршрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	протяженностью	протяженность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+19	35000километров	35000километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	однако	однако	ADV	_	Degree=Pos	22	advmod	_	_
+22	позднее	поздно	ADV	_	Degree=Cmp	28	advmod	_	_
+23	из-за	из-за	ADP	_	_	25	case	_	_
+24	погодных	погодный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	obl	_	_
+26	иполомоккоманде	иполомоккоманда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	28	obl	_	_
+27	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+29	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+30	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5418
+# text = Предыдущий перелет самолет совершил 3мая.
+1	Предыдущий	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	перелет	перелет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	совершил	совершивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	3мая	3ть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5419
+# text = Николай Воронцов
+1	Николай	николай	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5420

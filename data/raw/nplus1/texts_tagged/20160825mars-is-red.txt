@@ -1,0 +1,218 @@
+# text = # newpar
+# sent_id = 3260
+# text = Министерство промышленности и информатизации КНР представило концепцию искусственного спутника Марса имарсохода, которые планируется запустить в2020году, сообщает "Синьхуа".
+1	Министерство	министерство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	информатизации	информатизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+5	КНР	кнр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	представило	представлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	концепцию	концепция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Марса	Марс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	_
+11	имарсохода	имарсоходь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	14	nsubj:pass	_	_
+14	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
+15	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	в2020году	в2020года	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Синьхуа	Синьхуа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 3261
+# text = Внастоящее время наМарсе иего орбите находятся семь действующих космических аппаратов.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	наМарсе	наМарсе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	иего	иий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	орбите	орбита	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+6	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	семь	семь	NUM	_	Case=Nom	10	nummod:gov	_	_
+8	действующих	действовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+9	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3262
+# text = Это пять спутников: американские Mars Odyssey, Mars Reconnaissance Orbiter иMAVEN, европейский Mars Express ииндийский Mars Orbiter Mission, атакже два американских марсохода: Opportunity иCuriosity.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	пять	пять	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	Mars	Mars	PROPN	_	Foreign=Yes	3	parataxis	_	_
+7	Odyssey	Odyssey	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Mars	Mars	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Reconnaissance	Reconnaissance	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Orbiter	Orbiter	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	иMAVEN	иmaven	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	Mars	Mars	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+16	Express	express	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	ииндийский	ииндийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	Mars	Mars	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+19	Orbiter	Orbiter	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Mission	Mission	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	атакже	атакже	CCONJ	_	_	25	cc	_	_
+23	два	два	NUM	_	Case=Nom|Gender=Masc	25	nummod:gov	_	_
+24	американских	американской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	марсохода	марсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	25	punct	_	_
+27	Opportunity	Opportunity	PROPN	_	Foreign=Yes	25	parataxis	_	_
+28	иCuriosity	иCuriosity	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3263
+# text = Планы поотправке новых беспилотных устройств до2020 года включительно есть уСША (втом числе у частной компании SpaceX), России, Евросоюза иОбъединенных Арабских Эмиратов.
+1	Планы	Плывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+2	поотправке	поотправка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+3	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+6	до2020	до2020	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	включительно	включительно	ADV	_	Degree=Pos	10	advmod	_	_
+9	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	уСША	усша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	parataxis	_	_
+14	у	у	ADP	_	_	16	case	_	_
+15	частной	частный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	SpaceX	Spacex	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Евросоюза	Евросоюз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	conj	_	_
+23	иОбъединенных	иОбъединенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+24	Арабских	арабский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	Эмиратов	Эмираты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3264
+# text = Всего с1960-х годов кМарсу было отправлено 43автоматических станции, нотолько 22изних успешно завершили свои миссии.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+2	с1960-х	с1960-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	кМарсу	кМарс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+5	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	отправлено	отправливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	43автоматических	43автоматический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	станции	станция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нотолько	нотолько	SCONJ	_	_	6	mark	_	_
+11	22изних	о22изни	PRON	_	Case=Acc|Number=Plur|Person=3	13	obj	_	_
+12	успешно	успешно	ADV	_	Degree=Pos	13	advmod	_	_
+13	завершили	завершать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+14	свои	свой	DET	_	Case=Acc|Number=Plur	15	amod	_	_
+15	миссии	миссия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3265
+# text = Китай включился в марсианскую гонку впервые.
+1	Китай	китай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	включился	включаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	марсианскую	марсианский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	гонку	гонка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+6	впервые	впервые	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3266
+# text = Китайская автоматическая межпланетная станция будет состоять изтрех частей: спутника, спускаемого аппарата имарсохода(по ссылкам -- их изображения).
+1	Китайская	китайский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	автоматическая	автоматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	межпланетная	межпланетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	изтрех	изтри	NUM	_	Case=Gen	8	nummod	_	_
+8	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	спускаемого	спускать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+14	имарсохода	имарсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	по	по	ADP	_	_	17	case	_	_
+17	ссылкам	ссылка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	14	parataxis	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+20	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3267
+# text = Их названия и логотип будут выбраны народным голосованием.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	логотип	логотип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
+5	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	выбраны	выбирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	народным	народный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	голосованием	голосование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3268
+# text = После выхода на орбиту спутник выпустит аппарат смарсоходом иприступит кисследованию планеты изкосмоса.
+1	После	после	ADP	_	_	2	case	_	_
+2	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	выпустит	выпускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	смарсоходом	смарсоход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+9	иприступит	иприступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	кисследованию	кисследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+11	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	изкосмоса	изкосмос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3269
+# text = Шестиколесный марсоход массой 200 килограммов будет оснащен четырьмя панелями солнечных батарей ипонесет насебе 13научных инструментов.
+1	Шестиколесный	Шестиколесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	марсоход	марсоход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+4	200	200	NUM	_	_	5	nummod	_	_
+5	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	четырьмя	четыре	NUM	_	Case=Ins	9	nummod	_	_
+9	панелями	панель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+10	солнечных	солнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	ипонесет	ипонести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	насебе	насы	PRON	_	Case=Dat|Number=Sing|Person=2	15	amod	_	_
+14	13научных	13научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3270
+# text = Согласно планам, его миссия должна продлиться 92дня.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	планам	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+7	продлиться	длиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	dep	_	_
+8	92дня	92дня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 3271

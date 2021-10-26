@@ -1,0 +1,310 @@
+# text = # newpar
+# sent_id = 359
+# text = Американская компанияStandard Manufacturing разработала двуствольный помповый дробовик DP-12.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компанияStandard	компанияStandard	PROPN	_	Foreign=Yes	4	nsubj	_	_
+3	Manufacturing	manufacturing	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	двуствольный	двуствольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	помповый	помповый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	дробовик	дробовик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	DP	Dp	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	12	12	NUM	_	_	8	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 360
+# text = Продажи оружия в США уже начались.
+1	Продажи	Продаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	1	nmod	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 361
+# text = Дробовик можно приобрести за 1395 долларов без дополнительных аксессуаров.
+1	Дробовик	Дробовик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	приобрести	приобретать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	за	за	ADP	_	_	6	case	_	_
+5	1395	1395	NUM	_	_	6	nummod	_	_
+6	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	без	без	ADP	_	_	9	case	_	_
+8	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	аксессуаров	аксессуар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 362
+# text = При этом поставка оружия будет произведена только в лицензированный оружейный магазин, откуда уже его сможет забрать покупатель.Дробовик 12 калибра (18,5 миллиметра) имеет в длину 749 миллиметра.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	поставка	поставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	произведена	производить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	только	только	PART	_	_	11	advmod	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	лицензированный	лицензировать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	оружейный	оружейный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	магазин	магазин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	откуда	откуда	ADV	_	Degree=Pos	16	advmod	_	_
+14	уже	уже	ADV	_	Degree=Pos	15	advmod	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+16	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+17	забрать	забирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+18	покупатель	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Дробовик	Дробовик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+21	12	12	NUM	_	_	22	nummod	_	_
+22	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	18,5	18,5	NUM	_	_	25	nummod	_	_
+25	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
+30	749	749	NUM	_	_	31	nummod	_	_
+31	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 363
+# text = Большая часть его деталей выполнена из сплава алюминия марки 7075.
+1	Большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	выполнена	выполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	сплава	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	алюминия	алюминий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	марки	марка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	7075	7075	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 364
+# text = Это позволило снизить массу оружия до 4,1 килограмма без учета боеприпасов.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	4,1	4,1	NUM	_	_	8	nummod	_	_
+8	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+9	без	без	ADP	_	_	10	case	_	_
+10	учета	учет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+11	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 365
+# text = Каждый ствол дробовика имеет свой магазин на семь патронов с синхронизированной системой перезарядки, то есть DP-12 можно зарядить 16 патронами (14 -- в магазинах и два -- в стволах).DP-12 позволяет одновременно стрелять только из одного ствола: первый выстрел производится из правого ствола, второй -- из левого.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	ствол	ствол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	дробовика	дробовик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	магазин	магазин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	семь	семь	NUM	_	Case=Acc	9	nummod:gov	_	_
+9	патронов	патрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	синхронизированной	синхронизированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+13	перезарядки	перезарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	mark	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	fixed	_	_
+17	DP	Dp	PROPN	_	Foreign=Yes	20	nsubj	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	12	12	NUM	_	_	17	nummod	_	_
+20	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+21	зарядить	заряживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+22	16	16	NUM	_	_	23	nummod	_	_
+23	патронами	патрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	14	14	NUM	_	_	23	nummod	_	_
+26	--	--	PUNCT	_	_	25	punct	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	два	два	NUM	_	Case=Nom|Gender=Masc	28	conj	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	стволах	стволи	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.DP	.dp	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+36	-	-	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	12	12	NUM	_	_	38	nummod	_	_
+38	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+39	одновременно	одновременно	ADV	_	Degree=Pos	40	advmod	_	_
+40	стрелять	стрелять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	xcomp	_	_
+41	только	только	PART	_	_	44	advmod	_	_
+42	из	из	ADP	_	_	44	case	_	_
+43	одного	один	NUM	_	Case=Gen|Gender=Masc	44	nummod	_	_
+44	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+45	:	:	PUNCT	_	_	44	punct	_	_
+46	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	выстрел	выстрел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	48	nsubj:pass	_	_
+48	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+49	из	из	ADP	_	_	51	case	_	_
+50	правого	правый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+51	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	obl	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+54	--	--	PUNCT	_	_	53	punct	_	_
+55	из	из	ADP	_	_	56	case	_	_
+56	левого	левый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	_
+
+# sent_id = 366
+# text = Прицельная дальность стрельбы из оружия составляет 22,9 метра.
+1	Прицельная	Прицельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	22,9	22,9	NUM	_	_	8	nummod	_	_
+8	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 367
+# text = Для сравнения, прицельная дальность стрельбы одноствольного дробовика Mossberg 500 составляет чуть меньше 40 метров.Американское двуствольное оружие адаптировано для стрельбы как правшами, так и левшами.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	прицельная	прицельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	одноствольного	одноствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	дробовика	дробовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Mossberg	Mossberg	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	500	500	NUM	_	_	5	nummod	_	_
+11	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	чуть	чуть	ADV	_	Degree=Pos	13	advmod	_	_
+13	меньше	меньше	ADV	_	Degree=Cmp	19	advmod	_	_
+14	40	40	NUM	_	_	18	nummod	_	_
+15	метров.	метровадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	SpaceAfter=No
+16	Американское	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	двуствольное	двуствольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj:pass	_	_
+19	адаптировано	адаптироывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+22	как	как	SCONJ	_	_	23	cc	_	_
+23	правшами	правхо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	19	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	так	так	ADV	_	Degree=Pos	27	advmod	_	_
+26	и	и	PART	_	_	27	advmod	_	_
+27	левшами	левша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 368
+# text = Дробовик оснащен пламягасителями.
+1	Дробовик	Дробовик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	пламягасителями	пламягаситель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	obl:agent	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 369
+# text = На него можно установить две планки Пикатинни длиной до 349 миллиметров для "обвеса": прицелов, целеуказателей и фонарей.Сегодня двуствольная конструкция среди помповых дробовиков распространена мало.
+1	На	на	ADP	_	_	2	case	_	_
+2	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	6	nummod:gov	_	_
+6	планки	планка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	Пикатинни	Пикатиннь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	349	349	NUM	_	_	11	nummod	_	_
+11	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	обвеса	обвес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	14	punct	_	_
+17	прицелов	прицел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	целеуказателей	целеуказатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	фонарей	фонарь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+22	.Сегодня	.Сегодень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	двуствольная	двуствольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+25	среди	среди	ADP	_	_	27	case	_	_
+26	помповых	помповый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	дробовиков	дробовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+28	распространена	распространивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+29	мало	мало	ADV	_	Degree=Pos	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 370
+# text = Она увеличивает массу оружия и усложняет его конструкцию.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	усложняет	усложнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+8	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 371
+# text = Однако она же широко используется в охотничьих ружьях, которые выполняются с горизонтальным и вертикальным расположением стволов.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj:pass	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	широко	широко	ADV	_	Degree=Pos	5	advmod	_	_
+5	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	охотничьих	охотничий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	ружьях	руж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	выполняются	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	_
+12	с	с	ADP	_	_	16	case	_	_
+13	горизонтальным	горизонтальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	вертикальным	вертикальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	_
+16	расположением	расположение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+17	стволов	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 372
+# text = Такое оружие, как правило, имеет селектор, позволяющий выбрать ствол для стрельбы, или переключится на ведение огня из двух стволов сразу.Василий Сычёв
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	7	cc	_	_
+5	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	селектор	селектор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	ствол	ствол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	переключится	переключаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	24	conj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	ведение	ведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+20	огня	огонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	из	из	ADP	_	_	23	case	_	_
+22	двух	два	NUM	_	Case=Gen	23	nummod	_	_
+23	стволов	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+24	сразу	сразу	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+27	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	_
+
+# newpar
+# sent_id = 373

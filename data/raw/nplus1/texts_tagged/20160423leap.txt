@@ -1,0 +1,276 @@
+# text = # newpar
+# sent_id = 2543
+# text = Компания CFM international, совместное предприятие американской GE Aviation и французской Snecma, поставила европейскому авиастроительному концерну Airbus первые два серийных турбореактивных двухконтурных двигателя LEAP-1A.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	CFM	Cfm	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	international	international	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	совместное	совместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	предприятие	предприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+7	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	GE	Ge	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Aviation	Aviation	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	французской	французский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+12	Snecma	Snecma	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	поставила	ставить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	европейскому	европейский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	авиастроительному	авиастроительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	концерну	концерн	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+18	Airbus	Airbus	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+20	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	19	nummod:gov	_	_
+21	серийных	серийной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+22	турбореактивных	турбореактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	двухконтурных	двухконтурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+25	LEAP	Leap	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	1A	1a	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2544
+# text = Об этом говорится всообщенииGeneral Electric.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	всообщенииGeneral	всообщенииGeneral	PROPN	_	Foreign=Yes	3	nsubj:pass	_	_
+5	Electric	electric	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2545
+# text = Новый двигатель стал первой в мире серийной авиационной силовой установкой, в которой используются напечатанные детали.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	серийной	серийной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+8	авиационной	авиационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	силовой	силовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	установкой	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	которой	который	PRON	_	Case=Loc	14	obl	_	_
+14	используются	использувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
+15	напечатанные	напечатать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2546
+# text = Новые двигатели будут установлены на пассажирский самолет A320neo.Силовые установки LEAP-1A содержат по 19 напечатанных топливных форсунок.Распылители топлива для двигателей производятся методом прямого лазерного спекания из кобальто-хромового сплава.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	пассажирский	пассажирский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	A320neo.	a320neo.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod	_	SpaceAfter=No
+9	Силовые	силовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	установки	установки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+11	LEAP	Leap	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	1A	1a	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	по	по	ADP	_	_	20	case	_	_
+16	19	19	NUM	_	_	20	nummod	_	_
+17	напечатанных	напечатать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+18	топливных	топливной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	форсунок.	форсуноколо	ADP	_	_	18	case	_	SpaceAfter=No
+20	Распылители	распылитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+21	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+24	производятся	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+26	прямого	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	лазерного	лазерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	спекания	спекание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+29	из	из	ADP	_	_	28	case	_	_
+30	кобальто-хромового	кобальто-хромовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	сплава	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2547
+# text = Такой сплав широко используется при производстве медицинских инструментов и различных протезов.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	сплав	сплав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	широко	широко	ADV	_	Degree=Pos	4	advmod	_	_
+4	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	протезов	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2548
+# text = Он достаточно прочен и легок, поэтому инженеры GE Aviation сочли возможным его использование при производстве деталей для двигателей.Двигатели LEAP-1A впервые былииспытанына пассажирском самолете в мае прошлого года.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	достаточно	достаточно	ADV	_	Degree=Pos	3	advmod	_	_
+3	прочен	прочный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	легок	легкий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	поэтому	поэтому	ADV	_	Degree=Pos	11	advmod	_	_
+8	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	GE	Ge	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Aviation	Aviation	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	сочли	считать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	obj	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+17	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Двигатели	Двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+22	LEAP	Leap	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	1A	1a	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	впервые	впервые	ADV	_	Degree=Pos	26	advmod	_	_
+26	былииспытанына	былииспытаныный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+27	пассажирском	пассажирский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+31	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 2549
+# text = Их установили на опытовый лайнер A320neo.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	опытовый	опытовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	лайнер	лайнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	A320neo	A320neo	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2550
+# text = Продолжительность полета самолета с такими двигателями составила 2,5 часа.
+1	Продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	такими	такой	DET	_	Case=Ins|Number=Plur	6	amod	_	_
+6	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+7	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	2,5	2,5	NUM	_	_	9	nummod	_	_
+9	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2551
+# text = В силовых установках типа LEAP помимо напечатанных форсунок используются лопатки вентилятора, изготовленные из углепластика с плетеным углеродным волокном.
+1	В	в	ADP	_	_	3	case	_	_
+2	силовых	силовой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	установках	установки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+4	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	LEAP	Leap	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	помимо	помимо	ADP	_	_	8	case	_	_
+7	напечатанных	напечатать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	форсунок	форсунка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+9	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	лопатки	лопатки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+11	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	изготовленные	изготовлять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	углепластика	углепластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	19	case	_	_
+17	плетеным	плетеный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	углеродным	углеродный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	волокном	волокн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2552
+# text = Кроме того, турбины высокого и низкого давления в силовой установке сделаны из жаростойких и прочных керамических матричных композитов.Благодаря использованию новых материалов в двигателях CFM International удалось добиться большей топливной эффективности LEAP-1A по сравнению с современными турбореактивными двухконтурными двигателями.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	турбины	турбина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+5	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	низкого	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_
+8	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	силовой	силовой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+12	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	из	из	ADP	_	_	19	case	_	_
+14	жаростойких	жаростойкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	прочных	прочной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	conj	_	_
+17	керамических	керамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+18	матричных	матричный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	композитов.	композитоварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+20	Благодаря	благодаря	ADP	_	_	21	case	_	_
+21	использованию	использование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+22	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	двигателях	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	23	nmod	_	_
+26	CFM	Cfm	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	International	international	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	_
+29	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	28	nsubj	_	_
+30	большей	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+31	топливной	топливной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	obl	_	_
+33	LEAP	Leap	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	1A	1a	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+36	по	по	ADP	_	_	42	case	_	_
+37	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	36	fixed	_	_
+38	с	с	ADP	_	_	37	fixed	_	_
+39	современными	современный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	42	amod	_	_
+40	турбореактивными	турбореактивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	42	amod	_	_
+41	двухконтурными	двухконтурный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	42	amod	_	_
+42	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 2553
+# text = В среднем новые силовые установки стали экономичнее на 15 процентов.
+1	В	в	ADP	_	_	2	case	_	_
+2	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	силовые	силовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	установки	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	экономичнее	экономично	ADV	_	Degree=Cmp	10	advmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	15	15	NUM	_	_	10	nummod	_	_
+10	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2554
+# text = Как ожидается, первый пассажирский рейс A320neo с новыми силовыми установками состоится в 2018 году.Василий Сычёв
+1	Как	как	ADV	_	Degree=Pos	12	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	пассажирский	пассажирский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	рейс	рейс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+7	A320neo	A320neo	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	с	с	ADP	_	_	11	case	_	_
+9	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	силовыми	силовой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	установками	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+12	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	2018	2018	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+18	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_
+
+# newpar
+# sent_id = 2555

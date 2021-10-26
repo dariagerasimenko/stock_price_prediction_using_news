@@ -1,0 +1,477 @@
+# text = # newpar
+# sent_id = 1927
+# text = Шлемы летчиков перспективных истребителей F-35 Lightning II представляют угрозу для их здоровья и жизни во время катапультирования.
+1	Шлемы	шлема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+2	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	перспективных	перспективной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	F-35	f-35	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	Lightning	Lightning	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	II	Ii	NUM	_	_	1	nummod	_	_
+8	представляют	представлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	угрозу	угроза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	во	во	ADP	_	_	17	case	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	катапультирования	катапультирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1928
+# text = КаксообщаетDefense News, к такому выводу пришли испытатели из управления ВВС США, занимающегося курированием проекта боевого самолета.
+1	КаксообщаетDefense	КаксообщаетDefense	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+2	News	news	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	_
+6	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+7	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	испытатели	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	занимающегося	заниматься	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+15	курированием	курирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+16	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	боевого	боевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1929
+# text = По данным испытателей, в нынешнем виде шлем слишком тяжел и при катапультировании в лучшем случае может приводить к повреждению шейного отдела позвоночника.По данным испытателей, повреждение шейного отдела может вызываться как самим тяжелым шлемом, так и катапультируемым креслом истребителя F-35.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	10	parataxis	_	_
+3	испытателей	испытатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	нынешнем	нынешний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+8	шлем	шлем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	слишком	слишком	ADV	_	Degree=Pos	10	advmod	_	_
+10	тяжел	тяжеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	и	и	PART	_	_	13	advmod	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	катапультировании	катапультирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	лучшем	лучший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+18	приводить	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	повреждению	повреждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+21	шейного	шейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	позвоночника	позвоночник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	По	по	ADP	_	_	26	case	_	_
+26	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	32	parataxis	_	_
+27	испытателей	испытатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+30	шейного	шейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+33	вызываться	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	10	advmod	_	_
+34	как	как	SCONJ	_	_	33	cc	_	_
+35	самим	сам	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+36	тяжелым	тяжелой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	шлемом	шлем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	так	так	ADV	_	Degree=Pos	41	advmod	_	_
+40	и	и	PART	_	_	41	advmod	_	_
+41	катапультируемым	катапультируть	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	42	amod	_	_
+42	креслом	кресел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	_
+43	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	F-35	f-35	X	_	Foreign=Yes	43	flat:foreign	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 1930
+# text = При этом испытатели пока не выяснили, вызывает ли травму неправильная конструкция кресла, масса шлема или оба этих фактора вместе.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	испытатели	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	пока	пока	ADV	_	Degree=Pos	6	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	ли	ли	PART	_	_	8	advmod	_	_
+10	травму	травма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	неправильная	неправильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+13	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	масса	масс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+16	шлема	шлем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	оба	оба	NUM	_	Case=Nom|Gender=Masc	20	nummod:gov	_	_
+19	этих	этот	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	вместе	вместе	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1931
+# text = В ходе испытаний выяснилось, что риск повреждений особенно велик для летчиков с небольшой массой тела -- менее 61 килограмма -- при катапультировании на небольшой скорости полета.Катапультирование пилота из самолета происходит с задействованным ракетным двигателем в кресле по специальным направляющим.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	особенно	особенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	велик	большой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	advcl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	небольшой	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+16	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	менее	менее	ADV	_	Degree=Cmp	20	nummod:gov	_	_
+19	61	61	NUM	_	_	20	nummod	_	_
+20	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	катапультировании	катапультирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	небольшой	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+27	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+28	Катапультирование	Катапультирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+29	пилота	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	из	из	ADP	_	_	31	case	_	_
+31	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+32	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	с	с	ADP	_	_	36	case	_	_
+34	задействованным	действовать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+35	ракетным	ракетный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	кресле	кресло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+39	по	по	ADP	_	_	41	mark	_	_
+40	специальным	специальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	41	amod	_	_
+41	направляющим	направлять	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 1932
+# text = При этом перегрузка составляет 12-14g.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	перегрузка	перегрузка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	12	12	NUM	_	_	6	nummod	_	SpaceAfter=No
+6	-14g	-14g	X	_	Foreign=Yes	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1933
+# text = При для пилотов с небольшой массой тела показатели перегрузки могут достигать 18g.
+1	При	при	ADP	_	_	3	case	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	небольшой	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+7	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	перегрузки	перегрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	достигать	достигать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	18g	18g	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1934
+# text = По данным испытателей, в момент старта кресла происходит небольшое запрокидывание тяжелого шлема назад.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	9	parataxis	_	_
+3	испытателей	испытатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+7	старта	старт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	небольшое	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	запрокидывание	запрокидывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	тяжелого	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	шлема	шлем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	назад	назад	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1935
+# text = Смещение центра тяжести и может приводить к повреждению шейного отдела позвоночника.Шлем летчика F-35 представляет собой сочетание нескольких сложных систем.
+1	Смещение	смещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	тяжести	тяжесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+6	приводить	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	повреждению	повреждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+9	шейного	шейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	позвоночника.	позвоночника.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	Шлем	шль	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	летчика	летчик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+14	F-35	F-35	NUM	_	_	13	nummod	_	_
+15	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	собой	себя	PRON	_	Case=Ins	15	dep	_	_
+17	сочетание	сочетание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+18	нескольких	несколько	NUM	_	Case=Gen	20	nummod	_	_
+19	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1936
+# text = В частности, в шлем производится подача дыхательной смеси на большой высоте полета.
+1	В	в	ADP	_	_	5	case	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	шлем	шль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+6	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	подача	подача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+8	дыхательной	дыхательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	смеси	смесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	большой	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+13	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1937
+# text = Кроме того, в него встроен нашлемный дисплей, являющийся частью системы кругового обзора -- изображение на экран передается с шести инфракрасных камер, расположенных по периметру истребителя.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+6	встроен	встраивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	нашлемный	нашлемный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	дисплей	дисплей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	являющийся	являться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+11	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	кругового	круговой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	экран	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	передается	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+20	с	с	ADP	_	_	23	case	_	_
+21	шести	шесть	NUM	_	Case=Gen	23	nummod	_	_
+22	инфракрасных	инфракрасной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	расположенных	расположенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	периметру	периметр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+28	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1938
+# text = Специальные сенсоры, установленные в шлеме, определяют поворот головы пилота и соответствующим образом смещают картинку на нашлемном дисплее.Благодаря системе кругового обзора летчик может увидеть, что происходит, например, под или за самолетом.
+1	Специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	сенсоры	сенсор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	установленные	устанавливать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	шлеме	шлем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	определяют	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	поворот	поворот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	головы	голова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	пилота	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	соответствующим	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+15	смещают	смещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+16	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	нашлемном	нашлемн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+19	дисплее.	дисплебыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+20	Благодаря	благодаря	ADP	_	_	21	case	_	_
+21	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+22	кругового	круговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	летчик	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+26	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	PRON	_	Case=Nom	29	nsubj	_	_
+29	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	например	например	ADV	_	Degree=Pos	36	parataxis	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	под	под	ADP	_	_	36	case	_	_
+34	или	или	CCONJ	_	_	36	cc	_	_
+35	за	за	ADP	_	_	36	case	_	_
+36	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 1939
+# text = Кроме того, в шлеме пилота F-35 реализована и система наведения вооружения по взгляду.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	шлеме	шлем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+6	пилота	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	F-35	f-35	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	и	и	PART	_	_	10	advmod	_	_
+10	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+11	наведения	наведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	взгляду	взгляд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1940
+# text = В шлем также интегрированы наушники и микрофон для голосового обмена информацией.
+1	В	в	ADP	_	_	2	case	_	_
+2	шлем	шль	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	интегрированы	интегрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	наушники	наушник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	микрофон	микрофон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	голосового	голосовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1941
+# text = Масса шлема не раскрывается.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	шлема	шлем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	раскрывается	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1942
+# text = Американская компания Rockwell Collins уже занялась разработкой облегченной версии шлема для летчиков F-35.Ранее специалисты по итогам испытаний пришли к выводу, что когда легкий летчик садится в кресло истребителя F-35, оно незначительно изменяет свое положение.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Rockwell	Rockwell	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Collins	Collins	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	облегченной	облегчять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	шлема	шлем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+13	F-35	f-35	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Ранее	рано	ADV	_	Degree=Cmp	20	advmod	_	_
+16	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
+19	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	SCONJ	_	_	20	cc	_	_
+25	когда	когда	SCONJ	_	_	20	mark	_	_
+26	легкий	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	летчик	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	садится	садиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	advcl	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	кресло	кресло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+31	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	F-35	f-35	X	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	36	nsubj	_	_
+35	незначительно	незначительно	ADV	_	Degree=Pos	36	advmod	_	_
+36	изменяет	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+37	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	38	amod	_	_
+38	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 1943
+# text = В итоге в момент катапультирования и кресло, и тело летчика оказываются в не оптимальном положении, а это, в свою очередь, может вести к серьезной травме шеи.
+1	В	в	ADP	_	_	2	case	_	_
+2	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	катапультирования	катапультирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	кресло	кресло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+11	летчика	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	оказываются	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	оптимальном	оптимальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	25	cc	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	23	amod	_	_
+23	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+26	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	к	к	ADP	_	_	29	case	_	_
+28	серьезной	серьезный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	травме	травма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+30	шеи	шея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1944
+# text = Наибольший риск травмы возникает при катапультировании на малой скорости полета.Пентагон уже запретил летчикам с массой тела менее 61 килограмма летать на истребителях F-35.
+1	Наибольший	наибольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	травмы	травма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	катапультировании	катапультирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	малой	малый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+11	Пентагон	Пентагон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+13	запретил	запрещать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+14	летчикам	летчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+17	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	менее	менее	ADV	_	Degree=Cmp	20	nummod:gov	_	_
+19	61	61	NUM	_	_	20	nummod	_	_
+20	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+21	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	истребителях	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+24	F-35	f-35	X	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1945
+# text = Под запрет пока попал один человек.Василий Сычёв
+1	Под	под	ADP	_	_	2	case	_	_
+2	запрет	запрет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+3	пока	пока	ADV	_	Degree=Pos	4	advmod	_	_
+4	попал	попадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	один	один	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	_
+6	человек.	человеколо	ADP	_	_	7	case	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+
+# newpar
+# sent_id = 1946

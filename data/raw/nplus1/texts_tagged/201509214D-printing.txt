@@ -1,0 +1,189 @@
+# text = # newpar
+# sent_id = 3422
+# text = Инженеры из Университета Джорджии разработали 3D--принтер, способный печатать объекты с заранее запрограммированным "поведением" во времени.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Джорджии	Джорджия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+7	--принтер	--принтер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+10	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	с	с	ADP	_	_	16	case	_	_
+13	заранее	заранее	ADV	_	Degree=Pos	14	advmod	_	_
+14	запрограммированным	программировать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	поведением	поведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	во	в	ADP	_	_	19	case	_	_
+19	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3423
+# text = Ключевым решением в разработке стало использование полимеров с эффектом памяти формы.
+1	Ключевым	ключевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	решением	решение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	полимеров	полимеры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	эффектом	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+10	памяти	память	NUM	_	Case=Gen	11	nummod	_	_
+11	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3424
+# text = Описание технологии опубликовано в журналеScientific Reports.Авторы работы подобрали семь различных полимерных материалов, способных восстанавливать свою форму при нагревании.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журналеScientific	журналеScientific	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Reports	reports	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	подобрали	подбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	семь	семь	NUM	_	Case=Nom	14	nummod:gov	_	_
+12	различных	различной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	полимерных	полимерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+17	восстанавливать	восстанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
+19	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	при	при	ADP	_	_	21	case	_	_
+21	нагревании	нагревание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3425
+# text = В "расслабленном" состоянии они стремились к сворачиванию.
+1	В	в	ADP	_	_	5	case	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	расслабленном	расслаблять	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	стремились	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	сворачиванию	сворачивание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3426
+# text = Из-за разницы в их внутреннем строении, скорость, с которой они восстанавливали свою форму при данной температуре различалась -- например, самый быстрый материал при 80C сворачивался за 11 секунд, самый медленный примерно за 18.С помощью принтера авторы печатали трехмерный объект -- развертку будущей фигуры.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	разницы	разница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+5	внутреннем	внутренний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	строении	строение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	которой	который	PRON	_	Case=Ins	13	obl	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	восстанавливали	восстанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	при	при	ADP	_	_	18	case	_	_
+17	данной	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	температуре	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+19	различалась	различаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	быстрый	быстрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+26	при	при	ADP	_	_	27	case	_	_
+27	80C	80c	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+28	сворачивался	сворачивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	19	conj	_	_
+29	за	за	ADP	_	_	31	case	_	_
+30	11	11	NUM	_	_	31	nummod	_	_
+31	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	медленный	медленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	42	nsubj	_	_
+35	примерно	примерно	ADV	_	Degree=Pos	37	advmod	_	_
+36	за	за	ADP	_	_	37	case	_	_
+37	18.	18	NUM	_	_	41	nummod	_	SpaceAfter=No
+38	С	с	ADP	_	_	40	case	_	_
+39	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	38	fixed	_	_
+40	принтера	принтер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+41	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	nummod:entity	_	_
+42	печатали	печатавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+43	трехмерный	трехмерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	obj	_	_
+45	--	--	PUNCT	_	_	44	punct	_	_
+46	развертку	развертка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+47	будущей	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	фигуры	фигура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 3427
+# text = Она состояла из твердых плоских фрагментов и "суставов", которые были сделаны из одного из семи материалов с памятью формы.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	состояла	состоять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	6	case	_	_
+4	твердых	твердый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	плоских	плоский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	фрагментов	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	суставов	сустав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	одного	один	NUM	_	Case=Gen|Gender=Masc	21	nummod	_	_
+17	из	из	ADP	_	_	19	case	_	_
+18	семи	семь	NUM	_	Case=Gen	19	nummod	_	_
+19	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	памятью	память	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+22	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3428
+# text = Эти стыки находились в "напряженном" состоянии, будучи плоскими.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	стыки	стык	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	8	case	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	напряженном	напряженный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	будучи	быть	AUX	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	cop	_	_
+11	плоскими	плоский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3429
+# text = Затем объект помещали в горячую воду, где "суставы" начинали сгибаться.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	горячую	горячий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	суставы	сустав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	начинали	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+13	сгибаться	сгибаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 3430

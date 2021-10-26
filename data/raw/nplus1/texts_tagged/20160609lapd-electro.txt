@@ -1,0 +1,158 @@
+# text = # newpar
+# sent_id = 4097
+# text = Немецкий автопроизводитель BMW получил контракт на поставку 100 электромобилей BMW i3 для Полицейского департамента Лос-Анджелеса.
+1	Немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	автопроизводитель	автопроизводитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	BMW	Bmw	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поставку	поставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	100	100	NUM	_	_	9	nummod	_	_
+9	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	BMW	Bmw	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	appos	_	_
+11	i3	i3	NUM	_	_	10	nummod	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	Полицейского	полицейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	департамента	департамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	Лос-Анджелеса	лос-анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4098
+# text = В качестве альтернативного варианта рассматривалась закупка Tesla Model S,сообщаетThe Verge.В качестве другого возможного варианта полиция рассматривала Tesla Model S.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	альтернативного	альтернативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	варианта	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	рассматривалась	рассматриваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	закупка	закупка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	Tesla	Tesla	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Model	model	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	S,сообщаетThe	S,сообщаетThe	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Verge	Verge	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	В	в	ADP	_	_	16	case	_	_
+13	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	возможного	возможный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	варианта	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+17	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	рассматривала	рассматривать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	Tesla	Tesla	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Model	model	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	S	s	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4099
+# text = Несмотря на то, что Tesla больше и быстрее, электромобиль BMW стоит почти в два раза дешевле.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	Tesla	Tesla	PROPN	_	Foreign=Yes	7	nsubj	_	_
+7	больше	больше	ADV	_	Degree=Cmp	13	advmod	_	_
+8	и	и	CCONJ	_	_	13	cc	_	_
+9	быстрее	быстро	ADV	_	Degree=Cmp	13	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	электромобиль	электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	BMW	Bmw	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+14	почти	почти	ADV	_	Degree=Pos	17	advmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	17	nummod:gov	_	_
+17	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	дешевле	дешевый	ADJ	_	Degree=Cmp	3	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4100
+# text = Цены на i3 начинаются от 42 тысяч долларов, в то время как P90D стоит от 89 тысяч долларов.ТакжеПолицейский департамент Лос-Анджелеса договорился об установке 100 пунктов подзарядки и четырех скоростных зарядных станций, которые могут заряжать батарею BMW i3 до 80 процентов за один час.Предполагается, что полиция будет использовать электромобили не для оперативного реагирования, а для спокойных служебных поездок.
+1	Цены	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	i3	i3	NUM	_	_	1	nummod	_	_
+4	начинаются	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	42	42	NUM	_	_	7	nummod	_	_
+7	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+8	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	15	advmod	_	_
+11	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	как	как	SCONJ	_	_	12	fixed	_	_
+14	P90D	p90	NOUN	_	Foreign=Yes	15	nsubj	_	_
+15	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	89	89	NUM	_	_	18	nummod	_	_
+18	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+19	долларов.	долларовадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	ТакжеПолицейский	ТакжеПолицейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	департамент	департамент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+22	Лос-Анджелеса	лос-анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	договорился	договариваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	46	advcl	_	_
+24	об	о	ADP	_	_	25	case	_	_
+25	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+26	100	100	NUM	_	_	27	nummod	_	_
+27	пунктов	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	и	и	CCONJ	_	_	33	cc	_	_
+30	четырех	четыре	NUM	_	Case=Gen	33	nummod	_	_
+31	скоростных	скоростный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+32	зарядных	зарядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	которые	который	PRON	_	Case=Nom	36	nsubj	_	_
+36	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
+37	заряжать	заряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+38	батарею	батарея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+39	BMW	Bmw	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	38	appos	_	_
+40	i3	i3	NUM	_	_	39	nummod	_	_
+41	до	до	ADP	_	_	43	case	_	_
+42	80	80	NUM	_	_	43	nummod	_	_
+43	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	obl	_	_
+44	за	за	ADP	_	_	45	case	_	_
+45	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	46	nummod:gov	_	_
+46	час.Предполагается	час.Предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	что	что	SCONJ	_	_	46	mark	_	_
+49	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj	_	_
+50	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	aux	_	_
+51	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	46	advcl	_	_
+52	электромобили	электромобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	51	obj	_	_
+53	не	не	PART	_	_	56	advmod	_	_
+54	для	для	ADP	_	_	56	case	_	_
+55	оперативного	оперативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	56	amod	_	_
+56	реагирования	реагирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	51	nmod	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	а	а	CCONJ	_	_	62	cc	_	_
+59	для	для	ADP	_	_	62	case	_	_
+60	спокойных	спокойной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	62	amod	_	_
+61	служебных	служебный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	62	amod	_	_
+62	поездок	поездка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	56	conj	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	_
+
+# sent_id = 4101
+# text = Первые полицейские BMW i3 должны были появиться на дорогах Лос-Анджелеса уже этой весной, отмечает The Verge.Николай Воронцов
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	полицейские	полицейский	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	BMW	Bmw	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	i3	i3	NUM	_	_	3	nummod	_	_
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+7	появиться	появляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	dep	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+10	Лос-Анджелеса	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	уже	уже	ADV	_	Degree=Pos	12	advmod	_	_
+12	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	13	amod	_	_
+13	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	The	the	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Verge	Verge	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+20	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	_
+
+# newpar
+# sent_id = 4102

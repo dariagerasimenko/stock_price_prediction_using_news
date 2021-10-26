@@ -1,0 +1,114 @@
+# text = # newpar
+# sent_id = 1880
+# text = Фонд "Династия" открыл доступ к электронному архиву российской исторической статистики за последние четыре века.
+1	Фонд	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Династия	династия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	открыл	открывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	электронному	электронный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	архиву	архив	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+10	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	исторической	исторический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	статистики	статистика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	за	за	ADP	_	_	16	case	_	_
+14	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1881
+# text = Об этом сообщается на сайте Фонда.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Фонда	фонд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1882
+# text = Архив представляет из себя базу данных, в которую из различных источников собраны статистические данные за XVIII - XXI века.
+1	Архив	архив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	себя	себя	PRON	_	Case=Gen	2	obl	_	_
+5	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	которую	который	PRON	_	Case=Acc	13	obl	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	собраны	собирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+14	статистические	статистический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	13	nsubj:pass	_	_
+16	за	за	ADP	_	_	20	case	_	_
+17	XVIII	xviii	NUM	_	_	20	nummod	_	_
+18	-	-	PUNCT	_	_	17	punct	_	_
+19	XXI	xxi	NUM	_	_	17	nummod	_	_
+20	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1883
+# text = Статистика собрана по семи направлениям: население, труд, промышленный выпуск, сельскохозяйственный выпуск, сектор услуг, капитал, земля.
+1	Статистика	статистика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	собрана	собирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	семи	семь	NUM	_	Case=Dat	5	nummod	_	_
+5	направлениям	направление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	население	население	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	труд	труд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	промышленный	промышленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сельскохозяйственный	сельскохозяйственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	сектор	сектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+18	услуг	услуга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	капитал	капитал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	земля	земля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1884
+# text = Некоммерческий фонд "Династия" основан в 2002 году.
+1	Некоммерческий	некоммерческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	фонд	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Династия	династия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	2002	2002	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1885
+# text = Приоритетные направления деятельности Фонда -- развитие и популяризация фундаментальной науки и образования в России.
+1	Приоритетные	приоритетный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	направления	направление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Фонда	фонд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	популяризация	популяризация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+9	фундаментальной	фундаментальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	России	россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 1886

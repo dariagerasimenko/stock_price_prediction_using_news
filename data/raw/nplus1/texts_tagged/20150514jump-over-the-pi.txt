@@ -1,0 +1,231 @@
+# text = # newpar
+# sent_id = 4111
+# text = Исследователи из университета Иллинойса изучили способность муравьев рода Odontomachus прыгать при опасности.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Иллинойса	Иллинойс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	муравьев	муравей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Odontomachus	Odontomachus	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	прыгать	прыгать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	опасности	опасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4112
+# text = Статья опубликована в PloS.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	PloS	Plos	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 4113
+# text = Муравьи рода Odontomachus давно известны своей способностью прыгать до 20 сантиметров в высоту, но механизм, благодаря которому они совершают эти прыжки, не был до сих пор изучен.
+1	Муравьи	Муравей	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	рода	род	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	Odontomachus	Odontomachus	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	давно	давно	ADV	_	Degree=Pos	5	advmod	_	_
+5	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	7	amod	_	_
+7	способностью	способность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	прыгать	прыгать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	20	20	NUM	_	_	11	nummod	_	_
+11	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	но	но	CCONJ	_	_	30	cc	_	_
+16	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	благодаря	благодаря	ADP	_	_	19	case	_	_
+19	которому	который	PRON	_	Case=Dat	21	obl	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+21	совершают	совершавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+22	эти	этот	DET	_	Case=Nom|Number=Plur	23	amod	_	_
+23	прыжки	прыжка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	не	не	PART	_	_	30	advmod	_	_
+26	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	aux:pass	_	_
+27	до	до	ADP	_	_	30	advmod	_	_
+28	сих	сей	DET	_	Case=Gen|Number=Plur	27	fixed	_	_
+29	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	fixed	_	_
+30	изучен	изучать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4114
+# text = Муравьи этого вида обладают внушительными мандибулами, которые могу сжиматься с очень большой скоростью. Odontomachus bauri, например, может щелкнуть челюстями со скоростью до 230 километров в час.
+1	Муравьи	Муравей	DET	_	Case=Nom|Number=Plur	4	nsubj	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	внушительными	внушительной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	мандибулами	мандибуло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	сжиматься	сжиматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	с	с	ADP	_	_	14	case	_	_
+12	очень	очень	ADV	_	Degree=Pos	13	advmod	_	_
+13	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+16	Odontomachus	Odontomachus	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	bauri	bauri	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	например	например	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	щелкнуть	щелкнуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	челюстями	челюсть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	_
+24	со	с	ADP	_	_	25	case	_	_
+25	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+26	до	до	ADP	_	_	28	case	_	_
+27	230	230	NUM	_	_	28	nummod	_	_
+28	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4115
+# text = Исследователи провели серию из 117 экспериментов, в каждом из которых участвовал один муравей и один муравьиный лев.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	117	117	NUM	_	_	6	nummod	_	_
+6	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	которых	который	PRON	_	Case=Gen	9	nmod	_	_
+12	участвовал	участвовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+13	один	один	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	муравей	муравь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	один	один	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+17	муравьиный	муравьиный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	лев	лев	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4116
+# text = Муравья бросали в воронку к хищнику и записывали, смог ли тот выбраться и использовал ли он для этого прыжки или просто убежал.
+1	Муравья	мураво	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	бросали	бросать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	воронку	воронка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	хищнику	хищник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	записывали	записывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	ли	ли	PART	_	_	10	advmod	_	_
+12	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	выбраться	выбираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	ли	ли	PART	_	_	15	advmod	_	_
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+20	прыжки	прыжка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+21	или	или	CCONJ	_	_	23	cc	_	_
+22	просто	просто	PART	_	_	23	advmod	_	_
+23	убежал	убежать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4117
+# text = Ученые предположили, муравьи в случае опасности могут сознательно использовать мандибулы для прыжков.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	муравьи	муравей	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	сознательно	сознательно	ADV	_	Degree=Pos	10	advmod	_	_
+10	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	мандибулы	мандибул	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	прыжков	прыжок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4118
+# text = Поэтому части животных мандибулы зафиксировали клеемчтобы проследить, как повлияет невозможность использовать прыжки на вероятность успешного побега из воронки.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	5	advmod	_	_
+2	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	мандибулы	мандибула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	зафиксировали	зафиксировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	клеемчтобы	клеемчтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+7	проследить	прослеживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	ADV	_	Degree=Pos	10	advmod	_	_
+10	повлияет	влиять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+11	невозможность	невозможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	прыжки	прыжок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+16	успешного	успешный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	побега	побег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	из	из	ADP	_	_	17	case	_	_
+19	воронки	воронка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4119
+# text = Почти в трети экспериментов муравей не смог сбежать от муравьиного льва, при этом прыжками спаслись 15 процентов муравьев.
+1	Почти	почти	ADV	_	Degree=Pos	3	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	трети	треть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+4	экспериментов	эксперименты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	муравей	мураво	ADV	_	Degree=Cmp	7	advmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сбежать	сбежать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	от	от	ADP	_	_	11	case	_	_
+10	муравьиного	муравьиный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	льва	льво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+15	прыжками	прыжок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+16	спаслись	спасваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+17	15	15	NUM	_	_	18	nummod	_	_
+18	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
+19	муравьев	муравей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4120
+# text = Кроме того, если муравьям склеить челюсти, то вероятность уйти живым из песчаной воронки падает почти в два раза.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	муравьям	мурав	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+6	склеить	склеивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+7	челюсти	челюсть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	SCONJ	_	_	6	cc	_	_
+10	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+11	уйти	уходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	живым	живой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	песчаной	песчаный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	воронки	воронка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+17	почти	почти	ADV	_	Degree=Pos	16	advmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	20	nummod:gov	_	_
+20	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 4121

@@ -1,0 +1,183 @@
+# text = # newpar
+# sent_id = 4706
+# text = Американские нейрофизиологи сумели расшифровать данные томографии и реконструировать изображения лиц, о которых вспоминали подопытные.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	нейрофизиологи	нейрофизиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	сумели	уметь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	расшифровать	расшифровать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	4	obj	_	_
+6	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	реконструировать	реконструировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+9	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+10	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Loc	14	obl	_	_
+14	вспоминали	вспоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	подопытные	подопытный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4707
+# text = Об этом сообщает статья, опубликованная в Journal of Neuroscience.В экспериментах группе добровольцев последовательно демонстрировались цветные фотографии 1000 человеческих лиц.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	опубликованная	опубликовывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Journal	journal	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	of	of	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Neuroscience.	Neuroscience.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+11	В	в	ADP	_	_	12	case	_	_
+12	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+13	группе	групп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+14	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	последовательно	последовательно	ADV	_	Degree=Pos	16	advmod	_	_
+16	демонстрировались	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
+17	цветные	цветный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+19	1000	1000	NUM	_	_	21	nummod	_	_
+20	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4708
+# text = С помощью функциональной МРТ Хунми Ли (Hongmi Lee) и Брайс Кюль (Brice Kuhl) следили за возникающей при этом активностью угловой извилины.
+1	С	с	ADP	_	_	4	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	функциональной	функциональной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	МРТ	мрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+5	Хунми	Хунй	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+6	Ли	ли	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Hongmi	Hongmi	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Lee	Lee	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Брайс	Брайс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+13	Кюль	Кюль	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Brice	Brice	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Kuhl	Kuhl	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	следили	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	за	за	ADP	_	_	23	case	_	_
+20	возникающей	возникать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+24	угловой	угловой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	извилины	извилина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4709
+# text = Она расположена в задней части теменной доли головного мозга и, помимо прочих функций, участвует в процессах извлечения памяти.Кроме того, с помощью алгоритмов Eigenface в тех же изображениях лиц были выделены 300 ключевых компонентов.Эти алгоритмы позволяют представить любое человеческое лицо как сумму характеристик некоторого базового набора ("палитры лиц") с разными весовыми коэффициентами.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	в	в1	ADP	_	_	5	case	_	_
+4	задней	задний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	теменной	теменный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	доли	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	14	cc	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	помимо	помимо	ADP	_	_	14	case	_	_
+13	прочих	прочий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+19	извлечения	извлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	памяти.	памяти.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+21	Кроме	Кроме	ADP	_	_	22	case	_	_
+22	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	fixed	_	_
+26	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	_
+27	Eigenface	Eigenface	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	в	в	ADP	_	_	31	case	_	_
+29	тех	тот	DET	_	Case=Loc|Number=Plur	31	amod	_	_
+30	же	же	PART	_	_	29	advmod	_	_
+31	изображениях	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	34	obl	_	_
+32	лиц	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	nsubj	_	_
+33	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	выделены	выделять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	conj	_	_
+35	300	300	NUM	_	_	37	nummod	_	_
+36	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	компонентов.	компонентовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+38	Эти	этот	DET	_	Case=Nom|Number=Plur	39	amod	_	_
+39	алгоритмы	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+40	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+41	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	40	xcomp	_	_
+42	любое	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+43	человеческое	человеческий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	лицо	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
+45	как	как	SCONJ	_	_	46	cc	_	_
+46	сумму	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	advmod	_	_
+47	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	46	nmod	_	_
+48	некоторого	некоторый	DET	_	Case=Gen|Gender=Masc|Number=Sing	50	amod	_	_
+49	базового	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	_
+51	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	палитры	палитра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	parataxis	_	_
+54	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	53	nmod	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	)	)	PUNCT	_	_	54	punct	_	_
+57	с	с	ADP	_	_	60	case	_	_
+58	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	60	amod	_	_
+59	весовыми	весовой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	60	amod	_	_
+60	коэффициентами	коэффициент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	_
+
+# sent_id = 4710
+# text = Полученные данные вместе с записями фМРТ были проанализированы системой с искусственным интеллектом, которая обнаружила между ними корреляции.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	8	nsubj	_	_
+3	вместе	вместе	ADV	_	Degree=Pos	8	advmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	записями	запись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	_
+6	фМРТ	фмрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	проанализированы	анализировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl:agent	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	искусственным	искусственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	интеллектом	интеллект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которая	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	между	между	ADP	_	_	17	case	_	_
+17	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	18	obl	_	_
+18	корреляции	корреляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4711
+# text = Определенным паттернам активности нейронов ИИ сопоставил соответствующие компоненты лица -- однако это была лишь подготовительная часть экспериментов.
+1	Определенным	определять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	паттернам	паттерна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+3	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	ИИ	ии	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	сопоставил	сопоставлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	соответствующие	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	компоненты	компонент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	16	advmod	_	_
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+14	лишь	лишь	PART	_	_	15	advmod	_	_
+15	подготовительная	подготовительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+17	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 4712

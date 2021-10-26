@@ -1,0 +1,235 @@
+# text = # newpar
+# sent_id = 3923
+# text = LG Electronics в рамках выставки Mobile World Congress (MWC 2016) провела презентацию смартфона G5 и ряда аксессуаров к нему.
+1	LG	lg	PROPN	_	Foreign=Yes	13	nsubj	_	_
+2	Electronics	Electronics	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+5	выставки	выставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Mobile	Mobile	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	World	world	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Congress	Congress	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	MWC	Mwс	ADP	_	_	11	case	_	_
+11	2016	2016	NUM	_	_	8	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	презентацию	презентация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	G5	G5	NUM	_	_	15	nummod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+19	аксессуаров	аксессуар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3924
+# text = Подробнее о новых гаджетах можно прочитать на сайте компании.Ключевая особенность нового флагмана LG -- сменный модуль, который совмещен с аккумулятором на 2800 миллиампер-часов и крепится к нижней части смартфона.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	5	advmod	_	_
+2	о	о	ADP	_	_	4	case	_	_
+3	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	гаджетах	гаджет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	компании.	компании.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	Ключевая	Ключевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	особенность	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	флагмана	флагман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	LG	lg	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	сменный	сменный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj:pass	_	_
+20	совмещен	совмещать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	аккумулятором	аккумулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+23	на	на	ADP	_	_	22	case	_	_
+24	2800	2800	NUM	_	_	25	nummod	_	_
+25	миллиампер-часов	миллиампер-час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	крепится	крепить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	_
+28	к	к	ADP	_	_	30	case	_	_
+29	нижней	нижний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
+31	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3925
+# text = Из-за специфики конструкции телефона и отсутствия дублирующей батареи в корпусе телефон выключается при смене модулей.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	специфики	специфика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+3	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	отсутствия	отсутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
+7	дублирующей	дублируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	корпусе	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+11	телефон	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+12	выключается	выключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	смене	смена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3926
+# text = На данный момент кроме стандартного модуля с батареей доступны модуль с внешним аудиоплеером и модуль расширенного управления камерой, на котором расположена часть стандартных механических кнопок, использующихся для управления обычными цифровыми фотоаппаратами.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+4	кроме	кроме	ADP	_	_	6	case	_	_
+5	стандартного	стандартный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	батареей	батарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+10	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	внешним	внешний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	аудиоплеером	аудиоплеер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+14	и	и	CCONJ	_	_	22	cc	_	_
+15	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+16	расширенного	расширять	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+18	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	котором	который	PRON	_	Case=Loc	22	nmod	_	_
+22	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	conj	_	_
+23	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+24	стандартных	стандартный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+25	механических	механический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	кнопок	кнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	использующихся	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_
+29	для	для	ADP	_	_	30	case	_	_
+30	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+31	обычными	обычный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+32	цифровыми	цифровой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+33	фотоаппаратами	фотоаппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3927
+# text = Внутри нового смартфона установлен восьмиядерный процессор Qualcomm Snapdragon 820, четыре гигабайта оперативной памяти, 32 гигабайта встроенной памяти и разъем для microSD, позволяющий расширить внутреннюю память до объема в два терабайта.
+1	Внутри	внутри	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	восьмиядерный	восьмиядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	процессор	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7	Qualcomm	Qualcomm	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Snapdragon	Snapdragon	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	820	820	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	гигабайта	гигабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+13	оперативной	оперативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	32	32	NUM	_	_	17	nummod	_	_
+17	гигабайта	гигабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+18	встроенной	встраивать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+19	памяти	память	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	разъем	разъть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	microSD	microSd	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	позволяющий	позволять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+26	расширить	расширять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	внутреннюю	внутренний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	до	до	ADP	_	_	30	case	_	_
+30	объема	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+31	в	в	ADP	_	_	30	case	_	_
+32	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	30	nummod:gov	_	_
+33	терабайта	терабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3928
+# text = Работает смартфон под управлением Android 6.0 Marshmallow.
+1	Работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+5	Android	Android	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	6.0	6.0	NUM	_	_	7	nummod	_	_
+7	Marshmallow.	marshmallow.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+
+# sent_id = 3929
+# text = На задней крышке телефона основная 16-мегапиксельная и широкоугольная восьмимегапиксельная камеры, фронтальная камера -- восемь мегапикселей.
+1	На	на	ADP	_	_	3	case	_	_
+2	задней	задний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	крышке	крышка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+4	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+6	16-мегапиксельная	16-мегапиксельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	широкоугольная	широкоугольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	восьмимегапиксельная	восьмимегапиксельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	камеры	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	фронтальная	фронтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	восемь	восемь	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	мегапикселей	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3930
+# text = G5 оснащен экраном с диагональю 5,3 дюйма, который поддерживает функцию Always On -- по словам представителей компании, телефон постоянно отображает актуальную информацию и уведомления на основном экране, при этом на поддержание изображения за один час расходуется не более 0,8 процента заряда аккумулятора.
+1	G5	G5	NUM	_	_	2	nummod	_	_
+2	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	экраном	экран	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	диагональю	диагональ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+6	5,3	5,3	NUM	_	_	7	nummod	_	_
+7	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+11	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Always	Always	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	On	on	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	obl	_	_
+17	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	телефон	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+21	постоянно	постоянно	ADV	_	Degree=Pos	22	advmod	_	_
+22	отображает	отображать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	актуальную	актуальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	уведомления	уведомление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	экране	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	при	при	ADP	_	_	32	case	_	_
+32	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	39	obl	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	поддержание	поддержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	39	obl	_	_
+35	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	за	за	ADP	_	_	38	case	_	_
+37	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	38	nummod:gov	_	_
+38	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
+39	расходуется	расходуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+40	не	не	PART	_	_	41	advmod	_	_
+41	более	более	ADV	_	Degree=Cmp	43	nummod:gov	_	_
+42	0,8	0,8	NUM	_	_	43	nummod	_	_
+43	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nsubj:pass	_	_
+44	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# newpar
+# sent_id = 3931

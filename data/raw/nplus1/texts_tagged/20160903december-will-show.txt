@@ -1,0 +1,190 @@
+# text = # newpar
+# sent_id = 4861
+# text = Один из участников форумаNASA Spaceflight, доктор Хосе Родаль, сообщил о том, что в скором времени выйдет рецензируемая научная публикация, подтверждающая работоспособность "невозможного двигателя" EmDrive.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	11	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	форумаNASA	форумаnasa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Spaceflight	Spaceflight	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	доктор	доктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+8	Хосе	хосе	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	Родаль	Родаль	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сообщил	сообщать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	скором	скорый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+19	выйдет	вхыдить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	advcl	_	_
+20	рецензируемая	рецензируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	22	amod	_	_
+21	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	публикация	публикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	подтверждающая	подтверждать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+25	работоспособность	работоспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	невозможного	невозможной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	EmDrive	EmDrive	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4862
+# text = На данный момент публикация удалена, однако о ней сообщает издание IFLScience со ссылкой на InternationalBusiness Times.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	публикация	публикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	удалена	удаливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	obl	_	_
+10	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	IFLScience	IFLScience	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	со	с	ADP	_	_	14	case	_	_
+14	ссылкой	ссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	InternationalBusiness	InternationalBusiness	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	Times	times	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4863
+# text = Информацию о том, что в журналJournal of Propulsion and Powerнаправлена статья, посвященная электромагнитным двигателям, подтвердилАмериканский институт аэронавтики и астронавтики, издающий журнал.
+1	Информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	журналJournal	журналJournal	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Propulsion	Propulsion	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	and	and	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Powerнаправлена	Powerнаправлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+12	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	посвященная	посвящать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	электромагнитным	электромагнитной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	_
+16	двигателям	двигатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	подтвердилАмериканский	подтвердилАмериканский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+20	аэронавтики	аэронавтика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	астронавтики	астронавтика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	издающий	издавать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+25	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4864
+# text = Ожидается, что работа будет опубликована в декабре.EmDrive является, предположительно, электромагнитным двигателем, способным производить тягу без использования реактивного выброса.
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	декабре.EmDrive	декабре.EmDrive	PROPN	_	Foreign=Yes	6	obl	_	_
+9	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	предположительно	предположительно	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	электромагнитным	электромагнитной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	способным	способный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+18	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+19	без	без	ADP	_	_	18	case	_	_
+20	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	реактивного	реактивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	выброса	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4865
+# text = Он состоит из магнетрона, создающего микроволновое излучение, и медного конического резонатора-волновода.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	магнетрона	магнетрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	создающего	создають	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	микроволновое	микроволновый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	излучение	излучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	14	cc	_	_
+11	медного	медный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	конического	конический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	резонатора-	резонатора-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	волновода	волновод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4866
+# text = Последний, по словам изобретателя, производит усилие со стороны широкого конца конуса, приводящее к появлению тяги.
+1	Последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+5	изобретателя	изобретатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	усилие	усилие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+9	со	со	ADP	_	_	12	case	_	_
+10	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	fixed	_	_
+11	широкого	широкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	конуса	конус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	приводящее	приводить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+18	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4867
+# text = Критика устройства опирается, в частности, на то, что в такой формулировке оно нарушает закон сохранения импульса -- EmDrive является закрытой системой и не может увеличивать свой импульс без внешнего воздействия.
+1	Критика	критика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опирается	опираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	3	discourse	_	_
+6	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	14	amod	_	_
+14	формулировке	формулировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+15	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	16	nsubj	_	_
+16	нарушает	нарушавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+17	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+18	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	импульса	импульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	EmDrive	EmDrive	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+22	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	advcl	_	_
+23	закрытой	закрывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+28	увеличивать	увеличивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	30	amod	_	_
+30	импульс	импульс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+31	без	без	ADP	_	_	33	case	_	_
+32	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# newpar
+# sent_id = 4868

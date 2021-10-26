@@ -1,0 +1,482 @@
+# text = # newpar
+# sent_id = 5056
+# text = В NASA утвердили новую дату начала марсианской миссии.
+1	В	в	ADP	_	_	2	case	_	_
+2	NASA	Nasa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+3	утвердили	утверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	дату	дата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	марсианской	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5057
+# text = Запуск аппарата InSight состоится 5 мая 2018 года, расчетное время прибытия на Марс -- 26 ноября 2018.
+1	Запуск	запуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	InSight	InSight	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	5	5	NUM	_	_	4	nummod	_	_
+6	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	2018	2018	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	расчетное	расчетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	_
+12	прибытия	прибытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	26	26	NUM	_	_	11	nummod	_	_
+17	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+18	2018	2018	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5058
+# text = Об этом сообщается на сайте космического агентства.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5059
+# text = Изначально старт был назначен на март 2016 года, но из-за неполадок сейсмометра (SEIS), с которым должен быть связан основной эксперимент миссии, полет пришлось отложить.
+1	Изначально	изначально	ADV	_	Degree=Pos	4	advmod	_	_
+2	старт	старт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	назначен	назначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	март	март	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	2016	2016	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	20	cc	_	_
+11	из-за	из-за	ADP	_	_	12	case	_	_
+12	неполадок	неполадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+13	сейсмометра	сейсмометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	SEIS	Seis	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	которым	который	PRON	_	Case=Ins	20	nmod	_	_
+20	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	aux:pass	_	_
+22	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	dep	_	_
+23	основной	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+25	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+28	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+29	отложить	отлагать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5060
+# text = Аббревиатура InSight расшифровывается как Interior Exploration using Seismic Investigations, Geodesy and Heat Transport -- "Исследование строения Марса на основе данных сейсмографии, геодезии и терморазведки".
+1	Аббревиатура	аббревиатура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	InSight	InSight	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	расшифровывается	расшифровывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	как	как	SCONJ	_	_	5	cc	_	_
+5	Interior	Interior	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+6	Exploration	Exploration	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	using	using	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Seismic	Seismic	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Investigations	Investigations	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Geodesy	Geodesy	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	and	and	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	Heat	Heat	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Transport	Transport	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Исследование	исследование	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	obl	_	_
+18	строения	строение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_
+22	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	21	nmod	_	_
+23	сейсмографии	сейсмография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	геодезии	геодезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	терморазведки	терморазведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5061
+# text = Аппарат предназначен для зондирования внутренней структуры Марса, с его помощью исследователи хотят понять, как формировались и эволюционировали скалистые планеты, в том числе и Земля.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	зондирования	зондирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	внутренней	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+12	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	ADV	_	Degree=Pos	17	advmod	_	_
+17	формировались	формироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	advmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	эволюционировали	эволюционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+20	скалистые	скалистый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	планеты	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	25	amod	_	_
+25	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	advmod	_	_
+26	и	и	PART	_	_	27	advmod	_	_
+27	Земля	земля	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5062
+# text = InSight изучит размеры, толщину, плотность и состав марсианского ядра, мантии и коры.
+1	InSight	InSight	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	изучит	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	размеры	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	толщину	толщина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	плотность	плотность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+10	марсианского	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	мантии	мантия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5063
+# text = Также в задачу миссии входит изучение сейсмической и тектонической активности Марса.
+1	Также	также	CCONJ	_	_	5	cc	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+4	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	сейсмической	сейсмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	тектонической	тектонический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_
+10	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+11	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5064
+# text = Исследователи планируют посадить аппарат неподалеку от марсианского экватора, чтобы обеспечить его системы, работающие на солнечных батареях, достаточным количеством энергии.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	неподалеку	неподалеку	ADV	_	Degree=Pos	8	advmod	_	_
+6	от	от	ADP	_	_	8	case	_	_
+7	марсианского	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	экватора	экватор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+11	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	работающие	работать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	солнечных	солнечный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	батареях	батарея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	достаточным	достаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+22	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5065
+# text = InSight не сможет передвигаться по поверхности планеты, поскольку является стационарным устройством.
+1	InSight	InSight	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+10	является	являваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+11	стационарным	стационарный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5066
+# text = Предполагается, что миссия проработает на Марсе два года.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	проработает	проработать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5067
+# text = Основные инструменты, с помощью которых аппарат будет проводить исследования: Сейсмометр SEIS (Seismic Experiment for Interior Structure), необходимый для точного измерения тектонической активности Марса.
+1	Основные	основной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	инструменты	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	которых	который	PRON	_	Case=Gen	7	nmod	_	_
+7	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+10	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	Сейсмометр	Сейсмометр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	appos	_	_
+13	SEIS	Seis	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Seismic	Seismic	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Experiment	Experiment	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	for	for	X	_	Foreign=Yes	16	flat:foreign	_	_
+18	Interior	Interior	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Structure	Structure	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	необходимый	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+23	для	для	ADP	_	_	25	case	_	_
+24	точного	точный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+26	тектонической	тектонический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5068
+# text = Из-за разгерметизации сенсоров этого устройства полет InSight пришлось отложить на два с лишним года.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	разгерметизации	разгерметизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+3	сенсоров	сенсор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	amod	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	полет	погод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+7	InSight	InSight	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	отложить	откладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	на	на	ADP	_	_	14	case	_	_
+11	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	14	nummod:gov	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5069
+# text = Инструмент HP3 (Heat Flow and Physical Properties Package) предназначен для измерения тепловых потоков в марсианском грунте.
+1	Инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+2	HP3	HP3	NUM	_	_	1	nummod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Heat	Heat	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+5	Flow	Flow	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	and	and	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Physical	Physical	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Properties	Properties	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Package	Package	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	тепловых	тепловой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	марсианском	марсианский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	грунте	грунт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5070
+# text = Бур устройства способен погружаться в почву на глубину до пяти метров и измерять количество тепла, которое испускает марсианское ядро.
+1	Бур	Бур	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	погружаться	погружаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	dep	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	почву	почва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	на	на	ADP	_	_	6	case	_	_
+8	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	пяти	пять	NUM	_	Case=Gen	11	nummod	_	_
+11	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	измерять	измерять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+14	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	тепла	тепло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которое	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	испускает	испускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	марсианское	марсианский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	ядро	ядро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5071
+# text = Также система будет оснащена магнетометром, измеряющим магнитные возмущения, вызываемые марсианской ионосферой; радио рентгеновского диапазона для точных измерений вращения планеты; цветной и черно-белой камерами.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	оснащена	оснаскать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	магнетометром	магнетометр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	измеряющим	измерять	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	магнитные	магнитной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	возмущения	возмущение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вызываемые	вызывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	марсианской	марсианский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	ионосферой	ионосфера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	;	;	PUNCT	_	_	13	punct	_	_
+15	радио	радио	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	conj	_	_
+16	рентгеновского	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	диапазона	диапазон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	для	для	ADP	_	_	17	case	_	_
+19	точных	точный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	измерений	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+21	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	_	_	22	punct	_	_
+24	цветной	цветный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	черно-белой	черно-белый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	_
+27	камерами	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5072
+# text = Исследовательская миссия InSight, уверен Джефф Йодер (Geoff Yoder), администратор научных программ NASA, будет способствовать будущему появлению людей на Марсе.
+1	Исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	InSight	InSight	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	Джефф	Джефф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+7	Йодер	Йодер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Geoff	Geoff	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+10	Yoder	Yoder	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	администратор	администратор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+14	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	способствовать	способствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+20	будущему	будущий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+22	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5073
+# text = Кроме того, утверждает он, она поможет лучше понять происхождение Марса и других скалистых планет, включая ЗемлюИсследователи разных стран уже начали подготовку к пилотируемым полетам на Марс и колонизации планеты.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	утверждает	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+8	поможет	поможть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	лучше	хорошо	ADV	_	Degree=Cmp	10	advmod	_	_
+10	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	происхождение	происхождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	скалистых	скалистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	включая	включая	ADV	_	Degree=Pos	23	advmod	_	_
+19	ЗемлюИсследователи	ЗемлюИсследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+20	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	уже	уже	ADV	_	Degree=Pos	23	advmod	_	_
+23	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+24	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	к	к	ADP	_	_	27	case	_	_
+26	пилотируемым	пилотировать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	27	amod	_	_
+27	полетам	полет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	24	nmod	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	колонизации	колонизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	conj	_	_
+32	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5074
+# text = Так, недавно на Гавайях завершился годичный эксперимент по имитации жизни на Марсе.
+1	Так	так	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	недавно	недавно	ADV	_	Degree=Pos	6	advmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Гавайях	Гавайя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+6	завершился	завершаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	годичный	годичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	имитации	имитация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5075
+# text = В сентябре состоится симпозиум "Mars city design", целью которого будет создание прототипов марсианских городов.
+1	В	в	ADP	_	_	2	case	_	_
+2	сентябре	сентябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	симпозиум	симпозиум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Mars	Mars	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	city	city	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	design	design	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	acl:relcl	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+14	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+15	прототипов	прототип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	марсианских	марсианский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5076
+# text = Ранее сообщалось, что компания SpaceX отправит на Марс транспортный корабль Dragon в 2018 году.Екатерина Русакова
+1	Ранее	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	сообщалось	сообщаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	SpaceX	Spacex	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	отправит	отправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	транспортный	транспортный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+12	Dragon	Dragon	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	в	в	ADP	_	_	11	case	_	_
+14	2018	2018	NUM	_	_	15	nummod	_	_
+15	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+16	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+
+# newpar
+# sent_id = 5077

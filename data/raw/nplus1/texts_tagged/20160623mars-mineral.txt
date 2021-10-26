@@ -1,0 +1,364 @@
+# text = # newpar
+# sent_id = 293
+# text = Марсоход Curiosity обнаружил наповерхности Красной планеты минерал тридимит, который распространен наЗемле.
+1	Марсоход	Марсоход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Curiosity	Curiosity	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	обнаружил	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	наповерхности	наповерхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+5	Красной	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	минерал	минерал	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	тридимит	тридимить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	распространен	распространять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	наЗемле	наЗемля	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 294
+# text = По словам исследователей, это открытие поможет объяснить историю формирования Марса.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 295
+# text = Статья ученых опубликована вжурнале PNAS.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	PNAS	Pnas	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 296
+# text = Марсианская научная лаборатория NASA исследовала образцы осадочных пород изкратера Гейл, которые были взяты на 1060 сол (так называется марсианский день) после приземления Curiosity.
+1	Марсианская	марсианский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	NASA	Nasa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	исследовала	исследовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	образцы	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	осадочных	осадочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	пород	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	изкратера	изкратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Гейл	Гейл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	взяты	брать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	1060	1060	NUM	_	_	17	nummod	_	_
+17	сол	сола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	так	так	ADV	_	Degree=Pos	17	mark	_	_
+20	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+21	марсианский	марсианский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	после	после	ADP	_	_	25	case	_	_
+25	приземления	приземление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+26	Curiosity	Curiosity	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 297
+# text = Космический аппарат собрал пыль, полученную вовремя бурения отверстия вместе под названием Buckskin.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	собрал	собирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пыль	пыль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	полученную	получать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	вовремя	вовремя	ADV	_	Degree=Pos	8	advmod	_	_
+8	бурения	бурение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+9	отверстия	отверстие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	вместе	вместе	ADV	_	Degree=Pos	12	advmod	_	_
+11	под	под	ADP	_	_	12	case	_	_
+12	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	conj	_	_
+13	Buckskin	Buckskin	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 298
+# text = Анализ данных, проведенный спомощью спектрометра Alpha Particle X-Ray Spectrometer, показал, что вобразцах содержится значительное количество тридимита-- минерала изгруппы кремнеземов.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проведенный	проведять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl:agent	_	_
+6	спектрометра	спектрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Alpha	Alpha	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Particle	Particle	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	X-	X-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Ray	Ray	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Spectrometer	spectrometer	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	вобразцах	вобразцо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	17	obl	_	_
+17	содержится	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+18	значительное	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+20	тридимита-	тридимита-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	минерала	минерал	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	appos	_	_
+23	изгруппы	изгруппа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	кремнеземов	кремнезем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 299
+# text = Находка удивила исследователей, так как тридимит восновном ассоциируется спроцессами вулканизма собразованием кремниевой лавы (когда лава по большей части состоит изSiO2).
+1	Находка	находка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	удивила	удивлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	так	так	ADV	_	Degree=Pos	2	mark	_	_
+6	как	как	SCONJ	_	_	5	fixed	_	_
+7	тридимит	тридимить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+8	восновном	восновн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	ассоциируется	ассоциироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+10	спроцессами	спроцесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+11	вулканизма	вулканизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	собразованием	собразование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl:agent	_	_
+13	кремниевой	кремниевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	лавы	лава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	когда	когда	SCONJ	_	_	12	mark	_	_
+17	лава	лава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+18	по	по	ADP	_	_	20	case	_	_
+19	большей	больший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	_
+21	состоит	состоать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+22	изSiO2	изSiO2	NOUN	_	_	21	appos	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 300
+# text = Такой вулканизм широко известен наЗемле, однако исследователи непредполагали, что ониграл важную роль или вообще проходил наМарсе.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	вулканизм	вулканизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	широко	широко	ADV	_	Degree=Pos	4	advmod	_	_
+4	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	наЗемле	наЗемль	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	непредполагали	непредполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	ониграл	онигрывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+13	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	или	или	CCONJ	_	_	17	cc	_	_
+16	вообще	вообще	ADV	_	Degree=Pos	17	advmod	_	_
+17	проходил	проходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	наМарсе	наМарса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 301
+# text = Ученые говорят отом, что ранее было известно лишь осуществовании базальтовых вулканов напланете-- такие вулканы выбрасывают жидкую лаву, которая наполовину состоит изоксидов алюминия, железа, магния идругих металлов (вторую половину составляет диоксид кремния).
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	PRON	_	Case=Nom	8	nsubj	_	_
+6	ранее	ранее	ADV	_	Degree=Pos	8	advmod	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	acl:relcl	_	_
+9	лишь	лишь	PART	_	_	10	advmod	_	_
+10	осуществовании	осуществование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nsubj	_	_
+11	базальтовых	базальтовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	вулканов	вулкан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	напланете-	напланете-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	такие	такой	DET	_	Case=Nom|Number=Plur	16	amod	_	_
+16	вулканы	вулкан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	выбрасывают	выбрасывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	жидкую	жидкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	лаву	лава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которая	который	PRON	_	Case=Nom	23	nsubj	_	_
+22	наполовину	наполовину	ADV	_	Degree=Pos	23	advmod	_	_
+23	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+24	изоксидов	изоксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	_
+25	алюминия	алюминий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	магния	магний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	conj	_	_
+30	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	вторую	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+35	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+36	диоксид	диоксид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+37	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 302
+# text = Однако для образования тридимита, пословам исследователей, необходима очень высокая концентрация SiO2ивысокая температура.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+4	тридимита	тридимит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	пословам	послов	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	conj	_	_
+7	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	необходима	необходимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	высокая	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	концентрация	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	SiO2ивысокая	SiO2ивысокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 303
+# text = НаЗемле подобный вулканизм связан сдвижением тектонических плит, однако наМарсе небыло обнаружено доказательств ихсуществования.
+1	НаЗемле	НаЗемля	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+2	подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	вулканизм	вулканизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	сдвижением	сдвижение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+6	тектонических	тектонический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	плит	плита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+10	наМарсе	наМарса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+11	небыло	небыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	обнаружено	обнаруживать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+13	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nsubj	_	_
+14	ихсуществования	ихсуществование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 304
+# text = Также ученые ненаходили следы "кремниевых" вулканов.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ненаходили	ненаходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	кремниевых	кремниевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	вулканов	вулкан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 305
+# text = Тридимит не является однозначным доказательством того, что на Марсе встречался вулканизм, аналогичный земному.
+1	Тридимит	Тридимит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	однозначным	однозначный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	доказательством	доказательство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+11	встречался	встречаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+12	вулканизм	вулканизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	аналогичный	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	земному	земной	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 306
+# text = Планета могла иметь уникальные геологические процессы, присущие только ей.
+1	Планета	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	уникальные	уникальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+5	геологические	геологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	присущие	приси	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	только	только	PART	_	_	8	advmod	_	_
+10	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 307
+# text = Ученые создали альтернативные модели явлений, которые могли бы привести к образованию тридимита без участия вулканов -- например, диагенез (превращение в осадочные горные породы) остатков после кислотного выщелачивания -- однако, по их мнению, все они менее вероятны, чем вулканизм.В будущем ученые планируют изучить альтернативные пути формирования тридимита при более низких температурах, чтобы лучше понять процессы, которые могли происходить на Марсе.Кристина Уласович
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	obj	_	_
+2	создали	создать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	альтернативные	альтернативный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	явлений	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	бы	бы	PART	_	Mood=Cnd	8	aux	_	_
+10	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	образованию	образованию	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+13	тридимита	тридимит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	без	без	ADP	_	_	15	case	_	_
+15	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+16	вулканов	вулкан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	например	например	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	диагенез	диагенез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	превращение	превращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	parataxis	_	_
+23	в	в	ADP	_	_	26	case	_	_
+24	осадочные	осадочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+25	горные	горный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	породы	порода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	остатков	остатки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+29	после	после	ADP	_	_	31	case	_	_
+30	кислотного	кислотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	выщелачивания	выщелачивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+32	--	--	PUNCT	_	_	31	punct	_	_
+33	однако	однако	ADV	_	Degree=Pos	37	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	по	по	ADP	_	_	37	case	_	_
+36	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	37	nmod	_	_
+37	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	все	весь	DET	_	Case=Nom|Number=Plur	40	amod	_	_
+40	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	42	nsubj	_	_
+41	менее	менее	ADV	_	Degree=Cmp	42	advmod	_	_
+42	вероятны	вероятный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	чем	чем	SCONJ	_	_	42	mark	_	_
+45	вулканизм.	вулканизмечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	49	nsubj	_	SpaceAfter=No
+46	В	в	ADP	_	_	47	case	_	_
+47	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	45	nmod	_	_
+48	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	45	nmod	_	_
+49	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	advcl	_	_
+50	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+51	альтернативные	альтернативный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	52	amod	_	_
+52	пути	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	50	obj	_	_
+53	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	52	nmod	_	_
+54	тридимита	тридимит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	при	при	ADP	_	_	58	case	_	_
+56	более	более	ADV	_	Degree=Cmp	57	advmod	_	_
+57	низких	низкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	58	amod	_	_
+58	температурах	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	49	obl	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	58	punct	_	_
+60	чтобы	чтобы	SCONJ	_	Mood=Cnd	49	mark	_	_
+61	лучше	хорошо	ADV	_	Degree=Cmp	62	advmod	_	_
+62	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	advcl	_	_
+63	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	62	obj	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	которые	который	PRON	_	Case=Nom	66	nsubj	_	_
+66	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	63	acl:relcl	_	_
+67	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	69	xcomp	_	_
+68	на	на	ADP	_	_	69	case	_	_
+69	Марсе.	Марсбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	66	parataxis	_	SpaceAfter=No
+70	Кристина	Кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	69	nsubj	_	_
+71	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	70	flat:name	_	_
+
+# newpar
+# sent_id = 308

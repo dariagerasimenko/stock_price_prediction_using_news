@@ -1,0 +1,135 @@
+# text = # newpar
+# sent_id = 1768
+# text = Физики из Университетов Аалто, Копенгагена и Базеля разработали миниатюрный термометр, способный измерять температуры вплоть до 7 милликельвинов.
+1	Физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университетов	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	Аалто	Аалто	PRON	_	Case=Nom	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Копенгагена	Копенгаген	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Базеля	Базель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+9	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	миниатюрный	миниатюрный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	термометр	термометр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	acl	_	_
+14	измерять	измерять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+15	температуры	температур	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	вплоть	вплоть	ADV	_	Degree=Pos	19	case	_	_
+17	до	до	ADP	_	_	16	fixed	_	_
+18	7	7	NUM	_	_	19	nummod	_	_
+19	милликельвинов	милликельвин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1769
+# text = Его размеры не превышают нескольких микрометров, что позволяет уместить термометр даже на компьютерный чип.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	превышают	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	6	nummod	_	_
+6	микрометров	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	PRON	_	Case=Nom	9	nsubj	_	_
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+10	уместить	умещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	термометр	термометр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	даже	даже	PART	_	_	15	advmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	компьютерный	компьютерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	чип	чип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1770
+# text = Работа опубликована в журнале Physical Review Applied, кратко о ней сообщает журнал Physics.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Physical	Physical	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Review	Review	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Applied	Applied	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	кратко	кратко	ADV	_	Degree=Pos	11	advmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	12	obl	_	_
+12	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+13	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	Physics	Physics	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1771
+# text = Устройство представляет собой микрочип, на котором находится обычный металл (медь) и сверхпроводник (алюминий), разделенные непроводящим материалом (оксид алюминия).
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	микрочип	микрочип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	котором	который	PRON	_	Case=Loc	8	obl	_	_
+8	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	_
+9	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	металл	металл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	медь	медь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	сверхпроводник	сверхпроводник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	алюминий	алюминий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	разделенные	разделять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+21	непроводящим	непроводящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	материалом	материал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:agent	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	оксид	оксид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+25	алюминия	алюминий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1772
+# text = Ширина рабочей части устройства составляет 400 нанометров.
+1	Ширина	ширина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	рабочей	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	400	400	NUM	_	_	7	nummod	_	_
+7	нанометров	нанометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1773
+# text = Медь в устройстве выполняет функцию ртути в обычных термометрах -- она контактирует с внешней средой, например, образцом, и именно ее температура измеряется в эксперименте.
+1	Медь	медь	PART	_	_	4	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	ртути	ртуть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	обычных	обычный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	термометрах	термометр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+12	контактирует	контактировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	внешней	внешний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	средой	среда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	например	например	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	образцом	образец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	25	cc	_	_
+22	именно	именно	PART	_	_	23	advmod	_	_
+23	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	24	nmod	_	_
+24	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+25	измеряется	измерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 1774

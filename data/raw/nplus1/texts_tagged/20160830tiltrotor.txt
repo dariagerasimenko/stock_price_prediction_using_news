@@ -1,0 +1,414 @@
+# text = # newpar
+# sent_id = 4224
+# text = Американская компания Bell Helicopter занялась разработкой ударного беспилотного летательного аппарата V-247, сообщает Breaking Defense.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Bell	bell	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Helicopter	Helicopter	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	V-247	V-247	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	Breaking	Breaking	PROPN	_	Foreign=Yes	13	nsubj	_	_
+15	Defense	Defense	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4225
+# text = Беспилотник создается по схеме конвертоплана.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	создается	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4226
+# text = Его предложат Морской пехоте США, которая сможет использовать такой аппарат с палуб кораблей или с берега с неподготовленными посадочными площадками.Сегодня Морская пехота США не имеет ударных беспилотников.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	предложат	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Морской	морский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	пехоте	пехота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	палуб	палубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+14	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	или	или	CCONJ	_	_	17	cc	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	берега	берег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+18	с	с	ADP	_	_	21	case	_	_
+19	неподготовленными	неподготовленный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+20	посадочными	посадочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	площадками	площадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.Сегодня	.Сегодень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	24	nmod	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4227
+# text = Дело в том, что такие аппараты достаточно велики и тяжелы и не могут использоваться с палуб десантных и других кораблей, где пространство для взлета и посадки крайне ограниченно.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	такие	такой	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	достаточно	достаточно	ADV	_	Degree=Pos	9	advmod	_	_
+9	велики	большой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	тяжелы	тяжелый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	conj	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+15	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	14	xcomp	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	палуб	палубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	десантных	десантный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	conj	_	_
+21	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	где	где	ADV	_	Degree=Pos	30	advmod	_	_
+24	пространство	пространство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	conj	_	_
+29	крайне	крайне	ADV	_	Degree=Pos	30	advmod	_	_
+30	ограниченно	ограниченне	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4228
+# text = В боевых действиях морпехи полагаются на поддержку ударных беспилотников MQ-1 Predator и MQ-9 Reaper ВВС США.По этой причине Bell Helicopter и решила разрабатывать новый беспилотник.
+1	В	в	ADP	_	_	3	case	_	_
+2	боевых	боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	действиях	действие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+4	морпехи	морпех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+5	полагаются	полагавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	MQ-1	MQ-1	NUM	_	_	5	nummod	_	_
+11	Predator	Predator	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	MQ	Mq	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+14	-9	-9	NUM	_	_	13	nummod	_	_
+15	Reaper	Reaper	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	По	по	ADP	_	_	21	case	_	_
+20	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	21	amod	_	_
+21	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+22	Bell	bell	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Helicopter	Helicopter	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	решила	решать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+26	разрабатывать	разрабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4229
+# text = Благодаря тому, что он будет создан по схеме конвертоплана, V-247 сможет садиться на небольшие палубы десантных кораблей.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	конвертоплана	конвертоплан	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	V-	V-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	247	247	NUM	_	_	14	nummod	_	_
+14	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+15	садиться	садиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	палубы	палуба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_
+19	десантных	десантный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4230
+# text = Предполагается, что по своим боевым возможностям V-247 будет соответствовать Predator и Reaper.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	по	по	ADP	_	_	7	case	_	_
+5	своим	свой	DET	_	Case=Dat|Number=Plur	7	amod	_	_
+6	боевым	боевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	возможностям	возможность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+8	V-	V-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	247	247	NUM	_	_	7	nummod	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	соответствовать	соответствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	advcl	_	_
+12	Predator	Predator	PROPN	_	Foreign=Yes	11	nsubj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Reaper	Reaper	PROPN	_	Foreign=Yes	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4231
+# text = Аппарат сможет взлетать с палубы и садиться на нее по-вертолетному, а в воздухе переходить в более скоростной самолетный режим.В конструкции V-247 Bell Helicopter намерена использовать технологии, которые сегодня разрабатываются в рамках проекта конвертоплана нового поколения V-280 Valor.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	палубы	палуба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	садиться	садиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	conj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+10	по-вертолетному	по-вертолетному	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	15	cc	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	переходить	переходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	_
+16	в	в	ADP	_	_	20	case	_	_
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	скоростной	скоростной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	самолетный	самолетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	режим.	режимя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+21	В	в	ADP	_	_	22	case	_	_
+22	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+23	V-	V-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	247	247	NUM	_	_	22	nummod	_	_
+25	Bell	bell	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	Helicopter	Helicopter	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+28	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	dep	_	_
+29	технологии	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	которые	который	PRON	_	Case=Nom	33	nsubj:pass	_	_
+32	сегодня	сегодня	ADV	_	Degree=Pos	33	advmod	_	_
+33	разрабатываются	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	acl:relcl	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	33	obl	_	_
+36	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+40	V-	V-	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	280	280	NUM	_	_	42	nummod	_	_
+42	Valor	Valor	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj:pass	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 4232
+# text = Технические подробности об ударном беспилотнике-конвертоплане не уточняются.
+1	Технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+3	об	о	ADP	_	_	6	case	_	_
+4	ударном	ударный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	беспилотнике-	беспилотнике-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	конвертоплане	конвертоплан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4233
+# text = Как ожидается, американская компания представит подробности проекта и первые полноразмерные модели аппарата в сентябре 2016 года на выставке Морской пехоты в Куантико в Вирджинии.
+1	Как	как	ADV	_	Degree=Pos	6	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	представит	представать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	подробности	подробность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+11	полноразмерные	полноразмерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	модели	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	сентябре	сентябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+16	2016	2016	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	выставке	выставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+20	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Куантико	Куантико	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+24	в	в1	ADP	_	_	25	case	_	_
+25	Вирджинии.	Вирджинии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+
+# sent_id = 4234
+# text = Bell Helicopter представила проект конвертоплана Valor весной 2013 года.
+1	Bell	bell	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	Helicopter	Helicopter	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Valor	Valor	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+8	2013	2013	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4235
+# text = V-280 сможет выполнять полеты на скорости до 519 километров в час, а его боевой радиус составит 1,5 тысячи километров.
+1	V-	V-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	280	280	NUM	_	_	3	nummod	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	519	519	NUM	_	_	10	nummod	_	_
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+16	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	радиус	радиус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nsubj	_	_
+18	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	1,5	1,5	NUM	_	_	20	nummod	_	_
+20	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nummod:gov	_	_
+21	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4236
+# text = У Valor, в отличие от современных конвертопланов V-22, двигатели будут неподвижными: при переходе из вертолетного режима полета в самолетный наклоняться будут только винты.В V-280 будет установлена электродистанционная система управления с тройным резервированием каналов.
+1	У	у	ADP	_	_	2	case	_	_
+2	Valor	Valor	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	8	case	_	_
+5	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	от	от	ADP	_	_	5	fixed	_	_
+7	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	конвертопланов	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+9	V-	v-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+10	22	22	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+13	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	неподвижными	неподвижный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	переходе	переход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	parataxis	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	вертолетного	вертолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	27	case	_	_
+23	самолетный	самолетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+24	наклоняться	наклоняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	27	nsubj	_	_
+25	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
+26	только	только	PART	_	_	27	advmod	_	_
+27	винты.	винты.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+28	В	в	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	V-	V-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	280	280	NUM	_	_	0	nummod	_	_
+31	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	aux:pass	_	_
+32	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+33	электродистанционная	электродистанционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+35	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	с	с	ADP	_	_	38	case	_	_
+37	тройным	тройный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	резервированием	резервирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	nmod	_	_
+39	каналов	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 4237
+# text = Машина получит убирающееся шасси, две боковые двери шириной 1,8 метра каждая и V-образное хвостовое оперение.Из пилотируемых летательных аппаратов, способных действовать с палуб десантных кораблей, Морская пехота располагает только истребителями F-35B Lightning II с укороченным взлетом и вертикальной посадкой, штурмовыми самолетами AV-8B Harrier II и конвертопланами V-22 Osprey.
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	убирающееся	убираться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	_
+4	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	две	два	NUM	_	Case=Nom|Gender=Fem	8	nummod:gov	_	_
+7	боковые	боковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	двери	дверь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+9	шириной	ширина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+10	1,8	1,8	NUM	_	_	11	nummod	_	_
+11	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	V-образное	V-образный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	_
+15	хвостовое	хвостовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	оперение.	оперенибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+17	Из	из	ADP	_	_	20	case	_	_
+18	пилотируемых	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+19	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+23	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	dep	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	палуб	палубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+26	десантных	десантный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+31	располагает	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+32	только	только	PART	_	_	33	advmod	_	_
+33	истребителями	истребитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	_
+34	F-35B	F-35b	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	Lightning	Lightning	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	II	ii	NUM	_	_	34	nummod	_	_
+37	с	с	ADP	_	_	39	case	_	_
+38	укороченным	укорачивать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	amod	_	_
+39	взлетом	взлет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	nmod	_	_
+40	и	и	CCONJ	_	_	42	cc	_	_
+41	вертикальной	вертикальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	посадкой	посадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	штурмовыми	штурмовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	45	amod	_	_
+45	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	39	conj	_	_
+46	AV-	AV-	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	8B	8b	PROPN	_	Foreign=Yes	45	flat:foreign	_	_
+48	Harrier	Harrier	PROPN	_	Foreign=Yes	47	flat:foreign	_	_
+49	II	ii	NUM	_	_	48	nummod	_	_
+50	и	и	CCONJ	_	_	51	cc	_	_
+51	конвертопланами	конвертоплан	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	39	conj	_	_
+52	V-	V-	PUNCT	_	_	51	punct	_	SpaceAfter=No
+53	22	22	NUM	_	_	51	nummod	_	_
+54	Osprey	Osprey	PROPN	_	Foreign=Yes	53	flat:foreign	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 4238
+# text = И тем, и другим не требуется много места для взлета и посадки.
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	тем	тот	DET	_	Case=Dat|Number=Plur	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	conj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	много	много	ADV	_	Degree=Pos	9	nummod:gov	_	_
+9	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 4239

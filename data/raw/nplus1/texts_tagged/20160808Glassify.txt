@@ -1,0 +1,363 @@
+# text = # newpar
+# sent_id = 627
+# text = Израильский стартап Glassify выпустил одноименный "умный" пивной бокал, который следит за количеством выпитого алкоголя и предлагает на него скидку.
+1	Израильский	израильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	стартап	стартап	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+3	Glassify	Glassify	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	выпустил	выпускать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	одноименный	одноименный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	умный	умный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	пивной	пивной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	бокал	бокал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	следит	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+16	выпитого	выпивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+22	скидку	скидка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 628
+# text = Об устройстве рассказывается на сайте компании, также о нем сообщает cnet.com.
+1	Об	о	ADP	_	_	2	case	_	_
+2	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	рассказывается	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+11	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	cnet.com	cnet.com	X	_	Foreign=Yes	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 629
+# text = В дно "умного" бокала вставлен чип, информация с которого считывается с помощью технологии NFC (near field communication, "ближняя бесконтактная связь"), -- для этого достаточно провести бокалом над экраном смартфона.
+1	В	в	ADP	_	_	2	case	_	_
+2	дно	дно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	умного	умный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	бокала	бокал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	вставлен	вставлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	чип	чип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+13	считывается	считывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	fixed	_	_
+16	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+17	NFC	Nfс	ADP	_	_	26	case	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	near	near	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+20	field	field	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	communication	communication	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	ближняя	ближний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	бесконтактная	бесконтактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	26	punct	_	_
+30	--	--	PUNCT	_	_	26	punct	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+33	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	conj	_	_
+34	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	dep	_	_
+35	бокалом	бокал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	_
+36	над	над	ADP	_	_	37	case	_	_
+37	экраном	экран	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+38	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 630
+# text = Мобильное приложение следит за количеством выпитого и местом, где выпивает человек.
+1	Мобильное	мобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	приложение	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	следит	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	за	за	ADP	_	_	5	case	_	_
+5	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+6	выпитого	выпивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	местом	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+11	выпивает	выпивавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 631
+# text = Glassify пишет, что устройство учитывает и сорта выпитого, но как это делается, компания не уточняет.
+1	Glassify	Glassify	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	учитывает	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	сорта	сорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	выпитого	выпивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	но	но	CCONJ	_	_	14	cc	_	_
+12	как	как	ADV	_	Degree=Pos	14	advmod	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+14	делается	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	уточняет	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 632
+# text = Если ресторан или бар подключен к программе, приложение предложит пользователю персонализированную скидку.
+1	Если	если	SCONJ	_	_	10	mark	_	_
+2	ресторан	ресторан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	или	или	CCONJ	_	_	4	cc	_	_
+4	бар	бар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	подключен	подключать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	приложение	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	предложит	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+12	персонализированную	персонализировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	скидку	скидка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 633
+# text = С помощью приложения можно "отправить" выпивку друзьям или получить информацию о рекламной акции в близлежащих заведениях.
+1	С	с	ADP	_	_	3	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	отправить	отправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	выпивку	выпивка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	друзьям	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+12	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	о	о	ADP	_	_	15	case	_	_
+14	рекламной	рекламный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	акции	акция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	близлежащих	близлежать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+18	заведениях	заведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 634
+# text = Приложение выполняет и функцию кошелька.
+1	Приложение	Приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	и	и	PART	_	_	4	advmod	_	_
+4	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	кошелька	кошелек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 635
+# text = Если его пополнить, то можно расплачиваться за каждый заказ, сканируя чип на дне "умного" бокала.В настоящий момент в барах по всему миру тестируется 2000 бокалов Glassify.
+1	Если	если	SCONJ	_	_	6	mark	_	_
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+3	пополнить	пополнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	то	то	SCONJ	_	_	3	cc	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	расплачиваться	расплачиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	nsubj	_	_
+8	за	за	ADP	_	_	10	case	_	_
+9	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	заказ	заказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сканируя	сканировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	28	advcl	_	_
+13	чип	чип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	дне	день	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	умного	умный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	бокала.	бокала.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl:agent	_	SpaceAfter=No
+20	В	в	ADP	_	_	22	case	_	_
+21	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	барах	бар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	28	obl	_	_
+25	по	по	ADP	_	_	27	case	_	_
+26	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	27	amod	_	_
+27	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	_
+28	тестируется	тестируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+29	2000	2000	NUM	_	_	30	nummod	_	_
+30	бокалов	бокал	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+31	Glassify	Glassify	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 636
+# text = Недавно пилотные проекты завершились в Израиле, Европе и Азии.
+1	Недавно	недавно	ADV	_	Degree=Pos	4	advmod	_	_
+2	пилотные	пилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	проекты	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	завершились	завершаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Израиле	израиль	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	Азии	азия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 637
+# text = Аналитики проекта утверждают, что устройство позволило поднять продажи на 13 процентов, при этом 80 процентов спиртных напитков пользователи покупали в заведениях, подключенных к программе.
+1	Аналитики	аналитик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	поднять	поднимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	продажи	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	13	13	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+16	80	80	NUM	_	_	17	nummod	_	_
+17	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	_
+18	спиртных	спиртной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	напитков	напиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	пользователи	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	покупали	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	заведениях	заведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	подключенных	дключить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+26	к	к	ADP	_	_	27	case	_	_
+27	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 638
+# text = Однако создатели Glassify не поддерживают неумеренное употребление алкоголя: скидки и акции предлагаются не более чем на пять бокалов, если пользователь хочет заказать еще, приложение вместо скидки перенаправит его в другое приложение для заказа такси.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	Glassify	Glassify	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	поддерживают	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	неумеренное	неумеренный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	употребление	употребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	скидки	скидка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	акции	акция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	_
+13	предлагаются	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	более	более	ADV	_	Degree=Cmp	19	case	_	_
+16	чем	чем	SCONJ	_	_	15	fixed	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	пять	пять	NUM	_	Case=Acc	19	nummod:gov	_	_
+19	бокалов	бокал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	если	если	SCONJ	_	_	0	mark	_	_
+22	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+24	заказать	заказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+25	еще	еще	ADV	_	Degree=Pos	24	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+28	вместо	вместо	ADP	_	_	29	case	_	_
+29	скидки	скидка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+30	перенаправит	перенаправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	23	conj	_	_
+31	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obj	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	другое	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obl	_	_
+35	для	для	ADP	_	_	34	case	_	_
+36	заказа	заказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+37	такси	такси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 639
+# text = Glassify основали израильская компания Weissberger, которая предлагает решения в области Интернета вещей и Больших данных для баров, пивоварен и производителей безалкогольных напитков, и турецкая компания Paabahe, один из крупнейших мировых производителей стекла.
+1	Glassify	Glassify	PROPN	_	Foreign=Yes	2	obj	_	_
+2	основали	основать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	израильская	израильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	Weissberger	Weissberger	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+10	в	в	ADP	_	_	9	case	_	_
+11	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	Интернета	интернет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	вещей	вещь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	Больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	13	conj	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	баров	бар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	пивоварен	пивоварно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	_
+23	безалкогольных	безалкогольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	напитков	напиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	турецкая	турецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+29	Paabahe	Paabahe	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	один	один	NUM	_	Case=Nom|Gender=Masc	0	conj	_	_
+32	из	из	ADP	_	_	35	case	_	_
+33	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	35	amod	_	_
+34	мировых	мировой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+36	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 640
+# text = Стоимость "умного" бокала пока неизвестна.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	умного	умный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	бокала	бокала	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+6	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+7	неизвестна	неизвестный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 641
+# text = На сайте Glassify можно оставить свои контакты и получить уведомление о начале продаж.Екатерина Русакова
+1	На	на	ADP	_	_	2	case	_	_
+2	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	Glassify	Glassify	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	оставить	оставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	свои	свой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	контакты	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+10	уведомление	уведомление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	продаж.	продажент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Екатерина	екатерина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+15	Русакова	Русакова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 642

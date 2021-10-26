@@ -1,0 +1,103 @@
+# text = # newpar
+# sent_id = 5569
+# text = Космический спутник Sentinel-3A прислал первые снимки Земли спустя почти две недели после запуска.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Sentinel	Sentinel	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	3A	3a	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	прислал	прислать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	спустя	спустя	ADP	_	_	13	case	_	_
+11	почти	почти	ADV	_	Degree=Pos	12	advmod	_	_
+12	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	13	nummod:gov	_	_
+13	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5570
+# text = Фотографии опубликованы в заметке на сайте Европейского Космического Агентства (ESA).Первый снимок был сделан 29 февраля в 17:09 по московскому времени.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+2	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	заметке	заметка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+7	Европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	Космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	Агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ESA	Esa	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	снимок	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	сделан	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+18	29	29	NUM	_	_	24	nummod	_	_
+19	февраля	февраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	17:09	17:09	NUM	_	_	18	nummod	_	_
+22	по	по	ADP	_	_	24	case	_	_
+23	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5571
+# text = На нем видна часть архипелага Шпицберген, а также линия терминатора, разделяющая день и ночь.
+1	На	на	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	видна	видный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	архипелага	архипелаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Шпицберген	Шпицберген	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	линия	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+11	терминатора	терминатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	разделяющая	разделять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	ночь	ночь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5572
+# text = Кроме островов на фотографии видно Северный ледовитый океан и облака над его поверхностью.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	островов	остров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	видно	видно	ADV	_	Degree=Pos	0	root	_	_
+6	Северный	Северный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	ледовитый	ледовитый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	океан	океан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	облака	облака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+11	над	над	ADP	_	_	13	case	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5573
+# text = Следом в тот же день на Землю были переданы снимки полуострова Калифорния.
+1	Следом	след	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+4	же	же	PART	_	_	3	advmod	_	_
+5	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	переданы	передавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	полуострова	полуостров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Калифорния	Калифорние	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 5574

@@ -1,0 +1,248 @@
+# text = # newpar
+# sent_id = 3459
+# text = Британское бюро по расследованию авиационных происшествий (AAIB) закрыло следствие по делу о возможном столкновении дрона с пассажирским самолетом Airbus A320 авиакомпании British Airways 17 апреля 2016 года.
+1	Британское	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	бюро	бюро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	расследованию	расследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+5	авиационных	авиационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	происшествий	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	AAIB	Aaib	PROPN	_	Foreign=Yes	6	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	закрыло	закрывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	делу	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+14	о	о	ADP	_	_	16	case	_	_
+15	возможном	возможный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	столкновении	столкновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+17	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	пассажирским	пассажирский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+21	Airbus	Airbus	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	A320	A320	NUM	_	_	21	nummod	_	_
+23	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	British	british	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Airways	airways	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	17	17	NUM	_	_	25	nummod	_	_
+27	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	2016	2016	NUM	_	_	29	nummod	_	_
+29	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3460
+# text = КаксообщаетAP, следователи пришли к выводу, что объектом, столкнувшимся с самолетом при заходе на посадку, был не дрон.
+1	КаксообщаетAP	Каксообщаетap	PROPN	_	Foreign=Yes	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	следователи	следователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	4	mark	_	_
+9	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	столкнувшимся	столкнувшиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	заходе	заход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3461
+# text = Предположительно, это был поднятый ветром с земли пакет.В ходе расследования специалисты прочесали местность по маршруту полета пассажирского самолета в поисках обломков предполагаемого самолета.
+1	Предположительно	предположительно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	поднятый	поднявать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	ветром	ветер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	пакет	пакет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	ADP	_	_	13	case	_	_
+12	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	_
+13	расследования	расследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+14	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	прочесали	чесать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	местность	местность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	маршруту	маршрут	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+19	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	пассажирского	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	поисках	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	_
+24	обломков	обломок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	предполагаемого	предполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3462
+# text = Кроме того, следователи обратились к местным жителям с просьбой приносить в полицию все найденные в округе обломки, которые могут принадлежать дрону.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	следователи	следователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	обратились	обращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	местным	местный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	жителям	житель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	просьбой	просьба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+11	приносить	приносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	полицию	полиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+14	все	весь	DET	_	Case=Acc|Number=Plur	15	amod	_	_
+15	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	округе	округ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	обломки	обломка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	принадлежать	принадлежать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	дрону	дрона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3463
+# text = Ни одной детали аппарата так и не было найдено.С каким именно объектом самолет столкнулся в воздухе, следователи определить не смогли.
+1	Ни	ни	PART	_	_	2	advmod	_	_
+2	одной	один	NUM	_	Case=Gen|Gender=Fem	3	nummod	_	_
+3	детали	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	так	так	ADV	_	Degree=Pos	9	advmod	_	_
+6	и	и	PART	_	_	5	fixed	_	_
+7	не	не	PART	_	_	9	advmod	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	найдено	находить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	С	с	ADP	_	_	14	case	_	_
+12	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	14	amod	_	_
+13	именно	именно	PART	_	_	12	advmod	_	_
+14	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+15	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	столкнулся	сталкиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	следователи	следователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+21	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3464
+# text = Самолет не получил каких-либо повреждений и в тот же день после технического осмотра снова ушел в рейс. A320 выполнял рейс из Женевы, а на его борту находились 132 пассажира.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+5	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+6	и	и	CCONJ	_	_	15	cc	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+9	же	же	PART	_	_	8	advmod	_	_
+10	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+11	после	после	ADP	_	_	13	case	_	_
+12	технического	технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	осмотра	осмотер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+14	снова	снова	ADV	_	Degree=Pos	15	advmod	_	_
+15	ушел	уходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	рейс.	рейсяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	A320	A320	NUM	_	_	15	nummod	_	_
+19	выполнял	выполнять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+20	рейс	рейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	Женевы	Женева	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	а	а	CCONJ	_	_	28	cc	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	nmod	_	_
+27	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+28	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+29	132	132	NUM	_	_	30	nummod	_	_
+30	пассажира	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3465
+# text = Согласно рапорту пилотов, удар пришелся в носовую часть лайнера.Между тем, инцидент спровоцировал в Великобритании волну призывов ввести жесткое регулирование полетов частных беспилотников.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	рапорту	рапорт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+3	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	удар	удар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	пришелся	приходиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	носовую	носовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+10	лайнера.	лайнера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	Между	между	ADP	_	_	12	case	_	_
+12	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	спровоцировал	провоцировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	волну	волна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	призывов	призыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+21	жесткое	жесткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	регулирование	регулирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	частных	частный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3466
+# text = В частности, к этому призвал старший суперинтендент британской полиции Мартин Хендри.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+6	призвал	призвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	старший	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	суперинтендент	суперинтендент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	британской	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	Мартин	Мартин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+12	Хендри	Хендри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3467
+# text = По его словам, инцидент "показал реальную опасность авантюрного, небрежного и порой злоумышленного использования дронов".Василий Сычёв
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	реальную	реальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	авантюрного	авантюрный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	небрежного	небрежный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	порой	порой	ADV	_	Degree=Pos	16	advmod	_	_
+15	злоумышленного	злоумышленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+17	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 3468

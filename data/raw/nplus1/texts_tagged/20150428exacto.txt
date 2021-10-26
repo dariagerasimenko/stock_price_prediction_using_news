@@ -1,0 +1,398 @@
+# text = # newpar
+# sent_id = 2342
+# text = Агентство перспективных оборонных разработок (DARPA) США обнародовало видео новых испытаний корректируемых пуль Exacto, которые будут использоваться в новом высокоточном снайперском комплексе.
+1	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	DARPA	Darpa	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+9	обнародовало	обнародовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+13	корректируемых	корректируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	Exacto	Exacto	PROPN	_	Foreign=Yes	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	acl:relcl	_	_
+20	в	в	ADP	_	_	24	case	_	_
+21	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+22	высокоточном	высокоточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+23	снайперском	снайперский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	комплексе	комплекс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2343
+# text = Испытания проводились в феврале 2015 года, однако их видеозапись была опубликована только 27 апреля.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj:pass	_	_
+2	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	2015	2015	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	видеозапись	видеозапись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	27	27	NUM	_	_	12	nummod	_	_
+15	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2344
+# text = В оценочной стрельбе принимали участие как профессиональные снайперы, так и неподготовленные стрелки.Огонь из снайперской винтовки велся по движущейся мишени, скорость которой постоянно увеличивалась.
+1	В	в	ADP	_	_	3	case	_	_
+2	оценочной	оценочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стрельбе	стрельба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	принимали	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	как	как	SCONJ	_	_	8	cc	_	_
+7	профессиональные	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	снайперы	снайпер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	13	advmod	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	неподготовленные	неподготовленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	стрелки	стрелка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Огонь	огонь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	снайперской	снайперский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+19	велся	вести	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	27	advcl	_	_
+20	по	по	ADP	_	_	22	case	_	_
+21	движущейся	движущийся	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	мишени	мишень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	которой	который	PRON	_	Case=Gen	24	nmod	_	_
+26	постоянно	постоянно	ADV	_	Degree=Pos	27	advmod	_	_
+27	увеличивалась	увеличиваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2345
+# text = В случае, когда стрельбу по ней вел профессиональный снайпер, выстрел производился с небольшим упреждением, а затем осуществлялась незначительная корректировка полета пули, которая в большинстве случаев попадала "в яблочко".Неподготовленный стрелок целился в центр мишени, а затем уже производил значительную корректировку полета пули Exacto.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	когда	когда	SCONJ	_	_	2	mark	_	_
+5	стрельбу	стрельба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	ней	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
+8	вел	вести	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	профессиональный	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	снайпер	снайпер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	выстрел	выстрел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+13	производился	производить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	8	conj	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	упреждением	упреждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+20	осуществлялась	осуществлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	8	conj	_	_
+21	незначительная	незначительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	корректировка	корректировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+23	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	которая	который	PRON	_	Case=Nom	30	nsubj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	_
+29	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	попадала	попадать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	в	в	ADP	_	_	33	case	_	_
+33	яблочко	яблочко	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+36	Неподготовленный	неподготовленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	стрелок	стрелок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+38	целился	целиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	центр	центр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obl	_	_
+41	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	а	а	CCONJ	_	_	46	cc	_	_
+44	затем	затем	ADV	_	Degree=Pos	46	advmod	_	_
+45	уже	уже	ADV	_	Degree=Pos	46	advmod	_	_
+46	производил	производить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	38	conj	_	_
+47	значительную	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	корректировку	корректировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	46	obj	_	_
+49	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	_
+50	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+51	Exacto	Exacto	PROPN	_	Foreign=Yes	50	flat:foreign	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# sent_id = 2346
+# text = При этом по мере набора скорости мишени корректировка становилась все более значительной и велась уже на упреждение, однако пуля все равно попала в цель.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	fixed	_	_
+5	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	корректировка	корректировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	становилась	становиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	все	все	PART	_	_	11	advmod	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	значительной	значительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	велась	вести	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	9	conj	_	_
+15	уже	уже	ADV	_	Degree=Pos	17	advmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	упреждение	упреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+20	пуля	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+21	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	advmod	_	_
+22	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	fixed	_	_
+23	попала	попадать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2347
+# text = Состоявшиеся в феврале испытания Exacto были признаны полностью успешными.Первые испытания перспективного снайперского комплекса с корректируемыми пулями состоялись в феврале и апреле 2014 года и также были успешными.
+1	Состоявшиеся	состояться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	4	amod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+5	Exacto	Exacto	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+9	успешными.	успешными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No
+10	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+12	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	снайперского	снайперский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	корректируемыми	корректируемый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	пулями	пуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	_
+18	состоялись	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	_
+23	2014	2014	NUM	_	_	24	nummod	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	28	cc	_	_
+26	также	также	ADV	_	Degree=Pos	28	advmod	_	_
+27	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
+28	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2348
+# text = Стрельба велась по неподвижной мишени.
+1	Стрельба	стрельба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	велась	вестись	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	неподвижной	неподвижный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	мишени	мишень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2349
+# text = Точка прицеливания располагалась несколько правее мишени и перед выстрелом не смещалась.
+1	Точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	прицеливания	прицеливание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	располагалась	располагаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	правее	право	ADV	_	Degree=Cmp	6	advmod	_	_
+6	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	и	и	CCONJ	_	_	11	cc	_	_
+8	перед	перед	ADP	_	_	9	case	_	_
+9	выстрелом	выстрел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	смещалась	смещаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2350
+# text = После выстрела пуля шла по начальной траектории прицеливания, а затем меняла направление полета и попадала в цель.Данные о дальности ведения огня, погодных условиях, силе и направлении ветра, а также о начальной скорости пули DARPA ни в 2014-м, ни в 2015 году не раскрыло.
+1	После	после	ADP	_	_	2	case	_	_
+2	выстрела	выстрел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	пуля	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	шла	идти	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	начальной	начальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	траектории	траектория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+8	прицеливания	прицеливание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	затем	затем	ADV	_	Degree=Pos	12	advmod	_	_
+12	меняла	менять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	направление	направление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	попадала	попадать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Данные	Дывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+21	о	о	ADP	_	_	22	case	_	_
+22	дальности	дальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	ведения	ведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	огня	огонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	погодных	погодный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	силе	сило	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+32	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	а	а	CCONJ	_	_	50	cc	_	_
+35	также	также	ADV	_	Degree=Pos	38	advmod	_	_
+36	о	о	ADP	_	_	38	case	_	_
+37	начальной	начальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	50	obl	_	_
+39	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	50	nsubj	_	_
+40	DARPA	Darpa	PROPN	_	Foreign=Yes	39	flat:foreign	_	_
+41	ни	ни	CCONJ	_	_	43	cc	_	_
+42	в	в	ADP	_	_	43	case	_	_
+43	2014-м	2014-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	45	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	ни	ни	CCONJ	_	_	48	cc	_	_
+46	в	в	ADP	_	_	48	case	_	_
+47	2015	2015	NUM	_	_	48	nummod	_	_
+48	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+49	не	не	PART	_	_	50	advmod	_	_
+50	раскрыло	раскрыть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 2351
+# text = Не уточняются также и параметры воздействия боеприпаса на цель.Разработка Exacto ведется компанией Teledyne Technologies с конца 2010 года в рамках контракта DARPA стоимостью 25 миллионов долларов.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	также	также	ADV	_	Degree=Pos	2	advmod	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	параметры	параметер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+6	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	цель.	цель.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	Разработка	Разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+11	Exacto	Exacto	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	ведется	ведвать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+13	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+14	Teledyne	Teledyne	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Technologies	Technologies	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+18	2010	2010	NUM	_	_	19	nummod	_	_
+19	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	nmod	_	_
+22	контракта	контракт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	DARPA	Darpa	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	стоимостью	стоимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+25	25	25	NUM	_	_	26	nummod	_	_
+26	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2352
+# text = Проектом предусмотрено создание снайперской винтовки, специального оптического прицела и непосредственно управляемого боеприпаса.
+1	Проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+2	предусмотрено	предусматривать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+4	снайперской	снайперский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	оптического	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	прицела	прицел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	непосредственно	непосредственне	ADV	_	Degree=Pos	12	advmod	_	_
+12	управляемого	управлять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2353
+# text = Высокоточный снайперский комплекс позволит поражать стационарные и движущиеся цели в условиях переменного ветра.О конструкции пули пока ничего не известно.
+1	Высокоточный	Высокоточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	снайперский	снайперский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	поражать	поражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	стационарные	стационарной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	движущиеся	движущиеся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	conj	_	_
+9	цели	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+12	переменного	переменный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	ветра.	ветра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	О	о	ADP	_	_	15	case	_	_
+15	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+17	пока	пока	ADV	_	Degree=Pos	20	advmod	_	_
+18	ничего	ничто	PRON	_	Case=Gen	20	nsubj	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2354
+# text = Ранее военные сообщали только, что новая снайперская винтовка будет гладкоствольной, а ее калибр составит 12,7 миллиметра.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	сообщали	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	только	только	PART	_	_	11	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	снайперская	снайперский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	винтовка	винтовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	гладкоствольной	гладкоствольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	16	cc	_	_
+14	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	15	nmod	_	_
+15	калибр	калибр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	12,7	12,7	NUM	_	_	18	nummod	_	_
+18	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2355
+# text = Большая дальность полета пули, ее точность и убойность будут обеспечиваться использованием высокоэнергетических порохов.
+1	Большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
+7	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	убойность	убойность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	обеспечиваться	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+12	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+13	высокоэнергетических	высокоэнергетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	порохов	порох	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2356
+# text = Начальная скорость пули при выстреле будет сверхзвуковой.
+1	Начальная	начальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	выстреле	выстрел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	сверхзвуковой	сверхзвуковой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar
+# sent_id = 2357

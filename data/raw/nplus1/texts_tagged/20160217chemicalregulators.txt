@@ -1,0 +1,637 @@
+# text = # newpar
+# sent_id = 2986
+# text = Ученые из МФТИ и МГУ с помощью искусственной нейронной сети разработали компьютерную модель, которая позволяет предсказать, является ли определенное вещество пестицидом или регулятором роста растения.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	МФТИ	Мфти	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	МГУ	мгу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	с	с	ADP	_	_	10	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	искусственной	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	нейронной	нейронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+11	разработали	разработавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	компьютерную	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	ccomp	_	_
+20	ли	ли	PART	_	_	19	advmod	_	_
+21	определенное	определенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	вещество	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+23	пестицидом	пестицид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	регулятором	регулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	conj	_	_
+26	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	растения	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2987
+# text = Результаты исследования были опубликованы в журнале Phytochemistry.Для поиска потенциальных пестицидов или регуляторов роста обычно проводится скрининг химических библиотек.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Phytochemistry	Phytochemistry	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Для	для	ADP	_	_	10	case	_	_
+10	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+11	потенциальных	потенциальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	пестицидов	пестицид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	регуляторов	регулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	_
+15	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	обычно	обычно	ADV	_	Degree=Pos	17	advmod	_	_
+17	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+18	скрининг	скрининг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+19	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	библиотек	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2988
+# text = Однако выбор таких веществ из огромного числа соединений и их последующее тестирование является долгим и дорогостоящим процессом.
+1	Однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+2	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nsubj	_	_
+3	таких	такой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	из	из	ADP	_	_	4	case	_	_
+6	огромного	огромный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+11	последующее	последующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	тестирование	тестирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	долгим	долгий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	дорогостоящим	дорогостоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	_
+17	процессом	процесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2989
+# text = В таких условиях наиболее подходящим методом поиска регуляторов роста становится изучение так называемого "химического пространства" -- всей совокупности уже исследованных веществ с их молекулярными дескрипторами, то есть физико-химическими характеристиками молекулы.
+1	В	в	ADP	_	_	3	case	_	_
+2	таких	такой	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+4	наиболее	наиболее	ADV	_	Degree=Pos	5	advmod	_	_
+5	подходящим	дходящить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+6	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	регуляторов	регулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	так	так	ADV	_	Degree=Pos	13	advmod	_	_
+13	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	--	--	PUNCT	_	_	16	punct	_	_
+19	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	_
+20	совокупности	совокупность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+21	уже	уже	ADV	_	Degree=Pos	22	advmod	_	_
+22	исследованных	исследовать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+24	с	с	ADP	_	_	27	case	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	27	nmod	_	_
+26	молекулярными	молекулярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	дескрипторами	дескриптор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	mark	_	_
+30	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	fixed	_	_
+31	физико-	физико-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	химическими	химический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+33	характеристиками	характеристика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	parataxis	_	_
+34	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2990
+# text = Химическое пространство можно представить в виде многомерного пространства, где молекулярные дескрипторы представляют собой вектора.
+1	Химическое	химический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	многомерного	многомерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	где	где	ADV	_	Degree=Pos	13	advmod	_	_
+11	молекулярные	молекулярной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	дескрипторы	дескриптор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	собой	себя	PRON	_	Case=Ins	13	obl	_	_
+15	вектора	вектор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2991
+# text = Однако для более удобного представления таких наборов химических данных применяют визуализацию в виде 2D-карт.
+1	Однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+2	для	для	ADP	_	_	5	case	_	_
+3	более	более	ADV	_	Degree=Cmp	4	advmod	_	_
+4	удобного	удобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	представления	представление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+6	таких	такой	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+7	наборов	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	_
+10	применяют	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	визуализацию	визуализация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
+14	2D-карт	2D-карт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2992
+# text = Одним из способов картографирования химической информации является самоорганизующаяся карта Кохонена (СКХ) -- нейронная сеть, которая способна обучаться самостоятельно и занимается визуализацией и кластеризацией.
+1	Одним	один	NUM	_	Case=Ins|Gender=Masc	7	nummod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	картографирования	картографирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	самоорганизующаяся	самоорганизующийся	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	карта	карта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+10	Кохонена	Кохонен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	СКХ	Скх	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	--	--	PUNCT	_	_	12	punct	_	_
+15	нейронная	нейронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которая	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	16	acl:relcl	_	_
+20	обучаться	обучаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	dep	_	_
+21	самостоятельно	самостоятельно	ADV	_	Degree=Pos	23	advmod	_	_
+22	и	и	PART	_	_	23	advmod	_	_
+23	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	conj	_	_
+24	визуализацией	визуализация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	кластеризацией	кластеризация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2993
+# text = Она лучше всего подходит для выявления скрытых закономерностей внутри многомерных данных.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	лучше	хорошо	ADV	_	Degree=Cmp	4	advmod	_	_
+3	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	скрытых	скрытый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	закономерностей	закономерность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	внутри	внутри	ADV	_	Degree=Pos	10	advmod	_	_
+10	многомерных	многомерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2994
+# text = СКХ переводит многомерные данные -- например, набор физико-химических свойств молекул, -- в двумерную решетку, которая в каждом узле содержит искусственные нейроны.
+1	СКХ	СКх	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	переводит	переводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	многомерные	многомерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	2	obj	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	parataxis	_	_
+9	физико-	физико-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+12	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	--	--	PUNCT	_	_	12	punct	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	двумерную	двумерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	решетку	решетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которая	который	PRON	_	Case=Nom	23	nsubj	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	узле	узел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+23	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+24	искусственные	искусственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2995
+# text = Любой нейрон обладает двумя векторами: один представляет его координаты, а другой является вектором веса.
+1	Любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	нейрон	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	двумя	два	NUM	_	Case=Ins	5	nummod	_	_
+5	векторами	вектор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	один	один	NUM	_	Case=Nom|Gender=Masc	8	nsubj	_	_
+8	представляет	представлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	координаты	координата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	14	cc	_	_
+13	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+15	вектором	вектор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+16	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2996
+# text = Каждая компонента входящего вектора (молекулярные дескрипторы) непосредственно связана со всеми нейронами через набор весовых коэффициентов.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компонента	компонента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3	входящего	входить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	вектора	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	молекулярные	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	дескрипторы	дескриптор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	непосредственно	непосредственно	ADV	_	Degree=Pos	10	advmod	_	_
+10	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	со	с	ADP	_	_	13	case	_	_
+12	всеми	весь	DET	_	Case=Ins|Number=Plur	13	amod	_	_
+13	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+14	через	через	ADP	_	_	15	case	_	_
+15	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+16	весовых	весовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	коэффициентов	коэффициенты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2997
+# text = Эти веса первоначально распределены в случайном порядке и постепенно подводятся друг к другу через вручную заданное количество обучающих циклов.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	веса	во	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+3	первоначально	первоначально	ADV	_	Degree=Pos	4	advmod	_	_
+4	распределены	распределять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	случайном	случайный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	постепенно	постепенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	подводятся	подводляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	conj	_	_
+11	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	fixed	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+14	через	через	ADP	_	_	17	case	_	_
+15	вручную	вручную	ADV	_	Degree=Pos	16	advmod	_	_
+16	заданное	задывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+18	обучающих	обучать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	циклов	цикл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2998
+# text = Нейроны меняют значения своих векторов веса в процессе обучения и, в конечном итоге, улавливает закономерности данных в изначальном пространстве.
+1	Нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	меняют	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	значения	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	своих	свой	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+5	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+9	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+10	и	и	CCONJ	_	_	9	cc	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	конечном	конечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	улавливает	улавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	закономерности	закономерность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	17	nmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	изначальном	изначальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2999
+# text = В качестве источника информации ученые использовали базы данных статей и патентов, обнаружив 12 тысяч соединений, которые применялись в агрохимии.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	базы	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	_
+9	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	патентов	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	обнаружив	обнаруживать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+14	12	12	NUM	_	_	15	nummod	_	_
+15	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+16	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj:pass	_	_
+19	применялись	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	агрохимии	агрохимия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3000
+# text = Для поиска химических веществ и создания первичной базы данных исследователи использовали различное программное обеспечение.
+1	Для	для	ADP	_	_	2	case	_	_
+2	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+3	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+7	первичной	первичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	различное	различный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3001
+# text = База данных была подвергнута обработке с целью устранения дубликатов, а также отбору самых характерных соединений, которые были включены в итоговую выборку из 1808 соединений.Для выявления ключевых молекулярных дескрипторов ученые воспользовались еще одним методом машинного обучения -- методом опорных векторов.
+1	База	база	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	подвергнута	подвергнувать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	обработке	обработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	устранения	устранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	дубликатов	дубликат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	отбору	отбор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	conj	_	_
+14	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	характерных	характерной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	включены	включать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	итоговую	итоговый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	выборку	выборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	1808	1808	NUM	_	_	26	nummod	_	_
+26	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Для	для	ADP	_	_	26	case	_	_
+29	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+30	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	молекулярных	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	дескрипторов	дескриптор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+33	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
+34	воспользовались	пользоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+35	еще	еще	ADV	_	Degree=Pos	36	advmod	_	_
+36	одним	один	NUM	_	Case=Ins|Gender=Masc	37	nummod	_	_
+37	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+38	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+40	--	--	PUNCT	_	_	39	punct	_	_
+41	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+42	опорных	опорный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 3002
+# text = Суть метода обычно заключалась в поиске способа разделения всего массива данных на две категории так, чтобы группы данных оказались на максимальном расстоянии друг от друга.
+1	Суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	_
+4	заключалась	заключаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	поиске	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	способа	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	10	amod	_	_
+10	массива	массиво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	данных	давать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	14	nummod:gov	_	_
+14	категории	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+15	так	так	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+18	группы	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+19	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	18	nmod	_	_
+20	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	максимальном	максимальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+24	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	fixed	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3003
+# text = Отличительной особенностью подхода исследователей явилось то, что вместо двух категорий они использовали четыре класса: фитогормоны, гербициды, инсектициды и фунгициды.Исследователи нашли четыре молекулярных дескриптора, которые в наибольшей степени определяли разбиение соединений на четыре класса: количество атомов водорода, количество участвующих в образовании водородных связей атомов, число свободно вращающихся связей, а также количество двойных или тройных связей на общее число связей.
+1	Отличительной	отличительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	особенностью	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	подхода	подход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	явилось	явяться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	вместо	вместо	ADP	_	_	11	case	_	_
+10	двух	два	NUM	_	Case=Gen	11	nummod	_	_
+11	категорий	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	_
+14	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	фитогормоны	фитогормон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	гербициды	гербицид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	инсектициды	инсектицид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	фунгициды	фунгицид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+27	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	29	nummod:gov	_	_
+28	молекулярных	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	дескриптора	дескриптор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	которые	который	PRON	_	Case=Nom	35	nsubj	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	наибольшей	наибольший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_
+35	определяли	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+36	разбиение	разбиение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obj	_	_
+37	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	36	nmod	_	_
+38	на	на	ADP	_	_	40	case	_	_
+39	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	40	nummod:gov	_	_
+40	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+41	:	:	PUNCT	_	_	40	punct	_	_
+42	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	54	nsubj	_	_
+43	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+44	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	appos	_	_
+47	участвующих	участвовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	46	amod	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	образовании	образование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	47	obl	_	_
+50	водородных	водородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	51	amod	_	_
+51	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	49	nmod	_	_
+52	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	51	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	parataxis	_	_
+55	свободно	свободно	ADV	_	Degree=Pos	56	advmod	_	_
+56	вращающихся	вращаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	57	amod	_	_
+57	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	54	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	а	а	CCONJ	_	_	61	cc	_	_
+60	также	также	ADV	_	Degree=Pos	61	advmod	_	_
+61	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+62	двойных	двойной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	65	amod	_	_
+63	или	или	CCONJ	_	_	64	cc	_	_
+64	тройных	тройный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	62	conj	_	_
+65	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	61	nmod	_	_
+66	на	на	ADP	_	_	68	case	_	_
+67	общее	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	68	amod	_	_
+68	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	61	nmod	_	_
+69	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	68	nmod	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	69	punct	_	_
+
+# sent_id = 3004
+# text = Эти четыре показателя использовались для построения карт Кохонена.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	четыре	четыре	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	показателя	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	построения	построение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	карт	карта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	Кохонена	Кохонен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3005
+# text = Полученные учеными карты показали, что четыре класса соединений образовали относительно независимые кластеры, хотя регуляторы роста и гербициды несколько перекрывались.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	_
+3	карты	карт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	четыре	четыре	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	образовали	бразовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+11	относительно	относительно	ADV	_	Degree=Pos	10	advmod	_	_
+12	независимые	независимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	кластеры	кластер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	хотя	хотя	SCONJ	_	_	21	mark	_	_
+16	регуляторы	регулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+17	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	гербициды	гербицид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	conj	_	_
+20	несколько	несколько	ADV	_	Degree=Pos	21	advmod	_	_
+21	перекрывались	перекрываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	10	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3006
+# text = Это объясняется тем, что некоторые соединения в зависимости от концентрации могут как активировать рост растений, так и подавлять его.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	cc	_	_
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	соединения	соединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	концентрации	концентрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+13	как	как	ADV	_	Degree=Pos	14	advmod	_	_
+14	активировать	активировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+19	и	и	PART	_	_	20	advmod	_	_
+20	подавлять	подавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+21	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3007
+# text = Кроме того, среди регуляторов роста выделялось несколько групп, которые указывали на различные механизмы активности соединений.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	среди	среди	ADP	_	_	5	case	_	_
+5	регуляторов	регулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+6	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	выделялось	выделяться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	несколько	несколько	NUM	_	Case=Nom	9	nummod:gov	_	_
+9	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+16	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3008
+# text = Ученые проверили предсказательную силу полученной модели на 27 соединениях, которые либо стимулировали прорастание семян и развитие корней, либо ингибировали их.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проверили	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	предсказательную	предсказательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	полученной	получать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	27	27	NUM	_	_	9	nummod	_	_
+9	соединениях	соединение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+12	либо	либо	ADV	_	Degree=Pos	13	advmod	_	_
+13	стимулировали	стимулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	прорастание	прорастание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	семян	семя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+18	корней	корень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	либо	либо	CCONJ	_	_	21	cc	_	_
+21	ингибировали	ингибировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3009
+# text = Карта Кохонена правильно разместила 67 процентов соединений, что доказало эффективность компьютерной модели.Александр Еникеев
+1	Карта	карта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Кохонена	Кохонен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	правильно	правильно	ADV	_	Degree=Pos	4	advmod	_	_
+4	разместила	размесщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	67	67	NUM	_	_	6	nummod	_	_
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+7	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	PRON	_	Case=Nom	10	nsubj	_	_
+10	доказало	доказать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+11	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	компьютерной	компьютерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	модели.	модели.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+15	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 3010

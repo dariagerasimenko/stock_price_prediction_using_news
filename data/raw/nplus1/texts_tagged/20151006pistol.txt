@@ -1,0 +1,225 @@
+# text = # newpar
+# sent_id = 341
+# text = Исследователи из университета Карнеги -- Меллона в Питтсбурге при помощи нейронных сетей организовали промышленному роботу Baxter самостоятельное обучение по захватыванию манипулятором различных объектов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Карнеги	карнеги	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	Меллона	Меллон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Питтсбурге	Питтсбург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+9	при	при	ADP	_	_	12	case	_	_
+10	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	fixed	_	_
+11	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+13	организовали	организовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	промышленному	промышленный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	роботу	робот	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	Baxter	Baxter	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	самостоятельное	самостоятельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	обучение	обучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	захватыванию	захватывание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
+21	манипулятором	манипулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+22	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 342
+# text = Препринт опубликован на arXiv.org, кратко о работе пишет MIT Technology Review.Для обучения перед роботом установили стол, заполненный различными предметами, среди которых были игрушечные пистолеты, пластиковая бутылка, пульт дистанционного управления телевизором и моток скотча.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	arXiv.org	arXiv.org	NOUN	_	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	кратко	кратко	ADV	_	Degree=Pos	8	advmod	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+9	пишет	пихать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+10	MIT	Mit	PROPN	_	Foreign=Yes	9	nsubj	_	_
+11	Technology	technology	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Review.Для	Review.для	ADP	_	_	13	case	_	_
+13	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+14	перед	перед	ADP	_	_	15	case	_	_
+15	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+16	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	стол	стол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	заполненный	заполнять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	предметами	предмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	среди	среди	ADP	_	_	24	case	_	_
+24	которых	который	PRON	_	Case=Gen	21	parataxis	_	_
+25	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+26	игрушечные	игрушечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	пистолеты	пистолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	пластиковая	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	бутылка	бутылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	пульт	пульт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	conj	_	_
+33	дистанционного	дистанционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	телевизором	телевизор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	nmod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	моток	моток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
+38	скотча	скотч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 343
+# text = Робот откладывал один из предметов в сторону, определял наиболее выгодную точку захвата и начинал пытаться его брать с разных сторон.
+1	Робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	откладывал	откладывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	один	один	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	определял	определять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	наиболее	наиболее	ADV	_	Degree=Pos	11	advmod	_	_
+11	выгодную	выгодный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	начинал	начинать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	пытаться	пытаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+18	брать	брать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 344
+# text = Для каждой выбранной зоны захвата Baxter производил 188 попыток, после каждой из которых пытался поднять предмет, чтобы проверить успешность захвата.
+1	Для	для	ADP	_	_	4	case	_	_
+2	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	выбранной	выбрывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+5	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Baxter	Baxter	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	производил	производить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	188	188	NUM	_	_	9	nummod	_	_
+9	попыток	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	после	после	ADP	_	_	12	case	_	_
+12	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	obl	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+15	пытался	пытаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+16	поднять	поднимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	_
+20	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+21	успешность	успешность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 345
+# text = После фиксации результата захвата робот клал объект на стол, манипулятор поворачивался на 10 градусов и попытка повторялась.
+1	После	после	ADP	_	_	2	case	_	_
+2	фиксации	фиксация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+3	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	клал	клать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	стол	стол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+12	поворачивался	поворачивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	10	10	NUM	_	_	15	nummod	_	_
+15	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	попытка	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	повторялась	повторяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 346
+# text = После окончания первой стадии обучения исследователи повторили цикл, представив роботу новый набор предметов, из которых лишь некоторые были знакомы нейросети по предыдущим попыткам.
+1	После	после	ADP	_	_	2	case	_	_
+2	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+3	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	повторили	повторять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	цикл	цикл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	представив	представлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+11	роботу	робот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+12	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	которых	который	PRON	_	Case=Gen	21	nmod	_	_
+18	лишь	лишь	PART	_	_	19	advmod	_	_
+19	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	21	nsubj	_	_
+20	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	знакомы	знакомый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	14	acl:relcl	_	_
+22	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	nsubj	_	_
+23	по	по	ADP	_	_	25	case	_	_
+24	предыдущим	предыдущий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	_
+25	попыткам	попытка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 347
+# text = На обучение ушло 700 часов, в течение которых робот учился поднимать предметы со стола.
+1	На	на	ADP	_	_	2	case	_	_
+2	обучение	обучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+3	ушло	уходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	700	700	NUM	_	_	5	nummod	_	_
+5	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	которых	который	PRON	_	Case=Gen	11	obl	_	_
+10	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	учился	учиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+12	поднимать	поднимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	со	с	ADP	_	_	15	case	_	_
+15	стола	стол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 348
+# text = Если предмет падал из манипулятора, Baxter просто переходил к следующему предмету.
+1	Если	если	SCONJ	_	_	9	mark	_	_
+2	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	падал	падать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	манипулятора	манипулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Baxter	Baxter	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	просто	просто	PART	_	_	9	advmod	_	_
+9	переходил	переходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	к	к	ADP	_	_	12	case	_	_
+11	следующему	следующий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	предмету	предмет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 349
+# text = Всего за время обучения робот выполнил около 50 тысяч захватов предметов на столе.
+1	Всего	всего	PART	_	_	3	advmod	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	выполнил	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	50	50	NUM	_	_	9	nummod	_	_
+9	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+10	захватов	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	столе.	столеаница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+
+# newpar
+# sent_id = 350

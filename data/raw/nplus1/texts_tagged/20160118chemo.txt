@@ -1,0 +1,381 @@
+# text = # newpar
+# sent_id = 3354
+# text = Американские исследователи разработали новый способ контроля химиотерапии.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	химиотерапии	химиотерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3355
+# text = Созданные ими флуоресцентные наночастицы позволяют проследить за доставкой препарата в клетки опухоли.
+1	Созданные	создавать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+2	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	1	obl:agent	_	_
+3	флуоресцентные	флуоресцентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	проследить	прослеживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	за	за	ADP	_	_	8	case	_	_
+8	доставкой	доставка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obl	_	_
+12	опухоли	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3356
+# text = Отчет о разработке опубликован в Nature Nanotechnology.
+1	Отчет	отчет	ADV	_	Degree=Pos	4	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Nanotechnology	Nanotechnology	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3357
+# text = Сама идея помечать лекарственные молекулы флуоресцентными веществами не нова.
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	помечать	помечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	лекарственные	лекарственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	флуоресцентными	флуоресцентный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	веществами	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	нова	новый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3358
+# text = Однако этот метод имеет серьезные ограничения из-за низкой стабильности флуорофоров, их токсичности или низкой специфичности связывания.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	серьезные	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+7	из-за	из-за	ADP	_	_	6	case	_	_
+8	низкой	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	стабильности	стабильность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	флуорофоров	флуорофор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+13	токсичности	токсичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	низкой	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	специфичности	специфичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+17	связывания	связывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3359
+# text = Сотрудникам Университета штата Огайо удалось преодолеть эти ограничения.
+1	Сотрудникам	сотрудник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+2	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Огайо	Огайо	ADV	_	Degree=Pos	5	advmod	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	преодолеть	преодолевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	эти	этот	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3360
+# text = Исследователи решили использовать в своей работе пептидные структуры из-за их флуоресцентных свойств и отсутствия токсичности.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	6	amod	_	_
+6	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+7	пептидные	пептидный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	структуры	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+9	из-за	из-за	ADP	_	_	12	case	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+11	флуоресцентных	флуоресцентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	отсутствия	отсутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+15	токсичности	токсичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3361
+# text = Выяснилось, что дипептид, состоящий из триптофана и фенилаланина, благодаря -- межплоскостному взаимодействию ароматических групп способен самособираться в наночастицы, которые флуоресцируют в видимом спектре.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	дипептид	дипептид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	состоящий	состоять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	триптофана	триптофан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	фенилаланина	фенилаланин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	благодаря	благодаря	ADP	_	_	15	case	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	межплоскостному	межплоскостный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	взаимодействию	взаимодействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+16	ароматических	ароматический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	способен	способйный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	advcl	_	_
+19	самособираться	самособираться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	dep	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которые	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	флуоресцируют	флуоресцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	видимом	видимый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3362
+# text = Кроме того, при его взаимодействии с ионами цинка образуется хелатная структура с повышенной стабильностью и более интенсивной флуоресценцией.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	при	при	ADP	_	_	6	case	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	взаимодействии	взаимодействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+9	цинка	цинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	образуется	образовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	хелатная	хелатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	повышенной	повышенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	стабильностью	стабильность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	интенсивной	интенсивный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	флуоресценцией	флуоресценция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3363
+# text = Полученный дипептид ученые связали с молекулой доксорубицина -- распространенного препарата для химиотерапии рака.
+1	Полученный	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	дипептид	дипептид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	связали	связывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	молекулой	молекула	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	доксорубицина	доксорубицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	распространенного	распространенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	для	для	ADP	_	_	10	case	_	_
+12	химиотерапии	химиотерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3364
+# text = Такое соединение не обладает флуоресцентными свойствами.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	соединение	соединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	флуоресцентными	флуоресцентный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3365
+# text = Эксперимент in vitro показал, что, попадая в клетки, дипептид отсоединяется от молекул препарата и самособирается в наночастицы, которые в течение длительного времени испускают видимый свет при воздействии ультрафиолетом.
+1	Эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	in	in	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	vitro	vitro	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	попадая	попадать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	дипептид	дипептид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+13	отсоединяется	отсоединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+16	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	самособирается	самособираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	27	nsubj	_	_
+23	в	в	ADP	_	_	26	case	_	_
+24	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	длительного	длительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+27	испускают	испускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+28	видимый	видимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+30	при	при	ADP	_	_	31	case	_	_
+31	воздействии	воздействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	obl	_	_
+32	ультрафиолетом	ультрафиолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3366
+# text = Благодаря этому удается точно зафиксировать время и степень проникновения химиопрепарата в опухоль.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	точно	точно	ADV	_	Degree=Pos	5	advmod	_	_
+5	зафиксировать	фиксировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	степень	степень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+9	проникновения	проникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	химиопрепарата	химиопрепарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	опухоль	опухоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3367
+# text = Исследователи отметили, что, хотя в эксперименте использовался доксорубицин, полученным флуоресцентным дипептидом можно помечать и другие лекарственные молекулы.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отметили	отмечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	хотя	хотя	SCONJ	_	_	7	mark	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+9	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	15	advcl	_	_
+10	доксорубицин	доксорубицин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	полученным	получать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	флуоресцентным	флуоресцентный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	дипептидом	дипептид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+15	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+16	помечать	помечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+19	лекарственные	лекарственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3368
+# text = В настоящее время ученые проводят испытания вещества на лабораторных животных.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+7	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	лабораторных	лабораторный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3369
+# text = Новый метод весьма перспективен, однако область его применения ограничивается проникающей способностью света -- опухоли внутренних органов с помощью флуоресценции рассмотреть будет затруднительно.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	весьма	весьма	ADV	_	Degree=Pos	4	advmod	_	_
+4	перспективен	перспективный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+7	область	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	ограничивается	ограничивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+11	проникающей	проникать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	способностью	способность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+13	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	опухоли	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	fixed	_	_
+20	флуоресценции	флуоресценция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+21	рассмотреть	рассматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+22	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	затруднительно	затруднительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3370
+# text = "Разработка очень важна для персонализированной медицины.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	_
+4	важна	важный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	персонализированной	персонализировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3371
+# text = Нам необходимо видеть, что происходит при назначении химиотерапии, и наша работа открывает путь к этому", -- заявил руководитель исследования Минцзюнь Чжан (Mingjun Zhang).
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	nmod	_	_
+2	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	PRON	_	Case=Nom	6	nsubj	_	_
+6	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	назначении	назначение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	химиотерапии	химиотерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+15	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	--	--	PUNCT	_	_	17	punct	_	_
+21	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	Минцзюнь	Минцзюнь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+25	Чжан	чжан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Mingjun	Mingjun	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+28	Zhang	Zhang	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3372
+# text = Основой для разработки стало изучение особенностей зеленого флуоресцентного белка, за открытие которого Осаму Симомура, Мартин Чалфи и Роджер Тсиен в 2008 году удостоились Нобелевской премии.Олег Лищук
+1	Основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	зеленого	зеленой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	флуоресцентного	флуоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	открытие	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obl	_	_
+13	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+14	Осаму	Осама	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	12	appos	_	_
+15	Симомура	Симомура	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	Мартин	Мартин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+18	Чалфи	Чалфи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	Роджер	Роджер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+21	Тсиен	Тсиен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	2008	2008	NUM	_	_	24	nummod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+25	удостоились	удостаиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+26	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Олег	олег	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+30	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_
+
+# newpar
+# sent_id = 3373

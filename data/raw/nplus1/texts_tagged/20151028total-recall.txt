@@ -1,0 +1,59 @@
+# text = # newpar
+# sent_id = 3955
+# text = Американская компания Outer Space Vodka начала продавать водку, отфильтрованную через метеориты,сообщаетDude.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Outer	Outer	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Space	“space	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Vodka	Vodka	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	водку	водка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	отфильтрованную	отфильтровывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	через	через	ADP	_	_	12	case	_	_
+12	метеориты	метеорита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,сообщаетDude	,сообщаетDude	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3956
+# text = Алкогольный напиток производят в Айове, фильтруя его через метеориты, возраст которых "превышает четыре миллиарда лет".
+1	Алкогольный	алкогольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	напиток	напиток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Айове	Айов	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	фильтруя	фильтровать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+8	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	_
+9	через	через	ADP	_	_	10	case	_	_
+10	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+16	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	17	nummod:gov	_	_
+17	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nummod:gov	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3957
+# text = Разработчики утверждают, что благодаря этому водка приобретает "неземной вкус".
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+7	водка	водка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	приобретает	приобретать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	неземной	неземной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 3958

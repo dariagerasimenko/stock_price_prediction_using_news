@@ -1,0 +1,154 @@
+# text = # newpar
+# sent_id = 3980
+# text = Вфеврале вСан-Франциско пройдет двухдневное мероприятие, посвященное искусству нейросетей.
+1	Вфеврале	вфеврале	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	вСан-Франциско	вСан-Франциско	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	двухдневное	двухдневной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	мероприятие	мероприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	посвященное	посвящать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	искусству	искусство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+9	нейросетей	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3981
+# text = Обэтом событии сообщает всвоем блоге компания Google.
+1	Обэтом	Обэтот	DET	_	Case=Loc|Gender=Neut|Number=Sing	2	amod	_	_
+2	событии	событие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всвоем	всвой	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	_
+5	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+7	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3982
+# text = Событие будет проходить втечение двух дней вСан-Франциско.
+1	Событие	событие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	двух	два	NUM	_	Case=Gen	6	nummod	_	_
+6	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	вСан-Франциско	вСан-Франциский	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3983
+# text = Впервый день вGray Area Foundation for the Arts будут выставляться 29произведений, созданных спомощью нейронных сетей художниками совсего мира.
+1	Впервый	Впервый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	вGray	вGray	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Area	Area	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Foundation	Foundation	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	for	for	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Arts	Arts	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	выставляться	выставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+11	29произведений	29произведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	созданных	создавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+15	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	художниками	художник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+18	совсего	совсей	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	_
+19	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3984
+# text = Вэтотже день работы будут проданы на аукционе.
+1	Вэтотже	Вэтотже	PART	_	_	5	advmod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	проданы	продывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	аукционе	аукцион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3985
+# text = Наследующий день пройдет симпозиум помашинному обучению и искусству, видео скоторого обещают выложить всеть.
+1	Наследующий	Наследующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	симпозиум	симпозиум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+5	помашинному	помашинный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	обучению	обучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	искусству	искусство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+11	скоторого	скоторого	ADV	_	Degree=Pos	12	advmod	_	_
+12	обещают	обещивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+13	выложить	выкладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	всеть	всеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3986
+# text = Виюле 2015 года компания Google выложила воткрытый доступ исходный код нейросети, названный Deep Dream.
+1	Виюле	Виюль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+2	2015	2015	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	выложила	выложивать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	воткрытый	воткрытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	исходный	исходный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+11	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	названный	называть	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	Deep	deep	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+15	Dream	Dream	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3987
+# text = Нейросеть, используемая компанией для распознавания объектов наизображениях, искажала исходное изображение всоответствии стем, какие его фрагменты напоминали алгоритму теили иные знакомые объекты.
+1	Нейросеть	Нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	используемая	использовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	для	для	ADP	_	_	4	case	_	_
+6	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	наизображениях	наизображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	искажала	искажать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	исходное	исходный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	всоответствии	всоответствии	ADV	_	Degree=Pos	10	advmod	_	_
+14	стем	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	19	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	какие	какой	DET	_	Case=Nom|Number=Plur	18	amod	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+18	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	напоминали	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+20	алгоритму	алгоритма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	теили	теить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+22	иные	иный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+23	знакомые	знакомый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3988
+# text = Для картин, созданных нейронными сетями, компания Google ввела термин-- инцепционизм.
+1	Для	для	ADP	_	_	2	case	_	_
+2	картин	картина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	созданных	создавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	нейронными	нейронный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	сетями	сеть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	ввела	вводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	термин	термин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	инцепционизм	инцепционизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 3989

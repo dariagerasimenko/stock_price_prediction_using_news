@@ -1,0 +1,189 @@
+# text = # newpar
+# sent_id = 4160
+# text = Исследователи из Колумбийского университета, Гарварда, Disney и Массачусетского технологического института разработали алгоритм, позволяющий дорабатывать металлические предметы для звучания с заданной частотой и амплитудой.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Колумбийского	Колумбийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Гарварда	гарвард	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Disney	Disney	PROPN	_	Foreign=Yes	4	conj	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+13	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	дорабатывать	дорабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	звучания	звучание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	заданной	дать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	амплитудой	амплитуда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4161
+# text = Доклад будет представлен на конференции SIGGRAPH 2015, с полным текстом статьи можно ознакомиться на сайте Гарвардского университета.Ученые разработали алгоритм, позволяющий точно рассчитать необходимые изменения формы для металлической пластины в металлофоне, чтобы добиться заданной частоты и амплитуды звука.
+1	Доклад	доклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	SIGGRAPH	Siggraph	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	2015	2015	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	полным	полный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	текстом	текст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+12	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+13	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+14	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	nsubj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	Гарвардского	Гарвардский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	университета.	университета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+21	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+24	точно	точно	ADV	_	Degree=Pos	23	advmod	_	_
+25	рассчитать	рассчитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	dep	_	_
+26	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_
+28	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	для	для	ADP	_	_	31	case	_	_
+30	металлической	металлический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	пластины	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	металлофоне	металлофон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	_
+36	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	20	advcl	_	_
+37	заданной	задавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+38	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	obl	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	амплитуды	амплитуда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	conj	_	_
+41	звука	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 4162
+# text = При помощи деформации пластины и перфорации исследователям удалось не только добиться чистого звучания нот от пластин сложной формы, но и создать пластины, позволяющие извлечь конкретный аккорд.
+1	При	при	ADP	_	_	3	case	_	_
+2	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	деформации	деформация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+4	пластины	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	перфорации	перфорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+7	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+8	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	только	только	PART	_	_	11	advmod	_	_
+11	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	nsubj	_	_
+12	чистого	чистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	звучания	звучание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	нот	нота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	пластин	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+17	сложной	сложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	но	но	CCONJ	_	_	22	cc	_	_
+21	и	и	PART	_	_	22	advmod	_	_
+22	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+23	пластины	пластина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	позволяющие	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	извлечь	извлегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	конкретный	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	аккорд	аккорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4163
+# text = Такжес помощью этой технологии они смогли подчеркнуть тот или иной обертон в спектре колебаний и, благодаря этому, изменить тембр звучания.
+1	Такжес	Такжосить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	подчеркнуть	дчеркнуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	иной	иной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+11	обертон	обертон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+14	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	и	и	CCONJ	_	_	20	cc	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	благодаря	благодаря	ADP	_	_	18	case	_	_
+18	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	conj	_	_
+21	тембр	тембр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	звучания	звучание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4164
+# text = Для демонстрации возможностей алгоритма исследователи создали металлофон, где все пластины были выполнены в форме зверей.
+1	Для	для	ADP	_	_	2	case	_	_
+2	демонстрации	демонстрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+3	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	металлофон	металлофон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	13	advmod	_	_
+10	все	весь	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+11	пластины	пластина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	выполнены	выполнять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+16	зверей	зверь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4165
+# text = Необычно выглядящий музыкальный инструмент создатели назвали зоолофоном.
+1	Необычно	необычно	ADV	_	Degree=Pos	2	advmod	_	_
+2	выглядящий	выглядеть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+3	музыкальный	музыкальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	зоолофоном	зоолофон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4166
+# text = Исследователи отмечают, что, несмотря на игрушечный вид, зоолофон обладает звучанием, сравнимым с профессиональным металлофоном.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	несмотря	несмотря	ADV	_	Polarity=Neg	9	case	_	_
+7	на	на	ADP	_	_	6	fixed	_	_
+8	игрушечный	игрушечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	зоолофон	зоолофон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+13	звучанием	звучание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сравнимым	сравнимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	профессиональным	профессиональный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	металлофоном	металлофон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 4167

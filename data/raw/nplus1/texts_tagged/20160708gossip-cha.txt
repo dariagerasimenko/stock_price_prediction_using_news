@@ -1,0 +1,213 @@
+# text = # newpar
+# sent_id = 2444
+# text = Facebook всвоем мессенджере начала тестирование "секретных чатов", о чем представители компании сообщают в официальном блоге.
+1	Facebook	Facebook	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	всвоем	всвой	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	мессенджере	мессенджер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	тестирование	тестирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	секретных	секретный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	чатов	чат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	чем	что	PRON	_	Case=Loc	15	obl	_	_
+13	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+14	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2445
+# text = В секретных чатах Facebook (как ивдругом принадлежащем компании мессенджере WhatsApp) для шифрования сообщений будет использоваться протокол Signal отOpen Whisper Systems.
+1	В	в	ADP	_	_	3	case	_	_
+2	секретных	секретный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	чатах	чат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+4	Facebook	фейсбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	как	как	ADV	_	Degree=Pos	8	advmod	_	_
+7	ивдругом	ивдругом	ADV	_	Degree=Pos	8	advmod	_	_
+8	принадлежащем	принадлежать	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+9	компании	компания	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+10	мессенджере	мессенджера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+11	WhatsApp	WhatsApp	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+15	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+18	протокол	протокол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	Signal	Signal	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	отOpen	отOpen	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Whisper	Whisper	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Systems	Systems	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2446
+# text = Пользователь сможет выбрать время, втечение которого сообщение будет видно его собеседнику, после чего оно самоуничтожится.
+1	Пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+7	которого	который	PRON	_	Case=Gen	6	nmod	_	_
+8	сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	видно	видно	ADV	_	Degree=Pos	4	acl:relcl	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	собеседнику	собеседник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	чего	что	PRON	_	Case=Gen	17	obl	_	_
+16	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj	_	_
+17	самоуничтожится	самоуничтожяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2447
+# text = Однако другие опции, такие как передача gif ивидео, в"секретных чатах" будут недоступны.
+1	Однако	однако	ADV	_	Degree=Pos	16	advmod	_	_
+2	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	опции	опция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	16	nsubj	_	_
+6	как	как	SCONJ	_	_	7	cc	_	_
+7	передача	передача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+8	gif	gif	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+9	ивидео	ивидео	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в"	в"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	секретных	секретный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	чатах	чата	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	недоступны	недоступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2448
+# text = Тем неменее, компания говорит отом, что поумолчанию вобычных сообщениях будет по-прежнему использоваться шифрование сиспользованием протокола https.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	говорит	говореть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	поумолчанию	поумолчание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	advcl	_	_
+10	вобычных	вобычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	сообщениях	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+13	по-прежнему	по-прежнему	ADV	_	Degree=Pos	14	advmod	_	_
+14	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	9	dep	_	_
+15	шифрование	шифрование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	nmod	_	_
+17	протокола	протокол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	https	https	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2449
+# text = Все "секретные чаты" будут привязаны кконкретному устройству, аэто значит, что надругом телефоне или планшете история сообщений несохранится.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	секретные	секретный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	чаты	чат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	привязаны	привязавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	кконкретному	кконкретный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	устройству	устройство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	аэто	аэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	надругом	надругой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	телефоне	телефон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	планшете	планшет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	conj	_	_
+19	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+21	несохранится	несохраняться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	12	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2450
+# text = Наданный момент эта функция доступна ограниченному числу пользователей, однако клету Facebook планирует расширить ихчисло.
+1	Наданный	Наданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+6	ограниченному	ограниченный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	числу	число	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+11	клету	клет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+12	Facebook	фейсбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	расширить	расширять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	ихчисло	ихчисло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2451
+# text = "Секретные чаты" вFacebook Messenger вомногом напоминают аналогичную функцию всозданном Павлом Дуровым мессенджере Telegram.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Секретные	секретный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	чаты	чат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	5	punct	_	_
+5	вFacebook	вFacebook	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Messenger	Messenger	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	вомногом	вомногом	ADV	_	Degree=Pos	8	advmod	_	_
+8	напоминают	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	аналогичную	аналогичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	всозданном	всоздать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	Павлом	Павл	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl:agent	_	_
+13	Дуровым	Дуров	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	мессенджере	мессенджер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+15	Telegram	telegram	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2452
+# text = Она была запущена еще воктябре 2013 года итакже использует оконечное (end-to-end) шифрование.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	запущена	запущать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+5	воктябре	воктябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	2013	2013	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	итакже	итакже	ADV	_	Degree=Pos	9	advmod	_	_
+9	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	оконечное	оконечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	end-to-end	end-to-end	X	_	Foreign=Yes	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	шифрование	шифрование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2453
+# text = Популярный мессенджерWhatsApp также включил в 2016 году шифрование, причем для всех данных.Кристина Уласович
+1	Популярный	популярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	мессенджерWhatsApp	мессенджерWhatsApp	PROPN	_	Foreign=Yes	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	включил	включать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	2016	2016	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	шифрование	шифрование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	причем	причем	CCONJ	_	_	13	cc	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	всех	весь	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	данных.	данныхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+14	Кристина	Кристин	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	appos	_	_
+15	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 2454

@@ -1,0 +1,77 @@
+# text = # newpar
+# sent_id = 2671
+# text = Массачусетский технологический институт (MIT) разработал технологию печати пластиковых объектов, кривизна поверхности которых может изменяться при сжатии.
+1	Массачусетский	массачусетский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	технологический	технологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	MIT	mit	PROPN	_	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	пластиковых	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	кривизна	кривизна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+14	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+16	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	изменяться	изменяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	при	при	ADP	_	_	19	case	_	_
+19	сжатии	сжатие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2672
+# text = Согласно сообщениюMIT, разработанная ими технология позволяет печатать объекты из двух типов пластика с различной жесткостью.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщениюMIT	сообщениюmай-ти	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+5	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	4	obl:agent	_	_
+6	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	различной	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	жесткостью	жесткость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2673
+# text = Новый способ уже был апробирован на 3D-принтере и признан успешным: полученные пластиковые пластины имели ровную поверхность, рельеф которой становился шершавым или бугристым при сжатии.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	апробирован	апробировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	3D	3d	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+8	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	признан	признавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+11	успешным	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	полученные	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	пластиковые	пластиковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	пластины	пластины	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+16	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+17	ровную	ровный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	рельеф	рельеф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+21	которой	который	PRON	_	Case=Gen	20	nmod	_	_
+22	становился	становиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+23	шершавым	шершавый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	бугристым	бугристой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	_
+26	при	при	ADP	_	_	27	case	_	_
+27	сжатии	сжатие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 2674

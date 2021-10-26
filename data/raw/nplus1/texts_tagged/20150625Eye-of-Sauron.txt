@@ -1,0 +1,85 @@
+# text = # newpar
+# sent_id = 4623
+# text = Астрономы с помощью космической рентгеновской обсерватории "Чандра" (NASA) зафиксировали рентгеновское эхо от мощной вспышки микроквазара Циркуль X-1 (Circinus X-1).
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+2	с	с	ADP	_	_	6	case	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	_
+4	космической	космической	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	рентгеновской	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Чандра	Чандр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	зафиксировали	фиксировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	рентгеновское	рентгеновский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	эхо	эхо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+16	от	от	ADP	_	_	15	case	_	_
+17	мощной	мощный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+19	микроквазара	микроквазар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Циркуль	Циркуль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+21	X-1	X-1	NUM	_	_	20	nummod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Circinus	Circinus	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	X	x	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	1	1	NUM	_	_	24	nummod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4624
+# text = Получившиеся снимки запечатлели набор колец, напоминающий гигантское "Око Саурона".
+1	Получившиеся	Получиваться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+2	снимки	снимк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	запечатлели	запечатлеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	колец	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	напоминающий	напоминать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+8	гигантское	гигантский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Око	око	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+11	Саурона	саурон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4625
+# text = Новые снимки помогли уточнить расстояние до микроквазара, которое составило 30 700 световых лет, сообщает официальный сайт обсерватории.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	помогли	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	уточнить	уточнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	микроквазара	микроквазар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	составило	составлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+11	30	30	NUM	_	_	14	nummod	_	_
+12	700	700	NUM	_	_	14	nummod	_	_
+13	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	официальный	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	сайт	сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4626
+# text = Результаты исследования также опубликованы в The Astrophysical Journal.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	The	the	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Journal	journal	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 4627

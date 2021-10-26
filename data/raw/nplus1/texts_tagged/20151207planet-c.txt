@@ -1,0 +1,180 @@
+# text = # newpar
+# sent_id = 4446
+# text = Автоматическая межпланетная станция "Акацуки" успешно завершила маневр выхода на орбиту Венеры.
+1	Автоматическая	автоматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	межпланетная	межпланетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Акацуки	Акацуки	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	успешно	успешно	ADV	_	Degree=Pos	8	advmod	_	_
+8	завершила	завершать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	маневр	маневр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+13	Венеры	венера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4447
+# text = Двигатели зонда работали 20 минут и теперь космический аппарат движется по запланированной траектории.
+1	Двигатели	двигатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	зонда	зонда	ADV	_	Degree=Pos	3	advmod	_	_
+3	работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	20	20	NUM	_	_	5	nummod	_	_
+5	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	и	и	CCONJ	_	_	10	cc	_	_
+7	теперь	теперь	ADV	_	Degree=Pos	10	advmod	_	_
+8	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+10	движется	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	запланированной	планировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	траектории	траектория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4448
+# text = Окончательно об успехе маневра можно будет сказать через несколько дней, говорится на сайте Японского агентства аэрокосмических исследований (JAXA).Зонд "Акацуки" ("Рассвет") был отправлен к Венере для изучения ее атмосферы и поверхности.
+1	Окончательно	окончательно	ADV	_	Degree=Pos	5	advmod	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	успехе	успех	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	маневра	маневр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+7	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	через	через	ADP	_	_	10	case	_	_
+9	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+10	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	parataxis	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	Японского	японский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	аэрокосмических	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	JAXA	Jaxa	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	Зонд	зонд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Акацуки	Акацука	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	appos	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Рассвет	рассвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	29	punct	_	_
+32	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	aux:pass	_	_
+33	отправлен	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+34	к	к	ADP	_	_	35	case	_	_
+35	Венере	венера	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
+36	для	для	ADP	_	_	37	case	_	_
+37	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	obl	_	_
+38	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	39	nmod	_	_
+39	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 4449
+# text = Также космический аппарат должен был помочь в обнаружении вулканической активности планеты.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	обнаружении	обнаружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	вулканической	вулканической	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4450
+# text = Изначально планировалось, что зонд проведет на орбите Венеры два года, собирая и передавая информацию на Землю.Зонд должен был выйти на орбиту второй планеты Солнечной системы в декабре 2010 года, однако из-за неисправности в маршевом двигателе "Акацуки" не смог выполнить маневр.
+1	Изначально	изначально	ADV	_	Degree=Pos	2	advmod	_	_
+2	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	проведет	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	Венеры	венера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	собирая	собирать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	передавая	передавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+16	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	Землю.	Землю.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	Зонд	зонд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	29	conj	_	_
+21	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+22	выйти	выходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+25	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+31	2010	2010	NUM	_	_	32	nummod	_	_
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	однако	однако	ADV	_	Degree=Pos	36	advmod	_	_
+35	из-за	из-за	ADP	_	_	36	case	_	_
+36	неисправности	неисправность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	obl	_	_
+37	в	в	ADP	_	_	39	case	_	_
+38	маршевом	маршевый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	двигателе	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	nmod	_	_
+40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	Акацуки	Акацуки	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	36	appos	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	41	punct	_	_
+43	не	не	PART	_	_	44	advmod	_	_
+44	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+45	выполнить	выполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	xcomp	_	_
+46	маневр	маневр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 4451
+# text = Специалисты JAXA вывели аппарат на орбиту вокруг Солнца и пять лет спустя, 7 декабря 2015 года, использовали вспомогательные двигатели для вывода зонда на орбиту Венеры.Николай Воронцов
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	JAXA	Jaxa	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	вывели	выводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	вокруг	вокруг	ADP	_	_	8	case	_	_
+8	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	пять	пять	NUM	_	Case=Acc	11	nummod:gov	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_
+12	спустя	спустя	ADP	_	_	11	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	7	7	NUM	_	_	3	nummod	_	_
+15	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	2015	2015	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	вспомогательные	вспомогательной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+27	Венеры	венера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+30	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_
+
+# newpar
+# sent_id = 4452

@@ -1,0 +1,180 @@
+# text = # newpar
+# sent_id = 4465
+# text = Операционная система для мобильных устройств Apple iOS 9 версии beta 2 при установке предлагает пользователю удалить уже установленные на устройстве приложения для того, чтобы освободить место, необходимое для развертывания ОС на устройстве.
+1	Операционная	операционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+6	Apple	apple	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	iOS	ios	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	9	9	NUM	_	_	2	nummod	_	_
+9	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+10	beta	beta	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	2	2	NUM	_	_	10	nummod	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+14	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+16	удалить	удалять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	уже	уже	ADV	_	Degree=Pos	18	advmod	_	_
+18	установленные	устанавливать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+21	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	для	для	ADP	_	_	21	case	_	_
+23	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	чтобы	чтобы	SCONJ	_	Mood=Cnd	23	mark	_	_
+26	освободить	освобождать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	advcl	_	_
+27	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	развертывания	развертывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+32	ОС	ос	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 4466
+# text = После установки операционной системы все удаленные приложения будут автоматически загружены повторно из AppStore.
+1	После	после	ADP	_	_	2	case	_	_
+2	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+3	операционной	операционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	удаленные	удаленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	приложения	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+9	автоматически	автоматически	ADV	_	Degree=Pos	10	advmod	_	_
+10	загружены	загружать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	повторно	повторно	ADV	_	Degree=Pos	13	advmod	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	AppStore	AppStore	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4467
+# text = На новую функцию iOSобратили внимание некоторые бета-тестеры.Открытый бета-тест iOS 9 начнется в июле, для участия в нем необходимо зарегистрироваться насайте.
+1	На	на	ADP	_	_	3	case	_	_
+2	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	iOSобратили	iOSобращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	бета-тестеры	бета-тестер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Открытый	открывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	бета-	бета-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	тест	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+12	iOS	ios	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	9	9	NUM	_	_	11	nummod	_	_
+14	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+22	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	conj	_	_
+23	зарегистрироваться	зарегистрироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	22	nsubj	_	_
+24	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4468
+# text = Для всех остальных владельцев мобильных устройств Apple релиз iOS 9 состоится осенью.Apple представила iOS 9 на ежегодной конференции для разработчиков WWDC 2015в Калифорнии.
+1	Для	для	ADP	_	_	4	case	_	_
+2	всех	весь	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+3	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	владельцев	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+5	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	Apple	эппл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+8	релиз	релиз	ADP	_	_	9	case	_	_
+9	iOS	ios	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+10	9	9	NUM	_	_	9	nummod	_	_
+11	состоится	состоиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+12	осенью.Apple	осенью.Apple	PROPN	_	Foreign=Yes	11	nsubj	_	_
+13	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	iOS	ios	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	9	9	NUM	_	_	14	nummod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	ежегодной	ежегодный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+21	WWDC	Wwdс	ADP	_	_	22	case	_	_
+22	2015в	2015во	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+23	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4469
+# text = Кроме iOS 9 в этом году на конференции представители компании рассказали о новых приложениях и разработках, также были представлены новые версии других операционных систем компании: OS X El Capitan для настольных ПК и ноутбуков и watchOS 2 для умных часов Apple Watch.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	iOS	ios	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+3	9	9	NUM	_	_	2	nummod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	6	amod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+9	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	рассказали	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	о	о	ADP	_	_	14	case	_	_
+13	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	приложениях	приложение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	разработках	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	также	также	ADV	_	Degree=Pos	20	advmod	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	представлены	представлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	_
+21	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	версии	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+23	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+24	операционных	операционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+26	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	26	punct	_	_
+28	OS	o	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+29	X	x	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	El	El	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Capitan	Capitan	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	для	для	ADP	_	_	28	case	_	_
+33	настольных	настольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	ПК	пк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	parataxis	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	ноутбуков	ноутбук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	watchOS	watchos	PROPN	_	Foreign=Yes	34	conj	_	_
+39	2	2	NUM	_	_	42	nummod	_	_
+40	для	для	ADP	_	_	42	case	_	_
+41	умных	умный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+43	Apple	apple	PROPN	_	Foreign=Yes	42	flat:foreign	_	_
+44	Watch	Watch	PROPN	_	Foreign=Yes	43	flat:foreign	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 4470
+# text = Кроме того, представители компаниисообщилио создании приложения для миграции с устройств под управлением Android на iOS.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+5	компаниисообщилио	компаниисообщилио	X	_	Foreign=Yes	6	flat:foreign	_	_
+6	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+7	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	для	для	ADP	_	_	7	case	_	_
+9	миграции	миграция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	под	под	ADP	_	_	13	case	_	_
+13	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+14	Android	Android	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	iOS.	iOS.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+
+# newpar
+# sent_id = 4471

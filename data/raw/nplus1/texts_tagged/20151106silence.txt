@@ -1,0 +1,418 @@
+# text = # newpar
+# sent_id = 5320
+# text = Всего одна бессонная ночь может принести столько же вреда, сколько целые полгода на богатой жирами диете.
+1	Всего	всего	PART	_	_	2	advmod	_	_
+2	одна	один	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+3	бессонная	бессонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ночь	ночь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	принести	принедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	столько	столько	ADV	_	Degree=Pos	6	advmod	_	_
+8	же	же	PART	_	_	7	advmod	_	_
+9	вреда	вред	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сколько	сколько	ADV	_	Degree=Pos	9	conj	_	_
+12	целые	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	полгода	полгод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	богатой	богатый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	жирами	жир	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	_
+17	диете	диет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5321
+# text = И то, и другое снижает нормальную толерантность организма к глюкозе и ведет к предиабету примерно в равной степени.
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	другое	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	_
+6	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	толерантность	толерантность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	глюкозе	глюкоза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	предиабету	предиабет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	примерно	примерно	ADV	_	Degree=Pos	19	advmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	равной	равный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5322
+# text = Об этом ученые Медицинского центра Седарс -- Синай рассказали на ежегодной встрече Общества по ожирению (The Obesity Society), прошедшей 2--6 ноября в Лос-Анджелесе.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	Медицинского	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Седарс	Седарс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	Синай	Синай	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+9	рассказали	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	ежегодной	ежегодный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	встрече	встреча	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+13	Общества	общество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	ожирению	ожирение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	The	the	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Obesity	Obesity	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Society	society	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	прошедшей	проходить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	amod	_	_
+23	2	2	NUM	_	_	27	nummod	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	6	6	NUM	_	_	23	nummod	_	_
+27	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	Лос-Анджелесе	лос-анджелес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5323
+# text = Кратко о работе рассказывает пресс-релиз TOS.Удерживать содержание в крови глюкозы помогает гормон поджелудочной железы инсулин.
+1	Кратко	кратко	ADV	_	Degree=Pos	3	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	TOS.	tos.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+7	Удерживать	Удерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	гормон	гормон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	поджелудочной	поджелудочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	железы	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+16	инсулин	инсулин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5324
+# text = Как только ее концентрация поднимается выше определенного уровня, чувствительные клетки выбрасывают инсулин в кровоток, стимулируя поглощение глюкозы и накопление избытка сахара в виде жиров.
+1	Как	как	ADV	_	Degree=Pos	5	cc	_	_
+2	только	только	PART	_	_	5	advmod	_	_
+3	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+4	концентрация	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	поднимается	подниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advmod	_	_
+6	выше	высоко	ADV	_	Degree=Cmp	5	advmod	_	_
+7	определенного	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чувствительные	чувствительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	выбрасывают	выбрасывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	инсулин	инсулин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	кровоток	кровоток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	стимулируя	стимулировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+18	поглощение	поглощение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	накопление	накопление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	conj	_	_
+22	избытка	избыток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	fixed	_	_
+26	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5325
+# text = Однако по малопонятным пока что причинам эта реакция на инсулин может нарушаться -- например, ослабевать.
+1	Однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+2	по	по	ADP	_	_	6	case	_	_
+3	малопонятным	малопонятный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+4	пока	пока	ADV	_	Degree=Pos	3	advmod	_	_
+5	что	что	SCONJ	_	_	4	fixed	_	_
+6	причинам	причины	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+7	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	реакция	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	инсулин	инсулин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	нарушаться	нарушаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	например	например	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	ослабевать	ослабевать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5326
+# text = Стараясь удержать нормальное содержание глюкозы в крови, организм вынужден выбрасывать избыточное количество гормона.Такая инсулинорезистенция ведет к нарушению метаболизма глюкозы и жиров, к набору избыточного веса, а часто -- и к развитию тяжелых заболеваний, прежде всего, сахарного диабета 2 типа.
+1	Стараясь	стараться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	17	advcl	_	_
+2	удержать	удерживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	нормальное	нормальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	организм	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+10	вынужден	вынуждать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	conj	_	_
+11	выбрасывать	выбрасать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	избыточное	избыточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	гормона.	гектормонар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+16	инсулинорезистенция	инсулинорезистенция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	нарушению	нарушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+20	метаболизма	метаболизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	к	к	ADP	_	_	26	case	_	_
+26	набору	набор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	_
+27	избыточного	избыточной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	а	а	CCONJ	_	_	31	cc	_	_
+31	часто	часто	ADV	_	Degree=Pos	0	conj	_	_
+32	--	--	PUNCT	_	_	31	punct	_	_
+33	и	и	CCONJ	_	_	35	cc	_	_
+34	к	к	ADP	_	_	35	case	_	_
+35	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	conj	_	_
+36	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	прежде	прежде	ADP	_	_	42	advmod	_	_
+40	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	fixed	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	сахарного	сахарной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+44	2	2	NUM	_	_	45	nummod	_	_
+45	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 5327
+# text = Этот эффект неплохо известен, и нарушение толерантности к глюкозе считается предиабетическим состоянием.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	неплохо	неплохо	ADV	_	Degree=Pos	4	advmod	_	_
+4	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+8	толерантности	толерантность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	глюкозе	глюкоза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+12	предиабетическим	предиабетический	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	состоянием	состояние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5328
+# text = Выявить ее позволяет глюкозотолерантный тест, замеряющий содержание сахара в крови натощак и спустя разные промежутки времени после приема глюкозы.Такие тесты использовала и Жозиан Брусар с коллегами, проводя свои эксперименты с лабораторными собаками.
+1	Выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+2	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	глюкозотолерантный	глюкозотолерантный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	тест	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	замеряющий	замерять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+12	натощак	натощак	ADV	_	Degree=Pos	24	advmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	спустя	спустя	ADP	_	_	16	case	_	_
+15	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	промежутки	промежуток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	conj	_	_
+17	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	после	после	ADP	_	_	19	case	_	_
+19	приема	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+20	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Такие	такой	DET	_	Case=Nom|Number=Plur	23	amod	_	_
+23	тесты	теста	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+24	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	и	и	PART	_	_	26	advmod	_	_
+26	Жозиан	Жозиан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+27	Брусар	Брусар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	проводя	проводить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+32	свои	свой	DET	_	Case=Acc|Number=Plur	33	amod	_	_
+33	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
+34	с	с	ADP	_	_	36	case	_	_
+35	лабораторными	лабораторный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	amod	_	_
+36	собаками	собака	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 5329
+# text = Исследователи проверяли животных перед сном и после него, а также после ночи, в течение которой им не давали спать вовсе.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	животных	животной	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	перед	перед	ADP	_	_	5	case	_	_
+5	сном	сон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	13	cc	_	_
+11	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	которой	который	PRON	_	Case=Gen	20	obl	_	_
+18	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	20	obl	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	давали	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+21	спать	спать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	вовсе	вовсе	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5330
+# text = Затем собак сажали на перенасыщенную жиром диету и после шести месяцев изнурительно калорийного питания снова проводили глюкозотолерантный тест.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+3	сажали	сажать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	перенасыщенную	перенасыщать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	жиром	жир	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	диету	диета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	и	и	CCONJ	_	_	16	cc	_	_
+9	после	после	ADP	_	_	11	case	_	_
+10	шести	шесть	NUM	_	Case=Gen	11	nummod	_	_
+11	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+12	изнурительно	изнурительно	ADV	_	Degree=Pos	13	advmod	_	_
+13	калорийного	калорийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+15	снова	снова	ADV	_	Degree=Pos	16	advmod	_	_
+16	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+17	глюкозотолерантный	глюкозотолерантный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	тест	тест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5331
+# text = Оказалось, что всего одна ночь полной депривации сна снижала толерантность к глюкозе у подопытных животных на 33 процента, а полгода "фастфуда" -- на 22 процента.Особенно интересно то, что эффекты эти не суммировались: собаки, у которых иммунорезистенция была заранее стимулирована отсутствием сна, даже после долгого и неправильного питания демонстрировали не худшие показатели, чем те, что стартовали с нормальной толерантности к глюкозе.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	всего	всего	ADV	_	Degree=Pos	5	advmod	_	_
+5	одна	один	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+6	ночь	ночь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	депривации	депривация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	сна	сн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	снижала	снижать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	parataxis	_	_
+11	толерантность	толерантность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	глюкозе	глюкоза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+14	у	у	ADP	_	_	16	case	_	_
+15	подопытных	подопытный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	33	33	NUM	_	_	19	nummod	_	_
+19	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	24	orphan	_	_
+22	полгода	полгода	SCONJ	_	_	24	orphan	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	фастфуда	фастфуда	ADV	_	Degree=Pos	10	orphan	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	--	--	PUNCT	_	_	24	punct	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	22	22	NUM	_	_	29	nummod	_	_
+29	процента.	процентаент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+30	Особенно	особенно	ADV	_	Degree=Pos	31	advmod	_	_
+31	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	advcl	_	_
+32	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	38	nsubj:pass	_	_
+36	эти	этот	DET	_	Case=Nom|Number=Plur	35	amod	_	_
+37	не	не	PART	_	_	38	advmod	_	_
+38	суммировались	суммировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	32	advcl	_	SpaceAfter=No
+39	:	:	PUNCT	_	_	38	punct	_	_
+40	собаки	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	57	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	у	у	ADP	_	_	43	case	_	_
+43	которых	который	PRON	_	Case=Gen	47	obl	_	_
+44	иммунорезистенция	иммунорезистенция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	47	nsubj	_	_
+45	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	47	aux:pass	_	_
+46	заранее	заранее	ADV	_	Degree=Pos	47	advmod	_	_
+47	стимулирована	стимулировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	acl:relcl	_	_
+48	отсутствием	отсутствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	47	obl	_	_
+49	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	даже	даже	PART	_	_	56	advmod	_	_
+52	после	после	ADP	_	_	56	case	_	_
+53	долгого	долгий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	56	amod	_	_
+54	и	и	CCONJ	_	_	55	cc	_	_
+55	неправильного	неправильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	53	conj	_	_
+56	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	57	obl	_	_
+57	демонстрировали	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	38	parataxis	_	_
+58	не	не	PART	_	_	59	advmod	_	_
+59	худшие	худший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	60	amod	_	_
+60	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	57	nsubj	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	чем	чем	SCONJ	_	_	63	cc	_	_
+63	те	тот	DET	_	Case=Nom|Number=Plur	57	advmod	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	что	что	PRON	_	Case=Nom	66	nsubj	_	_
+66	стартовали	стартовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	63	acl:relcl	_	_
+67	с	с	ADP	_	_	69	case	_	_
+68	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	69	amod	_	_
+69	толерантности	толерантность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	66	obl	_	_
+70	к	к	ADP	_	_	71	case	_	_
+71	глюкозе	глюкоза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	66	obl	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	71	punct	_	_
+
+# sent_id = 5332
+# text = Авторы полагают, что это указывает на общность механизма вредного воздействия бессонницы и жирной пищи.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	указывает	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	общность	общность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	вредного	вредный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	бессонницы	бессонница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	жирной	жирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5333
+# text = Впрочем, в чем именно он состоит, пока неясно, и это еще предстоит выяснить.
+1	Впрочем	впрочем	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	чем	что	PRON	_	Case=Loc	7	obl	_	_
+5	именно	именно	PART	_	_	4	advmod	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пока	пока	ADV	_	Degree=Pos	10	advmod	_	_
+10	неясно	неясный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+14	еще	еще	ADV	_	Degree=Pos	15	advmod	_	_
+15	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# newpar
+# sent_id = 5334

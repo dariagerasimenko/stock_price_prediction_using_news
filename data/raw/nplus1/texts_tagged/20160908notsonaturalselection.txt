@@ -1,0 +1,485 @@
+# text = # newpar
+# sent_id = 5402
+# text = Ученые из Университета Хоккайдо обнаружили, что некоторые виды муравьев могут оказывать избирательное предпочтение таким колониям тли, в которых особи окрашены в разные цвета.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Хоккайдо	Хоккайдо	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+9	виды	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	муравьев	муравей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+12	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	избирательное	избирательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	предпочтение	предпочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	таким	такой	DET	_	Case=Dat|Number=Plur	16	amod	_	_
+16	колониям	колоние	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+17	тли	тля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	которых	который	PRON	_	Case=Loc	22	obl	_	_
+21	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+22	окрашены	окрашивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	цвета	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5403
+# text = Такое поведение может служить муравьиным аналогом искусственного отбора, однако его механизмы пока не понятны.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	муравьиным	муравьиный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	аналогом	аналог	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+13	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	понятны	понятный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5404
+# text = Работа опубликована в журнале Science Advances.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Advances	Advances	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5405
+# text = Муравьи используют тлю как легкий источник сахара, а сами при этом охраняют растительных паразитов от окружающих хищников (прежде всего, от божьих коровок), для которых беззащитная тля является легкой добычей.
+1	Муравьи	Муравей	DET	_	Case=Nom|Number=Plur	2	nsubj	_	_
+2	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	тлю	тля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	легкий	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+7	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	nsubj	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	охраняют	охранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	растительных	растительной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	паразитов	паразит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	окружающих	окружающие	NOUN	_	Animacy=Anim|Case=Gen|Number=Plur	15	nmod	_	_
+18	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	прежде	прежде	ADP	_	_	25	advmod	_	_
+21	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	fixed	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	от	от	ADP	_	_	25	case	_	_
+24	божьих	божий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	коровок	коровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	для	для	ADP	_	_	29	case	_	_
+29	которых	который	PRON	_	Case=Gen	18	nmod	_	_
+30	беззащитная	беззащитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	тля	тля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+32	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+33	легкой	легкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	добычей	добыча	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 5406
+# text = Такие взаимоотношения тле почти ничего не стоят, так как даже в отсутствие муравьев паразитические насекомые вынуждены избавляться от лишнего сахара посредством выделений: в растительных соках слишком много углеводов, но при этом очень мало белка, так что тле лишнюю жидкость и сахар часто просто некуда девать.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	взаимоотношения	взаимоотношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	тле	тло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+4	почти	почти	ADV	_	Degree=Pos	5	advmod	_	_
+5	ничего	ничто	PRON	_	Case=Gen	3	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	стоят	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	так	так	ADV	_	Degree=Pos	7	mark	_	_
+10	как	как	SCONJ	_	_	9	fixed	_	_
+11	даже	даже	PART	_	_	13	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+14	муравьев	мураво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	паразитические	паразитический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	насекомые	насекомое	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	17	nsubj:pass	_	_
+17	вынуждены	вынуждать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+18	избавляться	избавляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	dep	_	_
+19	от	от	ADP	_	_	21	case	_	_
+20	лишнего	лишний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+22	посредством	посредством	ADP	_	_	23	case	_	_
+23	выделений	выделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	растительных	растительный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	соках	сок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	nmod	_	_
+28	слишком	слишком	ADV	_	Degree=Pos	29	advmod	_	_
+29	много	много	ADV	_	Degree=Pos	23	parataxis	_	_
+30	углеводов	углевод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	но	но	CCONJ	_	_	36	cc	_	_
+33	при	при	ADP	_	_	34	case	_	_
+34	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	nmod	_	_
+35	очень	очень	ADV	_	Degree=Pos	36	advmod	_	_
+36	мало	мало	ADV	_	Degree=Pos	29	conj	_	_
+37	белка	белка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	так	так	ADV	_	Degree=Pos	41	mark	_	_
+40	что	что	SCONJ	_	_	39	fixed	_	_
+41	тле	тл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	parataxis	_	_
+42	лишнюю	лишний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	49	obj	_	_
+44	и	и	CCONJ	_	_	48	cc	_	_
+45	сахар	сахар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	48	nsubj	_	_
+46	часто	часто	ADV	_	Degree=Pos	48	advmod	_	_
+47	просто	просто	PART	_	_	48	advmod	_	_
+48	некуда	некуда	ADV	_	Degree=Pos	49	advmod	_	_
+49	девать	девать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	dep	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 5407
+# text = Мутуалистические (взаимовыгодные) отношения между тлями и муравьями хорошо известны энтомологам, но, как выясняется из новой работы, изучены они далеко не до конца.
+1	Мутуалистические	Мутуалистический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	взаимовыгодные	взаимовыгодной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	отношения	отношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	тлями	тль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	муравьями	мурав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	_
+10	хорошо	хорошо	ADV	_	Degree=Pos	11	advmod	_	_
+11	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+12	энтомологам	энтомолог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	но	но	CCONJ	_	_	22	cc	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	SCONJ	_	_	22	mark	_	_
+17	выясняется	выясняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	advcl	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	22	nsubj:pass	_	_
+24	далеко	далеко	ADV	_	Degree=Pos	25	advmod	_	_
+25	не	не	PART	_	_	27	advmod	_	_
+26	до	до	ADP	_	_	27	case	_	_
+27	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5408
+# text = В новой статье ученым удалось показать, что муравьи могут оказывать необычное воздействие на эволюцию тли -- поддерживать в их популяции разнообразие окрасок.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	муравьи	муравей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	необычное	необычной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	эволюцию	эволюция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+16	тли	тля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	поддерживать	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	21	nmod	_	_
+21	популяции	популяция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+22	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+23	окрасок	окраска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5409
+# text = Дело в том, что у многих видов тлей разные индивидуумы могут быть окрашены по-разному: в зеленый, черный или оттенки красного цвета.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	у	у	ADP	_	_	8	case	_	_
+7	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+9	тлей	тль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	индивидуумы	индивидуум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	aux:pass	_	_
+14	окрашены	окрашивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+15	по-разному	по-разному	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	зеленый	зеленый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	черный	черный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	оттенки	оттенок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	_
+23	красного	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5410
+# text = Изучая природные колонии тли, которые паразитируют на полыни, ученые обнаружили, что "смешанные" колонии муравьи посещают чаще, чем "одноцветные".
+1	Изучая	изучать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+2	природные	природный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	тли	тля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	паразитируют	паразитировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	полыни	полыень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	смешанные	смешанный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+19	муравьи	муравей	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	посещают	посещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+21	чаще	часто	ADV	_	Degree=Cmp	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чем	чем	SCONJ	_	_	25	cc	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	одноцветные	одноцветный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	advmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5411
+# text = Наиболее привлекательными для муравьев оказались колонии, где 65 процентов особей имеют зеленую, а остальные -- темную окраску.
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	привлекательными	привлекательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	obl	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	муравьев	муравей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+9	65	65	NUM	_	_	10	nummod	_	_
+10	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+13	зеленую	зеленый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	16	cc	_	_
+16	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	conj	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	темную	темный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	окраску	окраска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5412
+# text = С чем связано именно такое предпочтение, пока не понятно, однако оно может сильно влиять на генетическое разнообразие тли -- как показали эксперименты, в сходных условияхбез муравьев колонии обычно не выживают.
+1	С	с	ADP	_	_	2	case	_	_
+2	чем	что	PRON	_	Case=Ins	3	obl	_	_
+3	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	именно	именно	PART	_	_	5	advmod	_	_
+5	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	предпочтение	предпочтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	пока	пока	SCONJ	_	_	3	mark	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	понятно	понятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	20	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	14	advmod	_	_
+13	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	14	nsubj	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+15	сильно	сильно	ADV	_	Degree=Pos	16	advmod	_	_
+16	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	генетическое	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
+20	тли	твать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	как	как	SCONJ	_	_	23	mark	_	_
+23	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	advmod	_	_
+24	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	сходных	сходный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+28	условияхбез	условияхбез	ADP	_	_	29	case	_	_
+29	муравьев	мурав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	колонии	колония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	обычно	обычно	ADV	_	Degree=Pos	33	advmod	_	_
+32	не	не	PART	_	_	33	advmod	_	_
+33	выживают	выживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5413
+# text = Описанный в новой работе случай может, таким образом, выступать редким примером поддержания в популяции полиморфизма за счет мутуалистических отношений с другим видом.
+1	Описанный	описывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+5	случай	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+9	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	выступать	выступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+12	редким	редкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+14	поддержания	поддержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	популяции	популяция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	полиморфизма	полиморфизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	за	за	ADP	_	_	21	case	_	_
+19	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	fixed	_	_
+20	мутуалистических	мутуалистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	отношений	отношение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	видом	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5414
+# text = Полиморфизмами вообще называются варианты одного признака, которые встречаются у разных особей внутри одной и той же популяции.
+1	Полиморфизмами	Полиморфизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+2	вообще	вообще	ADV	_	Degree=Pos	3	advmod	_	_
+3	называются	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	одного	один	NUM	_	Case=Gen|Gender=Masc	6	nummod	_	_
+6	признака	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+10	у	у	ADP	_	_	12	case	_	_
+11	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+13	внутри	внутри	ADV	_	Degree=Pos	14	advmod	_	_
+14	одной	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	же	же	PART	_	_	16	advmod	_	_
+18	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5415
+# text = Этот термин относится как к фенотипическим, так и к более известным генетическим полиморфизмам (их частный случай -- SNP).
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	термин	термин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	как	как	SCONJ	_	_	14	cc	_	_
+5	к	к	ADP	_	_	14	case	_	_
+6	фенотипическим	фенотипический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+9	и	и	PART	_	_	14	advmod	_	_
+10	к	к	ADP	_	_	14	case	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	известным	известный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+13	генетическим	генетический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	полиморфизмам	полиморфизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	18	nmod	_	_
+17	частный	частный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	случай	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	SNP	Snp	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5416
+# text = Классическим примером полиморфизма для человеческой популяции является, например, мутация, которая дает некоторым людям возможность пить молоко во взрослом возрасте.
+1	Классическим	классический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+3	полиморфизма	полиморфизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	человеческой	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	мутация	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	16	amod	_	_
+16	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+17	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+18	пить	пить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	dep	_	_
+19	молоко	молоко	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	во	в	ADP	_	_	22	case	_	_
+21	взрослом	взрослый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5417
+# text = Обычно полиморфизмы имеют тенденцию к случайному исчезновению или закреплению в череде поколений, однако иногда их разнообразие может поддерживаться отбором.
+1	Обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	_
+2	полиморфизмы	полиморфизм	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	тенденцию	тенденция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	случайному	случайный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	исчезновению	исчезновение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	закреплению	закрепление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	череде	череда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+12	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	однако	однако	ADV	_	Degree=Pos	18	advmod	_	_
+15	иногда	иногда	ADV	_	Degree=Pos	18	advmod	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	поддерживаться	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	18	xcomp	_	_
+20	отбором	отбор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5418
+# text = Это может быть и половой отбор, и отбор под действием хищника и, как выясняется сейчас, отбор под действием важного вида-партнера.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+4	и	и	PART	_	_	6	advmod	_	_
+5	половой	половый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	отбор	отбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	отбор	отбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+10	под	под	ADP	_	_	11	case	_	_
+11	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+12	хищника	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	SCONJ	_	_	16	mark	_	_
+16	выясняется	выясняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+17	сейчас	сейчас	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	отбор	отбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+20	под	под	ADP	_	_	21	case	_	_
+21	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	nmod	_	_
+22	важного	важной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	вида-партнера	вида-партнер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5419
+# text = Александр Ершов
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ершов	ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5420

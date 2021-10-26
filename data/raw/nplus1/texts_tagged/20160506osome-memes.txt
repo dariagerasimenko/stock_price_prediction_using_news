@@ -1,0 +1,219 @@
+# text = # newpar
+# sent_id = 4400
+# text = Американские ученые запустили онлайновый сервис для анализа интернет-мемов.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	запустили	запускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	онлайновый	онлайновый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	сервис	сервис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+8	интернет-мемов	интернет-мем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4401
+# text = Препринт его описания приводится вPeerJ Preprints.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	приводится	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	вPeerJ	вPeerJ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	Preprints	Preprints	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4402
+# text = Разработка сотрудников Университета Индианы называется The IUNI Observatory onSocial Media, или сокращенно OSoMe (читается как английское слово awesome-- "потрясающий").
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Индианы	Индиана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	называется	называваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
+6	The	the	PROPN	_	Foreign=Yes	5	nsubj	_	_
+7	IUNI	Iuni	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Observatory	Observatory	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	onSocial	onSocial	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Media	media	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	или	или	CCONJ	_	_	16	cc	_	_
+13	сокращенно	сокращенно	ADV	_	Degree=Pos	16	advmod	_	_
+14	OSoMe	OSoMe	PROPN	_	Foreign=Yes	16	nsubj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	читается	читаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	как	как	SCONJ	_	_	19	cc	_	_
+18	английское	английской	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	_
+20	awesome--	awesome--	PUNCT	_	_	19	punct	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	потрясающий	потрясающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4403
+# text = Как говорится впресс-релизе университета, сервис для анализа "онлайновых тенденций, мемов идругих вспышек вирусной активности" предназначен для "журналистов, исследователей иширокой публики".
+1	Как	как	ADV	_	Degree=Pos	19	mark	_	_
+2	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	parataxis	_	_
+3	впресс-релизе	впресс-релиза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сервис	сервис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	онлайновых	онлайновой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	тенденций	тенденция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	мемов	мем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	_
+14	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	вспышек	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	вирусной	вирусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+20	для	для	ADP	_	_	22	case	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	журналистов	журналист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	_
+25	иширокой	иширокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	публики	публика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4404
+# text = OSoMe, разработанный наоснове пакета обработки больших объемов данных Apache Big Data Stack (ABDS), включает следующие инструменты: Trends для изучения динамики популярности мемов; Movies для создания видео, иллюстрирующих, как обсуждение мемов меняется современем; Networks для анализа того, кто обсуждает мемы, икак эти мемы взаимосвязаны; Maps для изучения географии распространения мемов.
+1	OSoMe	OSoMe	PROPN	_	Foreign=Yes	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	наоснове	наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	пакета	пакет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	объемов	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	Apache	Apache	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Big	Big	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Data	Data	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Stack	Stack	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	ABDS	Abds	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	включает	включить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	следующие	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	инструменты	инструмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	20	punct	_	_
+22	Trends	Trends	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	динамики	динамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	популярности	популярность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	мемов	мем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	27	punct	_	_
+29	Movies	Movies	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+30	для	для	ADP	_	_	29	case	_	_
+31	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+32	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	иллюстрирующих	иллюстрируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	как	как	SCONJ	_	_	37	cc	_	_
+37	обсуждение	обсуждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	advmod	_	_
+38	мемов	мем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+39	меняется	меняваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	parataxis	_	_
+40	современем	современе	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	39	obl	_	SpaceAfter=No
+41	;	;	PUNCT	_	_	40	punct	_	_
+42	Networks	Networks	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	appos	_	_
+43	для	для	ADP	_	_	44	case	_	_
+44	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+45	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	кто	кто	PRON	_	Case=Nom	48	nsubj	_	_
+48	обсуждает	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	acl:relcl	_	_
+49	мемы	мем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	48	obj	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	икак	икак	SCONJ	_	_	48	mark	_	_
+52	эти	этот	DET	_	Case=Nom|Number=Plur	53	amod	_	_
+53	мемы	мем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	54	nsubj:pass	_	_
+54	взаимосвязаны	взаимосвязать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	48	conj	_	SpaceAfter=No
+55	;	;	PUNCT	_	_	54	punct	_	_
+56	Maps	Maps	PROPN	_	Foreign=Yes	54	flat:foreign	_	_
+57	для	для	ADP	_	_	56	case	_	_
+58	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	56	nmod	_	_
+59	географии	география	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	58	nmod	_	_
+60	распространения	распространение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	_
+61	мемов	мем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	60	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 4405
+# text = Кроме того, сервис включает предыдущую разработку лаборатории, которая называется BotOrNot ипредназначена для обнаружения ботов вTwitter, атакже интерфейс приложения (API), позволяющий сторонним исследователям надстраивать систему для выполнения дополнительных задач.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	сервис	сервис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	предыдущую	предыдущий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+12	BotOrNot	BotOrNot	PROPN	_	Foreign=Yes	13	nsubj:pass	_	_
+13	ипредназначена	ипредназначать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+16	ботов	бот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	вTwitter	вTwitter	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	атакже	атакже	CCONJ	_	_	20	cc	_	_
+20	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+21	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	parataxis	_	_
+22	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	API	api	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	позволяющий	позволять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+27	сторонним	сторонний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	28	amod	_	_
+28	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	26	obl	_	_
+29	надстраивать	надстраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	dep	_	_
+30	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+33	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 4406
+# text = Материалом для анализа служат хэштеги Twitter, количество сообщений вкотором превысило 70миллиардов.
+1	Материалом	материал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	служат	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	хэштеги	хэштэг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	Twitter	Twitter	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+9	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	вкотором	вкотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+11	превысило	превысать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	70миллиардов	70миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4407
+# text = Сервис позволяет агрегировать данные понескольким хэштегам одновременно.
+1	Сервис	сервис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	агрегировать	агрегировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	3	obj	_	_
+5	понескольким	понесколький	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	хэштегам	хэштега	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+7	одновременно	одновременно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4408
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 4409

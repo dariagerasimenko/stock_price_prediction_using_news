@@ -1,0 +1,368 @@
+# text = # newpar
+# sent_id = 2800
+# text = При Лейденском университете в Нидерландах открылся банк экскрементов, говорится в пресс-релизе учреждения.
+1	При	при	ADP	_	_	3	case	_	_
+2	Лейденском	Лейденский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университете	университет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Нидерландах	Нидерланд	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+6	открылся	открываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	банк	банк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	экскрементов	экскременты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	учреждения	учреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2801
+# text = По аналогии с банками крови и спермы, Нидерландский банк донорских фекалий (NDFB) предназначен для сбора, хранения и выдачи образцов биологического материала.
+1	По	по	ADP	_	_	2	case	_	_
+2	аналогии	аналогия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	parataxis	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	банками	банка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+5	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	спермы	сперма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Нидерландский	Нидерландский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	банк	банк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+11	донорских	донорский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	фекалий	фекалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	NDFB	Ndfb	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	сбора	сбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	хранения	хранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	выдачи	выдача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+23	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	биологического	биологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2802
+# text = Донорские экскременты будут использоваться для трансплантации пациентам, а также для научных исследований.
+1	Донорские	донорский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	экскременты	экскремент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	трансплантации	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+7	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2803
+# text = Первые два банка кала открылись в 2015 году в США.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	два	два	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	банка	банок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	кала	кал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	открылись	открываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	2015	2015	NUM	_	_	8	nummod	_	_
+8	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2804
+# text = В отличие от них, первый европейский аналог не платит донорам за биоматериал.
+1	В	в	ADP	_	_	4	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	платит	платить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	донорам	донор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+12	за	за	ADP	_	_	13	case	_	_
+13	биоматериал	биоматериал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2805
+# text = Забор фекалий происходит на дому у донора на условиях анонимности.
+1	Забор	забор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	фекалий	фекалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	дому	дом	NOUN	_	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	3	obl	_	_
+6	у	у	ADP	_	_	5	case	_	_
+7	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	_
+10	анонимности	анонимность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2806
+# text = По словам профессора микробиологии Лейденского университета Эда Койпера (Ed Kuijper), для сдачи образцов подбираются здоровые добровольцы с нормальной массой тела и сбалансированной кишечной микробиотой.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	parataxis	_	_
+3	профессора	профессор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	микробиологии	микробиология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Лейденского	лейденский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Эда	Эд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	Койпера	Койпер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Ed	Ed	PROPN	_	Foreign=Yes	7	appos	_	_
+11	Kuijper	Kuijper	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	сдачи	сдача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+16	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	подбираются	подбираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	здоровые	здоровый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	добровольцы	доброволец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	нормальной	нормальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+23	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	сбалансированной	балансировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+26	кишечной	кишечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	микробиотой	микробиота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2807
+# text = Пересадка кала применяется при тяжелых нарушениях кишечного микробиома, которые не поддаются другим методам лечения.
+1	Пересадка	пересадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	кала	кало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	при	при	ADP	_	_	6	case	_	_
+5	тяжелых	тяжелый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	нарушениях	нарушение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	_
+7	кишечного	кишечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	микробиома	микробиом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	поддаются	поддаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+13	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	методам	метод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+15	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2808
+# text = Самое частое показание к ней -- тяжелый псевдомембранозный колит, вызываемый бактерией Clostridium difficile.
+1	Самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	частое	частый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	показание	показание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	ней	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	тяжелый	тяжелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	псевдомембранозный	псевдомембранозный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	колит	колит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вызываемый	вызывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	бактерией	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	Clostridium	Clostridium	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	difficile	difficile	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2809
+# text = Это заболевание, как правило, развивается в результате длительной терапии мощными антибиотиками, уничтожающей нормальную микробиоту.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	длительной	длительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	мощными	мощный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	антибиотиками	антибиотик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	уничтожающей	уничтожать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	микробиоту	микробиота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2810
+# text = Оно проявляется тяжелым воспалением толстой кишки, диареей и может осложниться перфорацией стенки органа и смертельным исходом.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	тяжелым	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	воспалением	воспаление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+5	толстой	толстой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	кишки	кишка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	диареей	диарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	осложниться	осложняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	перфорацией	перфорация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	стенки	стенка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	органа	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	смертельным	смертельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	исходом	исход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2811
+# text = Сама C. difficile к большинству антибиотиков устойчива, пересадка кала эффективна примерно в 90 процентах случаев.
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+3	difficile	difficile	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	большинству	большинство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+6	антибиотиков	антибиотик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	устойчива	устойчивый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	11	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пересадка	пересадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	кала	кал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	эффективна	эффективный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+12	примерно	примерно	ADV	_	Degree=Pos	15	advmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	90	90	NUM	_	_	15	nummod	_	_
+15	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
+16	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2812
+# text = В Нидерландах ежегодно регистрируют около трех тысяч случаев псевдомембранозного колита, примерно у пяти процентов пациентов заболевание переходит в хроническую форму.
+1	В	в	ADP	_	_	2	case	_	_
+2	Нидерландах	Нидерланд	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	ежегодно	ежегодно	ADV	_	Degree=Pos	4	advmod	_	_
+4	регистрируют	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	трех	три	NUM	_	Case=Gen	7	nummod	_	_
+7	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+8	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	псевдомембранозного	псевдомембранозный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	колита	колит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	примерно	примерно	ADV	_	Degree=Pos	15	advmod	_	_
+13	у	у	ADP	_	_	15	case	_	_
+14	пяти	пять	NUM	_	Case=Gen	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+16	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+18	переходит	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	хроническую	хронический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2813
+# text = В месяц в стране производят в среднем от трех до четырех трансплантаций фекалий.
+1	В	в	ADP	_	_	2	case	_	_
+2	месяц	месяц	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	трех	три	NUM	_	Case=Gen	5	nummod	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	четырех	четыре	NUM	_	Case=Gen	12	nummod	_	_
+12	трансплантаций	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+13	фекалий	фекалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2814
+# text = Первое научное описание пересадки кала для лечения инфекции, вызванной C. difficile, относится к 1958 году.
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	научное	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	пересадки	пересадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	кала	кать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+8	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вызванной	вызывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+12	difficile	difficile	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+15	к	к	ADP	_	_	17	case	_	_
+16	1958	1958	NUM	_	_	17	nummod	_	_
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2815
+# text = Ее систематическое применение в качестве экспериментальной терапии началось в 1980-е годы.
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+2	систематическое	систематический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	в	в	ADP	_	_	7	case	_	_
+5	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	экспериментальной	экспериментальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+8	началось	начинаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	1980-е	1980-й	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2816
+# text = В последнее десятилетие в связи с достигнутыми успехами интерес к этому виду лечения резко возрос.
+1	В	в	ADP	_	_	3	case	_	_
+2	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	десятилетие	десятилетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+4	в	в	ADP	_	_	9	case	_	_
+5	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	с	с	ADP	_	_	5	fixed	_	_
+7	достигнутыми	достигнуть	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	успехами	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+9	интерес	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+10	к	к	ADP	_	_	13	case	_	_
+11	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	_
+12	виду	вид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	fixed	_	_
+13	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+14	резко	резко	ADV	_	Degree=Pos	15	advmod	_	_
+15	возрос	возрастать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2817
+# text = Биоматериал вводят либо непосредственно в толстую кишку при колоноскопии, либо с помощью желудочного зонда, либо перорально в кишечнорастворимых капсулах.
+1	Биоматериал	Биоматериал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	вводят	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	либо	либо	CCONJ	_	_	7	cc	_	_
+4	непосредственно	непосредственно	ADV	_	Degree=Pos	7	advmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	толстую	толстый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	кишку	кишка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	колоноскопии	колоноскопия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	либо	либо	CCONJ	_	_	15	cc	_	_
+12	с	с	ADP	_	_	15	case	_	_
+13	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	fixed	_	_
+14	желудочного	желудочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	либо	либо	CCONJ	_	_	21	cc	_	_
+18	перорально	перорально	ADV	_	Degree=Pos	21	advmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	кишечнорастворимых	кишечнорастворимый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	капсулах	капсула	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2818
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2819

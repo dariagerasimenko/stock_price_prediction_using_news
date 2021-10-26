@@ -1,0 +1,312 @@
+# text = # newpar
+# sent_id = 3408
+# text = Группа физиков под руководством Кристофера Глейна из Института Карнеги смогла измерить кислотность воды, выбрасываемой гейзерами Энцелада.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+5	Кристофера	Кристофер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Глейна	Глейн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+9	Карнеги	Карнеги	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	смогла	мочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	измерить	измерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	кислотность	кислотность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	выбрасываемой	выбрасывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	гейзерами	гейзер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	obl:agent	_	_
+17	Энцелада	Энцелад	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3409
+# text = Оказалось, что ее состав близок составу некоторых земных озер.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
+5	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	близок	близкий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	advcl	_	_
+7	составу	составо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+8	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+9	земных	земной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	озер	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3410
+# text = Исследование опубликовано в журнале Geochimica et Cosmochimica Acta, аеепрепринт доступен(PDF) на сайте arXiv.org.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Geochimica	Geochimica	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	et	et	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Cosmochimica	Cosmochimica	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Acta	Acta	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	аеепрепринт	аеепрепринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
+11	доступен(	доступен(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	PDF	Pdf	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+16	arXiv.org	arXiv.org	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3411
+# text = Кратко ознакомиться с результатами исследования можно в пресс-релизе на сайте Института Карнеги.Модель, построенная авторами исследования на основе наблюдений зонда "Кассини", показывает, что шлейфы океанической воды, которые выбрасываются гейзерами, содержат большое количество растворенной поваренной соли и соды.
+1	Кратко	кратко	ADV	_	Degree=Pos	2	advmod	_	_
+2	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	nsubj	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	результатами	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+5	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Карнеги.	карнеги.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Модель	Моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	построенная	строить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+16	авторами	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	obl:agent	_	_
+17	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+21	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Кассини	Кассини	PROPN	_	Foreign=Yes	21	appos	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	шлейфы	шлейф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+30	океанической	океанический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	которые	который	PRON	_	Case=Nom	34	nsubj	_	_
+34	выбрасываются	выбрасываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	29	acl:relcl	_	_
+35	гейзерами	гейзер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+38	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	_
+40	растворенной	растворять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	42	amod	_	_
+41	поваренной	поваренный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	соли	соль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	соды	сода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	conj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 3412
+# text = Они обладают щелочной средой, с pH порядка 11-12, сопоставимым с растворами аммиака.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	щелочной	щелочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	средой	среда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	pH	ph	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+8	порядка	порядка	ADP	_	_	13	case	_	_
+9	11	11	NUM	_	_	13	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	12	12	NUM	_	_	9	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сопоставимым	сопоставимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	растворами	раствор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	_
+16	аммиака	аммиак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3413
+# text = Похожим составом растворенных веществ обладают озеро Моно в Калифорнии и Магади в Кении, в которых обитают как одноклеточные так и многоклеточные организмы, в том числе различные рачки.Знание кислотности океана позволяет улучшить наше понимание геохимических процессов в "содовом океане"
+1	Похожим	похожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	растворенных	раствореть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	озеро	озеро	ADV	_	Degree=Pos	7	advmod	_	_
+7	Моно	Моно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Магади	Магадя	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Кении	Кения	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Loc	17	obl	_	_
+17	обитают	обитавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	как	как	SCONJ	_	_	17	cc	_	_
+19	одноклеточные	одноклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+20	так	так	ADV	_	Degree=Pos	19	advmod	_	_
+21	и	и	PART	_	_	22	advmod	_	_
+22	многоклеточные	многоклеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	организмы	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	27	amod	_	_
+27	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	advmod	_	_
+28	различные	различной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+29	рачки.	рачки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+30	Знание	знание	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	appos	_	_
+31	кислотности	кислотность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+34	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	42	dep	_	_
+35	наше	наш	DET	_	Case=Acc|Gender=Neut|Number=Sing	36	amod	_	_
+36	понимание	понимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	_
+37	геохимических	геохимический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+39	в	в	ADP	_	_	42	case	_	_
+40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	содовом	содовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	океане	океан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3414
+# text = Энцелада, считают авторы работы.
+1	Энцелада	Энцелада	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3415
+# text = В таких условиях возможно протекание химических реакций воды с металлами, содержащимися в минералах, приводящих к выделению водорода.
+1	В	в	ADP	_	_	3	case	_	_
+2	таких	такой	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	_
+4	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	протекание	протекание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	металлами	металл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	содержащимися	содержащимися	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	минералах	минерал	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	приводящих	приводить	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	выделению	выдеение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+19	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3416
+# text = Молекулярный водород, в свою очередь, может послужить источником энергии для микроорганизмов, например, метан-продуцирующих бактерий, а кроме того, может сам вступать в различные реакции образуя органические соединения способные послужить основой жизни.Другим важным результатом исследования стало доказательство того, что космический зонд может предоставить важную информацию о составе внеземного океана лишь пролетев через шлейф частиц.
+1	Молекулярный	Молекулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	водород	водород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	послужить	служить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	источником	источник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	метан-продуцирующих	метан-продуцируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+18	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	41	cc	_	_
+21	кроме	кроме	ADP	_	_	22	case	_	_
+22	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl	_	_
+25	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	acl	_	_
+26	вступать	вступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	реакции	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obl	_	_
+30	образуя	образовывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	26	advcl	_	_
+31	органические	органический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	_
+32	соединения	соединения	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obj	_	_
+33	способные	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	_
+34	послужить	служить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+35	основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	obl	_	_
+36	жизни.	жизни.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+37	Другим	Другий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+38	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	nmod	_	_
+40	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+41	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	_
+42	доказательство	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	_
+43	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	что	что	SCONJ	_	_	43	mark	_	_
+46	космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	48	nsubj	_	_
+48	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	advcl	_	_
+49	предоставить	предоставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	48	xcomp	_	_
+50	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	49	obj	_	_
+52	о	о	ADP	_	_	53	case	_	_
+53	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	51	nmod	_	_
+54	внеземного	внеземной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+56	лишь	лишь	PART	_	_	57	advmod	_	_
+57	пролетев	лететь	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	48	advcl	_	_
+58	через	через	ADP	_	_	59	case	_	_
+59	шлейф	шлейф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	57	obl	_	_
+60	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	59	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	_
+
+# sent_id = 3417
+# text = "Кассини" использовал для этого масс-спектрометры и газоанализаторы, установленные на его борту.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Кассини	Кассини	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	масс-спектрометры	масс-спектрометр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	appos	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	газоанализаторы	газоанализатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	установленные	устанавливать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3418
+# text = Подобный подход может оказаться полезным при исследовании других спутников, у которых предполагается наличие жидкого океана, таких как, например Европа.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	полезным	полезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	9	obl	_	_
+13	предполагается	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+14	наличие	наличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+15	жидкого	жидкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	таких	такой	DET	_	Case=Gen|Number=Plur	19	amod	_	_
+19	как	как	SCONJ	_	_	22	cc	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	22	advmod	_	_
+22	Европа	европа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# newpar
+# sent_id = 3419

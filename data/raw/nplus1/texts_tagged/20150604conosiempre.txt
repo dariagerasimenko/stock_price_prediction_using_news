@@ -1,0 +1,434 @@
+# text = # newpar
+# sent_id = 1679
+# text = Тор, один из супергероев из фантастического боевика "Мстители: Эра Альтрона" по комикс-вселенной Marvel, является обладателем легендарного молота Мьельнир.
+1	Тор	тор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	один	один	NUM	_	Case=Nom|Gender=Masc	1	nummod:gov	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	супергероев	супергерой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	фантастического	фантастический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	боевика	боевик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Мстители	Мститель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	Эра	эр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	appos	_	_
+13	Альтрона	Альтрон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	15	punct	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	комикс-вселенной	комикс-вселенный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Marvel	Marvel	PROPN	_	Foreign=Yes	10	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	обладателем	обладатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+21	легендарного	легендарной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	молота	молот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Мьельнир	Мьельнир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1680
+# text = Однако по расчетам Рета Аллена (Rhett Allain), адъюнкт-профессора физики из Университета юго-восточной Луизианы (США), с его молотом что-то не так.
+1	Однако	однако	ADV	_	Degree=Pos	26	advmod	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	26	nmod	_	_
+4	Рета	Рет	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Аллена	аллен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Rhett	Rhett	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+8	Allain	Allain	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	адъюнкт-профессора	адъюнкт-профессора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+12	физики	физика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	юго-восточной	юго-восточной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Луизианы	Луизиана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	молотом	молот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+24	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	так	так	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1681
+# text = Свои сомнения он выразил на страницах Wired.
+1	Свои	свой	DET	_	Case=Acc|Number=Plur	2	amod	_	_
+2	сомнения	сомнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	выразил	выражать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	страницах	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+7	Wired	Wired	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1682
+# text = Приняв для расчета ширину молота в 15 сантиметров и использовав программу Tracker Video Analysis, Аллен попытался рассчитать скорость вертикального перемещения различных частей Мьельнира, для простоты разбив его на десять сегментов и нанеся их ускорение, оцененное по видео, на график.
+1	Приняв	принимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	17	advcl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	расчета	расчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	ширину	ширина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	молота	молот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	15	15	NUM	_	_	8	nummod	_	_
+8	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	использовав	использовать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	1	conj	_	_
+11	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Tracker	Tracker	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Video	video.	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Analysis	Analysis	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	Аллен	Аллен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	попытался	пытаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	рассчитать	рассчитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	вертикального	вертикальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+24	Мьельнира	Мьельнир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	простоты	простота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+28	разбив	разбать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	advcl	_	_
+29	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obj	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	десять	десять	NUM	_	Case=Acc	32	nummod:gov	_	_
+32	сегментов	сегмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	нанеся	наносить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	conj	_	_
+35	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	36	nmod	_	_
+36	ускорение	ускорение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	оцененное	оценивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+39	по	по	ADP	_	_	40	case	_	_
+40	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	на	на	ADP	_	_	43	case	_	_
+43	график	график	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 1683
+# text = По графику, даже без использований линейной функции, он легко оценил точку, в которой вертикальное ускорение молота, согласно фильму, будет равно 9,8 м/с2.
+1	По	по	ADP	_	_	2	case	_	_
+2	графику	график	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	даже	даже	PART	_	_	6	advmod	_	_
+5	без	без	ADP	_	_	6	case	_	_
+6	использований	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	conj	_	_
+7	линейной	линейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	легко	легко	ADV	_	Degree=Pos	12	advmod	_	_
+12	оценил	оценивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которой	который	PRON	_	Case=Loc	18	nmod	_	_
+17	вертикальное	вертикальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	ускорение	ускорение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	nsubj	_	_
+19	молота	молот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	согласно	согласно	ADP	_	_	22	case	_	_
+22	фильму	фильм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+25	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	acl:relcl	_	_
+26	9,8	9,8	NUM	_	_	27	nummod	_	_
+27	м/с2	м/с2	NOUN	_	_	25	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1684
+# text = В условиях земной гравитации именно эта точка будет соответствовать центру тяжести молота (совпадая с ускорением свободного падения).
+1	В	в	ADP	_	_	2	case	_	_
+2	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_
+3	земной	земной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	именно	именно	PART	_	_	6	advmod	_	_
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	соответствовать	соответствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+10	центру	центр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+11	тяжести	тяжесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	молота	молот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	совпадая	совпадать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	parataxis	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	ускорением	ускорение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+17	свободного	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	падения	падение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1685
+# text = По вычислениям ученого такая точка находится на 0,75 длины молота (считая от нижнего края ручки).
+1	По	по	ADP	_	_	2	case	_	_
+2	вычислениям	вычисление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
+3	ученого	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	0,75	0,75	NUM	_	_	9	nummod	_	_
+9	длины	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+10	молота	молот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	считая	считать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	parataxis	_	_
+13	от	от	ADP	_	_	15	case	_	_
+14	нижнего	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	края	край	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+16	ручки	ручка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1686
+# text = Сравнивая это с кажущейся горизонтальной скоростью молота при его метании киногероем, физик пришел к выводу, что эти данные не противоречат его предположению о центре тяжести на 0,75 длины молота.
+1	Сравнивая	сравнивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	с	с	ADP	_	_	6	case	_	_
+4	кажущейся	кажущийся	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	горизонтальной	горизонтальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+7	молота	молот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	метании	метание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	conj	_	_
+11	киногероем	киногерой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	физик	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	пришел	приходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	14	mark	_	_
+19	эти	этот	DET	_	Case=Nom|Number=Plur	20	amod	_	_
+20	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	22	nsubj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	противоречат	противоречить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	_
+23	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
+24	предположению	предположение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+25	о	о	ADP	_	_	26	case	_	_
+26	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+27	тяжести	тяжесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	0,75	0,75	NUM	_	_	30	nummod	_	_
+30	длины	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+31	молота	молот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1687
+# text = Затем он оценивает длину рукоятки и размеры головной части, сравнивая Мьельнир с размерами других предметов из фильма.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	оценивает	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	рукоятки	рукоятка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	размеры	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+8	головной	головный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сравнивая	сравнивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+12	Мьельнир	Мьельнир	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	размерами	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+15	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1688
+# text = Согласно им, объем ручки равен примерно 980 см3, а головной части -- 6312 см3.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	ручки	ручка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	равен	равно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	примерно	примерно	ADV	_	Degree=Pos	8	advmod	_	_
+8	980	980	NUM	_	_	9	nummod	_	_
+9	см3	см3	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	головной	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	6312	6312	NUM	_	_	16	nummod	_	_
+16	см3	см3	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1689
+# text = Благодаря этому, даже не зная массы Мьельнира, ученый определяет соотношение плотностей двух чего частей.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	даже	даже	PART	_	_	5	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	зная	зный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	_
+8	Мьельнира	Мьельнира	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ученый	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	соотношение	соотношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	плотностей	плотность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	двух	два	NUM	_	Case=Gen	15	nummod	_	_
+15	чего	что	PRON	_	Case=Gen	13	nmod	_	_
+16	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1690
+# text = При этом получается, что ручка должна быть в 1,9 раза плотнее основной части.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	ручка	ручка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	advcl	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	cop	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	1,9	1,9	NUM	_	_	11	nummod	_	_
+11	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+12	плотнее	плотный	ADJ	_	Degree=Cmp	7	nmod	_	_
+13	основной	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1691
+# text = Аллен приходит к выводу, что скорее всего использованный при съемках фильма молот для снижения массы имел ручку из алюминиевой трубки и деревянную "голову", обшитую декоративным слоем, делающим ее похожей на металлическую.
+1	Аллен	Аллен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	2	mark	_	_
+7	скорее	скорее	ADV	_	Degree=Pos	9	advmod	_	_
+8	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	использованный	использовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	съемках	съемка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+12	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	молот	молот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	снижения	снижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+18	ручку	ручка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	из	из	ADP	_	_	21	case	_	_
+20	алюминиевой	алюминиевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	трубки	трубка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+22	и	и	CCONJ	_	_	25	cc	_	_
+23	деревянную	деревянный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	обшитую	обшивать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+29	декоративным	декоративный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl:agent	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	делающим	делать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	32	obj	_	_
+34	похожей	похожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	obl	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	металлическую	металлический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 1692
+# text = По всей видимости, декораторы фильма приняли решение избегать излишнего реализма: согласно скандинавской мифологии Мьельнир весил больше, чем мог поднять любой из живущих, включая самого Тора, без специальных приспособлений.
+1	По	по	ADP	_	_	3	case	_	_
+2	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	видимости	видимость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	декораторы	декоратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	избегать	избегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	излишнего	излишний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	реализма	реализм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	согласно	согласно	ADP	_	_	15	case	_	_
+14	скандинавской	скандинавский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	мифологии	мифология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+16	Мьельнир	Мьельнир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	весил	вешивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	больше	больше	ADV	_	Degree=Cmp	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чем	чем	SCONJ	_	_	21	mark	_	_
+21	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	advmod	_	_
+22	поднять	поднимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	любой	любой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	из	из	ADP	_	_	25	mark	_	_
+25	живущих	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	включая	включая	ADV	_	Degree=Pos	25	advmod	_	_
+28	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	Тора	тор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	без	без	ADP	_	_	33	case	_	_
+32	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	приспособлений	приспособление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1693
+# text = Ранее материаловед Сувеен Матхаудху (Suveen Mathaudhu), работающий на Армию США, высказывал мнение, что материал, из которого сделан молот Тора, может быть металлическим водородом -- твердой формой этого газа, предположительно широко представленной в ядрах гигантских планет вроде Юпитера.
+1	Ранее	раный	ADJ	_	Degree=Cmp	15	advmod	_	_
+2	материаловед	материаловед	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+3	Сувеен	Сувеен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Матхаудху	Матхаудх	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Suveen	Suveen	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Mathaudhu	Mathaudhu	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	Армию	армия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	высказывал	высказывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	мнение	мнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	cc	_	_
+19	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	которого	который	PRON	_	Case=Gen	23	obl	_	_
+23	сделан	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+24	молот	молот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+25	Тора	тор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+28	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	cop	_	_
+29	металлическим	металлический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	водородом	водород	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	твердой	твердый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	формой	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+34	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	35	amod	_	_
+35	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	предположительно	предположительно	ADV	_	Degree=Pos	39	advmod	_	_
+38	широко	широко	ADV	_	Degree=Pos	39	advmod	_	_
+39	представленной	представлять	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	ядрах	ядры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	39	obl	_	_
+42	гигантских	гигантский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+44	вроде	вроде	ADP	_	_	45	case	_	_
+45	Юпитера	Юпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# newpar
+# sent_id = 1694

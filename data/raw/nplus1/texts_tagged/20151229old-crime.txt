@@ -1,0 +1,323 @@
+# text = # newpar
+# sent_id = 1524
+# text = Российские археологи обнаружили граффито XII века, содержащее список убийц князя Андрея Боголюбского.
+1	Российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	граффито	граффито	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	XII	xii	NUM	_	_	6	nummod	_	_
+6	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	содержащее	содержащий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	список	список	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+10	убийц	убийца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	князя	князь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Андрея	андрей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	Боголюбского	Боголюбский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1525
+# text = Высеченная на стене надпись была найдена при реставрации Спасо-Преображенского собора в Переяславле Залесском.
+1	Высеченная	Высечать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	стене	стена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+4	надпись	надпись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	найдена	находить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	реставрации	реставрация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	Спасо-Преображенского	Спасо-Преображенский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	собора	собор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Переяславле	Переяславль	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+13	Залесском	Залесское	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1526
+# text = По словам ученых -- это древнейшая датированная надпись в Северо-Восточной Руси.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	древнейшая	древный	ADJ	_	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	_
+7	датированная	датировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	надпись	надпись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	Северо-Восточной	Северо-Восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Руси	русь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1527
+# text = О находке сообщается в пресс-релизе Института археологии РАН, поступившем в редакцию N+1.Граффито расположено посередине южной абсиды собора и представляет собой два столбца, обведенных в общую рамку, с крестом сверху.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	пресс-релизе	пресс-релиз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	археологии	археология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	РАН	ран	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	поступившем	поступивать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	редакцию	редакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	N+1.	N+1.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+14	Граффито	Граффито	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	appos	_	_
+15	расположено	располагать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+16	посередине	посередине	ADV	_	Degree=Pos	17	advmod	_	_
+17	южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	абсиды	абсида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+19	собора	собор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+22	собой	себя	PRON	_	Case=Ins	21	dep	_	_
+23	два	два	NUM	_	Case=Nom|Gender=Masc	24	nummod:gov	_	_
+24	столбца	столбец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	обведенных	обведеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	общую	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	рамку	рамка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	с	с	ADP	_	_	32	case	_	_
+32	крестом	крест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	nmod	_	_
+33	сверху	сверху	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1528
+# text = Левый столбец содержит перечень имен убийц князя, проклятие им и несколько еще не прочитанных строк.
+1	Левый	левый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	столбец	столбец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	перечень	перечень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	имен	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+6	убийц	убийца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	князя	князь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проклятие	проклятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+10	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	3	obl	_	_
+11	и	и	CCONJ	_	_	15	cc	_	_
+12	несколько	несколько	ADV	_	Degree=Pos	15	advmod	_	_
+13	еще	еще	ADV	_	Degree=Pos	15	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	прочитанных	читать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	строк	строка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1529
+# text = Правый столбец -- краткое сообщение об убийстве.
+1	Правый	правый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	столбец	столбец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	об	о	ADP	_	_	7	case	_	_
+7	убийстве	убийство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1530
+# text = В нем говорится: "Месяца июня 29 убиен бысть князь Андрей своими паробкы (слугами), овому вечная память, а сим -- вечная мука".
+1	В	в	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Месяца	месяца	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	29	29	NUM	_	_	9	nummod	_	_
+9	убиен	убиена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	бысть	бысть	PART	_	_	11	advmod	_	_
+11	князь	князь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+12	Андрей	Андрея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	своими	свой	DET	_	Case=Ins|Number=Plur	14	amod	_	_
+14	паробкы	паробк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	appos	_	_
+15	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	слугами	слуг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	овому	овый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	24	cc	_	_
+24	сим	сим	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	conj	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	мука	мука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1531
+# text = По словам Алексея Гиппиуса, исследующего граффито, фраза "овому (князю) вечная память, а сим -- вечная мука" говорит о том, что надпись была сделана уже после казни убийц.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	parataxis	_	_
+3	Алексея	алексей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Гиппиуса	Гиппиус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	исследующего	исследовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+7	граффито	граффито	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	фраза	фраз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	овому	овый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	князю	князь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	22	cc	_	_
+19	сим	сий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	мука	мука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+25	о	о	ADP	_	_	26	case	_	_
+26	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	надпись	надпись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+30	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	advcl	_	_
+32	уже	уже	ADV	_	Degree=Pos	34	advmod	_	_
+33	после	после	ADP	_	_	34	case	_	_
+34	казни	казнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
+35	убийц	убийца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 1532
+# text = В левом столбце содержится примерно 20 имен заговорщиков.
+1	В	в	ADP	_	_	3	case	_	_
+2	левом	левой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	столбце	столбце	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	содержится	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	примерно	примерно	ADV	_	Degree=Pos	6	advmod	_	_
+6	20	20	NUM	_	_	7	nummod	_	_
+7	имен	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nsubj	_	_
+8	заговорщиков	заговорщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1533
+# text = Три первых имени известны из летописи -- это Петр Кучков зять (князя Андрея), Амбал (в летописях встречается и написание "Анбал") и Яким (Яким Кучкович).
+1	Три	три	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	летописи	летопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	Петр	петр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	_
+10	Кучков	Кучков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	зять	зять	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	князя	князь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+14	Андрея	андрей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	Амбал	Амбал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	в	в	ADP	_	_	20	case	_	_
+20	летописях	летопись	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+21	встречается	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+22	и	и	PART	_	_	23	advmod	_	_
+23	написание	написание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Анбал	Анбал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	25	punct	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	Яким	Який	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	Яким	Який	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	Кучкович	Кучкович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	parataxis	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1534
+# text = Далее часть текста утрачена, а в конце списка есть три имени, которые до сих пор не были известны: Ивка, Петрко и Стырята.
+1	Далее	далее	ADV	_	Degree=Pos	4	advmod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	утрачена	утрачивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	а	а	CCONJ	_	_	8	cc	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
+9	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+11	три	три	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+15	до	до	ADP	_	_	20	advmod	_	_
+16	сих	сей	DET	_	Case=Gen|Number=Plur	15	fixed	_	_
+17	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	fixed	_	_
+18	не	не	PART	_	_	20	advmod	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+20	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	12	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	20	punct	_	_
+22	Ивка	Ивка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Петрко	Петрко	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	Стырята	стырят	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1535
+# text = Возможно, последнее имя -- это прозвище, образованное от слова "стырь" (кормило, рулевое весло).
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	имя	имя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	_
+7	прозвище	прозвище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	образованное	образовывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	стырь	стырь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	кормило	кормить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	рулевое	рулевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	весло	весло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	nsubj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1536
+# text = Завершается список словами: "Си суть убийцы великого князя Андрея, да будут прокляты".
+1	Завершается	завершаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Си	си	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+7	суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+8	убийцы	убийца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	великого	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	князя	князь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Андрея	андрей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	да	да	CCONJ	_	_	15	cc	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	прокляты	проклявать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1537
+# text = Окончание столбца пока не прочитано.
+1	Окончание	окончание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+2	столбца	столбец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	пока	пока	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	прочитано	читать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 1538

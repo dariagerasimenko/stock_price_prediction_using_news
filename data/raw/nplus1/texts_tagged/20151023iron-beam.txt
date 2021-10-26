@@ -1,0 +1,96 @@
+# text = # newpar
+# sent_id = 3100
+# text = NASA опубликовало самое детальное на сегодняшний день изображение Кербера--четвертого по размеру спутника Плутона.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	опубликовало	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	детальное	детальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+9	Кербера-	Кербера-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	четвертого	четвертый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	размеру	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+14	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+15	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3101
+# text = Таким образом, New Horizons передал на землю фотографии всех пяти спутников Плутона, говорится на сайте агентства.Снимок сделан 14 июля 2015 года при помощи камеры LORRI за семь часов до пролета New Horizons мимо Плутона.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	New	new	PROPN	_	Foreign=Yes	6	nsubj	_	_
+5	Horizons	Horizons	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	всех	весь	DET	_	Case=Gen|Number=Plur	12	amod	_	_
+11	пяти	пять	NUM	_	Case=Gen	12	nummod	_	_
+12	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	Плутона	Плутон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	агентства.	агентства.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl:agent	_	SpaceAfter=No
+19	Снимок	Снимок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	сделан	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	parataxis	_	_
+21	14	14	NUM	_	_	20	nummod	_	_
+22	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	2015	2015	NUM	_	_	24	nummod	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	при	при	ADP	_	_	27	case	_	_
+26	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	fixed	_	_
+27	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+28	LORRI	Lorri	NUM	_	_	37	nummod	_	_
+29	за	за	ADP	_	_	31	case	_	_
+30	семь	семь	NUM	_	Case=Acc	31	nummod:gov	_	_
+31	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+32	до	до	ADP	_	_	31	case	_	_
+33	пролета	пролет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	New	new	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	Horizons	Horizons	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	мимо	мимо	ADP	_	_	37	case	_	_
+37	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 3102
+# text = Зонд в это время находился на расстоянии 396100 километров до Кербера.
+1	Зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	396100	396100	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	до	до	ADP	_	_	9	case	_	_
+11	Кербера	Кербер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3103
+# text = Кербер обладает ориентировочными размерами 12 на 4,5 километров и состоит из двух крупных частей.
+1	Кербер	Кербер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ориентировочными	ориентировочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	размерами	размеер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+5	12	12	NUM	_	_	2	nummod	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	4,5	4,5	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	из	из	ADP	_	_	14	case	_	_
+12	двух	два	NUM	_	Case=Gen	14	nummod	_	_
+13	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 3104

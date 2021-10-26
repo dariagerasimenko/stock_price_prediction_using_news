@@ -1,0 +1,107 @@
+# text = # newpar
+# sent_id = 1723
+# text = Группа исследователей из Университета Кейс Вестерн Резерв и Кильского университета имени Кристиана Альбрехта создала миниатюрного робота с квадратными колесами, который может перемещаться по потолку и стенам.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Кейс	кейс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+6	Вестерн	Вестерн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	Резерв	резерв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	Кильского	Кильский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+11	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Кристиана	Кристиан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Альбрехта	Альбрехт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	создала	создавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	миниатюрного	миниатюрный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	квадратными	квадратный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	колесами	колесо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	который	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+23	перемещаться	перемещаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	22	xcomp	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	потолку	потолок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	стенам	стена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1724
+# text = С докладом авторы выступили на конференции IROS 2015, демонстрационное видео опубликовано на YouTube.В опубликованном ролике робот демонстрирует способность шагать при помощи квадратных колес по потолку, а также умение переходить со стены на потолок и с потолка не стену, не прекращая движения.
+1	С	с	ADP	_	_	2	case	_	_
+2	докладом	доклад	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	выступили	выступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	IROS	Iros	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	2015	2015	NUM	_	_	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	демонстрационное	демонстрационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	_
+12	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	YouTube	ютьюб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	В	в	ADP	_	_	18	case	_	_
+17	опубликованном	опубликованный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	ролике	ролик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+19	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	демонстрирует	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	шагать	шагать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	dep	_	_
+23	при	при	ADP	_	_	26	case	_	_
+24	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	fixed	_	_
+25	квадратных	квадратной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	колес	колесо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	obl	_	_
+27	по	по	ADP	_	_	28	case	_	_
+28	потолку	потолок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	а	а	CCONJ	_	_	32	cc	_	_
+31	также	также	ADV	_	Degree=Pos	32	advmod	_	_
+32	умение	умение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+33	переходить	переходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	dep	_	_
+34	со	с	ADP	_	_	35	case	_	_
+35	стены	стена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	потолок	потолок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
+38	и	и	CCONJ	_	_	42	cc	_	_
+39	с	с	ADP	_	_	40	case	_	_
+40	потолка	потолок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+41	не	не	PART	_	_	42	advmod	_	_
+42	стену	стена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	не	не	PART	_	_	45	advmod	_	_
+45	прекращая	прекращать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+46	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 1725
+# text = В конструкции устройства использованы серийные электродвигатель и аккумулятор, колеса и другие механические элементы конструкции напечатаны на 3D-принтере.
+1	В	в	ADP	_	_	2	case	_	_
+2	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	серийные	серийный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	электродвигатель	электродвигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	колеса	колесо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	conj	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+13	механические	механический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+15	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	напечатаны	напечатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	3D	3d	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+19	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 1726

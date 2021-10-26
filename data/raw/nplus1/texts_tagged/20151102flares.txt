@@ -1,0 +1,249 @@
+# text = # newpar
+# sent_id = 4564
+# text = Космический аппарат "Кассини" передал наЗемлю снимки, сделанные вовремя сближения аппарата соспутником Сатурна Энцеладом 28октября 2015года.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Кассини	Кассини	PROPN	_	Foreign=Yes	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наЗемлю	наЗемля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	снимки	снимка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	вовремя	вовремя	ADV	_	Degree=Pos	10	advmod	_	_
+12	сближения	сближение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	appos	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	соспутником	соспутник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	appos	_	_
+15	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Энцеладом	Энцелад	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	appos	_	_
+17	28октября	28октябрь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+18	2015года	2015годь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4565
+# text = Фотографии опубликованы насайте Американского космического агентства.Снимки-- это лишь часть информации, которую собрал зонд.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+2	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	dep	_	_
+4	Американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	космического	космической	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	агентства.	агентства.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	Снимки	Снимка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	appos	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	это	это	PART	_	_	3	cop	_	_
+11	лишь	лишь	PART	_	_	12	advmod	_	_
+12	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+13	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которую	который	PRON	_	Case=Acc	16	obj	_	_
+16	собрал	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4566
+# text = Наанализ всех данных, собранных вовремя пролета, уйдет несколько недель.
+1	Наанализ	Наанализ	ADP	_	_	3	case	_	_
+2	всех	весь	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	собранных	собирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	вовремя	вовремя	ADV	_	Degree=Pos	5	advmod	_	_
+7	пролета	пролет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	уйдет	уходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	несколько	несколько	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4567
+# text = Ученые подчеркивают, что это первый случай вистории, когда удается напрямую изучить воду надругом небесном теле.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	случай	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	advcl	_	_
+8	вистории	вистория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	когда	когда	SCONJ	_	_	2	mark	_	_
+11	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+12	напрямую	напрямую	ADV	_	Degree=Pos	11	advmod	_	_
+13	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+14	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	надругом	надругом	ADV	_	Degree=Pos	16	advmod	_	_
+16	небесном	небесный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	теле	тело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4568
+# text = Аппарат пролетел навысоте примерно 49километров над поверхностью спутника.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	пролетел	пролетать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	навысоте	навысота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	примерно	примерно	ADV	_	Degree=Pos	5	advmod	_	_
+5	49километров	49километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	над	над	ADP	_	_	7	case	_	_
+7	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4569
+# text = Это предпоследний пролет зонда над поверхностью спутника.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	предпоследний	предпоследний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	пролет	пролет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	над	над	ADP	_	_	6	case	_	_
+6	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+7	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 4570
+# text = Еще один пролет состоится 19декабря, однако тогда высота составит почти 5тысяч километров.Энцелад представляет собой ледяной шар, под поверхностью которого располагается океан жидкой воды.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	пролет	пролет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	19декабря	19декабря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+8	тогда	тогда	ADV	_	Degree=Pos	10	advmod	_	_
+9	высота	высота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	почти	почти	ADV	_	Degree=Pos	12	advmod	_	_
+12	5тысяч	5тысяч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Энцелад	Энцелад	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+15	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+16	собой	себя	PRON	_	Case=Ins	15	dep	_	_
+17	ледяной	ледяной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	шар	шар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	под	под	ADP	_	_	21	case	_	_
+21	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+22	которого	который	PRON	_	Case=Gen	21	nmod	_	_
+23	располагается	располагаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+24	океан	океан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+25	жидкой	жидкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4571
+# text = Существует несколько объяснений, что поддерживает воду вжидком состоянии.
+1	Существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	несколько	несколько	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	объяснений	объяснение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	PRON	_	Case=Nom	6	nsubj	_	_
+6	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	вжидком	вжидкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4572
+# text = Самой распространенной версией являетсято, что тепло, необходимое для того, чтобы растопить лед, берется из-за воздействия приливных сил Сатурна наспутник.
+1	Самой	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	распространенной	распространенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl:agent	_	_
+4	являетсято	являетсимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	тепло	тепло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	необходимое	необходимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+14	растопить	растапливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+15	лед	лед	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	берется	браться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+18	из-за	из-за	ADP	_	_	19	case	_	_
+19	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+20	приливных	приливный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	наспутник	наспутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4573
+# text = Гейзеры располагаются вокрестности южного полюса спутника.Приливными называют силы, которые действуют наотличное отточки тело вгравитационном поле.
+1	Гейзеры	Гейзер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	располагаются	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вокрестности	вокрестность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+4	южного	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	полюса	полюс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	спутника.	спутникаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+7	Приливными	приливными	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	_
+8	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	силы	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	действуют	действуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	наотличное	наотличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	отточки	отточко	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+15	тело	теть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+16	вгравитационном	вгравитационный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	поле	поле	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4574
+# text = Дело втом, что наразные точки тела действуют, вообще говоря, разные силы, поэтому внутри тела возникает напряжение.
+1	Дело	девать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	1	mark	_	_
+5	наразные	наразный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	точки	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+7	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	действуют	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вообще	вообще	ADV	_	Degree=Pos	11	advmod	_	_
+11	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	силы	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	поэтому	поэтому	ADV	_	Degree=Pos	19	advmod	_	_
+17	внутри	внутри	ADV	_	Degree=Pos	18	advmod	_	_
+18	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+19	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+20	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4575
+# text = Типичный пример действия приливных сил-- приливы наЗемле, вызываемые гравитацией Луны.
+1	Типичный	типичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	приливных	приливный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	_
+5	сил--	сил--	PUNCT	_	_	4	punct	_	_
+6	приливы	приливый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	наЗемле	наЗемля	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	вызываемые	вызывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	гравитацией	гравитация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4576
+# text = НаЭнцеладеже приливные силы приводят ввнутренним деформациям спутника иразогреву его внутренностей.
+1	НаЭнцеладеже	НаЭнцеладедко	ADV	_	Degree=Cmp	4	advmod	_	_
+2	приливные	приливный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ввнутренним	оввнутренни	PRON	_	Case=Dat|Number=Plur|Person=3	4	obl	_	_
+6	деформациям	деформациь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
+7	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	иразогреву	иразогрев	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	внутренностей	внутренность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar
+# sent_id = 4577

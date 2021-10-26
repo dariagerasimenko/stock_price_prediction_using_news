@@ -1,0 +1,70 @@
+# text = # newpar
+# sent_id = 1142
+# text = Физики из Университета Штуттгарта напечатали серию одно-, двух- и трехлинзовых объективов, диаметр которых не превышает 200 микрон.
+1	Физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Штуттгарта	Штуттгарт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	напечатали	печатать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	одно	одный	ADJ	_	Degree=Pos	5	orphan	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	двух	два	NUM	_	_	5	orphan	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	трехлинзовых	трехлинзовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	объективов	объектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nsubj	_	_
+17	которых	который	PRON	_	Case=Gen	16	nmod	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+20	200	200	NUM	_	_	21	nummod	_	_
+21	микрон	микрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1143
+# text = Объективы крепятся к светочувствительной матрице или оптоволокну, и, благодаря их небольшим размером, могут вводиться в тело человека через шприц.
+1	Объективы	Объектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	крепятся	крепиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	светочувствительной	светочувствительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	матрице	матрица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	оптоволокну	оптоволокн	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	16	cc	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	благодаря	благодаря	ADP	_	_	14	case	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+13	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	вводиться	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	16	xcomp	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	тело	тело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+20	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	через	через	ADP	_	_	22	case	_	_
+22	шприц	шприца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1144
+# text = Исследование опубликовано в журнале Nature Photonics, кратко о нем сообщает Phys.org.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Photonics	Photonics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+11	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	Phys.org	Phys.org	PROPN	_	Foreign=Yes	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 1145

@@ -1,0 +1,137 @@
+# text = # newpar
+# sent_id = 4411
+# text = Дэн Олсон, студент Мичиганского университета, создал рабочую модель бронированного шагохода AT-AT из фантастической вселенной "Звездных войн".
+1	Дэн	Ден	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	Олсон	Олсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	Мичиганского	мичиганский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	рабочую	рабочый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	бронированного	бронировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	шагохода	шагоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	AT-AT	At-at	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	из	из	ADP	_	_	16	case	_	_
+15	фантастической	фантастический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	вселенной	вселенная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Звездных	звездный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	войн	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4412
+# text = Файлы для 3D-печати деталей модели опубликованы на ThingVerse.Модель AT-AT получилась около 30 сантиметров в высоту и собрана из 69 полученных при помощи 3D-печати элементов, в число которых входят шестерни механизма.
+1	Файлы	файл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	3D-печати	3D-печать	NUM	_	Case=Loc	1	nummod	_	_
+4	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	модели	моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	ThingVerse.	Thingverse.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+9	Модель	Моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+10	AT-AT	At-at	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	получилась	получаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+12	около	около	ADP	_	_	14	case	_	_
+13	30	30	NUM	_	_	14	nummod	_	_
+14	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	собрана	собирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+19	из	из	ADP	_	_	29	case	_	_
+20	69	69	NUM	_	_	29	nummod	_	_
+21	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+22	при	при	ADP	_	_	26	case	_	_
+23	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	fixed	_	_
+24	3D	3d	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+25	-печати	-печать	NUM	_	Case=Loc	26	nummod	_	_
+26	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+30	которых	который	PRON	_	Case=Gen	29	nmod	_	_
+31	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	шестерни	шестерня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_
+33	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 4413
+# text = На печать всех деталей у автора модели ушло около четырех дней, отдельно покупать пришлось только электродвигатель, батарейку с переходником и выключатель.Создатель модели отмечает, что AT-AT может передвигаться только по ровной поверхности из-за специфики дизайна боевой машины и несовершенства спроектированного механизма шагохода.
+1	На	на	ADP	_	_	2	case	_	_
+2	печать	печать	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+3	всех	весь	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+7	модели	моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	ушло	уходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	около	около	ADP	_	_	11	case	_	_
+10	четырех	четыре	NUM	_	Case=Gen	11	nummod	_	_
+11	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	отдельно	отдельно	ADV	_	Degree=Pos	14	advmod	_	_
+14	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+15	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	_
+16	только	только	PART	_	_	17	advmod	_	_
+17	электродвигатель	электродвигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	батарейку	батарейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	переходником	переходник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	выключатель	выключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Создатель	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+26	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	SCONJ	_	_	27	mark	_	_
+30	AT-AT	At-at	PROPN	_	Foreign=Yes	31	nsubj	_	_
+31	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
+32	передвигаться	передвигать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	31	xcomp	_	_
+33	только	только	PART	_	_	36	advmod	_	_
+34	по	по	ADP	_	_	36	case	_	_
+35	ровной	ровный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	32	obl	_	_
+37	из-за	из-за	ADP	_	_	38	case	_	_
+38	специфики	специфика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
+39	дизайна	дизайн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+42	и	и	CCONJ	_	_	43	cc	_	_
+43	несовершенства	несовершенство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	conj	_	_
+44	спроектированного	спроектировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	amod	_	_
+45	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+46	шагохода	шагоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 4414
+# text = По словам студента, он вообще удивлен, что получившаяся в результате модель действительно может передвигаться, переставляя ноги.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	студента	студент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj:pass	_	_
+6	вообще	вообще	ADV	_	Degree=Pos	7	advmod	_	_
+7	удивлен	удивлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	получившаяся	лучиться	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	13	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	действительно	действительно	ADV	_	Degree=Pos	15	advmod	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+16	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	переставляя	переставлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+19	ноги	нога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 4415

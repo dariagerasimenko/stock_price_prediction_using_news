@@ -1,0 +1,169 @@
+# text = # newpar
+# sent_id = 2043
+# text = Командование Армии США объявило тендер на разработку и производство дымовых шашек, дым которых мог бы скрывать бойцов и военную технику от тепловизоров.
+1	Командование	командование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	объявило	объявать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	тендер	тендро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+6	на	на	ADP	_	_	5	case	_	_
+7	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+10	дымовых	дымовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	шашек	шашка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	дым	дым	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	которых	который	PRON	_	Case=Gen	13	nmod	_	_
+15	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	бы	бы	PART	_	Mood=Cnd	15	aux	_	_
+17	скрывать	скрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	бойцов	боец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	военную	военный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	технику	техника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+22	от	от	ADP	_	_	23	case	_	_
+23	тепловизоров	тепловизор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2044
+# text = КаксообщаетC4ISR&Networks, в новых дымовых шашках, помимо обычного дымогенерирующего реагента, должно использоваться улегородное микроволокно.
+1	КаксообщаетC4ISR&Networks	КаксообщаетC4ISR&Networks	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+5	дымовых	дымовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	шашках	шашка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	помимо	помимо	ADP	_	_	11	case	_	_
+9	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	дымогенерирующего	дымогенерируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	реагента	реагент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+14	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	dep	_	_
+15	улегородное	улегородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	микроволокно	микроволокно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2045
+# text = Оно и будет выступать помехой для тепловизионных систем наблюдения.Согласнотребованиямвоенных, диаметр углородного микроволокна должен быть не более 50 нанометров при длине не более трех микрометров.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj	_	_
+2	и	и	PART	_	_	4	advmod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	выступать	выступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	помехой	помеха	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	для	для	ADP	_	_	8	case	_	_
+7	тепловизионных	тепловизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Согласнотребованиямвоенных	согласнотребованиямвоать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	углородного	углородный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	микроволокна	микроволокн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+17	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	более	более	ADV	_	Degree=Cmp	21	advmod	_	_
+20	50	50	NUM	_	_	21	nummod	_	_
+21	нанометров	нанометер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	более	более	ADV	_	Degree=Cmp	27	nummod:gov	_	_
+26	трех	три	NUM	_	Case=Gen	27	nummod	_	_
+27	микрометров	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2046
+# text = При горении дымового реагента такие волокна должны легко отделяться друг от друга и примешиваться к дыму.
+1	При	при	ADP	_	_	2	case	_	_
+2	горении	горение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+3	дымового	дымовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	реагента	реагент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	волокна	волокно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	легко	легко	ADV	_	Degree=Pos	9	advmod	_	_
+9	отделяться	отделяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	dep	_	_
+10	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	fixed	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	примешиваться	примешиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	conj	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	дыму	дым	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2047
+# text = Электрическая проводимость микроволокон должна быть не хуже 105сименсовна сантиметр.Существующие сегодня дымовые шашки и устройства постановки дымовой завесы позволяют скрывать бойцов и технику только в оптическом диапазоне волн.
+1	Электрическая	электрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	проводимость	проводимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	микроволокон	микроволокон	ADV	_	Degree=Pos	4	advmod	_	_
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	cop	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	хуже	плохой	ADJ	_	Degree=Cmp	8	advmod	_	_
+8	105сименсовна	105сименсовный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	parataxis	_	_
+9	сантиметр.	сантиметраница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+10	Существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+11	сегодня	сегодня	ADV	_	Degree=Pos	10	advmod	_	_
+12	дымовые	дымовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	шашки	шашка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	conj	_	_
+16	постановки	постановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	дымовой	дымовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	завесы	завеса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+20	скрывать	скрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	бойцов	боец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	технику	техника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
+24	только	только	PART	_	_	27	advmod	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	оптическом	оптический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+28	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2048
+# text = При этом объекты, скрываемые дымом, остаются видимыми для тепловизионных систем наблюдения.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	скрываемые	скрывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	дымом	дым	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	видимыми	видимой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	тепловизионных	тепловизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2049
+# text = Благодаря такому достоинству тепловизоров их, в частности, активно используют спасатели и пожарные.Василий Сычёв
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	достоинству	достоинство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+4	тепловизоров	тепловизор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	11	discourse	_	_
+8	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	активно	активно	ADV	_	Degree=Pos	11	advmod	_	_
+11	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	спасатели	спасатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	пожарные.	пожарныбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+15	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	_
+
+# newpar
+# sent_id = 2050

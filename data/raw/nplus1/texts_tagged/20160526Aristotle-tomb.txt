@@ -1,0 +1,168 @@
+# text = # newpar
+# sent_id = 1400
+# text = Греческие археологи обнаружили в древнем городе Стагира в центральной Македонии могилу, которая, предположительно, принадлежит Аристотелю.
+1	Греческие	греческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	древнем	древний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	Стагира	Стагир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	центральной	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Македонии	Македония	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+11	могилу	могила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	17	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	предположительно	предположительно	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+18	Аристотелю	аристотель	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1401
+# text = О находке рассказывает Greekreporter.com, а коротко о ней сообщает Sigmalive.comО находке на конференции "Аристотель -- 2400 лет со дня рождения" объявил сегодня, 26 мая 2016 года, археолог Костас Сисманидис.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	рассказывает	рассказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Greekreporter.com	Greekreporter.com	PROPN	_	Foreign=Yes	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	а	а	CCONJ	_	_	10	cc	_	_
+7	коротко	коротко	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
+10	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	Sigmalive.com	sigmalive.com	NOUN	_	_	10	nsubj	_	SpaceAfter=No
+12	О	о	ADP	_	_	13	case	_	_
+13	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Аристотель	аристотель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	2400	2400	NUM	_	_	20	nummod	_	_
+20	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+21	со	с	ADP	_	_	22	case	_	_
+22	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+23	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+26	сегодня	сегодня	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	26	26	NUM	_	_	25	nummod	_	_
+29	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	2016	2016	NUM	_	_	31	nummod	_	_
+31	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	археолог	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+34	Костас	Костас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	appos	_	_
+35	Сисманидис	Сисманидис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 1402
+# text = "У меня нет веских доказательств, но по некоторым признакам я почти в этом уверен", -- говорит ученый.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	У	у	ADP	_	_	3	case	_	_
+3	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	4	obl	_	_
+4	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	веских	веский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	16	cc	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	11	amod	_	_
+11	признакам	признак	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+13	почти	почти	ADV	_	Degree=Pos	15	advmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+16	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	--	--	PUNCT	_	_	16	punct	_	_
+20	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	ученый	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1403
+# text = По его словам, все признаки: местоположение гробницы, период времени, когда ее возвели, говорят о том, что она может принадлежать Аристотелю.Гробница представляет собой куполообразное здание с мраморным полом, который был датирован эллинистическим периодом.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	местоположение	местоположение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	_
+9	гробницы	гробница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+12	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	когда	когда	SCONJ	_	_	0	mark	_	_
+15	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+16	возвели	возводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+19	о	о	ADP	_	_	20	case	_	_
+20	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+25	принадлежать	принадлежать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	Аристотелю.	Аристотелю.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+27	Гробница	Гробница	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+28	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
+29	собой	себя	PRON	_	Case=Ins	28	dep	_	_
+30	куполообразное	куполообразный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	здание	здание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	мраморным	мраморный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	полом	пол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	который	который	PRON	_	Case=Nom	38	nsubj	_	_
+37	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	38	aux:pass	_	_
+38	датирован	датировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	acl:relcl	_	_
+39	эллинистическим	эллинистический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	периодом	период	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 1404
+# text = Она была расположена в центре древней Стагиры, рядом с Агорой.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	древней	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Стагиры	Стагира	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	рядом	рядом	ADV	_	Degree=Pos	3	advmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	Агорой	Агорый	PRON	_	Case=Ins	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1405
+# text = Ко входу в гробницу вела тропинка, чтобы люди могли посетить могилу и почтить память философа.
+1	Ко	к	ADP	_	_	2	case	_	_
+2	входу	вход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	гробницу	гробница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+5	вела	вевать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	тропинка	тропинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+9	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	посетить	посещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	могилу	могила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	почтить	чтить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	conj	_	_
+15	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	философа	философ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# newpar
+# sent_id = 1406

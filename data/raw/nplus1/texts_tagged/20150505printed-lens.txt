@@ -1,0 +1,103 @@
+# text = # newpar
+# sent_id = 3045
+# text = Ученые из Хьюстонского университета разработали метод печати эластичных линз, превращающих смартфон в микроскоп.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Хьюстонского	Хьюстонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	эластичных	эластичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	линз	линза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	превращающих	превращать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	микроскоп	микроскоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3046
+# text = Статья опубликована в Journal of Biomedical Optics.Исследователи смогли получить эластичные линзы из полидиметилсилоксана.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Journal	journal	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	Biomedical	Biomedical	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Optics.Исследователи	Optics.Исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	эластичные	эластичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	линзы	линза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	из	из	ADP	_	_	11	case	_	_
+13	полидиметилсилоксана	полидиметилсилоксанный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3047
+# text = Линзы позволяют увеличить изображение до 120 раз и крепятся прямо на камеру смартфона, не требуя никаких дополнительных приспособлений.
+1	Линзы	линз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	120	120	NUM	_	_	7	nummod	_	_
+7	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	крепятся	крепиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+10	прямо	прямо	ADV	_	Degree=Pos	12	advmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+13	смартфона	смартфон	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	требуя	требовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+17	никаких	никакой	DET	_	Case=Gen|Number=Plur	19	amod	_	_
+18	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	приспособлений	приспособление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3048
+# text = Линзы напечатаны с помощью устройства, напоминающего струйный принтер, в котором вместо краски используется полидиметилсилоксан.
+1	Линзы	линз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	напечатаны	напечатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	fixed	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	напоминающего	напоминать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	струйный	струйный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	принтер	принтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	котором	который	PRON	_	Case=Loc	15	obl	_	_
+13	вместо	вместо	ADP	_	_	14	case	_	_
+14	краски	краска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_
+15	используется	использувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+16	полидиметилсилоксан	полидиметилсилоксывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3049
+# text = На заранее разогретую поверхность выдавливается капля полимера, необходимая кривизна линзы достигается регулировкой температуры и временем нагрева капли.
+1	На	на	ADP	_	_	4	case	_	_
+2	заранее	заранее	ADV	_	Degree=Pos	3	advmod	_	_
+3	разогретую	разогревать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+5	выдавливается	выдавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+7	полимера	полимер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	необходимая	необходимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	кривизна	кривизна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	линзы	линза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	достигается	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+13	регулировкой	регулировка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+14	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	conj	_	_
+17	нагрева	нагрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	капли	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 3050

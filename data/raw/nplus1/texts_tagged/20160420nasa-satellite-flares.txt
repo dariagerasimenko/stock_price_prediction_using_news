@@ -1,0 +1,151 @@
+# text = # newpar
+# sent_id = 1897
+# text = Специалисты NASA изучили токовый слой солнечной вспышки, а также смогли дать его детальные характеристики.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	NASA	Nasa	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	токовый	токовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	дать	давать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+14	детальные	детальной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1898
+# text = Работа авторов опубликована Astrophysical Journal Letters, ознакомиться сней можно насайте arXiv.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	parataxis	_	_
+4	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Journal	journal	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Letters	Letters	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ознакомиться	ознакоматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	dep	_	_
+9	сней	сня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+11	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	10	nsubj	_	_
+12	arXiv	arXiv	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1899
+# text = Токовый слой, в данном случае возникающий в атмосфере Солнца (не следует путать с большим гелиосферным токовым слоем),представляет собой плотный слой тока, который имеет конечную толщину.
+1	Токовый	Токовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	advmod	_	_
+7	возникающий	возникать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	не	не	PART	_	_	13	advmod	_	_
+13	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+14	путать	путать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+15	с	с	ADP	_	_	19	case	_	_
+16	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+17	гелиосферным	гелиосферный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	токовым	токовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,представляет	,представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	собой	себя	PRON	_	Case=Ins	21	obl	_	_
+23	плотный	плотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+25	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	который	который	PRON	_	Case=Nom	28	nsubj	_	_
+28	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+29	конечную	конечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	толщину	толщина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1900
+# text = Эта толщина значительно меньше его длины иширины-- например, отношение ширины токового слоя солнечной короны кего толщине составляет 100 000:1.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	значительно	значительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	длины	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	иширины	иширина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	например	например	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	отношение	отношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+13	ширины	ширина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	токового	токовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	короны	корона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	кего	кий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	толщине	толщина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	_
+20	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	100	100	NUM	_	_	22	nummod	_	_
+22	000:1	000:1	NOUN	_	_	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1901
+# text = Токовый слой появляется входе магнитного пересоединения-- процесса, когда линии магнитных полей разной направленности сходятся вместеи, создавая область высокого магнитного давления, быстро перестраиваются.
+1	Токовый	Токовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	входе	входе	ADP	_	_	6	case	_	_
+5	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	пересоединения	пересоединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	когда	когда	SCONJ	_	_	3	mark	_	_
+12	линии	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+13	магнитных	магнитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	полей	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	направленности	направленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	сходятся	сходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+18	вместеи	вместея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	создавая	создавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	27	advcl	_	_
+21	область	область	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+23	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	быстро	быстро	ADV	_	Degree=Pos	27	advmod	_	_
+27	перестраиваются	перестраиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1902
+# text = Электрический ток, текущий через зону высокого давления, сжимается вочень тонкий лист, который иназывается токовым слоем.
+1	Электрический	электрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	текущий	текти	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+5	через	через	ADP	_	_	6	case	_	_
+6	зону	зона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сжимается	сжимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	вочень	вочень	ADV	_	Degree=Pos	12	advmod	_	_
+12	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	лист	лист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj:pass	_	_
+16	иназывается	иназывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	_	_
+17	токовым	токовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 1903

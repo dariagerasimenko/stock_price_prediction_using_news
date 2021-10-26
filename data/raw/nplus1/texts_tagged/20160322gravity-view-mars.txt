@@ -1,0 +1,206 @@
+# text = # newpar
+# sent_id = 2424
+# text = Группа исследователей воглаве сученым изМассачусетского технологического института составила новую детальную карту гравитационного поля Марса.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	воглаве	воглава	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
+4	сученым	сученый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+5	изМассачусетского	изМассачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+8	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	детальную	детальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	гравитационного	гравитационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2425
+# text = Работа опубликована вжурнале Icarus, сеекратким содержанием можно ознакомиться насайте NASA.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	Icarus	Icarus	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сеекратким	сеекраткий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	содержанием	содержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+8	можно	можно	ADV	_	Degree=Pos	2	acl:relcl	_	_
+9	ознакомиться	ознакоматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	nsubj	_	_
+10	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	8	conj	_	_
+11	NASA	Nasa	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2426
+# text = Для составления карты ученые использовали данные оборбитальном положении трех космических аппаратов-- Mars Global Surveyor, Mars Odyssey иMars Reconnaissance Orbite.
+1	Для	для	ADP	_	_	2	case	_	_
+2	составления	составление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	карты	карта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	8	obj	_	_
+7	оборбитальном	оборбитальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+9	трех	три	NUM	_	Case=Gen	11	nummod	_	_
+10	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	Mars	Mars	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+15	Global	global	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Surveyor	Surveyor	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Mars	Mars	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	Odyssey	Odyssey	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	иMars	иMars	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Reconnaissance	Reconnaissance	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Orbite	Orbite	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2427
+# text = Эти данные за16лет специалисты NASA собрали при помощи Сети дальней космической связи.
+1	Эти	этот	DET	_	Case=Acc|Number=Plur	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	3	obj	_	_
+3	за16лет	за16лть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+4	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	NASA	Nasa	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	при	при	ADP	_	_	9	case	_	_
+8	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	Сети	сеть	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+10	дальней	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2428
+# text = Аппараты, пролетая над поверхностью планеты, испытывали влияние изменения гравитации.
+1	Аппараты	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	пролетая	пролетать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+4	над	над	ADP	_	_	5	case	_	_
+5	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	испытывали	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2429
+# text = В течение двух лет ученые анализировали информацию об их движении, а также занимались компьютерным моделированием, и, в итоге, им удалось составить наиболее точную на данный момент гравитационную карту Марса.Улучшенная карта позволяет объяснить и уточнить ряд особенностей марсианского рельефа.
+1	В	в	ADP	_	_	4	case	_	_
+2	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	анализировали	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	об	о	ADP	_	_	10	case	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	движении	движение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	14	cc	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	занимались	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+15	компьютерным	компьютерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	моделированием	моделирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	16	cc	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	24	obl	_	_
+24	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+25	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	nsubj	_	_
+26	наиболее	наиболее	ADV	_	Degree=Pos	27	advmod	_	_
+27	точную	точный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
+31	гравитационную	гравитационный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+33	Марса.	марса.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	SpaceAfter=No
+34	Улучшенная	Улучшать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	amod	_	_
+35	карта	карта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+36	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+37	объяснить	объяснать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	уточнить	уточнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	37	conj	_	_
+40	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
+41	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	_
+42	марсианского	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	рельефа	рельеф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 2430
+# text = Например, ученые подтвердили, что внешняя часть ядра планеты представляет собой расплавленные горные породы.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	внешняя	внешний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+12	собой	себя	PRON	_	Case=Ins	11	dep	_	_
+13	расплавленные	расплавлять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	горные	горной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	породы	порода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2431
+# text = Кроме того, исследователи оценили массу CO2 , которая в зимний период замерзает на полюсах планеты, а летом возвращается обратно в атмосферу, -- она составляет около трех-четырех триллионов тонн, то есть от 12 до 16 процентов атмосферы Марса.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	оценили	оценивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	CO2	co2	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	зимний	зимний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+13	замерзает	замерзать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	полюсах	полюс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+16	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	_
+20	возвращается	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+21	обратно	обратно	ADV	_	Degree=Pos	23	advmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	--	--	PUNCT	_	_	23	punct	_	_
+26	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	27	nsubj	_	_
+27	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	около	около	ADP	_	_	32	case	_	_
+29	трех	три	NUM	_	Case=Gen	32	nummod	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	четырех	четыре	NUM	_	Case=Gen	29	nummod	_	_
+32	триллионов	триллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	_
+33	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	mark	_	_
+36	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	fixed	_	_
+37	от	от	ADP	_	_	38	case	_	_
+38	12	12	NUM	_	_	0	parataxis	_	_
+39	до	до	ADP	_	_	41	case	_	_
+40	16	16	NUM	_	_	41	nummod	_	_
+41	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+42	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# newpar
+# sent_id = 2432

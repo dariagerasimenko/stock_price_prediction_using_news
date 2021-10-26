@@ -1,0 +1,424 @@
+# text = # newpar
+# sent_id = 5035
+# text = Астрономы из Австрии, Венгрии и Германии уточнили радиус транснептунового объекта 2007 OR10.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Австрии	австрия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Венгрии	венгрия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+8	уточнили	уточнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	радиус	радиус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	транснептунового	транснептуновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	2007	2007	NUM	_	_	11	nummod	_	_
+13	OR10	OR10	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5036
+# text = Оказалось что размеры объекта были сильно недооценены -- диаметр небесного тела по новым данным составляет 1535 километров, что почти на 250 километров больше, чем считалось ранее.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	что	что	PRON	_	Case=Acc	1	nsubj	_	_
+3	размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+6	сильно	сильно	ADV	_	Degree=Pos	7	advmod	_	_
+7	недооценены	недооценивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+10	небесного	небесной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	по	по	ADP	_	_	14	case	_	_
+13	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	15	parataxis	_	_
+15	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	1535	1535	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	PRON	_	Case=Nom	24	nsubj	_	_
+20	почти	почти	ADV	_	Degree=Pos	23	advmod	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	250	250	NUM	_	_	23	nummod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+24	больше	больше	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	чем	чем	SCONJ	_	_	27	mark	_	_
+27	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	advmod	_	_
+28	ранее	ранее	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5037
+# text = Эта величина делает2007 OR10 третьим транснептуновым объектом по размерам, уступающим лишь Плутону и Эриде.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	величина	величина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	делает2007	делает2007	NUM	_	_	2	nummod	_	_
+4	OR10	OR10	NUM	_	_	3	nummod	_	_
+5	третьим	третьий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	транснептуновым	транснептуновый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	уступающим	уступать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	лишь	лишь	PART	_	_	13	advmod	_	_
+13	Плутону	Плутон	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Эриде	Эрида	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5038
+# text = Исследование опубликовано вThe Astronomical Journal, кратко о нем сообщает пресс-релиз лаборатории реактивного движения NASA.Авторы использовали для новой оценки размеров объекта объединенные данные телескопов "Гершель" и"Кеплер".
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вThe	вThe	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Astronomical	Astronomical	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Journal	journal	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+10	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	пресс-релиз	пресс-релиз	ADP	_	_	12	case	_	_
+12	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	реактивного	реактивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	nmod	_	SpaceAfter=No
+16	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+21	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	объединенные	объединать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	17	obj	_	_
+25	телескопов	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Гершель	Гершель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	и"	и"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	Кеплер	Кеплер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5039
+# text = Первый из космических аппаратов чувствителен к инфракрасному излучению, испускаемому объектом -- с его помощью ученые установили, какая доля солнечного света поглощается поверхностью небесного тела и рассеивается потом в виде теплового излучения.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	чувствителен	чувствительный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	инфракрасному	инфракрасный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	излучению	излучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	испускаемому	испускать	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+16	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+20	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+21	солнечного	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	поглощается	поглощаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	_
+24	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+25	небесного	небесной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	рассеивается	рассеиваваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	_
+29	потом	потом	ADV	_	Degree=Pos	28	advmod	_	_
+30	в	в	ADP	_	_	33	case	_	_
+31	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	fixed	_	_
+32	теплового	тепловой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5040
+# text = "Кеплер", в свою очередь, позволил очень точно определить долю отраженного солнечного излучения.Благодаря этим данным астрономам удалось определить период, за который объект совершает полный оборот вокруг своей оси -- он оказался равен примерно 45 часам.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Кеплер	кеплер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	точно	точно	ADV	_	Degree=Pos	12	advmod	_	_
+12	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	долю	доля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	отраженного	отражять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	солнечного	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Благодаря	благодаря	ADP	_	_	20	case	_	_
+19	этим	этот	DET	_	Case=Dat|Number=Plur	20	amod	_	_
+20	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	22	obl	_	_
+21	астрономам	астроном	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	22	obl	_	_
+22	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+23	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	за	за	ADP	_	_	27	case	_	_
+27	который	который	PRON	_	Case=Acc	29	obl	_	_
+28	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+29	совершает	совершавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+30	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	оборот	оборот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+32	вокруг	вокруг	ADP	_	_	34	case	_	_
+33	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	34	amod	_	_
+34	оси	ось	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+35	--	--	PUNCT	_	_	34	punct	_	_
+36	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+37	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+38	равен	равный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	37	amod	_	_
+39	примерно	примерно	ADV	_	Degree=Pos	40	advmod	_	_
+40	45	45	NUM	_	_	41	nummod	_	_
+41	часам	час	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 5041
+# text = Авторы отмечают, что удалось обнаружить даже локальные изменения яркости небесного тела, по всей видимости, указывающие на неоднородность поверхности.Основываясь на этих данных и расстоянии до 2007 OR10астрономы однозначно определили, какими размерами должен обладать объект.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	33	advcl	_	_
+6	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	даже	даже	PART	_	_	8	advmod	_	_
+8	локальные	локальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+10	яркости	яркость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	небесного	небесной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	16	amod	_	_
+16	видимости	видимость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	указывающие	указывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	неоднородность	неоднородность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Основываясь	основываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	5	advcl	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	этих	этот	DET	_	Case=Loc|Number=Plur	26	amod	_	_
+26	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	23	obl	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	conj	_	_
+29	до	до	ADP	_	_	31	case	_	_
+30	2007	2007	NUM	_	_	31	nummod	_	_
+31	OR10астрономы	OR10астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+32	однозначно	однозначно	ADV	_	Degree=Pos	33	advmod	_	_
+33	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	37	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	какими	какой	DET	_	Case=Ins|Number=Plur	36	amod	_	_
+36	размерами	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	33	obl	_	_
+37	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	advcl	_	_
+38	обладать	обладать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	37	dep	_	_
+39	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5042
+# text = Увеличившиеся размеры указывают на то, что небесное тело темнее, чем считалось ранее.
+1	Увеличившиеся	Увеличиваться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+2	размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	указывают	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	небесное	небесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	темнее	темный	ADJ	_	Degree=Cmp	5	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	13	mark	_	_
+13	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	10	advmod	_	_
+14	ранее	ранее	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5043
+# text = Это отличает его от других карликовых транснептуновых планет, которые, в большинстве своем, хорошо отражают свет.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	отличает	отличать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+4	от	от	ADP	_	_	8	case	_	_
+5	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	карликовых	карликовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	транснептуновых	транснептуновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	17	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+14	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	хорошо	хорошо	ADV	_	Degree=Pos	17	advmod	_	_
+17	отражают	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+18	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5044
+# text = Ранние наземные наблюдения указывали на красный цвет объекта -- ученые считают, что он может быть связан с большим количеством метанового льда.2007 OR10 лишь ненамного обошел по объему другой транснептуновый объект -- Хаумеа.
+1	Ранние	ранний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	наземные	наземной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	красный	красный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	aux:pass	_	_
+17	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+21	метанового	метановый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	льда.	льда.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl:agent	_	SpaceAfter=No
+23	2007	2007	NUM	_	_	24	nummod	_	_
+24	OR10	Or10	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	_
+25	лишь	лишь	PART	_	_	26	advmod	_	_
+26	ненамного	ненамного	ADV	_	Degree=Pos	27	advmod	_	_
+27	обошел	обходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+28	по	по	ADP	_	_	29	case	_	_
+29	объему	объем	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+30	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	транснептуновый	транснептуновый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+33	--	--	PUNCT	_	_	32	punct	_	_
+34	Хаумеа	Хаумеа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 5045
+# text = Она, несмотря на диаметр достигающий почти двух тысяч километров, обладает сильно вытянутой формой, поэтому оказалась потеснена на четвертое место.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	несмотря	несмотря	ADV	_	Polarity=Neg	5	case	_	_
+4	на	на	ADP	_	_	3	fixed	_	_
+5	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+6	достигающий	достигать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+7	почти	почти	ADV	_	Degree=Pos	8	advmod	_	_
+8	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+9	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	сильно	сильно	ADV	_	Degree=Pos	14	advmod	_	_
+14	вытянутой	вытянутый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	формой	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	поэтому	поэтому	ADV	_	Degree=Pos	18	advmod	_	_
+18	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	nsubj:pass	_	_
+19	потеснена	теснить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	четвертое	четвертый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5046
+# text = Пятое место по размерам занимает карликовая планета Макемаке.
+1	Пятое	пятый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	obj	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+5	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	карликовая	карликовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	планета	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	Макемаке	Макемаке	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5047
+# text = Интересно отметить, что все пять крупнейших транснептуновых объектов, за исключением Плутона, были открыты Майклом Брауном -- его же считают и ответственным за лишение Плутона статуса планеты.Небесное тело еще не получило официального наименования кроме кода.
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	пять	пять	NUM	_	Case=Nom	9	nummod:gov	_	_
+7	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	9	amod	_	_
+8	транснептуновых	транснептуновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	исключением	исключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	parataxis	_	_
+13	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	открыты	открывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+17	Майклом	Майкл	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl:agent	_	_
+18	Брауном	Браун	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+21	же	же	PART	_	_	20	advmod	_	_
+22	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	ответственным	ответственный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	conj	_	_
+25	за	за	ADP	_	_	26	case	_	_
+26	лишение	лишение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obl	_	_
+27	Плутона	Плутон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	статуса	статус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	Небесное	небесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	35	nsubj	_	_
+33	еще	еще	ADV	_	Degree=Pos	35	advmod	_	_
+34	не	не	PART	_	_	35	advmod	_	_
+35	получило	получать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+36	официального	официальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	наименования	наименование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	_
+38	кроме	кроме	ADP	_	_	37	case	_	_
+39	кода	код	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5048
+# text = Изначально Майкл Браун и его коллеги планировали назвать его в честь Белоснежки, но эту идею пришлось отвергнуть --2007 OR10 оказался одним из самых красных объектов пояса Койпера.Владимир Королёв
+1	Изначально	изначально	ADV	_	Degree=Pos	7	advmod	_	_
+2	Майкл	майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Браун	браун	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+7	планировали	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	Белоснежки	Белоснежка	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	но	но	CCONJ	_	_	17	cc	_	_
+15	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	идею	идея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+18	отвергнуть	отвергать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	--	--	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	2007	2007	NUM	_	_	21	nummod	_	_
+21	OR10	Or10	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+22	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+23	одним	один	NUM	_	Case=Ins|Gender=Masc	22	nummod	_	_
+24	из	из	ADP	_	_	27	case	_	_
+25	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	красных	красный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+28	пояса	пояс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	Койпера.	койпера.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	SpaceAfter=No
+30	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+31	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	flat:name	_	_
+
+# newpar
+# sent_id = 5049

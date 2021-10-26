@@ -1,0 +1,565 @@
+# text = # newpar
+# sent_id = 5535
+# text = Исследователи из США использовали наночастицы оксида титана и оксида цинка для увеличения абсорбции света листьями томатов и создании питательной среды для растений.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	наночастицы	наночастица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	conj	_	_
+6	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	титана	титан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	цинка	цинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	увеличения	увеличение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+13	абсорбции	абсорбция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	листьями	лист	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	_
+16	томатов	томат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	conj	_	_
+19	питательной	питательной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	для	для	ADP	_	_	20	case	_	_
+22	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5536
+# text = Ученые считают, что таким способом можно повысить урожайность этих растений.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	amod	_	_
+6	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+7	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+8	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	урожайность	урожайность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	этих	этот	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+11	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5537
+# text = Работа опубликована в журнале Metallomics, кратно о ней можно прочесть на сайте Phys.org.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Metallomics	Metallomics	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратно	кратно	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+10	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+11	прочесть	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	Phys.org	Phys.org	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5538
+# text = Авторы проанализировали влияние наночастиц оксид титана и оксида цинка на объем лиственной массы, урожайность и токсичность томатов в процессе выращивания.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	оксид	оксида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	титана	титан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+9	цинка	цинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	объем	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+12	лиственной	лиственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	урожайность	урожайность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	токсичность	токсичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+18	томатов	томат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+21	выращивания	выращивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5539
+# text = Вещества были выбраны не случайно: например, TiO2 -- фотокаталитический бактерицид, способный под действием света разлагать органические соединения.
+1	Вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выбраны	выбирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	случайно	случайно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	например	например	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	TiO2	TiO2	NUM	_	_	12	nummod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	фотокаталитический	фотокаталитический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	бактерицид	бактерицид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+15	под	под	ADP	_	_	16	case	_	_
+16	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	_
+17	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	разлагать	разлагать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	dep	_	_
+19	органические	органический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	соединения	соединения	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5540
+# text = Ученые полагают, что он может, таким образом, участвовать в процессах усвоения различных веществ из почвы растением.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+9	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	участвовать	участвовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+14	усвоения	усвоение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	почвы	почва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+19	растением	растение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5541
+# text = ZnO активно исследуется как питательная добавка -- ранние исследования показали, что цинк из наночастиц активно усваивается бобами, но при этом сами они не попадают в зерна, что делает такой способ подкормки безопасным для применения в пищевой промышленности.
+1	ZnO	Zno	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	активно	активно	ADV	_	Degree=Pos	3	advmod	_	_
+3	исследуется	исследуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	питательная	питательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	добавка	добавка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	ранние	ранний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+10	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	цинк	цинк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	активно	активно	ADV	_	Degree=Pos	17	advmod	_	_
+17	усваивается	усваивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	advcl	_	_
+18	бобами	боб	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	но	но	CCONJ	_	_	26	cc	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+23	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	acl	_	_
+24	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	26	nsubj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	попадают	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	зерна	зерно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	что	что	PRON	_	Case=Nom	31	nsubj	_	_
+31	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+32	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	33	amod	_	_
+33	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+34	подкормки	подкормка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	безопасным	безопасной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+36	для	для	ADP	_	_	37	case	_	_
+37	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+38	в	в	ADP	_	_	40	case	_	_
+39	пищевой	пищевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 5542
+# text = Ученые опрыскивали и поливали растения растворами в разных концентрациях.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	опрыскивали	опрыскивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	поливали	поливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+5	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	растворами	раствор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	концентрациях	концентрация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5543
+# text = Затем через определенные промежутки времени измеряли высоту, количество хлорофилла в зеленых частях растений, брали пробы на содержание наночастиц в листьях, корнях и плодах, изучали их с помощью методов масс-спектрометрии и просвечивающего электронного микроскопа.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	через	через	ADP	_	_	4	case	_	_
+3	определенные	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	промежутки	промежуток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+5	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	измеряли	измерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+10	хлорофилла	хлорофилл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	зеленых	зеленый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+14	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	брали	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	пробы	проба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+20	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	листьях	лист	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	корнях	корень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	conj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	плодах	плод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	28	obj	_	_
+30	с	с	ADP	_	_	32	case	_	_
+31	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	fixed	_	_
+32	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+33	масс-спектрометрии	масс-спектрометрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	и	и	CCONJ	_	_	37	cc	_	_
+35	просвечивающего	просвечивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	37	amod	_	_
+36	электронного	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	микроскопа	микроскоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 5544
+# text = Результаты сравнивали с контрольной группой, которую выращивали в тех же условиях, но без добавок в почву наночастиц.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	контрольной	контрольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которую	который	PRON	_	Case=Acc	8	obj	_	_
+8	выращивали	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	тех	тот	DET	_	Case=Loc|Number=Plur	12	amod	_	_
+11	же	же	PART	_	_	10	advmod	_	_
+12	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	но	но	CCONJ	_	_	16	cc	_	_
+15	без	без	ADP	_	_	16	case	_	_
+16	добавок	добавка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	почву	почва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5545
+# text = Оказалось, что опрыскиваемые растения производят на 80 процентов (по массе) больше плодов, чем контрольная группа.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	опрыскиваемые	опрыскиваемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	80	80	NUM	_	_	9	nummod	_	_
+9	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	по	по	ADP	_	_	9	case	_	_
+12	массе	масса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	больше	много	NUM	_	_	15	nummod:gov	_	_
+15	плодов	плод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	19	cc	_	_
+18	контрольная	контрольной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5546
+# text = Ученым также удалось доказать, что наночастицы оксида титана оказывают влияние на количество хлорофилла в листьях и способствует фотосинтезу.
+1	Ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+8	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	титана	титан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	оказывают	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+11	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+14	хлорофилла	хлорофилл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	листьях	лист	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	способствует	способствуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	фотосинтезу	фотосинтеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5547
+# text = К сожалению, механизмы, которые приводят к такому результату, не были изучены и остаются предметом дискуссий.
+1	К	к	ADP	_	_	2	case	_	_
+2	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
+10	результату	результат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	не	не	PART	_	_	14	advmod	_	_
+13	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	_
+17	предметом	предмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+18	дискуссий	дискуссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5548
+# text = Кроме того, оказалось, что аэрозоли наночастиц гораздо эффективнее растворов в процессах усвоения питательных добавок -- растениями усваивалось всего 20 процентов в случае растворов и 80 -- если использовался метод распыления аэрозоля.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	аэрозоли	аэрозоль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+8	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	гораздо	гораздо	ADV	_	Degree=Pos	10	advmod	_	_
+10	эффективнее	эффективно	ADV	_	Degree=Cmp	7	advmod	_	_
+11	растворов	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
+14	усвоения	усвоение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	питательных	питательной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	добавок	добавка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	растениями	растение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	nmod	_	_
+19	усваивалось	усваиваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+20	всего	всего	PART	_	_	21	advmod	_	_
+21	20	20	NUM	_	_	22	nummod	_	_
+22	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+23	в	в	ADP	_	_	22	case	_	_
+24	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+25	растворов	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	и	и	CCONJ	_	_	30	cc	_	_
+27	80	80	NUM	_	_	30	nummod	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	если	если	SCONJ	_	_	30	mark	_	_
+30	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	25	conj	_	_
+31	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj:pass	_	_
+32	распыления	распыление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	аэрозоля	аэрозоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5549
+# text = Ученые объясняют это тем, что при опрыскивании обрабатывается гораздо большая площадь растения, чем если усвоение происходит только через корни.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	объясняют	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	опрыскивании	опрыскивание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+9	обрабатывается	обрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	_
+10	гораздо	гораздо	ADV	_	Degree=Pos	9	advmod	_	_
+11	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	площадь	площадь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+13	растения	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чем	чем	SCONJ	_	_	18	mark	_	_
+16	если	если	SCONJ	_	_	18	mark	_	_
+17	усвоение	усвоение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advmod	_	_
+19	только	только	PART	_	_	21	advmod	_	_
+20	через	через	ADP	_	_	21	case	_	_
+21	корни	корень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5550
+# text = Важной частью работы также стало исследование распределения наночастиц в различных частях растения.
+1	Важной	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	распределения	распределение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_
+12	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5551
+# text = Это необходимо для понимания возможности применения метода на практике, поскольку влияние таких материалов на безопасность пищевых продуктов недостаточно изучена.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+5	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	2	mark	_	_
+12	влияние	влияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj:pass	_	_
+13	таких	такой	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+14	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+17	пищевых	пищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	недостаточно	недостаточно	ADV	_	Degree=Pos	20	advmod	_	_
+20	изучена	изучать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5552
+# text = Ученые отметили, что наночастицы не изменяют своей морфологии, встраиваясь в ткани растения, в основном в стебель и листья, практически не влияя на плоды.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отметили	отмечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	изменяют	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	морфологии	морфология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	встраиваясь	встраиваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	7	advcl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	растения	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	стебель	стебель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	листья	лист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	практически	практически	ADV	_	Degree=Pos	24	advmod	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	влияя	влиять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	плоды	плод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5553
+# text = Нанотехнологии находят применение во все большем количестве областей -- от медицины до запоминающих электронных устройств, - а в последнее время к этому списку добавили еще и агротехнику.
+1	Нанотехнологии	нанотехнология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	находят	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	во	в	ADP	_	_	7	case	_	_
+5	все	все	PART	_	_	6	advmod	_	_
+6	большем	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+8	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+12	до	до	ADP	_	_	15	case	_	_
+13	запоминающих	запоминать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+14	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	а	а	CCONJ	_	_	25	cc	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_
+22	к	к	ADP	_	_	24	case	_	_
+23	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing	24	amod	_	_
+24	списку	список	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+25	добавили	добавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	еще	еще	ADV	_	Degree=Pos	28	advmod	_	_
+27	и	и	PART	_	_	28	advmod	_	_
+28	агротехнику	агротехника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5554
+# text = С помощью наночастиц планируют не только исследовать процессы, влияющие на урожайность и устойчивость растений, но и улучшать эти качества, модифицируя питательную среду или даже сами растения.
+1	С	с	ADP	_	_	3	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	исследовать	исследовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	влияющие	влиять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	урожайность	урожайность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+15	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	но	но	CCONJ	_	_	19	cc	_	_
+18	и	и	PART	_	_	17	advmod	_	_
+19	улучшать	улучшать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	_
+20	эти	этот	DET	_	Case=Acc|Number=Plur	21	amod	_	_
+21	качества	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	модифицируя	модифицировывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	_	_
+24	питательную	питательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+26	или	или	CCONJ	_	_	29	cc	_	_
+27	даже	даже	PART	_	_	29	advmod	_	_
+28	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5555
+# text = За последнее десятилетие ученые уже испробовали различные материалы -- углеродные, металлические, композитные наночастицы и даже дендримеры - некоторые из них уже используются в сельском хозяйстве таких перенаселенных стран, как Китай или Индия.
+1	За	за	ADP	_	_	3	case	_	_
+2	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	десятилетие	десятилетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	испробовали	испробовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	материалы	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	металлические	металлический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	композитные	композитной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	conj	_	_
+15	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	даже	даже	PART	_	_	18	advmod	_	_
+18	дендримеры	дендример	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+19	-	-	PUNCT	_	_	18	punct	_	_
+20	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	24	nsubj:pass	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+23	уже	уже	ADV	_	Degree=Pos	24	advmod	_	_
+24	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	сельском	сельский	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	хозяйстве	хозяйство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+28	таких	такой	DET	_	Case=Gen|Number=Plur	30	amod	_	_
+29	перенаселенных	перенаселеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+30	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	как	как	SCONJ	_	_	33	cc	_	_
+33	Китай	китай	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	advmod	_	_
+34	или	или	CCONJ	_	_	35	cc	_	_
+35	Индия	индия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 5556
+# text = Екатерина Митрофанова
+1	Екатерина	екатерина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Митрофанова	Митрофанова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5557

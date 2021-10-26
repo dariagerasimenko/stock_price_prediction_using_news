@@ -1,0 +1,373 @@
+# text = # newpar
+# sent_id = 122
+# text = Ученые из Центра изучения здоровья Техасского университета в Хьюстоне в исследовании на 3724 мужчинах показали, что употребление дозы кофеина, эквивалентной почти трем кружкам кофе в день, способно предотвратить мужскую эректильную дисфункцию.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Центра	центр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Техасского	техасский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Хьюстоне	Хьюстон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	3724	3724	NUM	_	_	14	nummod	_	_
+14	мужчинах	мужчин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_
+15	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+19	дозы	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	кофеина	кофеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	эквивалентной	эквивалентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+23	почти	почти	ADV	_	Degree=Pos	24	advmod	_	_
+24	трем	три	NUM	_	Case=Dat	22	nummod	_	_
+25	кружкам	кружок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	_
+26	кофе	кофе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	advcl	_	_
+31	предотвратить	предотвращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	dep	_	_
+32	мужскую	мужский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+33	эректильную	эректильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	дисфункцию	дисфункция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 123
+# text = Работа опубликована в журнале PLoS ONE.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	PLoS	Plos	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ONE	One	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 124
+# text = Все мужчины (возраст от 20 лет и выше) участвовали в "Национальном опросе для исследования связи здоровья и питания" (National Health and Nutrition Examination Survey).
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	20	20	NUM	_	_	7	nummod	_	_
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	выше	высокий	ADJ	_	Degree=Cmp	4	conj	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Национальном	национальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	опросе	опрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+18	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	National	national	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+25	Health	Health	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	and	and	X	_	Foreign=Yes	25	flat:foreign	_	_
+27	Nutrition	Nutrition	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	Examination	Examination	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Survey	Survey	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 125
+# text = Наличие эректильной дисфункции диагностировалось посредством одного вопроса в анкете, заполняемой на компьютере.
+1	Наличие	наличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+2	эректильной	эректильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	дисфункции	дисфункция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	диагностировалось	диагностировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	посредством	посредством	ADP	_	_	7	case	_	_
+6	одного	один	NUM	_	Case=Gen|Gender=Masc	7	nummod	_	_
+7	вопроса	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	анкете	анкета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	заполняемой	заполняема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 126
+# text = Также респонденты отвечали на специальный вопросник, касающийся их питания в течение суток и употребления кофе и кофеинсодержащих продуктов.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	респонденты	респондент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	отвечали	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	специальный	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	вопросник	вопросник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	касающийся	касаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	10	amod	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	_
+16	кофе	кофе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	кофеинсодержащих	кофеинсодержащий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 127
+# text = Для обнаружения связи между питанием, в особенности потреблением кофеина, и эректильной дисфункцией использовалась мультивариантная логистическая регрессия -- статистический метод, предназначенный для предсказания вероятности некоторого события по значениям ряда признаков (так, с ее помощью, например, можно предсказать вероятность сердечного приступа на основе пола, возраста и индекса массы тела человека).
+1	Для	для	ADP	_	_	2	case	_	_
+2	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+3	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	между	между	ADP	_	_	5	case	_	_
+5	питанием	питание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	особенности	особенность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	потреблением	потребление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	conj	_	_
+10	кофеина	кофеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	эректильной	эректильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	дисфункцией	дисфункция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
+15	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	18	amod	_	_
+16	мультивариантная	мультивариантный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	логистическая	логистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	регрессия	регрессия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	conj	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	статистический	статистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	предназначенный	предназначать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+24	для	для	ADP	_	_	25	case	_	_
+25	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+26	вероятности	вероятность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	некоторого	некоторый	DET	_	Case=Gen|Gender=Neut|Number=Sing	28	amod	_	_
+28	события	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	по	по	ADP	_	_	30	case	_	_
+30	значениям	значение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	_
+31	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	так	так	ADV	_	Degree=Pos	38	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	с	с	ADP	_	_	38	case	_	_
+37	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	38	nmod	_	_
+38	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	например	например	ADV	_	Degree=Pos	42	parataxis	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+43	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	42	nsubj	_	_
+44	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	43	obj	_	_
+45	сердечного	сердечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	приступа	приступ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+47	на	на	ADP	_	_	48	case	_	_
+48	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	44	nmod	_	_
+49	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	conj	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	индекса	индекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	conj	_	_
+54	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	_
+55	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	54	nmod	_	_
+56	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	56	punct	_	_
+
+# sent_id = 128
+# text = Выяснилось, что мужчины, потребляющие от 85 до 170 мг и от 171 до 303 мг кофеина в день, значительно реже жалуются на проблемы с потенцией, нежели мужчины, потребляющие меньшие его дозы.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	потребляющие	потреблять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	85	85	NUM	_	_	6	nummod	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	170	170	NUM	_	_	11	nummod	_	_
+11	мг	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	171	171	NUM	_	_	4	conj	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	303	303	NUM	_	_	17	nummod	_	_
+17	мг	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	кофеина	кофеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	значительно	значительно	ADV	_	Degree=Pos	23	advmod	_	_
+23	реже	редко	ADV	_	Degree=Cmp	24	advmod	_	_
+24	жалуются	жаловаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obl	_	_
+27	с	с	ADP	_	_	26	case	_	_
+28	потенцией	потенция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	нежели	нежели	SCONJ	_	_	24	mark	_	_
+31	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	потребляющие	потреблять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	31	amod	_	_
+34	меньшие	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	36	amod	_	_
+35	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	36	nmod	_	_
+36	дозы	доза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 129
+# text = В первом случае на 42 процента, а во втором на 39 процентов меньше.
+1	В	в	ADP	_	_	3	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	42	42	NUM	_	_	6	nummod	_	_
+6	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	14	cc	_	_
+9	во	в	ADP	_	_	10	case	_	_
+10	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	nmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	39	39	NUM	_	_	13	nummod	_	_
+13	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+14	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 130
+# text = Причем эта закономерность наблюдается и у мужчин, страдающих ожирением или гипертонией.
+1	Причем	причем	CCONJ	_	_	4	cc	_	_
+2	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	закономерность	закономерность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	и	и	PART	_	_	7	advmod	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	страдающих	страдать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	ожирением	ожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	гипертонией	гипертония	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 131
+# text = Единственной группой мужчин, на которых кофеин не оказывал никакого улучшающего воздействия на эректильную функцию, были диабетики.
+1	Единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+3	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	которых	который	PRON	_	Case=Loc	9	obl	_	_
+7	кофеин	кофеин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	оказывал	оказывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+10	никакого	никакой	DET	_	Case=Gen|Gender=Neut|Number=Sing	12	amod	_	_
+11	улучшающего	улучшать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+13	на	на	ADP	_	_	12	case	_	_
+14	эректильную	эректильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+18	диабетики	диабетик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 132
+# text = По словам исследователей, диабет является одним из самых сильных факторов риска возникновения импотенции, поэтому отсутствие положительного эффекта кофеина в данном случае неудивительно.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	диабет	диабет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	одним	один	NUM	_	Case=Ins|Gender=Masc	6	nummod	_	_
+8	из	из	ADP	_	_	11	case	_	_
+9	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	сильных	сильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+12	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	импотенции	импотенция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	поэтому	поэтому	ADV	_	Degree=Pos	24	advmod	_	_
+17	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+18	положительного	положительной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	кофеина	кофеин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+24	неудивительно	неудивительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 133
+# text = Возможным биологическим механизмом, благодаря которому кофеин благотворно влияет на эректильную функцию, является расслабление гладкой мускулатуры гелициновых и кавернозных артерий пениса, что значительно улучшает кровоток.
+1	Возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	биологическим	биологической	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	механизмом	механизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	которому	который	PRON	_	Case=Dat	9	obl	_	_
+7	кофеин	кофеин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	благотворно	благотворно	ADV	_	Degree=Pos	9	advmod	_	_
+9	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	эректильную	эректильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	расслабление	расслабление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+16	гладкой	гладкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	мускулатуры	мускулатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	гелициновых	гелициновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	кавернозных	кавернозный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	conj	_	_
+21	артерий	артерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+22	пениса	пенис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+25	значительно	значительно	ADV	_	Degree=Pos	26	advmod	_	_
+26	улучшает	улучшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+27	кровоток	кровоток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 134
+# text = В США более 18 процентов мужчин от 20 лет и старше страдают эректильной дисфункцией в той или иной форме.
+1	В	в	ADP	_	_	2	case	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	12	obl	_	_
+3	более	более	ADV	_	Degree=Cmp	5	nummod:gov	_	_
+4	18	18	NUM	_	_	5	nummod	_	_
+5	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	от	от	ADP	_	_	9	case	_	_
+8	20	20	NUM	_	_	9	nummod	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	старше	старший	ADJ	_	Degree=Cmp	2	conj	_	_
+12	страдают	страдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	эректильной	эректильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	дисфункцией	дисфункция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+15	в	в	ADP	_	_	19	case	_	_
+16	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	amod	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	иной	иной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
+19	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 135
+# text = И 85 процентов регулярно употребляют кофе.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	85	85	NUM	_	_	3	nummod	_	_
+3	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	регулярно	регулярно	ADV	_	Degree=Pos	3	advmod	_	_
+5	употребляют	употреблять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+6	кофе.	кофбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# newpar
+# sent_id = 136

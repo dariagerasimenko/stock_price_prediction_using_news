@@ -1,0 +1,288 @@
+# text = # newpar
+# sent_id = 1859
+# text = Ученые из Высшей нормальной школы, Франция создали программу для автоматического анализа видео-инструкций, например, "как поменять колесо на автомобиле".
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+2	из	из	ADP	_	_	5	case	_	_
+3	Высшей	высший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Франция	франция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	автоматического	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+13	видео-инструкций	видео-инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	как	как	ADV	_	Degree=Pos	19	advmod	_	_
+19	поменять	менять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	dep	_	_
+20	колесо	колесо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	автомобиле	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1860
+# text = Алгоритм просматривает несколько роликов на одну и ту же тему, после чего поэтапный план выполнения задания, где каждый шаг сопровождается кадром-иллюстрацией из видео.
+1	Алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	просматривает	просматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	роликов	ролик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+5	на	на	ADP	_	_	10	case	_	_
+6	одну	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+9	же	же	PART	_	_	8	advmod	_	_
+10	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	чего	что	PRON	_	Case=Gen	15	obl	_	_
+14	поэтапный	поэтапный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	план	план	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+16	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	задания	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	где	где	ADV	_	Degree=Pos	22	advmod	_	_
+20	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	шаг	шаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	сопровождается	сопровождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	_
+23	кадром-	кадром-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	иллюстрацией	иллюстрация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+25	из	из	ADP	_	_	26	case	_	_
+26	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1861
+# text = Описание работы приводится в препринте на arXiv.org.Алгоритм по очереди анализирует видеоряд и текстовую транскрипцию ролика, в каждом случае используя методы кластеризации для поиска ключевых блоков.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	приводится	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	препринте	препринт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	arXiv.org	arXiv.org	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	.Алгоритм	.Алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	очереди	очередь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	анализирует	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	видеоряд	видеоряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	текстовую	текстовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	транскрипцию	транскрипция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+16	ролика	ролик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+21	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+22	методы	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	кластеризации	кластеризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	для	для	ADP	_	_	23	case	_	_
+25	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	блоков	блок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1862
+# text = В случае текста программа выделяет только словосочетания, содержащие инструкцию: "ослабьте болт", "поднимите машину", "снимите колесо".
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	выделяет	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	словосочетания	словосочетание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	инструкцию	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ослабьте	ослаблять	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+14	болт	болт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	поднимите	поднимать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	14	amod	_	_
+19	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	снимите	снимивать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	18	conj	_	_
+24	колесо	колесо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1863
+# text = Совершив эту операцию для нескольких вариантов инструкции, алгоритм выравнивает полученные цепочки и в итоге получает усредненную последовательность действий.Каждый кадр видео представляется в виде вектора признаков, эволюция которого также разбивается на ключевые блоки.
+1	Совершив	совершять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	операцию	операция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	6	nummod	_	_
+6	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+7	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	выравнивает	выравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	полученные	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	цепочки	цепочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+16	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	усредненную	усреднеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Каждый	Каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	кадр	кадр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	представляется	представляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	fixed	_	_
+27	вектора	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+28	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	эволюция	эволюция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+31	которого	который	PRON	_	Case=Gen	30	nmod	_	_
+32	также	также	ADV	_	Degree=Pos	33	advmod	_	_
+33	разбивается	разбиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	28	acl:relcl	_	_
+34	на	на	ADP	_	_	36	case	_	_
+35	ключевые	ключевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	36	amod	_	_
+36	блоки	блок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 1864
+# text = Эта задача осложняется тем, что в каждом ролике одна и та же операция как правило выглядит немного по-другому (разные ведущие, освещение и так далее).
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	осложняется	осложняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ролике	ролик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+10	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+13	же	же	PART	_	_	12	advmod	_	_
+14	операция	операция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+15	как	как	SCONJ	_	_	9	cc	_	_
+16	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+18	немного	немного	ADV	_	Degree=Pos	19	advmod	_	_
+19	по-другому	по-другому	ADV	_	Degree=Pos	22	advmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	ведущие	ведущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	освещение	освещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	так	так	ADV	_	Degree=Pos	27	fixed	_	_
+27	далее	далее	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1865
+# text = Программапредставляет готовую инструкцию в виде пары "видео-текст".Готовый алгоритм тестировали на двух подборках видео-инструкций: 30 роликах "как поменять колесо" и 27 -- "сердечно-легочная реанимация".
+1	Программапредставляет	Программапредставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	готовую	готовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	инструкцию	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	пары	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	видео-текст	видео-текст	ADV	_	Degree=Pos	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	Готовый	готовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	тестировали	тестировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	двух	два	NUM	_	Case=Loc	16	nummod	_	_
+16	подборках	подборок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+17	видео-инструкций	видео-инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	17	punct	_	_
+19	30	30	NUM	_	_	20	nummod	_	_
+20	роликах	ролик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	как	как	SCONJ	_	_	23	mark	_	_
+23	поменять	менять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+24	колесо	колесо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	и	и	CCONJ	_	_	31	cc	_	_
+27	27	27	NUM	_	_	31	nummod	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	сердечно-легочная	сердечно-легочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	реанимация	реанимация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1866
+# text = Полученные инструкции авторы сравнивали с "базовой" последовательностью действий, которую составляли вручную.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	9	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	базовой	базовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	последовательностью	последовательность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+10	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которую	который	PRON	_	Case=Acc	13	obj	_	_
+13	составляли	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	вручную	вручную	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1867
+# text = В случае роликов про замену колеса алгоритму удалось верно установить 90 процентов шагов, а для инструкции по оказанию первой помощи -- 67 процентов.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	роликов	ролик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	про	про	ADP	_	_	5	case	_	_
+5	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+6	колеса	колесо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	алгоритму	алгоритм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	верно	верно	ADV	_	Degree=Pos	10	advmod	_	_
+10	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+11	90	90	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+18	по	по	ADP	_	_	19	case	_	_
+19	оказанию	оказание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	67	67	NUM	_	_	24	nummod	_	_
+24	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1868
+# text = В обоих случаях удалось корректно подобрать кадры-иллюстрации к каждому этапу.
+1	В	в	ADP	_	_	3	case	_	_
+2	обоих	оба	NUM	_	Case=Loc|Gender=Masc	3	nummod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	корректно	корректно	ADV	_	Degree=Pos	6	advmod	_	_
+6	подобрать	подбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+7	кадры-иллюстрации	кадры-иллюстрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	каждому	каждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	этапу	этап	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar
+# sent_id = 1869

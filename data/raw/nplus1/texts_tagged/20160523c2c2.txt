@@ -1,0 +1,720 @@
+# text = # newpar
+# sent_id = 727
+# text = Международная группа ученых из России и США обнаружила фермент, который способен специфически уничтожать нужную РНК с помощью РНК-гида.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	conj	_	_
+8	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	фермент	фермент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	acl:relcl	_	_
+13	специфически	специфически	ADV	_	Degree=Pos	14	advmod	_	_
+14	уничтожать	уничтожать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+15	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+17	с	с	ADP	_	_	20	case	_	_
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	_
+19	РНК-	Рнк-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	SpaceAfter=No
+20	гида	гид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 728
+# text = Нуклеаза входит в одну из разновидностей системы CRISPR, однако, в отличие от широко известных CRISPR/Cas9, действует на уровне РНК, а не ДНК, что избавляет весь метод от риска дестабилизации генома из-за внесения "неправильных" разрывов.
+1	Нуклеаза	Нуклеаза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	одну	один	NUM	_	Case=Acc|Gender=Fem	2	nummod:gov	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	разновидностей	разновидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	от	от	ADP	_	_	13	fixed	_	_
+15	широко	широко	ADV	_	Degree=Pos	16	advmod	_	_
+16	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	CRISPR	Crispr	PROPN	_	Foreign=Yes	20	nsubj	_	SpaceAfter=No
+18	/Cas9	/Cas9	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+23	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	27	cc	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	PRON	_	Case=Nom	30	nsubj	_	_
+30	избавляет	избавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	32	amod	_	_
+32	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+33	от	от	ADP	_	_	34	case	_	_
+34	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	_
+35	дестабилизации	дестабилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	из-за	из-за	ADP	_	_	38	case	_	_
+38	внесения	внесение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+39	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	неправильных	неправильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	40	punct	_	_
+42	разрывов	разрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 729
+# text = Работа пока не прошла рецензирование и доступна в виде препринта в базе bioarXiv.org Созданная в 2012 году система редактирования генома CRISPR/Cas9 основана на системе бактериального противовирусного иммунитета.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	пока	пока	ADV	_	Degree=Pos	4	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	рецензирование	рецензирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	conj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	препринта	препринт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+13	bioarXiv.org	bioarXiv.org	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Созданная	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	2012	2012	NUM	_	_	17	nummod	_	_
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+18	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+19	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	CRISPR	Crispr	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	/Cas9	/Cas9	NUM	_	_	21	nummod	_	_
+23	основана	основывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+26	бактериального	бактериальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+27	противовирусного	противовирусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 730
+# text = Такой иммунитет позволяет бактериям находить фрагменты ДНК вируса в своей "картотеке" CRISPR (она расположена в определенном участке генома бактерии), и уничтожать вирусную ДНК с помощью специальной нуклеазы.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	иммунитет	иммунитет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	бактериям	бактерий	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+5	находить	находить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	12	amod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	картотеке	картотека	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	parataxis	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	определенном	определять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	участке	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+21	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	уничтожать	уничтожать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+27	вирусную	вирусный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	с	с	ADP	_	_	32	case	_	_
+30	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	fixed	_	_
+31	специальной	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	нуклеазы	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 731
+# text = У разных бактерий и архей существует несколько типов системы CRISPR и несколько нуклеаз, однако для целей редактирования генома в биоинженерии почти всегда используется нуклеаза Cas9 (это отражено в названии метода).
+1	У	у	ADP	_	_	3	case	_	_
+2	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	архей	архь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+6	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	CRISPR	Crispr	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	несколько	несколько	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	нуклеаз	нуклеаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	однако	однако	ADV	_	Degree=Pos	24	advmod	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	биоинженерии	биоинженерия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+22	почти	почти	ADV	_	Degree=Pos	23	advmod	_	_
+23	всегда	всегда	ADV	_	Degree=Pos	24	advmod	_	_
+24	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	нуклеаза	нуклеаза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+26	Cas9	Cas9	NUM	_	_	27	nummod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj:pass	_	_
+29	отражено	отражять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	25	parataxis	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	названии	название	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_
+32	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 732
+# text = Главное преимущество именно этой нуклеазы в том, что Cas9 работает самостоятельно (это один белок), в то время как большинство остальных нуклеаз CRISPR работают в комплексе из нескольких ферментов, а использовать мультисубъединичные комплексы для редактирования генома неудобно и часто неэффективно.
+1	Главное	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	именно	именно	PART	_	_	4	advmod	_	_
+4	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	нуклеазы	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	Cas9	Cas9	NUM	_	_	11	nummod	_	_
+11	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+12	самостоятельно	самостоятельно	ADV	_	Degree=Pos	11	advmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+15	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	в	в	ADP	_	_	23	cc	_	_
+20	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	как	как	SCONJ	_	_	21	fixed	_	_
+23	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+24	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	нуклеаз	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	комплексе	комплекс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+30	из	из	ADP	_	_	32	case	_	_
+31	нескольких	несколько	NUM	_	Case=Gen	32	nummod	_	_
+32	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	а	а	CCONJ	_	_	35	cc	_	_
+35	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	44	nsubj	_	_
+36	мультисубъединичные	мультисубъединичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+37	комплексы	комплекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obj	_	_
+38	для	для	ADP	_	_	39	case	_	_
+39	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	_
+40	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+41	неудобно	неудобно	ADV	_	Degree=Pos	35	advmod	_	_
+42	и	и	CCONJ	_	_	44	cc	_	_
+43	часто	часто	ADV	_	Degree=Pos	44	advmod	_	_
+44	неэффективно	неэффективный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	27	conj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 733
+# text = У системы CRISPR/Cas9 есть три ключевых недостатка.
+1	У	у	ADP	_	_	2	case	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+3	CRISPR	Crispr	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	/Cas9	/Cas9	NUM	_	_	3	nummod	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+6	три	три	NUM	_	Case=Nom	8	nummod:gov	_	_
+7	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	недостатка	недостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 734
+# text = Во-первых, нуклеаза Cas9 -- довольно большой белок, ген которого часто не "влезает" в те носители (векторы), что используются для введения генетических конструкций в клетках.
+1	Во-первых	во-первых	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	нуклеаза	нуклеаза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	Cas9	Cas9	NUM	_	_	3	nummod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	довольно	довольно	ADV	_	Degree=Pos	7	advmod	_	_
+7	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	часто	часто	ADV	_	Degree=Pos	15	advmod	_	_
+13	не	не	PART	_	_	15	advmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	влезает	влезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	те	тот	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+19	носители	носитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	векторы	вектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	что	что	PRON	_	Case=Nom	25	nsubj:pass	_	_
+25	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	parataxis	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+28	генетических	генетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	конструкций	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	клетках	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 735
+# text = Во-вторых, Cas9 действует только на ДНК, а не РНК.
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Cas9	Cas9	NUM	_	_	4	nummod	_	_
+4	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	только	только	PART	_	_	7	advmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 736
+# text = Это нельзя назвать недостатком если мы действительно хотим редактировать геном клетки, то есть менять ее ДНК.
+1	Это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+2	нельзя	нельзя	ADV	_	Degree=Pos	0	root	_	_
+3	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	недостатком	недостатк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	если	если	SCONJ	_	_	3	mark	_	_
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+7	действительно	действительно	ADV	_	Degree=Pos	8	advmod	_	_
+8	хотим	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	редактировать	редактировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	mark	_	_
+14	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	fixed	_	_
+15	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+16	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
+17	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 737
+# text = Однако часто нужного результата можно добиться просто "выключив" активность нужного гена на уровне РНК -- просто уничтожив все сделанные с этого гена копии.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	часто	часто	ADV	_	Degree=Pos	5	advmod	_	_
+3	нужного	нужный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	nsubj	_	_
+7	просто	просто	PART	_	_	9	advmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	выключив	выключать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	нужного	нужный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+16	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	просто	просто	PART	_	_	19	advmod	_	_
+19	уничтожив	уничтожать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	_
+20	все	весь	DET	_	Case=Acc|Number=Plur	25	amod	_	_
+21	сделанные	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	_
+24	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+25	копии	копия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 738
+# text = Такое вмешательство, известное по примеру РНК интерференции, потенциально более безопасно, так как не вносит нестабильности в геном.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	вмешательство	вмешательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	известное	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+7	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	интерференции	интерференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	потенциально	потенциально	ADV	_	Degree=Pos	11	advmod	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	безопасно	безопасный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	12	mark	_	_
+15	как	как	SCONJ	_	_	14	fixed	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	вносит	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+18	нестабильности	нестабильность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+19	в	в	ADP	_	_	18	case	_	_
+20	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 739
+# text = Например, если даже нуклеаза ошибается в выборе мишени, это никак не ведет к появлению мутаций в геноме.
+1	Например	например	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	если	если	SCONJ	_	_	14	mark	_	_
+4	даже	даже	PART	_	_	5	advmod	_	_
+5	нуклеаза	нуклеаза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ошибается	ошибаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	выборе	выбор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	никак	никак	ADV	_	Degree=Pos	14	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+17	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	геноме	геном	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 740
+# text = Такой метод потенциально может быть ближе к терапевтическому применению, чем настоящее редактирование генома с помощью CRISPR/Cas9. В-третьих, сейчас метод редактирования генома CRISPR/Cas9 является предметом патентного спора, что может существенно отложить его приход в клиническую практику.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	потенциально	потенциально	ADV	_	Degree=Pos	4	advmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+6	ближе	близкий	ADJ	_	Degree=Cmp	4	obl	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	терапевтическому	терапевтический	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	применению	применение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чем	чем	SCONJ	_	_	13	cc	_	_
+12	настоящее	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	редактирование	редактирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	advmod	_	_
+14	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	с	с	ADP	_	_	13	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	CRISPR	Crispr	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+18	/Cas9	/Cas9	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+20	В-третьих	в-третьих	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сейчас	сейчас	ADV	_	Degree=Pos	27	advmod	_	_
+23	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+24	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	CRISPR/Cas9	CRISPR/Cas9	NUM	_	_	23	nummod	_	_
+27	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	предметом	предмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+29	патентного	патентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	спора	спор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	что	что	PRON	_	Case=Nom	33	nsubj	_	_
+33	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+34	существенно	существенно	ADV	_	Degree=Pos	35	advmod	_	_
+35	отложить	откладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+36	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	37	nmod	_	_
+37	приход	приход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+38	в	в	ADP	_	_	40	case	_	_
+39	клиническую	клинический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	практику	практика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 741
+# text = Все эти причины требуют поиска новых нуклеаз, которые можно было бы использовать для регуляции активности генов.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	нуклеаз	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Acc	10	obj	_	_
+10	можно	можно	ADV	_	Degree=Pos	7	acl:relcl	_	_
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+12	бы	бы	PART	_	Mood=Cnd	10	aux	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 742
+# text = Ранее этой же группе исследователей удалось создать биоинформатическую систему поиска новых видов иммунитета CRISPR в геномных данных бактерий и найти новый класс систем CRISPR,том числе гипотетическую нуклеазу С2с2.
+1	Ранее	рано	ADV	_	Degree=Cmp	4	advmod	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	группе	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	биоинформатическую	биоинформатический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в1	ADP	_	_	13	case	_	_
+16	геномных	геномный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+18	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	_
+21	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	класс	класс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+23	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	CRISPR,том	CRISPR,т	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	_
+25	числе	числ	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+26	гипотетическую	гипотетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	нуклеазу	нуклеаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+28	С2с2	санти2сетр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 743
+# text = Это небольшой белок, который, как показывал анализ последовательности, скорее всего действует не на ДНК, а на РНК.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	который	который	PRON	_	Case=Nom	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	14	mark	_	_
+8	показывал	показывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+9	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	скорее	скорее	ADV	_	Degree=Pos	14	advmod	_	_
+13	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+15	не	не	PART	_	_	17	advmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	21	cc	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	РНК	Рнк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 744
+# text = В новой работе ученым удалось подтвердить эти предположения и опробовать новую систему CRISPR/C2c2 в действии.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	подтвердить	дтвердить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	эти	этот	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	предположения	предположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	опробовать	опробовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	_
+11	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	CRISPR/C2c2	CRISPR/C2c2	NOUN	_	_	12	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	действии	действие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 745
+# text = Для этого авторы перенесли последовательности CRISPR, C2c2 и других компонентов системы из лептотрихии (Leptotrichia shahii), в геноме которой ее обнаружили, в геном кишечной палочки.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	C2c2	C2c2	NUM	_	_	12	nummod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	компонентов	компонент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	лептотрихии	лептотрихия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Leptotrichia	Leptotrichia	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	shahii	shahii	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	геноме	геном	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+22	которой	который	PRON	_	Case=Gen	21	nmod	_	_
+23	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obj	_	_
+24	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+28	кишечной	кишечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 746
+# text = Затем ученые заражали бактерий РНК-вирусом MS2 и смотрели на выжившие клетки.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	заражали	заражать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	бактерий	бактерий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	РНК-	РНК-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	вирусом	вирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	MS2	MS2	NUM	_	_	6	nummod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	смотрели	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	выжившие	выживать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+12	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 747
+# text = Таким образом удалось обнаружить фрагменты вируса, которые наиболее всего уязвимы для действия CRISPR/C2c2 и определить субстратные предпочтения фермента C2c2.В качестве теста биоинженерных свойств системы CRISPR/C2c2 авторы научились выключать красное свечение бактерий за счет уничтожения РНК предварительно введенного в клетки гена красного флюоресцентного белка.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	фрагменты	фрагменты	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	29	nsubj	_	_
+9	наиболее	наиболее	ADV	_	Degree=Pos	11	advmod	_	_
+10	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	11	amod	_	_
+11	уязвимы	уязвим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+14	CRISPR/C2c2	CRISPR/C2c2	NOUN	_	_	29	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	conj	_	_
+17	субстратные	субстратный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	предпочтения	предпочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	29	obj	_	_
+19	фермента	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+20	C2c2.	c2c2.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+21	В	в	ADP	_	_	23	case	_	_
+22	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	fixed	_	_
+23	теста	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
+24	биоинженерных	биоинженерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
+26	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	CRISPR/C2c2	CRISPR/C2c2	NUM	_	_	26	nummod	_	_
+28	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	научились	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+30	выключать	выключать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	красное	красный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	свечение	свечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+33	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	_
+34	за	за	ADP	_	_	36	case	_	_
+35	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	fixed	_	_
+36	уничтожения	уничтожение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	_
+37	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	appos	_	_
+38	предварительно	предварительно	ADV	_	Degree=Pos	39	advmod	_	_
+39	введенного	вводить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	amod	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	39	obl	_	_
+42	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+43	красного	красной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+44	флюоресцентного	флюоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+45	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 748
+# text = По словам ученых, эффективность выключения составила от 20 до 92 процентов, в зависимости от выбранной мишени на РНК флюоресцентного белка.Такая эффективность сравнима с эффективностью РНК-интерференции, которая работает сходным образом, но за счет других молекулярно-биологических механизмов.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	выключения	выключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	20	20	NUM	_	_	12	nummod	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	92	92	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	выбранной	выбирать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	мишени	мишень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	РНК	Рнк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+21	флюоресцентного	флюоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	белка.	белка.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	24	amod	_	_
+24	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+25	сравнима	сравнимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	7	parataxis	_	_
+26	с	с	ADP	_	_	27	case	_	_
+27	эффективностью	эффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	_
+28	РНК-интерференции	РНК-интерференция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	которая	который	PRON	_	Case=Nom	31	nsubj	_	_
+31	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+32	сходным	сходный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	но	но	CCONJ	_	_	40	cc	_	_
+36	за	за	ADP	_	_	40	case	_	_
+37	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	fixed	_	_
+38	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+39	молекулярно-биологических	молекулярно-биологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 749
+# text = У РНК-интерференции при этом есть собственные недостатки.
+1	У	у	ADP	_	_	2	case	_	_
+2	РНК-интерференции	РНК-интерференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	собственные	собственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	недостатки	недостаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 750
+# text = Например, короткие РНК, которые вводятся в клетки для выключения генов, очень быстро уничтожаются неспецифичными РНКазами и часто не могут проникнуть в клетку, из-за чего терапевтическая эффективность существенно снижается.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	короткие	короткий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	7	nsubj:pass	_	_
+7	вводятся	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	выключения	выключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+12	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	_
+15	быстро	быстро	ADV	_	Degree=Pos	16	advmod	_	_
+16	уничтожаются	уничтожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+17	неспецифичными	неспецифичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	РНКазами	РНКаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+19	и	и	CCONJ	_	_	22	cc	_	_
+20	часто	часто	ADV	_	Degree=Pos	22	advmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+23	проникнуть	проникать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	клетку	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	из-за	из-за	ADP	_	_	28	case	_	_
+28	чего	что	PRON	_	Case=Gen	32	obl	_	_
+29	терапевтическая	терапевтический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+31	существенно	существенно	ADV	_	Degree=Pos	32	advmod	_	_
+32	снижается	снижаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 751
+# text = Александр Ершов
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ершов	ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 752

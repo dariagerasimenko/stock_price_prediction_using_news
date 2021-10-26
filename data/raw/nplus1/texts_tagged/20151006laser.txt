@@ -1,0 +1,267 @@
+# text = # newpar
+# sent_id = 283
+# text = Американская компания Lockheed Martin приступила к производству боевых лазеров модульного типа, мощность которых можно наращивать простым добавлением новых излучателей.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	приступила	приступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	производству	производство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+8	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	лазеров	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	которых	который	PRON	_	Case=Gen	13	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	acl:relcl	_	_
+16	наращивать	наращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	простым	простый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	добавлением	добавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+19	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	излучателей	излучатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 284
+# text = Согласносообщениюкомпании, первой будет собрана установка мощностью 60 киловатт, которую передадут Армии США для установки на боевую машину.
+1	Согласносообщениюкомпании	Согласносообщениюкомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	собрана	собирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+7	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+8	60	60	NUM	_	_	9	nummod	_	_
+9	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которую	который	PRON	_	Case=Acc	12	obj	_	_
+12	передадут	передавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+13	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	боевую	боевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 285
+# text = Ее мощность можно увеличить до 120 киловатт.По данным компании, речь идет о волоконном лазере, каждый из модулей которого является унифицированным.
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	120	120	NUM	_	_	7	nummod	_	_
+7	киловатт.	киловатто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+8	По	по	ADP	_	_	9	case	_	_
+9	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	4	obl	_	_
+10	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+14	о	о	ADP	_	_	16	case	_	_
+15	волоконном	волоконный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	лазере	лазер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	nsubj	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	модулей	модуль	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	которого	который	PRON	_	Case=Gen	20	nmod	_	_
+22	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+23	унифицированным	унифицировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 286
+# text = Это позволит в короткие сроки развернуть масштабный выпуск.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	короткие	короткий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	сроки	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+6	развернуть	разверать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	масштабный	масштабный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 287
+# text = Другие подробности о начавшемся производстве не уточняются.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	начавшемся	начавшуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	7	amod	_	_
+5	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 288
+# text = В частности, неизвестны сроки поставки боевых лазерных установок и их количество.В апреле 2014 года Lockheed Martin получила контракт Армии США на разработку, производство и испытание боевого волоконного лазера мощностью 60 киловатт.
+1	В	в	ADP	_	_	4	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	сроки	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	поставки	поставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	лазерных	лазерной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	установок	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	В	в	ADP	_	_	15	case	_	_
+15	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+16	2014	2014	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Lockheed	Lockheed	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Martin	Martin	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	22	nmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	conj	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	испытание	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	conj	_	_
+30	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	волоконного	волоконный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	лазера	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+33	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	conj	_	_
+34	60	60	NUM	_	_	35	nummod	_	_
+35	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 289
+# text = Это оружие планируется использовать для поражения неуправляемых ракет, артиллерийских снарядов, минометных мин и беспилотных летательных аппаратов.
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	поражения	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	неуправляемых	неуправляемый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	артиллерийских	артиллерийский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	снарядов	снаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	минометных	минометный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	мин	мина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 290
+# text = Установка войдет в состав боевой машины HEL MD.Ранее американская компания представила технологию спектрального совмещения для волоконных лазеров.
+1	Установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	войдет	входить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	HEL	Hel	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	MD.	md.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	SpaceAfter=No
+9	Ранее	орана	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+10	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	представила	представять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	спектрального	спектральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	совмещения	совмещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	для	для	ADP	_	_	18	case	_	_
+17	волоконных	волоконный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	лазеров	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 291
+# text = Lockheed Martin показалалазер мощностью 30 киловатт, в котором использовались несколько генераторов, лучи от которых передавались по оптическому волокну в специальное устройство совмещения.В новой установке каждый передаваемый по волоконно-оптическим линиям лазерный луч имеет отличную от других длину волны, а в устройстве совмещения они объединяются в один более мощный луч.
+1	Lockheed	Lockheed	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	Martin	Martin	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	показалалазер	показалалазирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	30	30	NUM	_	_	6	nummod	_	_
+6	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	котором	который	PRON	_	Case=Loc	10	obl	_	_
+10	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+11	несколько	несколько	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	генераторов	генератор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nsubj:pass	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	лучи	луч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+17	передавались	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+18	по	по	ADP	_	_	20	case	_	_
+19	оптическому	оптический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	волокну	волокн	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	специальное	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obl	_	_
+24	совмещения	совмещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	В	в	ADP	_	_	28	case	_	_
+27	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	37	obl	_	_
+29	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+30	передаваемый	передавать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	36	amod	_	_
+31	по	по	ADP	_	_	34	case	_	_
+32	волоконно-	волоконно-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	оптическим	оптический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	34	amod	_	_
+34	линиям	линия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	30	obl	_	_
+35	лазерный	лазерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	луч	луч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+37	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+38	отличную	отличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	obj	_	_
+39	от	от	ADP	_	_	41	case	_	_
+40	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	_
+42	волны	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	а	а	CCONJ	_	_	49	cc	_	_
+45	в	в	ADP	_	_	46	case	_	_
+46	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	obl	_	_
+47	совмещения	совмещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+48	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	49	nsubj	_	_
+49	объединяются	объединяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	41	conj	_	_
+50	в	в	ADP	_	_	54	case	_	_
+51	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	52	nummod:gov	_	_
+52	более	более	ADV	_	Degree=Cmp	53	advmod	_	_
+53	мощный	мощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+54	луч	луч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 292
+# text = Новая технология, по данным Lockheed Martin, позволяет в среднем на 50 процентов сократить расход энергии по сравнению с твердотельными лазерами.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	9	parataxis	_	_
+6	Lockheed	Lockheed	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Martin	Martin	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	50	50	NUM	_	_	14	nummod	_	_
+14	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+15	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+16	расход	расход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	по	по	ADP	_	_	22	case	_	_
+19	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	fixed	_	_
+20	с	с	ADP	_	_	19	fixed	_	_
+21	твердотельными	твердотельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	лазерами	лазера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# newpar
+# sent_id = 293

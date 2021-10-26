@@ -1,0 +1,507 @@
+# text = # newpar
+# sent_id = 3208
+# text = Астрономы, работающие с данными телескопа "Хаббл", обнаружили природный спутник у Макемаке -- карликовой планеты, находящейся за Плутоном, в поясе Койпера.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	работающие	работать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	3	obl	_	_
+6	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	природный	природный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	спутник	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	Макемаке	Макемак	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	находящейся	находиться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	0	amod	_	_
+21	за	за	ADP	_	_	22	case	_	_
+22	Плутоном	Плутон	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	поясе	пояс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+26	Койпера	Койпер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3209
+# text = Об этом сообщается на сайте NASA.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3210
+# text = Спутник получил временное название S/2015 (136472) или MK 2, однако пока о нем известно довольно мало.
+1	Спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	временное	временный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	S/2015	S/2015	NUM	_	_	4	nummod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	136472	136472	NUM	_	_	5	nummod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	MK	Mk	PROPN	_	Foreign=Yes	7	conj	_	_
+11	2	2	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	17	advmod	_	_
+14	пока	пока	ADV	_	Degree=Pos	17	advmod	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	нем	оно	PRON	_	Case=Loc|Gender=Neut|Number=Sing|Person=3	17	nmod	_	_
+17	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	_
+18	довольно	довольно	ADV	_	Degree=Pos	19	advmod	_	_
+19	мало	мало	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3211
+# text = Так, остаются непонятными параметры орбиты, по которым спутник вращается вокруг карликовой планеты.
+1	Так	так	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	непонятными	непонятной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	параметры	параметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	которым	который	PRON	_	Case=Dat	11	obl	_	_
+10	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	вращается	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+12	вокруг	вокруг	ADP	_	_	14	case	_	_
+13	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3212
+# text = По слова Алекса Паркера из Югозападного исследовательского института в Боулдере, орбита спутника видна с Земли с краю (луч зрения лежит почти в плоскости орбиты), поэтому ее отраженный свет сильно заслоняется светом планеты и рассмотреть движение MK 2 непросто.
+1	По	по	ADP	_	_	2	case	_	_
+2	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	parataxis	_	_
+3	Алекса	Алекс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Паркера	Паркер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	из	из	ADP	_	_	8	case	_	_
+6	Югозападного	Югозападный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Боулдере	Боулдер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	орбита	орбита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	видна	видный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	краю	край	NOUN	_	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	0	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	луч	луч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+21	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	почти	почти	ADV	_	Degree=Pos	25	advmod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	плоскости	плоскость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+26	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	поэтому	поэтому	ADV	_	Degree=Pos	34	advmod	_	_
+30	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	32	nmod	_	_
+31	отраженный	отражеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+33	сильно	сильно	ADV	_	Degree=Pos	34	advmod	_	_
+34	заслоняется	заслонивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	conj	_	_
+35	светом	свет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+36	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	рассмотреть	рассматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	conj	_	_
+39	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	_
+40	MK	Mk	PROPN	_	Foreign=Yes	39	flat:foreign	_	_
+41	2	2	NUM	_	_	42	nummod	_	_
+42	непросто	непростой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3213
+# text = Спутник в 1300 раз бледнее Макемаке и был обнаружен на удалении в 21 тысячу километров от нее.
+1	Спутник	спутник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	1300	1300	NUM	_	_	4	nummod	_	_
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	бледнее	бледный	ADJ	_	Degree=Cmp	9	advmod	_	_
+6	Макемаке	Макемак	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	обнаружен	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	удалении	удаление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	21	21	NUM	_	_	14	nummod	_	_
+14	тысячу	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+15	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3214
+# text = Если MK 2 двигается по круговой орбите, то период обращения должен составить около 12 дней или немного больше, но пока эти цифры остаются предварительными.
+1	Если	если	SCONJ	_	_	12	mark	_	_
+2	MK	Mk	PROPN	_	Foreign=Yes	4	nsubj	_	_
+3	2	2	NUM	_	_	2	nummod	_	_
+4	двигается	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	круговой	круговой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	орбите	орбита	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	SCONJ	_	_	4	cc	_	_
+10	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	обращения	обращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+13	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	12	12	NUM	_	_	16	nummod	_	_
+16	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	или	или	CCONJ	_	_	19	cc	_	_
+18	немного	немного	ADV	_	Degree=Pos	19	advmod	_	_
+19	больше	больше	ADV	_	Degree=Cmp	12	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	но	но	CCONJ	_	_	25	cc	_	_
+22	пока	пока	ADV	_	Degree=Pos	25	advmod	_	_
+23	эти	этот	DET	_	Case=Nom|Number=Plur	24	amod	_	_
+24	цифры	цифра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+25	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+26	предварительными	предварительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3215
+# text = Судя по сделанным "Хабблом" снимкам, диаметр спутника составляет около 160 километров, то есть он примерно в десять раз меньше "своей" карликовой планеты.
+1	Судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+2	по	по	ADP	_	_	5	case	_	_
+3	сделанным	делать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Хабблом	Хаббл	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	снимкам	снимкам	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	около	около	ADP	_	_	14	case	_	_
+13	160	160	NUM	_	_	14	nummod	_	_
+14	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	mark	_	_
+17	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	fixed	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+19	примерно	примерно	ADV	_	Degree=Pos	22	advmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	десять	десять	NUM	_	Case=Acc	22	nummod:gov	_	_
+22	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+23	меньше	малый	ADJ	_	Degree=Cmp	11	advcl	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3216
+# text = MK 2 отличается от нее еще и более темным цветом поверхности (низким альбедо).
+1	MK	Mk	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	2	2	NUM	_	_	1	nummod	_	_
+3	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	obl	_	_
+6	еще	еще	ADV	_	Degree=Pos	8	advmod	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+9	темным	темный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	цветом	цвет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+11	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	альбедо	альбедо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3217
+# text = Сама Макемаке, как считается, полностью покрыта льдом (углекислым или водным -- это пока не известно), но ее луна, судя по всему, за счет более низкой гравитации удержать лед на своей поверхности не может.
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Макемаке	Макемака	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	8	mark	_	_
+5	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	полностью	полностью	ADV	_	Degree=Pos	8	advmod	_	_
+8	покрыта	покрывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	льдом	лед	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	углекислым	углекислый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	водным	водный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+16	пока	пока	ADV	_	Degree=Pos	18	advmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	но	но	CCONJ	_	_	40	cc	_	_
+22	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+23	луна	луна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	40	advcl	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	всему	все	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	за	за	ADP	_	_	33	case	_	_
+30	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	fixed	_	_
+31	более	более	ADV	_	Degree=Cmp	32	advmod	_	_
+32	низкой	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	obl	_	_
+34	удержать	удерживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	40	nsubj	_	_
+35	лед	лед	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+36	на	на	ADP	_	_	38	case	_	_
+37	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	38	amod	_	_
+38	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 3218
+# text = Это сближает спутник другими телами пояса Койпера -- кометами, которые теряют поверхностный лед за счет сублимации под действием солнечного излучения и вакуума космоса.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	сближает	сближавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	спутник	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+4	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	телами	теел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+6	пояса	пояс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Койпера	Койпер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	кометами	комет	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	теряют	терявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	поверхностный	поверхностный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	лед	лед	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	за	за	ADP	_	_	17	case	_	_
+16	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	сублимации	сублимация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+18	под	под	ADP	_	_	19	case	_	_
+19	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+20	солнечного	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	вакуума	вакуум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_
+24	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3219
+# text = По словам Паркера, открытие спутника Макемаке интересно не только само по себе, но и потому, что позволит значительно уточнить массу самой карликовой планеты (когда параметры ее орбиты станут ясны).
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	20	parataxis	_	_
+3	Паркера	Паркер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	открытие	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+6	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Макемаке	Макемаке	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+8	интересно	интересно	ADV	_	Degree=Pos	20	advmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	только	только	PART	_	_	11	advmod	_	_
+11	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	acl	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	себе	себя	PRON	_	Case=Dat	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	но	но	CCONJ	_	_	17	cc	_	_
+16	и	и	PART	_	_	15	advmod	_	_
+17	потому	потому	ADV	_	Degree=Pos	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	PRON	_	Case=Nom	17	mark	_	_
+20	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+21	значительно	значительно	ADV	_	Degree=Pos	22	advmod	_	_
+22	уточнить	уточнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	когда	когда	SCONJ	_	_	26	mark	_	_
+29	параметры	параметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+30	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	31	nmod	_	_
+31	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	станут	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+33	ясны	ясный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	32	obl	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3220
+# text = Астроном сравнивает обнаружение MK 2 с открытием Харона, которое позволило почти в сотню раз уменьшить оценки массы Плутона.
+1	Астроном	астроном	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сравнивает	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	обнаружение	обнаружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	MK	Mk	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	2	2	NUM	_	_	4	nummod	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	открытием	открытие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+8	Харона	Харон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которое	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+12	почти	почти	ADV	_	Degree=Pos	14	advmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	сотню	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+15	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	уменьшить	уменьшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+17	оценки	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3221
+# text = Макемаке находится в поясе Койпера и относится к пяти картиковым планетам, признаваемых Астрономическим союзом.
+1	Макемаке	Макемака	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+2	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	поясе	пояс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Койпера	Койпер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	к	к	ADP	_	_	11	case	_	_
+9	пяти	пять	NUM	_	Case=Dat	11	nummod	_	_
+10	картиковым	картиковый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	планетам	планета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	признаваемых	признавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	Астрономическим	Астрономический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	союзом	союз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3222
+# text = Четыре остальные это Плутон, Церера Хаумея и Эрис.
+1	Четыре	четыре	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	остальные	остальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	Плутон	плутон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Церера	Церер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+7	Хаумея	Хаумей	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	Эрис	Эрис	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3223
+# text = У Плутона на сегодняшний день известно пять спутников: Харон, Гидра, Никта, Кербер и Стикс причем последние два были открыты относительно недавно, в 2011-2012 годах.
+1	У	у	ADP	_	_	2	case	_	_
+2	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+6	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	пять	пять	NUM	_	Case=Acc	8	nummod:gov	_	_
+8	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	Харон	Харон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Гидра	Гидра	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Никта	Никта	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	Кербер	Кербер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	Стикс	стикс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+19	причем	причем	CCONJ	_	_	23	cc	_	_
+20	последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	два	два	NUM	_	Case=Nom|Gender=Masc	23	nsubj	_	_
+22	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	открыты	открывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+24	относительно	относительно	ADV	_	Degree=Pos	23	advmod	_	_
+25	недавно	недавно	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	в	в	ADP	_	_	31	case	_	_
+28	2011	2011	NUM	_	_	31	nummod	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	2012	2012	NUM	_	_	28	nummod	_	_
+31	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3224
+# text = У Хаумеи известно два спутника, Хииака и Намака.
+1	У	у	ADP	_	_	2	case	_	_
+2	Хаумеи	Хаумея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+3	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	два	два	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+5	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Хииака	Хииак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	Намака	Намак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3225
+# text = Спутник Эриса -- открытая в 2005 году Дисномия.
+1	Спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	Эриса	Эрис	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	открытая	открывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	2005	2005	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	Дисномия	Дисномия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3226
+# text = Единственной карликовой планетой без спутника в Солнечной системе, таким образом, остается Церера.
+1	Единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	карликовой	карликовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	планетой	планета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+4	без	без	ADP	_	_	5	case	_	_
+5	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	Солнечной	солнечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	Церера	Церер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3227
+# text = Александр Ершов Уточнение: В изначальной версии заметки было неверно указано расстояние от карликовой планеты до ее спутника.
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	Ершов	ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Уточнение	уточнение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	В	в	ADP	_	_	7	case	_	_
+6	изначальной	изначальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+8	заметки	заметка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+10	неверно	неверно	ADV	_	Degree=Pos	11	advmod	_	_
+11	указано	указывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	от	от	ADP	_	_	15	case	_	_
+14	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	18	nmod	_	_
+18	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3228
+# text = Редакция просит прощения у своих читателей.
+1	Редакция	редакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	просит	просеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	прощения	прощение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	у	у	ADP	_	_	6	case	_	_
+5	своих	свой	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	читателей	читатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3229

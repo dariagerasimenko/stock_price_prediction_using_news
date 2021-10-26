@@ -1,0 +1,246 @@
+# text = # newpar
+# sent_id = 2234
+# text = Армия США приступила к испытаниям израильской активной системы защиты Trophy, называемой военными "Ветровкой", на основных боевых танках M1A2 Abrams и боевых машинах Stryker.
+1	Армия	армия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	приступила	приступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+6	израильской	израильский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	активной	активной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Trophy	Trophy	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	называемой	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	amod	_	_
+13	военными	военный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Ветровкой	Ветровка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	на	на	ADP	_	_	21	case	_	_
+19	основных	основной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+20	боевых	боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	танках	танка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+22	M1A2	M1A2	NOUN	_	_	21	nmod	_	_
+23	Abrams	Abrams	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	боевых	боевый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	_
+26	машинах	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	_
+27	Stryker	Stryker	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2235
+# text = КаксообщаетFoxtrot Alpha, эту же систему в ближайшее время намерена испытать Морская пехота США.
+1	КаксообщаетFoxtrot	КаксообщаетFoxtrot	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Alpha	Alpha	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+5	же	же	PART	_	_	4	advmod	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+10	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+11	испытать	испытавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+12	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2236
+# text = Военные уже начали подготавливать танки M1A1 к установке защиты.В общей сложности Армия США взяла у израильской компании Rafael, разработавшей Trophy, четыре комплекта системы активной защиты.
+1	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	подготавливать	подготавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	танки	танк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	M1A1	M1A1	NUM	_	_	5	nummod	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	установке	установка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	obl	_	_
+9	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	ADP	_	_	13	case	_	_
+12	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+14	Армия	армия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	14	nmod	_	_
+16	взяла	брать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	у	у	ADP	_	_	19	case	_	_
+18	израильской	израильский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+20	Rafael	Rafael	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	разработавшей	разработавать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	amod	_	_
+23	Trophy	Trophy	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	26	nummod:gov	_	_
+26	комплекта	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+27	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	активной	активной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2237
+# text = В ходе испытаний они используются для защиты военной техники от противотанковых ракет с системой наведения и реактивных гранат.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj:pass	_	_
+5	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	военной	военный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	от	от	ADP	_	_	12	case	_	_
+11	противотанковых	противотанковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+15	наведения	наведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	реактивных	реактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	гранат	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2238
+# text = Другие подробности испытаний не уточняются.Танковая активная защита Trophy была разработана в первой половине 2000-х годов.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Танковая	танковой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	защита	защита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	Trophy	Trophy	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	первой	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+16	2000-х	2000-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2239
+# text = Она предназначена для защиты техники от противотанковых ракет.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	предназначена	предназначать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	от	от	ADP	_	_	8	case	_	_
+7	противотанковых	противотанковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2240
+# text = В состав защиты входит радиолокационная станция, компьютер и две пусковые установки с системой автоматического заряжания.
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	радиолокационная	радиолокационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	две	два	NUM	_	Case=Nom|Gender=Fem	12	nummod:gov	_	_
+11	пусковые	пусковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+15	автоматического	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	заряжания	заряжание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2241
+# text = После того, как радар обнаружит подлетающий боеприпас, компьютер вычисляет его траекторию и отдает команду пусковым установкам.Установки выстреливают в сторону боеприпаса несколько металлических шариков, которые и уничтожают ракету или гранату на подлете.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	радар	радар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	обнаружит	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	подлетающий	подлетать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	боеприпас	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	вычисляет	вычислять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	отдает	отдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+16	команду	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	пусковым	пусковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	установкам.	установкам.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	Установки	установка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	выстреливают	выстреливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+23	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	несколько	несколько	NUM	_	Case=Nom	26	nummod:gov	_	_
+25	металлических	металлической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	шариков	шарик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+29	и	и	PART	_	_	30	advmod	_	_
+30	уничтожают	уничтожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+31	ракету	ракет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
+32	или	или	CCONJ	_	_	33	cc	_	_
+33	гранату	гранат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	31	conj	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	подлете	подлет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2242
+# text = Сегодня Trophy является единственной в мире танковой активной системой защиты, принятой на вооружение и применявшейся в боевых действиях.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	_
+2	Trophy	Trophy	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	танковой	танковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	активной	активный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+10	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	принятой	принимать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	применявшейся	применяться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	12	conj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	боевых	боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	действиях	действие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2243
+# text = Такая система устанавливается на основные боевые танки Merkava IV.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	устанавливается	устанавливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	7	case	_	_
+5	основные	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+6	боевые	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	танки	танк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+8	Merkava	Merkava	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	IV	iv	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2244
+# text = Ею также планируется оснащать бронетранспортеры Namer.Василий Сычёв
+1	Ею	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	3	obl	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	оснащать	оснащать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	бронетранспортеры	бронетранспортер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	Namer.	namer.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+7	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+
+# newpar
+# sent_id = 2245

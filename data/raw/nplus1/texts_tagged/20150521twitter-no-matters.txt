@@ -1,0 +1,197 @@
+# text = # newpar
+# sent_id = 5238
+# text = Началась кампания по сбору средств на производство портативного 3D-принтера, способного использовать разные виды сырья при печати.
+1	Началась	начинаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	кампания	кампания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	сбору	сбор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+5	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+8	портативного	портативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	3D	3d	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+10	-принтера	-принтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	способного	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	виды	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+16	сырья	сырье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	печати	печать	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5239
+# text = Подробнее можно прочитать на странице проекта на Kickstarter.Принтер Focus оборудован магнитными креплениями, которые позволяют оперативно заменить экструдер в зависимости от сырья, используемого для печати.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	странице	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	Kickstarter.	kickstarter.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+9	Принтер	Принтер	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	_
+10	Focus	Focus	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	оборудован	оборудовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+12	магнитными	магнитный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	креплениями	крепление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	оперативно	оперативно	ADV	_	Degree=Pos	18	advmod	_	_
+18	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+19	экструдер	экструдер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+22	от	от	ADP	_	_	23	case	_	_
+23	сырья	сырье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	используемого	использовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	23	amod	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5240
+# text = На данный момент продемонстрирована возможность печати изделий из различных пластиков, нейлона, бронзы, керамики, древесной стружки, силикона и даже шоколада.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	продемонстрирована	продемонстрироывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	изделий	изделие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	пластиков	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	нейлона	нейлон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	бронзы	бронза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	керамики	керамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	древесной	древесный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	стружки	стружка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	силикона	силикон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	даже	даже	PART	_	_	24	advmod	_	_
+24	шоколада	шоколада	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5241
+# text = При этом принтер не требует калибровки после замены экструдера.Портативный принтер весит семь килограммов, а конструкция складывается в компактный алюминиевый кейс.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	принтер	принтер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+9	экструдера.	экструдера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+10	Портативный	портативный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	принтер	принтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+12	весит	весеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	семь	семь	NUM	_	Case=Nom	14	nummod:gov	_	_
+14	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	складывается	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	компактный	компактный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	алюминиевый	алюминиевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	кейс	кейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5242
+# text = Для приобретения первых экземпляров 3D-принтера необходимо пожертвовать проекту от двух тысяч евро.Как правило, большая часть 3D-принтеров может печатать каким-либо одним типом сырья.
+1	Для	для	ADP	_	_	2	case	_	_
+2	приобретения	приобретение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+3	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	экземпляров	экземпляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	3D	3d	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+6	-принтера	-принтер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	пожертвовать	жертвовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+10	от	от	ADP	_	_	12	case	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	евро.	евротец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Как	как	SCONJ	_	_	15	cc	_	_
+15	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+19	3D	3d	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	-принтеров	-принтер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+21	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	каким-либо	какой-либо	DET	_	Case=Ins|Gender=Masc|Number=Sing	25	amod	_	_
+24	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	типом	тип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+26	сырья	сырье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5243
+# text = Это серьезно ограничивает владельцев принтеров в выборе объекта печати, поскольку далеко не все готовы покупать несколько устройств с практически одинаковым функционалом.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	серьезно	серьезно	ADV	_	Degree=Pos	3	advmod	_	_
+3	ограничивает	ограничивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	владельцев	владельец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	принтеров	принтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	выборе	выбор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+8	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+12	далеко	далеко	ADV	_	Degree=Pos	13	advmod	_	_
+13	не	не	PART	_	_	15	advmod	_	_
+14	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	15	nsubj	_	_
+15	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	advcl	_	_
+16	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	obl	_	_
+19	с	с	ADP	_	_	22	case	_	_
+20	практически	практически	ADV	_	Degree=Pos	21	advmod	_	_
+21	одинаковым	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	функционалом	функционал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5244
+# text = Создатели Focus уверены, что смогли успешно решить эту проблему и продолжают работать над расширением модельного ряда сменных экструдеров, чтобы охватить как можно больший диапазон материалов.
+1	Создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	Focus	Focus	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+7	успешно	успешно	ADV	_	Degree=Pos	8	advmod	_	_
+8	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+9	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	и	и	CCONJ	_	_	8	cc	_	_
+12	продолжают	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	над	над	ADP	_	_	15	case	_	_
+15	расширением	расширенье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+16	модельного	модельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	сменных	сменный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	экструдеров	экструдер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	_
+22	охватить	охватывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	advcl	_	_
+23	как	как	ADV	_	Degree=Pos	24	advmod	_	_
+24	можно	можно	ADV	_	Degree=Pos	22	advmod	_	_
+25	больший	больший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	диапазон	диапазон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nsubj	_	_
+27	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 5245

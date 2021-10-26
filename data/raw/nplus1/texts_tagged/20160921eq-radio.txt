@@ -1,0 +1,263 @@
+# text = # newpar
+# sent_id = 7481
+# text = Исследователи из Лаборатории информационных технологий и искусственного интеллекта Массачусетского технологического института (CSAIL MIT) разработали устройство, позволяющее определить эмоциональное состояние человека при помощи радиоволн с точностью до 87 процентов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Лаборатории	лаборатория	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	информационных	информационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	CSAIL	Csail	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	MIT	mit	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	позволяющее	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	эмоциональное	эмоциональный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	при	при	ADP	_	_	26	case	_	_
+25	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	fixed	_	_
+26	радиоволн	радиоволна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	nmod	_	_
+29	до	до	ADP	_	_	31	case	_	_
+30	87	87	NUM	_	_	31	nummod	_	_
+31	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 7482
+# text = Авторы выступят с докладом на конференцииMobiCom, которая пройдет в октябре в Нью-Йорке, с подробностями также можно ознакомиться на сайте лаборатории.Распознавание человеческих эмоций -- достаточно сложная задача, однако результаты ее решения могут быть востребованы в самых разных сферах.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выступят	выступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	докладом	доклад	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+5	на	на	ADP	_	_	4	case	_	_
+6	конференцииMobiCom	конференцииMobiCom	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	октябре	октябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Нью-Йорке	нью-йорк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	подробностями	подробность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	obl	_	_
+17	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+18	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+19	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	18	nsubj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	лаборатории.	лаборатории.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	Распознавание	распознавание	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	appos	_	_
+24	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	эмоций	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	--	--	PUNCT	_	_	25	punct	_	_
+27	достаточно	достаточно	ADV	_	Degree=Pos	28	advmod	_	_
+28	сложная	сложный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	однако	однако	ADV	_	Degree=Pos	35	advmod	_	_
+32	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+33	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	34	nmod	_	_
+34	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+36	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	37	aux:pass	_	_
+37	востребованы	востребовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	35	xcomp	_	_
+38	в	в	ADP	_	_	41	case	_	_
+39	самых	самый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	40	amod	_	_
+40	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	41	amod	_	_
+41	сферах	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	37	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 7483
+# text = Например, производители фильмов и видеоигр могли бы с помощью технологии распознавания эмоций напрямуюполучать информацию об эмоциональной реакции зрителей и игроков.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	производители	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	фильмов	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	видеоигр	видеоигра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	conj	_	_
+7	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	бы	бы	PART	_	Mood=Cnd	7	aux	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+12	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	эмоций	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	напрямуюполучать	напрямуюполучать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+15	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	об	о	ADP	_	_	18	case	_	_
+17	эмоциональной	эмоциональный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	реакции	реакция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+19	зрителей	зритель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	игроков	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 7484
+# text = Кроме того, подобная технология могла бы помочь социальным роботам более естественно взаимодействовать с людьми.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+7	бы	бы	PART	_	Mood=Cnd	6	aux	_	_
+8	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+9	социальным	социальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	роботам	робот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+11	более	боло	ADV	_	Degree=Cmp	12	advmod	_	_
+12	естественно	естественный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+13	взаимодействовать	взаимодействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 7485
+# text = На сегодня уже существуют примеры реализации систем распознавания эмоций -- например, с помощью алгоритма, распознающего выражение лица и речь человека.
+1	На	на	ADP	_	_	2	case	_	_
+2	сегодня	сегодня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	примеры	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	эмоций	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	fixed	_	_
+15	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	распознающего	распознать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	выражение	выражение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
+22	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 7486
+# text = Однакотакие системы неспособны распознать скрытые эмоции, в отличие от технологии, предложенной специалистами из MIT.В прошлом году двое из трех авторов текущей работы представилитехнологию для дистанционного измерения пульса и частоты дыхания человека без нательных датчиков, с помощью радара на основе Wi-Fi.
+1	Однакотакие	Однакотакой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	неспособны	неспособный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	распознать	распознавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	скрытые	скрытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	от	от	ADP	_	_	9	fixed	_	_
+11	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	предложенной	предлагать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	специалистами	специалист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl:agent	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	MIT	mit	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	20	case	_	_
+19	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+21	двое	двое	NUM	_	Case=Nom	27	nummod:gov	_	_
+22	из	из	ADP	_	_	24	case	_	_
+23	трех	три	NUM	_	Case=Gen	24	nummod	_	_
+24	авторов	автор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+25	текущей	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	представилитехнологию	представилитехнология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nsubj	_	_
+28	для	для	ADP	_	_	30	case	_	_
+29	дистанционного	дистанционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	измерения	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+31	пульса	пульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	conj	_	_
+34	дыхания	дыхание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+35	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	без	без	ADP	_	_	38	case	_	_
+37	нательных	нательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	с	с	ADP	_	_	42	case	_	_
+41	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	fixed	_	_
+42	радара	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+43	на	на	ADP	_	_	44	case	_	_
+44	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+45	Wi-Fi	Wi-Fi	X	_	Foreign=Yes	44	flat:foreign	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 7487
+# text = В новой публикации исследователи с помощью машинного обучения описали созданную ими систему под названием EQ-Radio.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	публикации	публикация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+9	описали	описывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	созданную	создывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	10	obl:agent	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+13	под	под	ADP	_	_	14	case	_	_
+14	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+15	EQ-Radio	EQ-Radio	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 7488
+# text = Эта система на основе полученных данных о сердцебиении и пульсе может распознать эмоции, которые испытывает человек в данный момент.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	сердцебиении	сердцебиение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	пульсе	пульсо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	conj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	распознать	распознать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Acc	16	obj	_	_
+16	испытывает	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 7489
+# text = В перспективе применение подобной технологии позволит считывать эмоции даже с помощью обычного Wi-Fi роутера.
+1	В	в	ADP	_	_	2	case	_	_
+2	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	считывать	считывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	даже	даже	PART	_	_	14	advmod	_	_
+10	с	с	ADP	_	_	14	case	_	_
+11	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	fixed	_	_
+12	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	Wi-Fi	Wi-Fi	NUM	_	_	14	nummod	_	_
+14	роутера	роутер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 7490

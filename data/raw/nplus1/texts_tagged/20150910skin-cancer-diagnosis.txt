@@ -1,0 +1,417 @@
+# text = # newpar
+# sent_id = 2452
+# text = Ученые из Гарвардского Университета разработали методику, позволяющую in vivo наблюдать динамическое распределение ДНК в клетке без использования каких-либо окрашивающих маркеров.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Гарвардского	Гарвардский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	in	in	X	_	Foreign=Yes	6	flat:foreign	_	_
+10	vivo	vivo	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+12	динамическое	динамический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	распределение	распределение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	клетке	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+17	без	без	ADP	_	_	18	case	_	_
+18	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+19	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+20	окрашивающих	окрашивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+21	маркеров	маркер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2453
+# text = Метод основан на микроскопии вынужденного комбинационного рассеяния (эффекте Рамана) и позволяет провести неинвазивную диагностику рака кожи, а также быстро оценить агрессивность раковых клеток.
+1	Метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+5	вынужденного	вынуждать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	комбинационного	комбинационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	эффекте	эффект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	parataxis	_	_
+10	Рамана	Раман	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	неинвазивную	неинвазивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	диагностику	диагностика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	23	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	быстро	быстро	ADV	_	Degree=Pos	23	advmod	_	_
+23	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+24	агрессивность	агрессивность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2454
+# text = Статья опубликована в Proceedings of the National Academy of Sciences, кратко ознакомиться с ее содержанием можно в отчете.Микроскопия вынужденного комбинационного рассеяния (ВКР) представляет собой метод визуализации колебательных частот химических связей.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Proceedings	proceedings	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	the	the	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	National	national	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Academy	academy	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	of	of	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Sciences	Sciences	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	кратко	кратко	ADV	_	Degree=Pos	13	advmod	_	_
+13	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	dep	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+16	содержанием	содержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+17	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	отчете.	отчете.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	Микроскопия	микроскопий	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	вынужденного	вынуждать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+22	комбинационного	комбинационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	ВКР	Вкр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	собой	себя	PRON	_	Case=Ins	27	dep	_	_
+29	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+30	визуализации	визуализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	колебательных	колебательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	частот	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2455
+# text = Различные типы связей обладают различными частотами резонансных колебаний в зависимости от молекулярного окружения.
+1	Различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	типы	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	частотами	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+7	резонансных	резонансный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+11	от	от	ADP	_	_	10	case	_	_
+12	молекулярного	молекулярной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	окружения	окружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2456
+# text = Например, колебательная частота C-H связи в молекуле ДНКнемного отличается от колебательной частоты связи в белкахи жирах.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	колебательная	колебательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	частота	частота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	C-H	C-h	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	молекуле	молекула	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+9	ДНКнемного	ДНКнемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
+10	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	от	от	ADP	_	_	13	case	_	_
+12	колебательной	колебательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+14	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	белкахи	белкахой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	conj	_	_
+17	жирах	жир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2457
+# text = В отличие от традиционной спектроскопии комбинационного рассеяния, микроскопия ВКР позволяет получать данные об образце в режиме реального времени.
+1	В	в	ADP	_	_	5	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	традиционной	традиционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	спектроскопии	спектроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+6	комбинационного	комбинационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	микроскопия	микроскопия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ВКР	Вкр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	12	obj	_	_
+14	об	о	ADP	_	_	15	case	_	_
+15	образце	образец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+18	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2458
+# text = Это позволяет "видеть" распределение веществ внутри клетки и наблюдать клеточными процессами без использования флуоресцентных маркеров.В качестве теста нового метода исследователи использовали микроскопию ВКР для поиска раковых клеток в образцах кожи.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	распределение	распределение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	внутри	внутри	ADV	_	Degree=Pos	9	advmod	_	_
+9	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	клеточными	клеточный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	процессами	процесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+14	без	без	ADP	_	_	15	case	_	_
+15	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+16	флуоресцентных	флуоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	маркеров.	маркеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	В	в	ADP	_	_	20	case	_	_
+19	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	теста	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+21	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	микроскопию	микроскопия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	ВКР	Вкр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+29	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	образцах	образец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+33	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2459
+# text = Предварительно ученые исследовалиin vitroработоспособность метода на культуре человеческих раковых клеток HeLa.
+1	Предварительно	предварительно	ADV	_	Degree=Pos	2	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	исследовалиin	исследовалиin	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	vitroработоспособность	vitroработоспособность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	культуре	культура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	HeLa	HeLa	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2460
+# text = С помощью микроскопии ВКР удалось построить трехмерную картину распределения ДНК, жиров и белков в клетке в профазе митоза: ДНК располагалась в ядре, жиры преимущественно в цитоплазме, а белки распределены по всей клетке.Последующие наблюдения позволили "рассмотреть" переход в интерфазу, метафазу и анафазу.
+1	С	с	ADP	_	_	3	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	ВКР	Вкр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	построить	строить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	трехмерную	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	картину	картина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	распределения	распределение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	клетке	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	профазе	профаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+19	митоза	митоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	ДНК	Днк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	располагалась	располагаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	ядре	ядро	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	жиры	жир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+27	преимущественно	преимущественно	ADV	_	Degree=Pos	29	advmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	цитоплазме	цитоплазм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	а	а	CCONJ	_	_	33	cc	_	_
+32	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	33	nsubj:pass	_	_
+33	распределены	пораспредеать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	36	conj	_	_
+34	по	по	ADP	_	_	36	case	_	_
+35	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	36	amod	_	_
+36	клетке.	клеткбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+37	Последующие	Последующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	36	obj	_	_
+39	позволили	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	36	parataxis	_	_
+40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	рассмотреть	рассматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	43	xcomp	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	41	punct	_	_
+43	переход	переход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	интерфазу	интерфаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	метафазу	метафаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	conj	_	_
+48	и	и	CCONJ	_	_	49	cc	_	_
+49	анафазу	анафаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 2461
+# text = Затем метод из культуры был перенесен на образцы кожи мышей и человека.Ученые смогли различить в них все стадии клеточного деления, а также наблюдали миграцию хромосом.
+1	Затем	затем	ADV	_	Degree=Pos	6	advmod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	перенесен	переносить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	образцы	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+9	кожи	кожь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	человека.	человека.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	различить	различлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obl	_	_
+18	все	весь	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+19	стадии	стадия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+20	клеточного	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	деления	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+25	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+26	миграцию	миграция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+27	хромосом	хромос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2462
+# text = Это позволило впервые количественно измерить скорость митоза in vivo и определить "агрессивность" раковых клеток.Исследование человеческой кожной ткани подтвердило применимость метода для гистологической диагностики.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+4	количественно	количественне	ADV	_	Degree=Pos	5	advmod	_	_
+5	измерить	измерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	митоза	митоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	in	in	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	vivo	vivo	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	агрессивность	агрессивность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	nmod	_	_
+16	клеток.	клетоколо	ADP	_	_	17	case	_	SpaceAfter=No
+17	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
+18	человеческой	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	кожной	кожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+21	подтвердило	подтверждать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	применимость	применимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	для	для	ADP	_	_	26	case	_	_
+25	гистологической	гистологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2463
+# text = Микроскопия ВКР позволила обнаружить увеличение числа делений клеток, что является отличительной чертой злокачественных клеток.
+1	Микроскопия	микроскопия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ВКР	Вкр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	делений	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	11	nsubj	_	_
+11	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+12	отличительной	отличительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	чертой	черта	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	злокачественных	злокачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2464
+# text = По словам авторов, новый метод не только способен ускорить проведение хирургических процедур путем визуализации опухолевых тканей, но и потенциально применим для профилактической диагностики.Для исследования клеточных процессов необходимо "заглянуть" внутрь клетки, не нарушая протекающие процессы.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+10	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	проведение	проведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	хирургических	хирургический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	процедур	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	путем	путем	ADP	_	_	15	case	_	_
+15	визуализации	визуализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+16	опухолевых	опухолевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	и	и	PART	_	_	19	advmod	_	_
+21	потенциально	потенциально	ADV	_	Degree=Pos	22	advmod	_	_
+22	применим	примений	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+23	для	для	ADP	_	_	25	case	_	_
+24	профилактической	профилактический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Для	для	ADP	_	_	28	case	_	_
+28	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+29	клеточных	клеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	заглянуть	заглядывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	nsubj	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	33	punct	_	_
+35	внутрь	внутрь	ADP	_	_	36	case	_	_
+36	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	не	не	PART	_	_	39	advmod	_	_
+39	нарушая	нарушать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+40	протекающие	протекать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	41	amod	_	_
+41	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 2465
+# text = Обычно для визуализации ДНК ее требуется метить флуоресцентными маркерами.
+1	Обычно	обычно	ADV	_	Degree=Pos	6	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	визуализации	визуализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+6	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	метить	мещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	флуоресцентными	флуоресцентный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	маркерами	маркер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2466
+# text = Подобный подход называется инвазивным, оказываемое воздействие способно изменить протекающие в клетке процессы.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	инвазивным	инвазивный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	оказываемое	оказывать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+8	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	_
+9	изменить	измеинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	протекающие	протекать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	клетке	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 2467

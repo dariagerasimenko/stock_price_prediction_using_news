@@ -1,0 +1,269 @@
+# text = # newpar
+# sent_id = 3812
+# text = Ученые из Йельского университета создали карту городов, существовавших за последние 6000 лет, примерно с 3700 года до нашей эры до 2000 года нашей эры.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Йельского	Йельский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	существовавших	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+10	за	за	ADP	_	_	13	case	_	_
+11	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	6000	6000	NUM	_	_	13	nummod	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	примерно	примерно	ADV	_	Degree=Pos	18	advmod	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	3700	3700	NUM	_	_	18	nummod	_	_
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+22	до	до	ADP	_	_	24	case	_	_
+23	2000	2000	NUM	_	_	24	nummod	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+25	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	26	amod	_	_
+26	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3813
+# text = Исследование опубликовано в Nature, коротко о нем сообщается в пресс-релизе университета.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Nature	nature	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	коротко	коротко	ADV	_	Degree=Pos	9	advmod	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+9	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3814
+# text = При создании карты исследователи использовали два основных источника: книгу историка Тертиуса Чандлера "Четыре тысячи лет роста городов: историческая перепись" и работу политолога Джорджа Модельски "Города мира: -3000 до 2000".
+1	При	при	ADP	_	_	2	case	_	_
+2	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	карты	карта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	два	два	NUM	_	Case=Nom|Gender=Masc	8	nummod:gov	_	_
+7	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+11	историка	историк	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Тертиуса	Тертиус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	Чандлера	Чандлер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Четыре	четыре	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nummod:gov	_	_
+17	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+18	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	историческая	исторический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	перепись	перепись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+26	политолога	политолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Джорджа	джордж	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	appos	_	_
+28	Модельски	Модельски	ADV	_	Degree=Pos	0	conj	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Города	Город	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	31	punct	_	_
+33	-3000	-3000	NUM	_	_	31	nummod	_	_
+34	до	до	ADP	_	_	35	case	_	_
+35	2000	2000	NUM	_	_	33	nummod	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3815
+# text = Чандлер оценил численность населения городов мира в период с 2250 года до нашей эры по 1975 год нашей эры.
+1	Чандлер	Чандлер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	оценил	оценивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	численность	численность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	городов	городы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	2250	2250	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	1975	1975	NUM	_	_	17	nummod	_	_
+17	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+18	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	17	amod	_	_
+19	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3816
+# text = Для оценки он использовал различные источники: результаты переписи населения, путеводители, дневники путешественников, энциклопедии, налоговые и военные документы, религиозную историю городов, данные о плотности населения.
+1	Для	для	ADP	_	_	2	case	_	_
+2	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	источники	источник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	parataxis	_	_
+9	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	путеводители	путеводитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	дневники	дневник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+15	путешественников	путешественник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	энциклопедии	энциклопедия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	налоговые	налоговый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	conj	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	военные	военный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	документы	документ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	религиозную	религиозный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+26	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	8	conj	_	_
+29	о	о	ADP	_	_	30	case	_	_
+30	плотности	плотность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	nmod	_	_
+31	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3817
+# text = Модельски, основываясь на данных Чандлера, включил в работу дополнительные археологические и исторические источники и расширил древний период до 3700 года до нашей эры, а современный период -- до 2000 года нашей эры.
+1	Модельски	Модельски	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	основываясь	основываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	8	advcl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	3	obl	_	_
+6	Чандлера	Чандлер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	включил	включать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+12	археологические	археологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	исторические	исторический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	conj	_	_
+15	источники	источник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	расширил	расширять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+18	древний	древний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	до	до	ADP	_	_	22	case	_	_
+21	3700	3700	NUM	_	_	22	nummod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_
+25	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	а	а	CCONJ	_	_	29	cc	_	_
+28	современный	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	до	до	ADP	_	_	33	case	_	_
+32	2000	2000	NUM	_	_	33	nummod	_	_
+33	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+34	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	35	amod	_	_
+35	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3818
+# text = И Чандлер и Модельски называли городами (и отбирали для исследования) поселения, в которых жило определенное количество людей.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	Чандлер	Чандлер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	Модельски	Модельски	ADV	_	Degree=Pos	5	advmod	_	_
+5	называли	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	городами	город	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	отбирали	отбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	поселения	поселение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Loc	17	obl	_	_
+17	жило	жить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	определенное	определенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+20	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3819
+# text = Например,в период с 3500 до 1000 года до нашей эры Модельски считал городом поселения, в которых обитало свыше 10 000 человек.
+1	Например	например	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+2	,в	,в	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	3500	3500	NUM	_	_	3	nummod	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	1000	1000	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+9	до	до	ADP	_	_	11	case	_	_
+10	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+12	Модельски	Модельски	ADV	_	Degree=Pos	13	advmod	_	_
+13	считал	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	городом	город	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	поселения	поселение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	которых	который	PRON	_	Case=Loc	19	obl	_	_
+19	обитало	обитать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	свыше	свыше	ADP	_	_	23	case	_	_
+21	10	10	NUM	_	_	23	nummod	_	_
+22	000	000	NUM	_	_	21	nummod	_	_
+23	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3820
+# text = Также авторы работы использовали данные ООН о населении городов, которые ведутся с 1950 года.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	4	obj	_	_
+6	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	населении	население	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj:pass	_	_
+12	ведутся	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	1950	1950	NUM	_	_	15	nummod	_	_
+15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3821
+# text = Ученые создали карту на основе данных о 1599 городах.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	1599	1599	NUM	_	_	9	nummod	_	_
+9	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 3822

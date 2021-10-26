@@ -1,0 +1,217 @@
+# text = # newpar
+# sent_id = 3406
+# text = Американский автоконцерн Ford приступил к испытаниям прототипов роботов-ассистентов, которые, если выйдут в серию, будут помогать людям собирать автомобили на конвейере.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	автоконцерн	автоконцерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	приступил	приступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	4	obl	_	_
+7	прототипов	прототип	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	ассистентов	ассистент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	15	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	если	если	SCONJ	_	_	15	mark	_	_
+15	выйдут	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+20	помогать	помогать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+21	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+22	собирать	собирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	конвейере	конвейер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3407
+# text = Согласносообщениюкомпании, новый робот разрабатывается совместно с немецкой компанией KUKA Roboter GmbH.В испытаниях принимают участие два робота, высота которых составляет 0,9 метра.
+1	Согласносообщениюкомпании	Согласносообщениюкомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	совместно	совместно	ADV	_	Degree=Pos	9	advmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	немецкой	немецкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+10	KUKA	Kuka	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+11	Roboter	Roboter	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	GmbH.	GmbH.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	В	в	ADP	_	_	14	case	_	_
+14	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+15	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	два	два	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+18	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	высота	высота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	которых	который	PRON	_	Case=Gen	20	nmod	_	_
+22	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+23	0,9	0,9	NUM	_	_	24	nummod	_	_
+24	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3408
+# text = Роботов-ассистентов задействовали на производственной линии Ford в Кельне, где они помогают мастерам устанавливать амортизаторы на автомобили Fiesta.
+1	Роботов-ассистентов	Роботов-ассистент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+2	задействовали	задействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	производственной	производственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	линии	линия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Кельне	Кельн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+12	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	мастерам	мастер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+14	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	амортизаторы	амортизатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+18	Fiesta	Fiesta	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3409
+# text = Аппараты помогают размещать детали в нужном месте, позиционировать их и удерживать, пока человек не закрепит амортизаторы.Роботы-ассистенты привязаны к своим сборочным площадками и оснащены набором сенсоров, позволяющих распознавать людей и держаться поблизости от них, чтобы оказать помощь.
+1	Аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	размещать	размещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	нужном	нужный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позиционировать	зиционировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+10	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	9	obj	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	удерживать	удерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пока	пока	SCONJ	_	_	12	mark	_	_
+15	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	закрепит	закрепивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	амортизаторы	амортизатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Роботы-ассистенты	Роботы-ассистент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	appos	_	_
+21	привязаны	привязывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+22	к	к	ADP	_	_	25	case	_	_
+23	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	25	amod	_	_
+24	сборочным	сборочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	площадками	площадк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	оснащены	оснаскать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+28	набором	набор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+29	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+32	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	dep	_	_
+33	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	держаться	держаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	32	conj	_	_
+36	поблизости	поблизости	ADV	_	Degree=Pos	38	advmod	_	_
+37	от	от	ADP	_	_	38	case	_	_
+38	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	чтобы	чтобы	SCONJ	_	Mood=Cnd	32	mark	_	_
+41	оказать	оказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	advcl	_	_
+42	помощь	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3410
+# text = Робот представляет собой манипулятор, который может быть оснащен различными приспособлениями: от кисти с пальцами до специального держателя амортизационных стоек с системой затяжки болтов.Манипулятор имеет и сенсоры давления, благодаря которым может выполнять работу разной сложности.
+1	Робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	который	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	aux:pass	_	_
+9	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	приспособлениями	приспособление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	кисти	кисть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	_
+17	до	до	ADP	_	_	16	case	_	_
+18	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	держателя	держатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+20	амортизационных	амортизационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	стоек	стойка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+24	затяжки	затяжка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	болтов.	болтовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	Манипулятор	манипулятхор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+28	и	и	PART	_	_	29	advmod	_	_
+29	сенсоры	сенсор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+30	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	благодаря	благодаря	ADP	_	_	33	case	_	_
+33	которым	который	PRON	_	Case=Dat	34	obl	_	_
+34	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
+35	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	xcomp	_	_
+36	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+37	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3411
+# text = По данным Ford, помимо установки амортизаторов, робот может сварить кофе в ближайшем автомате.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	10	parataxis	_	_
+3	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	помимо	помимо	ADP	_	_	6	case	_	_
+6	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+7	амортизаторов	амортизатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	сварить	варить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	кофе	кофе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	ближайшем	ближайший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	автомате	автомат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3412
+# text = По оценке автоконцерна, роботы-ассистенты позволят сделать работу людей-сборщиков безопаснее и качественнее, а также ускорить выпуск автомобилей.Василий Сычёв
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+3	автоконцерна	автоконцерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	роботы	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	ассистенты	ассистент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_
+8	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	сборщиков	сборщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	безопаснее	безопасно	ADV	_	Degree=Cmp	16	advmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	качественнее	качественно	ADV	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	также	также	ADV	_	Degree=Pos	20	advmod	_	_
+20	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+21	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+25	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 3413

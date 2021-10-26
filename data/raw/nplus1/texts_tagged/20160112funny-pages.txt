@@ -1,0 +1,218 @@
+# text = # newpar
+# sent_id = 2468
+# text = Исследовательский коллектив из Virginia Tech, TTI-Chicago и Microsoft Research создал алгоритм, который классифицирует набор картинок на смешные и несмешные.
+1	Исследовательский	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Virginia	Virginia	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Tech	Tech	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	TTI-	TTI-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	Chicago	Chicago	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+11	Research	Research	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+12	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	классифицирует	классифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	картинок	картинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	смешные	смешной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	несмешные	несмешный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2469
+# text = Кроме того, программа способна перерисовывать картинки, чтобы из несмешной получилась смешная или наоборот.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+6	перерисовывать	перерисовывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	картинки	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	несмешной	несмешный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	obl	_	_
+12	получилась	лучиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+13	смешная	смешный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	acl	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	наоборот	наоборот	ADV	_	Degree=Pos	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2470
+# text = Описание исследования выложено в виде препринта на arXiv.org.Авторы сделали подборку из нескольких сотен клипарт картинок людей, животных и бытовых предметов, а затем предложили добровольцам составить из этого набора простые коллажи.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	выложено	выкладывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	препринта	препринт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	arXiv.org	arXiv.org	PROPN	_	Foreign=Yes	0	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	подборку	подборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	15	nummod	_	_
+15	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
+16	клипарт	клипарта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	картинок	картинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	18	conj	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	бытовых	бытовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	27	cc	_	_
+26	затем	затем	ADV	_	Degree=Pos	27	advmod	_	_
+27	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	добровольцам	доброволец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	obl	_	_
+29	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+30	из	из	ADP	_	_	32	case	_	_
+31	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	32	amod	_	_
+32	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
+33	простые	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	коллажи	коллаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2471
+# text = При этом в половине случаев участников просили, чтобы коллаж был смешным.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+5	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	просили	просивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+10	коллаж	коллаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	смешным	смешной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2472
+# text = Другим добровольцам после этого предлагали оценить все получившиеся коллажи от 1 (картинка совсем не смешная) до 5 (картинка очень смешная).Поскольку коллажи состояли из одного и того же набора элементов, для них легко было составлять текстовое описание.
+1	Другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	добровольцам	доброволец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+5	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	все	весь	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+8	получившиеся	получляться	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	9	amod	_	_
+9	коллажи	коллаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	1	1	NUM	_	_	16	nummod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	картинка	картинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+14	совсем	совсем	ADV	_	Degree=Pos	15	advmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	смешная	смешной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	до	до	ADP	_	_	19	case	_	_
+19	5	5	NUM	_	_	0	nummod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	картинка	картинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	очень	очень	ADV	_	Degree=Pos	23	advmod	_	_
+23	смешная	смешной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	Поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+27	коллажи	коллаж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	состояли	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+29	из	из	ADP	_	_	34	case	_	_
+30	одного	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	30	conj	_	_
+33	же	же	PART	_	_	32	advmod	_	_
+34	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
+35	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	для	для	ADP	_	_	38	case	_	_
+38	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	28	obl	_	_
+39	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	28	parataxis	_	_
+40	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	39	cop	_	_
+41	составлять	составлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	39	nsubj	_	_
+42	текстовое	текстовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 2473
+# text = Его использовали для обучения простой нейронной сети, чтобы классифицировать картинки на смешные и несмешные.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	простой	простой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	нейронной	нейронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+10	классифицировать	классифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	advcl	_	_
+11	картинки	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	смешные	смешной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	несмешные	несмешный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2474
+# text = Оказалось, что в группу смешных картинок чаще всего попадали изображения, на которых один или несколько объектов были в необычном для них контексте.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+6	смешных	смешный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	картинок	картинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	чаще	часто	ADV	_	Degree=Cmp	10	advmod	_	_
+9	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	попадали	падать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+11	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	которых	который	PRON	_	Case=Loc	24	nmod	_	_
+15	один	один	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	несколько	несколько	NUM	_	Case=Nom	18	nummod:gov	_	_
+18	объектов	объекты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nsubj	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+20	в	в	ADP	_	_	24	case	_	_
+21	необычном	необычный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	21	nmod	_	_
+24	контексте	контекст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2475
+# text = Например, на одном из коллажей животные обедали, сидя за столом, а человек сидел в собачьей корзинке.
+1	Например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	одном	один	NUM	_	Case=Loc|Gender=Masc	7	nummod	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	коллажей	коллаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+8	обедали	обедать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сидя	сидеть	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	столом	стол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	сидел	сидеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	собачьей	собачья	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+19	корзинке.	корзинкбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+
+# newpar
+# sent_id = 2476

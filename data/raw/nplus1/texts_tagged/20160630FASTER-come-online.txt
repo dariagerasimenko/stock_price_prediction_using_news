@@ -1,0 +1,232 @@
+# text = # newpar
+# sent_id = 1333
+# text = Сегодня начал работать транстихоокеанский оптоволоконный кабель, соединивший Соединенные Штаты и Японию.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	2	advmod	_	_
+2	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	транстихоокеанский	транстихоокеанский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	оптоволоконный	оптоволоконный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	кабель	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	соединивший	соединять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+9	Соединенные	соединять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	Штаты	штат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Японию	япония	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1334
+# text = Проект спонсировали компания Google и консорциум Азиатских телекоммуникационных компаний.
+1	Проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	спонсировали	спонсировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	консорциум	консорциум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+7	Азиатских	азиатский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	телекоммуникационных	телекоммуникационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1335
+# text = Об этом сообщается в пресс-релизе компании NEC, которая проводила монтаж системы.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	NEC	Nec	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	проводила	проводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	монтаж	монтаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1336
+# text = Кабель соединил Орегон в Соединенных Штатах и японские города Чикура и Шима.
+1	Кабель	Кабель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	соединил	соединять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Орегон	Орегон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	Соединенных	соединять	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	Штатах	штат	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	японские	японский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	города	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+10	Чикура	Чикур	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Шима	Шим	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1337
+# text = Его протяженность составила 9000 километров, пропускная способность кабеля -- 60 терабит в секунду.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	протяженность	протяженность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	9000	9000	NUM	_	_	5	nummod	_	_
+5	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	пропускная	пропускной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+9	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	60	60	NUM	_	_	12	nummod	_	_
+12	терабит	терабит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1338
+# text = В дальнейшем система соединит Орегон и другие города на Западном побережье США -- Лос Анджелес, Сан Франциско, Портланд и Сиэтл.
+1	В	в	ADP	_	_	3	case	_	_
+2	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	соединит	соединять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	Орегон	Орегон	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	города	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	Западном	западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	побережье	побережье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	Лос	Лос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+15	Анджелес	Анджелес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	Сан	Сан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+18	Франциско	Франциско	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	Портланд	Портланд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	Сиэтл	Сиэтл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1339
+# text = Японский город Шима является хабом для нескольких оптоволоконных систем: еще одного кабеля, соединяющего Японию и США, внутриазиатской и системы, соединяющей Австралию и Японию.
+1	Японский	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Шима	Шим	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	хабом	хаб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+6	для	для	ADP	_	_	9	case	_	_
+7	нескольких	несколько	NUM	_	Case=Gen	9	nummod	_	_
+8	оптоволоконных	оптоволоконный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+12	одного	один	NUM	_	Case=Gen|Gender=Masc	13	nummod	_	_
+13	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	соединяющего	соединять	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	Японию	япония	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	внутриазиатской	внутриазиатский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	соединяющей	соединять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+25	Австралию	австралия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	Японию	япония	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1340
+# text = Строительство системы началось в 2014 году и стоило 300 миллионов долларов.
+1	Строительство	строительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	началось	начинаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	2014	2014	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	стоило	стоить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	300	300	NUM	_	_	10	nummod	_	_
+10	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1341
+# text = Прокладка кабеля велась со скоростью примерно 200 километров в день.
+1	Прокладка	прокладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	велась	вестись	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	со	с	ADP	_	_	5	case	_	_
+5	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	примерно	примерно	ADV	_	Degree=Pos	7	advmod	_	_
+7	200	200	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1342
+# text = Ранее подводные кабели подвергались атакам акул, поэтому система была усилена специальным кевларовым покрытием.
+1	Ранее	ранее	ADV	_	Degree=Cmp	4	advmod	_	_
+2	подводные	подводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	кабели	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	подвергались	двергаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	атакам	атак	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+6	акул	акула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	11	advmod	_	_
+9	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	усилена	поусиать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+12	специальным	специальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	кевларовым	кевларовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	покрытием	покрытие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1343
+# text = В мае появилось сообщение о том, что Facebook и Microsoft планируют проложить оптоволоконный трансатлантический кабель между США и Южной Европой.
+1	В	в	ADP	_	_	2	case	_	_
+2	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	появилось	появляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	Facebook	фейсбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+12	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+13	проложить	проложять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	оптоволоконный	оптоволоконный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	трансатлантический	трансатлантический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	кабель	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	между	между	ADP	_	_	18	case	_	_
+18	США	сша	PROPN	_	Animacy=Inan|Case=Acc|Number=Plur	16	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	Южной	южный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	Европой	европа	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1344
+# text = Пропускная способность кабеля составит 160 терабит в секунду, окончание строительства намечено на октябрь 2017 года.Екатерина Русакова
+1	Пропускная	пропускной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	160	160	NUM	_	_	6	nummod	_	_
+6	терабит	терабит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	окончание	окончание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	_
+11	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	намечено	намечать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	октябрь	октябрь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+15	2017	2017	NUM	_	_	14	nummod	_	_
+16	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	_
+
+# newpar
+# sent_id = 1345

@@ -1,0 +1,75 @@
+# text = # newpar
+# sent_id = 4871
+# text = Палеонтологи из Канзасского университета описали новый вид динозавров из семейства дромеозаврид.
+1	Палеонтологи	палеонтолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Канзасского	Канзасский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	описали	описывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	динозавров	динозавр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+11	дромеозаврид	дромеозаврида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4872
+# text = Новый динозавр получил видовое имя Dakotaraptor.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	динозавр	динозавр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	видовое	видовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	Dakotaraptor	Dakotaraptor	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4873
+# text = Статья опубликована в Paleontological Contributions.Окаменелости возрастом 65-70 миллионов лет обнаружены во время раскопок в формации Хелл-Крик в Южной Дакоте, США.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Paleontological	Paleontological	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Contributions	Contributions	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Окаменелости	Окаменелость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+8	возрастом	возраст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+9	65	65	NUM	_	_	11	nummod	_	SpaceAfter=No
+10	-70	-70	NUM	_	_	11	nummod	_	_
+11	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+14	во	во	ADP	_	_	16	case	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	формации	формация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+19	Хелл-Крик	Хелл-Крика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	Дакоте	Дакота	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	США	сша	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	18	appos	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4874
+# text = Описанный Дакотараптор сопоставим по размерам тела с Ютараптором и являются одним из крупнейших представителей семейства дромеозаврид.
+1	Описанный	описывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	Дакотараптор	Дакотараптор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сопоставим	сопоставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+6	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	Ютараптором	Ютараптор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+11	одним	один	NUM	_	Case=Ins|Gender=Masc	10	nummod	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	14	amod	_	_
+14	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	дромеозаврид.	дромеозавридалее	ADV	_	Degree=Pos	0	advmod	_	_
+
+# newpar
+# sent_id = 4875

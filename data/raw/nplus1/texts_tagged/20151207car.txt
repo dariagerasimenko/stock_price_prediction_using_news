@@ -1,0 +1,390 @@
+# text = # newpar
+# sent_id = 4345
+# text = Федеральное управление гражданской авиации США выдало американскому стартапу Terrafugia разрешение на проведение летных испытаний трех моделей перспективных электромобилей-конвертопланов TF-X.
+1	Федеральное	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	гражданской	гражданской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	выдало	выдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	американскому	американский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	стартапу	стартап	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	Terrafugia	Terrafugia	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	проведение	проведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	летных	летный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	трех	три	NUM	_	Case=Gen	16	nummod	_	_
+16	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	перспективных	перспективной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	конвертопланов	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	parataxis	_	_
+21	TF-X	Tf-x	NUM	_	_	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4346
+# text = Как сообщаетAviation Week, в испытаниях примут участие радиоуправляемые модели машины, выполненные в масштабе 1 к 10.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	сообщаетAviation	сообщаетAviation	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Week	Week	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	испытаниях	испытания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	_
+7	примут	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	радиоуправляемые	радиоуправляемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+11	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	выполненные	выполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	масштабе	масштаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	1	1	NUM	_	_	15	nummod	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	10	10	NUM	_	_	16	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4347
+# text = Целью испытаний станет проверка аэродинамической компоновки, режима висения, наклона роторов и складывания лопастей винтов.Для получения разрешения на испытание моделей TF-X компании Terrafugia пришлось добиться индивидуального исключения из так называемого "Раздела 333".
+1	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	аэродинамической	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	компоновки	компоновка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+9	висения	висение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	наклона	наклон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	роторов	ротор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	складывания	складывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+15	лопастей	лопасть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	винтов.	винтовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	Для	для	ADP	_	_	18	case	_	_
+18	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+19	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	испытание	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	_
+22	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+23	TF-X	Tf-x	NUM	_	_	22	nummod	_	_
+24	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	Terrafugia	Terrafugia	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+27	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	26	nsubj	_	_
+28	индивидуального	индивидуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	исключения	исключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+30	из	из	ADP	_	_	34	case	_	_
+31	так	так	ADV	_	Degree=Pos	32	advmod	_	_
+32	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	34	amod	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	Раздела	раздел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+35	333	333	NUM	_	_	34	nummod	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 4348
+# text = Причем, для того чтобы получить это исключение от Федерального управления гражданской авиации США, компании пришлось пригрозить перенести разработку машины и ее производство на территорию другой страны.
+1	Причем	причем	CCONJ	_	_	17	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+6	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+7	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	_
+8	исключение	исключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	от	от	ADP	_	_	11	case	_	_
+10	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+12	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+17	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	пригрозить	пригрожать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	перенести	переносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	24	nmod	_	_
+24	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	conj	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	территорию	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4349
+# text = Изначально управление не планировало выдавать Terrafugia исключение, объясняя это тем, что компания не объяснила общественную значимость проекта TF-X.TF-X будет выполнять полеты в автоматическом режиме, а значит, с точки зрения Федерального управления гражданской авиации, является беспилотным летательным аппаратом.
+1	Изначально	изначально	ADV	_	Degree=Pos	4	advmod	_	_
+2	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	планировало	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	выдавать	выдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	Terrafugia	Terrafugia	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	исключение	исключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	объясняя	объяснять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	объяснила	объяснять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+17	общественную	общественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	значимость	значимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	TF-X.TF	Tf-x.tf	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	-X	-x	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+23	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+24	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	а	а	CCONJ	_	_	33	cc	_	_
+30	значит	значит	ADV	_	Degree=Pos	33	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+34	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	fixed	_	_
+35	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+37	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	_
+41	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+42	летательным	летательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 4350
+# text = Это означает, что TF-X подпадает под действие так называемого "Раздела 333", свода правил полетов и производства беспилотников.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	TF-X	Tf-x	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	подпадает	подпадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+9	так	так	ADV	_	Degree=Pos	10	advmod	_	_
+10	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Раздела	раздел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+13	333	333	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	свода	свод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+17	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+18	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4351
+# text = Помимо прочего, этими правилами запрещены полеты в населенной местности гражданских беспилотников, не выпускаемых серийно.
+1	Помимо	помимо	ADP	_	_	2	case	_	_
+2	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	этими	этот	DET	_	Case=Ins|Number=Plur	5	amod	_	_
+5	правилами	правила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+6	запрещены	запрещивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	населенной	населять	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	местности	местность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	выпускаемых	выпускать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	0	amod	_	_
+16	серийно	серийно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4352
+# text = При этом аппараты должны находиться в зоне видимости оператора и летать на высоте не более 61 метра.Для некоторых беспилотников американские компании добиваются так называемого исключения -- разрешительного документа, увеличивающего некоторые допуски для отдельных беспилотников.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	dep	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	более	более	ADV	_	Degree=Cmp	16	advmod	_	_
+16	61	61	NUM	_	_	17	nummod	_	_
+17	метра.	метра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	Для	для	ADP	_	_	20	case	_	_
+19	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+21	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
+23	добиваются	добиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+24	так	так	ADV	_	Degree=Pos	25	advmod	_	_
+25	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	исключения	исключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	разрешительного	разрешительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	увеличивающего	увеличивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+32	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	33	amod	_	_
+33	допуски	допуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
+34	для	для	ADP	_	_	36	case	_	_
+35	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 4353
+# text = При наличии такого документа, например, оператор может выводить беспилотник на высоту до 122 метров.
+1	При	при	ADP	_	_	2	case	_	_
+2	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	122	122	NUM	_	_	16	nummod	_	_
+16	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4354
+# text = Исключения получают, в частности, операторы беспилотников, которые используются для осмотра высоких конструкций.Перспективная TF-X будет четырехместной.
+1	Исключения	исключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	7	discourse	_	_
+5	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	операторы	оператор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+8	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	осмотра	осмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	высоких	высокий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	конструкций	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Перспективная	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	TF-X	Tf-x	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+20	четырехместной	четырехместный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4355
+# text = По дорогам машина будет передвигаться как любой другой электромобиль, а полеты выполнять -- в полностью автоматическом режиме по заранее заданному маршруту.
+1	По	по	ADP	_	_	2	case	_	_
+2	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
+3	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	передвигаться	передвигать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+6	как	как	SCONJ	_	_	9	cc	_	_
+7	любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	электромобиль	электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	полностью	полностью	ADV	_	Degree=Pos	17	advmod	_	_
+17	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+19	по	по	ADP	_	_	22	case	_	_
+20	заранее	заранее	ADV	_	Degree=Pos	21	advmod	_	_
+21	заданному	задавать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	маршруту	маршрут	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4356
+# text = Машина получит складное крыло с отсеками для батарей на законцовках, а также поворотными мотогондолами с редукторами.
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	складное	складный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	отсеками	отсеки	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	_
+7	для	для	ADP	_	_	6	case	_	_
+8	батарей	батарь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	законцовках	законцовка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	15	cc	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	поворотными	поворотный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	мотогондолами	мотогондол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	conj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	редукторами	редуктор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4357
+# text = Редукторы будут соединены с воздушными винтами, оснащенными складными лопастями.
+1	Редукторы	редуктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	соединены	соединять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	воздушными	воздушный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	винтами	винт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	оснащенными	оснащать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	складными	складный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	лопастями	лопасть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4358
+# text = Электромобиль будет вертикального взлета и посадки.
+1	Электромобиль	Электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	вертикального	вертикальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	посадки.	посадки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	_
+
+# sent_id = 4359
+# text = TF-X сможет развивать скорость до 324 километров в час и выполнять полеты на расстояние до 787 километров.Василий Сычёв
+1	TF-X	Tf-x	NUM	_	_	2	nummod	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	324	324	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	787	787	NUM	_	_	17	nummod	_	_
+17	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+19	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_
+
+# newpar
+# sent_id = 4360

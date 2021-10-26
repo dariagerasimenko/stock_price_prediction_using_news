@@ -1,0 +1,522 @@
+# text = # newpar
+# sent_id = 2339
+# text = Итальянские ученые предложили использовать смартфоны для предсказания смены настроений больных биполярным расстройством.
+1	Итальянские	итальянский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	смартфоны	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+8	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	настроений	настроение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	больных	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	биполярным	биполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2340
+# text = Данные, полученные с помощью мобильных устройств, помогут пациентам вовремя начать лекарственную терапию.
+1	Данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	с	с	ADP	_	_	7	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+11	вовремя	вовремя	ADV	_	Degree=Pos	12	advmod	_	_
+12	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	лекарственную	лекарственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2341
+# text = Препринт работы опубликован на сайте arxiv.org.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	arxiv.org	arxiv.org	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2342
+# text = Биполярное расстройство, или маниакально-депрессивный психоз, проявляется в резкой смене аффективных состояний - гиперактивности и депрессии -- и периодов нормального психического состояния.
+1	Биполярное	Биполярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	или	или	CCONJ	_	_	6	cc	_	_
+5	маниакально-депрессивный	маниакально-депрессивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	психоз	психоз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	резкой	резкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	смене	смена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+12	аффективных	аффективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	-	-	PUNCT	_	_	13	punct	_	_
+15	гиперактивности	гиперактивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	parataxis	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	периодов	периоды	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	_
+21	нормального	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+22	психического	психический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2343
+# text = Одной из главных стадий лечения является выявление продолжительности и начала этих периодов и промежутков между ними.
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem	6	nummod	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	главных	главный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	стадий	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	выявление	выявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+11	этих	этот	DET	_	Case=Gen|Number=Plur	12	amod	_	_
+12	периодов	периоды	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	промежутков	промежуток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	_
+15	между	между	ADP	_	_	16	case	_	_
+16	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2344
+# text = До сих пор эту информацию извлекали путем обычного опроса больного.
+1	До	до	ADP	_	_	6	advmod	_	_
+2	сих	сей	DET	_	Case=Gen|Number=Plur	1	fixed	_	_
+3	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	fixed	_	_
+4	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	извлекали	извлекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	путем	путем	ADP	_	_	9	case	_	_
+8	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+10	больного	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2345
+# text = Но полученные таким способом результаты могут оказаться недостаточно своевременными, из-за чего пациенты начинают терапию не вовремя, и болезнь усугубляется.
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	4	amod	_	_
+4	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	_
+5	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	недостаточно	недостаточно	ADV	_	Degree=Pos	7	advmod	_	_
+9	своевременными	своевременный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	из-за	из-за	ADP	_	_	12	case	_	_
+12	чего	что	PRON	_	Case=Gen	14	obl	_	_
+13	пациенты	пациент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	вовремя	вовремя	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	усугубляется	усугубляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2346
+# text = Кроме смены настроения периоды аффективных состояний характеризуются изменением двигательной активности -- психомоторным возбуждением или заторможенностью.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	настроения	настроение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	периоды	периода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	аффективных	аффективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	характеризуются	характеризоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	conj	_	_
+9	двигательной	двигательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	психомоторным	психомоторный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	возбуждением	возбуждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	conj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	заторможенностью	заторможенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2347
+# text = Высота голоса также зависит от общего состояния пациента -- повышается во время активности и понижается в период депрессии.
+1	Высота	высота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+8	пациента	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	повышается	повышаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+11	во	в	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	понижается	понижаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+18	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2348
+# text = Почти в любом современном мобильном телефоне уже есть все необходимое для отслеживания этой информации.
+1	Почти	почти	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	6	case	_	_
+3	любом	любой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	современном	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	мобильном	мобильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	телефоне	телефон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+8	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+9	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+10	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	отслеживания	отслеживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2349
+# text = Акселерометр может регистрировать изменения положения тела, GPS навигатор извлекать информацию о передвижениях, специальные программы могут следить за частотой и особенностями переписки по электронной почте или высоте голоса во время телефонных звонков.
+1	Акселерометр	Акселерометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	регистрировать	регистрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	GPS	gps	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	навигатор	навигатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	извлекать	извлекать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+11	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	передвижениях	передвижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	программы	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	следить	следить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	за	за	ADP	_	_	20	case	_	_
+20	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	особенностями	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	conj	_	_
+23	переписки	переписка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	по	по	ADP	_	_	26	case	_	_
+25	электронной	электронный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	почте	почта	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	высоте	высота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+29	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	во	во	ADP	_	_	33	case	_	_
+31	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	fixed	_	_
+32	телефонных	телефонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	звонков	звонок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2350
+# text = Для того чтобы проверить, могут ли мобильные телефоны быть эффективны для выявления аффективных состояний, ученые раздали оснащенные специальными программами устройства 12 людям, страдающим биполярным расстройством.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	_
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+4	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+7	ли	ли	PART	_	_	6	advmod	_	_
+8	мобильные	мобильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	телефоны	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+11	эффективны	эффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	6	obl	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	аффективных	аффективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	раздали	раздать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+19	оснащенные	оснащать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	специальными	специальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	программами	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
+22	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	12	12.00	NUM	_	_	24	nummod	_	_
+24	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	страдающим	страдать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	биполярным	биполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	obl:agent	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2351
+# text = Кроме того, с испытуемыми регулярно беседовал специалист, который оценивал текущее психологическое состояние.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	испытуемыми	испытуемый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+6	регулярно	регулярно	ADV	_	Degree=Pos	7	advmod	_	_
+7	беседовал	беседовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	специалист	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	оценивал	оценивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	текущее	текущий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	психологическое	психологической	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2352
+# text = Показатели, полученные в дни прохождения пациентами специальных тестов в клинике, использовались для "калибровки".
+1	Показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	дни	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+6	прохождения	прохождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	пациентами	пациент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+8	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	тестов	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	клинике	клиника	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2353
+# text = Оказалось, что информация с одних лишь датчиков движения позволяет выявлять начало периода активности или спада в 94% случаев, а если добавить к ним анализ переписки и голоса -- в 97%.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	одних	один	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	лишь	лишь	PART	_	_	6	advmod	_	_
+8	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+11	выявлять	выявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	начало	начало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	спада	спад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	94	94	NUM	_	_	19	nummod	_	SpaceAfter=No
+19	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+20	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	34	cc	_	_
+23	если	если	SCONJ	_	_	34	mark	_	_
+24	добавить	добавлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	advcl	_	_
+25	к	к	ADP	_	_	26	case	_	_
+26	ним	они	PRON	_	Case=Dat|Number=Plur|Person=3	24	obl	_	_
+27	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+28	переписки	переписка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	conj	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	97	97	NUM	_	_	34	nummod	_	SpaceAfter=No
+34	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	orphan	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2354
+# text = Несмотря на впечатляющие результаты, авторы предсказывают трудности с применением такого метода на практике.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	4	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	впечатляющие	впечатляющий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	предсказывают	предсказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	трудности	трудность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
+9	с	с	ADP	_	_	8	case	_	_
+10	применением	применение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+11	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2355
+# text = Во-первых, количество людей, участвующих в эксперименте, и его продолжительность недостаточны, чтобы можно было с уверенностью доказать эффективность.
+1	Во-первых	во-первых	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+4	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	участвующих	участвовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+13	недостаточны	недостаточный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	_
+16	можно	можно	ADV	_	Degree=Pos	13	advcl	_	_
+17	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	уверенностью	уверенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+20	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+21	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2356
+# text = Во-вторых, особенности поведения людей с биполярным расстройством могут оказаться несовместимы с постоянным мониторингом их состояния, провоцируя "манию преследования" и отказ от установки необходимых приложений.
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+4	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	биполярным	биполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	несовместимы	несовместимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	amod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	постоянным	постоянный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	мониторингом	мониторинг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+16	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	провоцируя	провоцировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	манию	мание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+21	преследования	преследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	отказ	отказ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	необходимых	необходимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	приложений	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2357
+# text = Однако авторы уже начали работу по привлечению большего количества пациентов и собираются провести длительный эксперимент в рамках европейского проекта Nympha-MD (www.nympha-md-project.eu), имеющего целью создание средств мониторинга состояния больных с биполярным расстройством.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	привлечению	привлечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	большего	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	собираются	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+13	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	длительный	длительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	obl	_	_
+18	европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	Nympha-	Nympha-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	MD	Md	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	www.nympha-md-project.eu	www.nympha-md-project.eu	X	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	имеющего	иметь	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+27	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+28	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	_
+29	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	nmod	_	_
+30	мониторинга	мониторинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	больных	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	с	с	ADP	_	_	35	case	_	_
+34	биполярным	биполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2358
+# text = Биполярное расстройство -- психическое заболевание, проявляющееся в резких периодических сменах настроений без всякой видимой на то причины.
+1	Биполярное	Биполярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	психическое	психический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	проявляющееся	проявляться	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	резких	резкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+10	периодических	периодический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	сменах	смен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+12	настроений	настроение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	без	без	ADP	_	_	18	case	_	_
+14	всякой	всякий	DET	_	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
+15	видимой	видимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	_
+18	причины	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2359
+# text = Вопрос, почему это происходит, остается до сих пор открытым, но уже сейчас есть множество лекарств, позволяющих страдающим этой болезнью людям "сгладить" их настроение.
+1	Вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	почему	почему	ADV	_	Degree=Pos	5	advmod	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+8	до	до	ADP	_	_	11	advmod	_	_
+9	сих	сей	DET	_	Case=Gen|Number=Plur	8	fixed	_	_
+10	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	fixed	_	_
+11	открытым	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	но	но	CCONJ	_	_	15	cc	_	_
+14	уже	уже	ADV	_	Degree=Pos	15	advmod	_	_
+15	сейчас	сейчас	ADV	_	Degree=Pos	5	advmod	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+18	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	страдающим	страдать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+22	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	23	amod	_	_
+23	болезнью	болезнь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+24	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	сгладить	сгладать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	29	nmod	_	_
+29	настроение	настроение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2360
+# text = Главной проблемой остается определение начала аффективных состояний для своевременной терапии.Екатерина Митрофанова
+1	Главной	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+3	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	определение	определение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	аффективных	аффективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	своевременной	своевременный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	терапии.	терапии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Митрофанова	митрофанов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	_
+
+# newpar
+# sent_id = 2361

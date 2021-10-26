@@ -1,0 +1,364 @@
+# text = # newpar
+# sent_id = 4109
+# text = Германский авиакосмический центр провел испытания "нервной системы", которую предполагается интегрировать в авиационные элементы конструкции из композиционных материалов.
+1	Германский	германский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	авиакосмический	авиакосмический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	провел	проветать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	obj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	которую	который	PRON	_	Case=Acc	12	obj	_	_
+12	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+13	интегрировать	интегрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	авиационные	авиационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	элементы	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+17	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4110
+# text = Как пишетAviation Week, такие "нервы" позволят выявлять повреждения композитов и с высокой точностью локализовать их.В испытаниях использовалась секция фюзеляжа с дверным проемом, выполненная из композиционных материалов.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	7	parataxis	_	_
+3	Week	Week	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	нервы	нервый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	conj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	выявлять	выявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+12	композитов	композит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	_
+17	локализовать	локализовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	их.	ихутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	В	в	ADP	_	_	20	case	_	_
+20	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	21	obl	_	_
+21	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	17	conj	_	_
+22	секция	секция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+23	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	дверным	дверный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	проемом	проем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	выполненная	выполнять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+29	из	из	ADP	_	_	31	case	_	_
+30	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 4111
+# text = Размер этой секции составит пять на семь метров.
+1	Размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	секции	секция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	пять	пять	NUM	_	Case=Acc	8	nummod:gov	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	семь	семь	NUM	_	Case=Acc	8	nummod:gov	_	_
+8	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4112
+# text = В структуру секции были интегрированы в общей сложности 584 сенсора, контролировавших состояние детали.
+1	В	в	ADP	_	_	2	case	_	_
+2	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+3	секции	секция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	интегрированы	интегрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	10	advmod	_	_
+7	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	fixed	_	_
+8	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	584	584	NUM	_	_	10	nummod	_	_
+10	сенсора	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	контролировавших	контролировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	_
+13	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+14	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4113
+# text = Во время испытаний система сенсоров точно сумела определить тип и расположение повреждения.Разработанная немцами система использует ультразвуковые волны для оценки состояния конструкции.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	точно	точно	ADV	_	Degree=Pos	7	advmod	_	_
+7	сумела	уметь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	тип	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	расположение	расположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	conj	_	_
+12	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	немцами	немец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	obl:agent	_	_
+16	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	ультразвуковые	ультразвуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	волны	волна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+22	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4114
+# text = При нажатии кнопки самодиагностики или запуске процедуры при помощи программы, в комопозитной конструкции срабатывают ультразвуковые излучатели.
+1	При	при	ADP	_	_	2	case	_	_
+2	нажатии	нажатие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+3	кнопки	кнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	самодиагностики	самодиагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	или	или	CCONJ	_	_	7	cc	_	_
+6	запуске	запускй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	fixed	_	_
+10	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	комопозитной	комопозитный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+15	срабатывают	срабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	ультразвуковые	ультразвуковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	излучатели	излучатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4115
+# text = Их сигнал принимают датчики.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	датчики	датчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 4116
+# text = В случае, если в структуре композиционного материала есть повреждение, оно будет отклонять ультразвук или задерживать его прохождение.Именно благодаря изменениям в прохождении ультразвуковых волн в композите и будет оцениваться и локализоваться повреждение.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	структуре	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	advcl	_	_
+7	композиционного	композиционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+10	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	14	nsubj	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+14	отклонять	отклонять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+15	ультразвук	ультразвук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	задерживать	задерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	conj	_	_
+18	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+19	прохождение.	прохожденибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+20	Именно	именно	ADV	_	Degree=Pos	22	advmod	_	_
+21	благодаря	благодаря	ADP	_	_	22	case	_	_
+22	изменениям	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	0	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	прохождении	прохождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+25	ультразвуковых	ультразвуковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	композите	композит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	_
+31	оцениваться	оцениваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	локализоваться	локализоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	31	conj	_	_
+34	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 4117
+# text = Разработчики утверждают, что система сможет с высокой точностью определять тип повреждения.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	сможет	сможть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+10	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+11	тип	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4118
+# text = Секцию с дверным проемом выбрали для испытаний, поскольку, по данным разработчиков, именно этот элемент на самолетах повреждается чаще всего.В ближайшее время Германский авиакосмический центр намерен провести еще серию испытаний "нервной системы", которые позволят сертифицировать ее для использования на самолетах.
+1	Секцию	секция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	дверным	дверный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	проемом	проем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+5	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поскольку	поскольку	SCONJ	_	_	0	mark	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	20	parataxis	_	_
+13	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	именно	именно	PART	_	_	16	advmod	_	_
+16	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	_
+17	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	самолетах	самолеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	_
+20	повреждается	повреждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+21	чаще	часто	ADV	_	Degree=Cmp	20	advmod	_	_
+22	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	В	в	ADP	_	_	26	case	_	_
+25	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	nmod	_	_
+27	Германский	Германский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	авиакосмический	авиакосмический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+30	намерен	намерен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	20	parataxis	_	_
+31	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	dep	_	_
+32	еще	еще	ADV	_	Degree=Pos	33	advmod	_	_
+33	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+34	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	33	nmod	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	37	punct	_	_
+40	которые	который	PRON	_	Case=Nom	41	nsubj	_	_
+41	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
+42	сертифицировать	сертифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	xcomp	_	_
+43	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	42	obj	_	_
+44	для	для	ADP	_	_	45	case	_	_
+45	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	42	obl	_	_
+46	на	на	ADP	_	_	47	case	_	_
+47	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	_
+
+# sent_id = 4119
+# text = В проекте разработки системы участвуют европейские компании Airbus, Invent и FACC.
+1	В	в	ADP	_	_	2	case	_	_
+2	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	европейские	европейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+8	Airbus	Airbus	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Invent	Invent	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	FACC	Facc	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4120
+# text = Когда именно система будет выпускаться серийно, пока неизвестно.Ранее похожую систему планировала использовать японская компания Mitsubishi в своем истребителе -- демонстраторе технологийATD-X Shinshin.
+1	Когда	когда	ADV	_	Degree=Pos	14	mark	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	выпускаться	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	14	advcl	_	_
+6	серийно	серийно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	пока	пока	SCONJ	_	_	5	mark	_	_
+9	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Ранее	рано	ADV	_	Degree=Cmp	12	advmod	_	_
+12	похожую	похожий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	планировала	планировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+16	японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+18	Mitsubishi	Mitsubishi	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	21	amod	_	_
+21	истребителе	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	демонстраторе	демонстратор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	appos	_	_
+24	технологийATD	технологийATd	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	X	x	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	Shinshin	Shinshin	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4121
+# text = Она должна была стать частью технологии самовосстановления управления полетом.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	dep	_	_
+5	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	самовосстановления	самовосстановление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4122
+# text = Ее суть заключается в том, что бортовой компьютер сможет определять полученные повреждения различных аэродинамических элементов конструкции самолета.Затем на основе полученных данных о повреждениях бортовой компьютер корректировал бы работу оставшихся аэродинамических элементов таким образом, чтобы, насколько это возможно, восстановить управляемость боевого самолета.Василий Сычёв
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	бортовой	бортовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	полученные	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+14	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	аэродинамических	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	самолета.	самолетаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+19	Затем	Затема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+22	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	21	nmod	_	_
+24	о	о	ADP	_	_	25	case	_	_
+25	повреждениях	повреждение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	_
+26	бортовой	бортовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	корректировал	корректировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	бы	бы	PART	_	Mood=Cnd	28	aux	_	_
+30	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+31	оставшихся	оставаться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	33	amod	_	_
+32	аэродинамических	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+34	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	35	amod	_	_
+35	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	чтобы	чтобы	SCONJ	_	Mood=Cnd	28	mark	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	насколько	насколько	ADV	_	Degree=Pos	41	advmod	_	_
+40	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	_
+41	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	28	advcl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	47	dep	_	_
+44	управляемость	управляемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	47	obj	_	_
+45	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+46	самолета.	самолетаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+47	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+48	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	flat:name	_	_
+
+# newpar
+# sent_id = 4123

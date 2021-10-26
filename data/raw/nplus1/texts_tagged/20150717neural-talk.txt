@@ -1,0 +1,212 @@
+# text = # newpar
+# sent_id = 1456
+# text = Ученые из Стэнфордского университета создали программу, которая способна описывать содержание фотографий связными предложениями.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Стэнфордского	стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	acl:relcl	_	_
+10	описывать	описывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+12	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	связными	связный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	предложениями	предложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1457
+# text = В качестве исходных данных требуется только изображение, а на выходе алгоритм выдает текст, например "Мужчина в черной футболке играет на гитаре".
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	исходных	исходной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	5	obl	_	_
+5	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	выходе	выход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+12	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	выдает	выдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	например	например	ADV	_	Degree=Pos	22	advmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Мужчина	мужчина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	черной	черный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	футболке	футболка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_
+22	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 1458
+# text = Описание работы приводится в препринте на arXiv.org (последняя редакция манускрипта была добавлена 14 апреля, однако СМИ обратили на него внимание только сейчас).Ученые разбили задачу на две стадии.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	приводится	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	препринте	препринт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	arXiv.org	arXiv.org	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	редакция	редакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+11	манускрипта	манускрипт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	добавлена	добавлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+14	14	14	NUM	_	_	15	nummod	_	_
+15	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	однако	однако	ADV	_	Degree=Pos	19	advmod	_	_
+18	СМИ	сми	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	_
+19	обратили	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+22	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+23	только	только	PART	_	_	24	advmod	_	_
+24	сейчас	сейчас	ADV	_	Degree=Pos	19	advmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	nsubj	_	_
+28	разбили	разбивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	32	nummod:gov	_	_
+32	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1459
+# text = Сперва подпрограмму учили находить на фотографиях участки, соответствующие словам из уже созданного текстового описания.
+1	Сперва	сперва	ADV	_	Degree=Pos	3	advmod	_	_
+2	подпрограмму	подпрограмму	ADV	_	Degree=Pos	3	advmod	_	_
+3	учили	учить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	находить	находить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	фотографиях	фотография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+7	участки	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	соответствующие	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+11	из	из	ADP	_	_	15	case	_	_
+12	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+13	созданного	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	текстового	текстовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1460
+# text = После этого другую подпрограмму обучали подбирать описательные слова к разным регионам фотографии и затем объединять их в предложения.Для реализации обоих стадий алгоритма ученые использовали искусственные нейронные сети.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	acl	_	_
+4	подпрограмму	подпрограмму	ADV	_	Degree=Pos	3	advmod	_	_
+5	обучали	обучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	подбирать	подбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	описательные	описательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	регионам	регион	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+12	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	затем	затем	ADV	_	Degree=Pos	15	advmod	_	_
+15	объединять	объединять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	предложения	предложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Для	для	ADP	_	_	21	case	_	_
+21	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+22	обоих	оба	NUM	_	Case=Gen|Gender=Masc	23	nummod	_	_
+23	стадий	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+24	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	искусственные	искусственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+28	нейронные	нейронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	сети	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 1461
+# text = Их обучали на подборках фотографий Flickr8K, Flickr30K и MSCOCO, в которых почти 150000 снимков были подписаны при помощи краудсорсинговой платформы Amazon Mechanical Turk.После обучения нейронных сетей авторы тестировали работу алгоритма на фотографиях, которых не было в тренировочной базе.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	обучали	обучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	подборках	подборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	Flickr8K	Flickr8k	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Flickr30K	Flickr30k	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	MSCOCO	Mscoco	PROPN	_	Foreign=Yes	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Loc	18	obl	_	_
+14	почти	почти	ADV	_	Degree=Pos	15	advmod	_	_
+15	150000	150000	NUM	_	_	16	nummod	_	_
+16	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	подписаны	подписывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+19	при	при	ADP	_	_	22	case	_	_
+20	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	краудсорсинговой	краудсорсинговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+23	Amazon	Amazon	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Mechanical	Mechanical	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Turk.	Turk.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+26	После	после	ADP	_	_	25	case	_	_
+27	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+28	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+31	тестировали	тестировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	фотографиях	фотография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	которых	который	PRON	_	Case=Gen	39	obl	_	_
+38	не	не	PART	_	_	39	advmod	_	_
+39	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	42	cop	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	тренировочной	тренировочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 1462
+# text = Результаты эксперимента ученые сравнивали с аналогичными программами.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	аналогичными	аналогичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	программами	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1463
+# text = В качестве критериев использовалась степень соответствия с подписями, которые были созданы людьми.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	критериев	критерий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	степень	степень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	соответствия	соответствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	подписями	подпись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+13	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 1464

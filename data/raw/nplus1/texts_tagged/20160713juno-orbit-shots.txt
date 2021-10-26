@@ -1,0 +1,188 @@
+# text = # newpar
+# sent_id = 3123
+# text = Космический зонд "Юнона" передал наЗемлю первые снимки смомента выхода наорбиту Юпитера.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Юнона	Юнон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наЗемлю	наЗемль	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+8	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	смомента	смомент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	наорбиту	наорбита	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	_
+13	Юпитера	Юпитер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3124
+# text = Одна из фотографийопубликовананасайте аэрокосмического агентства NASA.
+1	Одна	один	NUM	_	Case=Nom|Gender=Fem	3	nsubj	_	_
+2	из	из	ADP	_	_	3	mark	_	_
+3	фотографийопубликовананасайте	фотографийопубликовананасать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+4	аэрокосмического	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3125
+# text = Снимки были сделаны 10июля камерой JunoCam, установленной наборту автоматической межпланетной станции.
+1	Снимки	снимка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	10июля	10июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+5	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+6	JunoCam	JunoCam	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	установленной	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	наборту	наборта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	межпланетной	межпланетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3126
+# text = Натот момент аппарат находился нарасстоянии 4,3 миллиона километров отЮпитера.
+1	Натот	Натот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+6	4,3	4,3	NUM	_	_	7	nummod	_	_
+7	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nummod:gov	_	_
+8	километров	километер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	отЮпитера	отЮпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3127
+# text = Нацветном изображении видны атмосферные особенности газового гиганта, включая Большое Красное Пятно, атакже три изчетырех его галилеевых спутников-- Ио, Европа иГанимед (слева направо).
+1	Нацветном	Нацветный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	изображении	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+3	видны	видный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	атмосферные	атмосферный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	газового	газовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	гиганта	гигант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	включая	включая	ADV	_	Degree=Pos	3	nmod	_	_
+10	Большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	Красное	красной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	Пятно	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	CCONJ	_	_	16	cc	_	_
+15	три	три	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	изчетырех	изчетырех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+18	галилеевых	галилеевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	Ио	ио	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Европа	европа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+25	иГанимед	иГанимед	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	слева	слева	ADV	_	Degree=Pos	28	advmod	_	_
+28	направо	направо	ADV	_	Degree=Pos	25	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3128
+# text = "JunoCam продолжит делать снимки, пока мыбудем двигаться поэтой первой орбите.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	JunoCam	JunoCam	PROPN	_	Foreign=Yes	3	nsubj	_	_
+3	продолжит	продолжать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	пока	пока	SCONJ	_	_	9	mark	_	_
+8	мыбудем	мыбыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	advcl	_	_
+10	поэтой	поэта	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	первой	первый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	орбите	орбита	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3129
+# text = Первые снимки ввысоком разрешении спланеты будут сделаны 27августа, когда "Юнона" совершит следующий близкий пролет над Юпитером",-- комментирует сотрудник Планетологического института США.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	ввысоком	ввысокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	разрешении	разрешение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	спланеты	спланет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	сделаны	сделавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	27августа	27августа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	когда	когда	SCONJ	_	_	8	mark	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Юнона	Юнона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	совершит	совершать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	близкий	близкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	пролет	пролет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+18	над	над	ADP	_	_	19	case	_	_
+19	Юпитером	Юпитер	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,--	,--	PUNCT	_	_	19	punct	_	_
+22	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+23	сотрудник	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+24	Планетологического	Планетологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3130
+# text = 5июля автоматическая межпланетная станция "Юнона" вышла навытянутую орбиту вокруг Юпитера, тем самым завершив свое пятилетнее путешествие ксамой большой планете вСолнечной системе.
+1	5июля	5июля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	автоматическая	автоматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	межпланетная	межпланетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Юнона	Юнон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	вышла	выходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	навытянутую	навытянутый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	вокруг	вокруг	ADP	_	_	12	case	_	_
+12	Юпитера	Юпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+15	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+16	завершив	завершать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	22	advcl	_	_
+17	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	19	amod	_	_
+18	пятилетнее	пятилетний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	путешествие	путешествие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+20	ксамой	ксамый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	большой	больша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+22	планете	планвать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+23	вСолнечной	вСолнечный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3131
+# text = В рамках миссии исследователи планируют изучить атмосферу, историю происхождения, магнитополе и другие особенности газового гиганта.Кристина Уласович
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+3	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+10	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	магнитополе	магнитополе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+16	газового	газовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	гиганта.	гектигантар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+
+# newpar
+# sent_id = 3132

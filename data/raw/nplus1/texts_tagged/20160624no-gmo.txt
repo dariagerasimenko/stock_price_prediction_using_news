@@ -1,0 +1,287 @@
+# text = # newpar
+# sent_id = 508
+# text = Госдума России приняла втретьем чтении законопроект озапрете навыращивание иразведение встране генно-модифицированных организмов (ГМО).
+1	Госдума	госдума	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	приняла	принимать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	втретьем	втретий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	чтении	чтение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	озапрете	озапрать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	навыращивание	навыращивание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	иразведение	иразведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	встране	встрана	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+11	генно-	генно-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	ГМО	Гмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 509
+# text = Исключение сделано только для научных экспериментов, сообщает РИА Новости.
+1	Исключение	исключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	только	только	PART	_	_	6	advmod	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	РИА	риа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	Новости	новость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	appos	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 510
+# text = "Запрещается использовать для посева (посадки) семена растений, генетическая программа которых изменена сиспользованием методов генной инженерии, содержащие генно-инженерный материал, внесение которого неможет являться результатом естественных (природных) процессов, заисключением посева (посадки) таких семян при проведении экспертиз инаучно-исследовательских работ", -- цитирует законопроект агентство.Из этой формулировки неясно, распространяются ли ограничения на генную модификацию организмов без внесения в их ДНК трансгенов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Запрещается	запрещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	посева	посево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	семена	семя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+10	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	генетическая	генетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	которых	который	PRON	_	Case=Gen	13	nmod	_	_
+15	изменена	изменивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+16	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+17	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	генной	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	инженерии	инженерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+22	генно-инженерный	генно-инженерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	внесение	внесение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+26	которого	который	PRON	_	Case=Gen	25	nmod	_	_
+27	неможет	немочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+28	являться	являться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	27	xcomp	_	_
+29	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_
+30	естественных	естественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	природных	природный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	parataxis	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	заисключением	заисключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	conj	_	_
+37	посева	посев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	parataxis	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
+41	таких	такой	DET	_	Case=Gen|Number=Plur	42	amod	_	_
+42	семян	семя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	37	nmod	_	_
+43	при	при	ADP	_	_	44	case	_	_
+44	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+45	экспертиз	экспертиз	ADP	_	_	47	case	_	_
+46	инаучно-исследовательских	инаучно-исследовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	47	amod	_	_
+47	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	44	nmod	_	SpaceAfter=No
+48	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	47	punct	_	_
+50	--	--	PUNCT	_	_	47	punct	_	_
+51	цитирует	цитировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+52	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	51	obj	_	_
+53	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	51	nsubj	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpaceAfter=No
+55	Из	из	ADP	_	_	57	case	_	_
+56	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	57	amod	_	_
+57	формулировки	формулировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	60	obl	_	_
+58	неясно	неясно	ADV	_	Degree=Pos	60	parataxis	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	58	punct	_	_
+60	распространяются	распространяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	51	parataxis	_	_
+61	ли	ли	PART	_	_	60	advmod	_	_
+62	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	60	nsubj	_	_
+63	на	на	ADP	_	_	65	case	_	_
+64	генную	генный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	65	amod	_	_
+65	модификацию	модификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	62	nmod	_	_
+66	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	65	nmod	_	_
+67	без	без	ADP	_	_	68	case	_	_
+68	внесения	внесение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	71	obl	_	_
+69	в	в	ADP	_	_	71	case	_	_
+70	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	71	nmod	_	_
+71	ДНК	Днк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	60	nsubj	_	_
+72	трансгенов	трансгенов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	71	flat:name	_	SpaceAfter=No
+73	.	.	PUNCT	_	_	72	punct	_	_
+
+# sent_id = 511
+# text = Так, например, недавно в США появились нетемнеющие шампиньоны, полученные с использованием технологииCRISPR/Cas9.
+1	Так	так	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	недавно	недавно	ADV	_	Degree=Pos	8	advmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	8	obl	_	_
+8	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	нетемнеющие	нетемнеющий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	шампиньоны	шампиньон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	технологииCRISPR	технологииcrispr	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	/Cas9	/Cas9	NUM	_	_	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 512
+# text = Документ касается иввоза продуктов сГМО в Россию.
+1	Документ	документ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	касается	касаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	иввоза	иввоза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	сГМО	сгмо	ADV	_	Degree=Pos	7	advmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Россию	россия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 513
+# text = Импортерам такой продукции предписано пройти специальные регистрационные процедуры.
+1	Импортерам	импортер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+2	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	предписано	предписывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	пройти	проходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+6	специальные	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+7	регистрационные	регистрационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 514
+# text = Запрет наввоз содержащих ГМО продуктов планируется обсудить после изучения ихдействия наорганизм человека иокружающую среду.
+1	Запрет	запрет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	наввоз	наввозеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	содержащих	содержащий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	ГМО	ГМО	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	обсудить	обсуждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	ихдействия	ихдействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	наорганизм	наорганизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+12	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	иокружающую	иокружать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 515
+# text = Нарушение новых ограничений повлечет засобой административную ответственность.
+1	Нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	ограничений	ограничение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	повлечет	повлечь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	засобой	засоба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	административную	административный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	ответственность	ответственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 516
+# text = Размер штрафа для должностных лиц составит от 10до50тысяч рублей, адля юридичеких лиц-- от100 до500 тысяч рублей.
+1	Размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	штрафа	штраф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	должностных	должностной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+6	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	10до50тысяч	10до50тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+9	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	адля	адля	ADP	_	_	13	case	_	_
+12	юридичеких	юридичекий	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	от100	от100	NUM	_	_	17	nummod	_	_
+16	до500	до500	NUM	_	_	17	nummod	_	_
+17	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nummod:gov	_	_
+18	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 517
+# text = Вмарте 2016 года навстрече спрезидентом РФ Владимиром Путиным глава Минсельхоза Александр Ткачев заявил, что его ведомство категорически против технологий, связанных сГМО, нодля предотвращения их использования вРоссии достаточно существующих законов.
+1	Вмарте	Вмарте	ADV	_	Degree=Pos	4	advmod	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	навстрече	навстрече	ADV	_	Degree=Pos	5	advmod	_	_
+5	спрезидентом	спрезидент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+6	РФ	рф	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	Владимиром	владимир	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	appos	_	_
+8	Путиным	путин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	Минсельхоза	минсельхоз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+12	Ткачев	ткачев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+17	ведомство	ведомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	advcl	_	_
+18	категорически	категорически	ADV	_	Degree=Pos	20	advmod	_	_
+19	против	против	ADP	_	_	20	case	_	_
+20	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	сГМО	сгмо	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	нодля	нодля	ADP	_	_	26	case	_	_
+26	предотвращения	предотвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+27	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	28	nmod	_	_
+28	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	вРоссии	вРоссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	достаточно	достаточно	ADV	_	Degree=Pos	31	advmod	_	_
+31	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	законов	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 518
+# text = Вэто время вСША, где ГМО содержатся в75--80 процентах продуктов, Сенат согласился ввести ихобязательную маркировку, однако форма ееможет быть фактически любой: текст, символ или метка для считывания смартфоном.
+1	Вэто	Вэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	вСША	всш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	где	где	ADV	_	Degree=Pos	7	advmod	_	_
+6	ГМО	Гмо	ADV	_	Degree=Pos	7	advmod	_	_
+7	содержатся	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	_
+8	в75	в75	NUM	_	_	12	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	80	80	NUM	_	_	8	nummod	_	_
+12	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nsubj	_	_
+13	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Сенат	Сенат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	согласился	соглашаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	ввести	вветать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	ихобязательную	ихобязательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	маркировку	маркировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+22	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+23	ееможет	еемозывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	cop	_	_
+25	фактически	фактически	ADV	_	Degree=Pos	26	advmod	_	_
+26	любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	26	punct	_	_
+28	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	символ	символ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	метка	метка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	conj	_	_
+33	для	для	ADP	_	_	34	case	_	_
+34	считывания	считывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	смартфоном	смартфон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 519
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 520

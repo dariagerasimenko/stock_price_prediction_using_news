@@ -1,0 +1,219 @@
+# text = # newpar
+# sent_id = 2339
+# text = Аэрокосмическая компания SpaceX после следующего запуска Falcon 9 собирается посадить первую ступень ракеты-носителя на плавучую платформу.
+1	Аэрокосмическая	Аэрокосмической	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	SpaceX	Spacex	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	после	после	ADP	_	_	6	case	_	_
+5	следующего	следующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	Falcon	Falcon	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	9	9	NUM	_	_	7	nummod	_	_
+9	собирается	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	посадить	посажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	_
+11	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	ступень	ступень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	плавучую	плавучий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2340
+# text = В запуске будет использована последняя из ракет предыдущей модификации Falcon 9 v1.1, сообщает The Verge.Запуск состоится 17 января с территории военно-воздушной базы Ванденберг.
+1	В	в	ADP	_	_	2	case	_	_
+2	запуске	запусок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	использована	использовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	предыдущей	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Falcon	Falcon	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	9	9	NUM	_	_	12	nummod	_	_
+12	v1.	v1.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+13	1	1	NUM	_	_	15	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+16	The	the	PROPN	_	Foreign=Yes	15	nsubj	_	_
+17	Verge	Verge	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Запуск	запуск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	conj	_	_
+21	17	17	NUM	_	_	20	nummod	_	_
+22	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+25	военно-воздушной	военно-воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Ванденберг	Ванденберг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2341
+# text = Ракета доставит на орбиту океанографический спутником Jason-3.Вариант посадки на плавучую платформу выбран из-за того, что "старая" версия ракеты уступает в тяге новой модификации Falcon 9 v1.1 Full Thrust.
+1	Ракета	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	доставит	доставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	океанографический	океанографический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	спутником	спутник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+7	Jason	Jason	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	3	3	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Вариант	вариант	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+12	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	плавучую	плавучий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+16	выбран	выбирать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+17	из-за	из-за	ADP	_	_	18	case	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	старая	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	уступает	уступавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	тяге	тяг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+29	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+31	Falcon	Falcon	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	9	9	NUM	_	_	33	nummod	_	_
+33	v1.1	v1.1	NOUN	_	_	26	nsubj	_	_
+34	Full	Full	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	Thrust	Thrust	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2342
+# text = При посадке на платформу первой ступени понадобится преодолеть меньшее расстояние и, следовательно, потребуется меньший запас топлива, чем при попытке долететь обратно до стартовой площадки.Предыдущие попытки SpaceX посадить первую ступень на плавучую платформу закончились неудачей.
+1	При	при	ADP	_	_	2	case	_	_
+2	посадке	посадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	понадобится	понадобиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	преодолеть	преодолевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	меньшее	меньший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+11	и	и	CCONJ	_	_	15	cc	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	следовательно	следовательно	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	10	conj	_	_
+16	меньший	меньший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+18	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чем	чем	SCONJ	_	_	22	cc	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	advmod	_	_
+23	долететь	долетать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	dep	_	_
+24	обратно	обратно	ADV	_	Degree=Pos	23	advmod	_	_
+25	до	до	ADP	_	_	27	case	_	_
+26	стартовой	стартовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	площадки.	площадки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+28	Предыдущие	Предыди	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+29	попытки	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+30	SpaceX	Spacex	PUNCT	_	_	29	punct	_	_
+31	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+32	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	ступень	ступень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+34	на	на	ADP	_	_	36	case	_	_
+35	плавучую	плавучий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+37	закончились	закончиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	23	conj	_	_
+38	неудачей	неудача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2343
+# text = Даже при последней, самой удачной попытке, посадка, по словам Илона Маска, "прошла слишком жестко, чтобы ракета могла уцелеть".SpaceX 22 декабря 2015 года впервые в истории удалось посадить на Землю после использования первую ступень ракеты, которая доставила на орбиту полезный груз.
+1	Даже	даже	PART	_	_	3	advmod	_	_
+2	при	при	ADP	_	_	3	case	_	_
+3	последней	последний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	самой	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+6	удачной	удачный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	посадка	посадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	obl	_	_
+13	Илона	Илон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	_
+14	Маска	маска	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	слишком	слишком	ADV	_	Degree=Pos	19	advmod	_	_
+19	жестко	жестко	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	17	mark	_	_
+22	ракета	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+23	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
+24	уцелеть	уцелеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	nsubj	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.SpaceX	.spacex	PUNCT	_	_	24	punct	_	_
+27	22	22	NUM	_	_	24	nummod	_	_
+28	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	2015	2015	NUM	_	_	30	nummod	_	_
+30	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	впервые	впервые	ADV	_	Degree=Pos	34	advmod	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+34	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	23	conj	_	_
+35	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	nsubj	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obl	_	_
+38	после	после	ADP	_	_	39	case	_	_
+39	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	_
+40	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	ступень	ступень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+42	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	которая	который	PRON	_	Case=Nom	45	nsubj	_	_
+45	доставила	доставить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	41	acl:relcl	_	_
+46	на	на	ADP	_	_	47	case	_	_
+47	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obl	_	_
+48	полезный	полезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	груз	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 2344
+# text = При этом первая ступень Falcon 9 v1.1 Full Thrust вернулась без повреждений и, по словам представителей SpaceX, готова к повторному использованию.Николай Воронцов
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ступень	ступень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	Falcon	Falcon	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	9	9	NUM	_	_	4	nummod	_	_
+7	v1.1	v1.1	NOUN	_	_	4	nmod	_	_
+8	Full	Full	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Thrust	Thrust	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	вернулась	вернуться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	без	без	ADP	_	_	12	case	_	_
+12	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+13	и	и	CCONJ	_	_	20	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	20	parataxis	_	_
+17	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	SpaceX	Spacex	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	готова	готовый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	conj	_	_
+21	к	к	ADP	_	_	23	case	_	_
+22	повторному	повторный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	использованию	использование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+26	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	_
+
+# newpar
+# sent_id = 2345

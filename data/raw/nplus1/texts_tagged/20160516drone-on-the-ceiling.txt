@@ -1,0 +1,235 @@
+# text = # newpar
+# sent_id = 5536
+# text = Ученые изСтэнфордского университета усовершенствовали прототип квадрокоптера, способный садиться навертикальные поверхности, и научили его приземляться напотолок.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	изСтэнфордского	изСтэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	усовершенствовали	усовершенствовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	прототип	прототип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	садиться	садиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	dep	_	_
+10	навертикальные	навертикальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	научили	научать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+16	приземляться	приземлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	17	xcomp	_	_
+17	напотолок	напотолок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5537
+# text = Обэтом рассказывает IEEE Spectrum.
+1	Обэтом	Обэто	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+2	рассказывает	рассказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	IEEE	Ieee	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Spectrum	Spectrum	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 5538
+# text = Новый дрон создан набазе разработанного теми же специалистами квадрокоптера SCAMP, который умеет летать, висеть ипередвигаться повертикальным поверхностям.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	набазе	набаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	разработанного	разрабатывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+6	теми	тот	DET	_	Case=Ins|Number=Plur	8	amod	_	_
+7	же	же	PART	_	_	6	advmod	_	_
+8	специалистами	специалист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl:agent	_	_
+9	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+10	SCAMP	Scamp	PROPN	_	Foreign=Yes	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	висеть	висеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	_
+17	ипередвигаться	ипередвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	повертикальным	повертикальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	поверхностям	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5539
+# text = Предыдущая версия беспилотника при помощи акселерометра определяла предстоящий контакт спрепятствием, после чего два ротора начинали вращаться быстрее, заставляя дрон принять вертикальное положение.
+1	Предыдущая	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	6	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	акселерометра	акселерометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+7	определяла	определять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	предстоящий	предстоять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	контакт	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+10	спрепятствием	спрепятствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	чего	что	PRON	_	Case=Gen	16	obl	_	_
+14	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	15	nummod:gov	_	_
+15	ротора	ротор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+16	начинали	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	вращаться	вращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	быстрее	быстро	ADV	_	Degree=Cmp	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	заставляя	заставлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	_
+21	дрон	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+23	вертикальное	вертикальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5540
+# text = Для того чтобы удержаться в нем, SCAMP использовал задний упор и две ножки с зацепами, при помощи которых дрон передвигался по стене.Обновленный квадрокоптер лишился своих ножек, которые создатели заменили на систему сцепления с поверхностью.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+4	удержаться	удерживаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	nsubj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	SCAMP	Scamp	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+9	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	задний	задний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	упор	упор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	14	nummod:gov	_	_
+14	ножки	ножка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	зацепами	зацепа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	при	при	ADP	_	_	20	case	_	_
+19	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	fixed	_	_
+20	которых	который	PRON	_	Case=Gen	22	obl	_	_
+21	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	передвигался	передвигаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	27	advcl	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	стене.	стенеатья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	Обновленный	Обновлять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+27	лишился	лишаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+28	своих	свой	DET	_	Case=Gen|Number=Plur	29	amod	_	_
+29	ножек	ножка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	которые	который	PRON	_	Case=Acc	33	obj	_	_
+32	создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+33	заменили	заменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
+36	сцепления	сцепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	с	с	ADP	_	_	38	case	_	_
+38	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5541
+# text = Она расположена в центре беспилотника и позволяет приземляться не только на вертикальные плоскости, но и висеть в перевернутом положении.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	приземляться	приземляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	только	только	PART	_	_	13	advmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	вертикальные	вертикальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	плоскости	плоскость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	но	но	CCONJ	_	_	17	cc	_	_
+16	и	и	PART	_	_	15	advmod	_	_
+17	висеть	висеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	перевернутом	переворачивать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5542
+# text = Удерживается дрон благодаря двум комплектам микрошипов из закаленной стали, которые размещены в противоположных направлениях и цепляются за крошечные неровности на поверхности.Для приземления SCAMP по-прежнему использует роторы и хвост,значительно видоизменный разработчиками.
+1	Удерживается	удерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	благодаря	благодаря	ADP	_	_	5	case	_	_
+4	двум	два	NUM	_	Case=Dat	5	nummod	_	_
+5	комплектам	комплект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+6	микрошипов	микрошип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	закаленной	закаленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	стали	сталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj:pass	_	_
+12	размещены	размещать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	противоположных	противоположный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	направлениях	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	цепляются	цепляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+18	за	за	ADP	_	_	20	case	_	_
+19	крошечные	крошечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	неровности	неровность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Для	для	ADP	_	_	25	case	_	_
+25	приземления	приземление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+26	SCAMP	Scamp	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	по-прежнему	по-прежнему	ADV	_	Degree=Pos	28	advmod	_	_
+28	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	роторы	ротор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_
+30	и	и	CCONJ	_	_	32	cc	_	_
+31	хвост,значительно	хвост,значительно	ADV	_	Degree=Pos	32	advmod	_	_
+32	видоизменный	видоизмать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	conj	_	_
+33	разработчиками	разработчик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5543
+# text = Квадрокоптер подлетает напрямую к поверхности на определенной скорости и при помощи шипов цепляется за нее.
+1	Квадрокоптер	Квадрокоптер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	подлетает	подлетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	напрямую	напрямую	ADV	_	Degree=Pos	2	advmod	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	определенной	определенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	при	при	ADP	_	_	12	case	_	_
+11	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
+12	шипов	шип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	цепляется	цепляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5544
+# text = По словам ученых, дрон может висеть на стене или на потолке, например, снимая видео, до тех пор, пока не разрядится батарея.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	висеть	висеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	стене	стена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	потолке	потолка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	например	например	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	снимая	снимать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+17	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	тех	тот	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	пока	пока	SCONJ	_	_	25	advmod	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	разрядится	разрядяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+26	батарея	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 5545

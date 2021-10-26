@@ -1,0 +1,269 @@
+# text = # newpar
+# sent_id = 2321
+# text = Ученые обнаружили, что некоторые высокочастотные звуки могут вызвать у стареющих кошек припадки.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	высокочастотные	высокочастотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	звуки	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	вызвать	вызывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	у	у	ADP	_	_	12	case	_	_
+11	стареющих	стареющий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+13	припадки	припадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2322
+# text = Исследование опубликовано в Journal of Feline Medicine and Surgery.Ветеринары опросили хозяев 96 кошек, большая часть из которых старше 15 лет, и сверили результаты опроса с медицинскими картами животных.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Journal	journal	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	Feline	Feline	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Medicine	Medicine	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	and	and	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Surgery.	Surgery.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl:agent	_	SpaceAfter=No
+10	Ветеринары	Ветеринара	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	опросили	опрошивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	хозяев	хозяин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	96	96	NUM	_	_	14	nummod	_	_
+14	кошек	кошка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+17	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	которых	который	PRON	_	Case=Gen	17	nmod	_	_
+20	старше	старший	ADJ	_	Degree=Cmp	14	acl:relcl	_	_
+21	15	15	NUM	_	_	22	nummod	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	сверили	сверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+26	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+27	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	медицинскими	медицинский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+30	картами	карта	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	27	nmod	_	_
+31	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2323
+# text = Признаки "синдрома Тома и Джерри" наблюдались у 90 исследуемых животных.
+1	Признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	синдрома	синдром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Тома	Том	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	Джерри	Джерри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	у	у	ADP	_	_	12	case	_	_
+10	90	90	NUM	_	_	12	nummod	_	_
+11	исследуемых	исследуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2324
+# text = Рефлекторные аудиогенные судороги проявлялись с разной силой, от оцепенения и непроизвольных мускульных сокращений, до судорог с потерей сознания.
+1	Рефлекторные	Рефлекторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	аудиогенные	аудиогенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	судороги	судорог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	проявлялись	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	разной	разный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	силой	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	оцепенения	оцепенение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	непроизвольных	непроизвольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	мускульных	мускульный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	сокращений	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	до	до	ADP	_	_	17	case	_	_
+17	судорог	судорог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	потерей	потеря	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	_
+20	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2325
+# text = В быту приступ может спровоцировать шуршание фольги, звон стекла, писк мыши или стук металлической ложки по керамической миске.
+1	В	в	ADP	_	_	2	case	_	_
+2	быту	быт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	приступ	приступ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	спровоцировать	провоцировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	шуршание	шуршание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	фольги	фольга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	звон	звон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+10	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	писк	писк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+13	мыши	мыша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	стук	стука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	conj	_	_
+16	металлической	металлический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	ложки	ложка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+18	по	по	ADP	_	_	17	case	_	_
+19	керамической	керамический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	миске	миска	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2326
+# text = Ученые предположили, что механизм аудиогенных судорог у кошек схож с эпилептическим припадком человека, однако противоэпилептические препараты улучшили состояние лишь у нескольких животных.Любопытно, что половина кошек, участвовавших в исследовании, оказались частично или полностью глухими в человеческом слышимом диапазоне.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	cc	_	_
+5	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	аудиогенных	аудиогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	судорог	судорог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	кошек	кошки	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	схож	схожий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	advcl	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	эпилептическим	эпилептический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	припадком	припадок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+14	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	19	advmod	_	_
+17	противоэпилептические	противоэпилептический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	препараты	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	улучшили	улучшать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	лишь	лишь	PART	_	_	24	advmod	_	_
+22	у	у	ADP	_	_	24	case	_	_
+23	нескольких	несколько	NUM	_	Case=Gen	24	nummod	_	_
+24	животных.	животныхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+25	Любопытно	любопытный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	что	что	SCONJ	_	_	25	mark	_	_
+28	половина	половина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+29	кошек	кошки	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	участвовавших	участвовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	29	amod	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	25	advcl	_	_
+36	частично	частично	ADV	_	Degree=Pos	39	advmod	_	_
+37	или	или	CCONJ	_	_	38	cc	_	_
+38	полностью	полностью	ADV	_	Degree=Pos	39	advmod	_	_
+39	глухими	глухой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+40	в	в	ADP	_	_	43	case	_	_
+41	человеческом	человеческий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+42	слышимом	слышимый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 2327
+# text = Исследователи предполагают, что кошки эволюционно развили чувствительность к высокочастотным звукам для охоты на грызунов, но почему с возрастом ультразвук начинает вызывать припадки, пока остается неясным.Домашняя кошка один из самых популярных животных-компаньонов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	эволюционно	эволюционне	ADV	_	Degree=Pos	7	advmod	_	_
+7	развили	развивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	высокочастотным	высокочастотный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	звукам	звук	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	охоты	охота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	грызунов	грызун	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	но	но	CCONJ	_	_	22	cc	_	_
+18	почему	почему	ADV	_	Degree=Pos	22	advmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	возрастом	возраст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	_
+21	ультразвук	ультразвук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+23	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	припадки	припадки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	пока	пока	SCONJ	_	_	7	mark	_	_
+27	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+28	неясным.	неяснымя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+29	Домашняя	Домашний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	кошка	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+31	один	один	NUM	_	Case=Nom|Gender=Masc	36	nummod:gov	_	_
+32	из	из	ADP	_	_	34	case	_	_
+33	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+35	животных-	животных-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	компаньонов	компаньон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 2328
+# text = Предок домашних кошек -- степная кошка -- одомашнена около десяти тысяч лет назад на Ближнем Востоке для защиты запасов зерна от грызунов.
+1	Предок	Предок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+2	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	степная	степный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	кошка	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	одомашнена	одомашнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	около	около	ADP	_	_	11	case	_	_
+10	десяти	десять	NUM	_	Case=Gen	11	nummod	_	_
+11	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	назад	назад	ADV	_	Degree=Pos	8	advmod	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	Ближнем	ближний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	Востоке	восток	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+19	запасов	запас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	зерна	зерно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	грызунов	грызун	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2329
+# text = Психологи отмечают благотворное влияние домашней кошки на хозяина в состоянии стресса.
+1	Психологи	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	благотворное	благотворный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	домашней	домашний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	кошки	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+11	стресса	стресс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2330
+# text = Многие кошки перенимают черты поведения хозяина и даже используют разные интонации для передачи информации при взаимодействии с человеком.
+1	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	перенимают	перенимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	черты	черта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	даже	даже	PART	_	_	9	advmod	_	_
+9	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	интонации	интонация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+14	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	взаимодействии	взаимодействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 2331

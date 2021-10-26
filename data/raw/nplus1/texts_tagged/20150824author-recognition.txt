@@ -1,0 +1,362 @@
+# text = # newpar
+# sent_id = 248
+# text = Ученые из Питтсбургского университета создали алгоритм для идентификации фотографа по его снимкам.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Питтсбургского	Питтсбургский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+7	для	для	ADP	_	_	6	case	_	_
+8	идентификации	идентификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	фотографа	фотограф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	по	по	ADP	_	_	12	case	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	снимкам	снимок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 249
+# text = Программа основана на сверточных нейронных сетях, которые обучали "с учителем" по обширной базе изображений.
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	основана	основывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	6	case	_	_
+4	сверточных	сверточный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+5	нейронных	нейронный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	обучали	обучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	с	с	ADP	_	_	12	case	_	_
+12	учителем	учитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	обширной	обширный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	базе	база	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+17	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 250
+# text = Препринт работы выложен на arXiv.org.Авторы собрали 119806 снимков разных жанров, сделанных 25 известными фотографами на протяжении всего XX века.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	выложен	выкладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	arXiv.org	arXiv.org	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	119806	119806	NUM	_	_	10	nummod	_	_
+10	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	жанров	жанр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	25	25	NUM	_	_	17	nummod	_	_
+16	известными	известный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	фотографами	фотограф	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl:agent	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+20	всего	всего	PART	_	_	22	advmod	_	_
+21	XX	xx	NUM	_	_	22	nummod	_	_
+22	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 251
+# text = Для обучения программы ученые экспериментировали с различными наборами признаков, чтобы определить, какие из них дают наилучшие результаты для распознавания.
+1	Для	для	ADP	_	_	2	case	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	экспериментировали	экспериментировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	наборами	набор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+9	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+12	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	какие	какой	DET	_	Case=Nom|Number=Plur	17	nsubj	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+17	дают	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+18	наилучшие	наилучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 252
+# text = В работе использовались как низкоуровневые признаки, выбранные вручную (например, цветовая гистограмма)так и глубокие признаки, полученные автоматическими классификаторами.В качестве теста из общей базы было отобрано по 20 снимков каждого фотографа, которые не использовались для обучения.
+1	В	в	ADP	_	_	2	case	_	_
+2	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	низкоуровневые	низкоуровневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	выбранные	выбрывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+9	вручную	вручную	ADV	_	Degree=Pos	8	advmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	например	например	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	цветовая	цветовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	гистограмма	гистограмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+15	)так	)така	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	глубокие	глубокий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+21	автоматическими	автоматический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	классификаторами	классификатор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	В	в	ADP	_	_	26	case	_	_
+25	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	fixed	_	_
+26	теста	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+27	из	из	ADP	_	_	29	case	_	_
+28	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	отобрано	отобирать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+32	по	по	ADP	_	_	34	case	_	_
+33	20	20	NUM	_	_	34	nummod	_	_
+34	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nsubj	_	_
+35	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	фотографа	фотограф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	которые	который	PRON	_	Case=Nom	40	nsubj:pass	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	36	acl:relcl	_	_
+41	для	для	ADP	_	_	42	case	_	_
+42	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 253
+# text = Программа пыталась определить их авторство, а ученые анализировали, какие признаки активнее всего при этом использовались.Авторы не приводят в препринте количественных данных по точности работы алгоритма, однако отмечают, что в целом программа справилась "удовлетворительно".
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	пыталась	пытаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
+5	авторство	авторство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	9	cc	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	анализировали	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	какие	какой	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+13	активнее	активнее	ADV	_	Degree=Cmp	17	advmod	_	_
+14	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+17	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Авторы	автор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	препринте	препринт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+24	количественных	количественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	23	nmod	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	точности	точность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	obl	_	_
+28	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	однако	однако	ADV	_	Degree=Pos	32	advmod	_	_
+32	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	38	obl	_	_
+37	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
+38	справилась	справляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	32	advcl	_	_
+39	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	удовлетворительно	удовлетворительно	ADV	_	Degree=Pos	38	advmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 254
+# text = Оказалось, что наибольший вклад при распознавании вносили "мелкие" признаки, определенные автоматически.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	наибольший	наибольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	распознавании	распознавание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	вносили	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	определенные	определенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+15	автоматически	автоматически	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 255
+# text = Для удобства анализа авторы сгруппировали их так, чтобы они обозначали какими-либо характеристики, понятные человеку, например, объект съемки.
+1	Для	для	ADP	_	_	2	case	_	_
+2	удобства	удобство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	сгруппировали	сгруппировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	5	obj	_	_
+7	так	так	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+11	обозначали	обозначать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+12	какими-либо	какой-либо	DET	_	Case=Ins|Number=Plur	13	amod	_	_
+13	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	понятные	понятной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	например	например	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	_
+21	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 256
+# text = Таким образом удалось показать, что алгоритм в основном опирался на содержание фотографии ("здания", "люди", "пейзаж"), а такие признаки, как гамма, вносили меньший вклад.По словам ученых, их работа впервые обращается к проблеме автоматического определения авторства фотографии.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	основном	основное	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	опирался	опирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	advcl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+13	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	здания	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	parataxis	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	пейзаж	пейзаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	24	punct	_	_
+28	а	а	CCONJ	_	_	30	cc	_	_
+29	такие	такой	DET	_	Case=Nom|Number=Plur	30	amod	_	_
+30	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	как	как	SCONJ	_	_	33	cc	_	_
+33	гамма	гамма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	вносили	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+36	меньший	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	obj	_	_
+37	вклад.	вкладалее	ADV	_	Degree=Pos	35	advmod	_	SpaceAfter=No
+38	По	по	ADP	_	_	39	case	_	_
+39	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	35	obl	_	_
+40	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	43	nmod	_	_
+43	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	45	nsubj	_	_
+44	впервые	впервые	ADV	_	Degree=Pos	45	advmod	_	_
+45	обращается	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+46	к	к	ADP	_	_	47	case	_	_
+47	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	45	obl	_	_
+48	автоматического	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_
+49	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	_
+50	авторства	авторство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_
+51	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# sent_id = 257
+# text = Авторы считают, что подобные алгоритмы могут быть использованы поисковыми ботами.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	алгоритмы	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	aux:pass	_	_
+9	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	поисковыми	поисковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	ботами	бот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 258
+# text = В настоящий момент они могут искать изображение по имени автора, только если эта информация явно приведена на веб-странице с самой фотографией.
+1	В	в	ADP	_	_	3	case	_	_
+2	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+10	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	только	только	CCONJ	_	_	17	advmod	_	_
+13	если	если	SCONJ	_	_	17	mark	_	_
+14	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
+15	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+16	явно	явно	ADV	_	Degree=Pos	17	advmod	_	_
+17	приведена	приводить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	веб-странице	веб-страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	самой	сам	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	фотографией	фотография	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 259
+# text = Аналогичные методы машинного обучения уже активно применялись для визуального анализа живописи или фотографий.
+1	Аналогичные	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	машинного	машинной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	активно	активно	ADV	_	Degree=Pos	7	advmod	_	_
+7	применялись	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	визуального	визуальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	живописи	живопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 260
+# text = Например, программы обучилиавтоматические создавать текстовое описание фотографии, "понимать" наброскиили искать пожары на снимках из соцсетей.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+4	обучилиавтоматические	обучилиавтоматический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+5	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	текстовое	текстовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	наброскиили	наброскиять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+15	пожары	пожар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	obj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	соцсетей	соцсеть	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 261

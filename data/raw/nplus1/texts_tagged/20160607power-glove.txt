@@ -1,0 +1,170 @@
+# text = # newpar
+# sent_id = 3754
+# text = Американский инженер Нолан Мур (Nolan Moore) приспособил контроллер-перчатку NintendoPower Glove для управления квадрокоптером при помощи жестов рукой.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	Нолан	Нолан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Мур	мур	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Nolan	Nolan	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	Moore	Moore	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	приспособил	приспособивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	контроллер-перчатку	контроллер-перчатка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	NintendoPower	NintendoPower	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Glove	Glove	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+15	квадрокоптером	квадрокоптер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	_
+16	при	при	ADP	_	_	18	case	_	_
+17	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	fixed	_	_
+18	жестов	жест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+19	рукой	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3755
+# text = Подробнее о проекте можно прочитать на портале Hackaday.Для того, чтобы превратить Power Glove в пульт управления для квадрокоптера, автор проекта использовал контроллерTeensy-LC, к которому подключил датчики сгибания пальцев, гироскоп и Wi-Fi модуль, при помощи которого перчатка связывается с дроном.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	Hackaday	Hackaday	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Для	для	ADP	_	_	11	case	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+14	превратить	превращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+15	Power	power	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Glove	Glove	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	пульт	пульт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+19	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+24	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+26	контроллерTeensy	контроллерTeensy	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	LC	Lc	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	к	к	ADP	_	_	31	case	_	_
+31	которому	который	PRON	_	Case=Dat	25	obl	_	_
+32	подключил	подключать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+33	датчики	датчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
+34	сгибания	сгибание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+35	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	гироскоп	гироскоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+38	и	и	CCONJ	_	_	40	cc	_	_
+39	Wi-Fi	Wi-Fi	NUM	_	_	40	nummod	_	_
+40	модуль	модуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	при	при	ADP	_	_	44	case	_	_
+43	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	fixed	_	_
+44	которого	который	PRON	_	Case=Gen	46	obl	_	_
+45	перчатка	перчатка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	nsubj:pass	_	_
+46	связывается	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl:relcl	_	_
+47	с	с	ADP	_	_	48	case	_	_
+48	дроном	дрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 3756
+# text = В качестве тестового беспилотника изобретатель использовал Parrot AR Drone.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	тестового	тестовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	изобретатель	изобретатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Parrot	Parrot	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	AR	Ar	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Drone	Drone	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3757
+# text = Подобный контроллер можно использовать не только с AR Drone, но и с любым другим беспилотником, управление которым осуществляется через Wi-Fi.После взлета квадрокоптера им можно управлять при помощи наклонов запястья.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	контроллер	контроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	только	только	PART	_	_	8	advmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	AR	Ar	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+9	Drone	Drone	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	но	но	CCONJ	_	_	16	cc	_	_
+12	и	и	PART	_	_	16	advmod	_	_
+13	с	с	ADP	_	_	16	case	_	_
+14	любым	любой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	беспилотником	беспилотник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+19	которым	который	PRON	_	Case=Dat	18	nmod	_	_
+20	осуществляется	осуществляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+21	через	через	ADP	_	_	22	case	_	_
+22	Wi-Fi.После	Wi-Fi.Посло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	0	obl	_	_
+26	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+27	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+28	при	при	ADP	_	_	30	case	_	_
+29	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	fixed	_	_
+30	наклонов	наклон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	_
+31	запястья	запястье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3758
+# text = Если направить указательный палец вверх или вниз, то квадрокоптер будет набирать высоту или снижаться, раскрытая ладонь заставляет дрон зависнуть на месте.
+1	Если	если	SCONJ	_	_	12	mark	_	_
+2	направить	направлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	advcl	_	_
+3	указательный	указательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	палец	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	вверх	вверх	ADV	_	Degree=Pos	7	advmod	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	вниз	вниз	ADV	_	Degree=Pos	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	SCONJ	_	_	2	cc	_	_
+10	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	набирать	набирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+13	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	снижаться	снижаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	раскрытая	раскрывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	ладонь	ладонь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	заставляет	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+20	дрон	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+21	зависнуть	зависать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3759
+# text = Управление рысканием производится при помощи горизонтального поворота кисти с разогнутым указательным пальцем.Николай Воронцов
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	рысканием	рыскание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+3	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	при	при	ADP	_	_	7	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	горизонтального	горизонтальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+8	кисти	кисть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	разогнутым	разоггивать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	указательным	указательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	пальцем.	пальцем.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+14	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_
+
+# newpar
+# sent_id = 3760

@@ -1,0 +1,86 @@
+# text = # newpar
+# sent_id = 4753
+# text = Сингапурская компания TinyMOS представила прототип компактной камеры Tiny1, спроектированной для съемки ночного неба.
+1	Сингапурская	Сингапурский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	TinyMOS	Tinymos	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	прототип	прототип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	компактной	компактный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	Tiny1	Tiny1	NOUN	_	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	спроектированной	спроектировывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	ночного	ночной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	неба	небо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4754
+# text = Об этом сообщает портал Ubergizmo.Программное и аппаратное обеспечение камеры позволяют делать снимки едва различимых человеческим глазом объектов на ночном небе при выдержке в 30 секунд.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	Ubergizmo.	ubergizmo.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+6	Программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	аппаратное	аппаратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	_
+9	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+10	камеры	камер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	едва	едва	PART	_	_	15	advmod	_	_
+15	различимых	различимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+16	человеческим	человеческий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	глазом	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+18	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	ночном	ночной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	небе	небо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	выдержке	выдержка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	30	30	NUM	_	_	26	nummod	_	_
+26	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4755
+# text = В камеру встроена функция съемки заданных объектов, для реализации которой в устройство загружена информация о расположении небесных тел.
+1	В	в	ADP	_	_	2	case	_	_
+2	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+3	встроена	встраивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	заданных	задавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+11	которой	который	PRON	_	Case=Gen	10	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+14	загружена	загружать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+15	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	расположении	расположение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4756
+# text = Также в Tiny1 реализована функция автоматической съемки таймлапсов.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	Tiny1	Tiny1	NUM	_	_	4	nummod	_	_
+4	реализована	реализовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	таймлапсов	таймлапс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 4757

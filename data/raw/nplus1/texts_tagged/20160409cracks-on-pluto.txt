@@ -1,0 +1,121 @@
+# text = # newpar
+# sent_id = 57
+# text = NASA опубликовала новый снимок поверхности Плутона.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	опубликовала	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	снимок	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Плутона	Плутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 58
+# text = На нем ясно различима сеть из шести трещин, исходящих из одной области ледяных равнин карликовой планеты.
+1	На	на	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	ясно	ясно	ADV	_	Degree=Pos	4	advmod	_	_
+4	различима	различимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	шести	шесть	NUM	_	Case=Gen	8	nummod	_	_
+8	трещин	трещина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	исходящих	исходить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	одной	один	NUM	_	Case=Gen|Gender=Fem	13	nummod	_	_
+13	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+14	ледяных	ледяный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	равнин	равнины	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 59
+# text = Геологи миссии New Horizons отмечают, что подобные объекты не были найдены ни на одном из тел Солнечной системы кроме Плутона.Самая длинная из трещин располагается в направлении с севера на юг и имеет длину около 580 километров -- она получила название борозды Слепнира.
+1	Геологи	геолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	New	new	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Horizons	Horizons	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+10	не	не	PART	_	_	12	advmod	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+13	ни	ни	PART	_	_	15	advmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	одном	один	NUM	_	Case=Loc|Gender=Neut	12	nummod	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+18	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	кроме	кроме	ADP	_	_	21	case	_	_
+21	Плутона.	плутона.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	obl	_	SpaceAfter=No
+22	Самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	длинная	длинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	nsubj	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	трещин	трещина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	располагается	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+29	с	с	ADP	_	_	30	case	_	_
+30	севера	север	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	юг	юг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+35	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+36	около	около	ADP	_	_	38	case	_	_
+37	580	580	NUM	_	_	38	nummod	_	_
+38	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	_
+39	--	--	PUNCT	_	_	38	punct	_	_
+40	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+41	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+42	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
+43	борозды	борозда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+44	Слепнира	Слепнир	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 60
+# text = Меридианальные борозды, обнаруженные на снимке в среднем длиннее перпендикулярных им трещин.
+1	Меридианальные	Меридианальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	борозды	борозд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	обнаруженные	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	снимке	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+9	длиннее	длинный	ADJ	_	Degree=Cmp	0	root	_	_
+10	перпендикулярных	перпендикулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	12	nmod	_	_
+12	трещин	трещина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 61
+# text = Длина последних достигает лишь 100 километров.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	_
+3	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	лишь	лишь	PART	_	_	5	advmod	_	_
+5	100	100	NUM	_	_	6	nummod	_	_
+6	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 62
+# text = Фотографии показывают что трещины обнажают красные отложения подповерхностных слоев.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+2	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	что	что	PRON	_	Case=Acc	5	obj	_	_
+4	трещины	трещина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	обнажают	обнажать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+6	красные	красный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	отложения	отложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+8	подповерхностных	подповерхностный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 63

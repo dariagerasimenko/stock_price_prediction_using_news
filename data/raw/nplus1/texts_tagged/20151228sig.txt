@@ -1,0 +1,237 @@
+# text = # newpar
+# sent_id = 1344
+# text = "Морские котики", основное тактическое подразделение сил специальных операций ВМС США, впервые за последние 30 лет заменит пистолеты.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Морские	морской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	котики	котик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	основное	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	тактическое	тактический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+9	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	впервые	впервые	ADV	_	Degree=Pos	20	advmod	_	_
+16	за	за	ADP	_	_	19	case	_	_
+17	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	30	30	NUM	_	_	19	nummod	_	_
+19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+20	заменит	заменать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+21	пистолеты	пистолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1345
+# text = КакпишетFoxtrot Alpha, военные будут постепенно списывать устаревшие металлические SIG Sauer P226 и заменять их новыми Glock 19, большинство деталей которых созданы из полимерных материалов.Точные причины, по которым "Морские котики" решили сменить короткоствольное огнестрельное оружие, не уточняются.
+1	КакпишетFoxtrot	КакпишетFoxtrot	PROPN	_	Foreign=Yes	7	parataxis	_	_
+2	Alpha	Alpha	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	постепенно	постепенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	списывать	списывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+8	устаревшие	устареть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	amod	_	_
+9	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	SIG	Sig	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+11	Sauer	Sauer	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	P226	P226	NUM	_	_	11	nummod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	заменять	заменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	_
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obj	_	_
+16	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	Glock	Glock	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+18	19	19	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj:pass	_	_
+21	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	которых	который	PRON	_	Case=Gen	21	nmod	_	_
+23	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	полимерных	полимерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	материалов.	материаловек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	Точные	точной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj:pass	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	по	по	ADP	_	_	31	case	_	_
+31	которым	который	PRON	_	Case=Dat	36	obl	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	Морские	морской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	котики	котик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	_
+36	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+37	сменить	сменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+38	короткоствольное	короткоствольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+39	огнестрельное	огнестрельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	не	не	PART	_	_	43	advmod	_	_
+43	уточняются	уточняоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 1346
+# text = Glock 19 имеют несколько преимуществе в числе которых небольшая масса, высокая надежность и простота модификации.
+1	Glock	Glock	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	19	19	NUM	_	_	1	nummod	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	преимуществе	преимущество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	которых	который	PRON	_	Case=Gen	7	nmod	_	_
+9	небольшая	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	высокая	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	надежность	надежность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	простота	простота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+16	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1347
+# text = Кроме того, это относительно недорогие пистолеты.Glock 19 был разработан в 1988 году на основе Glock 17.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	amod	_	_
+5	относительно	относительно	ADV	_	Degree=Pos	6	advmod	_	_
+6	недорогие	недорогий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	пистолеты.Glock	пистолеты.Glock	PROPN	_	Foreign=Yes	10	nsubj	_	_
+8	19	19	NUM	_	_	10	nummod	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	разработан	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	1988	1988	NUM	_	_	13	nummod	_	_
+13	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+16	Glock	Glock	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	17	17	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 1348
+# text = Оружие калибра 9 миллиметров получило укороченный ствол длиной 102 миллиметра при общей длине пистолета 174 миллиметра.
+1	Оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	9	9	NUM	_	_	4	nummod	_	_
+4	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	получило	получать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	укороченный	укорочять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	ствол	ствол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+9	102	102	NUM	_	_	10	nummod	_	_
+10	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	при	при	ADP	_	_	13	case	_	_
+12	общей	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+14	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	174	174	NUM	_	_	16	nummod	_	_
+16	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1349
+# text = Масса пистолета без магазина составляет 652 грамма. Glock 19 может оснащаться коробчатыми магазинами на 15, 17, 19 и 33 патрона, а также барабанными на сто патронов.SIG Sauer P226 был разработан в 1981 году.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	без	без	ADP	_	_	4	case	_	_
+4	магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	652	652	NUM	_	_	7	nummod	_	_
+7	грамма	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+9	Glock	Glock	PROPN	_	Foreign=Yes	11	nsubj	_	_
+10	19	19	NUM	_	_	9	nummod	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	оснащаться	оснащаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	коробчатыми	коробчатый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	магазинами	магазин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	15	15	NUM	_	_	23	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	17	17	NUM	_	_	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	19	19	NUM	_	_	18	nummod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	33	33	NUM	_	_	16	conj	_	_
+23	патрона	патрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	27	cc	_	_
+26	также	также	ADV	_	Degree=Pos	27	advmod	_	_
+27	барабанными	барабанный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	conj	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	сто	сто	NUM	_	Case=Acc	30	nummod:gov	_	_
+30	патронов.SIG	патронов.sig	NOUN	_	_	34	obl	_	_
+31	Sauer	Sauer	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	P226	P226	NUM	_	_	31	nummod	_	_
+33	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	разработан	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	1981	1981	NUM	_	_	37	nummod	_	_
+37	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 1350
+# text = "Морские котики" используют версию пистолета калибра 9 миллиметров, хотя существуют и версии для патронов калибра .357 SIG (9x22 миллиметра) и .40 S&W (10x22 миллиметра).
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Морские	морской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	котики	котик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	9	9	NUM	_	_	10	nummod	_	_
+10	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	хотя	хотя	SCONJ	_	_	0	mark	_	_
+13	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+14	и	и	PART	_	_	15	advmod	_	_
+15	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	патронов	патрон	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	калибра	калибро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	.357	.357	NUM	_	_	23	nummod	_	_
+20	SIG	Sig	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	9x22	9x22	NUM	_	_	23	nummod	_	_
+23	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	и	и	CCONJ	_	_	30	cc	_	_
+26	.40	.40	NUM	_	_	30	nummod	_	_
+27	S&W	S&w	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	10x22	10x22	NUM	_	_	30	nummod	_	_
+30	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1351
+# text = Масса пистолета без магазина составляет 802 грамма.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	без	без	ADP	_	_	4	case	_	_
+4	магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	802	802	NUM	_	_	7	nummod	_	_
+7	грамма	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1352
+# text = Оружие комплектуется коробчатыми магазинами на 12 или 13 патронов.Василий Сычёв
+1	Оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	комплектуется	комплектуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	коробчатыми	коробчатый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	магазинами	магазин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+5	на	на	ADP	_	_	9	case	_	_
+6	12	12	NUM	_	_	9	nummod	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	13	13	NUM	_	_	6	conj	_	_
+9	патронов.	патроновек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
+
+# newpar
+# sent_id = 1353

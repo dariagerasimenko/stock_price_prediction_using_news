@@ -1,0 +1,69 @@
+# text = # newpar
+# sent_id = 2100
+# text = Microsoft включила "Солитер" в дистрибутив Windows 10, сообщаетизданиеThe Verge.Стандартные игры исключены из дистрибутивов операционных систем Microsoft начиная с Windows 8, хотя по-прежнему были доступны для установки через интернет.
+1	Microsoft	Microsoft	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	включила	включать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Солитер	Солитер	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	дистрибутив	дистрибутив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+8	Windows	Windows	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	10	10	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сообщаетизданиеThe	сообщаетизданиеThe	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Verge	Verge	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Стандартные	стандартный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+16	исключены	исключать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	дистрибутивов	дистрибутив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+19	операционных	операционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	Microsoft	микрософт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	30	advcl	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	Windows	Windows	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	8	8	NUM	_	_	24	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	хотя	хотя	SCONJ	_	_	22	cc	_	_
+28	по-прежнему	по-прежнему	ADV	_	Degree=Pos	30	advmod	_	_
+29	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	_
+30	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+33	через	через	ADP	_	_	34	case	_	_
+34	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2101
+# text = "Эти игры не устанавливаются в Windows 8 автоматически, но их можно бесплатно скачать из Магазина Windows", -- сообщается на сайте Microsoft.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	устанавливаются	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Windows	Windows	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+8	8	8	NUM	_	_	7	nummod	_	_
+9	автоматически	автоматически	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	но	но	CCONJ	_	_	13	cc	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	можно	можно	ADV	_	Degree=Pos	5	conj	_	_
+14	бесплатно	бесплатно	ADV	_	Degree=Pos	15	advmod	_	_
+15	скачать	скачать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	Магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	Windows	windows	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	--	--	PUNCT	_	_	18	punct	_	_
+22	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+25	Microsoft.	microsoft.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	nmod	_	_
+
+# newpar
+# sent_id = 2102

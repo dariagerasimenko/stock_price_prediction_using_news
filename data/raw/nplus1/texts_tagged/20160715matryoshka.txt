@@ -1,0 +1,206 @@
+# text = # newpar
+# sent_id = 3504
+# text = Астрономы из Испании и Франции обнаружили в галактике Треугольника (М33) необычное образование из трех остатков сверхновых, вложенных один в другой.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Испании	испания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Франции	франция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	галактике	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	Треугольника	Треугольник	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	М33	М33	NUM	_	_	6	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	необычное	необычной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	_
+15	из	из	ADP	_	_	17	case	_	_
+16	трех	три	NUM	_	Case=Gen	17	nummod	_	_
+17	остатков	остатки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	сверхновых	сверхнов	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	вложенных	вкладывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+21	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	obj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3505
+# text = Это первая подобная находка.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	находка	находка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3506
+# text = Исследование опубликовано в журналеMonthly Notices of the Royal Astronomical Society (препринт), кратко о нем сообщает пресс-релиз Канарского института астрофизики.Авторы разработали специальную технику, позволяющую эффективно обнаруживать пузыри расширяющегося газа диаметром от единиц до тысяч световых лет.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журналеMonthly	журналеMonthly	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Notices	notices	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	of	of	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Royal	royal	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Astronomical	Astronomical	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Society	society	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	препринт	препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	кратко	кратко	ADV	_	Degree=Pos	17	advmod	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_
+18	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+19	пресс-релиз	пресс-релиз	ADP	_	_	21	case	_	_
+20	Канарского	Канарский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+22	астрофизики.	астрофизики.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+23	Авторы	Автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+25	специальную	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	технику	техника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+29	эффективно	эффективно	ADV	_	Degree=Pos	28	advmod	_	_
+30	обнаруживать	обнаруживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	dep	_	_
+31	пузыри	пузырь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
+32	расширяющегося	расширяться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	33	amod	_	_
+33	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	obl:agent	_	_
+35	от	от	ADP	_	_	36	case	_	_
+36	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+37	до	до	ADP	_	_	38	case	_	_
+38	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	obl	_	_
+39	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 3507
+# text = С ее помощью ученые анализировали один из регионов галактики М33, расположенной почти в трех миллионах световых лет от Земли.
+1	С	с	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	анализировали	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	один	один	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	М33	М33	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	расположенной	расположенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	obl	_	_
+13	почти	почти	ADV	_	Degree=Pos	16	advmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	трех	три	NUM	_	Case=Loc	16	nummod	_	_
+16	миллионах	миллион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+17	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	от	от	ADP	_	_	18	case	_	_
+20	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3508
+# text = Для этого использовался высокоточный 2D-спектрограф, расположенный на 4,2-метровом телескопе в обсерватории Роке-де-лос-Мучачос(Ла-Пальма).Анализируя собранные данные ученые обнаружили конструкцию из трех вложенных друг в друга расширяющихся пузырей, радиусом 71, 52 и 41 световой год.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	высокоточный	высокоточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	2D	2d	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	-спектрограф	-спектрограф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	расположенный	расположенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	amod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	4,2-метровом	4,2-метровый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	телескопе	телескоп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+14	Роке-де-лос-Мучачос(	Роке-де-лос-Мучачос(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Ла-Пальма	Ла-Пальма	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	Анализируя	анализировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	advcl	_	_
+19	собранные	собрать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	данные	данный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	из	из	ADP	_	_	26	mark	_	_
+25	трех	три	NUM	_	Case=Gen	26	nummod	_	_
+26	вложенных	вложять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	31	amod	_	_
+27	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	fixed	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	_
+30	расширяющихся	расширяться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	31	amod	_	_
+31	пузырей	пузырь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	радиусом	радиус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+34	71	71	NUM	_	_	33	nummod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	52	52	NUM	_	_	33	nummod	_	_
+37	и	и	CCONJ	_	_	40	cc	_	_
+38	41	41	NUM	_	_	40	nummod	_	_
+39	световой	световой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 3509
+# text = В центре этого объекта находится молодое звездное скопление.
+1	В	в	ADP	_	_	2	case	_	_
+2	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	молодое	молодий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	звездное	звездный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	скопление	скопление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3510
+# text = По расчетам ученых, каждый из пузырей имеет массу в несколько сотен масс Солнца.
+1	По	по	ADP	_	_	2	case	_	_
+2	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	пузырей	пузырь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+13	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+14	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3511
+# text = При этом, считается, что взрыв сверхновой выбрасывает в пространство около десяти солнечных масс и полностью расчищает окружающее пространство от газа.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	сверхновой	сверхновой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
+9	выбрасывает	выбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+12	около	около	ADP	_	_	15	case	_	_
+13	десяти	десять	NUM	_	Case=Gen	15	nummod	_	_
+14	солнечных	солнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	полностью	полностью	ADV	_	Degree=Pos	18	advmod	_	_
+18	расчищает	расчищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+19	окружающее	окружать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# newpar
+# sent_id = 3512

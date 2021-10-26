@@ -1,0 +1,154 @@
+# text = # newpar
+# sent_id = 2985
+# text = Феликс Сунь (Felix Sun), студент изМассачусетского технологического института, создал нейронную сеть, которая способна достраивать мелодию аккордами наоснове предварительно "выученного" жанра.
+1	Феликс	Феликс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	Сунь	Сунь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Felix	Felix	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Sun	sun	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+9	изМассачусетского	изМассачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	нейронную	нейронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которая	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	acl:relcl	_	_
+19	достраивать	достраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	dep	_	_
+20	мелодию	мелодия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	аккордами	аккорд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+22	наоснове	наоснов	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	21	appos	_	_
+23	предварительно	предварительно	ADV	_	Degree=Pos	25	advmod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	выученного	выучять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	жанра	жанр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2986
+# text = В качестве демонстрации автор обучил сеть наподборке регтаймов Скотта Джоплина, азатем использовал еедля аранжировки, например оды "Крадости" Бетховена.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	демонстрации	демонстрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	обучил	обучать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	сеть	сеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	наподборке	наподборка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+8	регтаймов	регтайм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	Скотта	Скотт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	Джоплина	Джоплин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	азатем	тоазат	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	amod	_	_
+13	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	еедля	еедля	ADP	_	_	15	case	_	_
+15	аранжировки	аранжировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	например	например	ADV	_	Degree=Pos	18	advmod	_	_
+18	оды	ода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Крадости	Крадость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	Бетховена	Бетховена	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2987
+# text = Сама работа подробно описана вблоге программиста, аисходный код выложен наGitHub.Программа, которая получила название DeepHear, представляет собой глубокую байесовскую сеть (deep belief network).
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	подробно	подробно	ADV	_	Degree=Pos	4	advmod	_	_
+4	описана	описывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вблоге	вблога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	программиста	программист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	аисходный	аисходный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	код	код	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+10	выложен	выкладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+11	наGitHub	наGitHub	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Программа	Программ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+17	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	DeepHear	DeepHear	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	собой	себя	PRON	_	Case=Ins	20	dep	_	_
+22	глубокую	глубокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+23	байесовскую	байесовский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	deep	deep	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	belief	belief	X	_	Foreign=Yes	26	flat:foreign	_	_
+28	network	network	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2988
+# text = Такая разновидность искусственных нейросетей часто используется для распознавания данных, например, изображений.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	разновидность	разновидность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	искусственных	искусственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	нейросетей	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	часто	часто	ADV	_	Degree=Pos	6	advmod	_	_
+6	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2989
+# text = Однако, в отличии от этой задачи, использовалсяавтокодирующийвариант: сеть не только сводила входящие данные кменьшему числу измерений (отпримерно 5000 бит к16), но и решала обратную задачу, стремясь как можно точнее воспроизвести "образец".
+1	Однако	однако	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	отличии	отличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	использовалсяавтокодирующийвариант	использовалсяавтокодирующийвариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	сводила	сводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	входящие	входеть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	14	obj	_	_
+17	кменьшему	кменьший	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	числу	число	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+19	измерений	измерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	отпримерно	отпримерно	ADV	_	Degree=Pos	23	advmod	_	_
+22	5000	5000	NUM	_	_	23	nummod	_	_
+23	бит	бит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+24	к16	к16	X	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	24	punct	_	_
+27	но	но	CCONJ	_	_	29	cc	_	_
+28	и	и	PART	_	_	27	advmod	_	_
+29	решала	решать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	35	conj	_	_
+30	обратную	обратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	стремясь	стремиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	35	advcl	_	_
+34	как	как	ADV	_	Degree=Pos	35	fixed	_	_
+35	можно	можно	ADV	_	Degree=Pos	14	parataxis	_	_
+36	точнее	точно	ADV	_	Degree=Cmp	37	advmod	_	_
+37	воспроизвести	воспроизводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	35	nsubj	_	_
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	образец	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	39	punct	_	_
+
+# newpar
+# sent_id = 2990

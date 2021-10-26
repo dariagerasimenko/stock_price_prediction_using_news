@@ -1,0 +1,187 @@
+# text = # newpar
+# sent_id = 3221
+# text = Центр исследований, разработки и проектирования электронных средств связи (CERDEC) Армии США приступил к испытаниям новой навигационной системы, которая позволит военным определять точное местоположение в том случае, если по какой-либо причине будет недоступна GPS-навигация.
+1	Центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+2	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	проектирования	проектирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+7	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	parataxis	_	_
+10	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	CERDEC	Cerdec	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	приступил	приступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	obl	_	_
+18	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	навигационной	навигационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которая	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	военным	военный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
+25	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+26	точное	точной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	местоположение	местоположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	30	amod	_	_
+30	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	если	если	SCONJ	_	_	15	mark	_	_
+33	по	по	ADP	_	_	35	case	_	_
+34	какой-либо	какой-либо	DET	_	Case=Dat|Gender=Fem|Number=Sing	35	amod	_	_
+35	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	37	nmod	_	_
+36	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	cop	_	_
+37	недоступна	недоступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	advcl	_	_
+38	GPS-навигация	GPS-навигация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3222
+# text = Как сообщаетDefense Aerospace, всистеме используются инерциальная навигация и видео с внешней камеры.В состав новой системы входит камера, поддерживающая ночной режим, а также блок инерциальной навигации.
+1	Как	как	ADV	_	Degree=Pos	6	mark	_	_
+2	сообщаетDefense	сообщаетDefense	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Aerospace	Aerospace	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	всистеме	всистема	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	инерциальная	инерциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	навигация	навигация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	внешней	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+17	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+20	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	поддерживающая	поддерживать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+23	ночной	ночной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	а	а	CCONJ	_	_	28	cc	_	_
+27	также	также	ADV	_	Degree=Pos	28	advmod	_	_
+28	блок	блка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	conj	_	_
+29	инерциальной	инерциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3223
+# text = Специальный вычислительный блок обрабатывает видео, замечая мельчайшие изменения на картинке.
+1	Специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	вычислительный	вычислительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	обрабатывает	обрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	замечая	замечать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+8	мельчайшие	мелкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	9	amod	_	_
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	картинке	картинка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3224
+# text = Он может выделять на изображении ключевые объекты и определять изменение их размеров или положения.За счет отслеживания смещения объектов и сопоставления вычислений с инерциальными системами навигации система может выдавать точные данные о направлении движения техники и ее перемещениях.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выделять	выделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	изображении	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	ключевые	ключевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+10	изменение	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	За	за	ADP	_	_	18	case	_	_
+17	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	fixed	_	_
+18	отслеживания	отслеживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+19	смещения	смещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	сопоставления	сопоставление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	conj	_	_
+23	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	инерциальными	инерциальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	_
+26	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	23	nmod	_	_
+27	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+29	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+30	выдавать	выдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	точные	точный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	_
+32	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	30	obj	_	_
+33	о	о	ADP	_	_	34	case	_	_
+34	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	nmod	_	_
+35	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	и	и	CCONJ	_	_	39	cc	_	_
+38	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	39	nmod	_	_
+39	перемещениях	перемещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	36	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 3225
+# text = По оценке CERDEC, дополненная видеоинформацией новая система отличается большей точностью позиционирования по сравнению с инерциальной системой.В новой системе может производиться коррекция с использованием данных видео, благодаря чему при перемещениях накопление навигационной ошибки происходит медленнее, чем в системах инерциальной навигации.Василий Сычёв
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	parataxis	_	_
+3	CERDEC	Cerdec	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	дополненная	дополнять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	видеоинформацией	видеоинформация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl:agent	_	_
+7	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	позиционирования	позиционирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	по	по	ADP	_	_	17	case	_	_
+14	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	fixed	_	_
+15	с	с	ADP	_	_	14	fixed	_	_
+16	инерциальной	инерциальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	21	case	_	_
+20	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+23	производиться	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	22	xcomp	_	_
+24	коррекция	коррекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	nmod	_	_
+27	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	_
+28	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	благодаря	благодаря	ADP	_	_	31	case	_	_
+31	чему	чего	PRON	_	Case=Dat	37	obl	_	_
+32	при	при	ADP	_	_	33	case	_	_
+33	перемещениях	перемещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	37	obl	_	_
+34	накопление	накопление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+35	навигационной	навигационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	_
+38	медленнее	медленно	ADV	_	Degree=Cmp	37	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	чем	чем	SCONJ	_	_	42	cc	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	38	advmod	_	_
+43	инерциальной	инерциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+47	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	46	flat:name	_	_
+
+# newpar
+# sent_id = 3226

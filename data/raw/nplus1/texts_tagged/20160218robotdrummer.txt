@@ -1,0 +1,243 @@
+# text = # newpar
+# sent_id = 3396
+# text = Ученые из Технологического института Джорджии создали роботизированную руку, которая может прикрепляться к плечу барабанщика и играть вместе с ним.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Джорджии	Джорджия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	роботизированную	роботизировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	прикрепляться	прикрепляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	плечу	плечо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+15	барабанщика	барабанщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+18	вместе	вместе	ADV	_	Degree=Pos	17	advmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3397
+# text = Сообщение опубликовано в пресс-релизе на официальном сайте института.
+1	Сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+8	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3398
+# text = Манипулятор длиной около полуметра реагирует на музыку и движения человека.
+1	Манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+3	около	около	ADP	_	_	4	case	_	_
+4	полуметра	полуметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	реагирует	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	conj	_	_
+10	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3399
+# text = Например, когда музыкант играет на парных тарелках, роботизированная рука ударяет по райду, а если барабанщик играет на малом барабане, то робот переключается на том-том.
+1	Например	например	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	когда	когда	SCONJ	_	_	12	mark	_	_
+4	музыкант	музыкант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	парных	парный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	тарелках	тарелка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	роботизированная	роботизировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	рука	рука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	ударяет	ударять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	райду	райд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	26	cc	_	_
+17	если	если	SCONJ	_	_	26	mark	_	_
+18	барабанщик	барабанщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	малом	малый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	барабане	барабан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	то	то	SCONJ	_	_	19	cc	_	_
+25	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	переключается	переключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	том-том	том-т	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3400
+# text = Робот импровизирует, полагаясь на воспринимаемый такт и ритм.
+1	Робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	импровизирует	импровизировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	полагаясь	полагаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	2	advcl	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	воспринимаемый	воспринимаемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	такт	такт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	ритм	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3401
+# text = Если музыкант играет медленно, то устройство также замедляет темп игры.
+1	Если	если	SCONJ	_	_	9	mark	_	_
+2	музыкант	музыкант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+4	медленно	медленно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	то	то	SCONJ	_	_	3	cc	_	_
+7	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	замедляет	замедлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	темп	темп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3402
+# text = Встроенные акселерометры позволяют искусственной руке автоматически регулировать свое положение в пространстве, меняя высоту и угол удара.
+1	Встроенные	встроенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	акселерометры	акселерометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	искусственной	искусственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	руке	рука	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+6	автоматически	автоматически	ADV	_	Degree=Pos	7	advmod	_	_
+7	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+8	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
+9	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	меняя	менять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+14	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	угол	угол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_
+17	удара	удар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3403
+# text = Движения устройства отработаны с использованием технологии захвата движения, поэтому она перемещается плавно и естественно.Разработчики считают, что устройство поможет барабанщикам играть на музыкальном инструменте с той сложностью и виртуозностью, которая ранее не была им доступна.
+1	Движения	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	отработаны	отрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	использованием	использованье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+6	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	поэтому	поэтому	ADV	_	Degree=Pos	12	advmod	_	_
+11	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+12	перемещается	перемещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+13	плавно	плавно	ADV	_	Degree=Pos	12	advmod	_	_
+14	и	и	PART	_	_	15	advmod	_	_
+15	естественно.	естественнотец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+16	Разработчики	Разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	appos	_	_
+17	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	mark	_	_
+20	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	advcl	_	_
+22	барабанщикам	барабанщик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+23	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	музыкальном	музыкальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	инструменте	инструмент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing	29	amod	_	_
+29	сложностью	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	виртуозностью	виртуозность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	которая	который	PRON	_	Case=Nom	38	nsubj	_	_
+34	ранее	ранее	ADV	_	Degree=Pos	38	advmod	_	_
+35	не	не	PART	_	_	38	advmod	_	_
+36	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	38	cop	_	_
+37	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	38	nmod	_	_
+38	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	29	acl:relcl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3404
+# text = В будущем ученые планируют усовершенствовать музыкального робота, позволив ему считывать мозговые сигналы человека.Ранее исследователи создали роботизированный протез для барабанщика Джейсона Барнса, который потерял кисть правой руки.
+1	В	в	ADP	_	_	2	case	_	_
+2	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	усовершенствовать	совершенствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	музыкального	музыкальный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволив	позволять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	_
+10	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+11	считывать	считывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	мозговые	мозговой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	человека.	человека.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	Ранее	рано	ADV	_	Degree=Cmp	17	advmod	_	_
+16	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	роботизированный	роботизированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	протез	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	барабанщика	барабанщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	Джейсона	Джейсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	appos	_	_
+23	Барнса	Барнс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	который	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	потерял	терять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+27	кисть	кисть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	правой	правый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3405
+# text = Протез имел две барабанные палочки, одна из которой контролировалась мышцей бицепса, а вторая самостоятельно настраивала ритм.
+1	Протез	протез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	5	nummod:gov	_	_
+4	барабанные	барабанный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	одна	один	NUM	_	Case=Nom|Gender=Fem	10	nsubj	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	которой	который	PRON	_	Case=Gen	7	nmod	_	_
+10	контролировалась	контролироваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+11	мышцей	мышца	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	бицепса	бицепс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	17	cc	_	_
+15	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	самостоятельно	самостоятельно	ADV	_	Degree=Pos	17	advmod	_	_
+17	настраивала	настраивать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	ритм	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3406
+# text = Устройство позволило музыканту продолжить свою музыкальную карьеру.Александр Еникеев
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	музыканту	музыкант	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+4	продолжить	продолживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+6	музыкальную	музыкальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	карьеру.	карьеру.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+9	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	_
+
+# newpar
+# sent_id = 3407

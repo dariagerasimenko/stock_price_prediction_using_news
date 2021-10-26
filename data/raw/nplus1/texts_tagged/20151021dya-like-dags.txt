@@ -1,0 +1,133 @@
+# text = # newpar
+# sent_id = 2695
+# text = Ученые из Института исследований космоса провели космологическое моделирование, которое показало, что Земля появилась в числе первых восьми процентов землеподобных планет, которые когда-либо смогут сформироваться во Вселенной.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	космологическое	космологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	моделирование	моделирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которое	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	Земля	земля	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	появилась	появляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	advmod	_	_
+18	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	восьми	восемь	NUM	_	Case=Gen	20	nummod	_	_
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+21	землеподобных	землеподобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	26	nsubj	_	_
+25	когда-либо	когда-либо	ADV	_	Degree=Pos	26	advmod	_	_
+26	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+27	сформироваться	сформироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	26	xcomp	_	_
+28	во	в	ADP	_	_	29	case	_	_
+29	Вселенной	вселенная	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2696
+# text = Результаты работы опубликованы в Monthly Notices of the Royal Astronomical Society, а коротко об этом сообщает материал на сайте Космического агентства.В работе были использованы данные телескопа "Хаббл" и современные космологические и планетарные модели.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Monthly	Monthly	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Notices	notices	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	of	of	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	the	the	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Royal	royal	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Astronomical	Astronomical	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Society	society	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	17	cc	_	_
+14	коротко	коротко	ADV	_	Degree=Pos	17	advmod	_	_
+15	об	о	ADP	_	_	16	case	_	_
+16	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+17	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
+18	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	_
+21	Космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	В	в	ADP	_	_	25	case	_	_
+25	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+26	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+28	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	27	nsubj	_	_
+29	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	_
+33	и	и	CCONJ	_	_	38	cc	_	_
+34	современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+35	космологические	космологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	планетарные	планетарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	35	conj	_	_
+38	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2697
+# text = Для расчетов использовалась современная модель, согласно которой пространственно-плоская Вселенная заполнена, помимо обычной материи, темной энергией и темной материей (модель лямбда-CDM).
+1	Для	для	ADP	_	_	2	case	_	_
+2	расчетов	расчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+3	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	согласно	согласно	ADP	_	_	8	case	_	_
+8	которой	который	PRON	_	Case=Dat	3	obl	_	_
+9	пространственно-	пространственно-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	плоская	плоский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	Вселенная	Вселенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	заполнена	заполнена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	помимо	помимо	ADP	_	_	16	case	_	_
+15	обычной	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	материи	материя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	темной	темный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	энергией	энергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	темной	темный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	материей	материя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	parataxis	_	_
+25	лямбда-	лямбда-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	CDM	Cdm	PROPN	_	Foreign=Yes	24	appos	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2698
+# text = В симуляцию также включали современные частотные планетарные модели.
+1	В	в	ADP	_	_	2	case	_	_
+2	симуляцию	симуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	включали	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+6	частотные	частотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	планетарные	планетарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2699
+# text = На основании расчетов ученые получили несколько интересных выводов.
+1	На	на	ADP	_	_	2	case	_	_
+2	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	расчетов	расчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+7	интересных	интересный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	выводов	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# newpar
+# sent_id = 2700

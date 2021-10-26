@@ -1,0 +1,110 @@
+# text = # newpar
+# sent_id = 2303
+# text = Японские астрономы обнаружили более восьмисот новых представителей класса ультра-диффузных галактик.
+1	Японские	японский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	более	более	ADV	_	Degree=Cmp	7	nummod:gov	_	_
+5	восьмисот	восьмьсот	NUM	_	Case=Gen	7	nummod	_	_
+6	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	ультра-	ультра-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	диффузных	диффузный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2304
+# text = Их исследование появится на страницахThe Astrophysical Journal Letters, егопрепринт доступенна сайте arXiv.org, а кратко с работой можно ознакомиться в заметке журнала Science.В новой работе ученые использовали телескоп Субару, расположенный в обсерватории Мауна Кеа, для исследования скопления галактик в созвездии Волосы Вероники.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	появится	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	страницахThe	страницахThe	PROPN	_	Foreign=Yes	3	iobj	_	_
+6	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Journal	journal	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Letters	Letters	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	егопрепринт	егопрепринт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	доступенна	доступенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	amod	_	_
+12	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+13	arXiv.org	arXiv.org	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	19	cc	_	_
+16	кратко	кратко	ADV	_	Degree=Pos	19	advmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	работой	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+19	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+20	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	19	nsubj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	заметке	заметка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	Science.	science.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No
+25	В	в	ADP	_	_	27	case	_	_
+26	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+28	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+31	Субару	Субар	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	расположенный	расположенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	nmod	_	_
+36	Мауна	Маун	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	Кеа	Ке	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	для	для	ADP	_	_	40	case	_	_
+40	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+41	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+42	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	созвездии	созвездие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	nmod	_	_
+45	Волосы	Волос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+46	Вероники	Вероника	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 2305
+# text = Диаметр его основного зеркала составляет 8,2 метра.
+1	Диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	основного	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	зеркала	зеркал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	8,2	8,2	NUM	_	_	7	nummod	_	_
+7	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2306
+# text = С помощью специальной программы авторы проанализировали снимки скопления и, на основании известных свойств "пушистых" галактик, отобрали суммарно 854 объекта, подходящих под описание.
+1	С	с	ADP	_	_	4	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	специальной	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+5	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+9	и	и	CCONJ	_	_	8	cc	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+13	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	пушистых	пушистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	отобрали	отбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	суммарно	суммарно	ADV	_	Degree=Pos	20	advmod	_	_
+22	854	854	NUM	_	_	23	nummod	_	_
+23	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	подходящих	подходять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	под	под	ADP	_	_	27	case	_	_
+27	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 2307

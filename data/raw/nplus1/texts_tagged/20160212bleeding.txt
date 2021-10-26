@@ -1,0 +1,264 @@
+# text = # newpar
+# sent_id = 2178
+# text = Ученые обнаружили, что препарат артезунат, который используется для лечения малярии, может уменьшить повреждение внутренних органов при тяжелом кровотечении.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+6	артезунат	артезуната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+9	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+15	уменьшить	уменьшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	при	при	ADP	_	_	21	case	_	_
+20	тяжелом	тяжелый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	кровотечении	кровотечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2179
+# text = Результаты исследования препарата на крысах опубликованы в Annals of Surgery.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	крысах	крысы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+6	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Annals	Annals	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	of	of	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Surgery	Surgery	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2180
+# text = Сотрудники Лондонского университета королевы Марии и Туринского университета вводили подопытных животных в состояние геморрагического шока.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	Лондонского	лондонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	королевы	королева	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Марии	мария	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	appos	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	Туринского	Туринский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	подопытных	подопытной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+14	геморрагического	геморрагический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	шока	шок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2181
+# text = Среднее артериальное давление снижали до 30 миллиметров ртутного столба (нормальное давление у крыс сопоставимо с человеческим и составляет около 130/90 миллиметров ртутного столба), после чего животных реанимировали.
+1	Среднее	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	артериальное	артериальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	давление	давление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	снижали	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	30	30	NUM	_	_	7	nummod	_	_
+7	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	ртутного	ртутный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	столба	столбо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	нормальное	нормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	давление	давление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	у	у	ADP	_	_	14	case	_	_
+14	крыс	крыса	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	31	obl	_	_
+15	сопоставимо	сопоставим	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	человеческим	человеческий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+20	около	около	ADP	_	_	23	case	_	_
+21	130	130	NUM	_	_	23	nummod	_	SpaceAfter=No
+22	/90	/90	NUM	_	_	21	nummod	_	_
+23	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+24	ртутного	ртутный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	столба	столб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	после	после	ADP	_	_	29	case	_	_
+29	чего	что	PRON	_	Case=Gen	31	obl	_	_
+30	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	31	obl	_	_
+31	реанимировали	реанимировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2182
+# text = В ходе реанимации животным внутривенно вводили артезунат в дозе 2,4 и 4,8 миллиграммов на килограмм массы тела или плацебо.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	реанимации	реанимация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+4	животным	животное	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
+5	внутривенно	внутривенне	ADV	_	Degree=Pos	6	advmod	_	_
+6	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	артезунат	артезунат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	дозе	доз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	2,4	2,4	NUM	_	_	9	nummod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	4,8	4,8	NUM	_	_	13	nummod	_	_
+13	миллиграммов	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	килограмм	килограмм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	плацебо	плацебо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2183
+# text = Спустя четыре часа оценивали функцию и целостность внутренних органов.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	оценивали	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	целостность	целостность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+8	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2184
+# text = Выяснилось, что артезунат существенно уменьшал повреждение и дисфункцию внутренних органов, вызванные шоком от кровопотери.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	артезунат	артезунат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	существенно	существенно	ADV	_	Degree=Pos	6	advmod	_	_
+6	уменьшал	уменьшать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	дисфункцию	дисфункция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+10	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	вызванные	вызывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+14	шоком	шок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl:agent	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	кровопотери	кровопоть	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2185
+# text = Результаты секвенирования РНК и вестерн-блоттинга показали, что такое действие препарата обусловлено активацией протеинкиназы В и эндотелиальной синтазы оксида азота, а также ингибированием гликогенсинтазы-киназы 3, ядерного фактора каппа В и снижением экспрессии медиаторов воспаления.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	секвенирования	секвенирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	вестерн	вестерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+6	-блоттинга	-блоттинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	_
+11	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+12	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	обусловлено	обусловливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+14	активацией	активация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl:agent	_	_
+15	протеинкиназы	протеинкиназа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	В	в	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	эндотелиальной	эндотелиальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	синтазы	синтаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+20	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+25	ингибированием	ингибирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	conj	_	_
+26	гликогенсинтазы	гликогенсинтаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	киназы	киназа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	appos	_	_
+29	3	3	NUM	_	_	32	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	ядерного	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+33	каппа	капп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	В	в	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	снижением	снижение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	32	conj	_	_
+37	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	медиаторов	медиатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+39	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 2186
+# text = Учитывая то, что безопасность применения артезуната у людей уже подтверждена, исследовательский коллектив начал подготовку к II фазе его клинических испытаний на пациентах с острой кровопотерей.
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+2	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+6	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	артезуната	артезунат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	уже	уже	ADV	_	Degree=Pos	11	advmod	_	_
+11	подтверждена	подтверждать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	исследовательский	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+16	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	к	к	ADP	_	_	19	case	_	_
+18	II	Ii	NUM	_	_	19	nummod	_	_
+19	фазе	фаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+21	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	пациентах	пациент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	nmod	_	_
+25	с	с	ADP	_	_	27	case	_	_
+26	острой	острый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	кровопотерей	кровопоть	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2187
+# text = Артезунат относится к противомалярийным препаратам артемизининам, полученным из полыни.
+1	Артезунат	Артезунат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	противомалярийным	противомалярийный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	препаратам	препарат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+6	артемизининам	артемизинин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	полученным	получать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	полыни	полыня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2188
+# text = За их открытие Ту Юю из Китайской академии наук в 2015 году удостоилась Нобелевской премии.
+1	За	за	ADP	_	_	3	case	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	открытие	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+4	Ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+5	Юю	ий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	Китайской	китайский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	академии	академия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	наук	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	2015	2015	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+13	удостоилась	удостоиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2189
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2190

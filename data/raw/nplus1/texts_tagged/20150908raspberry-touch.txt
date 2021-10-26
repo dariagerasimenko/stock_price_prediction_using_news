@@ -1,0 +1,125 @@
+# text = # newpar
+# sent_id = 2165
+# text = ФондRaspberry Pi представил экран с тачскрином для микрокомпьютеров Rapsberry Pi.
+1	ФондRaspberry	ФондRaspberry	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	Pi	Pi	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	представил	представлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	экран	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	тачскрином	тачскрин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	для	для	ADP	_	_	6	case	_	_
+8	микрокомпьютеров	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	Rapsberry	Rapsberry	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Pi	Pi	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2166
+# text = Семидюймовый экран обладает разрешением800 x 480 пикселей идоступендля покупки на сайте организации по цене 48 фунтов стерлингов (около пяти тысяч рублей).Для подключения экрана к Raspberry Pi используются гибкий шлейф для дисплей-порта DSI и кабели для подключения к интерфейсу ввода/вывода GPIO.
+1	Семидюймовый	Семидюймовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	экран	экран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	разрешением800	разрешением800	NUM	_	_	7	nummod	_	_
+5	x	x	PUNCT	_	_	4	punct	_	_
+6	480	480	NUM	_	_	4	nummod	_	_
+7	пикселей	пиксель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	идоступендля	идоступендля	ADP	_	_	7	case	_	_
+9	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	_
+12	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+15	48	48	NUM	_	_	16	nummod	_	_
+16	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	около	около	ADP	_	_	21	case	_	_
+20	пяти	пять	NUM	_	Case=Gen	21	nummod	_	_
+21	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	parataxis	_	_
+22	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	Для	для	ADP	_	_	26	case	_	_
+26	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+27	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	к	к	ADP	_	_	29	case	_	_
+29	Raspberry	Raspberry	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+30	Pi	Pi	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+32	гибкий	гибкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	шлейф	шлейф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+34	для	для	ADP	_	_	36	case	_	_
+35	дисплей-	дисплей-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	порта	порт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+37	DSI	Dsi	NUM	_	_	36	nummod	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	кабели	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	conj	_	_
+40	для	для	ADP	_	_	41	case	_	_
+41	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+42	к	к	ADP	_	_	43	case	_	_
+43	интерфейсу	интерфейс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	41	nmod	_	_
+44	ввода/вывода	ввода/вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	GPIO	Gpio	PROPN	_	Foreign=Yes	44	flat:foreign	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 2167
+# text = Тачскрин поддерживает до десяти одновременных нажатий, а в следующую версиюRaspbian OS будет встроена виртуальная клавиатура -- таким образом,Raspberry Pi с тачскрином можно использовать как планшетный компьютер.Экран совместим со всеми моделямиRaspberry Pi, но из-за разного форм-фактора моделей прикрепить к задней поверхности экрана штатным образом можно только A+, B+ иRaspberry Pi 2 В.
+1	Тачскрин	Тачскрин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	до	до	ADP	_	_	6	case	_	_
+4	десяти	десять	NUM	_	Case=Gen	6	nummod	_	_
+5	одновременных	одновременный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	нажатий	нажатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	14	cc	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	следующую	следующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	версиюRaspbian	версиюRaspbian	PROPN	_	Foreign=Yes	14	nsubj	_	_
+12	OS	o	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	встроена	встраивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+15	виртуальная	виртуальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	клавиатура	клавиатура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_
+19	образом,Raspberry	образом,Raspberry	ADJ	_	Foreign=Yes	20	amod	_	_
+20	Pi	Pi	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	тачскрином	тачскрин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+23	можно	можно	ADV	_	Degree=Pos	2	conj	_	_
+24	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+25	как	как	SCONJ	_	_	24	cc	_	_
+26	планшетный	планшетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	компьютер.	компьютерождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+28	Экран	Экран	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	_
+29	совместим	совместимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	24	conj	_	_
+30	со	с	ADP	_	_	40	case	_	_
+31	всеми	весь	DET	_	Case=Ins|Number=Plur	40	amod	_	_
+32	моделямиRaspberry	моделямиRaspberry	ADJ	_	Foreign=Yes	40	amod	_	_
+33	Pi	Pi	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	но	но	CCONJ	_	_	39	cc	_	_
+36	из-за	из-за	ADP	_	_	39	case	_	_
+37	разного	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+38	форм-	форм-	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	conj	_	_
+40	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+41	прикрепить	прикреплять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	40	dep	_	_
+42	к	к	ADP	_	_	44	case	_	_
+43	задней	задний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	41	obl	_	_
+45	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+46	штатным	штатной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	41	obl	_	_
+48	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+49	только	только	PART	_	_	52	advmod	_	_
+50	A+	A+	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	49	punct	_	_
+52	B+	b+	PROPN	_	_	48	nsubj	_	_
+53	иRaspberry	иRaspberry	PROPN	_	Foreign=Yes	52	flat:foreign	_	_
+54	Pi	Pi	PROPN	_	Foreign=Yes	53	flat:foreign	_	_
+55	2	2	NUM	_	_	52	nummod	_	_
+56	В.	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+
+# newpar
+# sent_id = 2168

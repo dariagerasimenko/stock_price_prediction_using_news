@@ -1,0 +1,137 @@
+# text = # newpar
+# sent_id = 637
+# text = Греческие археологи обнаружили недалеко от Спарты развалины микенского дворцового комплекса, уничтоженного пожаром на рубеже XV-XIV веков до нашей эры.
+1	Греческие	греческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	недалеко	недалеко	ADV	_	Degree=Pos	3	advmod	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	Спарты	Спарта	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	развалины	развалина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	микенского	микенской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+9	дворцового	дворцовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	уничтоженного	уничтожать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	пожаром	пожар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	рубеже	рубеж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	XV-XIV	Xv-xiv	NUM	_	_	17	nummod	_	_
+17	веков	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	до	до	ADP	_	_	20	case	_	_
+19	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	_
+20	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 638
+# text = На месте раскопок найдены многочисленные артефакты и таблички с текстами, которые, вероятно, были частью дворцового архива.
+1	На	на	ADP	_	_	2	case	_	_
+2	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	многочисленные	многочисленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	таблички	табличок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	текстами	текст	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вероятно	вероятно	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	acl:relcl	_	_
+18	дворцового	дворцовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	архива	архив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 639
+# text = Об открытии сообщает ekathimerini.com со ссылкой на министерство культуры Греции.Найденный комплекс расположен в южной части Пелопонесса вблизи современного города Ксирокампи.
+1	Об	о	ADP	_	_	2	case	_	_
+2	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ekathimerini.com	ekathimerini.com	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	со	с	ADP	_	_	6	case	_	_
+6	ссылкой	ссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	министерство	министерство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Греции	греция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Найденный	найденный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+14	расположен	располагать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+18	Пелопонесса	Пелопонесс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	вблизи	вблизи	ADP	_	_	21	case	_	_
+20	современного	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+22	Ксирокампи	Ксирокампи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 640
+# text = Археологи обследовали несколько зданий, лучше всего сохранившихся при пожаре.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обследовали	обследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	зданий	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	лучше	хорошо	ADV	_	Degree=Cmp	8	advmod	_	_
+7	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	сохранившихся	сохраняться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	пожаре	пожар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 641
+# text = В них были найдены статуэтки из глины и слоновой кости, оружие, фрагменты фресок, а также текстовые таблички.
+1	В	в	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	4	obl	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	статуэтки	статуэтка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	глины	глина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	слоновой	слоновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	кости	кость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
+15	фресок	фреска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	20	cc	_	_
+18	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+19	текстовые	текстовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	таблички	табличка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 642
+# text = Эти записи, выполненные линейным письмом Б, содержали информацию о закупках, храмовых подношениях и других хозяйственных вопросах.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	записи	запись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	выполненные	выполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	линейным	линейной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	письмом	письм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	Б	бы	PART	_	Mood=Cnd	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	содержали	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	закупках	закупка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	храмовых	храмовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	подношениях	подношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	conj	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+18	хозяйственных	хозяйственный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	вопросах	вопрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 643

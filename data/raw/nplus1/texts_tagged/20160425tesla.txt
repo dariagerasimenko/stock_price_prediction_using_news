@@ -1,0 +1,112 @@
+# text = # newpar
+# sent_id = 2764
+# text = Поданным Tesla Motors активированная функция автопилота снижает вероятность попадания вдорожно-транспортное происшествие на50процентов.
+1	Поданным	Поданный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+2	Tesla	Tesla	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Motors	motors	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	активированная	активировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	автопилота	автопилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	попадания	попадание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	вдорожно-	вдорожно-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	транспортное	транспортный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	происшествие	происшествие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	_
+13	на50процентов	на50процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2765
+# text = Обэтом соссылкой наслова Илона Маска сообщает Electrek.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	соссылкой	соссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+3	наслова	наслово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Илона	Илон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Маска	Маска	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Electrek	Electrek	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2766
+# text = "Вероятность попасть в ДТП на 50 процентов ниже, если у вас включен автопилот, даже первой версии.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Вероятность	Вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	попасть	попадать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	ДТП	Дтп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	50	50	NUM	_	_	8	nummod	_	_
+8	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+9	ниже	низкий	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	если	если	SCONJ	_	_	9	mark	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	14	obl	_	_
+14	включен	включивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	advcl	_	_
+15	автопилот	автопилот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	даже	даже	PART	_	_	15	advmod	_	_
+18	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2767
+# text = Мы просто сопоставили длину пройденного пути с количеством аварий, которые мы считаем по факту срабатывания подушек безопасности.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+2	просто	просто	PART	_	_	3	advmod	_	_
+3	сопоставили	сопоставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	пройденного	проходить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	аварий	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Acc	13	obj	_	_
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	13	nsubj	_	_
+13	считаем	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	факту	факт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	срабатывания	срабатывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	подушек	подушка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2768
+# text = Судя по имеющейся у нас статистике, даже самая ранняя версия автопилота водит в два раза безопаснее живого водителя",-- сказал Илон Маск в беседе с министром транспорта и связи Норвегии.
+1	Судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+2	по	по	ADP	_	_	6	case	_	_
+3	имеющейся	иметься	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	6	amod	_	_
+4	у	у	ADP	_	_	5	case	_	_
+5	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	3	obl	_	_
+6	статистике	статистика	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	даже	даже	PART	_	_	11	advmod	_	_
+9	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	ранняя	ранний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	автопилота	автопилот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	водит	водеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	16	nummod:gov	_	_
+16	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	безопаснее	безопасный	ADJ	_	Degree=Cmp	0	nmod	_	_
+18	живого	живой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,--	,--	PUNCT	_	_	19	punct	_	_
+22	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	Илон	Илон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+24	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	беседе	беседа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	министром	министр	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+29	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	conj	_	_
+32	Норвегии	норвегия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# newpar
+# sent_id = 2769

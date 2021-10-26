@@ -1,0 +1,196 @@
+# text = # newpar
+# sent_id = 5000
+# text = Израильско-американская группа химиков создала самый маленький диод -- выпрямитель электрического тока.
+1	Израильско-американская	Израильско-американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	химиков	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	создала	создавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	маленький	маленький	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	диод	диод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	выпрямитель	выпрямитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+10	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5001
+# text = Устройство представляет собой короткий фрагмент ДНК, в который введены (интеркалированы) две посторонние молекулы.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	короткий	короткий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	фрагмент	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	который	который	PRON	_	Case=Acc	10	obl	_	_
+10	введены	вводить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	интеркалированы	интеркалировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	две	два	NUM	_	Case=Nom|Gender=Fem	16	nummod:gov	_	_
+15	посторонние	посторонний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5002
+# text = Несмотря на симметричность использованной ДНК, проводимость для электрического тока различается в разных направлениях в 15 раз.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	симметричность	симметричность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+4	использованной	использовывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	проводимость	проводимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	различается	различаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	направлениях	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	obl	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	15	15	NUM	_	_	17	nummod	_	_
+17	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5003
+# text = Исследование опубликованов журнале Nature Chemistry, кратко о нем сообщает пресс-релиз Университета Бена-Гуриона в Негеве.В основе выпрямителя авторы использовали олигонуклеотид, состоящий из 11 оснований.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+2	опубликованов	опубликован	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Nature	Nature	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Chemistry	Chemistry	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+10	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Бена-Гуриона	Бена-Гурион	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	в	в1	ADP	_	_	15	case	_	_
+15	Негеве.	Негевбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	выпрямителя	выпрямитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
+21	олигонуклеотид	олигонуклеотид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	состоящий	состоять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	11	11	NUM	_	_	26	nummod	_	_
+26	оснований	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5004
+# text = При этом, концевые участки -- по четыре нуклеотида -- являются палиндромами, иными словами, комплементарны сами себе.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	концевые	концевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	участки	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	по	по	ADP	_	_	9	case	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	нуклеотида	нуклеотид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	палиндромами	палиндром	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	комплементарны	комплементарный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	11	conj	_	_
+18	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	nsubj	_	_
+19	себе	себя	PRON	_	Case=Dat	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5005
+# text = Центральная часть этой ДНК состоит из трех адениновых фрагментов, поэтому в растворе две таких молекулы могут соединиться "хвостами", но не средней частью.Однако эта ситуация меняется, если интеркалировать -- ввести в молекулу ДНК без образования прочных химических связей -- небольшую органическую молекулу.
+1	Центральная	центральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	из	из	ADP	_	_	9	case	_	_
+7	трех	три	NUM	_	Case=Gen	9	nummod	_	_
+8	адениновых	адениновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	фрагментов	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поэтому	поэтому	ADV	_	Degree=Pos	17	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	растворе	раствор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+14	две	два	NUM	_	Case=Nom|Gender=Fem	17	nummod:gov	_	_
+15	таких	такой	DET	_	Case=Gen|Number=Plur	16	amod	_	_
+16	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	соединиться	соединиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	xcomp	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	хвостами	хвост	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	но	но	CCONJ	_	_	25	cc	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	средней	средний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Однако	однако	ADV	_	Degree=Pos	31	advmod	_	_
+29	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	30	amod	_	_
+30	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+31	меняется	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	если	если	SCONJ	_	_	31	mark	_	_
+34	интеркалировать	интеркалировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	advcl	_	_
+35	--	--	PUNCT	_	_	34	punct	_	_
+36	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	conj	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	молекулу	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obl	_	_
+39	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+40	без	без	ADP	_	_	41	case	_	_
+41	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	obl	_	_
+42	прочных	прочной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+43	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+44	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+45	--	--	PUNCT	_	_	44	punct	_	_
+46	небольшую	небольшой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+47	органическую	органический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	молекулу	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 5006
+# text = Химики использовали в своем исследовании коралин, способный связывать между собой пары аденин-аденин.
+1	Химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	5	amod	_	_
+5	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	коралин	коралин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+9	связывать	связывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	между	между	ADP	_	_	11	case	_	_
+11	собой	себя	PRON	_	Case=Ins	9	obl	_	_
+12	пары	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+13	аденин	аденин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+14	-аденин	-аденин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5007
+# text = По словам авторов, в ДНК встраивалось две молекулы вещества.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	встраивалось	встраиваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	две	два	NUM	_	Case=Nom|Gender=Fem	9	nummod:gov	_	_
+9	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	_
+10	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar
+# sent_id = 5008

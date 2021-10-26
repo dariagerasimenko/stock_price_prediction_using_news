@@ -1,0 +1,518 @@
+# text = # newpar
+# sent_id = 7450
+# text = Федеральное управление гражданской авиации США заказало исследование с целью установить, насколько любительские дроны могут быть опасны для людей.
+1	Федеральное	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	гражданской	гражданской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	заказало	заказать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+10	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	насколько	насколько	ADV	_	Degree=Pos	13	advmod	_	_
+13	любительские	любительский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	дроны	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	cop	_	_
+17	опасны	опасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	15	obl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 7451
+# text = Как пишет Aviation Week, исследование проводится Университетом Алабамы.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+7	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	Университетом	университет	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+9	Алабамы	Алабамы	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 7452
+# text = Выводы специалистов будут учтены управлением при корректировке существующих и разработке новых правил полетов дронов.В настоящее время в США действует "Раздел 333" правил летной безопасности.
+1	Выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	учтены	учитывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	корректировке	корректировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	существующих	существуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	conj	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+13	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	дронов.	дроноварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	В	в	ADP	_	_	20	advmod	_	_
+16	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	fixed	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	fixed	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	20	obl	_	_
+20	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Раздел	раздел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+23	333	333	NUM	_	_	25	nummod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	25	punct	_	_
+25	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_
+26	летной	летной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 7453
+# text = Он запрещает беспилотникам выполнять полеты за пределами прямой видимости оператора, которая определена в 480 метров, и на высоте более 61 метра.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	запрещает	запрещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	беспилотникам	беспилотник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	за	за	ADP	_	_	7	case	_	_
+7	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+8	прямой	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj:pass	_	_
+13	определена	определять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	480	480	NUM	_	_	16	nummod	_	_
+16	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+21	более	более	ADV	_	Degree=Cmp	23	nummod:gov	_	_
+22	61	61	NUM	_	_	23	nummod	_	_
+23	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 7454
+# text = Эти правила не применимы к государственным структурам, которые обязаны получать государственную лицензию на осуществление полетов беспилотной техники.В августе к правилам была принята поправка 107, допускающая выдачу частным лицам особого разрешения, которое позволит им управлять дронами за пределами прямой видимости на дальности до 32 километров, на высоте до 122 метров и при скорости полета до 160 километров в час.При этом в США запрещено осуществлять полеты беспилотников над аэропортами и скоплениями людей.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	правила	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	применимы	применимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	государственным	государственный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	структурам	структура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	обязаны	обязанный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	acl:relcl	_	_
+11	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	государственную	государственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	лицензию	лицензия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	осуществление	осуществление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	беспилотной	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	В	в	ADP	_	_	21	case	_	_
+21	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	obl	_	_
+24	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	принята	принимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+26	поправка	поправка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+27	107	107	NUM	_	_	26	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	допускающая	допускать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+30	выдачу	выдача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	частным	частный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	32	amod	_	_
+32	лицам	лицо	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	25	obl	_	_
+33	особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	которое	который	PRON	_	Case=Nom	37	nsubj	_	_
+37	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
+38	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	37	obl	_	_
+39	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+40	дронами	дрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	39	obl	_	_
+41	за	за	ADP	_	_	40	case	_	_
+42	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	68	obl	_	_
+43	прямой	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+45	на	на	ADP	_	_	46	case	_	_
+46	дальности	дальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	49	nmod	_	_
+47	до	до	ADP	_	_	49	case	_	_
+48	32	32	NUM	_	_	49	nummod	_	_
+49	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	52	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	на	на	ADP	_	_	52	case	_	_
+52	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	44	nmod	_	_
+53	до	до	ADP	_	_	55	case	_	_
+54	122	122	NUM	_	_	55	nummod	_	_
+55	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+56	и	и	CCONJ	_	_	58	cc	_	_
+57	при	при	ADP	_	_	58	case	_	_
+58	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	68	conj	_	_
+59	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	_
+60	до	до	ADP	_	_	62	case	_	_
+61	160	160	NUM	_	_	62	nummod	_	_
+62	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	68	obl	_	_
+63	в	в	ADP	_	_	64	case	_	_
+64	час.При	час.Прь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	68	obl	_	_
+65	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	64	nmod	_	_
+66	в	в	ADP	_	_	67	case	_	_
+67	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	68	obl	_	_
+68	запрещено	запрещать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	39	conj	_	_
+69	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	68	nsubj:pass	_	_
+70	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	69	obj	_	_
+71	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	70	nmod	_	_
+72	над	над	ADP	_	_	73	case	_	_
+73	аэропортами	аэропорт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	71	nmod	_	_
+74	и	и	CCONJ	_	_	75	cc	_	_
+75	скоплениями	скопление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	73	conj	_	_
+76	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	75	nmod	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	76	punct	_	_
+
+# sent_id = 7455
+# text = Считается, что дрон, упав с высоты или налетев на человека, может причинить ему повреждения.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	упав	упав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	налетев	налетй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+15	причинить	причиинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+17	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 7456
+# text = Однако никто еще не пытался оценить, насколько опасными могут быть последствия таких происшествий.Новая работа сотрудников Университета Алабамы строится на компьютерном моделировании столкновений дронов и людей.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	никто	никто	PRON	_	Case=Nom	5	nsubj	_	_
+3	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	пытался	пытаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	насколько	насколько	ADV	_	Degree=Pos	9	advmod	_	_
+9	опасными	опасный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	cop	_	_
+12	последствия	последствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+13	таких	такой	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+14	происшествий	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+18	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Алабамы	Алабама	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	_
+21	строится	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	компьютерном	компьютерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	моделировании	моделирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+25	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_
+26	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 7457
+# text = Ученые изучают различные условия, включая падение на толпу вышедшего из строя дрона вертикально и под углом и столкновение аппарата с пешеходом.В первую очередь исследователей интересуют повреждения груди и головы, которые могут нанести беспилотники.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	изучают	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	включая	включая	ADV	_	Degree=Pos	27	advmod	_	_
+7	падение	падение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	толпу	толпа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	вышедшего	вышедать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	строя	строй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+14	вертикально	вертикально	ADV	_	Degree=Pos	6	advmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	под	под	ADP	_	_	17	case	_	_
+17	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	conj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	conj	_	_
+20	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	пешеходом.	пешеходомя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+23	В	в	ADP	_	_	27	discourse	_	_
+24	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	fixed	_	_
+25	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	fixed	_	_
+26	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+27	интересуют	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+28	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	27	obj	_	_
+29	груди	грудь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	appos	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	головы	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	которые	который	PRON	_	Case=Nom	34	nsubj	_	_
+34	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
+35	нанести	наносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+36	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 7458
+# text = Детальное компьютерное моделирование проводится для повреждений, наносимых лопастями вращающихся винтов и подвесным оборудованием аппаратов, особенно камерами.Специалисты, участвующие в исследовании, уже передали Федеральному управлению гражданской авиации США свои предварительные выводы, однако их содержание пока неизвестно.
+1	Детальное	детальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	компьютерное	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	моделирование	моделирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+4	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	наносимых	наносить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	лопастями	лопасть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	_
+10	вращающихся	вращаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+11	винтов	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	подвесным	подвесный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	оборудованием	оборудование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+15	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	особенно	особенно	ADV	_	Degree=Pos	18	advmod	_	_
+18	камерами.	камерами.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+19	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	участвующие	участвовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	уже	уже	ADV	_	Degree=Pos	26	advmod	_	_
+26	передали	передывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	Федеральному	федеральный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	управлению	управление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	obl	_	_
+29	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+31	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	30	nmod	_	_
+32	свои	свой	DET	_	Case=Acc|Number=Plur	34	amod	_	_
+33	предварительные	предварительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	выводы	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	однако	однако	ADV	_	Degree=Pos	40	advmod	_	_
+37	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	38	nmod	_	_
+38	содержание	содержание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	_
+39	пока	пока	ADV	_	Degree=Pos	40	advmod	_	_
+40	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 7459
+# text = Ожидается, что окончательные выводы будут сделаны осенью текущего года, а уже в декабре управление опубликует новые поправки к правилам полетов дронов, учитывающие результаты исследования.Сегодня некоторые компании в США заинтересованы в разрешении на полеты дронов над людьми.
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	окончательные	окончательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+8	осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	17	cc	_	_
+13	уже	уже	ADV	_	Degree=Pos	15	advmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	опубликует	опубликовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	поправки	поправка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	_
+22	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	учитывающие	учитывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+27	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Сегодня	сегодня	ADV	_	Degree=Pos	34	advmod	_	_
+30	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	31	amod	_	_
+31	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	34	nsubj	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	31	nmod	_	_
+34	заинтересованы	заинтересованный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	разрешении	разрешение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	nmod	_	_
+37	на	на	ADP	_	_	38	case	_	_
+38	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	34	nmod	_	_
+39	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+40	над	над	ADP	_	_	41	case	_	_
+41	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 7460
+# text = В августе текущего года американский новостной телеканал CNN создал подразделение беспилотных летательных систем.
+1	В	в	ADP	_	_	2	case	_	_
+2	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	новостной	новостной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	телеканал	телеканал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	CNN	Cnn	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 7461
+# text = Оно получило несколько типов дронов, которые будут использоваться для съемки репортажей и новостных сюжетов.Федеральное управление гражданской авиации уже разрешило новому подразделению проводить полеты дронов над головами людей.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	получило	лучить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	несколько	несколько	NUM	_	Case=Nom	4	nummod:gov	_	_
+4	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+5	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	5	acl:relcl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+12	репортажей	репортаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+13	и	и	CCONJ	_	_	17	cc	_	_
+14	новостных	новостной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+15	сюжетов.	сюжетовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+16	Федеральное	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+18	гражданской	гражданской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	уже	уже	ADV	_	Degree=Pos	21	advmod	_	_
+21	разрешило	разрешать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+22	новому	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	подразделению	подразделение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+24	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+25	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
+26	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	над	над	ADP	_	_	28	case	_	_
+28	головами	голова	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	26	nmod	_	_
+29	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 7462
+# text = CNN пока является единственной компанией, имеющей такую прерогативу.
+1	CNN	си-эн-эн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	пока	пока	ADV	_	Degree=Pos	3	advmod	_	_
+3	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	имеющей	иметь	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	прерогативу	прерогатива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 7463
+# text = Разрешение распространяется только на дроны Fotokite Pro, взлетающие со специальной платформы и соединенные с ней кабелем.
+1	Разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	распространяется	распространять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	только	только	PART	_	_	5	advmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+6	Fotokite	Fotokite	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Pro	Pro	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	взлетающие	взлетать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+10	со	с	ADP	_	_	12	case	_	_
+11	специальной	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+13	и	и	CCONJ	_	_	17	cc	_	_
+14	соединенные	соединять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	14	obl	_	_
+17	кабелем	кабель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 7464
+# text = Масса подобного аппарата составляет чуть меньше 900 граммов.Параллельно с изучением уровня опасности, которую дроны представляют для людей, в США проводится другое исследование.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	подобного	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	чуть	чуть	ADV	_	Degree=Pos	6	advmod	_	_
+6	меньше	меньше	ADV	_	Degree=Cmp	4	advmod	_	_
+7	900	900	NUM	_	_	8	nummod	_	_
+8	граммов.	граммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	Параллельно	параллельно	ADV	_	Degree=Pos	11	advmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	изучением	изучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+12	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которую	который	PRON	_	Case=Acc	17	obj	_	_
+16	дроны	дрон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	0	nmod	_	_
+23	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+24	другое	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 7465
+# text = Оно призвано оценить повреждения, которые дрон может причинить самолету при столкновении в воздухе, чтобы сравнить их с реальным ущербом лайнеров от столкновений с птицами.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	призвано	призванный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+7	дрон	дрона	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	причинить	причиинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	самолету	самолета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	столкновении	столкновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+17	сравнить	сравнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+18	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	obj	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	реальным	реальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	ущербом	ущерб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+22	лайнеров	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	от	от	ADP	_	_	24	case	_	_
+24	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	птицами	птица	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 7466
+# text = Результаты этого исследования будут представлены авиационным властям в конце сентября.Василий Сычёв
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	представлены	представлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	авиационным	авиационный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	властям	власть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+13	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+
+# newpar
+# sent_id = 7467

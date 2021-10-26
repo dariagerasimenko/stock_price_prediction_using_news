@@ -1,0 +1,217 @@
+# text = # newpar
+# sent_id = 4205
+# text = Запуск ракеты-носителя Atlas V с грузовым кораблем Cygnus к Международной космической станции в рамках контракта снабжения Commercial Resupply Services пришлось перенести из-за неблагоприятной погоды.
+1	Запуск	запуск	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
+5	Atlas	atlas	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	V	v	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	грузовым	грузовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	кораблем	корабль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+10	Cygnus	Cygnus	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	к	к	ADP	_	_	14	case	_	_
+12	Международной	международный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	космической	космический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	станции	станция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	obl	_	_
+17	контракта	контракт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	снабжения	снабжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	Commercial	Commercial	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Resupply	Resupply	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Services	services	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+23	перенести	переносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	из-за	из-за	ADP	_	_	26	case	_	_
+25	неблагоприятной	неблагоприятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	погоды	погода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4206
+# text = Об этом сообщается в официальном блоге NASA.Запуск перенесли на сутки вперед, новая трансляция начнется на сайте NASA 5 декабря в 00:30 по московскому времени.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+8	Запуск	Запуска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	сутки	сутки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
+12	вперед	вперед	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	трансляция	трансляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+16	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	NASA	Nasa	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	5	5	NUM	_	_	19	nummod	_	_
+21	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	27	case	_	_
+23	00	00	NUM	_	_	27	nummod	_	SpaceAfter=No
+24	:30	:30	NUM	_	_	23	nummod	_	_
+25	по	по	ADP	_	_	27	case	_	_
+26	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4207
+# text = Стартовое окно откроется в 01:33, после чего у NASA будет 30 для выбора наиболее благоприятного момента для старта.
+1	Стартовое	стартовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	окно	окно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	откроется	открываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	01:33	01:33	NUM	_	_	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	чего	что	PRON	_	Case=Gen	17	obl	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	NASA	nasa	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+12	30	30	NUM	_	_	17	nummod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	выбора	выбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	наиболее	наиболее	ADV	_	Degree=Pos	16	advmod	_	_
+16	благоприятного	благоприятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	старта	старт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4208
+# text = Представители Национального управления по воздухоплаванию и исследованию космического пространства оценивают вероятность благоприятной погоды во время открытого стартового окная около 30 процентов.Грузовой корабль Cygnus должен доставить на МКС более трех тонн различного оборудования и материалов для научных исследований, воды и еды.
+1	Представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	Национального	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	воздухоплаванию	воздухоплавание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	исследованию	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	conj	_	_
+8	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	оценивают	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	благоприятной	благоприятной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	погоды	погода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	во	во	ADP	_	_	23	case	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	открытого	открывать	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+17	стартового	стартовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+18	окная	окной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+19	около	около	ADP	_	_	21	case	_	_
+20	30	30	NUM	_	_	21	nummod	_	_
+21	процентов.	процентовент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	Грузовой	Грузовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+24	Cygnus	Cygnus	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	parataxis	_	_
+26	доставить	доставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	МКС	Мкс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	_
+29	более	более	ADV	_	Degree=Cmp	31	nummod:gov	_	_
+30	трех	три	NUM	_	Case=Gen	31	nummod	_	_
+31	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+32	различного	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	conj	_	_
+36	для	для	ADP	_	_	38	case	_	_
+37	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	conj	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 4209
+# text = Среди прочего оборудования на МКС отправятся очки дополненной реальности Microsoft Hololens и научно-исследовательский образовательный проект Astro Pi.Изначально планировалось, что Atlas V стартует четвертого декабря (стартовое окно открылось в 01:55 по московскому времени), однако из-за ухудшившихся метеорологических условий запуск пришлось отложить.
+1	Среди	среди	ADP	_	_	3	case	_	_
+2	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	МКС	МКс	PROPN	_	_	3	nmod	_	_
+6	отправятся	отправаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	очки	очек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	дополненной	дополнять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	реальности	реальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Microsoft	Microsoft	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Hololens	Hololens	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	и	и	CCONJ	_	_	18	cc	_	_
+13	научно-исследовательский	научно-исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	образовательный	образовательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+16	Astro	Astro	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Pi.Изначально	Pi.Изначально	ADV	_	Degree=Pos	18	advmod	_	_
+18	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	6	mark	_	_
+21	Atlas	atlas	PROPN	_	Foreign=Yes	23	nsubj	_	_
+22	V	v	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	стартует	стартовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+24	четвертого	четвертый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	стартовое	стартовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	окно	окно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+29	открылось	открываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	23	conj	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	01	01	NUM	_	_	32	nummod	_	SpaceAfter=No
+32	:55	:55	NOUN	_	_	29	obl	_	_
+33	по	по	ADP	_	_	35	case	_	_
+34	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	35	punct	_	_
+38	однако	однако	ADV	_	Degree=Pos	44	advmod	_	_
+39	из-за	из-за	ADP	_	_	42	case	_	_
+40	ухудшившихся	ухудшиваться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	42	amod	_	_
+41	метеорологических	метеорологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	44	obl	_	_
+43	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	obj	_	_
+44	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+45	отложить	отлагать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	nsubj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 4210
+# text = Это полет Cygnus должен стать четвертым полетом космического грузовика к Международной космической станции.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Cygnus	Cygnus	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	dep	_	_
+6	четвертым	четвертый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+8	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	грузовика	грузовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	к	к	ADP	_	_	13	case	_	_
+11	Международной	международный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	космической	космический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	станции	станция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4211
+# text = Предыдущий запуск в октябре 2014 года закончился взрывом ракеты-носителя Antares.Николай Воронцов
+1	Предыдущий	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	запуск	запуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	октябре	октябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	2014	2014	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	закончился	заканчиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	взрывом	взрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Antares	Antares	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+15	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 4212

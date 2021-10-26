@@ -1,0 +1,66 @@
+# text = # newpar
+# sent_id = 3092
+# text = В Стэнфордском тороговом центре робот-охранник сбил с ног, а затем переехал 16-месячного ребенка.
+1	В	в	ADP	_	_	4	case	_	_
+2	Стэнфордском	стэнфордский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	тороговом	тороговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+5	робот-охранник	робот-охранник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сбил	сбивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	ног	нога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	затем	затем	ADV	_	Degree=Pos	12	advmod	_	_
+12	переехал	переезжать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+13	16-месячного	16-месячный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3093
+# text = Инцидент произошел 7 июля,сообщаетGizmodo соссылкойна abc7news.
+1	Инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	произошел	происходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	7	7	NUM	_	_	4	nummod	_	_
+4	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,сообщаетGizmodo	,сообщаетGizmodo	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	соссылкойна	соссылкойный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	_
+7	abc7news.	abc7news.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+
+# sent_id = 3094
+# text = "Робот толкнул моего сына в голову и тот упал лицом вниз на пол, при этом робот не остановился и продолжил движение вперед", -- рассказывает мать пострадавшего ребенка.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	толкнул	толкать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	моего	мой	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	сына	сын	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	упал	упадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	лицом	лицо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	_
+12	вниз	вниз	ADV	_	Degree=Pos	10	advmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	пол	пол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+18	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	остановился	остановаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	продолжил	продолжать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+23	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	вперед	вперед	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	24	punct	_	_
+27	--	--	PUNCT	_	_	24	punct	_	_
+28	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+29	мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+30	пострадавшего	пострадавший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# newpar
+# sent_id = 3095

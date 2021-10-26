@@ -1,0 +1,102 @@
+# text = # newpar
+# sent_id = 5179
+# text = Офис интеллектуальной собственности Республики Корея опубликовал патентSamsung Electronics, в котором описывается смартфон, параллельно использующий операционные системы Android и Windows.
+1	Офис	офис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	интеллектуальной	интеллектуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	собственности	собственность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Республики	республика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Корея	Корей	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	патентSamsung	патентSamsung	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Electronics	Electronics	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	котором	который	PRON	_	Case=Loc	12	obl	_	_
+12	описывается	описывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+13	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	параллельно	параллельно	ADV	_	Degree=Pos	18	advmod	_	_
+16	использующий	использовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+17	операционные	операционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	nsubj	_	_
+19	Android	Android	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	Windows	windows	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5180
+# text = Кратко о запатентованной концепциирассказываетпортал SamMobile.Большинство современных смартфонов использует одну операционную систему, которая предустановлена производителем.
+1	Кратко	кратко	ADV	_	Degree=Pos	4	advmod	_	_
+2	о	о	ADP	_	_	4	case	_	_
+3	запатентованной	патентовать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	концепциирассказываетпортал	концепциирассказываетпортал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+5	SamMobile.Большинство	SamMobile.Большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	использует	использевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	одну	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	операционную	операционный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj:pass	_	_
+14	предустановлена	предустановлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+15	производителем	производитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5181
+# text = Технически существует возможность установки нескольких операционных систем и загрузчика, который позволяет выбрать нужную систему при включении устройства.
+1	Технически	технически	ADV	_	Degree=Pos	2	advmod	_	_
+2	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	7	nummod	_	_
+6	операционных	операционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	загрузчика	загрузчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	включении	включение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+18	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5182
+# text = В подавляющем большинстве случаев пользователи самостоятельно решают этот вопрос, однако такой подход не позволяет пользоваться двумя операционными системами одновременно -- для смены операционной системы мобильное устройство необходимо перезагружать.
+1	В	в	ADP	_	_	3	case	_	_
+2	подавляющем	подавляющий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+4	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	пользователи	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	самостоятельно	самостоятельно	ADV	_	Degree=Pos	7	advmod	_	_
+7	решают	решать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+12	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	двумя	два	NUM	_	Case=Ins	19	nummod	_	_
+18	операционными	операционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	_
+20	одновременно	одновременно	ADV	_	Degree=Pos	28	advmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+24	операционной	операционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	мобильное	мобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+28	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	_
+29	перезагружать	перезагружать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# newpar
+# sent_id = 5183

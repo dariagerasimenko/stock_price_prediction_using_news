@@ -1,0 +1,202 @@
+# text = # newpar
+# sent_id = 2072
+# text = "Кассини" сделал фотографию Пана-- внутреннего спутника Сатурна.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Кассини	Кассини	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	Пана--	Пана--	PUNCT	_	_	5	punct	_	_
+7	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	Сатурна	сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2073
+# text = Она размещена насайте аэрокосмического агентства NASA.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	размещена	размещать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	dep	_	_
+4	аэрокосмического	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2074
+# text = Спутник, диаметр которого попоследним оценкам достигает 28километров, напоминает посвоей форме грецкий орех.
+1	Спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	диаметр	диаметр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	которого	который	PRON	_	Case=Gen	3	nmod	_	_
+5	попоследним	попоследний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	_
+7	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+8	28километров	28километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	посвоей	посвоий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	грецкий	грецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	орех	орех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2075
+# text = Онсовершает полный оборот вокруг Сатурна нарасстоянии более 133 тысяч километров за13часов и48минут иего орбита проходит прямо поэкватору планеты.
+1	Онсовершает	Онсовершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	оборот	оборот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+4	вокруг	вокруг	ADP	_	_	15	case	_	_
+5	Сатурна	Сатурный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	conj	_	_
+6	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+7	более	более	ADV	_	Degree=Cmp	9	nummod:gov	_	_
+8	133	133	NUM	_	_	9	nummod	_	_
+9	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	за13часов	за13час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	и48минут	и48минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	иего	иий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	орбита	орбит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+16	прямо	прямо	ADV	_	Degree=Pos	17	advmod	_	_
+17	поэкватору	поэкватора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2076
+# text = Интересно отметить, что Пан является спутником-"пастухом".
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	Пан	пан	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+7	спутником	спутник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	пастухом	пастух	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2077
+# text = Он сохраняет орбиты пыли и других мелких объектов на краях колец, не давая им заполнить щель Энке.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	сохраняет	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	орбиты	орбит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	пыли	пыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	краях	край	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	_
+11	колец	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	давая	давать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+15	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	14	obl	_	_
+16	заполнить	заполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	щель	щель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	Энке	Энка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2078
+# text = "Кассини" сделал фотографию Пана 3апреля 2016 года cпомощью установленной нанем узкоугольной камеры (NAC).
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Кассини	Кассини	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	Пана	пан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	3апреля	3апрель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	2016	2016	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+10	cпомощью	cпомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+11	установленной	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	нанем	наень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	узкоугольной	узкоугольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	NAC	Nac	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2079
+# text = Снимок был получен воптическом диапазоне срасстояния приблизительно в373 тысячи километров отСатурна ипод углом в22градуса кплоскости колец.
+1	Снимок	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	получен	получять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	воптическом	воптический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	срасстояния	срасстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	приблизительно	приблизительно	ADV	_	Degree=Pos	8	advmod	_	_
+8	в373	в373	NUM	_	_	9	nummod	_	_
+9	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nummod:gov	_	_
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+11	отСатурна	отСатурно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	ипод	ипод	ADP	_	_	13	case	_	_
+13	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+14	в22градуса	в22градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	кплоскости	кплоскость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	колец	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2080
+# text = Разрешение изображение составляет 2километра напиксель.Кроме Пана, у Сатурна есть и другие спутники-"пастухи" -- Атлас в зоне кольца А, Прометей и, предположительно, Пандора для кольца F.
+1	Разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	2километра	2километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+5	напиксель	напиксель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Кроме	кроме	ADP	_	_	8	case	_	_
+8	Пана	пан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+12	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	и	и	PART	_	_	14	advmod	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	спутники	спутник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	пастухи	пастух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	--	--	PUNCT	_	_	18	punct	_	_
+21	Атлас	атлас	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+24	кольца	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	А,	а,	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	Прометей	Прометь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+27	и	и	CCONJ	_	_	31	cc	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	предположительно	предположительно	ADV	_	Degree=Pos	31	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	Пандора	Пандор	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	кольца	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+34	F.	f.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	nmod	_	_
+
+# sent_id = 2081
+# text = Также к таким спутникам причисляют Дафнис, Янус, Эпиметей и Эгеон.
+1	Также	также	CCONJ	_	_	5	cc	_	_
+2	к	к	ADP	_	_	4	case	_	_
+3	таким	такой	DET	_	Case=Dat|Number=Plur	4	amod	_	_
+4	спутникам	спутник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+5	причисляют	причислять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	Дафнис	Дафнис	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Янус	Янус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Эпиметей	Эпиметь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Эгеон	Эгеон	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2082
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2083

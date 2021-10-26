@@ -1,0 +1,334 @@
+# text = # newpar
+# sent_id = 5206
+# text = ВМС США провели испытания корабля ближней морской зоны проекта LCS взрывом, чтобы узнать, насколько он устойчив к повреждениям, которые может получить во время реального боя.
+1	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ближней	ближний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	LCS	Lcs	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	взрывом	взрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+14	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	насколько	насколько	ADV	_	Degree=Pos	18	advmod	_	_
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+18	устойчив	устойчивый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	ccomp	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	повреждениям	повреждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	во	во	ADP	_	_	28	case	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	fixed	_	_
+27	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	боя	бой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5207
+# text = КаксообщаетDefense News, в испытаниях принял участие тримаран "Джексон" типа "Индепенденс".
+1	КаксообщаетDefense	КаксообщаетDefense	PROPN	_	Foreign=Yes	6	nsubj	_	_
+2	News	news	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+6	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	тримаран	тримарана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Джексон	джексон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Индепенденс	Индепенденс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5208
+# text = Испытания признаны успешными.Испытания корабля проводились недалеко от побережья Флориды.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj:pass	_	_
+2	признаны	признать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	успешными.	успешными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+4	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+7	недалеко	недалеко	ADV	_	Degree=Pos	9	advmod	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	побережья	побережье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	Флориды	Флорида	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5209
+# text = На расстоянии около 90 метров от корабля военные подорвали взрывное устройство массой 4,5 тонны.
+1	На	на	ADP	_	_	2	case	_	_
+2	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	около	около	ADP	_	_	5	case	_	_
+4	90	90	NUM	_	_	5	nummod	_	_
+5	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	подорвали	подрывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	взрывное	взрывный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+13	4,5	4,5	NUM	_	_	14	nummod	_	_
+14	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5210
+# text = Точное расстояние, тип и масса взрывчатого вещества засекречены.
+1	Точное	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	тип	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+7	взрывчатого	взрывчатот	DET	_	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+8	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	засекречены	засекречивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5211
+# text = Согласно заявлению военных, корабль перенес взрыв лучше, чем ожидалось, получив при этом незначительные повреждения.Во время испытаний получаемые кораблем повреждения фиксируются 260 датчиками, расположенными в разных частях корабля.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	заявлению	заявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+3	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	перенес	переносить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	лучше	хороший	ADJ	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чем	чем	SCONJ	_	_	11	mark	_	_
+11	ожидалось	ожидать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	получив	получать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+16	незначительные	незначительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Во	во	ADP	_	_	21	case	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+22	получаемые	получать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	21	amod	_	_
+23	кораблем	корабль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl:agent	_	_
+24	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	фиксируются	фиксировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj	_	_
+26	260	260	NUM	_	_	27	nummod	_	_
+27	датчиками	датчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	расположенными	расположенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	32	amod	_	_
+32	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	29	nmod	_	_
+33	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5212
+# text = В ближайшее время "Джексон" пройдет незначительный ремонт, а 22 июня его снова испытают на устойчивость к взрывам.
+1	В	в	ADP	_	_	3	case	_	_
+2	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Джексон	джексон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	незначительный	незначительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ремонт	ремонт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	16	cc	_	_
+12	22	22	NUM	_	_	16	nummod	_	_
+13	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+15	снова	снова	ADV	_	Degree=Pos	16	advmod	_	_
+16	испытают	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	взрывам	взрыв	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5213
+# text = 8 июля состоится последнее испытание такого рода.
+1	8	8	NUM	_	_	3	nummod	_	_
+2	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	испытание	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	_
+7	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5214
+# text = Во всех случаях будут использоваться взрывные устройства массой 4,5 тонны.
+1	Во	в	ADP	_	_	3	case	_	_
+2	всех	весь	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+6	взрывные	взрывный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+8	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+9	4,5	4,5	NUM	_	_	10	nummod	_	_
+10	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5215
+# text = Их будут взрывать ближе к кораблю.По итогам испытаний военные намерены составить список возможных доработок конструкции корабля, которые позволят повысить его живучесть в боевых условиях.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	3	obj	_	_
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	взрывать	взрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	ближе	близко	ADV	_	Degree=Cmp	6	advmod	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	кораблю	корабль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	По	по	ADP	_	_	9	case	_	_
+9	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+10	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	_
+13	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	возможных	возможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	доработок	доработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
+24	живучесть	живучесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	боевых	боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5216
+# text = Подробные сведения о результатах и необходимых доработках обнародовать не планируется.Тримаран "Джексон" был заложен в 2011 году, а в 2015-м -- включен в состав ВМС США.
+1	Подробные	подробной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	сведения	сведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	необходимых	необходимый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	доработках	доработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	conj	_	_
+8	обнародовать	обнародовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Тримаран	Тримаран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Джексон	джексон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	заложен	закладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	parataxis	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	2011	2011	NUM	_	_	20	nummod	_	_
+20	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	26	cc	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	2015-м	2015-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	obl	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	включен	включать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	conj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	_
+29	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+30	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5217
+# text = Корабль длиной 127,4 метра и шириной 31,6 метра имеет водоизмещение 2,3 тысячи тонн.
+1	Корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+3	127,4	127,4	NUM	_	_	4	nummod	_	_
+4	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	шириной	ширина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	conj	_	_
+7	31,6	31,6	NUM	_	_	8	nummod	_	_
+8	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	водоизмещение	водоизмещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	2,3	2,3	NUM	_	_	12	nummod	_	_
+12	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nummod:gov	_	_
+13	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5218
+# text = Он может развивать скорость до 47 узлов, а дальность его хода составляет около 4,9 тысячи миль.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	47	47	NUM	_	_	7	nummod	_	_
+7	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	4,9	4,9	NUM	_	_	16	nummod	_	_
+16	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	миль	миля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5219
+# text = Корабль вооружен пушкой калибра 57 миллиметров, четырьмя установками калибра 12,7 миллиметра и пусковой установкой на 11 ракет Evolved SeaRAM."Джексон" может нести два многоцелевых вертолета MH-60 Seahawk и один беспилотный летательный аппарат вертолетного типа MQ-8Fire Scout.Василий Сычёв
+1	Корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	вооружен	вооружать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	пушкой	пушка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+4	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	57	57	NUM	_	_	6	nummod	_	_
+6	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	четырьмя	четыре	NUM	_	Case=Ins	9	nummod	_	_
+9	установками	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+10	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	12,7	12,7	NUM	_	_	12	nummod	_	_
+12	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	пусковой	пусковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	установкой	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	11	11	NUM	_	_	18	nummod	_	_
+18	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+19	Evolved	evolved	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+20	SeaRAM.	Searam.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Джексон	джексон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	_
+25	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	два	два	NUM	_	Case=Nom|Gender=Masc	28	nummod:gov	_	_
+27	многоцелевых	многоцелевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+29	MH-60	Mh-60	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	Seahawk	Seahawk	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+31	и	и	CCONJ	_	_	35	cc	_	_
+32	один	один	NUM	_	Case=Nom|Gender=Masc	35	nummod:gov	_	_
+33	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+34	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	conj	_	_
+36	вертолетного	вертолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	MQ	Mq	PROPN	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	-	-	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	8Fire	8Fire	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+41	Scout.	scout.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	SpaceAfter=No
+42	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	40	nmod	_	_
+43	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+
+# newpar
+# sent_id = 5220

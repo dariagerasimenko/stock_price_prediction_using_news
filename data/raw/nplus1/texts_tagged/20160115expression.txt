@@ -1,0 +1,385 @@
+# text = # newpar
+# sent_id = 3059
+# text = Биологи разработали модель, позволяющую определить влияние синонимичных кодонов на синтез кодируемого белка.
+1	Биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	синонимичных	синонимичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	кодонов	кодон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+12	кодируемого	кодируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3060
+# text = Результаты работы были опубликованы в журнале Nature.Кодоном называется тройка нуклеотидов (триплет) в ДНК и информационной РНК, которая кодирует одну аминокислоту в белке.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Nature	nature	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Кодоном	Кодон	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+10	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+11	тройка	тройка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	нуклеотидов	нуклеотид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	триплет	триплет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	информационной	информационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которая	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	кодирует	кодировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	одну	один	NUM	_	Case=Acc|Gender=Fem	25	nummod:gov	_	_
+25	аминокислоту	аминокислота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	белке	белок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3061
+# text = Так как число кодонов, кодирующих одну из двадцати аминокислот, составляет 61, часть аминокислот закодирована несколькими кодонами, называемыми синонимичными.
+1	Так	так	ADV	_	Degree=Pos	3	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+4	кодонов	кодон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	кодирующих	кодировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	одну	один	NUM	_	Case=Acc|Gender=Fem	6	nummod:gov	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	двадцати	двадцать	NUM	_	Case=Gen	10	nummod	_	_
+10	аминокислот	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	61	61	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+16	аминокислот	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	закодирована	кодировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+18	несколькими	несколько	NUM	_	Case=Ins	19	nummod	_	_
+19	кодонами	кодон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	называемыми	называть	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+22	синонимичными	синонимичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3062
+# text = Синонимичные кодоны могут по-разному влиять на уровень экспрессии белка, но выяснение, какой именно эффект будет оказывать определенный кодон, затрудняется тем, что триплеты также влияют на множество структурных особенностей информационной РНК. Все эти дополнительные факторы, в свою очередь, могут вносить различный вклад в эффективность процесса трансляции гена, и определить результирующий эффект становится очень трудно.
+1	Синонимичные	Синонимичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	кодоны	кодон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	по-разному	по-разному	ADV	_	Degree=Pos	5	advmod	_	_
+5	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	но	но	CCONJ	_	_	16	cc	_	_
+12	выяснение	выяснение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	какой	какой	DET	_	Case=Ins|Gender=Fem|Number=Sing	16	amod	_	_
+15	именно	именно	PART	_	_	14	advmod	_	_
+16	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+18	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+19	определенный	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	кодон	кодон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	затрудняется	затрудняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+23	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	23	mark	_	_
+26	триплеты	триплет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+27	также	также	ADV	_	Degree=Pos	28	advmod	_	_
+28	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	_
+29	на	на	ADP	_	_	30	case	_	_
+30	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+31	структурных	структурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	информационной	информационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+34	РНК.	Рнколо	ADP	_	_	38	case	_	_
+35	Все	весь	DET	_	Case=Nom|Number=Plur	38	amod	_	_
+36	эти	этот	DET	_	Case=Nom|Number=Plur	38	amod	_	_
+37	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+38	факторы	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	58	nsubj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	42	amod	_	_
+42	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	parataxis	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	58	advcl	_	_
+45	вносить	вносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	44	xcomp	_	_
+46	различный	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obl	_	_
+50	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
+51	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_
+52	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	и	и	CCONJ	_	_	55	cc	_	_
+55	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	45	conj	_	_
+56	результирующий	результирующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	57	amod	_	_
+57	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	55	obj	_	_
+58	становится	становеться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	28	parataxis	_	_
+59	очень	очень	ADV	_	Degree=Pos	60	advmod	_	_
+60	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	58	amod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	_
+
+# sent_id = 3063
+# text = Чтобы решить эту проблему, ученые создали модель, учитывающую широкий диапазон особенностей структуры РНК.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+2	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	учитывающую	учитывать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	широкий	широкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	диапазон	диапазон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3064
+# text = Для этого был измерен уровень экспрессии белка у 6 348 генов, взятых у различных организмов (включая человека) и внедренных в клетки E.coli.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	измерен	измерять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	у	у	ADP	_	_	11	case	_	_
+9	6	6	NUM	_	_	11	nummod	_	_
+10	348	348	NUM	_	_	11	nummod	_	_
+11	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	взятых	брать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	у	у	ADP	_	_	16	case	_	_
+15	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	включая	включая	ADV	_	Degree=Pos	16	parataxis	_	_
+19	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	внедренных	внедрять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obl	_	_
+25	E.coli	E.coli	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3065
+# text = У каждого исследуемого гена была измерена частота встречаемости всех синонимичных кодонов, а также определены структурные особенности соответствующей гену информационной РНК.
+1	У	у	ADP	_	_	4	case	_	_
+2	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	исследуемого	исследовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	измерена	измерять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	частота	частота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	встречаемости	встречаемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	всех	весь	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+10	синонимичных	синонимичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	кодонов	кодон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	15	cc	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	определены	определять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+16	структурные	структурный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+18	соответствующей	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	гену	ген	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+20	информационной	информационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3066
+# text = С использованием методов регрессионного анализа и моделирования ученые смогли выяснить, как конкретные кодоны через дополнительные факторы будут влиять на эффективность трансляции РНК и синтеза белка.
+1	С	с	ADP	_	_	2	case	_	_
+2	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+3	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	регрессионного	регрессионный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	14	cc	_	_
+13	конкретные	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	кодоны	кодон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	advmod	_	_
+15	через	через	ADP	_	_	17	case	_	_
+16	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	факторы	факторы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+22	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+26	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3067
+# text = Результаты показали, что, в целом, непосредственное влияние кодонов на экспрессию превышает влияние дополнительных факторов, однако есть и исключения: третичная структура информационной РНК вблизи переднего конца молекулы может полностью прекратить процесс трансляции.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	непосредственное	непосредственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+11	кодонов	кодон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+15	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	0	advmod	_	_
+20	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+21	и	и	PART	_	_	22	advmod	_	_
+22	исключения	исключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	22	punct	_	_
+24	третичная	третичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+26	информационной	информационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+28	вблизи	вблизи	ADP	_	_	30	case	_	_
+29	переднего	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+31	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+33	полностью	полностью	ADV	_	Degree=Pos	34	advmod	_	_
+34	прекратить	прекращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+35	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+36	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 3068
+# text = Кроме того, полученные данные подтвердили, что часто встречающиеся синонимичные кодоны положительно влияют на уровень экспрессии белка, прежде всего через стабилизацию РНК и увеличение продолжительности ее жизни.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	6	nsubj	_	_
+6	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	часто	часто	ADV	_	Degree=Pos	10	advmod	_	_
+10	встречающиеся	встречаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	12	amod	_	_
+11	синонимичные	синонимичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	кодоны	кодон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+13	положительно	положительно	ADV	_	Degree=Pos	14	advmod	_	_
+14	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+17	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	прежде	прежде	ADP	_	_	23	advmod	_	_
+21	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	fixed	_	_
+22	через	через	ADP	_	_	23	case	_	_
+23	стабилизацию	стабилизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+24	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	appos	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	conj	_	_
+27	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	29	nmod	_	_
+29	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3069
+# text = Ученые надеются, что результаты исследования помогут в создании искусственных генов, синтез белков которых отличался бы большей эффективностью.Известно, что некоторые синонимичные кодоны в кодирующих участках ДНК встречаются чаще других.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	надеются	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+10	искусственных	искусственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	синтез	синтез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	белков	белки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+16	отличался	отличаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	бы	бы	PART	_	Mood=Cnd	16	aux	_	_
+18	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	эффективностью	эффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	26	amod	_	_
+25	синонимичные	синонимичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	кодоны	кодон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	кодирующих	кодирующий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	nmod	_	_
+30	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	advcl	_	_
+32	чаще	часто	ADV	_	Degree=Cmp	33	advmod	_	_
+33	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3070
+# text = Это явление называется предпочтением кодонов и сформировалось под воздействием эволюции, когда некоторые кодоны оказывали более благоприятное воздействие на эффективность процессов трансляции.
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	явление	явление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	предпочтением	предпочтение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	кодонов	кодон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	сформировалось	сформировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+10	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	когда	когда	SCONJ	_	_	7	mark	_	_
+13	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	14	amod	_	_
+14	кодоны	кодон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	оказывали	оказать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	более	более	ADV	_	Degree=Cmp	17	advmod	_	_
+17	благоприятное	благоприятный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
+21	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3071
+# text = Александр Еникеев
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3072

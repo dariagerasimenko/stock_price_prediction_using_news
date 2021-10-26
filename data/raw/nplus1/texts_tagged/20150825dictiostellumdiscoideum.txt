@@ -1,0 +1,441 @@
+# text = # newpar
+# sent_id = 425
+# text = Группа микробиологов из Университета Вашингтона в Сент-Луисе объявила о существенном пересмотре и уточнении своего предыдущего исследования.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	микробиологов	микробиолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Вашингтона	вашингтон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Сент-Луисе	Сент-Луис	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+8	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	о	о	ADP	_	_	11	case	_	_
+10	существенном	существенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	пересмотре	пересмотер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	уточнении	уточнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	conj	_	_
+14	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	16	amod	_	_
+15	предыдущего	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 426
+# text = Четыре года назад ученые обнаружили амеб-фермеров Dictyostelium discoideum, выращивающих для своего пропитания бактерий Klebsiella pneumoniae.
+1	Четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	2	nummod:gov	_	_
+2	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	назад	назад	ADV	_	Degree=Pos	2	advmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	амеб-фермеров	амеб-фермер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	Dictyostelium	Dictyostelium	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	discoideum	discoideum	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	выращивающих	выращивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	13	amod	_	_
+13	пропитания	пропитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	Klebsiella	Klebsiella	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	pneumoniae	pneumoniae	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 427
+# text = Согласно новой работе, "истинными фермерами" являются не амебы, а бактерии, -- но, другого, "несъедобного" для амеб рода Burkholderia.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	истинными	истинный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	фермерами	фермер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	амебы	амеб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	14	cc	_	_
+14	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	--	--	PUNCT	_	_	14	punct	_	_
+17	но	но	CCONJ	_	_	19	cc	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	другого	другой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	несъедобного	несъедобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	для	для	ADP	_	_	25	case	_	_
+25	амеб	амьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+26	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 428
+# text = Они видоизменяют геном амеб и принуждают их "разводить" и перевозить колонии двух видов бактерий на себе в новые, благоприятные для размножения участки почвы.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	видоизменяют	видоизменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	амеб	амьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	принуждают	принуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	6	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	разводить	разводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	перевозить	перевозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	_
+13	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	двух	два	NUM	_	Case=Gen	15	nummod	_	_
+15	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	себе	себя	PRON	_	Case=Loc	9	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	благоприятные	благоприятный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	размножения	размножение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	участки	участка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	почвы	почва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 429
+# text = Работа опубликована в журнале Proceedings of the National Academy of Sciences.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Proceedings	proceedings	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	of	of	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	National	national	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Academy	academy	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	of	of	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Sciences	Sciences	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 430
+# text = В 2011 году в журнале Nature эта же группа микробиологов сообщила, что около трети обитающих в почве в штатах Вирджиния и Миннесота амеб Dictyostelium discoideum являются примитивными "фермерами".
+1	В	в	ADP	_	_	3	case	_	_
+2	2011	2011	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+8	же	же	PART	_	_	7	advmod	_	_
+9	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	микробиологов	микробиолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	сообщила	сообщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	около	около	ADP	_	_	15	case	_	_
+15	трети	треть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+16	обитающих	обитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	почве	почва	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	штатах	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+21	Вирджиния	Вирджиние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	Миннесота	миннесота	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	амеб	амьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	conj	_	_
+25	Dictyostelium	Dictyostelium	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	discoideum	discoideum	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+28	примитивными	примитивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	фермерами	фермер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 431
+# text = Они постоянно носят на себе колонию съедобных бактерий, и, в случае если количество пищевых ресурсов в месте постоянного обитания падает, перевозят их на новую локацию.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	постоянно	постоянно	ADV	_	Degree=Pos	3	advmod	_	_
+3	носят	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	себе	себя	PRON	_	Case=Loc	3	obl	_	_
+6	колонию	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	съедобных	съедобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	6	cc	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
+14	если	если	SCONJ	_	_	13	fixed	_	_
+15	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+16	пищевых	пищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+20	постоянного	постоянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	перевозят	перевозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+25	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	24	obj	_	_
+26	на	на	ADP	_	_	28	case	_	_
+27	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	локацию	локация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 432
+# text = Там "высаживают" в почву, а когда бактерии достаточно размножатся -- питаются их "урожаем".
+1	Там	там	ADV	_	Degree=Pos	3	advmod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	высаживают	высаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	почву	почва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	12	cc	_	_
+9	когда	когда	SCONJ	_	_	12	mark	_	_
+10	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+11	достаточно	достаточно	ADV	_	Degree=Pos	12	advmod	_	_
+12	размножатся	размножаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	питаются	питаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	урожаем	урожывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 433
+# text = Это позволяет амебам выжить в тяжелые времена, а бактериям расширить ареал своего обитания.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	амебам	амеб	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	тяжелые	тяжелый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	бактериям	бактерий	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+11	расширить	расширять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	_
+12	ареал	ареал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	14	amod	_	_
+14	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 434
+# text = Дальнейшие исследования показали, что у амеб-фермеров, в отличие от их менее "хозяйственных" сородичей наблюдаются изменения в геноме.
+1	Дальнейшие	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	амеб-фермеров	амеб-фермер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	17	case	_	_
+10	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	от	от	ADP	_	_	10	fixed	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+13	менее	менее	ADV	_	Degree=Cmp	17	nummod:gov	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	хозяйственных	хозяйственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	сородичей	сородич	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+18	наблюдаются	наблюдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	_
+19	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj:pass	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	геноме	геном	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 435
+# text = А помимо съедобных бактерий все они переносят еще и несъедобную, ничем им не полезную бактерию рода Burkholderia.
+1	А	а	CCONJ	_	_	7	cc	_	_
+2	помимо	помимо	ADP	_	_	4	case	_	_
+3	съедобных	съедобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	переносят	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	еще	еще	ADV	_	Degree=Pos	7	advmod	_	_
+9	и	и	PART	_	_	10	advmod	_	_
+10	несъедобную	несъедобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ничем	ничем	CCONJ	_	_	15	cc	_	_
+13	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	15	nmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+16	бактерию	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+17	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 436
+# text = Выяснилось, что если пересадить эту бактерию на амеб, не занимающихся фермерством, то спустя какое-то время они также начинают перевозить на себе и высаживать колонии Klebsiella pneumoniae, а заодно и Burkholderia.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	если	если	SCONJ	_	_	12	mark	_	_
+5	пересадить	пересаждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	advcl	_	_
+6	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	бактерию	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	амеб	амеб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	занимающихся	заниматься	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	1	advcl	_	_
+13	фермерством	фермерство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	SCONJ	_	_	12	cc	_	_
+16	спустя	спустя	ADP	_	_	18	case	_	_
+17	какое-то	какой-то	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+20	также	также	ADV	_	Degree=Pos	21	advmod	_	_
+21	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+22	перевозить	перевозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	себе	себя	PRON	_	Case=Loc	22	obl	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	высаживать	высаживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	conj	_	_
+27	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+28	Klebsiella	Klebsiella	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	pneumoniae	pneumoniae	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	а	а	CCONJ	_	_	32	cc	_	_
+32	заодно	заодно	ADV	_	Degree=Pos	0	conj	_	_
+33	и	и	PART	_	_	34	advmod	_	_
+34	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 437
+# text = В то же время, если обработать амеб-фермеров антибиотиком, убивающим Burkholderia, то ни перестают заниматься транспортировкой и "выращиванием" бактерий.
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	если	если	SCONJ	_	_	16	mark	_	_
+7	обработать	обработывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+8	амеб-фермеров	амеб-фермер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	антибиотиком	антибиотик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	убивающим	убивать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	то	то	SCONJ	_	_	7	cc	_	_
+15	ни	ни	PART	_	_	16	advmod	_	_
+16	перестают	переставать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+17	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	транспортировкой	транспортировка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	выращиванием	выращивание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 438
+# text = Иными словами, Burkholderia одновременно является патогенным паразитическим микроорганизмом, изменяющим геном амеб, а с другой -- ключевым партнером одноклеточных в симбиотическом, взаимнополезном сожительстве.
+1	Иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	6	nsubj	_	_
+5	одновременно	одновременно	ADV	_	Degree=Pos	6	advmod	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	патогенным	патогенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	паразитическим	паразитический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	микроорганизмом	микроорганизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	изменяющим	изменять	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl:agent	_	_
+13	амеб	амьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	orphan	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	ключевым	ключевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	партнером	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+21	одноклеточных	одноклеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+22	в	в	ADP	_	_	26	case	_	_
+23	симбиотическом	симбиотический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	взаимнополезном	взаимнополезный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	conj	_	_
+26	сожительстве	сожительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 439
+# text = Burkholderia заставляет амеб выращивать Klebsiella pneumoniae, что, в условиях истощения пищевых ресурсов позволяет амебам-фермерам выжить, одновременно это помогает всем бактериям переместиться в более благоприятные места обитания и заселить их, увеличив свою популяцию и освоив новые территории.
+1	Burkholderia	Burkholderia	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	заставляет	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	амеб	амеб	ADV	_	Degree=Pos	4	advmod	_	_
+4	выращивать	выращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	Klebsiella	Klebsiella	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	pneumoniae	pneumoniae	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	PRON	_	Case=Nom	15	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+12	истощения	истощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	пищевых	пищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	амебам	амеб	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	фермерам	фермер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+19	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	dep	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	одновременно	одновременно	ADV	_	Degree=Pos	23	advmod	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+23	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	всем	весь	DET	_	Case=Dat|Number=Plur	25	amod	_	_
+25	бактериям	бактерия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	23	obl	_	_
+26	переместиться	перемещаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	23	xcomp	_	_
+27	в	в	ADP	_	_	30	case	_	_
+28	более	более	ADV	_	Degree=Cmp	29	advmod	_	_
+29	благоприятные	благоприятный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obl	_	_
+31	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	заселить	заселять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	conj	_	_
+34	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	33	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	увеличив	увеличивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	33	advcl	_	_
+37	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	38	amod	_	_
+38	популяцию	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	освоив	осваивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	36	conj	_	_
+41	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	42	amod	_	_
+42	территории	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 440
+# text = Таким образом, перед нами пример сложной формы мутализма, в которой задействовано три разных агента -- микроорганизма с различными целями и ролями.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	перед	перед	ADP	_	_	5	case	_	_
+5	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	6	nmod	_	_
+6	пример	пример	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+7	сложной	сложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	мутализма	мутализм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Loc	13	obl	_	_
+13	задействовано	действовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+14	три	три	NUM	_	Case=Nom	16	nummod:gov	_	_
+15	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	агента	агент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	микроорганизма	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	целями	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	ролями	роль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# newpar
+# sent_id = 441

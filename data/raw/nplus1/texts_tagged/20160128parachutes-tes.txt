@@ -1,0 +1,187 @@
+# text = # newpar
+# sent_id = 5623
+# text = Компания SpaceX успешно протестировала парашютную систему пилотируемого корабля Crew Dragon.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	SpaceX	Spacex	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	успешно	успешно	ADV	_	Degree=Pos	4	advmod	_	_
+4	протестировала	тестировать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	парашютную	парашютный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Crew	Crew	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Dragon	Dragon	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5624
+# text = В рамках испытаний с борта транспортного самолета C-130 был сброшен "мертвый груз", имитирующий космический корабль, с четырьмя основными парашютами.
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	с	с	ADP	_	_	3	case	_	_
+5	борта	борт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	транспортного	транспортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	C-130	c-130	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	сброшен	сбрасывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	мертвый	мертвый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	груз	груз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	имитирующий	имитировать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+17	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	с	с	ADP	_	_	23	case	_	_
+21	четырьмя	четыре	NUM	_	Case=Ins	23	nummod	_	_
+22	основными	основной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	парашютами	парашют	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5625
+# text = Испытания прошли успешно, сообщается в блоге NASA.Изначально парашютная система рассчитана для посадки в качестве основной тормозной системы, однако в будущем SpaceX рассчитывает добиться успешной мягкой посадки при помощи четырех пар реактивных двигателей SuperDraco, встроенных в обшивку Crew Dragon.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	успешно	успешно	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod	_	SpaceAfter=No
+9	Изначально	Изначально	ADV	_	Degree=Pos	12	advmod	_	_
+10	парашютная	парашютной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+12	рассчитана	рассчитывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	в	в	ADP	_	_	19	case	_	_
+16	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	основной	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	тормозной	тормозной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	однако	однако	ADV	_	Degree=Pos	25	advmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+24	SpaceX	Spacex	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	рассчитывает	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+26	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	25	xcomp	_	_
+27	успешной	успешный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	мягкой	мягкой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
+30	при	при	ADP	_	_	33	case	_	_
+31	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	fixed	_	_
+32	четырех	четыре	NUM	_	Case=Gen	33	nummod	_	_
+33	пар	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+34	реактивных	реактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+36	SuperDraco	SuperDraco	PROPN	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	встроенных	встраивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	amod	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	обшивку	обшивка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obl	_	_
+41	Crew	Crew	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	Dragon	Dragon	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 5626
+# text = Для тестирования подобной возможности компания в ноябре 2015 года провела испытания, в рамках которых корабль завис над землей на пять секунд.Предыдущий тест парашютной системы корабль Dragon проходил еще в 2013 году, однако на тот момент это был исключительно грузовой корабль, не модифицированный для пилотируемых полетов.В мае 2015 года компания успешно протестировала систему аварийного спасения экипажа корабля, состоящую из восьми двигателей, встроенных в обшивку Crew Dragon.
+1	Для	для	ADP	_	_	2	case	_	_
+2	тестирования	тестирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+3	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	2015	2015	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	испытания	испытания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	11	case	_	_
+14	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	29	obl	_	_
+15	которых	который	PRON	_	Case=Gen	14	nmod	_	_
+16	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+17	завис	завис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+18	над	над	ADP	_	_	19	case	_	_
+19	землей	земля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	пять	пять	NUM	_	Case=Acc	22	nummod:gov	_	_
+22	секунд.	секунданица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+23	Предыдущий	предыдти	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+24	тест	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+25	парашютной	парашютной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+28	Dragon	Dragon	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	проходил	проходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+30	еще	еще	ADV	_	Degree=Pos	33	advmod	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	2013	2013	NUM	_	_	33	nummod	_	_
+33	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	однако	однако	ADV	_	Degree=Pos	43	advmod	_	_
+36	на	на	ADP	_	_	38	case	_	_
+37	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	38	amod	_	_
+38	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	nmod	_	_
+39	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj	_	_
+40	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	43	cop	_	_
+41	исключительно	исключительно	ADV	_	Degree=Pos	43	advmod	_	_
+42	грузовой	грузовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	не	не	PART	_	_	46	advmod	_	_
+46	модифицированный	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_
+47	для	для	ADP	_	_	49	case	_	_
+48	пилотируемых	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	49	amod	_	_
+49	полетов.	полетовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+50	В	в	ADP	_	_	51	case	_	_
+51	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	46	obl	_	_
+52	2015	2015	NUM	_	_	53	nummod	_	_
+53	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+54	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	56	nsubj	_	_
+55	успешно	успешно	ADV	_	Degree=Pos	56	advmod	_	_
+56	протестировала	тестировать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	conj	_	_
+57	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	56	obj	_	_
+58	аварийного	аварийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	59	amod	_	_
+59	спасения	спасение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	57	nmod	_	_
+60	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	59	nmod	_	_
+61	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	61	punct	_	_
+63	состоящую	состоять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	61	amod	_	_
+64	из	из	ADP	_	_	66	case	_	_
+65	восьми	восемь	NUM	_	Case=Gen	66	nummod	_	_
+66	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	63	obl	_	SpaceAfter=No
+67	,	,	PUNCT	_	_	66	punct	_	_
+68	встроенных	встраивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	66	amod	_	_
+69	в	в	ADP	_	_	70	case	_	_
+70	обшивку	обшивка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	68	obl	_	_
+71	Crew	Crew	PROPN	_	Foreign=Yes	70	flat:foreign	_	_
+72	Dragon	Dragon	PROPN	_	Foreign=Yes	71	flat:foreign	_	SpaceAfter=No
+73	.	.	PUNCT	_	_	72	punct	_	_
+
+# sent_id = 5627
+# text = Ожидается, что первый полет с живым экипажем на борту Dragon произойдет в 2017 году.Николай Воронцов
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	живым	живой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	экипажем	экипаж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Dragon	Dragon	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	2017	2017	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+18	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_
+
+# newpar
+# sent_id = 5628

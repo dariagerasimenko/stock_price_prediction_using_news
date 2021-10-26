@@ -1,0 +1,408 @@
+# text = # newpar
+# sent_id = 42
+# text = Международная группа ученых обнаружила, что употребление животного белка связано ссокращением продолжительность жизни, арастительного-- сеепродлением.Причем эта закономерность наблюдается только вприсутствии хотябы одного фактора риска, связанного собразом жизни.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+8	животного	животный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	_
+11	ссокращением	ссокращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl:agent	_	_
+12	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+13	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	арастительного-	арастительного-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	13	punct	_	_
+17	сеепродлением.	сеепродлениемтраница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	appos	_	SpaceAfter=No
+18	Причем	причем	CCONJ	_	_	21	cc	_	_
+19	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+20	закономерность	закономерность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+21	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+22	только	только	PART	_	_	23	advmod	_	_
+23	вприсутствии	вприсутствии	ADV	_	Degree=Pos	24	advmod	_	_
+24	хотябы	хотяб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+25	одного	один	NUM	_	Case=Gen|Gender=Masc	26	nummod	_	_
+26	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	связанного	связывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+30	собразом	собраз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+31	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 43
+# text = Результаты исследования опубликованы вJAMA Internal Medicine.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вJAMA	вjama	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Internal	Internal	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Medicine	Medicine	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 44
+# text = Сотрудники Гарвардского университета сколлегами провели метаанализ данных, полученных впроспективных когортных исследований здоровья 131342 американских медработников (64,7 процента женщин) Nurses" Health Study (срок наблюдения 32года) иHealth Professionals Follow-up Study (срок наблюдения 26лет).
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Гарвардского	Гарвардский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	сколлегами	сколлега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	_
+5	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	метаанализ	метаанализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+10	впроспективных	впроспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	когортных	когортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	conj	_	_
+13	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	131342	131342	NUM	_	_	13	nummod	_	_
+15	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	медработников	медработник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	64,7	64,7	NUM	_	_	19	nummod	_	_
+19	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	parataxis	_	_
+20	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	Nurses	Nurses	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	24	punct	_	_
+24	Health	Health	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	Study	Study	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	parataxis	_	_
+28	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	32года	32год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	иHealth	иHealth	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+32	Professionals	Professionals	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	Follow-up	Follow-up	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Study	Study	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	parataxis	_	_
+37	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+38	26лет	26год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 45
+# text = Потребление питательных веществ регулярно регистрировали с помощью сертифицированных опросников.
+1	Потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	питательных	питательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	регулярно	регулярно	ADV	_	Degree=Pos	5	advmod	_	_
+5	регистрировали	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	сертифицированных	сертифицированный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	опросников	опросник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 46
+# text = Медианное потребление белка составило 14процентов отобщей калорийности пищи для животного белка ичетыре процента -- для растительного.
+1	Медианное	Медианный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	составило	составлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	14процентов	14процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+6	отобщей	отобщий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	калорийности	калорийность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	животного	животный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	ичетыре	ичетыре	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	растительного	растительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 47
+# text = Статистическая обработка данных споправками наосновные факторы риска, связанные сдиетой иобразом жизни, показала, что потребление животного белка связано сповышением смертности, в превую очередь от сердечно-сосудистых причин (всреднем навосемь процентов накаждые 10процентов повышения ихдоли вобщей энергетической ценности пищи).
+1	Статистическая	статистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	данных	давать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+4	споправками	споправка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+5	наосновные	наосновный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	факторы	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+7	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+10	сдиетой	сдиета	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+11	иобразом	иобраз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl:agent	_	_
+12	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj:pass	_	_
+18	животного	животный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	_
+21	сповышением	сповышение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	_
+22	смертности	смертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	превую	превый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+26	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	fixed	_	_
+27	от	от	ADP	_	_	29	case	_	_
+28	сердечно-сосудистых	сердечно-сосудистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	parataxis	_	_
+32	навосемь	навосемь	NUM	_	Case=Acc	33	nummod:gov	_	_
+33	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nsubj	_	_
+34	накаждые	накаждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	_
+35	10процентов	10процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+36	повышения	повышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	ихдоли	ихдоля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	вобщей	вобщий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+39	энергетической	энергетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	ценности	ценность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+41	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 48
+# text = Растительный белок, напротив, снижал смертность (всреднем на10процентов на каждые три процента повышении доли вэнергопотреблении).
+1	Растительный	растительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	напротив	напротив	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	снижал	снижать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	смертность	смертность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	parataxis	_	_
+10	на10процентов	на10процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	на	на	ADP	_	_	14	case	_	_
+12	каждые	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	три	три	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+14	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+15	повышении	повышение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+16	доли	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	вэнергопотреблении	вэнергопотребление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 49
+# text = При этом замена трех процентов общих калорий нарастительный белок сбелка изпереработанного мяса приводила к снижению смертности на34процента, изнепереработанного мяса-- на12процентов иизяиц-- на19процентов.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+3	замена	замена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	трех	три	NUM	_	Case=Gen	5	nummod	_	_
+5	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	калорий	калория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	нарастительный	нарастительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	сбелка	сбелк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	изпереработанного	изпереработанный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	приводила	приводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	снижению	снижение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+16	смертности	смертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	на34процента	на34процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	изнепереработанного	изнепереработать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+20	мяса-	мяса-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	на12процентов	на12процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+23	иизяиц	иизяица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	compound	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	23	punct	_	_
+26	на19процентов	на19процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 50
+# text = Подобная закономерность наблюдалась только улюдей, имеющих хотябы один серьезный фактор риска, связанный с образом жизни, такой как курение, злоупотребление алкоголем, избыточный вес и недостаточная физическая активность.
+1	Подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	закономерность	закономерность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	только	только	PART	_	_	5	advmod	_	_
+5	улюдей	чеуловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+8	хотябы	хотяб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	5	conj	_	_
+10	серьезный	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	фактор	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obj	_	_
+12	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	связанный	связывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+17	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
+20	как	как	SCONJ	_	_	21	cc	_	_
+21	курение	курение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	злоупотребление	злоупотребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	conj	_	_
+24	алкоголем	алкоголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	избыточный	избыточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	вес	вес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	parataxis	_	_
+28	и	и	CCONJ	_	_	31	cc	_	_
+29	недостаточная	недостаточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+30	физическая	физический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 51
+# text = Вотсутствие этих факторов источник потребляемого белка напродолжительность жизни невлиял.
+1	Вотсутствие	Вотсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	потребляемого	потреблять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	напродолжительность	напродолжительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	жизни	жизня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	невлиял	невлиять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 52
+# text = "Источники белка неизбежно влияют на другие составляющие диеты, такие как макронутриенты, микронутриенты ифитохимикаты, которые, всвою очередь, оказывают эффект наздоровье...
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Источники	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	неизбежно	неизбежно	ADV	_	Degree=Pos	5	advmod	_	_
+5	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	составляющие	составляющая	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+9	диеты	диета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	такие	такой	DET	_	Case=Nom|Number=Plur	15	amod	_	_
+12	как	как	SCONJ	_	_	13	cc	_	_
+13	макронутриенты	макронутриент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	микронутриенты	микронутриент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+16	ифитохимикаты	ифитохимиката	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	25	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	всвою	всвой	DET	_	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+21	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	оказывают	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
+24	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	наздоровье.	наздоровьбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 53
+# text = Рекомендации поохране общественного здоровья должны это учитывать",-- заключили авторы работы.
+1	Рекомендации	рекомендация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	поохране	поохране	ADV	_	Degree=Pos	5	advmod	_	_
+3	общественного	общественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+7	учитывать	учитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,--	,--	PUNCT	_	_	7	punct	_	_
+10	заключили	заключать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 54
+# text = Крастительной пище снаибольшим содержанием белка относятся орехи, зерновые ибобовые культуры.Недавнее крупномасштабное международное исследование показало, что употребление красного мяса, особенно переработанного, связано с резким повышением смертности от онкологических заболеваний, в первую очередь рака толстой кишки.
+1	Крастительной	Крастительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	пище	пища	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+3	снаибольшим	снаибольать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+4	содержанием	содержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	относятся	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	орехи	орех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	зерновые	зерновой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	ибобовые	ибобовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	культуры	культура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Недавнее	Недавний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+14	крупномасштабное	крупномасштабной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	международное	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	mark	_	_
+20	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj:pass	_	_
+21	красного	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	особенно	особенно	ADV	_	Degree=Pos	25	advmod	_	_
+25	переработанного	переработать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	резким	резкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	повышением	повышение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+31	смертности	смертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	от	от	ADP	_	_	31	case	_	_
+33	онкологических	онкологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	39	discourse	_	_
+37	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	fixed	_	_
+38	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	fixed	_	_
+39	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+40	толстой	толстой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	кишки	кишка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 55
+# text = В силу этого переработанное мясо подготовлено для включения в Группу 1 (известные канцерогены) Перечня канцерогенов Всемирной организации здравохранения, а красное мясо -- в Группу 2А (вероятные канцерогены).
+1	В	в	ADP	_	_	2	case	_	_
+2	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	переработанное	переработать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	мясо	мясо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+6	подготовлено	подготавливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+9	в	в	ADP	_	_	8	case	_	_
+10	Группу	группа	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	appos	_	_
+11	1	1	NUM	_	_	10	nummod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	известные	известный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	канцерогены	канцероген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	Перечня	перечня	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+17	канцерогенов	канцероген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	Всемирной	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	здравохранения	здравохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	24	cc	_	_
+23	красное	красный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	мясо	мясо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	Группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+28	2А	2а.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	вероятные	вероятной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	канцерогены	канцероген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	parataxis	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 56
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 57

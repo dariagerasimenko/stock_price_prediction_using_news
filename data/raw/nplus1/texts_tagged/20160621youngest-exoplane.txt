@@ -1,0 +1,267 @@
+# text = # newpar
+# sent_id = 5907
+# text = Астрофизики подтвердили существование самой молодой полностью сформированной экзопланеты.
+1	Астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	существование	существование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	самой	сам	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	молодой	молода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+7	сформированной	сформировывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5908
+# text = Статья ученых была опубликована вжурнале Nature, кратко оботкрытии рассказывает пресс-релиз насайте NASA.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	Nature	nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+9	оботкрытии	оботкрытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+10	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+11	пресс-релиз	пресс-релиз	ADP	_	_	12	case	_	_
+12	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+13	NASA	Nasa	PROPN	_	Foreign=Yes	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5909
+# text = Первые признаки существования планеты были обнаружены спомощью телескопа "Кеплер" врамках миссии K2.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl:agent	_	_
+8	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Кеплер	Кеплер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	врамках	врамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	_
+13	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	K2	K2	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5910
+# text = Его камера уловила периодическое затемнение звезды K2-33, находящейся вOB-ассоциации Скорпиона-- Центавра (самая ближайшая кСолнцу группировка слабо связанных молодых звезд), что является признаком вращающейся вокруг нее планеты.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	уловила	улавливать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	периодическое	периодический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	затемнение	затемнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	K2	K2	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	33	33	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	находящейся	находиться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	12	amod	_	_
+12	вOB-ассоциации	вOB-ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+13	Скорпиона-	Скорпиона-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	Центавра	Центавр	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	ближайшая	ближайший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	кСолнцу	кСолнец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	_
+20	группировка	группировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+21	слабо	слабо	ADV	_	Degree=Pos	22	advmod	_	_
+22	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+23	молодых	молодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	24	punct	_	_
+27	что	что	PRON	_	Case=Nom	28	nsubj	_	_
+28	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+29	признаком	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_
+30	вращающейся	вращаться	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	33	amod	_	_
+31	вокруг	вокруг	ADP	_	_	32	case	_	_
+32	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	30	obl	_	_
+33	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5911
+# text = Позже существование экзопланеты удалось подтвердить вобсерватории Keck, находящейся наострове Гавайи.
+1	Позже	позже	PART	_	_	2	advmod	_	_
+2	существование	существование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	подтвердить	дтвердить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	вобсерватории	вобсерватория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	Keck	Keck	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	находящейся	находиться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	6	amod	_	_
+10	наострове	наострова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+11	Гавайи	Гавайджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5912
+# text = Пооценкам ученых, возраст планеты K2-33b составляет всего от5до10миллионов лет, аееразмер сравним сразмером Нептуна (5,040,34 радиусов Земли).
+1	Пооценкам	Пооценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	conj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	K2	K2	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	33b	33b	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	составляет	составлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	11	amod	_	_
+11	от5до10миллионов	от5до10миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	аееразмер	аееразмер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+15	сравним	сравний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	сразмером	сразмер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Нептуна	Нептуна	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	5,040,34	5,040,34	NUM	_	_	20	nummod	_	_
+20	радиусов	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	parataxis	_	_
+21	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5913
+# text = Наблюдения винфракрасном диапазоне, проведенные космическим аппаратом Spitzer, показали, что звезда K2-33 окружена тонким остаточным диском изпыли иобломков, что свидетельствует озавершении стадии формирования планет икосвенно указывает нато, что K2-33b уже тоже полностью сформирована.
+1	Наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+2	винфракрасном	винфракрасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	космическим	космической	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+8	Spitzer	Spitzer	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+14	K2	K2	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	33	33	NUM	_	_	14	nummod	_	_
+17	окружена	окруживать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	_
+18	тонким	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	остаточным	остаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	диском	диск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+21	изпыли	изпыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	иобломков	иобломок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	PRON	_	Case=Nom	25	nsubj	_	_
+25	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+26	озавершении	озавершение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+27	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+30	икосвенно	икосвенно	ADV	_	Degree=Pos	31	advmod	_	_
+31	указывает	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+32	нато	нато	ADV	_	Degree=Pos	31	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	K2	K2	NUM	_	_	37	nummod	_	SpaceAfter=No
+36	-	-	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	33b	33b	PROPN	_	Foreign=Yes	41	nsubj:pass	_	_
+38	уже	уже	ADV	_	Degree=Pos	37	advmod	_	_
+39	тоже	тоже	PART	_	_	41	advmod	_	_
+40	полностью	полностью	ADV	_	Degree=Pos	41	advmod	_	_
+41	сформирована	формировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 5914
+# text = Экзопланета находится довольно близко ксвоей родительской звезде-- примерно в10раз ближе, чем Меркурий кСолнцу-- исовершает полный оборот вокруг нее запять дней.
+1	Экзопланета	Экзопланета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	довольно	довольно	ADV	_	Degree=Pos	4	advmod	_	_
+4	близко	близко	ADV	_	Degree=Pos	6	advmod	_	_
+5	ксвоей	ксвий	DET	_	Case=Ins|Gender=Fem|Number=Sing	6	amod	_	_
+6	родительской	родительска	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+7	звезде--	звезде--	PUNCT	_	_	6	punct	_	_
+8	примерно	примерно	ADV	_	Degree=Pos	6	advmod	_	_
+9	в10раз	в10раз	SCONJ	_	_	10	cc	_	_
+10	ближе	близкий	ADJ	_	Degree=Cmp	2	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	13	cc	_	_
+13	Меркурий	Меркурий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	advmod	_	_
+14	кСолнцу-	кСолнцу-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	_
+16	исовершает	исовершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	оборот	оборот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	вокруг	вокруг	ADP	_	_	20	case	_	_
+20	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	18	nmod	_	_
+21	запять	запинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+22	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5915
+# text = Ранее ученые выдвигали теории, что для того, чтобы звезда могла притянуть планету так близко ксебе, необходимы, как минимум, сотни миллионов лет.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	выдвигали	выдвигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	теории	теория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	PRON	_	Case=Nom	4	nsubj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+11	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	притянуть	притянуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	планету	планета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	так	так	ADV	_	Degree=Pos	16	advmod	_	_
+16	близко	близко	ADV	_	Degree=Pos	17	advmod	_	_
+17	ксебе	ксы	PRON	_	Case=Dat|Number=Sing|Person=2	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	как	как	SCONJ	_	_	22	cc	_	_
+22	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	сотни	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+25	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5916
+# text = Однако K2-33b довольно молода (весь срок ее формирования занял несколько миллиардов лет) и, если она оказалась так близко кзвезде из-за планетарной миграции, тоэта миграция должна была происходить довольно быстро.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	K2	K2	NUM	_	_	3	nummod	_	SpaceAfter=No
+3	-33b	-33b	NOUN	_	_	5	nsubj	_	_
+4	довольно	довольно	ADV	_	Degree=Pos	5	advmod	_	_
+5	молода	молодой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+10	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	занял	занимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	13	nummod:gov	_	_
+13	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	и	и	CCONJ	_	_	30	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	если	если	SCONJ	_	_	30	mark	_	_
+19	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+20	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	30	advcl	_	_
+21	так	так	ADV	_	Degree=Pos	22	advmod	_	_
+22	близко	близко	ADV	_	Degree=Pos	20	advmod	_	_
+23	кзвезде	кзвезде	ADV	_	Degree=Pos	22	advmod	_	_
+24	из-за	из-за	ADP	_	_	26	case	_	_
+25	планетарной	планетарной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	миграции	миграция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	тоэта	тоэтот	DET	_	Case=Nom|Gender=Fem|Number=Sing	29	amod	_	_
+29	миграция	миграция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+30	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	11	conj	_	_
+31	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	_
+32	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	nsubj	_	_
+33	довольно	довольно	ADV	_	Degree=Pos	34	advmod	_	_
+34	быстро	быстро	ADV	_	Degree=Pos	32	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# newpar
+# sent_id = 5917

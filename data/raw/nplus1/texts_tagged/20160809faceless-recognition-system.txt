@@ -1,0 +1,370 @@
+# text = # newpar
+# sent_id = 813
+# text = Ученые изинститута Макса Планка создали нейросеть, которая может распознавать размытые идаже закрашенные лица.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	изинститута	изинститут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	Макса	макс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Планка	планк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+11	размытые	размывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+12	идаже	идаже	PART	_	_	14	advmod	_	_
+13	закрашенные	закрашенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	лица	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 814
+# text = Обэтом рассказывает портал The Next Web, статья ученых опубликована насервере препринтов ArXiv.org.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	The	the	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Next	Next	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Web	веб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+11	насервере	насервера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+12	препринтов	препринт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	ArXiv.org	ArXiv.org	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 815
+# text = Для создания системы распознавания лиц Faceless Person Recognition System (FPR) исследователи использовали сиамскую нейронную сеть.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+6	Faceless	Faceless	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Person	Person	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Recognition	Recognition	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	System	system	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	FPR	Fpr	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	сиамскую	сиамский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	нейронную	нейронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 816
+# text = Ееархитектура подразумевает, что нейросеть содержит две или больше подсети, имеющих идентичную друг сдругом конфигурацию, параметры ивеса.
+1	Ееархитектура	Ееархитектура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	две	два	NUM	_	Case=Nom|Gender=Fem	8	nummod:gov	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	больше	больше	ADV	_	Degree=Cmp	10	advmod	_	_
+10	подсети	подсети	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+13	идентичную	идентичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	fixed	_	_
+15	сдругом	сдруг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+16	конфигурацию	конфигурация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	параметры	параметер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+19	ивеса	ивес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 817
+# text = Для обучения программисты использовали базу данных, содержащую около 13тысяч фотографий примерно 600людей.
+1	Для	для	ADP	_	_	2	case	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	программисты	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	содержащую	содержать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	около	около	ADP	_	_	10	case	_	_
+10	13тысяч	13тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+11	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	примерно	примерно	ADV	_	Degree=Pos	13	advmod	_	_
+13	600людей	600людея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 818
+# text = Накаждого человека приходилось отодной додесяти фотографий, куда входили его изображения сразмытым лицом исметками, указывающими наличность человека (однако внекоторых случаях пометки проставлены небыли).
+1	Накаждого	Накаждой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	приходилось	приходиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	отодной	отодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	додесяти	додесять	NUM	_	Case=Gen	6	nummod	_	_
+6	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	куда	куда	ADV	_	Degree=Pos	9	advmod	_	_
+9	входили	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	сразмытым	сразмытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	лицом	лицо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+14	исметками	исметка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	указывающими	указывать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	наличность	наличность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	однако	однако	ADV	_	Degree=Pos	24	advmod	_	_
+21	внекоторых	внекоторый	DET	_	Case=Loc|Number=Plur	22	amod	_	_
+22	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+23	пометки	пометки	ADV	_	Degree=Pos	24	advmod	_	_
+24	проставлены	проставлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	parataxis	_	_
+25	небыли	небыль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj:pass	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 819
+# text = После обучения исследователи ввели вFPR изображения, накоторых лица людей были либо размыты, либо закрыты черными или белыми квадратами.
+1	После	после	ADP	_	_	2	case	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	ввели	вводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вFPR	вfpr	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+6	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	накоторых	накоторый	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	лица	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+12	либо	либо	CCONJ	_	_	13	cc	_	_
+13	размыты	размытый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	либо	либо	CCONJ	_	_	16	cc	_	_
+16	закрыты	закрывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+17	черными	черный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	белыми	белый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	conj	_	_
+20	квадратами	квадрат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 820
+# text = Вслучае, когда для обучения использовалась только одна фотография человека, точность определения личности пофотографии сразмытым лицом достигала 63,1процентов, если освещение, одежда иобстановка оставались одинаковыми.
+1	Вслучае	вслучае	CCONJ	_	_	18	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	когда	когда	SCONJ	_	_	18	mark	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+6	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	18	advcl	_	_
+7	только	только	PART	_	_	8	advmod	_	_
+8	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	фотография	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+10	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+13	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	личности	личность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	пофотографии	пофотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	сразмытым	сразмытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	лицом	лицо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+18	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	63,1процентов	63,1процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	если	если	SCONJ	_	_	26	mark	_	_
+22	освещение	освещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	одежда	одежда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	иобстановка	иобстановк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	18	advcl	_	_
+27	одинаковыми	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 821
+# text = Если наодного человека приходилось уже 10фотографий, точность возрастала до86,7процентов.
+1	Если	если	SCONJ	_	_	9	mark	_	_
+2	наодного	наодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	приходилось	приходиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	10фотографий	10фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	возрастала	возрастать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	до86,7процентов	до86,7процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 822
+# text = Для фотографий, где лица людей были закрыты черными ибелыми квадратами, максимальная точность достигала 80,9 и79,6 процентов соответственно.
+1	Для	для	ADP	_	_	2	case	_	_
+2	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	где	где	ADV	_	Degree=Pos	8	advmod	_	_
+5	лица	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	закрыты	закрывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+9	черными	черной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	ибелыми	ибелый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	квадратами	квадрат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	80,9	80,9	NUM	_	_	18	nummod	_	_
+17	и79,6	и79,6	NUM	_	_	18	nummod	_	_
+18	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	соответственно	соответственно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 823
+# text = Однако когда условия, вкоторых был запечатлен человек, менялись, точность распознавания значительно падала.
+1	Однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+2	когда	когда	SCONJ	_	_	15	mark	_	_
+3	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вкоторых	вкоторый	PRON	_	Case=Acc	7	obj	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	запечатлен	запечатлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	менялись	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	значительно	значительно	ADV	_	Degree=Pos	15	advmod	_	_
+15	падала	падать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 824
+# text = Нейросеть могла угадать личность человека, если его лицо было размыто, только в28,8 процентах случаев, если наместе лица был черный квадрат-- в14,7 процентах случаев, иесли квадрат был белым-- в13,7 процентах случаев.
+1	Нейросеть	Нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	угадать	угадывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	личность	личность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	если	если	SCONJ	_	_	0	mark	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	лицо	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	размыто	размывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	только	только	PART	_	_	15	advmod	_	_
+14	в28,8	в28,8	NUM	_	_	15	nummod	_	_
+15	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+16	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	если	если	SCONJ	_	_	11	mark	_	_
+19	наместе	наместе	ADV	_	Degree=Pos	23	advmod	_	_
+20	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+22	черный	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	квадрат	квадрат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	23	punct	_	_
+26	в14,7	в14,7	NUM	_	_	27	nummod	_	_
+27	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	advcl	_	_
+28	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	иесли	иесли	SCONJ	_	_	27	mark	_	_
+31	квадрат	квадрат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	cop	_	_
+33	белым	белый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	-	-	PUNCT	_	_	33	punct	_	_
+36	в13,7	в13,7	NUM	_	_	37	nummod	_	_
+37	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	33	parataxis	_	_
+38	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 825
+# text = Тем неменее, как сообщает The Next Web, даже этот результат втри раза превосходит результат человека.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	mark	_	_
+5	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+6	The	the	PROPN	_	Foreign=Yes	5	nsubj	_	_
+7	Next	Next	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Web	веб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	даже	даже	PART	_	_	11	advmod	_	_
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+13	втри	втри	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+14	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+15	превосходит	превосходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 826
+# text = Исследователи говорят отом, что созданная ими система Faceless Person Recognition System показывает ограниченность приватности винтернете исоциальных сетях, где люди иногда закрашивают или замазывают свои лица, чтобы ихнеузнали нафотоснимках.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	2	mark	_	_
+6	созданная	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	6	obl:agent	_	_
+8	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	Faceless	Faceless	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Person	Person	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Recognition	Recognition	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	System	system	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+14	ограниченность	ограниченность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	приватности	приватность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	винтернете	винтернть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+17	исоциальных	исоциальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	где	где	ADV	_	Degree=Pos	23	advmod	_	_
+21	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+22	иногда	иногда	ADV	_	Degree=Pos	23	advmod	_	_
+23	закрашивают	закрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	замазывают	замазывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	_
+26	свои	свой	DET	_	Case=Acc|Number=Plur	27	amod	_	_
+27	лица	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+30	ихнеузнали	ихнеузнать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+31	нафотоснимках	нафотоснимка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 827
+# text = Пословам авторов работы, даже нескольких фотографий с метками (например, в Facebook) достаточно для того, чтобы системы распознавания лиц могли идентифицировать личность человека.Кристина Уласович
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	2	nmod	_	_
+2	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	нескольких	несколько	NUM	_	Case=Gen	7	nummod	_	_
+7	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	conj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	метками	метка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	например	например	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Facebook	Facebook	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	достаточно	достаточно	ADV	_	Degree=Pos	18	advmod	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	_
+21	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+22	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	лиц	лицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	_
+24	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+25	идентифицировать	идентифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	личность	личность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+27	человека.	человека.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+
+# newpar
+# sent_id = 828

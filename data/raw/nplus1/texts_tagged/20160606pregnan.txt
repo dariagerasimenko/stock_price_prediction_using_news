@@ -1,0 +1,225 @@
+# text = # newpar
+# sent_id = 3402
+# text = На железнодорожной ветке Пусан-Кимхэ в Южной Корее прошли испытания системы, призванной показать сидящим пассажирам, что рядом с ними стоит беременная женщина.
+1	На	на	ADP	_	_	3	case	_	_
+2	железнодорожной	железнодорожный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	ветке	ветка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+4	Пусан-Кимхэ	Пусан-Кимхэ	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Корее	корея	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+8	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	призванной	призывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	показать	показать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	сидящим	сидять	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	пассажирам	пассажир	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	PRON	_	Case=Nom	21	mark	_	_
+18	рядом	рядом	ADV	_	Degree=Pos	21	advmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	21	obl	_	_
+21	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	беременная	беременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3403
+# text = КаксообщаетBBC News, в испытаниях приняли участие 500 женщин.
+1	КаксообщаетBBC	Каксообщаетbbc	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+2	News	news	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+6	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	500	500	NUM	_	_	9	nummod	_	_
+9	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3404
+# text = Испытания проводились на протяжении пяти дней в Пусан.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj:pass	_	_
+2	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	пяти	пять	NUM	_	Case=Gen	6	nummod	_	_
+6	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Пусан	Пусан	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3405
+# text = Результаты эксперимента пока не обнародованы.Новая система представляет собой Bluetooth-метку, которую беременные женщины получали бесплатно.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	пока	пока	ADV	_	Degree=Pos	8	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	обнародованы.	обнародованы.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	собой	себя	PRON	_	Case=Ins	8	dep	_	_
+10	Bluetooth	bluetooth	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	метку	метка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которую	который	PRON	_	Case=Acc	17	obj	_	_
+15	беременные	беременный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	женщины	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	получали	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+18	бесплатно	бесплатно	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3406
+# text = Кроме того, в поездах на поручнях были установлены розовые световые индикаторы с изображением беременной.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	поездах	поезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поручнях	поручня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	розовые	розовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+11	световые	световой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	индикаторы	индикатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	изображением	изображение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	_
+15	беременной	беременный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3407
+# text = При приближении женщины с меткой к занятым местам индикаторы загорались, оповещая сидящих, что рядом стоит человек, которому надо уступить место.Эксперимент проводился совместно городским советом Пусана и местными компаниями.
+1	При	при	ADP	_	_	2	case	_	_
+2	приближении	приближение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	меткой	метка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	занятым	занятый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	местам	мест	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+9	индикаторы	индикатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	загорались	загораться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	оповещая	оповещать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+13	сидящих	сидеть	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	рядом	рядом	ADV	_	Degree=Pos	17	advmod	_	_
+17	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+18	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которому	который	PRON	_	Case=Dat	21	nmod	_	_
+21	надо	надо	ADV	_	Degree=Pos	18	acl:relcl	_	_
+22	уступить	уступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	nsubj	_	_
+23	место.	местотец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	Эксперимент	Эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+25	проводился	проводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	17	conj	_	_
+26	совместно	совместно	ADV	_	Degree=Pos	27	advmod	_	_
+27	городским	городской	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	советом	совет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl:agent	_	_
+29	Пусана	Пусан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	и	и	CCONJ	_	_	32	cc	_	_
+31	местными	местный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
+32	компаниями	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3408
+# text = По мнению властей, новая система, получившая название Pink Light, упростит беременным поиск места, чтобы сесть и, в то же время, избавит людей от психологического дискомфорта.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	_	_
+3	властей	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	получившая	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+9	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	Pink	Pink	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Light	Light	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	упростит	упроскать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	беременным	беременный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	_
+19	сесть	садиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	27	xcomp	_	_
+20	и	и	CCONJ	_	_	27	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	в	в	ADP	_	_	25	case	_	_
+23	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	25	amod	_	_
+24	же	же	PART	_	_	23	advmod	_	_
+25	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	избавит	избавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	advcl	_	_
+28	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+29	от	от	ADP	_	_	31	case	_	_
+30	психологического	психологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	дискомфорта	дискомфорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3409
+# text = Например, уступающему не придется беспокоится, что он может обидеть женщину своим жестом внимания.Похожий эксперимент в настоящее время проводится в Великобритании в общественном транспорте Лондона.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	уступающему	уступать	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	беспокоится	беспокоиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	обидеть	обижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	женщину	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	14	amod	_	_
+14	жестом	жест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+15	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Похожий	похожий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+19	в	в	ADP	_	_	22	advmod	_	_
+20	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	fixed	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	общественном	общественный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	транспорте	транспорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+28	Лондона	лондон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3410
+# text = Там любая беременная женщина может бесплатно получить значок с надписью "На борту ребенок" (Baby on board).Василий Сычёв
+1	Там	там	ADV	_	Degree=Pos	5	advmod	_	_
+2	любая	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	беременная	беременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	бесплатно	бесплатно	ADV	_	Degree=Pos	7	advmod	_	_
+7	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+8	значок	значок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	надписью	надпись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	На	на	ADP	_	_	13	case	_	_
+13	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+14	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Baby	Baby	PROPN	_	Foreign=Yes	14	appos	_	_
+18	on	on	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	board	board	X	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	_
+
+# newpar
+# sent_id = 3411

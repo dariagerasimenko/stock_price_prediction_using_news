@@ -1,0 +1,287 @@
+# text = # newpar
+# sent_id = 3782
+# text = ВСенат США внесен законопроект, запрещающий властям штатов требовать обязательную маркировку продукции, содержащей генетически модифицированные организмы (ГМО), сообщает AP.
+1	ВСенат	ВСенат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	внесен	внесать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	запрещающий	запрещать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	властям	власть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+8	штатов	штаты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	требовать	требовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	обязательную	обязательной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	маркировку	маркировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	содержащей	содержать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+15	генетически	генетически	ADV	_	Degree=Pos	14	advmod	_	_
+16	модифицированные	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	организмы	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	ГМО	Гмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+23	AP	ap	PROPN	_	Foreign=Yes	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3783
+# text = Автором документа стал глава сенатского комитета посельскому хозяйству, сенатор-республиканец отКанзаса Пэт Робертс (Pat Roberts).
+1	Автором	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	сенатского	сенатский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	комитета	комитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	посельскому	посельский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	хозяйству	хозяйство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сенатор-республиканец	сенатор-республиканец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+11	отКанзаса	отКанзас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Пэт	Пэт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Робертс	робертс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Pat	Pat	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Roberts	Roberts	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3784
+# text = Подобный шаг предпринят вответ нановый закон штата Вермонт, требующий обязательную маркировку продуктов сГМО.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	шаг	шаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	предпринят	предпринимать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вответ	вотвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+5	нановый	нановый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Вермонт	Вермонт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	требующий	требовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+11	обязательную	обязательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	маркировку	маркировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	сГМО	сгмо	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3785
+# text = Этот закон должен вступить всилу 1июля 2016года.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	вступить	вступивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	всилу	всила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	1июля	1июль	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	2016года	2016годь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3786
+# text = Если законопроект Робертса будет принят, онотменит решение вермонтских законодателей ивведет добровольную маркировку продуктов.
+1	Если	если	SCONJ	_	_	7	mark	_	_
+2	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Робертса	Робертс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	принят	принимать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	онотменит	онотменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	вермонтских	вермонтский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	законодателей	законодатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	ивведет	ивводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+12	добровольную	добровольной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	маркировку	маркировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3787
+# text = Нижняя палата американского парламента проголосовала зазапрет обязательной маркировки в2015 году.
+1	Нижняя	нижний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	палата	палата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	парламента	парламент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	проголосовала	голосовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	зазапрет	зазапрет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	обязательной	обязательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	маркировки	маркировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	в2015	в2015	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3788
+# text = Пословам сенаторов, они рассчитывают достичь компромисса в этом вопросе довступления всилу вермонтского закона.
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	5	nmod	_	_
+2	сенаторов	сенатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	достичь	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	компромисса	компромисс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	10	amod	_	_
+10	вопросе	вопрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	довступления	довступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	всилу	всилу	ADV	_	Degree=Pos	13	advmod	_	_
+13	вермонтского	вермонтский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	закона	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3789
+# text = "Унас нет времени.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Унас	Умы	PRON	_	Case=Acc|Number=Plur|Person=1	3	obj	_	_
+3	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3790
+# text = Пришло время действовать",-- заявил Робертс.
+1	Пришло	приходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+3	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,--	,--	PUNCT	_	_	3	punct	_	_
+6	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+7	Робертс	робертс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3791
+# text = Инициативу Сената поддержали представители пищевой индустрии, вчастности, председатель Ассоциации производителей продуктов (GMA) Памела Бэйли (Pamela Bailey).
+1	Инициативу	инициатива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	Сената	Сенат	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	поддержали	поддерживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+4	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	пищевой	пищевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	индустрии	индустрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вчастности	вчастность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	председатель	председатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+11	Ассоциации	ассоциация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	parataxis	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	GMA	Gma	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	Памела	Памевать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	Бэйли	Бэйли	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Pamela	Pamela	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+21	Bailey	Bailey	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3792
+# text = Поихмнению, запрет обязательной маркировки обеспечит всеобщий доступ к"доступному ибесперебойному обеспечению пищей".
+1	Поихмнению	поихмненить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	запрет	запрет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	обязательной	обязательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	маркировки	маркировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	обеспечит	обеспечивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	всеобщий	всеобщий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	к	к	ADP	_	_	13	case	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	доступному	доступный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	ибесперебойному	ибесперебойный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	обеспечению	обеспечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+14	пищей	пищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3793
+# text = Противники законопроекта, такие как глава национальной кампании вподдержку маркировки Just Label ItСкотт Фэйбер (Scott Faber), утверждают, что онлишает потребителей права знать, что они едят.
+1	Противники	противник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+2	законопроекта	законопроект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	1	amod	_	_
+5	как	как	SCONJ	_	_	6	cc	_	_
+6	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+7	национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	кампании	кампания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	вподдержку	вподдержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	appos	_	_
+10	маркировки	маркировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Just	Just	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Label	Label	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	ItСкотт	ItСкотт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+14	Фэйбер	Фэйбер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Scott	Scott	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+17	Faber	Faber	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	онлишает	онлишать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+24	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+25	права	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	30	nsubj	_	_
+30	едят	есть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3794
+# text = Поданным американской пищевой промышленности, от75до80 процентов производимых встране продуктов содержат ГМО. Основные сельскохозяйственные культуры смодифицированными геномами-- кукуруза исоя, а основная цель модификаций-- сделать растения устойчивыми кгербицидам.
+1	Поданным	поданный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+2	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	пищевой	пищевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	от75до80	от75до80	NUM	_	_	7	nummod	_	_
+7	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	_
+8	производимых	производить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	встране	встранин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	_
+10	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	ГМО.	Гмотец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+13	Основные	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+14	сельскохозяйственные	сельскохозяйственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	культуры	культура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+16	смодифицированными	модифицировать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+17	геномами	генома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	кукуруза	кукуруза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+21	исоя	исой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	_
+26	модификаций	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	26	punct	_	_
+29	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+30	растения	растение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	29	obj	_	_
+31	устойчивыми	устойчивый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
+32	кгербицидам	кгербицид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3795
+# text = Управление попродуктам илекарствам США (FDA) считает содержащие ГМО продукты безопасными для употребления.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FDA	Fda	PROPN	_	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	ГМО	Гмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+12	безопасными	безопасной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3796
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 3797

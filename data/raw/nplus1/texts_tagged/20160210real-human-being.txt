@@ -1,0 +1,81 @@
+# text = # newpar
+# sent_id = 1862
+# text = Американское Национальное управление безопасностью движения на трассах (NHTSA) юридически приравняло систему управления беспилотным автомобилем к живому водителю.
+1	Американское	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	Национальное	национальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+4	безопасностью	безопасность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+5	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	трассах	трасса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	NHTSA	Nhtsa	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	юридически	юридически	ADV	_	Degree=Pos	12	advmod	_	_
+12	приравняло	приравнимать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+17	к	к	ADP	_	_	19	case	_	_
+18	живому	живой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	водителю	водитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1863
+# text = Об этом министерство сообщило в письме компании Google 4 февраля, сообщает Reuters. "NHTSA в контексте описанной Google концепции беспилотного автомобиля будет использовать слово "водитель" для обозначения системы управления, а не в качестве указания на человека, находящегося машине", -- говорится в письме агентства.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	министерство	министерство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	сообщило	сообщать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	письме	письмо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+9	4	4	NUM	_	_	8	nummod	_	_
+10	февраля	февраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	Reuters	reuters	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+15	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	NHTSA	Nhtsa	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	контексте	контекст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+19	описанной	описать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	Google	Google	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+21	концепции	концепция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+25	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+26	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	обозначения	обозначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+32	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	а	а	CCONJ	_	_	39	cc	_	_
+36	не	не	PART	_	_	39	advmod	_	_
+37	в	в	ADP	_	_	39	case	_	_
+38	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	fixed	_	_
+39	указания	указание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
+40	на	на	ADP	_	_	41	case	_	_
+41	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	находящегося	находиться	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	39	amod	_	_
+44	машине	машина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	44	punct	_	_
+47	--	--	PUNCT	_	_	44	punct	_	_
+48	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+49	в	в	ADP	_	_	50	case	_	_
+50	письме	письмо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	48	obl	_	_
+51	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	50	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# newpar
+# sent_id = 1864

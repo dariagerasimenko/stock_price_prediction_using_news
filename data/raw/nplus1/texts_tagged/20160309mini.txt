@@ -1,0 +1,294 @@
+# text = # newpar
+# sent_id = 133
+# text = Северокорейские ученые сумели создать уменьшенные версии термоядерных боезарядов.
+1	Северокорейские	северокорейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	сумели	уметь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	уменьшенные	уменьшенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	версии	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	термоядерных	термоядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	боезарядов	боезаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 134
+# text = Об этом, каксообщаетAFP, заявилруководитель Северной Кореи Ким Чен Ын.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каксообщаетAFP	каксообщаетafp	NOUN	_	_	2	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	заявилруководитель	заявилруководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	Северной	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Кореи	корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	Ким	ким	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+10	Чен	чен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	Ын	Ын	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 135
+# text = По его словам, боезаряды стали достаточно компактными, чтобы их можно было разместить на баллистических ракетах, также разрабатываемых в КНДР.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	боезаряды	боезаряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	достаточно	достаточно	ADV	_	Degree=Pos	8	advmod	_	_
+8	компактными	компактный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	_
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obj	_	_
+12	можно	можно	ADV	_	Degree=Pos	6	advcl	_	_
+13	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+14	разместить	размещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	баллистических	баллистический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	ракетах	ракеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	также	также	ADV	_	Degree=Pos	20	advmod	_	_
+20	разрабатываемых	разрабатывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	КНДР	Кндр	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 136
+# text = Корейский руководитель также объявил, что КНДР, в случае угрозы нарушения ее суверенитета, будет наносить превентивные удары.В начале января текущего года Центральное телеграфное агентство Кореисообщилооб успешном испытании термоядерной бомбы, проведенном КНДР.
+1	Корейский	Корейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	КНДР	Кндр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	_
+11	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
+14	суверенитета	суверенитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+17	наносить	наносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	_
+18	превентивные	превентивный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	удары	удар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	В	в	ADP	_	_	22	case	_	_
+22	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+23	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	Центральное	центральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	телеграфное	телеграфный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	parataxis	_	_
+29	Кореисообщилооб	Кореисообщилоо	ADP	_	_	31	case	_	_
+30	успешном	успешный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	испытании	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_
+32	термоядерной	термоядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	проведенном	проводить	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+36	КНДР	кндр	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 137
+# text = Испытания признаны успешными.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj:pass	_	_
+2	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 138
+# text = Во время, указанное в сообщении ЦТАК, Геологическая служба США зафиксировала толчок магнитудой 5,1, эпицентр которого был расположен в 19 километрах к востоку-северо-востоку от города Сонжибэгам уезда Пэгам провинции Янгандо.Термоядерная, или водородная, бомба представляет собой взрывное устройство, теоретическая мощность которого ограничена лишь количеством используемого делящегося материала.
+1	Во	во	ADP	_	_	2	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	указанное	указывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	ЦТАК	Цтак_и	CCONJ	_	_	12	cc	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Геологическая	Геологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	_
+12	зафиксировала	фиксировать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	толчок	толчок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	магнитудой	магнитуда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+15	5,1	5,1	NUM	_	_	20	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	эпицентр	эпицентр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+18	которого	который	PRON	_	Case=Gen	17	nmod	_	_
+19	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+20	расположен	расположенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	conj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	19	19	NUM	_	_	23	nummod	_	_
+23	километрах	километр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	nmod	_	_
+24	к	к	ADP	_	_	26	case	_	_
+25	востоку-	востоку-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	северо-востоку	северо-востока	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	_
+27	от	от	ADP	_	_	28	case	_	_
+28	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+29	Сонжибэгам	Сонжибэг	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	28	obl:agent	_	_
+30	уезда	уезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+31	Пэгам	Пэги	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	30	nmod	_	_
+32	провинции	провинция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	Янгандо	Янгандо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	Термоядерная	Термоядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	или	или	CCONJ	_	_	38	cc	_	_
+38	водородная	водородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	бомба	бомба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	_
+41	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+42	собой	себя	PRON	_	Case=Ins	41	dep	_	_
+43	взрывное	взрывный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	теоретическая	теоретический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	49	nsubj:pass	_	_
+48	которого	который	PRON	_	Case=Gen	47	nmod	_	_
+49	ограничена	ограничивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	41	conj	_	_
+50	лишь	лишь	PART	_	_	51	advmod	_	_
+51	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	49	obl	_	_
+52	используемого	использовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	54	amod	_	_
+53	делящегося	делиться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	54	amod	_	_
+54	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 139
+# text = Упрощенно бомба представляет собой две небольшие ядерные бомбы: подрыв ядра первой стадии инициирует ядро второй стадии.
+1	Упрощенно	упрощенне	ADV	_	Degree=Pos	3	advmod	_	_
+2	бомба	бомба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собой	себя	PRON	_	Case=Ins	3	dep	_	_
+5	две	два	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+6	небольшие	небольшой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	ядерные	ядерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	бомбы	бомб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	подрыв	подрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	инициирует	иницииревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+15	ядро	ядро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	obj	_	_
+16	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 140
+# text = Такая схема называется конструкцией Теллера-Улама.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	схема	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	конструкцией	конструкция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	Теллера-Улама	Теллера-Улам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 141
+# text = Технологии производства термоядерных зарядов позволяют создавать относительно компактные и мощные боевые части.Конструкция термоядерной бомбы сложна как для расчета, так и для производства, и требует развития нескольких технологий, включая производство дейтерида лития-6 (термоядерное топливо в оружии), стабилизирующих сфер из свинца и обедненного урана-238, а также специального проводящего излучение пластика.
+1	Технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	термоядерных	термоядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	зарядов	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	относительно	относительно	ADP	_	_	12	case	_	_
+8	компактные	компактный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	мощные	мощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	conj	_	_
+11	боевые	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	части.	части.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	Конструкция	Конструкция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+14	термоядерной	термоядерной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	сложна	сложный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	acl:relcl	_	_
+17	как	как	SCONJ	_	_	19	cc	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	расчета	расчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	так	так	ADV	_	Degree=Pos	24	cc	_	_
+22	и	и	PART	_	_	24	advmod	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+29	нескольких	несколько	NUM	_	Case=Gen	30	nummod	_	_
+30	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	включая	включать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+33	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+34	дейтерида	дейтерид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	лития	литие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
+36	-	-	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	6	6	NUM	_	_	40	nummod	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	термоядерное	термоядерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	топливо	топливо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	оружии	оружие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	nmod	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	42	punct	_	_
+45	стабилизирующих	стабилизируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	46	amod	_	_
+46	сфер	сфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	42	conj	_	_
+47	из	из	ADP	_	_	48	case	_	_
+48	свинца	свинце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+49	и	и	CCONJ	_	_	51	cc	_	_
+50	обедненного	обеднять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	51	amod	_	_
+51	урана	уран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	conj	_	SpaceAfter=No
+52	-	-	PUNCT	_	_	51	punct	_	SpaceAfter=No
+53	238	238	NUM	_	_	59	nummod	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	а	а	CCONJ	_	_	57	cc	_	_
+56	также	также	ADV	_	Degree=Pos	57	advmod	_	_
+57	специального	специальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	59	amod	_	_
+58	проводящего	проводить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	59	amod	_	_
+59	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	51	nsubj	_	_
+60	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	59	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	_
+
+# sent_id = 142
+# text = До сих пор Северная Корея провела четыре ядерных испытания, первое из которых состоялось в мае 2009 года.
+1	До	до	ADP	_	_	6	advmod	_	_
+2	сих	сей	DET	_	Case=Gen|Number=Plur	1	fixed	_	_
+3	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	fixed	_	_
+4	Северная	северный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Корея	корея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	четыре	четыре	NUM	_	Case=Nom	9	nummod:gov	_	_
+8	ядерных	ядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	11	nmod	_	_
+14	состоялось	состояться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	2009	2009	NUM	_	_	18	nummod	_	_
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 143
+# text = Кроме того, КНДР проводит и испытания баллистических ракет различной дальности.Василий Сычёв
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	КНДР	Кндр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	и	и	PART	_	_	7	advmod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	obj	_	_
+8	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	различной	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дальности	дальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+14	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_
+
+# newpar
+# sent_id = 144

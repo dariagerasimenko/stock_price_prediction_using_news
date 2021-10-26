@@ -1,0 +1,373 @@
+# text = # newpar
+# sent_id = 6079
+# text = Ученые из Цюрихского университета с помощью МРТ определили, что такие проявления альтруизма, как эмпатия и взаимность, могут быть связаны с различной активностью мозга.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Цюрихского	Цюрихский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	МРТ	мрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+8	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	такие	такой	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	проявления	проявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	_
+13	альтруизма	альтруизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	SCONJ	_	_	16	cc	_	_
+16	эмпатия	эмпатия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	advmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	взаимность	взаимность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	aux:pass	_	_
+22	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	различной	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+26	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 6080
+# text = Результаты исследования опубликованы в журнале Science.Нейробиологи провели эксперимент, который состоял из двух этапов.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Science.	science.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+7	Нейробиологи	нейробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	состоял	состоять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	двух	два	NUM	_	Case=Gen	15	nummod	_	_
+15	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 6081
+# text = На первом этапе участники теста взаимодействовали с двумя партнерами, получившими инструкцию от исследователей.
+1	На	на	ADP	_	_	3	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	теста	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	взаимодействовали	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	двумя	два	NUM	_	Case=Ins	9	nummod	_	_
+9	партнерами	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	получившими	получать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+12	инструкцию	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 6082
+# text = В одном случае испытуемый мог наблюдать, как один из партнеров -- названный в эксперименте "эмпатическим" -- получал легкий болевой шок.
+1	В	в	ADP	_	_	3	case	_	_
+2	одном	один	NUM	_	Case=Loc|Gender=Masc	3	nummod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	испытуемый	испытуемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	9	cc	_	_
+9	один	один	NUM	_	Case=Nom|Gender=Masc	6	advmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	партнеров	партнер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	названный	называть	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	эмпатическим	эмпатический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	--	--	PUNCT	_	_	17	punct	_	_
+20	получал	получать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	легкий	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	болевой	болевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	шок	шок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 6083
+# text = В другом сценарии первый партнер являлся"реципрокным" и жертвовал некоторое количество денег, чтобы спасти самого участника от болевого шока.
+1	В	в	ADP	_	_	3	case	_	_
+2	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	сценарии	сценарий	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	партнер	партнер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	являлся	являться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	реципрокным	реципрокный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	жертвовал	жертвовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+17	спасти	спасать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+18	самого	сам	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	участника	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	от	от	ADP	_	_	22	case	_	_
+21	болевого	болевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	шока	шок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 6084
+# text = В каждой из двух групп участники теста также взаимодействовали с контрольным вторым партнером, который оставался бездейственным.На втором этапе эксперимента испытуемым предложили пожертвовать своим партнерам некоторое количество монет.
+1	В	в	ADP	_	_	2	case	_	_
+2	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	двух	два	NUM	_	Case=Gen	5	nummod	_	_
+5	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+6	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	теста	тест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+9	взаимодействовали	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	с	с	ADP	_	_	13	case	_	_
+11	контрольным	контрольной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	вторым	второй	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	партнером	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	оставался	оставаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+17	бездейственным.	бездейственным.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	На	на	ADP	_	_	20	case	_	_
+19	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+21	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	испытуемым	испытовать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	23	xcomp	_	_
+23	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+24	пожертвовать	жертвовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	своим	свой	DET	_	Case=Dat|Number=Plur	26	amod	_	_
+26	партнерам	партнер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	24	obl	_	_
+27	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	_
+28	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+29	монет	монета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 6085
+# text = Участник мог отказаться и проявить, тем самым, эгоистичное поведение.
+1	Участник	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отказаться	отказаваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	проявить	проявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+8	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	эгоистичное	эгоистичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 6086
+# text = Во время выполнения задачи нейробиологи проводили функциональную МРТ испытуемого, чтобы обнаружить изменения тока крови в определенных участках головного мозга.Как и ожидали ученые, участники эксперимента жертвовали больше денег "эмпатическим" и "реципрокным" партнерам, чем контрольным.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	нейробиологи	нейробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	функциональную	функциональной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	МРТ	мрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+9	испытуемого	испытовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	_
+12	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+13	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+14	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	определенных	определенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+19	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Как	как	ADV	_	Degree=Pos	24	cc	_	_
+23	и	и	PART	_	_	24	advmod	_	_
+24	ожидали	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+25	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+28	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	жертвовали	жертвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+30	больше	много	NUM	_	_	31	nummod:gov	_	_
+31	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	obl	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	эмпатическим	эмпатический	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	33	punct	_	_
+35	и	и	CCONJ	_	_	37	cc	_	_
+36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	реципрокным	реципрокный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	33	conj	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	партнерам	партнер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	чем	чем	SCONJ	_	_	42	cc	_	_
+42	контрольным	контрольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	advmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 6087
+# text = Данные фМРТ показали, что при альтруистическом поведении между собой взаимодействовали три области мозга: передняя поясная кора (cortex cingularis anterior), левая часть передней островковой зоны (ventral striatum) и нижняя часть полосатого тела (anterior cingulate cortex), что подтверждало предыдущиеисследования.Чтобы выявить, в каком порядке происходит взаимодействие между участками мозга, ученые использовали метод динамического моделирования причинности.
+1	Данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	nsubj	_	_
+2	фМРТ	фмрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	при	при	ADP	_	_	8	case	_	_
+7	альтруистическом	альтруистический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	поведении	поведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	собой	себя	PRON	_	Case=Ins	11	obl	_	_
+11	взаимодействовали	взаимодействовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	46	advcl	_	_
+12	три	три	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	_
+14	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	передняя	передний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	поясная	поясный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	кора	кора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	cortex	cortex	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+21	cingularis	cingularis	X	_	Foreign=Yes	20	flat:foreign	_	_
+22	anterior	anterior	X	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	левая	левый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+27	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	островковой	островковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	ventral	ventral	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+32	striatum	striatum	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	нижняя	нижний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	_
+37	полосатого	полосатый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	anterior	anterior	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+41	cingulate	cingulate	X	_	Foreign=Yes	40	flat:foreign	_	_
+42	cortex	cortex	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	42	punct	_	_
+45	что	что	PRON	_	Case=Nom	46	nsubj	_	_
+46	подтверждало	подтверждать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	49	conj	_	_
+47	предыдущиеисследования	предыдущиеисследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	Чтобы	чтобы	SCONJ	_	Mood=Cnd	50	mark	_	_
+50	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	55	xcomp	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	в	в	ADP	_	_	54	case	_	_
+53	каком	какой	DET	_	Case=Loc|Gender=Masc|Number=Sing	54	amod	_	_
+54	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+55	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+56	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	55	nsubj	_	_
+57	между	между	ADP	_	_	58	case	_	_
+58	участками	участок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	56	nmod	_	_
+59	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	62	nsubj	_	_
+62	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+63	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	62	obj	_	_
+64	динамического	динамический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	65	amod	_	_
+65	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	63	nmod	_	_
+66	причинности	причинность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	65	nmod	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	66	punct	_	_
+
+# sent_id = 6088
+# text = Результаты показали, что между различными вариантами эксперимента существуют различия.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	между	между	ADP	_	_	7	case	_	_
+6	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	вариантами	вариант	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+8	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	различия	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 6089
+# text = Например, в "эмпатическом" варианте активность передней поясной коры влияла на активность передней островковой зоны, а в "реципрокном" варианте островковая зона оказывала сильное обратное влияние на поясную кору.
+1	Например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	7	case	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	эмпатическом	эмпатический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+8	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	поясной	поясный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+12	влияла	влиять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	островковой	островковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	27	cc	_	_
+20	в	в	ADP	_	_	24	case	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	реципрокном	реципрокный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+25	островковая	островковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	зона	зона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+27	оказывала	оказывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+28	сильное	сильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+29	обратное	обратной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	поясную	поясный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	кору	кора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 6090
+# text = Эмпатией называется сопереживание эмоциональному состоянию другого человека.
+1	Эмпатией	Эмпатия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+2	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	сопереживание	сопереживание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	эмоциональному	эмоциональный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	состоянию	состояние	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 6091
+# text = Ранее ученые обнаружили, что передняя поясная кора активируется различным образом у людей с высоким и низким уровнем эмпатии.Александр Еникеев
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	передняя	передний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	поясная	поясный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	кора	кора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	активируется	активирууться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+10	различным	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+14	с	с	ADP	_	_	18	case	_	_
+15	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
+18	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+19	эмпатии.	эмпатии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+20	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+21	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 6092

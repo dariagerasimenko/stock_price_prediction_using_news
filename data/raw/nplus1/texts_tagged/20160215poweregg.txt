@@ -1,0 +1,130 @@
+# text = # newpar
+# sent_id = 2617
+# text = Китайская компания PowerVision представила складной квадрокоптер, корпус которого выполнен в форме яйца.
+1	Китайская	китайский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	PowerVision	PowerVision	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	складной	складной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	которого	который	PRON	_	Case=Gen	8	nmod	_	_
+10	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	яйца	яец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2618
+# text = Подробнее о беспилотнике под названием PowerEgg можно прочитать на сайте компании.Дрон оснащен подвесом с трехосевой стабилизацией, на котором установлена камера, способная снимать видео разрешением 4К.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	7	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	беспилотнике	беспилотник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	под	под	ADP	_	_	5	case	_	_
+5	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+6	PowerEgg	PowerEgg	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	компании.	компании.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	Дрон	Дрон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+14	подвесом	подвес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	трехосевой	трехосевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	стабилизацией	стабилизация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	котором	который	PRON	_	Case=Loc	21	obl	_	_
+21	установлена	установлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+22	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	способная	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+25	снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	dep	_	_
+26	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+28	4К	4к	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2619
+# text = Также на квадрокоптер установлен комплект датчиков для предотвращения столкновений с препятствиями.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	комплект	комплект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	предотвращения	предотвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	препятствиями	препятствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2620
+# text = В рабочем положении из корпуса беспилотника выдвигаются плечи с роторами и опорные стойки.В рекламном ролике неясно, каким именно образом камера прячется внутрь корпуса беспилотника.
+1	В	в	ADP	_	_	3	case	_	_
+2	рабочем	рабочий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	выдвигаются	выдвигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	плечи	плечь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	роторами	ротор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	опорные	опорной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	стойки	стойка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	17	case	_	_
+16	рекламном	рекламный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	ролике	ролик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+18	неясно	неясно	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	22	amod	_	_
+21	именно	именно	PART	_	_	20	advmod	_	_
+22	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+23	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	прячется	прятаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+25	внутрь	внутрь	ADP	_	_	26	case	_	_
+26	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+27	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2621
+# text = Время полета и способ управления квадрокоптером также не называются.
+1	Время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	квадрокоптером	квадрокоптер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	_
+7	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	называются	называоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2622
+# text = По словам представителей компании, благодаря программному обеспечению и датчикам управлять дроном сможет даже неопытный оператор.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	благодаря	благодаря	ADP	_	_	8	case	_	_
+7	программному	программный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	обеспечению	обеспечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	датчикам	датчик	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	conj	_	_
+11	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+12	дроном	дрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	даже	даже	PART	_	_	15	advmod	_	_
+15	неопытный	неопытный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	оператор.	оператор.	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+
+# newpar
+# sent_id = 2623

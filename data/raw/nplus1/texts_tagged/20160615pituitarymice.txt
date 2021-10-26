@@ -1,0 +1,442 @@
+# text = # newpar
+# sent_id = 4942
+# text = Ученые вырастили из человеческих стволовых клеток гипофизарную ткань, способную секретировать гормоны.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	вырастили	выращивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	6	case	_	_
+4	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+7	гипофизарную	гипофизарный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	способную	способный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+11	секретировать	секретировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4943
+# text = Пересаженная мышам с недостатком функциональности их собственного гипофиза, она восстановила у них нормальный гормональный обмен.
+1	Пересаженная	Пересажать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	мышам	мышь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	недостатком	недостаток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	функциональности	функциональность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+7	собственного	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+11	восстановила	восстанавливать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	obl	_	_
+14	нормальный	нормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	гормональный	гормональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	обмен	обмен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4944
+# text = Результаты работы публикует журнал Stem Cell Reports.Гипофиз -- ключевой орган эндокринной системы.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	публикует	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Stem	Stem	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Cell	Cell	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Reports	reports	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Гипофиз	Гипофиз	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	ключевой	ключевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	орган	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+13	эндокринной	эндокринный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4945
+# text = Он выделяет гормоны, которые управляют другими железами, регулируют процессы роста, размножения и метаболизма.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	выделяет	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которые	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	управляют	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	железами	железы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	регулируют	регулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	размножения	размножение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	метаболизма	метаболизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4946
+# text = Недостаточность функции гипофиза проявляется многочисленными и тяжелыми нарушениями.
+1	Недостаточность	недостаточность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	проявляется	проявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	многочисленными	многочисленной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	тяжелыми	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+8	нарушениями	нарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4947
+# text = Лечение таких состояний недешево и часто остается лишь паллиативным.
+1	Лечение	лечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	недешево	недешево	ADV	_	Degree=Pos	7	advmod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	часто	часто	ADV	_	Degree=Pos	7	advmod	_	_
+7	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	лишь	лишь	PART	_	_	9	advmod	_	_
+9	паллиативным	паллиативный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4948
+# text = С другой стороны, эффективное решение обещают технологии регенеративной медицины -- выращивание взрослой специализированной ткани из плюрипотентных стволовых клеток.Ранее исследователи, экспериментируя со стволовыми клетками мышей и людей, уже получали отдельные типы секретирующих клеток гипофиза.
+1	С	с	ADP	_	_	3	case	_	_
+2	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	эффективное	эффективный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+7	обещают	обещавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+9	регенеративной	регенеративный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	выращивание	выращивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+13	взрослой	взрослый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	специализированной	специализированный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	из	из	ADP	_	_	19	case	_	_
+17	плюрипотентных	плюрипотентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+18	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Ранее	рано	ADV	_	Degree=Cmp	7	advmod	_	_
+22	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	экспериментируя	экспериментировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+25	со	с	ADP	_	_	27	case	_	_
+26	стволовыми	стволовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	_
+28	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	уже	уже	ADV	_	Degree=Pos	33	advmod	_	_
+33	получали	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+34	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	_
+35	типы	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	33	obj	_	_
+36	секретирующих	секретируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	37	amod	_	_
+37	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+38	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 4949
+# text = Ученые Мемориального онкологического центра имени Слоуна-Кеттеринга в США продемонстрировали новую методику, позволяющую вырастить полноценную ткань передней доли гипофиза с ее разнообразными типами клеток, выделяющих гормон роста, пролактин, тиреотропин, аднерокортикотропный и другие.В отличие от предшественников, Лоренс Стьюдер (Lorenz Studer) с коллегами не пытались выращивать и дифференцировать клетки в рамках трехмерной структуры, имитирующей условия их роста в нормальном органе.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	Мемориального	мемориальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	онкологического	онкологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Слоуна-Кеттеринга	Слоуна-Кеттеринг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	1	nmod	_	_
+9	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	вырастить	выращивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	полноценную	полноценный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	доли	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	с	с	ADP	_	_	23	case	_	_
+21	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+22	разнообразными	разнообразный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	типами	тип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	_
+24	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	выделяющих	выделять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	гормон	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	пролактин	лактить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	тиреотропин	тиреотропин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	аднерокортикотропный	аднерокортикотропный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	другие.	другибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	conj	_	SpaceAfter=No
+37	В	в	ADP	_	_	40	case	_	_
+38	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	fixed	_	_
+39	от	от	ADP	_	_	38	fixed	_	_
+40	предшественников	предшественник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	51	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	Лоренс	Лоренс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	appos	_	_
+43	Стьюдер	Стьюдер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	42	flat:name	_	_
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	Lorenz	Lorenz	PROPN	_	Foreign=Yes	43	flat:foreign	_	_
+46	Studer	Studer	PROPN	_	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
+47	)	)	PUNCT	_	_	46	punct	_	_
+48	с	с	ADP	_	_	49	case	_	_
+49	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	51	obl	_	_
+50	не	не	PART	_	_	51	advmod	_	_
+51	пытались	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	30	conj	_	_
+52	выращивать	выращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	51	xcomp	_	_
+53	и	и	CCONJ	_	_	54	cc	_	_
+54	дифференцировать	дифференцировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	52	conj	_	_
+55	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	54	obj	_	_
+56	в	в	ADP	_	_	57	case	_	_
+57	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	54	obl	_	_
+58	трехмерной	трехмерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	59	amod	_	_
+59	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	имитирующей	имитировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	59	amod	_	_
+62	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	61	obj	_	_
+63	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	64	nmod	_	_
+64	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	_
+65	в	в	ADP	_	_	67	case	_	_
+66	нормальном	нормальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	67	amod	_	_
+67	органе	орган	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	52	obl	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	67	punct	_	_
+
+# sent_id = 4950
+# text = Вместо этого ученые получили из стволовых клеток эпидермальные плакоды.Плакоды -- простые зародышевые структуры, из которых формируются некоторые нейроны, а также хрусталики глаза.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	iobj	_	_
+8	эпидермальные	эпидермальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	плакоды	плакод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Плакоды	Плакода	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	простые	простой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	зародышевые	зародышевый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	которых	который	PRON	_	Case=Gen	19	obl	_	_
+19	формируются	формироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
+20	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	21	amod	_	_
+21	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+25	хрусталики	хрусталик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+26	глаза	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4951
+# text = Они невелики и удобны для манипуляций.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	невелики	небольшой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	удобны	удобный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	манипуляций	манипуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4952
+# text = Обработка их белковыми сигнальными молекулами позволила направить развитие плакод в клетки-предшественницы гипофизарных, а затем и во взрослые дифференцированные клетки.
+1	Обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+3	белковыми	белковой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+4	сигнальными	сигнальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	молекулами	молекула	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+6	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	направить	направать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	плакод	плакода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	клетки	клетка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	предшественницы	предшественница	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	appos	_	_
+14	гипофизарных	гипофизарный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	22	cc	_	_
+17	затем	затем	ADV	_	Degree=Pos	22	advmod	_	_
+18	и	и	PART	_	_	22	advmod	_	_
+19	во	в	ADP	_	_	22	case	_	_
+20	взрослые	взрослый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	дифференцированные	дифференцированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4953
+# text = Регулируя относительное содержание всего двух сигнальных белков -- фактора роста фибробластов FGF8 и костного морфогенетического белка BMP2 -- авторы получали клетки разного типа, выделяющие разные гормоны.Экспериментируя с такими искусственно выращенными тканями в искусственных условиях, ученые показали, что те не только производят нужные гормоны, но и регулируют секрецию в зависимости от тех же внешних сигналов, на которые реагирует гипофиз в живом мозге.
+1	Регулируя	регулиревать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+2	относительное	относительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	7	amod	_	_
+5	двух	два	NUM	_	Case=Gen	7	nummod	_	_
+6	сигнальных	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	фибробластов	фибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	FGF8	Fgf8	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	костного	костный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_
+15	морфогенетического	морфогенетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+17	BMP2	BMP2	NOUN	_	_	11	appos	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	получали	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	разного	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	выделяющие	выделять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+26	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	гормоны.	гормоны.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	Экспериментируя	Экспериментировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	advcl	_	_
+29	с	с	ADP	_	_	33	case	_	_
+30	такими	такой	DET	_	Case=Ins|Number=Plur	33	amod	_	_
+31	искусственно	искусственне	ADV	_	Degree=Pos	32	advmod	_	_
+32	выращенными	выращивать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	тканями	ткаень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	28	obl	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	искусственных	искусственный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	36	amod	_	_
+36	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	obl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	39	nsubj	_	_
+39	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	что	что	SCONJ	_	_	39	mark	_	_
+42	те	тот	DET	_	Case=Nom|Number=Plur	45	nsubj	_	_
+43	не	не	PART	_	_	44	advmod	_	_
+44	только	только	PART	_	_	45	advmod	_	_
+45	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	advcl	_	_
+46	нужные	нужной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	47	amod	_	_
+47	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	45	obj	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	но	но	CCONJ	_	_	51	cc	_	_
+50	и	и	PART	_	_	49	advmod	_	_
+51	регулируют	регулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	conj	_	_
+52	секрецию	секреция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	51	obj	_	_
+53	в	в	ADP	_	_	54	case	_	_
+54	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	51	obl	_	_
+55	от	от	ADP	_	_	59	case	_	_
+56	тех	тот	DET	_	Case=Gen|Number=Plur	59	amod	_	_
+57	же	же	PART	_	_	56	advmod	_	_
+58	внешних	внешний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	59	amod	_	_
+59	сигналов	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	51	obl	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	на	на	ADP	_	_	62	case	_	_
+62	которые	который	PRON	_	Case=Acc	63	obl	_	_
+63	реагирует	реагиревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	59	acl:relcl	_	_
+64	гипофиз	гипофиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	63	nsubj	_	_
+65	в	в	ADP	_	_	67	case	_	_
+66	живом	живый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	67	amod	_	_
+67	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	63	obl	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	67	punct	_	_
+
+# sent_id = 4954
+# text = Затем образцы были пересажены линии мышей, страдавших от врожденной недостаточности функций гипофиза, и изучены в живом организме.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	образцы	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	пересажены	пересажать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	линии	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	страдавших	страдать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+9	от	от	ADP	_	_	11	case	_	_
+10	врожденной	врожденный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	недостаточности	недостаточность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+12	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	живом	живый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4955
+# text = Здесь они также продемонстрировали совершенно нормальную активность, выделяя пролактин и другие гормоны.В будущем исследователи планируют усовершенствовать методику с тем, чтобы научиться выращивать ткани гипофиза с заранее заданным составом клеток, который будет оптимален для того или иного больного.
+1	Здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	совершенно	совершенно	ADV	_	Degree=Pos	6	advmod	_	_
+6	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	выделяя	выделять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+10	пролактин	пролактин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+17	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	усовершенствовать	совершенствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	_
+25	научиться	научаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	19	advcl	_	_
+26	выращивать	выращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	ткани	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+28	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	с	с	ADP	_	_	32	case	_	_
+30	заранее	заранее	ADV	_	Degree=Pos	31	advmod	_	_
+31	заданным	задавать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_
+33	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	который	который	PRON	_	Case=Nom	37	nsubj	_	_
+36	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	aux:pass	_	_
+37	оптимален	оптималивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	33	acl:relcl	_	_
+38	для	для	ADP	_	_	42	case	_	_
+39	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	42	amod	_	_
+40	или	или	CCONJ	_	_	41	cc	_	_
+41	иного	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	conj	_	_
+42	больного	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 4956
+# text = После необходимых клинических испытаний такой подход может стать средством терапии до сих пор неизлечимых нарушений функции гипофиза.
+1	После	после	ADP	_	_	4	case	_	_
+2	необходимых	необходимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	средством	средство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	до	до	ADP	_	_	15	advmod	_	_
+12	сих	сей	DET	_	Case=Gen|Number=Plur	11	fixed	_	_
+13	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	fixed	_	_
+14	неизлечимых	неизлечимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	нарушений	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+16	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	гипофиза	гипофиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 4957

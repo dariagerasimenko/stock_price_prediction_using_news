@@ -1,0 +1,350 @@
+# text = # newpar
+# sent_id = 4502
+# text = Значительная часть ученых считают себя верующими и многие из них не видят конфликта между своими научными и религиозными взглядами.
+1	Значительная	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	себя	себя	PRON	_	Case=Acc	4	obj	_	_
+6	верующими	верующий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	obl	_	_
+7	и	и	CCONJ	_	_	12	cc	_	_
+8	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	nsubj	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	видят	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	конфликта	конфликт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+14	между	между	ADP	_	_	19	case	_	_
+15	своими	свой	DET	_	Case=Ins|Number=Plur	19	amod	_	_
+16	научными	научной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	религиозными	религиозный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	conj	_	_
+19	взглядами	взгляд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4503
+# text = Об этом говорится в отчете, опубликованном социологами из Университета Райса по данным масштабного опроса, проводившегося на протяжении последних четырех лет.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	отчете	отчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	опубликованном	опубликовать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	социологами	социолог	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	Райса	Райс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	3	obl	_	_
+14	масштабного	масштабной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	проводившегося	проводить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+20	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	четырех	четыре	NUM	_	Case=Gen	22	nummod	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4504
+# text = Результаты исследования опубликованы на сайте университета, кратко о них сообщается в пресс-релизе.Исследование проводилось в восьми странах -- Франции, Гонконге, Индии, Италии, Тайване, Турции, Великобритании и США.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	11	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	11	obl	_	_
+11	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	пресс-релизе.	пресс-релизбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
+14	Исследование	Исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	проводилось	проводить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	13	parataxis	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	восьми	восемь	NUM	_	Case=Loc	18	nummod	_	_
+18	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	Франции	франция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Гонконге	гонконг	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Индии	индия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Италии	италия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	Тайване	тайвань	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	Турции	турция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	conj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 4505
+# text = Авторы опроса привлекли к исследованию физиков и биологов, так как именно эти науки исследуют происхождение человека и Вселенной, и, по словам авторов, религиозный и научный взгляды чаще всего не совпадают именно в этих двух областях.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	привлекли	привлекать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	исследованию	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+6	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	биологов	биолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	3	mark	_	_
+11	как	как	SCONJ	_	_	10	fixed	_	_
+12	именно	именно	PART	_	_	13	advmod	_	_
+13	эти	этот	DET	_	Case=Nom|Number=Plur	14	amod	_	_
+14	науки	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	исследуют	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	происхождение	происхождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	Вселенной	вселенная	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	27	cc	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	parataxis	_	_
+25	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	религиозный	религиозный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+28	и	и	CCONJ	_	_	34	cc	_	_
+29	научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	взгляды	взгляд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
+31	чаще	часто	ADV	_	Degree=Cmp	34	advmod	_	_
+32	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	не	не	PART	_	_	34	advmod	_	_
+34	совпадают	совпадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	именно	именно	PART	_	_	39	advmod	_	_
+36	в	в	ADP	_	_	39	case	_	_
+37	этих	этот	DET	_	Case=Loc|Number=Plur	39	amod	_	_
+38	двух	два	NUM	_	Case=Loc	39	nummod	_	_
+39	областях	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 4506
+# text = В исследовании участвовало 9 422 человека разного пола, возраста, религиозных взглядов и статуса из университетов и исследовательских институтов.
+1	В	в	ADP	_	_	2	case	_	_
+2	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	участвовало	участвовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	9	9	NUM	_	_	6	nummod	_	_
+5	422	422	NUM	_	_	6	nummod	_	_
+6	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	разного	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	религиозных	религиозный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	взглядов	взгляд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	статуса	статус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	исследовательских	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4507
+# text = Участники исследования ответили на вопросы анкеты, затем авторы исследования отобрали из них 609 ученых и провели с ними глубинные интервью.
+1	Участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	ответили	отвечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+6	анкеты	анкета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	затем	затем	ADV	_	Degree=Pos	11	advmod	_	_
+9	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	отобрали	отбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	obl	_	_
+14	609	609	NUM	_	_	15	nummod	_	_
+15	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	17	obl	_	_
+20	глубинные	глубинный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	интервью	интервью	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4508
+# text = Среди тем, которые интересовали исследователей, были взаимоотношения науки и религии, как религия влияет на формирование программы исследований, на взаимодействие исследователей со студентами и решение этических вопросов.Выяснилось, что более половины ученых из Гонконга (54 процентов), Италии (57 процентов), Тайваня (74 процентов), Индии (79 процентов) и Турции (85 процентов) считают себя религиозными.
+1	Среди	среди	ADP	_	_	2	case	_	_
+2	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	которые	который	PRON	_	Case=Acc	5	obj	_	_
+5	интересовали	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+9	взаимоотношения	взаимоотношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	31	nsubj	_	_
+10	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	религии	религия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	как	как	SCONJ	_	_	9	mark	_	_
+15	религия	религия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	формирование	формирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+19	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+24	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	со	с	ADP	_	_	26	case	_	_
+26	студентами	студент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	conj	_	_
+29	этических	этический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	вопросов.	вопросоварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	что	что	SCONJ	_	_	31	mark	_	_
+34	более	более	ADV	_	Degree=Cmp	35	nummod:gov	_	_
+35	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	conj	_	_
+36	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	из	из	ADP	_	_	38	case	_	_
+38	Гонконга	гонконг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	54	54	NUM	_	_	41	nummod	_	_
+41	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	parataxis	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	41	punct	_	_
+44	Италии	италия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	conj	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	57	57	NUM	_	_	47	nummod	_	_
+47	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	parataxis	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	47	punct	_	_
+50	Тайваня	Тайваня	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	35	conj	_	_
+51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
+52	74	74	NUM	_	_	53	nummod	_	_
+53	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	50	parataxis	_	SpaceAfter=No
+54	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	53	punct	_	_
+56	Индии	индия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	conj	_	_
+57	(	(	PUNCT	_	_	58	punct	_	SpaceAfter=No
+58	79	79	NUM	_	_	59	nummod	_	_
+59	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	56	parataxis	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	59	punct	_	_
+61	и	и	CCONJ	_	_	62	cc	_	_
+62	Турции	турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	63	conj	_	_
+63	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
+64	85	85	NUM	_	_	65	nummod	_	_
+65	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	67	parataxis	_	SpaceAfter=No
+66	)	)	PUNCT	_	_	65	punct	_	_
+67	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	advcl	_	_
+68	себя	себя	PRON	_	Case=Acc	67	obj	_	_
+69	религиозными	религиозный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	67	obl	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	69	punct	_	_
+
+# sent_id = 4509
+# text = Атеисты составляют большинство среди ученых только во Франции (51 процент).
+1	Атеисты	атеист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	большинство	большинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	среди	среди	ADP	_	_	5	case	_	_
+5	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	только	только	PART	_	_	8	advmod	_	_
+7	во	в	ADP	_	_	8	case	_	_
+8	Франции	франция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	51	51	NUM	_	_	11	nummod	_	_
+11	процент	процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4510
+# text = Как и предполагали исследователи, в целом ученые менее религиозны по сравнению с населением страны в целом.
+1	Как	как	ADV	_	Degree=Pos	3	advmod	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	менее	менее	ADV	_	Degree=Cmp	10	advmod	_	_
+10	религиозны	религиозный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+11	по	по	ADP	_	_	14	case	_	_
+12	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	fixed	_	_
+13	с	с	ADP	_	_	12	fixed	_	_
+14	населением	население	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+15	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4511
+# text = Однако есть и исключения.
+1	Однако	однако	ADV	_	Degree=Pos	0	root	_	_
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	и	и	PART	_	_	4	advmod	_	_
+4	исключения	исключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 4512
+# text = Так, в Гонкоге 39 процентов ученых считают себя религиозными, в то время как среди всего населения страны религиозными считают себя лишь 20 процентов.
+1	Так	так	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Гонкоге	Гонког	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+5	39	39	NUM	_	_	6	nummod	_	_
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	себя	себя	PRON	_	Case=Acc	8	obj	_	_
+10	религиозными	религиозный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	21	advmod	_	_
+13	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	как	как	SCONJ	_	_	14	fixed	_	_
+16	среди	среди	ADP	_	_	18	case	_	_
+17	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	18	amod	_	_
+18	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+19	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	религиозными	религиозный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+22	себя	себя	PRON	_	Case=Acc	21	obj	_	_
+23	лишь	лишь	PART	_	_	24	advmod	_	_
+24	20	20	NUM	_	_	25	nummod	_	_
+25	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4513
+# text = В Тайване 54 процентов ученых религиозны, а в целом среди населения страны -- только 44 процентов.
+1	В	в	ADP	_	_	2	case	_	_
+2	Тайване	тайвань	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+3	54	54	NUM	_	_	4	nummod	_	_
+4	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	религиозны	религиозный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+11	среди	среди	ADP	_	_	12	case	_	_
+12	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	44	44	NUM	_	_	17	nummod	_	_
+17	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 4514

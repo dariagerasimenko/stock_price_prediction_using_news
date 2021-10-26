@@ -1,0 +1,389 @@
+# text = # newpar
+# sent_id = 1697
+# text = Ученые из Университета штата Аризона построили наноразмерные камеры из ДНК, внутрь которых они поместили ферменты.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Аризона	Аризон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наноразмерные	наноразмерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	внутрь	внутрь	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	15	obl	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+16	ферменты	фермент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1698
+# text = Эксперименты показали, что активность ферментов при этом увеличилась в 8 раз.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+9	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	8	8	NUM	_	_	12	nummod	_	_
+12	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1699
+# text = Статья с результатами работы были опубликованы вNature Communications.Исследователи решили воспроизвести эффект, который проявляется при нахождении ферментов в таких относительно изолированных частях клетки, как митохондрии, пероксисомы или ядро.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	результатами	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	вNature	вNature	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Communications	communications	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	воспроизвести	воспроизводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	нахождении	нахождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+19	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	в	в	ADP	_	_	24	case	_	_
+21	таких	такой	DET	_	Case=Loc|Number=Plur	24	amod	_	_
+22	относительно	относительно	ADP	_	_	24	case	_	_
+23	изолированных	изолировать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+25	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	как	как	SCONJ	_	_	28	cc	_	_
+28	митохондрии	митохондрия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	пероксисомы	пероксисом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	conj	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	ядро	ядро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1700
+# text = Для этого ферменты помещали в наноразмерные камеры, собранные из ДНК.Камеры строились в буферном растворе из вирусной ДНК.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	ферменты	фермент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	наноразмерные	наноразмерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	собранные	собирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	ДНК.	днк.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	Камеры	камера	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	строились	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	4	parataxis	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	буферном	буферный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	растворе	раствор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	из	из	ADP	_	_	19	case	_	_
+18	вирусной	вирусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1701
+# text = Дизайн камер был разработан с помощью программы caDNAno.
+1	Дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	камер	камер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	разработан	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	caDNAno	caDNAno	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1702
+# text = Сначала ученые собрали две отдельные половинки камеры, в каждой из которых содержался один из двух различных ферментов.
+1	Сначала	сначала	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	две	два	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+5	отдельные	отдельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	половинки	половинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	obl	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	10	nmod	_	_
+13	содержался	содержаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+14	один	один	NUM	_	Case=Nom|Gender=Masc	13	nsubj	_	_
+15	из	из	ADP	_	_	18	case	_	_
+16	двух	два	NUM	_	Case=Gen	18	nummod	_	_
+17	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1703
+# text = Затем половины камеры соединялись вместе с помощью коротких нитей ДНК.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	половины	половина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	соединялись	соединяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вместе	вместе	ADV	_	Degree=Pos	0	advmod	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	коротких	короткий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	нитей	нить	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+10	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1704
+# text = Через нанопоры в камеру могли свободно проникать небольшие молекулы, например, участвующие в ферментативной реакции субстраты.В качестве ферментов для экспериментов были выбраны глюкозооксидаза и пероксидаха хрена, которые катализируют каскад реакций, от окисления глюкозы и образования пероксида водорода до окисления ABTS-- химического соединения, которое применяется для определения скорости ферментативной реакций на основе наблюдения за изменением окраски.Результаты экспериментов показали, что активность реакции внутри нанокамер была в 8 раз выше, чем у контрольных ферментов, которые не были изолированы.
+1	Через	Через	ADP	_	_	2	case	_	_
+2	нанопоры	нанопора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	свободно	свободно	ADV	_	Degree=Pos	7	advmod	_	_
+7	проникать	проникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+8	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	участвующие	участвовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	ферментативной	ферментативный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	реакции	реакция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+17	субстраты	субстрата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	21	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	выбраны	выбирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+26	глюкозооксидаза	глюкозооксидаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	пероксидаха	пероксидаха	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_
+29	хрена	хренный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	которые	который	PRON	_	Case=Nom	32	nsubj	_	_
+32	катализируют	катализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+33	каскад	каскад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+34	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	от	от	ADP	_	_	37	case	_	_
+37	окисления	окисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+38	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	conj	_	_
+41	пероксида	пероксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+43	до	до	ADP	_	_	44	case	_	_
+44	окисления	окисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+45	ABTS	Abts	PROPN	_	Foreign=Yes	48	compound	_	SpaceAfter=No
+46	-	-	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	-	-	PUNCT	_	_	45	punct	_	_
+48	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_
+49	соединения	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	которое	который	PRON	_	Case=Nom	52	nsubj	_	_
+52	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	25	acl:relcl	_	_
+53	для	для	ADP	_	_	54	case	_	_
+54	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	52	obl	_	_
+55	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	_
+56	ферментативной	ферментативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_
+57	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	55	nmod	_	_
+58	на	на	ADP	_	_	59	case	_	_
+59	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_
+60	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	_
+61	за	за	ADP	_	_	62	case	_	_
+62	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	60	nmod	_	_
+63	окраски.	окраски.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl:agent	_	SpaceAfter=No
+64	Результаты	результат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	66	nsubj	_	_
+65	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	64	nmod	_	_
+66	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No
+67	,	,	PUNCT	_	_	66	punct	_	_
+68	что	что	SCONJ	_	_	66	mark	_	_
+69	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	77	nsubj	_	_
+70	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	69	nmod	_	_
+71	внутри	внутри	ADV	_	Degree=Pos	72	advmod	_	_
+72	нанокамер	нанокамер	ADV	_	Degree=Pos	77	advmod	_	_
+73	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	77	cop	_	_
+74	в	в	ADP	_	_	76	case	_	_
+75	8	8	NUM	_	_	76	nummod	_	_
+76	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	77	nmod	_	_
+77	выше	высокий	ADJ	_	Degree=Cmp	66	advcl	_	SpaceAfter=No
+78	,	,	PUNCT	_	_	77	punct	_	_
+79	чем	чем	SCONJ	_	_	82	cc	_	_
+80	у	у	ADP	_	_	82	case	_	_
+81	контрольных	контрольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	82	amod	_	_
+82	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	77	advmod	_	SpaceAfter=No
+83	,	,	PUNCT	_	_	82	punct	_	_
+84	которые	который	PRON	_	Case=Nom	87	nsubj	_	_
+85	не	не	PART	_	_	87	advmod	_	_
+86	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	87	aux:pass	_	_
+87	изолированы	изолировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	82	acl:relcl	_	SpaceAfter=No
+88	.	.	PUNCT	_	_	87	punct	_	_
+
+# sent_id = 1705
+# text = Ученые объяснили такой эффект тем, что внутри ДНК-камер из-за высокой плотности фосфатных групп образовывалось большое число упорядоченных водородных связей.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	объяснили	объяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
+4	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	внутри	внутри	ADV	_	Degree=Pos	9	advmod	_	_
+9	ДНК-	Днк-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+10	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+11	из-за	из-за	ADP	_	_	13	case	_	_
+12	высокой	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	плотности	плотность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+14	фосфатных	фосфатный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	образовывалось	образовываться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+17	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+19	упорядоченных	упорядочеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	водородных	водородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1706
+# text = Именно они и увеличивали стабильность молекул ферментов.
+1	Именно	именно	ADV	_	Degree=Pos	2	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+3	и	и	PART	_	_	4	advmod	_	_
+4	увеличивали	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	стабильность	стабильность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1707
+# text = Исследователи проверили это предположение, добавив раствор хлорида натрия, разрывающего водородные связи, что уменьшило активность ферментов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проверили	проверивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+4	предположение	предположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	добавив	добавлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	_
+7	раствор	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	хлорида	хлорид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	натрия	натрий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	разрывающего	разрывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	водородные	водородный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	уменьшило	уменьшать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1708
+# text = Кроме того, нанокамеры продемонстрировал свою эффективность в защите ферментов от разрушения трипсином.Нанокамеры из ДНК могут служить в качестве молекулярного инструмента для изменения активности ферментов и применяться в области умных материалов и биотехнологий.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	нанокамеры	нанокамер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	продемонстрировал	демонстрировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	защите	защита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+10	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	разрушения	разрушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+13	трипсином.	трипсиномя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Нанокамеры	Нанокамера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+17	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	молекулярного	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	инструмента	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	применяться	применяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	conj	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+31	умных	умный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	биотехнологий	биотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 1709
+# text = В будущем, уверены ученые, будет возможно создавать программируемые нанокамеры из молекул ДНК для создания терапевтических наноустройств, регулирующих функции каталитических белков.Нанотехнологии на основе ДНК -- область исследований, в которой занимаются созданием искусственных структур из нуклеиновых кислот для технологического и инженерного использования, не связанного с кодированием информации.Александр Еникеев
+1	В	в	ADP	_	_	2	case	_	_
+2	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	parataxis	_	_
+9	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	программируемые	программируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	нанокамеры	нанокамера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+14	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+17	терапевтических	терапевтический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	наноустройств	наноустройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	регулирующих	регулировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	каталитических	каталитический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	белков.	белковадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	SpaceAfter=No
+24	Нанотехнологии	Нанотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+27	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	область	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+30	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	которой	который	PRON	_	Case=Loc	34	obl	_	_
+34	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	29	acl:relcl	_	_
+35	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	_
+36	искусственных	искусственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+38	из	из	ADP	_	_	37	case	_	_
+39	нуклеиновых	нуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	45	nmod	_	_
+41	для	для	ADP	_	_	45	case	_	_
+42	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	45	amod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	инженерного	инженерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	42	conj	_	_
+45	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	не	не	PART	_	_	48	advmod	_	_
+48	связанного	связывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	amod	_	_
+49	с	с	ADP	_	_	50	case	_	_
+50	кодированием	кодирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	48	obl	_	_
+51	информации.	информации.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	50	appos	_	SpaceAfter=No
+52	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	appos	_	_
+53	Еникеев	Еникеев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	52	flat:name	_	_
+
+# newpar
+# sent_id = 1710

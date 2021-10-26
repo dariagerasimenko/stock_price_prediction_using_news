@@ -1,0 +1,289 @@
+# text = # newpar
+# sent_id = 2546
+# text = Канадские военные инженеры разработали модульный ангар MSS-A, возведение которого занимает мало времени,сообщаетDefense Aerospace.
+1	Канадские	канадский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	модульный	модульный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	ангар	ангар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	MSS-A	Mss-a	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	возведение	возведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	которого	который	PRON	_	Case=Gen	9	nmod	_	_
+11	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+12	мало	мало	ADV	_	Degree=Pos	11	advmod	_	_
+13	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,сообщаетDefense	,сообщаетDefense	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Aerospace	Aerospace	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2547
+# text = Благодаря модульности, размеры сооружения можно наращивать в зависимости от потребностей.
+1	Благодаря	Благодаря	ADP	_	_	2	case	_	_
+2	модульности	модульность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	сооружения	сооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	наращивать	наращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	потребностей	потребность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2548
+# text = Первый такой ангар уже собран на базе ВВС Канады "Патрис Винсент" в Кувейте; он предназначен для стоянки и обслуживания истребителей CF-188 (канадская версия F/A-18 Hornet).MSS-A представляет собой металлические А-образные опоры, на которые натягивается тент из ПВХ-ткани.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	ангар	ангар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	собран	собирать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	Канады	канада	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Патрис	Патрис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+12	Винсент	Винсент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	mark	_	_
+15	Кувейте	Куветь	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	15	punct	_	_
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj:pass	_	_
+18	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	стоянки	стоянка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	conj	_	_
+23	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	CF-188	CF-188	X	_	Foreign=Yes	23	flat:foreign	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	канадская	канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	appos	_	_
+28	F/A-	F/A-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	18	18	NUM	_	_	30	nummod	_	_
+30	Hornet	Hornet	PROPN	_	Foreign=Yes	27	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.MSS-	.MSS-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	A	a	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+34	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	собой	себя	PRON	_	Case=Ins	34	dep	_	_
+36	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+37	А-образные	А-образный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	опоры	опора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	на	на	ADP	_	_	41	case	_	_
+41	которые	который	PRON	_	Case=Acc	42	obl	_	_
+42	натягивается	натягиваваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	38	acl:relcl	_	_
+43	тент	тент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
+44	из	из	ADP	_	_	46	case	_	_
+45	ПВХ-	Пвх-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	SpaceAfter=No
+46	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 2549
+# text = Сама конструкция была собрана силами всего десяти инженеров за полторы недели.
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	собрана	собирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+6	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+7	десяти	десять	NUM	_	Case=Gen	8	nummod	_	_
+8	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	за	за	ADP	_	_	11	case	_	_
+10	полторы	полтора	NUM	_	Case=Acc|Gender=Fem	11	nummod:gov	_	_
+11	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2550
+# text = При этом использовались только обычные инструменты: гаечные ключи, молотки, кувалды.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	только	только	PART	_	_	5	advmod	_	_
+5	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	инструменты	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	гаечные	гаечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	ключи	ключ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	молотки	молотка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	кувалды	кувалд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2551
+# text = К помощи подъемников или кранов военные не прибегали.Каждая из опор была дополнительно закреплена при помощи тросов, обеспечивающих общую устойчивость конструкции.
+1	К	к	ADP	_	_	3	case	_	_
+2	помощи	помощь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
+3	подъемников	подъемник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+4	или	или	CCONJ	_	_	5	cc	_	_
+5	кранов	кран	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+6	военные	воеть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	прибегали.	прибегали.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+9	Каждая	Каждай	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	опор	опора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+13	дополнительно	дополнительно	ADV	_	Degree=Pos	14	advmod	_	_
+14	закреплена	закреплять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	при	при	ADP	_	_	17	case	_	_
+16	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	тросов	трос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	обеспечивающих	обеспечивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	общую	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2552
+# text = Правда, подготовка к строительству модульного ангара заняла чуть больше времени -- военным необходимо было выбрать место для ангара и договориться об использовании выбранного участка с руководством соседних союзных военных баз.После этого инженеры разровняли и засыпали щебнем площадку, а затем залили ее бетоном.
+1	Правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	подготовка	подготовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	строительству	строительство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	ангара	ангар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	заняла	занимать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	чуть	чуть	ADV	_	Degree=Pos	10	advmod	_	_
+10	больше	много	NUM	_	_	11	nummod:gov	_	_
+11	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	военным	военный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+14	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	conj	_	_
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+17	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	ангара	ангар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	договориться	договариваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	35	xcomp	_	_
+22	об	о	ADP	_	_	23	case	_	_
+23	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+24	выбранного	выбрать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	участка	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	с	с	ADP	_	_	27	case	_	_
+27	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+28	соседних	соседний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+29	союзных	союзный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+30	военных	военный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	баз.	баз.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	После	после	ADP	_	_	33	case	_	_
+33	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+34	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+35	разровняли	разровнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	засыпали	засыпать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+38	щебнем	ощебн	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	37	obl	_	_
+39	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	а	а	CCONJ	_	_	43	cc	_	_
+42	затем	затем	ADV	_	Degree=Pos	43	advmod	_	_
+43	залили	лить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+44	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	43	obj	_	_
+45	бетоном	бетон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 2553
+# text = Это было необходимо для того, чтобы грунт мог выдерживать длительную стоянку CF-188, масса каждого из которых составляет около 11 тонн.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+8	грунт	грунт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	выдерживать	выдерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	длительную	длительной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	стоянку	стоянка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	CF-188	CF-188	NOUN	_	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+16	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	nmod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	которых	который	PRON	_	Case=Gen	16	nmod	_	_
+19	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+20	около	около	ADP	_	_	22	case	_	_
+21	11	11	NUM	_	_	22	nummod	_	_
+22	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2554
+# text = По большей части из-за необходимости согласования с соседними базами на подготовку площадки ушло так много времени.В настоящее время американские и канадские военные используют преимущественно металлические ангары, которые собираются на заранее подготовленном фундаменте из металлических балок и гофрированных железных листов.
+1	По	по	ADP	_	_	3	case	_	_
+2	большей	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+4	из-за	из-за	ADP	_	_	5	case	_	_
+5	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	согласования	согласование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	соседними	соседний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	базами	база	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+12	площадки	площадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	ушло	уходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	так	так	ADV	_	Degree=Pos	15	advmod	_	_
+15	много	много	ADV	_	Degree=Pos	16	nummod:gov	_	_
+16	времени.	времени.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+17	В	в	ADP	_	_	24	advmod	_	_
+18	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	fixed	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	канадские	канадский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	conj	_	_
+23	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+25	преимущественно	преимущественне	ADV	_	Degree=Pos	26	advmod	_	_
+26	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	ангары	ангар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	собираются	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	acl:relcl	_	_
+31	на	на	ADP	_	_	34	case	_	_
+32	заранее	заранее	ADV	_	Degree=Pos	33	advmod	_	_
+33	подготовленном	подготавливать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	фундаменте	фундамент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	_
+35	из	из	ADP	_	_	37	case	_	_
+36	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	балок	балка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	obl	_	_
+38	и	и	CCONJ	_	_	41	cc	_	_
+39	гофрированных	гофрировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	41	amod	_	_
+40	железных	железный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	листов	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 2555
+# text = Сборка одной конструкции, включая подготовку площадки может занимать от одного до полутора месяцев в зависимости от размеров и сложности.
+1	Сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	одной	один	NUM	_	Case=Gen|Gender=Fem	3	nummod	_	_
+3	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	включая	включая	ADV	_	Degree=Pos	8	parataxis	_	_
+6	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	площадки	площадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	занимать	занимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	одного	один	NUM	_	Case=Gen|Gender=Masc	9	nummod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	полутора	полтора	NUM	_	Case=Gen	14	nummod	_	_
+14	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	в	в	ADP	_	_	14	case	_	_
+16	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 2556

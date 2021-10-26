@@ -1,0 +1,203 @@
+# text = # newpar
+# sent_id = 2306
+# text = Исследователи из Мэрилендского университета обнаружили корреляцию между "расистскими" поисковыми запросами в Google и смертностью среди чернокожего населения в различных регионах США.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Мэрилендского	Мэрилендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	корреляцию	корреляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	между	между	ADP	_	_	12	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	расистскими	расистский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	поисковыми	поисковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	запросами	запрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Google	Google	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	смертностью	смертность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	conj	_	_
+17	среди	среди	ADP	_	_	19	case	_	_
+18	чернокожего	чернокожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2307
+# text = Статья опубликована в PLoS One.В качестве маркера уровня расизма ученые использовали частоту поисковых по словуnigger в различных его формах.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в1	ADP	_	_	5	case	_	_
+4	PLoS	plos	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	One.В	One.во	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	fixed	_	_
+7	маркера	маркер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	расизма	расизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	частоту	частота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	поисковых	поисковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	nmod	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	словуnigger	словуnigger	X	_	Foreign=Yes	13	flat:foreign	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+19	формах	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2308
+# text = Некоторые формы, например nigga, были исключены из анализа, поскольку они, по общему мнению,не обладают негативной коннотацией--так на сленге обращаются друг к другу представители некоторых чернокожих субкультур.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	формы	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	например	например	ADV	_	Degree=Pos	5	advmod	_	_
+5	nigga	nigga	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	исключены	исключать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	поскольку	поскольку	SCONJ	_	_	8	mark	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	общему	общий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	parataxis	_	SpaceAfter=No
+18	,не	,не	ADV	_	Degree=Pos	19	advmod	_	_
+19	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+20	негативной	негативный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+21	коннотацией-	коннотацией-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	так	так	ADV	_	Degree=Pos	25	advmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	сленге	сленг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+26	обращаются	обращаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	parataxis	_	_
+27	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	fixed	_	_
+28	к	к	ADP	_	_	29	case	_	_
+29	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	26	obl	_	_
+30	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+31	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	33	amod	_	_
+32	чернокожих	чернокожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	субкультур	субкультура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2309
+# text = При расчете корреляции исследователи учитывали демографические и социально-экономические различия между регионами.
+1	При	при	ADP	_	_	2	case	_	_
+2	расчете	расчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	корреляции	корреляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	учитывали	учитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	демографические	демографический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	социально-экономические	социально-экономический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	conj	_	_
+9	различия	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+10	между	между	ADP	_	_	11	case	_	_
+11	регионами	регион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2310
+# text = В том числе уровень образования, процент чернокожего населения и уровень доходов.
+1	В	в	ADP	_	_	3	case	_	_
+2	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	advmod	_	_
+4	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	процент	процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	чернокожего	чернокожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+12	доходов	доход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2311
+# text = Чтобы исключить влияние на смертность факторов, не несущих расового оттенка, ученые также учитывали смертность среди представителей европеоидной расы.Выяснилось, что во многих регионах США статистическая связь существует -- чем больше в каком-либо штате поисковых запросов nigger, тем выше смертность среди чернокожего населения относительно белого.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	_
+2	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	_
+3	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	смертность	смертность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+6	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	несущих	несущий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+10	расового	расовый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	оттенка	оттенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	учитывали	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	_	_
+16	смертность	смертность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	среди	среди	ADP	_	_	18	case	_	_
+18	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+19	европеоидной	европеоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	расы	раса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	SCONJ	_	_	22	mark	_	_
+25	во	в	ADP	_	_	27	case	_	_
+26	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	_
+28	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	27	nmod	_	_
+29	статистическая	статистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+31	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
+32	--	--	PUNCT	_	_	31	punct	_	_
+33	чем	чем	SCONJ	_	_	34	cc	_	_
+34	больше	много	NUM	_	_	31	advmod	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	каком-либо	какой-либо	DET	_	Case=Loc|Gender=Masc|Number=Sing	37	amod	_	_
+37	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+38	поисковых	поисковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+40	nigger	nigger	X	_	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	тем	тем	SCONJ	_	_	31	mark	_	_
+43	выше	высокий	ADJ	_	Degree=Cmp	31	advcl	_	_
+44	смертность	смертность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
+45	среди	среди	ADP	_	_	47	case	_	_
+46	чернокожего	чернокожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	47	amod	_	_
+47	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	_
+48	относительно	относительно	ADP	_	_	47	case	_	_
+49	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 2312
+# text = Уровень смертности среди чернокожего населения в этих регионах был на 3,6 процента выше, чем у белого при доверительном интервале от 1,5 до 5,7 процентов.
+1	Уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	смертности	смертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	среди	среди	ADP	_	_	5	case	_	_
+4	чернокожего	чернокожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	этих	этот	DET	_	Case=Loc|Number=Plur	8	amod	_	_
+8	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	3,6	3,6	NUM	_	_	12	nummod	_	_
+12	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чем	чем	SCONJ	_	_	20	cc	_	_
+16	у	у	ADP	_	_	20	case	_	_
+17	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+18	при	при	ADP	_	_	20	case	_	_
+19	доверительном	доверительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	интервале	интервал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	advmod	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	1,5	1,5	NUM	_	_	20	nummod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	5,7	5,7	NUM	_	_	25	nummod	_	_
+25	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# newpar
+# sent_id = 2313

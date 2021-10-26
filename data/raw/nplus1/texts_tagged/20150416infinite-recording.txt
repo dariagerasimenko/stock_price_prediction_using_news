@@ -1,0 +1,83 @@
+# text = # newpar
+# sent_id = 1321
+# text = Ученые из Колумбийского университета создали простейшую видеокамеру, которая сама вырабатывает необходимое для съемки электричество, используя матрицу в качестве солнечной батареи.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Колумбийского	Колумбийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	простейшую	простейшый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	видеокамеру	видеокамера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	_
+11	вырабатывает	вырабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	съемки	съемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	электричество	электричество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+18	матрицу	матрица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1322
+# text = Статья опубликована на сайте университета.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1323
+# text = Авторы обратили внимание на тот факт, что в основе матрицы видеокамеры и солнечной батареи лежит один и тот же элемент -- фотодиод.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обратили	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+4	на	на	ADP	_	_	3	case	_	_
+5	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	факт	факт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+11	матрицы	матрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	видеокамеры	видеокамера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+16	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+17	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+20	же	же	PART	_	_	19	advmod	_	_
+21	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	фотодиод	фотодиод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1324
+# text = Для реализации идеи автономного электропитания ученые сконструировали из фотодиодов матрицу 30х40 с управляющей микросхемой.
+1	Для	для	ADP	_	_	2	case	_	_
+2	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	идеи	идея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	автономного	автономный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	электропитания	электропитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	сконструировали	сконструировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	фотодиодов	фотодиод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	матрицу	матрица	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+11	30х40	30х40	NUM	_	_	10	nummod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	управляющей	управлять	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	микросхемой	микросхема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# newpar
+# sent_id = 1325

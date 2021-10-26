@@ -1,0 +1,275 @@
+# text = # newpar
+# sent_id = 944
+# text = Исследователи из Университета Оулу разработали алгоритм, который за счет обнаружения и определения микровыражений лица способен определять эмоции, которые старается скрыть человек.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Оулу	Оул	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+9	за	за	ADP	_	_	11	case	_	_
+10	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	fixed	_	_
+11	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	_
+14	микровыражений	микровыражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	acl:relcl	_	_
+17	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+18	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	старается	стараться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+22	скрыть	крыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+23	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 945
+# text = Препринт работы опубликован на arXiv.org, кратко об исследовании пишет MIT Technology Review.В качестве набора тренировочных данных для обучения системы авторам работы сначала пришлось создать базу микровыражений, связанных с скрытыми эмоциями.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	arXiv.org	arXiv.org	NOUN	_	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратко	кратко	ADV	_	Degree=Pos	25	advmod	_	_
+8	об	о	ADP	_	_	9	case	_	_
+9	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+10	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+11	MIT	Mit	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+12	Technology	technology	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Review.	Review.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	В	в	ADP	_	_	16	case	_	_
+15	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+17	тренировочных	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	16	nmod	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+21	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	авторам	автор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	_
+23	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	сначала	сначала	ADV	_	Degree=Pos	25	advmod	_	_
+25	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+26	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+27	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	микровыражений	микровыражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+31	с	с	ADP	_	_	33	case	_	_
+32	скрытыми	скрытый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+33	эмоциями	эмоция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 946
+# text = 20 испытуемым предложили смотреть видеозаписи, которые должны были вызвать сильную эмоциональную реакцию.
+1	20	20	NUM	_	_	2	nummod	_	_
+2	испытуемым	испытуемый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	смотреть	смотреть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	вызвать	вызывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+11	сильную	сильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	эмоциональную	эмоциональный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 947
+# text = При этом добровольцев попросили постараться скрывать свои эмоции при просмотре видео.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	попросили	просить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	постараться	стараться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+6	скрывать	скрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	свои	свой	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	просмотре	просмотр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 948
+# text = В результате этапа подготовки тренировочного набора данных исследователи получили набор из 164 микровыражений, записанных на камеру с частотой 100 кадров в секунду.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	тренировочного	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	164	164	NUM	_	_	13	nummod	_	_
+13	микровыражений	микровыражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	записанных	записывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+20	100	100	NUM	_	_	21	nummod	_	_
+21	кадров	кадр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 949
+# text = После этого распознавание скрытых эмоций разбили на два отдельных этапа.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	распознавание	распознавание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	скрытых	скрытый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	эмоций	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	разбили	разбивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	10	case	_	_
+8	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod:gov	_	_
+9	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 950
+# text = Первый этап -- обнаружение микровыражения на лице человека.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	этап	этап	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	обнаружение	обнаружение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	микровыражения	микровыражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	5	case	_	_
+7	лице	лицо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 951
+# text = Для отслеживания момента появления микровыражения исследователи просто сравнивали последовательно сделанные кадры с изначальным выражением лица и любое изменение за пределами установленного порога помечали как микровыражение.Второй этап распознавания скрытой эмоции, с которой связано определенной микровыражение, для компьютера сложнее, так как разные микровыражения лица очень тяжело отличить друг от друга на статичном изображении.
+1	Для	для	ADP	_	_	2	case	_	_
+2	отслеживания	отслеживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	микровыражения	микровыражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	просто	просто	PART	_	_	8	advmod	_	_
+8	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	последовательно	последовательно	ADV	_	Degree=Pos	10	advmod	_	_
+10	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	кадры	кадр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	изначальным	изначальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	выражением	выраженье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+15	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	любое	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+19	за	за	ADP	_	_	20	case	_	_
+20	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	_
+21	установленного	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	порога	порог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	помечали	помечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+24	как	как	SCONJ	_	_	25	mark	_	_
+25	микровыражение.	микровыраженибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advmod	_	SpaceAfter=No
+26	Второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	этап	этап	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+28	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	скрытой	скрытый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	которой	который	PRON	_	Case=Ins	34	obl	_	_
+34	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+35	определенной	определенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	микровыражение	микровыражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	для	для	ADP	_	_	39	case	_	_
+39	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+40	сложнее	сложный	ADJ	_	Degree=Cmp	34	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	так	так	ADV	_	Degree=Pos	40	mark	_	_
+43	как	как	SCONJ	_	_	42	fixed	_	_
+44	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	45	amod	_	_
+45	микровыражения	микровыражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	48	nsubj	_	_
+46	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	очень	очень	ADV	_	Degree=Pos	48	advmod	_	_
+48	тяжело	тяжело	ADV	_	Degree=Pos	49	advmod	_	_
+49	отличить	отличать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	40	advcl	_	_
+50	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	52	fixed	_	_
+51	от	от	ADP	_	_	52	case	_	_
+52	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	49	obl	_	_
+53	на	на	ADP	_	_	55	case	_	_
+54	статичном	статичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	55	amod	_	_
+55	изображении	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	obl	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 952
+# text = Для того, чтобы упростить эту задачу, авторы работы добавили в алгоритм распознавания фильтр, "усиливающий" все движения, которые произошли в кадре по сравнению с предыдущим.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	упростить	упрощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	добавили	добавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+14	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	фильтр	фильтр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	усиливающий	усиливать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	все	весь	DET	_	Case=Acc|Number=Plur	21	amod	_	_
+21	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которые	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	произошли	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	кадре	кадр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+27	по	по	ADP	_	_	30	case	_	_
+28	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	fixed	_	_
+29	с	с	ADP	_	_	28	fixed	_	_
+30	предыдущим	предыдущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 953
+# text = Таким образом, микровыражение становится более ярко выраженным и алгоритм может сопоставить его с базой и классифицировать скрытую эмоцию как положительную, отрицательную или как удивление.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	микровыражение	микровыражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	более	более	ADV	_	Degree=Cmp	7	advmod	_	_
+7	ярко	ярко	ADV	_	Degree=Pos	8	advmod	_	_
+8	выраженным	выражать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	сопоставить	сопоставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	базой	база	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	классифицировать	классифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+18	скрытую	скрытый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	эмоцию	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	как	как	SCONJ	_	_	21	cc	_	_
+21	положительную	положительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	отрицательную	отрицательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+24	или	или	CCONJ	_	_	26	cc	_	_
+25	как	как	SCONJ	_	_	26	cc	_	_
+26	удивление	удивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 954

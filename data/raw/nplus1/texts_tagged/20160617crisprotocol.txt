@@ -1,0 +1,344 @@
+# text = # newpar
+# sent_id = 5226
+# text = На следующей неделе эксперты Департамента здравоохранения США рассмотрят первую заявку на модификацию генома человека с помощью системы CRISPR/Cas9.
+1	На	на	ADP	_	_	3	case	_	_
+2	следующей	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+4	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	Департамента	Департамент	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	рассмотрят	рассматривать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	заявку	заявка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	модификацию	модификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+18	CRISPR	Crispr	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	/Cas9	/Cas9	NUM	_	_	17	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5227
+# text = В случае одобрения ученые смогут приступить к отработке и испытанию новых методов редактирования ДНК Т-лимфоцитов для борьбы с некоторыми формами рака.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	одобрения	одобрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	приступить	приступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	отработке	отработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	испытанию	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	conj	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	Т-лимфоцитов	Т-лимфоцит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur	20	amod	_	_
+20	формами	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	nmod	_	_
+21	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5228
+# text = Об этом сообщает блог Национальных институтов здоровья(National Institutes of Health, NIH).21 и 22 июня состоится очередное заседание Консультативного комитета по рекомбинантной ДНК (Recombinant DNA Advisory Committee, RAC).
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+4	блог	блог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Национальных	национальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	здоровья(	здоровья(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	National	national	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Institutes	Institutes	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	of	of	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Health	Health	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	NIH).	Nih).	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+14	21	21	NUM	_	_	3	nummod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	22	22	NUM	_	_	14	conj	_	_
+17	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	очередное	очередной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	заседание	заседание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+21	Консультативного	консультативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	комитета	комитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	по	по	ADP	_	_	25	case	_	_
+24	рекомбинантной	рекомбинантный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Recombinant	Recombinant	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+28	DNA	Dna	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Advisory	Advisory	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	Committee	Committee	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	RAC	Rac	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5229
+# text = Эта экспертная комиссия готовит рекомендации по разработке и испытаниям клинических методов, связанных с модификацией или синтезом ДНК.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+2	экспертная	экспертный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	комиссия	комиссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	готовит	готовить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	рекомендации	рекомендация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	разработке	разработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	conj	_	_
+10	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	модификацией	модификация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	синтезом	синтез	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	_
+18	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5230
+# text = Выводы RAC представляются руководству NIH, базовой ассоциации центров американского Департамента здравоохранения.Официальные протоколы, правила и требования по безопасности при работе с рекомбинантной ДНК суммируются в NIH Guidelines, которыми руководствуются исследователи и медики.
+1	Выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	RAC	Raс	ADP	_	_	3	case	_	_
+3	представляются	представляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	руководству	руководство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+5	NIH	Nih	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	базовой	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ассоциации	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+9	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Департамента	Департамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Официальные	официальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	протоколы	протокол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	правила	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	conj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	требования	требование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	conj	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	рекомбинантной	рекомбинантный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+27	суммируются	суммируться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	NIH	Nih	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+30	Guidelines	Guidelines	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	которыми	который	PRON	_	Case=Ins	33	obl	_	_
+33	руководствуются	руководствуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+34	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	медики	медик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 5231
+# text = Последнее обновление NIH Guidelines вышло весной 2016 года.
+1	Последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	обновление	обновление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	NIH	Nih	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Guidelines	Guidelines	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	вышло	выходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	2016	2016	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5232
+# text = Главными изменениями стали упрощенные требования к протоколам по работе с ДНК человека: в частности, на рассмотрение RAC они должны представляться только в некоторых, особо оговоренных случаях.
+1	Главными	главный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	изменениями	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	_
+3	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	упрощенные	упрощять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	требования	требование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	протоколам	протокол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	21	discourse	_	_
+15	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	fixed	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	рассмотрение	рассмотрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	_
+19	RAC	Raс	ADP	_	_	21	case	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+21	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+22	представляться	представляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	21	dep	_	_
+23	только	только	PART	_	_	25	advmod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	29	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	особо	особо	ADV	_	Degree=Pos	28	advmod	_	_
+28	оговоренных	оговоренный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	conj	_	_
+29	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5233
+# text = Несколько таких заявок комитет рассмотрит и на ближайшем заседании.Эдвард Штадтмайер (Edward Stadtmauer) из Пенсильванского университета представитэкспертам протокол, созданный совместно с крупным исследователем ракаКарлом Джуном (Carl June).
+1	Несколько	несколько	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	заявок	заявка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	комитет	комитет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	рассмотрит	рассматривать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	и	и	PART	_	_	9	advmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	ближайшем	близкий	ADJ	_	Case=Loc|Degree=Sup|Gender=Neut|Number=Sing	9	amod	_	_
+9	заседании.	заседании.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	Эдвард	Эдвард	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+11	Штадтмайер	Штадтмайдер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Edward	Edward	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	Stadtmauer	Stadtmauer	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	Пенсильванского	Пенсильванский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+19	представитэкспертам	представитэксперт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+20	протокол	протокол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	созданный	создавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	совместно	совместно	ADV	_	Degree=Pos	22	advmod	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	крупным	крупный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	исследователем	исследователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+27	ракаКарлом	ракаКарл	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	appos	_	_
+28	Джуном	Джун	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Carl	carl	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+31	June	June	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 5234
+# text = Еще несколько лет назад его команда сумела модифицировать Т-лимфоциты, внеся в их геном ДНК рецепторов, который позволяют атаковать клетки злокачественных опухолейи ВИЧ.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+4	назад	назад	ADV	_	Degree=Pos	3	advmod	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	сумела	уметь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	модифицировать	модифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	Т-лимфоциты	Т-лимфоцит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	внеся	внести	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+15	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	который	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	атаковать	атаковать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	злокачественных	злокачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	опухолейи	опухолейя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	ВИЧ	вич	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5235
+# text = С помощью нового метода CRISPR/Cas9 предлагается внести изменения в ДНК Т-клеток с тем, чтобы они могли действовать против клеток миеломы, меланомы и саркомы.
+1	С	с	ADP	_	_	4	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+5	CRISPR	Crispr	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	/Cas9	/Cas9	NUM	_	_	5	nummod	_	_
+7	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	внести	вносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj:pass	_	_
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+12	Т-клеток	Т-клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+18	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+19	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	против	против	ADP	_	_	21	case	_	_
+21	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+22	миеломы	миелома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	меланомы	меланома	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	саркомы	сарком	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5236
+# text = Выделенные из организма больного, модифицированные и снова инъецированные в его кровь, такие лимфоциты позволят иммунной системе активно бороться с опухолью.
+1	Выделенные	выделять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	больного	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	модифицированные	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	снова	снова	ADV	_	Degree=Pos	9	advmod	_	_
+9	инъецированные	инъецировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	такие	такой	DET	_	Case=Nom|Number=Plur	15	amod	_	_
+15	лимфоциты	лимфоцита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+16	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+17	иммунной	иммунный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+19	активно	активно	ADV	_	Degree=Pos	20	advmod	_	_
+20	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	опухолью	опухоль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5237
+# text = Однако прежде чем такое лечение станет возможным, необходимо провести дополнительные исследования и всесторонние испытания -- после того, как эту работу одобрит RAC.Роман Фишман
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	прежде	прежде	ADV	_	Degree=Pos	6	advmod	_	_
+3	чем	что	SCONJ	_	_	2	fixed	_	_
+4	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+5	лечение	лечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	_
+10	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	всесторонние	всесторонний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	conj	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	после	после	ADP	_	_	18	case	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	как	как	SCONJ	_	_	18	mark	_	_
+21	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
+22	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+23	одобрит	одобрять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	advcl	_	_
+24	RAC.	RAC.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+25	Роман	роман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+26	Фишман	Фишман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	_
+
+# newpar
+# sent_id = 5238

@@ -1,0 +1,105 @@
+# text = # newpar
+# sent_id = 990
+# text = Палеонтологи обнаружили на юге Бразилии новый вид ископаемой рептилии, жившей 250 миллионов лет назад.
+1	Палеонтологи	палеонтолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	юге	юг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Бразилии	Бразилия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+8	ископаемой	ископаемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	рептилии	рептилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	жившей	жить	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+12	250	250	NUM	_	_	13	nummod	_	_
+13	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	назад	назад	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 991
+# text = Об этой находке сообщает журнал Scientific Reports.
+1	Об	о	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_
+3	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	Scientific	Scientific	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Reports	reports	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 992
+# text = Рептилия, названная учеными Teyujagua paradoxa, была найдена в штате Рио-Гранди-ду-Сул командой исследователей из Федерального университета Пампы.
+1	Рептилия	Рептилия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	названная	называть	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl:agent	_	_
+5	Teyujagua	Teyujagua	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	paradoxa	paradoxa	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	найдена	находить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	Рио-Гранди	Рио-Гранди	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	ду-Сул	ду-Сула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+15	командой	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	_
+16	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	из	из	ADP	_	_	19	case	_	_
+18	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+20	Пампы	Пампа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 993
+# text = Идентифицировать новый вид палеонтологам позволил окаменелый череп, который достаточно хорошо сохранился в породах триасового периода.
+1	Идентифицировать	идентифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+2	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	палеонтологам	палеонтолог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+5	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	окаменелый	окаменелый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	череп	череп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	достаточно	достаточно	ADV	_	Degree=Pos	12	advmod	_	_
+11	хорошо	хорошо	ADV	_	Degree=Pos	12	advmod	_	_
+12	сохранился	сохраняться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	породах	породи	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+15	триасового	триасовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 994
+# text = По мнению ученых, Teyujagua paradoxa, что означает "свирепая ящерица", жила после массового пермского вымирания, случившегося 252 миллиона лет назад.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Teyujagua	Teyujagua	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	paradoxa	paradoxa	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	PRON	_	Case=Nom	9	nsubj	_	_
+9	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	свирепая	свирепый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	ящерица	ящерица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	жила	жить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+16	после	после	ADP	_	_	19	case	_	_
+17	массового	массовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+18	пермского	пермский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	вымирания	вымирание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	случившегося	случаться	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	24	amod	_	_
+22	252	252	NUM	_	_	23	nummod	_	_
+23	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nummod:gov	_	_
+24	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+25	назад.	назадалее	ADV	_	Degree=Pos	0	advmod	_	_
+
+# newpar
+# sent_id = 995

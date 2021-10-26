@@ -1,0 +1,73 @@
+# text = # newpar
+# sent_id = 3692
+# text = Британские иавстралийские ученые обнаружили, что рыбы способны различать человеческие лица.
+1	Британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	иавстралийские	иавстралийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	рыбы	рыб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	_
+9	различать	различать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	человеческие	человеческой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	лица	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3693
+# text = Результаты работы опубликованы в журнале Scientific Reports.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Scientific	Scientific	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Reports	reports	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3694
+# text = Сотрудники Оксфордского университета и Университета Квинсленда вБрисбене выбрали для проведения экспериментов пятнистого брызгуна (Toxotes chatareus).
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	Оксфордского	оксфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	Квинсленда	Квинсленд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	вБрисбене	вБрисбене	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	пятнистого	пятнистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	брызгуна	брызгун	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Toxotes	Toxotes	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	chatareus	chatareus	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3695
+# text = Эта рыба во время охоты сбивает насекомых снависающих ветвей струей воды, что требует острого зрения иразвитого зрительного анализатора.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	рыба	рыба	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	во	во	ADP	_	_	5	case	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	охоты	охота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+6	сбивает	сбивавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	насекомых	насекомое	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+8	снависающих	снависать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+9	ветвей	ветво	ADV	_	Degree=Cmp	8	advmod	_	_
+10	струей	струий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	острого	острый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+17	иразвитого	иразвитый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	зрительного	зрительной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	анализатора	анализатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 3696

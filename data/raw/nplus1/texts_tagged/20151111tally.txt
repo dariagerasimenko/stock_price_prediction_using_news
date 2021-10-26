@@ -1,0 +1,201 @@
+# text = # newpar
+# sent_id = 297
+# text = Компания Simple Robotics разработала автономного робота для инспекции стеллажей с товарами в магазинах.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Simple	Simple	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Robotics	Robotics	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	автономного	автономный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	инспекции	инспекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	стеллажей	стеллажь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	товарами	товар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 298
+# text = Кратко о возможностях робота Tally пишетMIT Technology Review..Робот самостоятельно передвигается при помощи колесной платформы, четыре камеры позволяют сканировать полки по обе стороны от робота на высоте до 2,4 метров.
+1	Кратко	кратко	ADV	_	Degree=Pos	3	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	возможностях	возможность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+4	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Tally	Tally	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	пишетMIT	пишетmit	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Technology	technology	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Review.	review.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+9	.Робот	.Робота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	самостоятельно	самостоятельно	ADV	_	Degree=Pos	11	advmod	_	_
+11	передвигается	передвигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	при	при	ADP	_	_	15	case	_	_
+13	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
+14	колесной	колесный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	четыре	четыре	NUM	_	Case=Nom	18	nummod:gov	_	_
+18	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+20	сканировать	сканировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	полки	полк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	по	по	ADP	_	_	24	case	_	_
+23	обе	оба	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	24	nummod:gov	_	_
+24	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	obl	_	_
+29	до	до	ADP	_	_	31	case	_	_
+30	2,4	2,4	NUM	_	_	31	nummod	_	_
+31	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 299
+# text = Tally спроектирован для передвижения по торговому залу, избегает столкновений с препятствиями и может обращает собирает информацию о количестве товара на полке, наличии запасов на складе и правильности указанной цены.Передвигается робот по заранее заданной карте торгового зала.
+1	Tally	Tally	PROPN	_	Foreign=Yes	2	nsubj:pass	_	_
+2	спроектирован	проектировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	торговому	торговый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	залу	зал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	избегает	избегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+10	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nsubj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	препятствиями	препятствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+15	обращает	обращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	собирает	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	amod	_	_
+17	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+20	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	полке	полка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nsubj	_	_
+25	запасов	запас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	складе	склад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	правильности	правильность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	conj	_	_
+30	указанной	указывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+31	цены.	цены.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	30	obl:agent	_	SpaceAfter=No
+32	Передвигается	передвигаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+33	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+34	по	по	ADP	_	_	37	case	_	_
+35	заранее	заранее	ADV	_	Degree=Pos	36	advmod	_	_
+36	заданной	задавать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	amod	_	_
+37	карте	карта	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	32	obl	_	_
+38	торгового	торговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	зала	зал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 300
+# text = При этом он проверяет правильность расположения стеллажей.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	проверяет	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	правильность	правильность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	расположения	расположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	стеллажей	стеллажь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 301
+# text = На осмотр магазина самообслуживания средних размеров Tally потратит около одного часа.
+1	На	на	ADP	_	_	2	case	_	_
+2	осмотр	осмотр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+3	магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	самообслуживания	самообслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	средних	средний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	Tally	Tally	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	потратит	тратить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	около	около	ADP	_	_	11	case	_	_
+10	одного	один	NUM	_	Case=Gen|Gender=Masc	11	nummod	_	_
+11	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 302
+# text = Для больших магазинов автономная система может состоять из нескольких роботов, передвижение которых координирует один сервер.
+1	Для	для	ADP	_	_	3	case	_	_
+2	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+4	автономная	автономный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	нескольких	несколько	NUM	_	Case=Gen	10	nummod	_	_
+10	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	передвижение	передвижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+14	координирует	координировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+15	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	16	nummod:gov	_	_
+16	сервер	сервер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 303
+# text = По словам разработчиков, подобный робот может помочь как небольшим продуктовым магазинам, так и крупным торговым сетям, поскольку робот справляется с инспекцией стеллажей значительно быстрее человека.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	как	как	SCONJ	_	_	12	cc	_	_
+10	небольшим	небольшой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+11	продуктовым	продуктовый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	магазинам	магазин	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	18	advmod	_	_
+15	и	и	PART	_	_	18	advmod	_	_
+16	крупным	крупный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+17	торговым	торговый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	сетям	сеть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	0	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+21	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	инспекцией	инспекция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+25	стеллажей	стеллажь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	значительно	значительно	ADV	_	Degree=Pos	27	advmod	_	_
+27	быстрее	быстро	ADV	_	Degree=Cmp	22	advmod	_	_
+28	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 304
+# text = Тем не менее, Tally может только собирать информацию, для выкладки товара и замены ценника по-прежнему требуется человек.Николай Воронцов
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Tally	Tally	PROPN	_	Foreign=Yes	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	только	только	PART	_	_	8	advmod	_	_
+8	собирать	собирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	выкладки	выкладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+16	ценника	ценник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	по-прежнему	по-прежнему	ADV	_	Degree=Pos	18	advmod	_	_
+18	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+19	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+22	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
+
+# newpar
+# sent_id = 305

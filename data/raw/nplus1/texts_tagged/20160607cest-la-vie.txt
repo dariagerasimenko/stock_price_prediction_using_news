@@ -1,0 +1,88 @@
+# text = # newpar
+# sent_id = 3592
+# text = Австралийский фотограф Тим Сэмьюэл (Tim Samuel) снял живую рыбу, которая находилась внутри проглотившей еепрозрачной медузы.
+1	Австралийский	австралийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	фотограф	фотограф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	Тим	Тимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	Сэмьюэл	Сэмьюэл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Tim	Tim	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Samuel	Samuel	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	снял	снимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	живую	живой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	рыбу	рыба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+15	внутри	внутри	ADV	_	Degree=Pos	14	advmod	_	_
+16	проглотившей	проглотить	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	amod	_	_
+17	еепрозрачной	еепрозрачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	медузы	медуза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3593
+# text = Фотографии онопубликовал насвоей странице вInstagram.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+2	онопубликовал	онопубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	насвоей	насвой	DET	_	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	странице	страница	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	вInstagram	вInstagram	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3594
+# text = Необычное зрелище попало вобъектив Сэмьюэла, когда онзанимался подводной съемкой свидеооператором Фрэнни Пламридж (Franny Plumridge) упобережья города Байрон-Бэй неподалеку отграницы между штатами Новый Южный Уэльс иКвинсленд.
+1	Необычное	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	зрелище	зрелище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	попало	попать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вобъектив	вобъектив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	Сэмьюэла	Сэмьюэл	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	когда	когда	SCONJ	_	_	3	mark	_	_
+8	онзанимался	онзаниматься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+9	подводной	подводный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	съемкой	съемка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	свидеооператором	свидеооператор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+12	Фрэнни	Фрэнни	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	Пламридж	Пламридж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Franny	Franny	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Plumridge	Plumridge	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	упобережья	упобережье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+19	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Байрон-Бэй	Байрон-Бэй	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+21	неподалеку	неподалеку	ADV	_	Degree=Pos	8	advmod	_	_
+22	отграницы	отграница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+23	между	между	ADP	_	_	24	case	_	_
+24	штатами	штат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	_
+25	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	Южный	южный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	Уэльс	Уэльс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+28	иКвинсленд	иКвинсленд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3595
+# text = Как говорится вподписи кфотографиям, несмотря нато, что рыба находилась внутри медузы, она управляла направлением движения.
+1	Как	как	ADV	_	Degree=Pos	2	mark	_	_
+2	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	вподписи	вподпись	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	кфотографиям	кфотография	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	несмотря	несмотря	ADV	_	Polarity=Neg	7	case	_	_
+7	нато	нато	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	2	mark	_	_
+10	рыба	рыба	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+12	внутри	внутри	ADV	_	Degree=Pos	13	advmod	_	_
+13	медузы	медуза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+16	управляла	управлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	направлением	направленье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+18	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 3596

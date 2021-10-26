@@ -1,0 +1,401 @@
+# text = # newpar
+# sent_id = 5490
+# text = Американским трансплантологам удалось добиться рекордной продолжительности жизни при межвидовой пересадке сердца.
+1	Американским	американский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	трансплантологам	трансплантолог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	nsubj	_	_
+5	рекордной	рекордный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	межвидовой	межвидовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	пересадке	пересадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+11	сердца	сердце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5491
+# text = Один из павианов сосвиным органом прожил почти три года.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	6	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	павианов	павиан	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	сосвиным	сосвиный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	органом	орган	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+6	прожил	проживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	почти	почти	ADV	_	Degree=Pos	8	advmod	_	_
+8	три	три	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5492
+# text = Описание методики ирезультаты опубликованы вNature Communications.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	ирезультаты	ирезультат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вNature	вNature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5493
+# text = Сотрудники Национальных институтов здоровья США (NIH) работают над совершенствованием методики ксенотрансплантации (пересадки органов между разными биологическими видами) более 10лет.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	Национальных	национальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	appos	_	_
+6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	NIH	Nih	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	над	над	ADP	_	_	11	case	_	_
+11	совершенствованием	совершенствование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	ксенотрансплантации	ксенотрансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	пересадки	пересадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	parataxis	_	_
+16	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	между	между	ADP	_	_	20	case	_	_
+18	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+19	биологическими	биологический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	видами	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	более	более	ADV	_	Degree=Cmp	23	advmod	_	_
+23	10лет	10год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5494
+# text = Одним изсерьезных прорывов стало использование трансгенных свиней, укоторых отсутствует ген фермента 1,3-галактозилтрансферазы (gal), располагающегося навнутренней оболочке сосудов-- выработка антигенов кнему приводит кобразованию тромбов.
+1	Одним	один	NUM	_	Case=Ins|Gender=Neut	4	nummod	_	_
+2	изсерьезных	изсерьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	прорывов	прорыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	трансгенных	трансгенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	свиней	свинья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	укоторых	укоторый	PRON	_	Case=Acc	10	obj	_	_
+10	отсутствует	отсутствевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+11	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	фермента	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	1,3-галактозилтрансферазы	1,3-галактозилтрансфераза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	gal	gal	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	располагающегося	располагаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	13	amod	_	_
+19	навнутренней	навнутренний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	оболочке	оболочка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+21	сосудов	сосуд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	выработка	выработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	антигенов	антиген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	кнему	окн	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
+27	приводит	приводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+28	кобразованию	кобразование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	obl	_	_
+29	тромбов	тромб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5495
+# text = Вописываемом эксперименте использовались органы животных, которые нетолько лишены gal, ноиэкспрессируют человеческие тромбомодулин, участвующий всвертывании крови, ибелок CD46, регулирующий врожденный иммунитет (вчастности, систему комплемента).
+1	Вописываемом	Вописываемый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	органы	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+8	нетолько	нетолько	ADV	_	Degree=Pos	9	advmod	_	_
+9	лишены	лишать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10	gal	gal	NOUN	_	_	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ноиэкспрессируют	ноиэкспрессировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	человеческие	человеческий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	тромбомодулин	тромбомодулин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	участвующий	участвовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+17	всвертывании	всвертывание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+18	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	ибелок	ибелок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
+21	CD46	CD46	NUM	_	_	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	регулирующий	регулировать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+24	врожденный	врожденный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	иммунитет	иммунитет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	вчастности	вчастность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	conj	_	_
+30	комплемента	комплемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 5496
+# text = Эти вещества уменьшают соответственно тромбообразование втрансплантате иреакцию иммунитета на чужеродный орган.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	уменьшают	уменьшавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	соответственно	соответственно	ADV	_	Degree=Pos	3	advmod	_	_
+5	тромбообразование	тромбообразование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	втрансплантате	втрансплантате	PART	_	_	7	advmod	_	_
+7	иреакцию	иреакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	чужеродный	чужеродный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	орган	орган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5497
+# text = Исследователи неставили задачу добиться полной функциональности сердец-- они разрабатывали метод надежного приживления трансплантата.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	неставили	неставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	dep	_	_
+5	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	функциональности	функциональность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	сердец	сердеца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+10	разрабатывали	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+11	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	надежного	надежной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	приживления	приживление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	трансплантата	трансплантат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5498
+# text = Поэтому органы трансгенных свиней пересадили в брюшную полость пяти павианам анубисам (Papio anubis), неудаляя ихсобственные сердца.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	5	advmod	_	_
+2	органы	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	трансгенных	трансгенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	свиней	свинья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	пересадили	пересаживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	брюшную	брюшной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	полость	полость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+9	пяти	пять	NUM	_	Case=Gen	10	nummod	_	_
+10	павианам	павиан	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+11	анубисам	анубис	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	0	appos	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Papio	Papio	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	anubis	anubis	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	неудаляя	неудалять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+18	ихсобственные	ихсобственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	сердца	сердце	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5499
+# text = Также обезьянам имплантировали телеметрические датчики для регистрации ЭКГ исократимости пересаженных органов, атакже температуры тела.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	обезьянам	обезьянин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	имплантировали	имплантировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	телеметрические	телеметрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	датчики	датчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	регистрации	регистрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	ЭКГ	экг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	исократимости	исократимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	пересаженных	пересажеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	атакже	атакже	CCONJ	_	_	14	cc	_	_
+14	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+15	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5500
+# text = Модуляцию иммунитета животных-реципиентов начали свведения иммуноглобулина против клеток вилочковой железы (онаже тимус, орган регуляции клеточного иммунитета) иантител кCD20 (антигенам В-лимфоцитов).
+1	Модуляцию	Модуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+2	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	реципиентов	реципиент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	начали	начивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	свведения	свведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+8	иммуноглобулина	иммуноглобулин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	против	против	ADP	_	_	10	case	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	вилочковой	вилочковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	железы	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	онаже	онаже	PART	_	_	15	advmod	_	_
+15	тимус	тимус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	орган	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+18	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	клеточного	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	иантител	иантитело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+23	кCD20	кCD20	NUM	_	_	22	nummod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	антигенам	антиген	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	23	parataxis	_	_
+26	В-лимфоцитов	В-лимфоцит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5501
+# text = Поддерживающую терапию, направленную напрофилактику отторжения трансплантата, проводили иммуносупрессантом микофенолата мофетилом и антителами кCD40-- важнейшему белку активации Т-лимфоцитов-хелперов, которые запускают разнообразные иммунные реакции вответ наконтакт сантигенами.
+1	Поддерживающую	поддерживать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	направленную	направлять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	напрофилактику	напрофилактика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	отторжения	отторжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	трансплантата	трансплантат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	иммуносупрессантом	иммуносупрессант	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	микофенолата	микофенолат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	мофетилом	мофетил	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	антителами	антител	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	conj	_	_
+15	кCD40-	кCD40-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	важнейшему	важный	ADJ	_	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	_
+18	белку	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+19	активации	активация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	Т-лимфоцитов-хелперов	Т-лимфоцитов-хелпер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	запускают	запускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+24	разнообразные	разнообразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+25	иммунные	иммунный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	реакции	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+27	вответ	вотть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	наконтакт	наконтакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	сантигенами	сантиген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5502
+# text = Получавшие такую терапию павианы с сердцами трансгенных свиней жили вразы дольше животных изпредыдущих экспериментов.
+1	Получавшие	лучать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	amod	_	_
+2	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	павианы	павиать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	conj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	сердцами	сердец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+7	трансгенных	трансгенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	свиней	свинья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	вразы	враз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	дольше	долго	ADV	_	Degree=Cmp	12	advmod	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+13	изпредыдущих	изпредыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5503
+# text = Медианная продолжительность жизни обезьян после операции составила 298дней, средняя-- 433дня, амаксимальная-- 945дней, или более 2,5 года.
+1	Медианная	Медианный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	обезьян	обезьянин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	298дней	298дний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	orphan	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	433дня	433дня	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	orphan	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	амаксимальная	амаксимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	compound	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	945дней	945день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	или	или	CCONJ	_	_	21	cc	_	_
+21	более	более	ADV	_	Degree=Cmp	0	conj	_	_
+22	2,5	2,5	NUM	_	_	23	nummod	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5504
+# text = Попытки прекратить терапию антителами к CD40 успехом неувенчались.
+1	Попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+2	прекратить	прекращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	dep	_	_
+3	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	антителами	антител	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	CD40	CD40	NUM	_	_	7	nummod	_	_
+7	успехом	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+8	неувенчались	неувенчаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5505
+# text = Снижение ихдозы через 100 дней игод после операции быстро приводило квыработке большого количества антител иотторжению трансплантата.
+1	Снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+2	ихдозы	ихдоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	через	через	ADP	_	_	5	case	_	_
+4	100	100	NUM	_	_	5	nummod	_	_
+5	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	игод	игода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+9	быстро	быстро	ADV	_	Degree=Pos	10	advmod	_	_
+10	приводило	приводить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	квыработке	квыработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+12	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	антител	антитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+15	иотторжению	иотторжение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+16	трансплантата	трансплантат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5506
+# text = Конечная цель экспериментов по ксенотрансплантации-- разработать методику, позволяющую пересаживать людям органы отподходящих анатомически животных (впервую очередь, свиней).
+1	Конечная	конечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+4	по	по	ADP	_	_	3	case	_	_
+5	ксенотрансплантации	ксенотрансплантация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+9	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	пересаживать	пересаживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+14	органы	орган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+15	отподходящих	отподходить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+16	анатомически	анатомически	ADV	_	Degree=Pos	15	advmod	_	_
+17	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	впервую	впервой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	свиней	свинья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5507
+# text = Такая методика позволилабы помочь многим пациентам, которые умирают, недождавшись донорского органа.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	методика	методика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	позволилабы	позволилаба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+5	многим	многие	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	умирают	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	недождавшись	недождаться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	9	advcl	_	_
+12	донорского	донорский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	органа	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5508
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5509

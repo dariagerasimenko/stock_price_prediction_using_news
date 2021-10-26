@@ -1,0 +1,123 @@
+# text = # newpar
+# sent_id = 673
+# text = Франклин Фелбер, инженер компании Starmark Inc., разработал акустический радар, способный обнаружить безбилетных пассажиров даже сквозь металлические стенки грузовых контейнеров.
+1	Франклин	Франклин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	Фелбер	Фелбер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Starmark	Starmark	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Inc.	Inc.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	акустический	акустический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	радар	радар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	безбилетных	безбилетный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	даже	даже	PART	_	_	20	advmod	_	_
+18	сквозь	сквозь	ADP	_	_	20	case	_	_
+19	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	стенки	стенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
+21	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	контейнеров	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 674
+# text = Его чувствительность позволяет определять присутствие "зайцев" даже по движению их грудной клетки при дыхании.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	присутствие	присутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	зайцев	заяц	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	даже	даже	PART	_	_	11	advmod	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	движению	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	obl	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+13	грудной	грудной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	дыхании	дыхание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 675
+# text = Описание устройства доступнона сайте arXiv.org, а кратко с его функционалом можно ознакомиться в материале издания MIT Technology Review.Устройство состоит из молоточка, ударяющего по специальной металлической пластине и порождающего акустические волны определенной частоты, и приемника.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	доступнона	доступнон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	сайте	сайть	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	arXiv.org	arXiv.org	NOUN	_	_	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	12	cc	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	12	advmod	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	функционалом	функционал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+12	можно	можно	ADV	_	Degree=Pos	4	conj	_	_
+13	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	nsubj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	MIT	Mit	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Technology	technology	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Review.Устройство	Review.Устройство	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+20	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	молоточка	молоточек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	ударяющего	ударять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+25	по	по	ADP	_	_	28	case	_	_
+26	специальной	специальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+27	металлической	металлический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	пластине	пластина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	порождающего	порождать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+31	акустические	акустический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	_
+32	волны	волна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	30	obj	_	_
+33	определенной	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	приемника	приемник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 676
+# text = Если пластина соединена с металлическими стенками контейнера напрямую, то она передает эти колебания сквозь упругую среду во внутреннее пространство, где они, многократно отражаясь, регистрируются приемником.
+1	Если	если	SCONJ	_	_	12	mark	_	_
+2	пластина	пластина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	соединена	соединять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	металлическими	металлический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	стенками	стенка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+7	контейнера	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	напрямую	напрямую	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	то	то	SCONJ	_	_	3	cc	_	_
+11	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+12	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	эти	этот	DET	_	Case=Acc|Number=Plur	14	amod	_	_
+14	колебания	колебание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+15	сквозь	сквозь	ADP	_	_	17	case	_	_
+16	упругую	упругий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+18	во	в	ADP	_	_	20	case	_	_
+19	внутреннее	внутренний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	где	где	ADV	_	Degree=Pos	28	advmod	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	28	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	многократно	многократно	ADV	_	Degree=Pos	26	advmod	_	_
+26	отражаясь	отражаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	28	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	регистрируются	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	acl:relcl	_	_
+29	приемником	приемник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# newpar
+# sent_id = 677

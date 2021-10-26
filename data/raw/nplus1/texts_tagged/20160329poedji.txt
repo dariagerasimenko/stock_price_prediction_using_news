@@ -1,0 +1,116 @@
+# text = # newpar
+# sent_id = 3935
+# text = Просветительский проект "Арзамас", посвященный гуманитарным наукам, выпустил игровое приложение для мобильных устройств, в котором предлагается заполнить пропущенные с стихотворениях слова при помощи пиктограмм.
+1	Просветительский	Просветительский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Арзамас	арзамас	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	посвященный	посвящать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+8	гуманитарным	гуманитарной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	9	amod	_	_
+9	наукам	наука	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	выпустил	выпускать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	игровое	игровый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	котором	который	PRON	_	Case=Loc	20	obl	_	_
+20	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
+21	заполнить	заполнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj:pass	_	_
+22	пропущенные	пропущять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	стихотворениях	стихотворение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	22	obl	_	_
+25	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	при	при	ADP	_	_	28	case	_	_
+27	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	fixed	_	_
+28	пиктограмм	пиктограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3936
+# text = Подробнее можно прочитать на сайте проекта.Первое мобильное приложение проекта "Арзамас" называется Emoji Poetry.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	проекта.	проектаент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	Первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	мобильное	мобильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+10	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Арзамас	Арзамас	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+15	Emoji	Emoji	PROPN	_	Foreign=Yes	14	nsubj	_	_
+16	Poetry	Poetry	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3937
+# text = Это игра, в которой необходимо при помощи эмодзи вставить слова, пропущенные в произведениях знаменитых поэтах.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	которой	который	PRON	_	Case=Loc	6	nmod	_	_
+6	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	acl:relcl	_	_
+7	при	при	ADP	_	_	9	case	_	_
+8	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	эмодзи	эмодзь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+10	вставить	вставать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+11	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	пропущенные	пропущять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	произведениях	произведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	obl	_	_
+16	знаменитых	знаменитый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	поэтах	поэт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3938
+# text = В приложении больше сотни стихов на русском и английском языках -- в качестве примеров указаны Пушкин, Цветаева, Байрон, Шекспир, Лермонтов, Блок Мандельштам, Есенин, Киплинг, Маяковский, Йейтс и другие.
+1	В	в	ADP	_	_	2	case	_	_
+2	приложении	приложение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+3	больше	много	NUM	_	_	4	nummod	_	_
+4	сотни	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	стихов	стихи	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+6	на	на	ADP	_	_	10	case	_	_
+7	русском	русский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	английском	английский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	_
+10	языках	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	примеров	пример	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+15	указаны	указывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+16	Пушкин	пушкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Цветаева	Цветаева	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	Байрон	Байрон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Шекспир	Шекспир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Лермонтов	Лермонт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Блок	блок	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+27	Мандельштам	Мандельштам	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Есенин	Есенин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	Киплинг	Киплинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	Маяковский	маяковский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	Йейтс	Йейтс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	другие.	другибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+
+# newpar
+# sent_id = 3939

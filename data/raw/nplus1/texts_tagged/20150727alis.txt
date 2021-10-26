@@ -1,0 +1,272 @@
+# text = # newpar
+# sent_id = 2370
+# text = Перспективные истребители F-35B Lightning II, разрабатываемые для Морской пехоты США, получили важное программное обновление, которое позволит им отслеживать состояние всех узлов и агрегатов,сообщаетMarineCorpsTimes.
+1	Перспективные	перспективный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+3	F-35B	F-35b	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Lightning	Lightning	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	II	ii	NUM	_	_	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	разрабатываемые	разрабатывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	важное	важной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	обновление	обновление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которое	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	19	obl	_	_
+21	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+22	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	всех	весь	DET	_	Case=Gen|Number=Plur	24	amod	_	_
+24	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	агрегатов	агрегат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+27	,сообщаетMarineCorpsTimes	,сообщаетMarineCorpsTimes	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2371
+# text = Благодаря этой модернизации все самолеты будут автоматически уведомлять техников и производителей запчастей обо всех необходимых ремонтных работах или требуемых заменах деталей.Перед полетом на F-35B летчик создает список полетных заданий, который затем загружается в бортовой компьютер истребителя.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+4	все	весь	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	автоматически	автоматически	ADV	_	Degree=Pos	8	advmod	_	_
+8	уведомлять	уведомлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+9	техников	техник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	производителей	производитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+12	запчастей	запчасть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	обо	о	ADP	_	_	17	case	_	_
+14	всех	весь	DET	_	Case=Loc|Number=Plur	17	amod	_	_
+15	необходимых	необходимый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+16	ремонтных	ремонтный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	требуемых	требовать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	17	conj	_	_
+20	заменах	замен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_
+21	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Перед	перед	ADP	_	_	24	case	_	_
+24	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	F-35B	F-35b	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	летчик	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+29	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+30	полетных	полетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	заданий	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	который	который	PRON	_	Case=Nom	35	nsubj	_	_
+34	затем	затем	ADV	_	Degree=Pos	35	advmod	_	_
+35	загружается	загружаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	31	acl:relcl	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	бортовой	бортовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
+39	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 2372
+# text = В полете новое программное обеспечение отслеживает состояние всех используемых узлов и агрегатов и вычисляет остающуюся продолжительность их жизни.
+1	В	в	ADP	_	_	2	case	_	_
+2	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	отслеживает	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	всех	весь	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+9	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	агрегатов	агрегат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	вычисляет	вычислявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	остающуюся	остаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	16	amod	_	_
+16	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	18	nmod	_	_
+18	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2373
+# text = Во время обслуживания на земле оно автоматически формирует список запчастей, которые в ближайшее время могут потребовать замены.Этот же список в ходе обслуживания автоматически отправляется 121-й эскадрилье Морской пехоты в Юме штата Аризона, откуда передается производителям.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	8	nsubj	_	_
+7	автоматически	автоматически	ADV	_	Degree=Pos	8	advmod	_	_
+8	формирует	формировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	запчастей	запчасть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+17	потребовать	потребовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	замены.	замены.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	Этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+20	же	же	PART	_	_	19	advmod	_	_
+21	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	fixed	_	_
+24	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+25	автоматически	автоматически	ADV	_	Degree=Pos	26	advmod	_	_
+26	отправляется	отправляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+27	121-й	121-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	эскадрилье	эскадрилье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+29	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	Юме	Юм	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+33	штата	штат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+34	Аризона	Аризон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	откуда	откуда	ADV	_	Degree=Pos	37	advmod	_	_
+37	передается	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+38	производителям	производитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	37	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2374
+# text = Благодаря этому военные будут всегда иметь под рукой запчасти, необходимые для каждого конкретного самолета.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+3	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	всегда	всегда	ADV	_	Degree=Pos	6	advmod	_	_
+6	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	рукой	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	запчасти	запчасть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+12	для	для	ADP	_	_	15	case	_	_
+13	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	конкретного	конкретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2375
+# text = В целом вся система, включая бортовую самодиагностику F-35B, получила название ALIS.Ранеестало известно, что Морская пехота США примет истребители F-35B на вооружение с восемью неисправленными ошибками в программном обеспечении.Недоработки в коде касаются функционирования систем сбора и обработки данных с различных сенсоров самолета, системы радиоэлектронной борьбы, а также средств связи с наземными пунктами и другими самолетами.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	включая	включая	ADV	_	Degree=Pos	15	advmod	_	_
+7	бортовую	бортовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	самодиагностику	самодиагностика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	F-35B	F-35b	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+12	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	ALIS.	alis.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	nmod	_	SpaceAfter=No
+14	Ранеестало	ранеестало	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	nmod	_	_
+15	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	nmod	_	_
+21	примет	приимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	advcl	_	_
+22	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+23	F-35B	F-35b	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	_
+26	с	с	ADP	_	_	29	case	_	_
+27	восемью	восемь	NUM	_	Case=Ins	29	nummod	_	_
+28	неисправленными	неисправленный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	ошибками	ошибка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	25	nmod	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	Недоработки	недоработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	коде	код	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+37	касаются	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+38	функционирования	функционирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	obl	_	_
+39	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+40	сбора	сбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	conj	_	_
+43	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	42	nmod	_	_
+44	с	с	ADP	_	_	43	case	_	_
+45	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+46	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	_
+47	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	conj	_	_
+50	радиоэлектронной	радиоэлектронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	а	а	CCONJ	_	_	55	cc	_	_
+54	также	также	ADV	_	Degree=Pos	55	advmod	_	_
+55	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	conj	_	_
+56	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	55	nmod	_	_
+57	с	с	ADP	_	_	56	fixed	_	_
+58	наземными	наземный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	59	amod	_	_
+59	пунктами	пункт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	55	nmod	_	_
+60	и	и	CCONJ	_	_	62	cc	_	_
+61	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	62	amod	_	_
+62	самолетами.	самолетамианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	59	conj	_	_
+
+# sent_id = 2376
+# text = В Пентагоне полагают, что во время различных операций Морской пехоты эти ошибки проявляться не будут.К настоящему времени Морская пехота США получила 37 истребителей F-35B мелкосерийного производства.
+1	В	в	ADP	_	_	2	case	_	_
+2	Пентагоне	пентагон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	во	во	ADP	_	_	9	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	obl	_	_
+10	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	эти	этот	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+13	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+14	проявляться	проявляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	dep	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	будут.	будуто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	SpaceAfter=No
+17	К	к	ADP	_	_	19	case	_	_
+18	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+20	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	21	nmod	_	_
+23	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+24	37	37	NUM	_	_	25	nummod	_	_
+25	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+26	F-35B	F-35B	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+27	мелкосерийного	мелкосерийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2377
+# text = Эти самолеты планируется принять на вооружение до конца июля 2015 года.
+1	Эти	этот	DET	_	Case=Acc|Number=Plur	2	amod	_	_
+2	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+7	до	до	ADP	_	_	8	case	_	_
+8	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+9	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	2015	2015	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# newpar
+# sent_id = 2378

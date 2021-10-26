@@ -1,0 +1,244 @@
+# text = # newpar
+# sent_id = 5053
+# text = Прототип беспилотного автомобиля, разработанный китайским поисковиком Baidu, успешно прошел испытания на дорогах общего пользования в Пекине.
+1	Прототип	прототип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+2	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+6	китайским	китайский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	поисковиком	поисковик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+8	Baidu	Baidu	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	успешно	успешно	ADV	_	Degree=Pos	11	advmod	_	_
+11	прошел	проходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+15	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Пекине	пекин	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5054
+# text = Об этом сообщается в пресс-релизе компании.Автомобиль, представляющий собой доработанный BMW третьей серии, проехал маршрут от штаб-квартиры Baidu до Олимпийского парка и обратно.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	компании.	компании.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	Автомобиль	автомобиль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	представляющий	представлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	собой	себя	PRON	_	Case=Ins	9	dep	_	_
+11	доработанный	доработать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	BMW	Bmw	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+13	третьей	третий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	проехал	ехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+17	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	штаб-квартиры	штаб-квартира	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+20	Baidu	Baidu	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	до	до	ADP	_	_	23	case	_	_
+22	Олимпийского	олимпийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	парка	парок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	обратно	обратно	ADV	_	Degree=Pos	3	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5055
+# text = Маршрут пролегал через несколько путевых точек, весь путь длиной в 30 километров машина проехала по дорогам общего пользования в полностью автономном режиме.В пути автомобиль продемонстрировал умение самостоятельно выполнять повороты и развороты, менять полосу движения и встраиваться в общий поток при передвижении по развязкам.
+1	Маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	пролегал	пролегать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	через	через	ADP	_	_	6	case	_	_
+4	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+5	путевых	путевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+10	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	30	30	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+14	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	проехала	ехать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+18	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	полностью	полностью	ADV	_	Degree=Pos	22	advmod	_	_
+22	автономном	автономный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	obl	_	_
+23	режиме.	режимбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+24	В	в	ADP	_	_	25	case	_	_
+25	пути	путь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+26	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	продемонстрировал	демонстрировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	_
+28	умение	умение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+29	самостоятельно	самостоятельно	ADV	_	Degree=Pos	30	advmod	_	_
+30	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	dep	_	_
+31	повороты	поворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	развороты	разворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	conj	_	_
+36	полосу	полоса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+37	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	встраиваться	встраиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	30	conj	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	общий	общий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	поток	поток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
+43	при	при	ADP	_	_	44	case	_	_
+44	передвижении	передвижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+45	по	по	ADP	_	_	46	case	_	_
+46	развязкам	развязка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 5056
+# text = При этом на некоторых участках скорость беспилотного автомобиля достигала 100 километров в час.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	5	amod	_	_
+5	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	100	100	NUM	_	_	11	nummod	_	_
+11	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5057
+# text = Как отмечают представители Baidu, передвижение беспилотного автомобиля по дорогам Пекина представляет из себя достаточно сложную задачу из-за высокой интенсивности дорожного движения и зачастую непредсказуемого поведения водителей.Беспилотный автомобиль Baidu опирается на точное определение своего местоположения по заранее загруженной карте.
+1	Как	как	ADV	_	Degree=Pos	12	mark	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+3	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	Baidu	Baidu	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	передвижение	передвижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+7	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	_
+11	Пекина	Пекин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	себя	себя	PRON	_	Case=Gen	12	obl	_	_
+15	достаточно	достаточно	ADV	_	Degree=Pos	16	advmod	_	_
+16	сложную	сложный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+18	из-за	из-за	ADP	_	_	20	case	_	_
+19	высокой	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	интенсивности	интенсивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
+21	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+23	и	и	CCONJ	_	_	31	cc	_	_
+24	зачастую	зачастую	ADV	_	Degree=Pos	31	advmod	_	_
+25	непредсказуемого	непредсказуемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	водителей	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.Беспилотный	.Беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+30	Baidu	Baidu	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	опирается	опираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+32	на	на	ADP	_	_	34	case	_	_
+33	точное	точной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	определение	определение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obl	_	_
+35	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	36	amod	_	_
+36	местоположения	местоположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+37	по	по	ADP	_	_	40	case	_	_
+38	заранее	заранее	ADV	_	Degree=Pos	39	advmod	_	_
+39	загруженной	загружать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	amod	_	_
+40	карте	карта	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 5058
+# text = По словам представителей компании, на данный момент их технология лучше всего подойдет для автомобилей с ограниченной географией передвижения -- например, для маршрутного транспорта.Кроме Baidu разработкой и испытанием беспилотных автомобилей активно занимаются Google и Volvo.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	лучше	хорошо	ADV	_	Degree=Cmp	13	advmod	_	_
+12	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	подойдет	подходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	ограниченной	ограничать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	географией	география	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+19	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	25	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	для	для	ADP	_	_	25	case	_	_
+24	маршрутного	маршрутный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	транспорта.	транспорта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+26	Кроме	Кроме	ADP	_	_	28	case	_	_
+27	Baidu	Baidu	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+28	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	испытанием	испытание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	conj	_	_
+31	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+33	активно	активно	ADV	_	Degree=Pos	34	advmod	_	_
+34	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+35	Google	Google	PROPN	_	Foreign=Yes	34	nsubj	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	Volvo	volvo	PROPN	_	Foreign=Yes	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 5059
+# text = Также в области создания беспилотных и полуавтономных автомобилей ведут работы "КамАЗ", Freightliner, Mercedes и Tesla.
+1	Также	также	CCONJ	_	_	9	cc	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+4	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	полуавтономных	полуавтономный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	conj	_	_
+8	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	КамАЗ	камаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	Freightliner	Freightliner	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	Mercedes	Mercedes	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	Tesla	Tesla	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5060
+# text = Возможности автопилота Tesla недавно даже испытали на дорогах Москвы.Николай Воронцов
+1	Возможности	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+2	автопилота	автопилот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Tesla	Tesla	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	недавно	недавно	ADV	_	Degree=Pos	6	advmod	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	испытали	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+9	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+12	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+
+# newpar
+# sent_id = 5061

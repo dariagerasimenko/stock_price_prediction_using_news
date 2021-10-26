@@ -1,0 +1,313 @@
+# text = # newpar
+# sent_id = 1022
+# text = Сотрудники компании "Яндекс" записали музыкальный альбом в стилистике группы "Гражданская оборона".
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Яндекс	яндекс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	записали	записывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	музыкальный	музыкальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	альбом	альб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	стилистике	стилистика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+11	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Гражданская	гражданский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	оборона	оборона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1023
+# text = Автором текстов, исполненных Иваном Ямщиковым иАлексеем Тихоновым, стала нейросеть.
+1	Автором	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+2	текстов	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исполненных	исполнять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	Иваном	иван	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+6	Ямщиковым	Ямщиков	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	иАлексеем	иАлексей	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	Тихоновым	Тихонов	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1024
+# text = Как пишет Ямщиков вFacebook, идея альбома пришла кним сТихоновым, когда они увидели написанные "нейропоэтом" стихи.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Ямщиков	Ямщиков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	вFacebook	вFacebook	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	пришла	приходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	кним	кний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	сТихоновым	сТихоновой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	когда	когда	SCONJ	_	_	8	mark	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+14	увидели	видеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	написанные	писать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	нейропоэтом	нейропоэт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	стихи	стих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1025
+# text = Наиболее удачные тексты нейросети имели диссоциированный нарратив иэстетику абсурда: "Хармс, кпримеру, унейросетки получался годный, мощный унеё выходил Хармс, авот Александр Сергеевич Пушкин выходил сомнительный".
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	удачные	удачный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	тексты	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	диссоциированный	диссоциированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	нарратив	нарратив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	иэстетику	иэстетика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9	абсурда	абсурд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Хармс	Хармс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	кпримеру	кпримера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	унейросетки	унейросетка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	получался	получаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+18	годный	годный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	мощный	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	унеё	унее	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+22	выходил	выходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+23	Хармс	Хармс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	авот	авот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+26	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+27	Сергеевич	сергеевич	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	_
+28	Пушкин	пушкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	выходил	выходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+30	сомнительный	сомнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1026
+# text = Поэтому авторы альбома решили стилизовать его под что-то "достаточно маргинальное", нокультовое ихорошо узнаваемое.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	стилизовать	тилизовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	достаточно	достаточно	ADV	_	Degree=Pos	11	advmod	_	_
+11	маргинальное	маргинальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	нокультовое	нокультовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	_
+15	ихорошо	ихорошо	ADV	_	Degree=Pos	16	advmod	_	_
+16	узнаваемое	узнавать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1027
+# text = Выбор быстро остановился на творчестве Егора Летова.
+1	Выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	быстро	быстро	ADV	_	Degree=Pos	3	advmod	_	_
+3	остановился	останавливаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	творчестве	творчество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	Егора	егор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Летова	Летов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1028
+# text = Тихонов сгенерировал тексты, аЯмщиков взялся замузыку, скоторой возникли определенные сложности.
+1	Тихонов	Тихонов	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сгенерировал	сгенерировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	тексты	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	аЯмщиков	аЯмщик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+6	взялся	взяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+7	замузыку	замузыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	скоторой	скотора	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+10	возникли	возникать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	определенные	определенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	сложности	сложность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1029
+# text = "Во-первых, оказалось, что любой современный фузз (аналоговыйли, цифровойли) очень посредственно воспроизводит "то" звучание.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Во-первых	во-первых	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	современный	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	фузз	фузз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	аналоговыйли	аналоговыйль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	цифровойли	цифровойть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	очень	очень	ADV	_	Degree=Pos	16	advmod	_	_
+16	посредственно	посредственно	ADV	_	Degree=Pos	17	advmod	_	_
+17	воспроизводит	воспроизводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	то	то	SCONJ	_	_	21	cc	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	звучание	звучание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1030
+# text = Гитара наотрез отказывалась звучать "как надо".
+1	Гитара	Гитара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	наотрез	наотрез	ADV	_	Degree=Pos	3	advmod	_	_
+3	отказывалась	отказываться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	звучать	звучать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	как	как	SCONJ	_	_	7	cc	_	_
+7	надо	надо	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1031
+# text = Методом проб иошибок явыяснил следующее: 1.
+1	Методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+2	проб	проба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	иошибок	иошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	явыяснил	явыяснять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	следующее	следующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	1	1	NUM	_	_	0	nummod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1032
+# text = Настраивать гитары ввосьмидесятые в среде пионеров русского панка было немодно.2.
+1	Настраивать	настраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+2	гитары	гитар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	ввосьмидесятые	ввосьмидесимать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	среде	среда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	пионеров	пионер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	русского	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	панка	панк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	немодно.	немодно.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	2	2	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 1033
+# text = Эстетически "оптимальным", видимо, считался строй, при котором миверхней ими нижней струны расходились наполтона",-- пишет Ямщиков.
+1	Эстетически	эстетически	ADV	_	Degree=Pos	3	advmod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	оптимальным	оптимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	видимо	видимо	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	считался	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	строй	стра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	котором	который	PRON	_	Case=Loc	17	obl	_	_
+13	миверхней	миверхня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+14	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	16	nmod	_	_
+15	нижней	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	струны	струна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	расходились	расходиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+18	наполтона	наполтон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,--	,--	PUNCT	_	_	18	punct	_	_
+21	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+22	Ямщиков	Ямщиков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1034
+# text = Вкачестве драм-машины использовали программы Bitcrusher и appleDrummer.
+1	Вкачестве	Вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+2	драм-машины	драм-машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	программы	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	Bitcrusher	Bitcrusher	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	appleDrummer	appleDrummer	PROPN	_	Foreign=Yes	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1035
+# text = Для достижения "оригинального" звучания результат записали на аудиокассету иоцифровали обратно.
+1	Для	для	ADP	_	_	2	case	_	_
+2	достижения	достижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	оригинального	оригинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	звучания	звучание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+7	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	записали	записывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	аудиокассету	аудиокассета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	иоцифровали	иоцифровать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	обратно	обратно	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1036
+# text = Павел Гертман принял участие вэтом процессе исоздал обложку альбома, Илья Едренкин помог работать снейросетью.
+1	Павел	Паветать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	Гертман	Гертман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+4	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	вэтом	вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	6	amod	_	_
+6	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	исоздал	исоздавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	обложку	обложка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Илья	илья	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	Едренкин	Едренкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	помог	помогать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+14	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	снейросетью	снейросетья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1037
+# text = Альбом "404" проекта "Нейронная оборона" содержит 13песен и стихов.
+1	Альбом	Альб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	404	404	NUM	_	_	5	nummod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Нейронная	Нейронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	оборона	оборона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	13песен	13песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	стихов	стихи	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1038
+# text = Онвыложен воткрытый доступ на"Яндекс.Музыке", вiTunes иGoogle.Play.
+1	Онвыложен	Онвылагать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+2	воткрытый	воткрытый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	доступ	доступ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+4	на"	на"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	Яндекс.	яндекс.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+6	Музыке	музыка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	вiTunes	вiTunes	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+10	иGoogle.Play	иGoogle.Play	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1039
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 1040

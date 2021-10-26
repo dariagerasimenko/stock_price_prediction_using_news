@@ -1,0 +1,305 @@
+# text = # newpar
+# sent_id = 2361
+# text = Фобос, один из спутников Марса, разрушится в течение 20-40 миллионов лет и создаст кольцо вокруг красной планеты.
+1	Фобос	Фобос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	один	один	NUM	_	Case=Nom|Gender=Masc	8	nsubj	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	разрушится	разрушаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	13	case	_	_
+10	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	20	20	NUM	_	_	13	nummod	_	SpaceAfter=No
+12	-40	-40	NUM	_	_	13	nummod	_	_
+13	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	создаст	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	_
+17	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	вокруг	вокруг	ADP	_	_	20	case	_	_
+19	красной	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2362
+# text = Таков результат моделирования, проведенного астрономами из Университетов Беркли и Калифорнии.
+1	Таков	таков	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+2	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	проведенного	проводить	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	астрономами	астроном	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl:agent	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	Университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	Беркли	Беркли	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2363
+# text = О своем исследовании ученые сообщают в Nature Geophysics, кратко с результатами можно ознакомитьсяв Nature.Авторы изучали распад Фобоса с помощью методов компьютерного моделирования.
+1	О	о	ADP	_	_	3	case	_	_
+2	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Geophysics	Geophysics	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	кратко	кратко	ADV	_	Degree=Pos	12	advmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	результатами	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+13	можно	можно	ADV	_	Degree=Pos	18	conj	_	_
+14	ознакомитьсяв	ознакомитьсимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	18	advcl	_	_
+15	Nature	nature	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+19	распад	распад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	Фобоса	Фобос	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	fixed	_	_
+23	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+24	компьютерного	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2364
+# text = Для этого астрономы составили модель спутника на основе имеющихся данных о его плотности и прочности пород.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	составили	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	имеющихся	иметься	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	10	amod	_	_
+10	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+11	о	о	ADP	_	_	13	case	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	плотности	плотность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	прочности	прочностать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	_
+16	пород	пород	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2365
+# text = Вычисления показали, что самые слабые части Фобоса начнут распадаться и формировать кольцо уже примерно через 20 миллионов лет.По словам авторов, сам процесс произойдет очень быстро -- за несколько дней или недель.
+1	Вычисления	Вычисление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	слабые	слабый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+8	Фобоса	Фобос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	распадаться	распадаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	формировать	формировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+13	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	уже	уже	ADV	_	Degree=Pos	15	advmod	_	_
+15	примерно	примерно	ADV	_	Degree=Pos	18	advmod	_	_
+16	через	через	ADP	_	_	18	case	_	_
+17	20	20	NUM	_	_	18	nummod	_	_
+18	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	_
+19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	По	по	ADP	_	_	22	case	_	_
+22	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	parataxis	_	_
+23	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	очень	очень	ADV	_	Degree=Pos	29	advmod	_	_
+29	быстро	быстро	ADV	_	Degree=Pos	27	advmod	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	за	за	ADP	_	_	33	case	_	_
+32	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	33	nummod:gov	_	_
+33	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	_
+34	или	или	CCONJ	_	_	35	cc	_	_
+35	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2366
+# text = Благодаря этому, находясь на поверхности Марса, за ним можно будет наблюдать напрямую.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	находясь	находиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	11	advcl	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+11	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+14	напрямую	напрямую	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2367
+# text = Спутник начнет постепенно распадаться и формировать большое кольцо из осколочного материала.
+1	Спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	начнет	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	постепенно	постепенно	ADV	_	Degree=Pos	4	advmod	_	_
+4	распадаться	распадаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	формировать	формировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+7	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	из	из	ADP	_	_	11	case	_	_
+10	осколочного	осколочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2368
+# text = Небольшие его частицы продержатся на орбите еще около 1-100 миллионов лет, после чего окончательно упадут на поверхность планеты.В ноябре другая группа ученых рассказала о еще не опубликованных результатах, подтверждающих медленный распад Фобоса.
+1	Небольшие	небольший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	частицы	частица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	продержатся	продержаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	еще	еще	ADV	_	Degree=Pos	12	advmod	_	_
+8	около	около	ADP	_	_	12	case	_	_
+9	1	1	NUM	_	_	12	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	100	100	NUM	_	_	9	nummod	_	_
+12	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	после	после	ADP	_	_	16	case	_	_
+16	чего	что	PRON	_	Case=Gen	18	obl	_	_
+17	окончательно	окончательно	ADV	_	Degree=Pos	18	advmod	_	_
+18	упадут	падать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	В	в	ADP	_	_	24	case	_	_
+24	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+25	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+27	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	рассказала	рассказывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	о	о	ADP	_	_	33	case	_	_
+30	еще	еще	ADV	_	Degree=Pos	32	advmod	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	опубликованных	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	подтверждающих	подтверждать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	_
+36	медленный	медленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	распад	распад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+38	Фобоса	Фобос	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2369
+# text = Как комментируют происходящее астрономы, Фобос и Деймос могут быть последними из большего количества тел, упавших со временем на Марс.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	комментируют	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	происходящее	происходять	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	астрономы	астроном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Фобос	Фобос	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Деймос	Деймос	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+11	последними	последний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	obl	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	большего	больший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+15	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	упавших	упать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+18	со	с	ADP	_	_	19	case	_	_
+19	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2370
+# text = Одним из будущих планов исследователей является поиск кратеров, которые могли остаться от них.Фобос обращается на высоте 6 тысяч километров от поверхности Марса.
+1	Одним	один	NUM	_	Case=Ins|Gender=Neut	6	nummod	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	будущих	будущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	планов	план	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	поиск	поиск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	кратеров	кратер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	остаться	оставаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	них.	них.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	Фобос	Фобос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	обращается	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	6	6	NUM	_	_	20	nummod	_	_
+20	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	от	от	ADP	_	_	21	case	_	_
+23	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2371
+# text = Он обладает неправильной формой и насчитывает около 22 километров в поперечнике.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	неправильной	неправильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	формой	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	насчитывает	насчитывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	22	22	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	поперечнике	поперечник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2372
+# text = Ежегодно он приближается к красной планете на несколько сантиметров и, по ранним предсказаниям ученых, должен будет через 30-50 миллионов лет окончательно упасть на нее.Владимир Королёв
+1	Ежегодно	ежегодно	ADV	_	Degree=Pos	3	advmod	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	приближается	приближаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	красной	красный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	планете	планета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+10	и	и	CCONJ	_	_	17	cc	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	по	по	ADP	_	_	14	case	_	_
+13	ранним	ранний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	предсказаниям	предсказание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	_
+15	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+19	через	через	ADP	_	_	22	case	_	_
+20	30	30	NUM	_	_	22	nummod	_	SpaceAfter=No
+21	-50	-50	NUM	_	_	22	nummod	_	_
+22	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+23	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	окончательно	окончательно	ADV	_	Degree=Pos	25	advmod	_	_
+25	упасть	падать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	нее.	небыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+28	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+29	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	_
+
+# newpar
+# sent_id = 2373

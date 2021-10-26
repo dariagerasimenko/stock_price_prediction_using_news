@@ -1,0 +1,652 @@
+# text = # newpar
+# sent_id = 2490
+# text = Google начал эксперимент по использованию постквантовой криптографии в браузерах Chrome.
+1	Google	Google	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	начал	начывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	использованию	использование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	постквантовой	постквантовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	криптографии	криптография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	браузерах	браузер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+10	Chrome	Chrome	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2491
+# text = Согласно заявлению компании, часть информации, обмениваемой браузером и серверами Google, будет шифроваться новыми алгоритмами, которые устойчивы по отношению ко взлому квантовыми компьютерами.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	заявлению	заявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+6	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	обмениваемой	обменивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
+9	браузером	браузер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	серверами	сервер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	conj	_	_
+12	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	шифроваться	шифроваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+16	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	алгоритмами	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	устойчивы	устойчивый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	17	acl:relcl	_	_
+21	по	по	ADP	_	_	24	case	_	_
+22	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	fixed	_	_
+23	ко	к	ADP	_	_	22	fixed	_	_
+24	взлому	взлом	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+25	квантовыми	квантовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	_
+26	компьютерами	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2492
+# text = Эксперимент запущен на браузерах Chrome Canary -- версии Chrome для разработчиков.
+1	Эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	запущен	запускать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	браузерах	браузера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	Chrome	Chrome	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+6	Canary	Canary	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+9	Chrome	Chrome	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2493
+# text = Анонс опубликован в блоге Google.Как объясняет блог, потребность в постквантовой криптографии возникла из-за возможности создания квантовых компьютеров в обозримом будущем.
+1	Анонс	анонс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Google.	google.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No
+6	Как	как	ADV	_	Degree=Pos	14	mark	_	_
+7	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+8	блог	блог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	потребность	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	постквантовой	постквантовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	криптографии	криптография	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	возникла	возникать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+15	из-за	из-за	ADP	_	_	16	case	_	_
+16	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+17	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	квантовых	квантовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	обозримом	обозримый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2494
+# text = Благодаря фундаментальным отличиям между квантовыми и классическими вычислителями современные протоколы шифрования могут оказаться неустойчивыми к дешифровке квантовыми компьютерами.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	фундаментальным	фундаментальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	отличиям	отличие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+4	между	между	ADP	_	_	8	case	_	_
+5	квантовыми	квантовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	классическими	классической	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+8	вычислителями	вычислитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_
+9	современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	протоколы	протокол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	_
+14	неустойчивыми	неустойчивый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	дешифровке	дешифровка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	квантовыми	квантовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	компьютерами	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2495
+# text = Это означает, что в теории злоумышленники могут сегодня записать зашифрованную информацию в хранилище и получить из нее ценные сведения с появлением квантовых компьютеров.В основе современных протоколов шифрования с открытым ключом(например, в TLS, основе HTTPS) лежат вычислительно сложные математические задачи, такие как разложение больших чисел на простые множители или вычисление дискретных логарифмов.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+7	злоумышленники	злоумышленник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	сегодня	сегодня	ADV	_	Degree=Pos	8	advmod	_	_
+10	записать	записывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	зашифрованную	зашифровывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	хранилище	хранилище	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+19	ценные	ценный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	сведения	сведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	появлением	появление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_
+23	квантовых	квантовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	компьютеров.	компьютеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	В	в	ADP	_	_	26	case	_	_
+26	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+27	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	протоколов	протокол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+30	с	с	ADP	_	_	32	case	_	_
+31	открытым	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	ключом	ключ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	например	например	ADV	_	Degree=Pos	26	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	TLS	Tls	PROPN	_	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	conj	_	_
+40	HTTPS	Https	PROPN	_	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	40	punct	_	_
+42	лежат	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+43	вычислительно	вычислительно	ADV	_	Degree=Pos	42	advmod	_	_
+44	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	46	amod	_	_
+45	математические	математический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	46	amod	_	_
+46	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	42	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	такие	такой	DET	_	Case=Nom|Number=Plur	55	amod	_	_
+49	как	как	SCONJ	_	_	50	cc	_	_
+50	разложение	разложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	48	advmod	_	_
+51	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+52	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	50	nmod	_	_
+53	на	на	ADP	_	_	55	case	_	_
+54	простые	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	55	amod	_	_
+55	множители	множитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	_
+56	или	или	CCONJ	_	_	57	cc	_	_
+57	вычисление	вычисление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+58	дискретных	дискретный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	59	amod	_	_
+59	логарифмов	логарифм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	59	punct	_	_
+
+# sent_id = 2496
+# text = Современные классические алгоритмы и устройства, к примеру, могут в лучшем случае разложить за разумное время на множители число, являющееся произведением двух 384-битных (около 80 цифр) простых чисел.
+1	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	классические	классический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	алгоритмы	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	лучшем	лучший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	разложить	разлагать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+15	за	за	ADP	_	_	17	case	_	_
+16	разумное	разумный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	множители	множитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+20	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	являющееся	являться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	20	amod	_	_
+23	произведением	произведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	_
+24	двух	два	NUM	_	Case=Gen	25	nummod	_	_
+25	384-битных	384-битный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	около	около	ADP	_	_	29	case	_	_
+28	80	80	NUM	_	_	29	nummod	_	_
+29	цифр	цифра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	parataxis	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	простых	простой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 2497
+# text = Ключи в шифровании RSA состоят из, по меньшей мере, 1024 бит.Сложность разложения числа на простые множители быстро растет с длиной самого числа.
+1	Ключи	ключ	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	шифровании	шифрование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	RSA	Rsa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	из	из	ADP	_	_	12	case	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	по	по	ADP	_	_	10	case	_	_
+9	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	1024	1024	NUM	_	_	13	nummod	_	_
+13	бит.	бито	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	SpaceAfter=No
+14	Сложность	сложность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
+15	разложения	разложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	простые	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	множители	множитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
+20	быстро	быстро	ADV	_	Degree=Pos	21	advmod	_	_
+21	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+24	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2498
+# text = В большинстве классических алгоритмов время, затрачиваемое на разложение, растет по экспоненте.
+1	В	в	ADP	_	_	2	case	_	_
+2	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+3	классических	классический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	затрачиваемое	затрачиваемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	разложение	разложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	экспоненте	экспонент	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2499
+# text = Однако для квантовых компьютеров существует алгоритм Шора, требующий лишь полиномиального времени на решение этой задачи.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	для	для	ADP	_	_	4	case	_	_
+3	квантовых	квантовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+5	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	Шора	Шор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	требующий	требовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+10	лишь	лишь	PART	_	_	12	advmod	_	_
+11	полиномиального	полиномиальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
+16	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2500
+# text = Это означает, что даже увеличение длины ключей не даст серьезного прироста в стойкости шифрования.Новый алгоритм обмена ключами шифрования, используемый Google, получил название New Hope ("Новая надежда").
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+7	длины	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	ключей	ключ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	даст	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	26	advcl	_	_
+11	серьезного	серьезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	прироста	прирост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	в	в	ADP	_	_	12	case	_	_
+14	стойкости	стойкость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+15	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+19	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	ключами	ключ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	_
+21	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	используемый	использовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+27	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+28	New	new	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Hope	Hope	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	надежда	надежда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	parataxis	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2501
+# text = Подробное его описание можно прочитать здесь.
+1	Подробное	подробный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	здесь	здесь	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2502
+# text = Этот алгоритм основан на обучении с ошибками устойчив по отношению к квантовым алгоритмам.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	обучении	обучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	ошибками	ошибка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+8	устойчив	устойчать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	_
+9	по	по	ADP	_	_	13	case	_	_
+10	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	fixed	_	_
+11	к	к	ADP	_	_	10	fixed	_	_
+12	квантовым	квантовый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	алгоритмам	алгоритм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2503
+# text = Компания отмечает, что в случае, если New Hope окажется взламываем классическими алгоритмами, безопасность пользователей не пострадает: новый алгоритм будет применяться "поверх" традиционных протоколов.Обучение с ошибками -- алгоритм, в котором открытый ключ является системой линейных уравнений, в которых могут быть небольшие ошибки.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	если	если	SCONJ	_	_	6	mark	_	_
+9	New	new	PROPN	_	Foreign=Yes	11	nsubj	_	_
+10	Hope	Hope	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	окажется	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+12	взламываем	взламывай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+13	классическими	классический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	алгоритмами	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	пострадает	страдать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	применяться	применяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	ccomp	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	поверх	поверх	ADV	_	Degree=Pos	29	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	протоколов.	протоколовент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+30	Обучение	обучение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	appos	_	_
+31	с	с	ADP	_	_	32	case	_	_
+32	ошибками	ошибка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	30	nmod	_	_
+33	--	--	PUNCT	_	_	32	punct	_	_
+34	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	котором	который	PRON	_	Case=Loc	40	obl	_	_
+38	открытый	открытый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	ключ	ключ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+40	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	34	acl:relcl	_	_
+41	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	obl	_	_
+42	линейных	линейной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	уравнений	уравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	в	в	ADP	_	_	46	case	_	_
+46	которых	который	PRON	_	Case=Loc	47	obl	_	_
+47	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	acl:relcl	_	_
+48	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	50	cop	_	_
+49	небольшие	небольшой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	50	amod	_	_
+50	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	47	nsubj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 2504
+# text = Например, равенство 3x+5y = 5 может быть верным с точностью1.New Hope -- его усовершенствованная версия.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	равенство	равенство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	3x+5y	3x+5y	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	=	=	SYM	_	_	7	advmod	_	_
+6	5	5	NUM	_	_	5	nummod	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+9	верным	верный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	1.New	1.New	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Hope	Hope	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+16	усовершенствованная	усовершенствовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2505
+# text = В его основе лежат длинные многочлены, коэффициенты в которых выбираются из ограниченного набора (конечного поля).Эксперимент продлится два года, после чего будет остановлен.
+1	В	в	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	лежат	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	длинные	длинный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	многочлены	многочлен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	коэффициенты	коэффициент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	которых	который	PRON	_	Case=Loc	8	nmod	_	_
+11	выбираются	выбираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	ограниченного	ограничать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	конечного	конечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	Эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	продлится	длиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+22	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	23	nummod:gov	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	после	после	ADP	_	_	26	case	_	_
+26	чего	что	PRON	_	Case=Gen	28	obl	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	остановлен	останавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	parataxis	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2506
+# text = Google не рассматривает New Hope в качестве будущего стандарта шифрования -- эта область активно развивается и, возможно, в будущем появятся более быстрые и эффективные протоколы.
+1	Google	Google	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	рассматривает	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	New	new	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Hope	Hope	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	в	в	ADP	_	_	9	case	_	_
+7	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	стандарта	стандарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+10	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	область	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	активно	активно	ADV	_	Degree=Pos	15	advmod	_	_
+15	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+16	и	и	CCONJ	_	_	22	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	возможно	возможно	ADV	_	Degree=Pos	22	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+22	появятся	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	conj	_	_
+23	более	более	ADV	_	Degree=Cmp	24	advmod	_	_
+24	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	эффективные	эффективный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	conj	_	_
+27	протоколы	протокол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2507
+# text = Основная задача сейчас, как отмечает блог компании, протестировать системы, необходимые для реального применения новых методов шифрования.Квантовые компьютеры -- вычислительные устройства, работающие на квантовых битах или кубитах.
+1	Основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	сейчас	сейчас	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	3	mark	_	_
+6	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	блог	блог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	протестировать	протестировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+11	системы	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+17	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	шифрования	шифрование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Квантовые	квантовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+23	--	--	PUNCT	_	_	22	punct	_	_
+24	вычислительные	вычислительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	работающие	работать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	квантовых	квантовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	_
+30	битах	бита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	27	obl	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	кубитах	кубит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 2508
+# text = В отличие от классических бит, хранящих в себе либо "0", либо "1", кубит находится в суперпозиции этих состояний, принимая то или иное значение с некоторой вероятностью.
+1	В	в	ADP	_	_	5	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	классических	классический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	бит	бит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	хранящих	хранить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	себе	себя	PRON	_	Case=Loc	7	obl	_	_
+10	либо	либо	CCONJ	_	_	12	cc	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	0	0	NUM	_	_	7	nummod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	либо	либо	CCONJ	_	_	17	cc	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	1	1	NUM	_	_	5	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	кубит	кубить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	conj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	суперпозиции	суперпозиция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+24	этих	этот	DET	_	Case=Gen|Number=Plur	25	amod	_	_
+25	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	принимая	принимать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+28	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+29	или	или	CCONJ	_	_	31	cc	_	_
+30	иное	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	conj	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	некоторой	некоторый	DET	_	Case=Ins|Gender=Fem|Number=Sing	34	amod	_	_
+34	вероятностью	вероятность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2509
+# text = Подробнее о них можно прочитать в нашем материале.Сейчас такие компьютеры работают на небольшом количестве кубитов.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	4	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	нашем	наш	DET	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	материале.	материалбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+9	Сейчас	Сейчас	ADV	_	Degree=Pos	12	advmod	_	_
+10	такие	такой	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+11	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	небольшом	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+16	кубитов	кубит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2510
+# text = К примеру, физики из Мэрилендского университета недавно продемонстрировали полноценное пятикубитное устройство.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	Мэрилендского	Мэрилендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	недавно	недавно	ADV	_	Degree=Pos	9	advmod	_	_
+9	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	полноценное	полноценный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	пятикубитное	пятикубитный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2511
+# text = Разработками квантовых вычислителей занимаются и вIBM, а также Google, Microsoft и Intel.
+1	Разработками	разработк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+2	квантовых	квантовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	вычислителей	вычислитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	вIBM	вибм	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Microsoft	Microsoft	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Intel	intel	PROPN	_	Foreign=Yes	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2512
+# text = Важным применением квантовых компьютеров является моделирование различных физических явлений.
+1	Важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	применением	применение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+3	квантовых	квантовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	моделирование	моделирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	физических	физический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	явлений	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2513
+# text = К примеру, недавно с помощью такого устройства физики изучали рождение электрон-позитронных пар из-за флуктуаций вакуума.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	недавно	недавно	ADV	_	Degree=Pos	10	advmod	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+8	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+9	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	рождение	рождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	электрон-позитронных	электрон-позитронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	пар	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	из-за	из-за	ADP	_	_	15	case	_	_
+15	флуктуаций	флуктуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+16	вакуума	вакуум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2514
+# text = Для классических компьютеров подобные задачи очень сложны.Владимир Королёв
+1	Для	для	ADP	_	_	3	case	_	_
+2	классических	классический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+4	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	задачи	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	_
+7	сложны.	сложныавнивать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	_
+
+# newpar
+# sent_id = 2515

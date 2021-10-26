@@ -1,0 +1,512 @@
+# text = # newpar
+# sent_id = 2804
+# text = Сотрудники Техасского университета в Остине изучили механизм, позволяющий использовать "ускоренную прокрутку" при воспоминании о недавних перемещениях и планировании ближайших.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	Техасского	техасский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Остине	Остина	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+6	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	ускоренную	ускорять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	прокрутку	прокрутка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	воспоминании	воспоминание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+17	о	о	ADP	_	_	19	case	_	_
+18	недавних	недавний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	перемещениях	перемещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	планировании	планирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	conj	_	_
+22	ближайших	близкий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2805
+# text = Оказалось, что он связан с частотой импульсации нейронов места в гиппокампе.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj:pass	_	_
+5	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+8	импульсации	импульсация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	нейронов	нейроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	гиппокампе	гиппокамп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2806
+# text = Результаты работы опубликованы в журнале Neuron.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Neuron	Neuron	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2807
+# text = Информация о перемещении во времени и пространстве исходит от нейронов места, расположенных в гиппокампе (структуре мозга, ответственной за эпизодическую память и ориентацию в пространстве).
+1	Информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	перемещении	перемещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	во	в	ADP	_	_	5	case	_	_
+5	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	conj	_	_
+8	исходит	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	расположенных	расположенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	гиппокампе	гиппокамп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	структуре	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	parataxis	_	_
+18	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	ответственной	ответственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	amod	_	_
+21	за	за	ADP	_	_	23	case	_	_
+22	эпизодическую	эпизодический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	ориентацию	ориентация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	conj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2808
+# text = Ее передача сопровождается волнами максимальной частоты, называемых гамма-ритмом (примерно от 25 до 100 герц).
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	передача	передача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	сопровождается	сопровождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	волнами	волна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+5	максимальной	максимальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	называемых	называть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	гамма-ритмом	гамма-ритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	примерно	примерно	ADV	_	Degree=Pos	13	advmod	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	25	25	NUM	_	_	9	nummod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	100	100	NUM	_	_	16	nummod	_	_
+16	герц	герц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2809
+# text = Эти волны испускаются не непрерывно, а дискретными циклами частотой от 6 до 10 герц -- тета-последовательностями, каждая из которых несет сжатую информацию о краткой последовательности пространственно-временных положений.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	волны	волна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	испускаются	испускаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	непрерывно	непрерывно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	9	cc	_	_
+8	дискретными	дискретный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	циклами	цикл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	conj	_	_
+10	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	6	6	NUM	_	_	10	nummod	_	_
+13	до	до	ADP	_	_	15	case	_	_
+14	10	10	NUM	_	_	15	nummod	_	_
+15	герц	герц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	тета-	тета-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	последовательностями	последовательность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	nsubj	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	которых	который	PRON	_	Case=Gen	20	nmod	_	_
+23	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+24	сжатую	сжатый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+26	о	о	ADP	_	_	28	case	_	_
+27	краткой	краткий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_
+29	пространственно-временных	пространственно-временный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	положений	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2810
+# text = При этом сами гамма-ритмы могут быть медленными (25--50 герц) и быстрыми (60--100 герц).
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	гамма-ритмы	гамма-ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	cop	_	_
+7	медленными	медленной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	obl	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	25	25	NUM	_	_	13	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	50	50	NUM	_	_	9	nummod	_	_
+13	герц	герц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	быстрыми	быстрый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	conj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	60	60	NUM	_	_	22	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	100	100	NUM	_	_	18	nummod	_	_
+22	герц	герц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2811
+# text = Исследователи изучили импульсацию нейронов места у крыс во время их перемещений.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	импульсацию	импульсация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	крыс	крысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+8	во	во	ADP	_	_	11	case	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+11	перемещений	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2812
+# text = Выяснилось, что быстрые гамма-ритмы, соответствуют восприятию обстановки в данный момент, когда мозг обрабатывает информацию в реальном времени и высоком разрешении.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	гамма-ритмы	гамма-ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	соответствуют	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	восприятию	восприятия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	обстановки	обстановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	когда	когда	SCONJ	_	_	12	mark	_	_
+15	мозг	мозг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	обрабатывает	обрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+17	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	высоком	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	разрешении	разрешение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2813
+# text = Медленные гамма-ритмы наблюдаются при быстром воспоминании о недавних перемещениях и планировании ближайших.
+1	Медленные	медленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	гамма-ритмы	гамма-ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	наблюдаются	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	быстром	быстр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	воспоминании	воспоминания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	недавних	недавний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	перемещениях	перемещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	планировании	планирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	conj	_	_
+12	ближайших	близкий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2814
+# text = Как установили исследователи, медленные гамма-ритмы благодаря большей длине волны несут больше информации на одну тета-последовательность, однако эта информация менее подробна, чем в случае быстрых гамма-ритмов.
+1	Как	как	ADV	_	Degree=Pos	11	mark	_	_
+2	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	медленные	медленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	гамма-ритмы	гамма-ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	благодаря	благодаря	ADP	_	_	9	case	_	_
+8	большей	больший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	длине	длина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+10	волны	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	несут	носить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+12	больше	много	NUM	_	_	13	nummod:gov	_	_
+13	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	одну	один	NUM	_	Case=Acc|Gender=Fem	17	nummod:gov	_	_
+16	тета-	тета-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+20	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	21	amod	_	_
+21	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	менее	мено	ADV	_	Degree=Cmp	23	advmod	_	_
+23	подробна	подробнный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	11	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	чем	чем	SCONJ	_	_	29	cc	_	_
+26	в	в	ADP	_	_	29	case	_	_
+27	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	fixed	_	_
+28	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	гамма-ритмов	гамма-ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2815
+# text = Это позволяет "сжимать" информацию за счет уменьшения ее разрешения.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	сжимать	сжимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	за	за	ADP	_	_	6	case	_	_
+8	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	fixed	_	_
+9	уменьшения	уменьшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+11	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2816
+# text = Благодаря этому мы можем восстановить обстановку за предыдущие полдня и представить свои планы на последующие полдня гораздо быстрее, чем происходят реальные события, что напоминает ускоренную прокрутку видео.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+4	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	обстановку	обстановка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	за	за	ADP	_	_	9	case	_	_
+8	предыдущие	предыдущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	полдня	полдне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+12	свои	свой	DET	_	Case=Acc|Number=Plur	13	amod	_	_
+13	планы	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	последующие	последующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	полдня	полдне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obl	_	_
+17	гораздо	гораздо	ADV	_	Degree=Pos	18	advmod	_	_
+18	быстрее	быстро	ADV	_	Degree=Cmp	0	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чем	чем	SCONJ	_	_	21	mark	_	_
+21	происходят	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advmod	_	_
+22	реальные	реальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	события	событие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+26	напоминает	напоминавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+27	ускоренную	ускорять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	прокрутку	прокрутка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2817
+# text = Причем чем дальше отстоит пространственно-временное положение от данного момента, тем с меньшим разрешением оно воспринимается.
+1	Причем	причем	CCONJ	_	_	4	cc	_	_
+2	чем	чем	SCONJ	_	_	4	cc	_	_
+3	дальше	дальше	ADV	_	Degree=Cmp	4	advmod	_	_
+4	отстоит	отстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	пространственно-	пространственно-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	временное	временный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	положение	положение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+8	от	от	ADP	_	_	10	case	_	_
+9	данного	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	тем	тем	SCONJ	_	_	4	cc	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	меньшим	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+16	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj:pass	_	_
+17	воспринимается	воспринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2818
+# text = Полученные данные имеют большое значение для медицины и криминалистики, поскольку способствуют оценке надежности различных воспоминаний.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	nsubj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	криминалистики	криминалистика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	3	mark	_	_
+12	способствуют	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+13	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+14	надежности	надежность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2819
+# text = Они также позволяют объяснить, почему пациенты с шизофренией, у которых нарушены гамма-ритмы, не всегда отличают реальные события от вымышленных.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	почему	почему	ADV	_	Degree=Pos	18	advmod	_	_
+7	пациенты	пациент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	шизофренией	шизофрения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	13	obl	_	_
+13	нарушены	нарушять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+14	гамма-ритмы	гамма-ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	всегда	всегда	ADV	_	Degree=Pos	18	advmod	_	_
+18	отличают	отличать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+19	реальные	реальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	события	событие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	вымышленных	вымышленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2820
+# text = "Возможно, такие люди передают собственные вымыслы на ошибочной частоте, которая в норме зарезервирована для реальных событий", -- пояснила Лора Колгин (Laura Colgin), участвовавшая в проведении исследования.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Возможно	возможно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	передают	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	вымыслы	вымысл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	ошибочной	ошибочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	частоте	частота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	16	nsubj:pass	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	норме	норма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+16	зарезервирована	резервировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+17	для	для	ADP	_	_	19	case	_	_
+18	реальных	реальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	--	--	PUNCT	_	_	19	punct	_	_
+23	пояснила	пояснять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+24	Лора	лора	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+25	Колгин	Колгин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Laura	Laura	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+28	Colgin	Colgin	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	28	punct	_	_
+31	участвовавшая	участвовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	amod	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	obl	_	_
+34	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 2821
+# text = В дальнейшей работе ученые планируют использовать полученные данные для выяснения роли быстрых и медленных гамма-ритмов в развитии расстройств аутистического спектра и болезни Альцгеймера.
+1	В	в	ADP	_	_	3	case	_	_
+2	дальнейшей	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	полученные	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	6	obj	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	выяснения	выяснение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+11	роли	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	медленных	медленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	conj	_	_
+15	гамма-ритмов	гамма-ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+18	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	аутистического	аутистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	спектра	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_
+23	Альцгеймера	альцгеймер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2822
+# text = Нейроны места активируются, когда животное или человек попадают в определенное место окружающей среды.
+1	Нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	активируются	активируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	когда	когда	SCONJ	_	_	3	mark	_	_
+6	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	попадают	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	определенное	определенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+13	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2823
+# text = Вместе с нейронами положения головы, нейронами решетки, нейронами скорости и нейронами границы они формируют навигационную систему мозга.
+1	Вместе	вместе	ADV	_	Degree=Pos	10	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+4	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	головы	голова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	conj	_	_
+8	решетки	решетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	conj	_	_
+11	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	_
+14	границы	граница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
+16	формируют	формиревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	навигационную	навигационный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2824
+# text = За открытие нейронов места и нейронов решетки Джон О'Киф, а также Мей-Бритт и Эдвард Мозеры в 2014 году удостоились Нобелевской премии.
+1	За	за	ADP	_	_	2	case	_	_
+2	открытие	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
+3	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
+7	решетки	решетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Джон	джон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+9	О'Киф	О'Киф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	Мей-Бритт	Мей-Бритт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Эдвард	Эдвард	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+16	Мозеры	Мозера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	2014	2014	NUM	_	_	19	nummod	_	_
+19	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+20	удостоились	удостаиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+21	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2825
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2826

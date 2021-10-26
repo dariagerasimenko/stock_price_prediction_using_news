@@ -1,0 +1,382 @@
+# text = # newpar
+# sent_id = 5918
+# text = Управление попродуктам илекарствам США (FDA) одобрило проведение клинических испытаний первой экспериментальной вакцины против вируса Зика.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	appos	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FDA	Fda	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	одобрило	одобрять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	проведение	проведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	клинических	клинической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	экспериментальной	экспериментальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	против	против	ADP	_	_	16	case	_	_
+16	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+17	Зика	Зик	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5919
+# text = Обэтом говорится всовместном заявлении разработчиков препарата-- американской Inovio Pharmaceuticals икорейской GeneOne Life Science.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	всовместном	всовместный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	препарата-	препарата-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Inovio	Inovio	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+10	Pharmaceuticals	Pharmaceuticals	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	икорейской	икорейский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	GeneOne	GeneOne	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+13	Life	Life	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Science	science	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5920
+# text = Вакцина GLS-5700 представляет собой синтетический ДНК-конструкт, действие которого направлено сразу на несколько антигенов вируса Зика (конкретные мишени для препарата разработчик не раскрывает).
+1	Вакцина	вакцина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	GLS	Gls	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	5700	5700	NUM	_	_	1	nummod	_	_
+5	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собой	себя	PRON	_	Case=Ins	5	dep	_	_
+7	синтетический	синтетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ДНК-конструкт	ДНК-конструкт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	направлено	направлеть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+13	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	антигенов	антиген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+17	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Зика	Зика	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	appos	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	конкретные	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	мишени	мишень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	раскрывает	раскрывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5921
+# text = Вдоклинических исследованиях препарат вызывал стойкую иммунную реакцию (включая продукцию антител иТ-клеточный ответ) у мелких икрупных животных, втом числе уприматов.
+1	Вдоклинических	Вдоклинический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследованиях	исследования	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+3	препарат	препарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	вызывал	вызывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	стойкую	стойкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	иммунную	иммунный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	включая	включая	ADV	_	Degree=Pos	11	advmod	_	_
+10	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	антител	антитеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+12	иТ-клеточный	иТ-клеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	у	у	ADP	_	_	18	case	_	_
+16	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	икрупных	икрупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+22	уприматов	упримат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5922
+# text = Для достижения эффекта необходимы две инъекции вакцины.
+1	Для	для	ADP	_	_	2	case	_	_
+2	достижения	достижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+3	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	две	два	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+6	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5923
+# text = ВходеI фазы клинических испытаний безопасность, переносимость и иммуногенность возрастающих доз лекарства проверят на40здоровых добровольцах.
+1	ВходеI	Входеi	NUM	_	_	2	nummod	_	_
+2	фазы	фаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+3	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	переносимость	переносимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	иммуногенность	иммуногенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+10	возрастающих	возрастать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	доз	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	проверят	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	на40здоровых	на40здоровый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	добровольцах	доброволец	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5924
+# text = Вводить вакцину будут внутрикожно методом электропорации спомощью производимого Inovio Pharmaceuticals устройства Сellectra.
+1	Вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+2	вакцину	вакцина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	внутрикожно	внутрикожно	ADV	_	Degree=Pos	5	advmod	_	_
+5	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+6	электропорации	электропорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	производимого	производить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	Inovio	Inovio	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Pharmaceuticals	Pharmaceuticals	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	_
+12	Сellectra	Сellectra	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5925
+# text = Пословам президента иисполнительного директора американской компании Джозефа Кима (Joseph Kim), первые добровольцы получат прививки вближайшие несколько недель, а предварительные результаты испытаний ожидаются доконца 2016года.
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	2	nmod	_	_
+2	президента	президент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+3	иисполнительного	иисполнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	директора	директор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	Джозефа	джозеф	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Кима	Ким	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Joseph	Joseph	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+11	Kim	Kim	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	добровольцы	доброволец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	получат	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+17	прививки	прививка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	_
+18	вближайшие	вближайший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+19	несколько	несколько	NUM	_	Case=Nom	20	nummod:gov	_	_
+20	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	24	cc	_	_
+23	предварительные	предварительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	_
+25	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_
+26	ожидаются	ожидаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
+27	доконца	доконец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+28	2016года	2016год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5926
+# text = Как отмечается впресс-релизе, всоздании препарата участвовали научные центры США иКанады, скоторыми Inovio Pharmaceuticals ранее разрабатывала вакцины отлихорадки Эбола иближневосточного респираторного синдрома.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	отмечается	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	parataxis	_	_
+3	впресс-релизе	впресс-релиза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	всоздании	всоздание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	conj	_	_
+6	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	научные	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	центры	центер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	_
+11	иКанады	иКанада	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	скоторыми	скоторый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	Inovio	Inovio	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+15	Pharmaceuticals	Pharmaceuticals	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	ранее	ранее	ADV	_	Degree=Pos	7	advmod	_	_
+17	разрабатывала	разрабатывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+19	отлихорадки	отлихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	Эбола	Эбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	иближневосточного	иближневосточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	респираторного	респираторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	синдрома.	синдромаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	20	amod	_	_
+
+# sent_id = 5927
+# text = ДНК-вакцины в отличие от традиционных иммунопрепаратов представляют собой не готовый антиген возбудителя, а кодирующую его синтетическую ДНК.
+1	ДНК-вакцины	ДНК-вакцина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+2	в	в	ADP	_	_	6	case	_	_
+3	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	от	от	ADP	_	_	3	fixed	_	_
+5	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	иммунопрепаратов	иммунопрепарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+7	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	собой	себя	PRON	_	Case=Ins	7	dep	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	готовый	готовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	антиген	антиген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+12	возбудителя	возбудитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	кодирующую	кодируть	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+17	синтетическую	синтетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5928
+# text = При введении в организм в виде плазмиды она вызывает локальную продукцию антигена клетками организма.
+1	При	при	ADP	_	_	2	case	_	_
+2	введении	введение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	организм	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	плазмиды	плазмида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+9	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	локальную	локальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	антигена	антиген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	_
+14	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5929
+# text = Это вызывает специфичный ответ со стороны как Т-лимфоцитов (клеточный иммунитет), так и В-лимфоцитов (продукцию антител).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	специфичный	специфичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	со	со	ADP	_	_	4	case	_	_
+6	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	fixed	_	_
+7	как	как	SCONJ	_	_	5	fixed	_	_
+8	Т-лимфоцитов	Т-лимфоцитов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	клеточный	клеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	иммунитет	иммунитет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	так	так	ADV	_	Degree=Pos	16	advmod	_	_
+15	и	и	PART	_	_	16	advmod	_	_
+16	В-лимфоцитов	В-лимфоцит	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	parataxis	_	_
+19	антител	антитело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5930
+# text = Кроме того, ДНК-вакцины более стабильны и относительно просты для промышленного производства.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ДНК-вакцины	ДНК-вакцина	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+5	более	более	ADV	_	Degree=Cmp	6	advmod	_	_
+6	стабильны	стабильный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	относительно	относительно	ADV	_	Degree=Pos	9	advmod	_	_
+9	просты	простой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	6	conj	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	промышленного	промышленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5931
+# text = Лихорадка Зика была впервые обнаружена в1947 году умакак влесах Уганды.
+1	Лихорадка	лихорадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Зика	Зик	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+4	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+5	обнаружена	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в1947	в1947	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	умакак	умакак	CCONJ	_	_	9	cc	_	_
+9	влесах	влес	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	conj	_	_
+10	Уганды	Уганда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5932
+# text = Вмае 2015 года распространение вируса зарегистрировали насеверо-востоке Бразилии, после чего эпидемия стала быстро распространяться насоседние страны.
+1	Вмае	вмае	CCONJ	_	_	6	cc	_	_
+2	2015	2015	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	распространение	распространение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	зарегистрировали	регистрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	насеверо-востоке	насеверо-востока	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+8	Бразилии	бразилия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	13	obl	_	_
+12	эпидемия	эпидемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+14	быстро	быстро	ADV	_	Degree=Pos	15	advmod	_	_
+15	распространяться	распространяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	xcomp	_	_
+16	насоседние	насоседний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5933
+# text = Кнастоящему времени ейпоражены 58стран итерриторий.
+1	Кнастоящему	Кнастоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	ейпоражены	ейпоражать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	58стран	58стран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+5	итерриторий	итерритория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5934
+# text = Всемирная организация здравоохранения признала вирус Зика глобальной угрозой общественному здоровью из-за резко повышенного риска микроцефалии удетей женщин, перенесших инфекцию вовремя беременности.В настоящее время в разработке находятся несколько десятков вакцин против вируса Зика, однако GLS-5700 первой дошла до стадии клинических испытаний.
+1	Всемирная	всемирный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	организация	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	признала	признавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вирус	вирус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	Зика	Зик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	глобальной	глобальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	угрозой	угроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	общественному	общественной	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	здоровью	здоровье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	из-за	из-за	ADP	_	_	14	case	_	_
+12	резко	резко	ADV	_	Degree=Pos	13	advmod	_	_
+13	повышенного	повышать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	_
+15	микроцефалии	микроцефалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	удетей	удеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	перенесших	переносить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	17	amod	_	_
+20	инфекцию	инфекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	вовремя	вовремя	ADV	_	Degree=Pos	29	advmod	_	_
+22	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	В	в	ADP	_	_	29	advmod	_	_
+25	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	fixed	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	fixed	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+29	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+30	несколько	несколько	NUM	_	Case=Nom	31	nummod:gov	_	_
+31	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nsubj	_	_
+32	вакцин	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+33	против	против	ADP	_	_	34	case	_	_
+34	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+35	Зика	Зика	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	однако	однако	ADV	_	Degree=Pos	42	advmod	_	_
+38	GLS	Gls	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No
+39	-	-	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	5700	5700	NUM	_	_	38	nummod	_	_
+41	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+42	дошла	доходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+43	до	до	ADP	_	_	44	case	_	_
+44	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	obl	_	_
+45	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+46	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 5935
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5936

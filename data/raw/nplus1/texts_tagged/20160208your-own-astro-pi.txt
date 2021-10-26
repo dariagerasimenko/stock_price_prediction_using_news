@@ -1,0 +1,137 @@
+# text = # newpar
+# sent_id = 1408
+# text = Raspberry Pi Foundation опубликовала в открытом доступе файлы для 3D-печати корпусов проекта Astro Pi.
+1	Raspberry	Raspberry	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	Pi	Pi	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Foundation	Foundation	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	опубликовала	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	открытом	открытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	доступе	доступ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	файлы	файла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	3D-печати	3D-печать	NUM	_	Case=Gen	11	nummod	_	_
+11	корпусов	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+12	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Astro	Astro	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Pi	Pi	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1409
+# text = Загрузить STL-файлы можно в репозитории GitHub.Изначально восемь корпусов для проекта были изготовлены при помощи фрезерного станка с ЧПУ из цельных алюминиевых заготовок.
+1	Загрузить	загружать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	STL	Stl	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	-файлы	-файл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	репозитории	репозитория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+7	GitHub	GitHub	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Изначально	Изначально	ADV	_	Degree=Pos	11	advmod	_	_
+10	восемь	восемь	NUM	_	Case=Acc	11	nummod:gov	_	_
+11	корпусов	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	изготовлены	изготовлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+16	при	при	ADP	_	_	19	case	_	_
+17	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	fixed	_	_
+18	фрезерного	фрезерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	станка	станок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	ЧПУ	чпу	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	nmod	_	_
+22	из	из	ADP	_	_	25	case	_	_
+23	цельных	цельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+24	алюминиевых	алюминиевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	заготовок	заготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1410
+# text = Серийное производство и продажа корпусов не входит в планы Raspberry Pi Foundation, поскольку стоимость одного такого корпуса составляет три тысячи фунтов стерлингов (более 333 тысяч рублей).Модель аналогична по форме реальным корпусам, изготовленным из алюминия.
+1	Серийное	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	продажа	продажа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	корпусов	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	планы	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+10	Raspberry	Raspberry	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Pi	Pi	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Foundation	Foundation	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	поскольку	поскольку	SCONJ	_	_	7	mark	_	_
+15	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+16	одного	один	NUM	_	Case=Gen|Gender=Masc	18	nummod	_	_
+17	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+19	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+20	три	три	NUM	_	Animacy=Inan|Case=Acc	21	nummod:gov	_	_
+21	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+22	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	более	более	ADV	_	Degree=Cmp	27	nummod:gov	_	_
+26	333	333	NUM	_	_	27	nummod	_	_
+27	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	parataxis	_	_
+28	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	Модель	модель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	аналогична	аналогичный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+33	по	по	ADP	_	_	34	case	_	_
+34	форме	форма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	32	nmod	_	_
+35	реальным	реальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	36	amod	_	_
+36	корпусам	корпус	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	изготовленным	изготовлять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+39	из	из	ADP	_	_	40	case	_	_
+40	алюминия	алюминий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 1411
+# text = При изготовлении собственного корпуса для Raspberry Pi необходимо напечатать четыре разных детали: верхнюю и нижнюю половины корпуса, соединительная прослойка и радиатор.
+1	При	при	ADP	_	_	2	case	_	_
+2	изготовлении	изготовление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+3	собственного	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	Raspberry	Raspberry	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+7	Pi	Pi	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	напечатать	печатать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+11	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	детали	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	верхнюю	верхний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	нижнюю	нижний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	_
+17	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+18	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	соединительная	соединительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	прослойка	прослойка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	радиатор	радиатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1412
+# text = При печати пластиком радиатор, использующийся в конструкции, выполняет декоративную функцию.
+1	При	при	ADP	_	_	2	case	_	_
+2	печати	печать	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	пластиком	пластик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+4	радиатор	радиатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	использующийся	используться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	декоративную	декоративный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 1413

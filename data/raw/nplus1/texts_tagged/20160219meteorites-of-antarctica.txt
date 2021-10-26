@@ -1,0 +1,337 @@
+# text = # newpar
+# sent_id = 3607
+# text = Ледяной покров Антарктиды может скрывать множество богатых железом метеоритов.
+1	Ледяной	ледяной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	покров	покров	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Антарктиды	антарктида	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	скрывать	скрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+7	богатых	богатый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	железом	желез	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+9	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3608
+# text = К такому выводу пришли ученые в работе, опубликованной в журнале Nature Communications.Свыше двух третей метеоритов, попадающих на Землю, были найдены в Антарктиде.
+1	К	к	ADP	_	_	3	case	_	_
+2	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	опубликованной	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	Nature	nature	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	Communications.	communications.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	SpaceAfter=No
+14	Свыше	Свыше	ADP	_	_	16	case	_	_
+15	двух	два	NUM	_	Case=Gen	16	nummod	_	_
+16	третей	треть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	попадающих	попадать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	Антарктиде	антарктида	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3609
+# text = Частично это объясняется тем, что их проще заметить благодаря контрасту между белым снегом и темным небесным телом.
+1	Частично	Частично	ADV	_	Degree=Pos	3	advmod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	9	obj	_	_
+8	проще	проще	ADV	_	Degree=Pos	9	advmod	_	_
+9	заметить	замечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+10	благодаря	благодаря	ADP	_	_	11	case	_	_
+11	контрасту	контраст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+12	между	между	ADP	_	_	14	case	_	_
+13	белым	белый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	снегом	снег	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	темным	темный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	небесным	небесный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	телом	тело	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3610
+# text = Однако в первую очередь такое изобилие возникает из-за определенной динамики движения льдов и их абляции, в результате чего появляются зоны скопления метеоритов.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	в	в	ADP	_	_	7	discourse	_	_
+3	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	изобилие	изобилие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	из-за	из-за	ADP	_	_	10	case	_	_
+9	определенной	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	динамики	динамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	льдов	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+15	абляции	абляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+19	чего	что	PRON	_	Case=Gen	18	nmod	_	_
+20	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+21	зоны	зона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+22	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3611
+# text = Тем не менее, в Антарктиде находят сравнительно малое количество небесных тел, содержащих железо.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Антарктиде	антарктида	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	находят	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сравнительно	сравнительно	ADV	_	Degree=Pos	9	advmod	_	_
+9	малое	малый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+11	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	содержащих	содержать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	железо	железо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3612
+# text = Исследователи из университета Манчестера предположили, что причиной этого может быть высокая теплопроводность подобных метеоритов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Манчестера	Манчестер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+9	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	cop	_	_
+12	высокая	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	теплопроводность	теплопроводность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+14	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3613
+# text = Солнце, проникая сквозь прозрачную поверхность льдов Антарктиды на глубину до нескольких десятков сантиметров, нагревает метеориты, в результате чего они растапливают лед и проваливаются в толщу ледника.Лабораторные эксперименты в сочетании с математическим моделированием показали, что скорость "проваливания" метеоритов в глубину льда (в среднем, 2,4 миллиметра в час) может быть достаточной для того, чтобы они оставались в нескольких десятках сантиметров под поверхностью даже во время абляции ледника.Таким образом, железные метеориты спрятаны во льду на глубине нескольких десятков сантиметров.
+1	Солнце	солнце	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	проникая	проникать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+4	сквозь	сквозь	ADP	_	_	6	case	_	_
+5	прозрачную	прозрачный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	льдов	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	Антарктиды	Антарктида	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	нескольких	несколько	NUM	_	Case=Gen	13	nummod	_	_
+13	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+14	сантиметров	сантиметры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	нагревает	нагревавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+21	чего	что	PRON	_	Case=Gen	20	nmod	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+23	растапливают	растапливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	лед	лед	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	проваливаются	проваливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	37	conj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	толщу	толща	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+29	ледника.	ледника.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	Лабораторные	Лабораторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	сочетании	сочетание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+34	с	с	ADP	_	_	36	case	_	_
+35	математическим	математический	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	моделированием	моделирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	nmod	_	_
+37	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	что	что	SCONJ	_	_	37	mark	_	_
+40	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	57	nsubj	_	_
+41	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	проваливания	проваливание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	42	punct	_	_
+44	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+45	в	в	ADP	_	_	46	case	_	_
+46	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	nmod	_	_
+47	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	в	в	ADP	_	_	50	case	_	_
+50	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	47	parataxis	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	2,4	2,4	NUM	_	_	50	conj	_	_
+53	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+54	в	в	ADP	_	_	55	case	_	_
+55	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+56	)	)	PUNCT	_	_	55	punct	_	_
+57	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	advcl	_	_
+58	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	59	cop	_	_
+59	достаточной	достаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	57	obl	_	_
+60	для	для	ADP	_	_	61	case	_	_
+61	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	57	obl	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	61	punct	_	_
+63	чтобы	чтобы	SCONJ	_	Mood=Cnd	61	mark	_	_
+64	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	65	nsubj	_	_
+65	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	61	advcl	_	_
+66	в	в	ADP	_	_	68	case	_	_
+67	нескольких	несколько	NUM	_	Case=Loc	68	nummod	_	_
+68	десятках	десяток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	65	obl	_	_
+69	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	68	nmod	_	_
+70	под	под	ADP	_	_	71	case	_	_
+71	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	57	obl	_	_
+72	даже	даже	PART	_	_	75	advmod	_	_
+73	во	во	ADP	_	_	75	case	_	_
+74	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	73	fixed	_	_
+75	абляции	абляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	57	obl	_	_
+76	ледника.	ледника.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	75	nmod	_	SpaceAfter=No
+77	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	78	amod	_	_
+78	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	75	obl	_	SpaceAfter=No
+79	,	,	PUNCT	_	_	78	punct	_	_
+80	железные	железный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	81	amod	_	_
+81	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	82	nsubj:pass	_	_
+82	спрятаны	спрятывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+83	во	в	ADP	_	_	84	case	_	_
+84	льду	лед	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	82	obl	_	_
+85	на	на	ADP	_	_	86	case	_	_
+86	глубине	глубина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	82	obl	_	_
+87	нескольких	несколько	NUM	_	Case=Gen	88	nummod	_	_
+88	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	86	nmod	_	_
+89	сантиметров	сантиметры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	88	nmod	_	SpaceAfter=No
+90	.	.	PUNCT	_	_	89	punct	_	_
+
+# sent_id = 3614
+# text = По оценкам ученых, эти метеориты могли находиться там несколько тысяч лет.Эти метеориты могут помочь нам в понимании процессов, происходивших на ранних этапах возникновения Солнечной системы, так как железные метеориты потенциально могли возникнуть из ядра своего уникального родительского астероида.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	эти	этот	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	там	там	ADV	_	Degree=Pos	8	advmod	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Эти	этот	DET	_	Case=Nom|Number=Plur	15	amod	_	_
+15	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	17	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	понимании	понимание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+21	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	происходивших	происходить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	21	amod	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	ранних	ранний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	_
+26	этапах	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	_
+27	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	так	так	ADV	_	Degree=Pos	0	mark	_	_
+32	как	как	SCONJ	_	_	31	fixed	_	_
+33	железные	железный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	метеориты	метеорит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_
+35	потенциально	потенциально	ADV	_	Degree=Pos	36	advmod	_	_
+36	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+37	возникнуть	возникать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+38	из	из	ADP	_	_	39	case	_	_
+39	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	obl	_	_
+40	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	43	amod	_	_
+41	уникального	уникальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+42	родительского	родительский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	астероида	астероид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 3615
+# text = Они могут указывать на количество и разнообразие протопланет, когда-то существовавших в нашей Солнечной системе.Ежегодно на Землю падает около 21,3 тонн метеоритов, однако эту оценку нельзя назвать окончательной, так как множество метеоритов достаточно мелкие и не регистрируются в каталогах.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	указывать	указывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	протопланет	протоплаать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	когда-то	когда-то	ADV	_	Degree=Pos	11	advmod	_	_
+11	существовавших	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	15	amod	_	_
+14	Солнечной	Солнечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	системе.	системеаница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	Ежегодно	ежегодно	ADV	_	Degree=Pos	19	advmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	около	около	ADP	_	_	22	case	_	_
+21	21,3	21,3	NUM	_	_	22	nummod	_	_
+22	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+23	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	однако	однако	ADV	_	Degree=Pos	28	advmod	_	_
+26	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	27	amod	_	_
+27	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	нельзя	нельзя	ADV	_	Degree=Pos	0	conj	_	_
+29	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+30	окончательной	окончательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	так	так	ADV	_	Degree=Pos	0	mark	_	_
+33	как	как	SCONJ	_	_	32	fixed	_	_
+34	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+35	метеоритов	метеорит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	достаточно	достаточно	ADV	_	Degree=Pos	37	advmod	_	_
+37	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	advcl	_	_
+38	и	и	CCONJ	_	_	40	cc	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	регистрируются	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	37	conj	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	каталогах	каталога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3616
+# text = Стоит отметить, что только 4,4 процента от общего числа из них железные.Кристина Уласович
+1	Стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	4,4	4,4	NUM	_	_	7	nummod	_	_
+7	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+8	от	от	ADP	_	_	10	case	_	_
+9	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+13	железные.	железныбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+14	Кристина	Кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 3617

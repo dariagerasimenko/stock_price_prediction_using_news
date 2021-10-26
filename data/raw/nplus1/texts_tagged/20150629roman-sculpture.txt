@@ -1,0 +1,208 @@
+# text = # newpar
+# sent_id = 5094
+# text = Археологи обнаружили фрагменты мраморной скульптуры, созданной древнеримскими мастерами и изображавшей атлета.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	мраморной	мраморный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	скульптуры	скульптура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	созданной	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	древнеримскими	древнеримский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	мастерами	мастер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	изображавшей	изображать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+12	атлета	атлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5095
+# text = В настоящий момент найдены ноги и рука, которая держит метательное ядро.
+1	В	в	ADP	_	_	3	case	_	_
+2	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	ноги	ног	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	рука	рука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	держит	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	метательное	метательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	ядро	ядро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5096
+# text = О находке сообщаетHurriyet Daily News.Открытие было совершено во время раскопок на месте древнего города Милясы, который находился в юго-западной части современной Турци, в иле Мугла.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+3	сообщаетHurriyet	сообщаетHurriyet	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Daily	daily	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	News.	news.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	SpaceAfter=No
+6	Открытие	открытие	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	совершено	совершать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	во	в	ADP	_	_	11	case	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+14	древнего	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	Милясы	Миляса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	который	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	юго-западной	юго-западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+23	современной	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	Турци	Турця	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	иле	иль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+28	Мугла	Мугол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5097
+# text = По найденным ногам и руке ученые оценили высоту полной скульптуры в 1,43 метра.По характерному сюжету скульптуры археологи отнесли ее к серии работ, вдохновленных произведениями греческого скульптора Поликлета Старшего, который жил во второй половине V века до нашей эры.
+1	По	по	ADP	_	_	3	case	_	_
+2	найденным	найдять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	ногам	нога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	руке	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	оценили	оценивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	скульптуры	скульптура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	1,43	1,43	NUM	_	_	13	nummod	_	_
+13	метра.	метра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	По	по	ADP	_	_	16	case	_	_
+15	характерному	характерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	сюжету	сюжет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+17	скульптуры	скульптура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	отнесли	относить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+20	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	серии	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
+23	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	вдохновленных	вдохновлять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+26	произведениями	произведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	25	obl	_	_
+27	греческого	греческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	скульптора	скульптор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	Поликлета	Поликлет	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	appos	_	_
+30	Старшего	старший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	который	который	PRON	_	Case=Nom	33	nsubj	_	_
+33	жил	жить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
+34	во	в	ADP	_	_	36	case	_	_
+35	второй	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+37	V	v	NUM	_	_	38	nummod	_	_
+38	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+39	до	до	ADP	_	_	41	case	_	_
+40	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	41	amod	_	_
+41	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 5098
+# text = Найденную скульптуру отличают более мягкие черты, поэтому ученые считают, что это более поздняя работа, вероятно -- римская копия эллинистического периода.В древности город Милясы был столицей региона Кария.
+1	Найденную	найденный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	скульптуру	скульптура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	отличают	отличить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	более	более	ADV	_	Degree=Cmp	5	advmod	_	_
+5	мягкие	мягкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	черты	черта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	10	advmod	_	_
+9	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+14	более	более	ADV	_	Degree=Cmp	15	advmod	_	_
+15	поздняя	поздний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	вероятно	вероятно	ADV	_	Degree=Pos	21	parataxis	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	римская	римский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	копия	копия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	parataxis	_	_
+22	эллинистического	эллинистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	периода.	периода.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	В	в	ADP	_	_	25	case	_	_
+25	древности	древность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+27	Милясы	Миляса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	cop	_	_
+29	столицей	столиця	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	advcl	_	_
+30	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	Кария	Кария	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 5099
+# text = Среди его уроженцев был Мавсол -- правитель, при котором был построен Мавзолей в Геликарнасе.
+1	Среди	среди	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	уроженцев	уроженцев	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	Мавсол	Мавсол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	правитель	правитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	котором	который	PRON	_	Case=Loc	12	obl	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	построен	построать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+13	Мавзолей	мавзолей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Геликарнасе	Геликарнас	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5100
+# text = Милясы в разное время находились под управлением Персидской империи, входили в лигу полисов под управлением Афин, но наибольшего процветания достигли в составе Римской Империи, в состав которой город вошел в 40 году до нашей эры.
+1	Милясы	Миляс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	разное	разный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_
+5	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	под	под	ADP	_	_	7	case	_	_
+7	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+8	Персидской	Персидский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	входили	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	лигу	лига	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+14	полисов	полис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	под	под	ADP	_	_	16	case	_	_
+16	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+17	Афин	Афин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	наибольшего	наибольший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	процветания	процветание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nsubj	_	_
+22	достигли	достигать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+25	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	Империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
+30	которой	который	PRON	_	Case=Gen	29	nmod	_	_
+31	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	вошел	входить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	40	40	NUM	_	_	35	nummod	_	_
+35	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	_
+36	до	до	ADP	_	_	38	case	_	_
+37	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	38	amod	_	_
+38	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# newpar
+# sent_id = 5101

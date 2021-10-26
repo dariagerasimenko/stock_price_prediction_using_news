@@ -1,0 +1,118 @@
+# text = # newpar
+# sent_id = 2998
+# text = Команда энтузиастов из Британии, называющая себя Открытое космическое агенство (OSA), при помощи деталей, напечатанных на 3D-принтере, превратила обычный смартфон в телескоп.
+1	Команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	энтузиастов	энтузиаст	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Британии	британия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	называющая	называть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+7	себя	себя	PRON	_	Case=Acc	6	obj	_	_
+8	Открытое	открытый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	агенство	агенство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	OSA	Osa	PROPN	_	Foreign=Yes	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	при	при	ADP	_	_	17	case	_	_
+16	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	напечатанных	напечатывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	3D	3d	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+22	-принтере	-принтер	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	превратила	превращать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+25	обычный	обычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2999
+# text = Об этомсообщаетScience.Для управления телескопом с девятисантиметровым зеркаломиспользуется контроллер Arduino.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этомсообщаетScience.	этомсообщаетScience.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	Для	для	ADP	_	_	4	case	_	_
+4	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	телескопом	телескоп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	девятисантиметровым	девятисантиметровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+8	зеркаломиспользуется	зеркаломиспользуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	контроллер	контроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+10	Arduino	Arduino	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3000
+# text = Конструкторы из OSA обещают в скором времени выложить файлы для печати в открытый доступ и заняться разработкойболее мощного Ultrascope с 30-сантиметровым зеркалом.Авторы покажут телескоп на выставкеSan Diego Maker Faire в октябре.
+1	Конструкторы	конструктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	OSA	Osa	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	обещают	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	скором	скорый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	выложить	выкладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+9	файлы	файл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	открытый	открытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	заняться	заняваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	0	conj	_	_
+17	разработкойболее	разработкойболее	ADV	_	Degree=Cmp	16	advmod	_	_
+18	мощного	мощный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	Ultrascope	Ultrascope	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	30-сантиметровым	30-сантиметровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	зеркалом.	зеркалом.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	Авторы	Автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	покажут	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	выставкеSan	выставкеSan	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+28	Diego	Diego	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Maker	Maker	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	Faire	Faire	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	октябре	октябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3001
+# text = По словам Джеймса Парра, основателя OSA, проект Ultrascope создан чтобы продемонстрировать, что исследования космоса доступны каждому и для этого не обязательно тратить огромные суммы на профессиональный телескоп.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	parataxis	_	_
+3	Джеймса	джеймс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Парра	Парр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	основателя	основатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+7	OSA	Osa	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+10	Ultrascope	Ultrascope	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	создан	оздать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+13	продемонстрировать	демонстрировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+17	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	advcl	_	_
+19	каждому	каждий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+20	и	и	CCONJ	_	_	25	cc	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	обязательно	обязательно	ADV	_	Degree=Pos	25	advmod	_	_
+25	тратить	тратить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	conj	_	_
+26	огромные	огромный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	суммы	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	профессиональный	профессиональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	телескоп.	телескопункт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+
+# newpar
+# sent_id = 3002

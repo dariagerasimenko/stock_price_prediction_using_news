@@ -1,0 +1,573 @@
+# text = # newpar
+# sent_id = 4278
+# text = Химики из Хаверфордского Колледжа и Университета Пердью в США разработали систему машинного обучения, которая позволяет предсказать результат химической реакции на основе базы данных, собранной из лабораторных журналов исследователей.
+1	Химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Хаверфордского	Хаверфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Колледжа	колледж	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+7	Пердью	Пердья	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	appos	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	10	obl	_	_
+10	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+17	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+23	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	собранной	собирать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+27	из	из	ADP	_	_	29	case	_	_
+28	лабораторных	лабораторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	журналов	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
+30	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 4279
+# text = Точность предсказания системы (по крайней мере по одному типу реакций), достигла и даже превысила предсказательные способности профессиональных химиков.
+1	Точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+2	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	по	по	ADP	_	_	10	advmod	_	_
+6	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	fixed	_	_
+7	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	fixed	_	_
+8	по	по	ADP	_	_	10	case	_	_
+9	одному	один	NUM	_	Case=Dat|Gender=Masc	10	nummod	_	_
+10	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	parataxis	_	_
+11	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	достигла	достигать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	даже	даже	PART	_	_	17	advmod	_	_
+17	превысила	превышать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
+18	предсказательные	предсказательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	способности	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+20	профессиональных	профессиональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	химиков	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4280
+# text = Описание системы опубликовано в журнале Nature.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Nature	nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4281
+# text = В качесте тестового задания исследователи использовали реакцию кристаллизации селенидов ванадия в присутсвии разнообразных органических аминов.
+1	В	в	ADP	_	_	2	case	_	_
+2	качесте	качест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	тестового	тестовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	задания	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	селенидов	селенид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	ванадия	ванадий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	присутсвии	присутсвие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+13	разнообразных	разнообразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	аминов	амин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4282
+# text = В некоторых случаях эти вещества образуют крупные кристаллы, в некоторых -- мелкие, иногда кристаллизация вовсе не происходит.
+1	В	в	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	образуют	образевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	19	amod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	иногда	иногда	ADV	_	Degree=Pos	19	advmod	_	_
+16	кристаллизация	кристаллизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	вовсе	вовсе	ADV	_	Degree=Pos	18	advmod	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4283
+# text = Результат реакции зависит от множества условий: от температуры и концентрации веществ, от pH и присутсвия некоторый ионов, и, конечно, от структуры аминов, которые при этом используются.
+1	Результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	концентрации	концентрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+12	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	pH	ph	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	присутсвия	присутсвие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	_
+18	некоторый	некоторый	DET	_	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	_
+19	ионов	ион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	26	cc	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	конечно	конечно	ADV	_	Degree=Pos	26	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+27	аминов	амин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	32	nsubj:pass	_	_
+30	при	при	ADP	_	_	31	case	_	_
+31	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+32	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 4284
+# text = Огромное число комбинаций этих условий сложно проверить экспериментально, однако профессиональные химики могут предугадать результат кристаллизации основываясь на своем обширном опыте.
+1	Огромное	огромный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	комбинаций	комбинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	этих	этот	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+5	условий	условия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	экспериментально	экспериментально	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+11	профессиональные	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+14	предугадать	предугадывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	основываясь	основываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	13	advcl	_	_
+18	на	на	ADP	_	_	21	case	_	_
+19	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	21	amod	_	_
+20	обширном	обширный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	опыте	опыт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4285
+# text = Идея работы заключалась в том, чтобы воспроизвести этот неформальный профессиональный опыт в предсказательной системе, созданной по принципам машинного обучения.
+1	Идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	заключалась	заключаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+8	воспроизвести	воспроизводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+9	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+10	неформальный	неформальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	профессиональный	профессиональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	предсказательной	предсказательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	созданной	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	по	по	ADP	_	_	19	case	_	_
+19	принципам	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+20	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4286
+# text = В своей статье химики используют обучение с учителем, то есть тренируют систему предсказывать результат реакции (наличие или отсутсвие кристаллов) на основе множества примеров с разными условиями.
+1	В	в	ADP	_	_	3	case	_	_
+2	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_
+3	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	обучение	обучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	учителем	учитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	mark	_	_
+11	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	fixed	_	_
+12	тренируют	тренировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	предсказывать	предсказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	parataxis	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	наличие	наличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	parataxis	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	отсутсвие	отсутсвие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_
+21	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+25	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	примеров	пример	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	условиями	условие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4287
+# text = Для того, чтобы получить базу для обучения, авторы обратились к так называемым "темным реакциям" -- фактически, безуспешным попыткам химиков получить то или иное соединение.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	обратились	обращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	к	к	ADP	_	_	17	case	_	_
+13	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+14	называемым	называть	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	темным	темный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	_
+17	реакциям	реакция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	--	--	PUNCT	_	_	17	punct	_	_
+20	фактически	фактически	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	безуспешным	безуспешной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	23	amod	_	_
+23	попыткам	попытка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	0	conj	_	_
+24	химиков	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	dep	_	_
+26	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	29	amod	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	иное	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	conj	_	_
+29	соединение	соединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4288
+# text = Такие "провальные" эксперименты обычно не публикуются, но остаются на страницах лабораторных журналов.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	провальные	провальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+6	обычно	обычно	ADV	_	Degree=Pos	8	advmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	публикуются	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	11	cc	_	_
+11	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	страницах	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+14	лабораторных	лабораторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	журналов	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4289
+# text = Авторы статьи создали формальный язык описания условий проведения реакций и вручную собрали базу, в которую вошло почти четыре тысячи отдельных экспериментов.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	формальный	формальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	вручную	вручную	ADV	_	Degree=Pos	12	advmod	_	_
+12	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которую	который	PRON	_	Case=Acc	17	obl	_	_
+17	вошло	входить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	почти	почти	ADV	_	Degree=Pos	19	advmod	_	_
+19	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	20	nummod:gov	_	_
+20	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nummod:gov	_	_
+21	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4290
+# text = Помимо собственно условий реакции, в описание каждого из опытов, что получала система машинного обучения, входили параметры, которые легко вычислить автоматически: например, количество донорно-акцепторых групп в используемом амине, его молекулярный вес, константа диссоциации и так далее.
+1	Помимо	Помимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	собственно	собственно	ADV	_	Degree=Pos	3	advmod	_	_
+3	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+8	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	опытов	опыт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	получала	получать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+14	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	входили	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	параметры	параметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которые	который	PRON	_	Case=Acc	22	obj	_	_
+22	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	acl:relcl	_	_
+23	вычислить	вычислать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	автоматически	автоматически	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	24	punct	_	_
+26	например	например	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	parataxis	_	_
+29	донорно-акцепторых	донорно-акцепторой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	используемом	использовать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	амине	амина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	37	nmod	_	_
+36	молекулярный	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	вес	вес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	константа	константа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
+40	диссоциации	диссоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+41	и	и	CCONJ	_	_	43	cc	_	_
+42	так	так	ADV	_	Degree=Pos	43	fixed	_	_
+43	далее	далее	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 4291
+# text = База данных была разделена на обучающую и тестовую выборку, а для классификации использовался метод опорных векторов.
+1	База	база	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	разделена	разделять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	9	case	_	_
+6	обучающую	обучающий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	тестовую	тестовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	выборку	выборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	14	cc	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	классификации	классификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+14	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
+15	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+16	опорных	опорный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4292
+# text = Оказалось, что полученная таким образом система правильно предсказывает результат реакции в 89 процентах случаев.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	полученная	получеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+5	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	amod	_	_
+6	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	правильно	правильно	ADV	_	Degree=Pos	9	advmod	_	_
+9	предсказывает	предсказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+10	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	89	89	NUM	_	_	14	nummod	_	_
+14	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+15	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4293
+# text = При этом сами химики, руководствуясь профессиональной интуицией, правильно угадыват исход эксперимента только в 78 процентах случаев.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	руководствуясь	руководствоваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	11	advcl	_	_
+7	профессиональной	профессиональный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	интуицией	интуиция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	правильно	правильно	ADV	_	Degree=Pos	11	advmod	_	_
+11	угадыват	угадыватый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+12	исход	исход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+13	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	только	только	PART	_	_	17	advmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	78	78	NUM	_	_	17	nummod	_	_
+17	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
+18	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4294
+# text = По статистическому анализу, который приводят авторы, достоверность (неслучайность) этого преимущества машины над человеком составляет более 95 процентов (P 0,05).
+1	По	по	ADP	_	_	3	case	_	_
+2	статистическому	статистический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	анализу	анализ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	который	который	PRON	_	Case=Acc	6	obj	_	_
+6	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	достоверность	достоверность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	неслучайность	неслучайность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	14	amod	_	_
+14	преимущества	преимущество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+15	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	над	над	ADP	_	_	17	case	_	_
+17	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+18	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	более	более	ADV	_	Degree=Cmp	21	nummod:gov	_	_
+20	95	95	NUM	_	_	21	nummod	_	_
+21	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	P	p	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	0,05	0,05	NUM	_	_	23	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 4295
+# text = Компьютерные системы предсказания результата реакций создавались и ранее, но до сих пор их точность не превосходила точность экспертной оценки профессионального химика.
+1	Компьютерные	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	реакций	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	создавались	создаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	ранее	рано	ADV	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	17	cc	_	_
+11	до	до	ADP	_	_	17	advmod	_	_
+12	сих	сей	DET	_	Case=Gen|Number=Plur	11	fixed	_	_
+13	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	fixed	_	_
+14	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+15	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	превосходила	превосходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+18	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	экспертной	экспертный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	профессионального	профессиональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	химика	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4296
+# text = Подобные системы (основанные на опубликованных данных органического синтеза) успользовались прежде всего для ускорения работы химиков-синтетиков и избавления от рутинных задач, но не для предсказания.
+1	Подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	основанные	основывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	опубликованных	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	4	obl	_	_
+8	органического	органический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	успользовались	успользоваваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	прежде	прежде	ADP	_	_	11	advmod	_	_
+13	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	fixed	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	ускорения	ускорение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	химиков-синтетиков	химиков-синтетик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	избавления	избавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	conj	_	_
+20	от	от	ADP	_	_	22	case	_	_
+21	рутинных	рутинный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	но	но	CCONJ	_	_	27	cc	_	_
+25	не	не	PART	_	_	27	advmod	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4297
+# text = В то же время новая система, хотя и показала результат, превосходящий экспертную оценку, создана под очень специфическую задачу.
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+5	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	хотя	хотя	SCONJ	_	_	6	mark	_	_
+9	и	и	PART	_	_	10	advmod	_	_
+10	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+11	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	превосходящий	превосходить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	экспертную	экспертный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	создана	создавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+18	под	под	ADP	_	_	21	case	_	_
+19	очень	очень	ADV	_	Degree=Pos	20	advmod	_	_
+20	специфическую	специфический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4298
+# text = Поэтому пока не ясно, будет ли подход с машинным обучением успешен в других условиях.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	пока	пока	ADV	_	Degree=Pos	4	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	ясно	ясно	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	ли	ли	PART	_	_	8	advmod	_	_
+8	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	машинным	машинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обучением	обучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+12	успешен	успешать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4299
+# text = Например, для синтеза новых биологически активных веществ, который интересует фарминдустрию прежде всего.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+5	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	биологически	биологически	ADV	_	Degree=Pos	7	advmod	_	_
+7	активных	активный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	интересует	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+12	фарминдустрию	фарминдустрия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	прежде	прежде	ADP	_	_	11	advmod	_	_
+14	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	fixed	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4300
+# text = Александр Ершов
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ершов	ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 4301

@@ -1,0 +1,70 @@
+# text = # newpar
+# sent_id = 5017
+# text = Исследователи из Университета штата Северная Каролина (США) во главе с Джейкобом Адамсом (Jacob Adams) разработали жидкие металлические антенны, которые способны подстраивать собственную длину к нужной частоте сигнала и при этом управляются исключительно электрическим напряжением.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Северная	Северной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Каролина	Каролина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	США	сша	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	во	во	ADP	_	_	19	parataxis	_	_
+11	главе	глава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	Джейкобом	Джейкоб	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+14	Адамсом	Адамс	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Jacob	Jacob	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	Adams	Adams	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	жидкие	жидкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	антенны	антенна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	22	acl:relcl	_	_
+26	подстраивать	подстраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	к	к	ADP	_	_	31	case	_	_
+30	нужной	нужный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	частоте	частота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
+32	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	и	и	CCONJ	_	_	36	cc	_	_
+34	при	при	ADP	_	_	35	case	_	_
+35	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	obl	_	_
+36	управляются	управлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	_	_
+37	исключительно	исключительно	ADV	_	Degree=Pos	38	advmod	_	_
+38	электрическим	электрический	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	напряжением	напряжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5018
+# text = Исследование опубликовано в Journal of Applied Physics, а с его кратким описанием можно ознакомиться на сайте Американского физического института.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Journal	journal	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	Applied	Applied	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Physics	Physics	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	14	cc	_	_
+10	с	с	ADP	_	_	13	case	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+12	кратким	краткий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+14	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+15	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	nsubj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	Американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	физического	физический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 5019

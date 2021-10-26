@@ -1,0 +1,313 @@
+# text = # newpar
+# sent_id = 4543
+# text = Коллектив ученых изСША получил мутатную версию белка ферритина, который поглощает вдва раза больше железа, чем природные аналоги.
+1	Коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	изСША	изсш	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	мутатную	мутатный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	ферритина	ферритин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	поглощает	поглощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+12	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	13	nummod:gov	_	_
+13	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	больше	много	NUM	_	_	15	nummod:gov	_	_
+15	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	19	cc	_	_
+18	природные	природный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	аналоги	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4544
+# text = Он может использоваться в качестве ручки для управления клетками в ходе магнитного разделения или при создании магнитных биосенсоров.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	2	xcomp	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	ручки	ручка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	клетками	клетк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	conj	_	_
+17	магнитных	магнитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	биосенсоров	биосенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4545
+# text = Исследование опубликовано вNature Communications.В качестве основы для дизайна нового белка авторы использовали природный ферритин из археобактерийPyrococcus furiosus.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вNature	вNature	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Communications	communications	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	В	в	ADP	_	_	8	case	_	_
+7	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	основы	основа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	дизайна	дизайн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	природный	природный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	ферритин	ферритин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	археобактерийPyrococcus	археобактерийPyrococcus	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+19	furiosus	furiosus	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4546
+# text = Микроорганизмы используют этот и подобные ему белки (сидерофоры) в качестве "сейфа" для удержания в клетке железа -- ценного ресурса в мире бактерий.В кодирующую последовательность белка при помощи ПЦР вносили случайные мутации, таким образом создав библиотеку различных вариантов ферритина общим числом в10миллионов штук.
+1	Микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	используют	использевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	conj	_	_
+6	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+7	белки	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	сидерофоры	сидерофор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	сейфа	сейф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	удержания	удержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	клетке	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	ценного	ценный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	ресурса	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+24	в	в	ADP	_	_	23	case	_	_
+25	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+26	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	В	в	ADP	_	_	30	case	_	_
+29	кодирующую	кодирующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obl	_	_
+31	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	при	при	ADP	_	_	34	case	_	_
+33	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	fixed	_	_
+34	ПЦР	Пцр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	obl	_	_
+35	вносили	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+36	случайные	случайный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+37	мутации	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	40	amod	_	_
+40	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	41	obl	_	_
+41	создав	создавать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	35	advcl	_	_
+42	библиотеку	библиотека	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	41	obj	_	_
+43	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+44	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	_
+45	ферритина	ферритин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+46	общим	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	47	amod	_	_
+47	числом	число	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	obl	_	_
+48	в10миллионов	в10миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	47	nmod	_	_
+49	штук	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	48	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 4547
+# text = Отобранные фрагменты ДНК помещали в клетки дрожжей.Используя флуоресцентную метку, ученые выбирали тештаммы дрожжей, вкоторых ферритин поглощал наибольшее количество железа изцитоплазмы (для этого была придумана специальная генетическая конструкция, с которой флюоресцентный белок синтезировался только тогда, когда ферритин забирал на себя почти все внутриклеточное железо).
+1	Отобранные	отбирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+7	дрожжей	дрожж	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	_
+10	флуоресцентную	флуоресцентный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	метку	метка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	выбирали	выбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	тештаммы	тештамм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	дрожжей	дрожжи	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	вкоторых	вкоторый	PRON	_	Case=Acc	20	obj	_	_
+19	ферритин	ферритин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	поглощал	поглощать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	наибольшее	наибольший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	изцитоплазмы	изцитоплазма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	для	для	ADP	_	_	27	case	_	_
+27	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+28	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	aux:pass	_	_
+29	придумана	придумывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	conj	_	_
+30	специальная	специальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+31	генетическая	генетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	которой	который	PRON	_	Case=Gen	38	obl	_	_
+36	флюоресцентный	флюоресцентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+38	синтезировался	синтезироваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	32	acl:relcl	_	_
+39	только	только	PART	_	_	40	advmod	_	_
+40	тогда	тогда	ADV	_	Degree=Pos	38	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	когда	когда	SCONJ	_	_	40	mark	_	_
+43	ферритин	ферритин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+44	забирал	забирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	_
+45	на	на	ADP	_	_	46	case	_	_
+46	себя	себя	PRON	_	Case=Acc	44	obl	_	_
+47	почти	почти	ADV	_	Degree=Pos	48	advmod	_	_
+48	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	50	amod	_	_
+49	внутриклеточное	внутриклеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	50	amod	_	_
+50	железо	железо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	obj	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 4548
+# text = Отобранные варианты белка вновь подвергали случайному мутагенезу, проведя вобщей сложности четыре таких цикла.При помощи проточной цитометрии ученые измерили способность окончательно отобранных ферритинов кпоглощению железа.
+1	Отобранные	отбирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	вновь	вновь	ADV	_	Degree=Pos	5	advmod	_	_
+5	подвергали	подвергать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	случайному	случайный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	мутагенезу	мутагенез	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проведя	проводить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	20	advcl	_	_
+10	вобщей	вобщий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	14	nummod:gov	_	_
+13	таких	такой	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+14	цикла.	цикла.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	При	при	ADP	_	_	18	case	_	_
+16	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	проточной	проточной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	цитометрии	цитометрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+19	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	измерили	измерять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	окончательно	окончательно	ADV	_	Degree=Pos	23	advmod	_	_
+23	отобранных	отбирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	ферритинов	ферритин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+25	кпоглощению	кпоглощение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	_
+26	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4549
+# text = Изтрех выбранных штаммов один оказался почти вдва раза эффективнее, чем его исходный природный аналог.
+1	Изтрех	Изтри	NUM	_	Animacy=Anim|Case=Acc	4	nummod:gov	_	_
+2	выбранных	выбирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	штаммов	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	один	один	NUM	_	Case=Nom|Gender=Masc	5	nsubj	_	_
+5	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	почти	почти	ADV	_	Degree=Pos	7	advmod	_	_
+7	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	8	nummod:gov	_	_
+8	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	эффективнее	эффективно	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чем	чем	SCONJ	_	_	15	cc	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+13	исходный	исходный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	природный	природный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 4550
+# text = Такой результат позволил улучшить чувствительность при магнитной сортировке клеток вчетыре раза.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	при	при	ADP	_	_	8	case	_	_
+7	магнитной	магнитный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	сортировке	сортировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	вчетыре	вчетыре	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 4551
+# text = Кроме того, наоснове полученных штаммов, ученые создали тестовый образец магнитного биосенсора, чувствительного к галактозе.Ферритин является крупным белковым комплексом, отвечающим законтроль содержания железа вклетке.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	наоснове	наоснова	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+5	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	штаммов	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	тестовый	тестовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образец	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	биосенсора	биосенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чувствительного	чувствительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	галактозе.	галактозбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	SpaceAfter=No
+18	Ферритин	Ферритин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	_
+20	крупным	крупный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	белковым	белковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	комплексом	комплекс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	отвечающим	отвечать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+25	законтроль	законтроль	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+26	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	вклетке	вклетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4552
+# text = Онсостоит из24субъединиц испособен поглощать донескольких тысяч атомов железа.
+1	Онсостоит	Онсостоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	из24субъединиц	из24субъединица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	_
+3	испособен	испособен	PART	_	_	4	advmod	_	_
+4	поглощать	поглощать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	nsubj	_	_
+5	донескольких	донесколько	NUM	_	Case=Gen	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+7	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4553
+# text = Этот белок нашел широкое применение внанотехологии.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	нашел	находить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	широкое	широкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	внанотехологии	внанотехология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4554
+# text = Например, его используют вкачестве шаблона для синтеза металлических наночастиц.Тарас Молотилин
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+4	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+6	шаблона	шаблон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	наночастиц	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Тарас	Тарас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+13	Молотилин	Молотилин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	_
+
+# newpar
+# sent_id = 4555

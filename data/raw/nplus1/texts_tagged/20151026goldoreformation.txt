@@ -1,0 +1,247 @@
+# text = # newpar
+# sent_id = 3415
+# text = Израильская оборонная промышленность завершила сборку первого прототипа "боевой машины пехоты будущего" -- Eitan,сообщаетDefense News.
+1	Израильская	израильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	оборонная	оборонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	промышленность	промышленность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	завершила	завершать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сборку	сборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	прототипа	прототип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	--	--	PUNCT	_	_	12	punct	_	_
+15	Eitan,сообщаетDefense	Eitan,сообщаетDefense	PROPN	_	Foreign=Yes	12	appos	_	_
+16	News	news	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3416
+# text = Этот броневик с колесной формулой 8x8 будет поставляться в войска параллельно с новыми гусеничными бронетранспортерами Namer и должен будет заменить устаревшие M113 американского производства.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	броневик	броневик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	колесной	колесный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	формулой	формула	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+6	8x8	8x8	NOUN	_	_	5	nmod	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	поставляться	поставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	войска	войска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+11	параллельно	параллельно	ADV	_	Degree=Pos	8	advmod	_	_
+12	с	с	ADP	_	_	15	case	_	_
+13	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+14	гусеничными	гусеничный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	бронетранспортерами	бронетранспортер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+16	Namer	Namer	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	conj	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+20	заменить	заменать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	dep	_	_
+21	устаревшие	устаревать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	24	amod	_	_
+22	M113	M113	NUM	_	_	24	nummod	_	_
+23	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3417
+# text = Как ожидается, серийное производство Eitan начнется к 2020 году.Масса новой боевой машины составит не более 35 тонн.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	серийное	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	Eitan	Eitan	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	2020	2020	NUM	_	_	10	nummod	_	_
+10	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	Масса	Масс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	более	более	ADV	_	Degree=Cmp	19	nummod:gov	_	_
+18	35	35	NUM	_	_	19	nummod	_	_
+19	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3418
+# text = При этом Eitan будет оснащен различными системами нового поколения, включая дистанционно управляемый модуль вооружения, сенсоры и активную защиту.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	Eitan	Eitan	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	различными	различной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
+8	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	включая	включая	ADV	_	Degree=Pos	14	advmod	_	_
+12	дистанционно	дистанционно	ADV	_	Degree=Pos	13	advmod	_	_
+13	управляемый	управляеть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+15	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	сенсоры	сенсор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	активную	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3419
+# text = Перспективная бронемашина также получит единую цифровую систему управления, благодаря которой Eitan, Namer и еще несколько видов техники будут объединены в едином информационном пространстве.В настоящее время создан пока только один прототип, но в ближайшее время начнется сборка еще нескольких машин такого типа.
+1	Перспективная	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	бронемашина	бронемашина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	единую	единый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	цифровую	цифровый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	благодаря	благодаря	ADP	_	_	11	case	_	_
+11	которой	который	PRON	_	Case=Loc	21	obl	_	_
+12	Eitan	Eitan	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Namer	Namer	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	еще	еще	ADV	_	Degree=Pos	17	advmod	_	_
+17	несколько	несколько	NUM	_	Case=Nom	18	nummod:gov	_	_
+18	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	_
+19	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	объединены	объединять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+22	в	в	ADP	_	_	25	case	_	_
+23	едином	единый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	информационном	информационный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	пространстве.	пространствеент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+26	В	в	ADP	_	_	29	advmod	_	_
+27	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	fixed	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	fixed	_	_
+29	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	conj	_	_
+30	пока	пока	ADV	_	Degree=Pos	32	advmod	_	_
+31	только	только	PART	_	_	32	advmod	_	_
+32	один	один	NUM	_	Case=Nom|Gender=Masc	33	nummod:gov	_	_
+33	прототип	прототип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj:pass	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	но	но	CCONJ	_	_	39	cc	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	39	obl	_	_
+39	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	29	conj	_	_
+40	сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	_
+41	еще	еще	ADV	_	Degree=Pos	42	advmod	_	_
+42	нескольких	несколько	NUM	_	Case=Gen	43	nummod	_	_
+43	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	_
+44	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	45	amod	_	_
+45	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 3420
+# text = Согласно планам военных, полевые испытания Eitan состоятся в конце будущего года.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	планам	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	parataxis	_	_
+3	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	полевые	полевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+7	Eitan	Eitan	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	состоятся	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3421
+# text = Создание боевой машины пехоты ведется в рамках долгосрочной программы Ground Horizon, предполагающей значительную модернизацию сухопутных войск Израиля.В настоящее время на вооружении Израиля стоят более шести тысяч бронетранспортеров M113 разных версий.
+1	Создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+2	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+8	долгосрочной	долгосрочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Ground	Ground	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Horizon	Horizon	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	предполагающей	предполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+14	значительную	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	модернизацию	модернизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	сухопутных	сухопутный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	войск	войска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+18	Израиля	израиль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	В	в	ADP	_	_	26	advmod	_	_
+21	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	fixed	_	_
+22	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	fixed	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+25	Израиля	израиль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	стоят	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+27	более	более	ADV	_	Degree=Cmp	29	nummod:gov	_	_
+28	шести	шесть	NUM	_	Case=Gen	29	nummod	_	_
+29	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+30	бронетранспортеров	бронетранспортер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+31	M113	M113	NUM	_	_	33	nummod	_	_
+32	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 3422
+# text = Кроме того, в войска уже поставлены около 120 машин Namer.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	войска	войска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obl	_	_
+6	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+7	поставлены	ставить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	около	около	ADP	_	_	10	case	_	_
+9	120	120	NUM	_	_	10	nummod	_	_
+10	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+11	Namer	Namer	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3423
+# text = До 2027 года их число планируется увеличить до 531 единиц.
+1	До	до	ADP	_	_	3	case	_	_
+2	2027	2027	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
+5	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+6	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	531	531	NUM	_	_	10	nummod	_	_
+10	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3424
+# text = Сколько именно перспективных машин Eitan планируется принять на вооружение, пока неизвестно.Василий Сычёв
+1	Сколько	сколько	ADV	_	Degree=Pos	6	advmod	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	Eitan	Eitan	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj:pass	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пока	пока	SCONJ	_	_	6	mark	_	_
+12	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+15	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+
+# newpar
+# sent_id = 3425

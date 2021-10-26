@@ -1,0 +1,332 @@
+# text = # newpar
+# sent_id = 2222
+# text = Студент Технологического института Нью-Джерси Джозеф Дельгадо (Joseph Delgado) перенес игру Duck Hunt для консоли NES в виртуальную реальность.
+1	Студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	Технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Нью-Джерси	Нью-Джерси	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Джозеф	джозеф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	Дельгадо	Дельгадо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Joseph	Joseph	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Delgado	Delgado	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	перенес	переносить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	Duck	Duck	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Hunt	Hunt	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	консоли	консоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+17	NES	Nes	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	виртуальную	виртуальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	реальность	реальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2223
+# text = Об этом сообщает Gizmodo.В качестве аппаратной части проекта автор использовал очки виртуальной реальности Oculus Rift Development Kit 2 и контроллеры Razer Hydra.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Gizmodo.	Gizmodo.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	В	в	ADP	_	_	8	case	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	аппаратной	аппаратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+9	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	очки	очки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	виртуальной	виртуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	реальности	реальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	Oculus	Oculus	PROPN	_	Foreign=Yes	14	appos	_	_
+16	Rift	Rift	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Development	Development	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Kit	kit	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	2	2	NUM	_	_	18	nummod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	контроллеры	контроллер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	conj	_	_
+22	Razer	Razer	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Hydra	Hydra	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2224
+# text = Для комфортного использования VR-комплекта необходимо было отойти на достаточное расстояние от стола, а Razer Hydra плохо работает на большом расстоянии от базовой станции, поэтому разработчик смонтировал базовый модуль Hydra на голову при помощи 3D-печатного крепления.Спрайты из оригинальной игры автор трансформировал в модели из вокселей при помощи скрипта на Python.
+1	Для	для	ADP	_	_	3	case	_	_
+2	комфортного	комфортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+4	VR-	VR-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	комплекта	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+8	отойти	отходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	достаточное	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+12	от	от	ADP	_	_	11	case	_	_
+13	стола	стол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	19	cc	_	_
+16	Razer	Razer	PROPN	_	Foreign=Yes	19	nsubj	_	_
+17	Hydra	Hydra	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	плохо	плохо	ADV	_	Degree=Pos	19	advmod	_	_
+19	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+23	от	от	ADP	_	_	25	case	_	_
+24	базовой	базовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	поэтому	поэтому	ADV	_	Degree=Pos	29	advmod	_	_
+28	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+29	смонтировал	смонтировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	базовый	базовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	obj	_	_
+32	Hydra	Hydra	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	_
+35	при	при	ADP	_	_	31	case	_	_
+36	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	fixed	_	_
+37	3D	3d	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+38	-печатного	-печатный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	крепления	крепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	Спрайты	Спрайты	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	conj	_	_
+42	из	из	ADP	_	_	44	case	_	_
+43	оригинальной	оригинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+45	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	_
+46	трансформировал	трансформировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+47	в	в	ADP	_	_	48	case	_	_
+48	модели	модель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	46	obl	_	_
+49	из	из	ADP	_	_	50	case	_	_
+50	вокселей	воксель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	46	obl	_	_
+51	при	при	ADP	_	_	53	case	_	_
+52	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	51	fixed	_	_
+53	скрипта	скрипт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	obl	_	_
+54	на	на	ADP	_	_	55	case	_	_
+55	Python	Python	PROPN	_	Foreign=Yes	46	flat:foreign	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 2225
+# text = Воксельные изображения в трехмерном пространстве получили некоторую глубину и тени.
+1	Воксельные	Воксельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	изображения	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	трехмерном	трехмерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+6	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	некоторую	некоторый	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	тени	тень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2226
+# text = Кроме спрайтов из оригинальной игры в VR-версию также добавлена 3D-модель пластикового светового пистолета, который использовался с оригинальной приставкой NES (на территории России для обозначения множества различных восьмибитных консолей использовалось название Dendy).В самой игре существует две локации.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	спрайтов	спрайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	оригинальной	оригинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	VR-	Vr-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+8	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	добавлена	добавлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	3D	3d	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+14	пластикового	пластиковой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	светового	световой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	который	который	PRON	_	Case=Nom	19	nsubj:pass	_	_
+19	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	оригинальной	оригинальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	приставкой	приставка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+23	NES	Nes	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	на	на	ADP	_	_	26	case	_	_
+26	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+27	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	для	для	ADP	_	_	29	case	_	_
+29	обозначения	обозначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+30	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+32	восьмибитных	восьмибитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	консолей	консуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+34	использовалось	использоваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	conj	_	_
+35	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+36	Dendy	Dendy	PROPN	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+39	В	в	ADP	_	_	41	case	_	_
+40	самой	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+42	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+43	две	два	NUM	_	Case=Nom|Gender=Fem	44	nummod:gov	_	_
+44	локации	локация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nsubj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 2227
+# text = Сначала игрок появляется в доме, которого не было в оригинальной игре.
+1	Сначала	сначала	ADV	_	Degree=Pos	3	advmod	_	_
+2	игрок	игрок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	доме	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которого	который	PRON	_	Case=Gen	12	nsubj	_	_
+8	не	не	PART	_	_	12	advmod	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	оригинальной	оригинальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2228
+# text = Дом выполняет роль меню -- здесь можно посмотреть статистику или запустить дополнительный режим игры -- стрельбу по тарелкам из окна.
+1	Дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	меню	меню	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	здесь	здесь	ADV	_	Degree=Pos	7	advmod	_	_
+7	можно	можно	ADV	_	Degree=Pos	2	conj	_	_
+8	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	статистику	статистика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+12	дополнительный	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	стрельбу	стрельба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	тарелкам	тарелка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	окна	окно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2229
+# text = Снаружи дома расположено болото из оригинальной игры.
+1	Снаружи	снаружи	ADP	_	_	2	case	_	_
+2	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	расположено	расположать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	болото	болото	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	оригинальной	оригинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2230
+# text = В случайных местах из кустов вокруг игрока взлетают утки, которых нужно подстрелить.
+1	В	в	ADP	_	_	3	case	_	_
+2	случайных	случайный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	кустов	куст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	вокруг	вокруг	ADP	_	_	7	case	_	_
+7	игрока	игрок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	взлетают	взлетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	утки	утка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которых	который	PRON	_	Case=Acc	12	obj	_	_
+12	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	acl:relcl	_	_
+13	подстрелить	подстрелить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2231
+# text = Если утка подстрелена, то она падает на землю и ее поднимает собака.
+1	Если	если	SCONJ	_	_	7	mark	_	_
+2	утка	утка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	подстрелена	подстрелять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	то	то	SCONJ	_	_	3	cc	_	_
+6	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+12	поднимает	поднимавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	собака	собака	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2232
+# text = Если игрок промазал и утка улетела, то собака смеется, выглядывая из кустов.Очки виртуальной реальности Oculus Rift несколько лет существовали только в качестве комплектов для разработчиков.
+1	Если	если	SCONJ	_	_	10	mark	_	_
+2	игрок	игрок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	промазал	мазать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	утка	утка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	улетела	улетать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	то	то	SCONJ	_	_	3	cc	_	_
+9	собака	собака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	смеется	смеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	выглядывая	выглядывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	кустов.	кустовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	Очки	очка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	виртуальной	виртуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	реальности	реальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	Oculus	Oculus	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Rift	Rift	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	21	nummod:gov	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+22	существовали	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+23	только	только	PART	_	_	26	advmod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	fixed	_	_
+26	комплектов	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2233
+# text = Официальный предзаказ на пользовательскую версию VR-очков стартовал в январе 2016 года.
+1	Официальный	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	предзаказ	предзаказ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	пользовательскую	пользовательский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+6	VR	Vr	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	очков	очков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	стартовал	стартовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	январе	январь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	2016	2016	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2234
+# text = В комплекте с очками идет беспроводной контроллер Xbox One, стоимость одного комплекта составляет 599 долларов США.Николай Воронцов
+1	В	в	ADP	_	_	2	case	_	_
+2	комплекте	комплект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	очками	очка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+5	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	беспроводной	беспроводной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	контроллер	контроллер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	Xbox	Xbox	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	One	One	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	одного	один	NUM	_	Case=Gen|Gender=Masc	13	nummod	_	_
+13	комплекта	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	599	599	NUM	_	_	16	nummod	_	_
+16	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+20	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	_
+
+# newpar
+# sent_id = 2235

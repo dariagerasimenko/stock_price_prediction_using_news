@@ -1,0 +1,340 @@
+# text = # newpar
+# sent_id = 334
+# text = Американец с ником Hognose разработал способ быстрого производства нижней части ствольной коробки самозарядной винтовки AR-15 из заливочного пластика.
+1	Американец	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	ником	ник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Hognose	Hognose	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	нижней	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	ствольной	ствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	самозарядной	самозарядный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	AR-15	Ar-15	NOUN	_	_	6	nmod	_	_
+16	из	из	ADP	_	_	15	case	_	_
+17	заливочного	заливочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 335
+# text = КакпишетTFB, детали стрелкового оружия, изготовленные по его способу, получаются более прочными и долговечными, чем запчасти, напечатанные на 3D-принтере.
+1	КакпишетTFB	Какпишетtfb	PROPN	_	Foreign=Yes	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+4	стрелкового	стрелковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	изготовленные	изготовлять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+8	по	по	ADP	_	_	10	case	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	способу	способо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	получаются	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	более	более	ADV	_	Degree=Cmp	14	advmod	_	_
+14	прочными	прочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	долговечными	долговечный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чем	чем	SCONJ	_	_	19	cc	_	_
+19	запчасти	запчасть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	напечатанные	напечатывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	3D	3d	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+24	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 336
+# text = При этом предложенный способ изготовления деталей настолько прост, что фактически позволяет наладить серийное производство в домашних условиях.Для производства, разработанного Hognose, необходим 3D-принтер, оснастка, заливочный силикон и заливочный пластик.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+3	предложенный	предлагать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	деталей	деталей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	настолько	настолько	ADV	_	Degree=Pos	8	advmod	_	_
+8	прост	простой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	фактически	фактически	ADV	_	Degree=Pos	12	advmod	_	_
+12	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+13	наладить	налаживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	серийное	серийный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	домашних	домашний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Для	для	ADP	_	_	21	case	_	_
+21	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	разработанного	разрабатывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	Hognose	Hognose	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	необходим	необходимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	advcl	_	_
+27	3D	3d	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+28	-принтер	-принтер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	оснастка	оснастка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	заливочный	заливочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	силикон	силикон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	заливочный	заливочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	пластик	пластик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 337
+# text = Последние два свободно продаются в хозяйственных магазинах и являются двухкомпонентными (для отвердения состава оба компонента необходимо тщательно перемешать).
+1	Последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	два	два	NUM	_	Case=Nom|Gender=Masc	4	nsubj:pass	_	_
+3	свободно	свободно	ADV	_	Degree=Pos	4	advmod	_	_
+4	продаются	продавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	хозяйственных	хозяйственный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+10	двухкомпонентными	двухкомпонентный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	для	для	ADP	_	_	13	case	_	_
+13	отвердения	отвердение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	_
+14	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	оба	оба	NUM	_	Case=Nom|Gender=Masc	16	nummod:gov	_	_
+16	компонента	компонент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+17	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	_
+18	тщательно	тщательно	ADV	_	Degree=Pos	19	advmod	_	_
+19	перемешать	перемешать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 338
+# text = Для начала необходимую деталь надо распечатать на 3D-принтере.
+1	Для	для	ADP	_	_	2	case	_	_
+2	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+3	необходимую	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	деталь	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	надо	надо	ADV	_	Degree=Pos	0	root	_	_
+6	распечатать	распечатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	3D	3d	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+9	-принтере	-принтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 339
+# text = Она будет служить в качестве эталона при изготовлении формы для отливки.Затем полученную деталь необходимо поместить в оснастку (специально изготовленную коробку со съемными стенками из оргстекла или дерева) и залить силиконом.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	эталона	эталон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	изготовлении	изготовление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+9	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	отливки.	отливки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+12	Затем	затем	ADV	_	Degree=Pos	15	advmod	_	_
+13	полученную	получать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	деталь	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+16	поместить	помещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	оснастку	оснастка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	специально	специально	ADV	_	Degree=Pos	21	advmod	_	_
+21	изготовленную	изготовлять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	коробку	коробка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+23	со	с	ADP	_	_	25	case	_	_
+24	съемными	съемный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+25	стенками	стенка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	оргстекла	оргстекл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	дерева	дерево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	conj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	залить	заливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+33	силиконом	силикон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 340
+# text = После того, как тот отвердеет, полученный эластичный брикет необходимо достать из оснастки и аккуратно разрезать на несколько частей.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	отвердеет	отвердевать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	полученный	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+9	эластичный	эластичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	брикет	брикет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+11	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+12	достать	доставать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	оснастки	оснастка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	аккуратно	аккуратно	ADV	_	Degree=Pos	17	advmod	_	_
+17	разрезать	разрезать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	20	nummod:gov	_	_
+20	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 341
+# text = Из полученных частей, сохранивших форму распечатанной пластиковой детали, и можно сделать форму для отливки из заливочного пластика.Для изготовления формы американец использовал синий заливочный силикон Mold Star 30, а для производства пластиковой литой нижней части ствольной коробки AR-15 -- белый жидкий пластик Smooth-Cast 305.
+1	Из	из	ADP	_	_	3	case	_	_
+2	полученных	получеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сохранивших	сохранять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+6	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	распечатанной	распечатать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	пластиковой	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	детали	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	можно	можно	ADV	_	Degree=Pos	25	conj	_	_
+13	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	advcl	_	_
+14	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	отливки	отливка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+17	из	из	ADP	_	_	16	case	_	_
+18	заливочного	заливочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Для	для	ADP	_	_	22	case	_	_
+22	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+23	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	американец	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	синий	синий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+27	заливочный	заливочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	силикон	силикон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+29	Mold	Mold	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	Star	star	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	30	30	NUM	_	_	28	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	а	а	CCONJ	_	_	46	cc	_	_
+34	для	для	ADP	_	_	35	case	_	_
+35	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+36	пластиковой	пластиковой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+37	литой	литый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+38	нижней	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+40	ствольной	ствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+42	AR-15	ar-15	X	_	Foreign=Yes	41	flat:foreign	_	_
+43	--	--	PUNCT	_	_	42	punct	_	_
+44	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+45	жидкий	жидкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	пластик	пластик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	conj	_	_
+47	Smooth	Smooth	PROPN	_	Foreign=Yes	46	flat:foreign	_	SpaceAfter=No
+48	-	-	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	Cast	Cast	PROPN	_	Foreign=Yes	47	flat:foreign	_	_
+50	305	305	NUM	_	_	49	nummod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 342
+# text = По данным Hognose, получаемые детали можно сделать еще прочнее, если использовать разные типы заливочного пластика.Самостоятельное изготовление различных деталей для стрелкового оружия в США разрешено законодательно.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	7	parataxis	_	_
+3	Hognose	Hognose	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	получаемые	получать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	прочнее	прочно	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	если	если	SCONJ	_	_	0	mark	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	advcl	_	_
+14	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	типы	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+16	заливочного	заливочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	пластика.	пластика.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	Самостоятельное	самостоятельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	изготовление	изготовление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+20	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	для	для	ADP	_	_	24	case	_	_
+23	стрелкового	стрелковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	0	nmod	_	_
+27	разрешено	разрешать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+28	законодательно	законодательно	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 343
+# text = По этой причине оружейники-энтузиасты занимаются печатью прикладов, шахт для магазинов, нижних частей ствольных коробок для своего оружия.
+1	По	по	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+4	оружейники	оружейник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	энтузиасты	энтузиаст	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	appos	_	_
+7	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	печатью	печать	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	прикладов	приклад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	шахт	шахта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+12	для	для	ADP	_	_	11	case	_	_
+13	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	нижних	нижний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	_
+17	ствольных	ствольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	коробок	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	для	для	ADP	_	_	18	case	_	_
+20	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	21	amod	_	_
+21	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 344
+# text = В начале июня ведущие канала Freedom Printing 3D на YouTubeопределили, что лучше всего для печати деталей для стрелкового оружия подходит ABS-пластик, хотя в 3D-печати наиболее популярным является пластик PLA.
+1	В	в	ADP	_	_	2	case	_	_
+2	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ведущие	ведущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Freedom	Freedom	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Printing	Printing	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	YouTubeопределили	YouTubeопределять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	лучше	хороший	ADJ	_	Degree=Cmp	18	conj	_	_
+14	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	стрелкового	стрелковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+21	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+22	ABS	Abs	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	пластик	пластик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	хотя	хотя	SCONJ	_	_	0	mark	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	3D	3d	PROPN	_	Foreign=Yes	32	obl	_	SpaceAfter=No
+29	-печати	-печати	ADV	_	Degree=Pos	31	advmod	_	_
+30	наиболее	наиболее	ADV	_	Degree=Pos	31	advmod	_	_
+31	популярным	популярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+32	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+33	пластик	пластик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+34	PLA	Pla	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# newpar
+# sent_id = 345

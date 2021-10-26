@@ -1,0 +1,278 @@
+# text = # newpar
+# sent_id = 99
+# text = Министерство обороны России планирует вернуть авиационные бомбы в состав номенклатуры вооружений ударных вертолетов.
+1	Министерство	министерство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	авиационные	авиационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+10	номенклатуры	номенклатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	вооружений	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+12	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	вертолетов	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 100
+# text = Об этом, каксообщаетРИА Новости, заявил заместитель министра обороны России Юрий Борисов.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каксообщаетРИА	каксообщаетриа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+5	Новости	новость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	заместитель	заместитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	министра	министр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Юрий	юрий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+13	Борисов	борисов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 101
+# text = По его словам, вертолетное бомбовое вооружение сегодня стало очень востребованным.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вертолетное	вертолетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	бомбовое	бомбовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	сегодня	сегодня	ADV	_	Degree=Pos	9	advmod	_	_
+9	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	востребованным	востребовать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 102
+# text = Подробности о том, какие именно машины могут получить бомбы, не уточняются.Из всех ударных вертолетов, стоящих на вооружении России сегодня авиационные бомбы могут нести только Ми-24, разработанные во второй половине 1960-х годов и принятые на вооружение в 1971 году.
+1	Подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	какие	какой	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	именно	именно	PART	_	_	7	advmod	_	_
+7	машины	машин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+9	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	уточняются	уточняоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Из	из	ADP	_	_	18	case	_	_
+16	всех	весь	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+17	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	вертолетов	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	стоящих	стоять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	сегодня	сегодня	ADV	_	Degree=Pos	27	advmod	_	_
+25	авиационные	авиационный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	бомбы	бомб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+27	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+28	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	только	только	PART	_	_	31	advmod	_	_
+30	Ми-	Ми-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	24	24	NUM	_	_	33	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	разработанные	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+34	во	в	ADP	_	_	36	case	_	_
+35	второй	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+37	1960-х	1960-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	принятые	принимать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obl	_	_
+43	в	в	ADP	_	_	45	case	_	_
+44	1971	1971	NUM	_	_	45	nummod	_	_
+45	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 103
+# text = Эти машины могут нести авиационные бомбы и бомбовые кассеты калибром от 50 до 500 килограммов.В состав номенклатуры вооружений Ми-35М, являющихся глубокой модернизацией Ми-24, а также Ми-28Н и Ка-52 бомбы не включены, хотя на системах подвески боеприпасы такого класса могут быть закреплены.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	авиационные	авиационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	бомбовые	бомбовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	кассеты	кассет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+10	калибром	калибр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	50	50	NUM	_	_	10	nummod	_	_
+13	до	до	ADP	_	_	15	case	_	_
+14	500	500	NUM	_	_	15	nummod	_	_
+15	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
+18	номенклатуры	номенклатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	вооружений	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	Ми-35М	Ми-35М	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	являющихся	являться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	20	conj	_	_
+23	глубокой	глубокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	модернизацией	модернизация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+25	Ми-	Ми-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	24	24	NUM	_	_	24	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	а	а	CCONJ	_	_	31	cc	_	_
+29	также	также	ADV	_	Degree=Pos	31	advmod	_	_
+30	Ми-	ми-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	SpaceAfter=No
+31	28Н	28на	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+32	и	и	CCONJ	_	_	34	cc	_	_
+33	Ка-52	Ка-52	NUM	_	_	34	nummod	_	_
+34	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	obl	_	_
+35	не	не	PART	_	_	36	advmod	_	_
+36	включены	включать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	хотя	хотя	SCONJ	_	_	36	mark	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	45	obl	_	_
+41	подвески	подвеска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	_
+43	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	44	amod	_	_
+44	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+45	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	advcl	_	_
+46	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	47	aux:pass	_	_
+47	закреплены	закреплять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	45	xcomp	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	_
+
+# sent_id = 104
+# text = Между тем, по словам Борисова, при развитии вертолетной техники будет уделяться внимание дальности поражения целей.В июле прошлого годастало известно, что в России планируется возобновить производство вертолетов-амфибий Ми-14, выпуск которых завершился в середине 1980-х годов.
+1	Между	между	ADP	_	_	2	case	_	_
+2	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	_
+6	Борисова	Борисов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+10	вертолетной	вертолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	уделяться	уделяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+14	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	дальности	дальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	поражения	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	20	case	_	_
+20	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+21	прошлого	прошлое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	годастало	годастать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	amod	_	_
+23	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	23	mark	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	России	россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+28	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	advcl	_	_
+29	возобновить	возобновлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	nsubj:pass	_	_
+30	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	вертолетов	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+32	-	-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	амфибий	амфибие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	39	nmod	_	_
+34	Ми-	ми-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	SpaceAfter=No
+35	14	14	NUM	_	_	39	nummod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+38	которых	который	PRON	_	Case=Gen	37	nmod	_	_
+39	завершился	завершаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	31	parataxis	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	39	obl	_	_
+42	1980-х	1980-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 105
+# text = Такие машины были сняты с вооружения России в 2004 году.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	сняты	снимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	2004	2004	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 106
+# text = Окончательное решение о возобновлении производства Ми-14 пока не принято.Вертолеты Ми-14 производились в СССР с 1973-го по 1986 год на базе многоцелевых Ми-8.
+1	Окончательное	окончательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	возобновлении	возобновление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Ми-14	Ми-14	NUM	_	_	5	nummod	_	_
+7	пока	пока	ADV	_	Degree=Pos	9	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+12	Ми-14	Ми-14	NUM	_	_	11	nummod	_	_
+13	производились	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	9	parataxis	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	СССР	ссср	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	22	case	_	_
+17	1973-го	1973-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+18	по	по	ADP	_	_	20	case	_	_
+19	1986	1986	NUM	_	_	20	nummod	_	_
+20	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+23	многоцелевых	многоцелевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	Ми	ми	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	8	8	NUM	_	_	24	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 107
+# text = Основными вариантами машины являются противолодочный, спасательный и тральщик -- Ми-14ПЛ, Ми-14ПС и Ми-14БТ соответственно.
+1	Основными	основной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	вариантами	вариант	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+3	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	противолодочный	противолодочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	спасательный	спасательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	тральщик	тральщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	Ми-14ПЛ	Ми-14пл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Ми-14ПС	Ми-14пс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Ми-14БТ	Ми-14бть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	соответственно	соответственно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 108
+# text = Такие вертолеты могли нести бомбы калибром 50 и 250 килограммов.Василий Сычёв
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	калибром	калибр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	50	50	NUM	_	_	6	nummod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	250	250	NUM	_	_	10	nummod	_	_
+10	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+12	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+
+# newpar
+# sent_id = 109

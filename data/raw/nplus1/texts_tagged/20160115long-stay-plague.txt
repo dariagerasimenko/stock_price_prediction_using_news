@@ -1,0 +1,452 @@
+# text = # newpar
+# sent_id = 3123
+# text = Немецкие ученые исследовали останки умерших от чумы людей, датированные XIV -- XVII веками и обнаружили, что все они были носителями одного и того же вида чумной палочки Yersinia pestis.
+1	Немецкие	немецкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	останки	останк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	умерших	умерший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	чумы	чума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+8	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	датированные	датировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+11	XIV	xiv	NUM	_	_	10	nummod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	XVII	xvii	NUM	_	_	14	nummod	_	_
+14	веками	век	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	все	весь	DET	_	Case=Nom|Number=Plur	20	amod	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	22	nsubj	_	_
+21	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+22	носителями	носитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	advcl	_	_
+23	одного	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	23	conj	_	_
+26	же	же	PART	_	_	25	advmod	_	_
+27	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+28	чумной	чумный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	Yersinia	Yersinia	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	pestis	pestis	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3124
+# text = Таким образом ученые предполагают, что как минимум один вид чумной палочки, который проник в Европу в XIV веке сохранился как минимум до XVII века.Результаты опубликованы в PloS ONE.Ранее ученые доказали, что чумная палочка была эндемичной для жителей Евразии еще 5 000 лет назад.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	как	как	SCONJ	_	_	9	advmod	_	_
+8	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	fixed	_	_
+9	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod:gov	_	_
+10	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+11	чумной	чумный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	проник	проникать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Европу	европа	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	XIV	xiv	NUM	_	_	20	nummod	_	_
+20	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+21	сохранился	сохраняться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+22	как	как	SCONJ	_	_	26	advmod	_	_
+23	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	fixed	_	_
+24	до	до	ADP	_	_	26	case	_	_
+25	XVII	xvii	NUM	_	_	26	nummod	_	_
+26	века.	века.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+27	Результаты	Результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+28	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+29	в	в	ADP	_	_	34	case	_	_
+30	PloS	Plos	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+31	ONE.	One.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	SpaceAfter=No
+32	Ранее	орана	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	33	nmod	_	_
+33	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
+34	доказали	доказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	что	что	SCONJ	_	_	34	mark	_	_
+37	чумная	чумный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	палочка	палочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+39	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	40	cop	_	_
+40	эндемичной	эндемичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	advcl	_	_
+41	для	для	ADP	_	_	42	case	_	_
+42	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	_
+43	Евразии	Евразия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+44	еще	еще	ADV	_	Degree=Pos	45	advmod	_	_
+45	5	5	NUM	_	_	47	nummod	_	_
+46	000	000	NUM	_	_	47	nummod	_	_
+47	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	parataxis	_	_
+48	назад	назад	ADV	_	Degree=Pos	47	advmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 3125
+# text = Также уже было известно, что Y. pestis была виновницей двух пандемий чумы в Европе, случившихся с разницей 800 лет.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	Y	y	PROPN	_	Foreign=Yes	11	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+9	pestis	pestis	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	виновницей	виновница	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	4	advcl	_	_
+12	двух	два	NUM	_	Case=Gen	13	nummod	_	_
+13	пандемий	пандемия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	чумы	чума	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	случившихся	случаться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	0	amod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	разницей	разница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+21	800	800	NUM	_	_	22	nummod	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3126
+# text = После второй вспышки пандемии, названной Черной смертью (1346 -- 1353), чума возникала в разных странах Европы на протяжении почти 300 лет.
+1	После	после	ADP	_	_	3	case	_	_
+2	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+4	пандемии	пандемия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	названной	называть	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+7	Черной	черный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	смертью	смерть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl:agent	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	1346	1346	NUM	_	_	3	nummod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	1353	1353	NUM	_	_	10	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	чума	чума	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	возникала	возникать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+20	Европы	европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+23	почти	почти	ADV	_	Degree=Pos	24	advmod	_	_
+24	300	300	NUM	_	_	25	nummod	_	_
+25	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3127
+# text = В связи с этим появляется вопрос, каким образом эпидемия могла продолжаться так долго.
+1	В	в	ADP	_	_	4	case	_	_
+2	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	с	с	ADP	_	_	2	fixed	_	_
+4	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+5	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+9	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+10	эпидемия	эпидемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	продолжаться	продолжаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+14	долго	долго	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3128
+# text = Согласно одной гипотезе, чумная палочка периодически проникала в Европу из Центральной Азии по "Шелковому пути" и заражала европейцев.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	одной	один	NUM	_	Case=Dat|Gender=Fem	3	nummod	_	_
+3	гипотезе	гипотеза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	чумная	чумный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	палочка	палочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	периодически	периодически	ADV	_	Degree=Pos	8	advmod	_	_
+8	проникала	проникать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Европу	европа	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	Центральной	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Азии	азия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+14	по	по	ADP	_	_	17	case	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Шелковому	Шелковый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	пути	путь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	заражала	заражать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+21	европейцев	европеец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3129
+# text = По другой гипотезе, бактерия сохранялась на Европейском континенте в неизвестном хозяйском организме, например во вшах.
+1	По	по	ADP	_	_	3	case	_	_
+2	другой	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	гипотезе	гипотеза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	бактерия	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	сохранялась	сохраняться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	Европейском	европейский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	континенте	континент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	неизвестном	неизвестный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	хозяйском	хозяйский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	например	например	ADV	_	Degree=Pos	17	advmod	_	_
+16	во	в	ADP	_	_	17	case	_	_
+17	вшах	вш	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3130
+# text = В последнем случае у людей в разных частях Европы, живших в разное время должен встречаться либо один и тот же вид, либо очень похожие виды чумной палочки.
+1	В	в	ADP	_	_	3	case	_	_
+2	последнем	последний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+4	у	у	ADP	_	_	5	case	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+9	Европы	европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	живших	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	amod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	разное	разный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+15	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+16	встречаться	встречаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	dep	_	_
+17	либо	либо	CCONJ	_	_	18	cc	_	_
+18	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+21	же	же	PART	_	_	20	advmod	_	_
+22	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	либо	либо	CCONJ	_	_	27	cc	_	_
+25	очень	очень	ADV	_	Degree=Pos	26	advmod	_	_
+26	похожие	похожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	виды	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	conj	_	_
+28	чумной	чумный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3131
+# text = Если же верна первая гипотеза, ученые смогут найти Y. pestis разных видов.Чтобы подтвердить одну из гипотез, авторы работы проанализировали ДНК чумной палочки, найденные в захоронениях, находившихся в 500 километрах друг от друга.
+1	Если	если	SCONJ	_	_	8	mark	_	_
+2	же	же	PART	_	_	3	advmod	_	_
+3	верна	верный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	8	advcl	_	_
+4	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	Y	y	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+12	pestis	pestis	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	видов.	видовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	Чтобы	чтобы	SCONJ	_	Mood=Cnd	23	mark	_	_
+16	подтвердить	подтверждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	advcl	_	_
+17	одну	один	NUM	_	Case=Acc|Gender=Fem	16	nummod:gov	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	гипотез	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+22	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+24	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	чумной	чумный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	захоронениях	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	находившихся	находиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	30	amod	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	500	500	NUM	_	_	35	nummod	_	_
+35	километрах	километр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	obl	_	_
+36	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	fixed	_	_
+37	от	от	ADP	_	_	38	case	_	_
+38	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3132
+# text = Останки жертв чумы, найденные в захоронениях, датировались XIV и XVII веками, то есть началом и концом эпидемий чумы.
+1	Останки	останка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+2	жертв	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	чумы	чума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	захоронениях	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	датировались	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	XIV	Xiv	NUM	_	_	13	nummod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	XVII	Xvii	NUM	_	_	10	conj	_	_
+13	веками	век	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	mark	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	fixed	_	_
+17	началом	начало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	parataxis	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	концом	конец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	_
+20	эпидемий	эпидемия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	чумы	чума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3133
+# text = Кроме того, исследователи сравнили полученные данные с данными анализа ДНК Y. pestis из других захоронений в Европе.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	сравнили	сравнивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	полученные	получать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	9	obj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	5	obl	_	_
+10	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	ДНК	ДНк	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Y	y	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+14	pestis	pestis	X	_	Foreign=Yes	12	flat:foreign	_	_
+15	из	из	ADP	_	_	17	case	_	_
+16	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	захоронений	захоронение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3134
+# text = Для анализа ученые использовали метод однонуклеотидного полиморфизма, который позволяет достоверно определить местонахождение определенного вида бактерии на филогенетическом древе Y. pestis.
+1	Для	для	ADP	_	_	2	case	_	_
+2	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	однонуклеотидного	однонуклеотидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	полиморфизма	полиморфизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	достоверно	достоверно	ADV	_	Degree=Pos	12	advmod	_	_
+12	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	местонахождение	местонахождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	определенного	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	филогенетическом	филогенетический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	древе	древ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+20	Y	y	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+22	pestis	pestis	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3135
+# text = Всего были проанализированы останки восьми жертв чумы, в пяти их которых был найден один и тот же вид чумной палочки.
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	проанализированы	проанализировывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	останки	останк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	восьми	восемь	NUM	_	Case=Gen	6	nummod	_	_
+6	жертв	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	чумы	чума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	пяти	пять	NUM	_	Case=Gen	12	nummod	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	которых	который	PRON	_	Case=Gen	14	obl	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	найден	найдать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+15	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+18	же	же	PART	_	_	17	advmod	_	_
+19	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+20	чумной	чумный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	палочки	палочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3136
+# text = Останки четырех человек из массового захоронения в южной Германии исследователи датировали 1348 -- 1350 годами.
+1	Останки	останк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	четырех	четыре	NUM	_	Case=Gen	3	nummod	_	_
+3	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	массового	массовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	захоронения	захоронение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Германии	германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	датировали	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	1348	1348	NUM	_	_	15	nummod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	1350	1350	NUM	_	_	12	nummod	_	_
+15	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3137
+# text = Останки пятой жертвы чумы были найдены на северо-востоке Германии и датированы 1618 -- 1648 годами.
+1	Останки	останк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	пятой	пятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	чумы	чума	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	северо-востоке	северо-восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	датированы	датировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	1618	1618	NUM	_	_	15	nummod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	1648	1648	NUM	_	_	12	nummod	_	_
+15	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3138
+# text = Кроме того, чумная палочка того же вида была найдена ранее в останках из захоронений в Англии и во Франции, также датированных 1348 -- 1350 годами.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чумная	чумный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	палочка	палочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+7	же	же	PART	_	_	6	advmod	_	_
+8	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	найдена	находить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	ранее	ранее	ADV	_	Degree=Pos	13	advmod	_	_
+12	в	в	ADP	_	_	11	case	_	_
+13	останках	останки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	захоронений	захоронение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Англии	англия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	во	в	ADP	_	_	20	case	_	_
+20	Франции	франция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+23	датированных	датировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+24	1348	1348	NUM	_	_	27	nummod	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	1350	1350	NUM	_	_	24	nummod	_	_
+27	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 3139

@@ -1,0 +1,163 @@
+# text = # newpar
+# sent_id = 568
+# text = NASA провело очередные огневые испытания ракетного двигателя RS-25 под номером 2059, который планируется в будущем использовать на сверхтяжелых ракетах SLS для экспедиций к другим планетам и астероидам.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	провело	проводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	очередные	очередный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+4	огневые	огневой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+6	ракетного	ракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	RS-	RS-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	25	25	NUM	_	_	0	nummod	_	_
+10	под	под	ADP	_	_	11	case	_	_
+11	номером	номер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+12	2059	2059	NUM	_	_	0	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	15	nsubj:pass	_	_
+15	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+18	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	сверхтяжелых	сверхтяжелый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	ракетах	ракеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+22	SLS	Sls	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	_
+23	для	для	ADP	_	_	21	case	_	_
+24	экспедиций	экспедиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+25	к	к	ADP	_	_	27	case	_	_
+26	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	27	amod	_	_
+27	планетам	планета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	24	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	астероидам	астероид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 569
+# text = Испытания прошли на платформе А-1 в космическом центре Джона Стенниса в Миссисипи, сообщается на сайте агентства.В рамках испытаний жидкостный двигатель RS-25 осуществил прожиг продолжительностью 500 секунд, что соответствует времени работы двигателей первой ступени в реальном полете.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	платформе	платформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	А-1	А-1	NUM	_	_	4	nummod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	космическом	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+9	Джона	джон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Стенниса	Стеннис	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Миссисипи	Миссисипь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	20	case	_	_
+20	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	nmod	_	_
+21	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	жидкостный	жидкостный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+24	RS-	RS-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	25	25	NUM	_	_	23	nummod	_	_
+26	осуществил	осуществлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+27	прожиг	прожиг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	продолжительностью	продолжительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+29	500	500	NUM	_	_	30	nummod	_	_
+30	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	что	что	PRON	_	Case=Nom	33	nsubj	_	_
+33	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+34	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	33	obl	_	_
+35	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+39	в	в	ADP	_	_	41	case	_	_
+40	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 570
+# text = По словам представителей NASA, в следующий раз двигатель номер 2059 будет работать с такой продолжительностью уже только при реальном запуске ракеты SLS.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	NASA	Nasa	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+9	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+10	номер	номер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	2059	2059	NUM	_	_	10	nummod	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	16	amod	_	_
+16	продолжительностью	продолжительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+17	уже	уже	ADV	_	Degree=Pos	18	advmod	_	_
+18	только	только	PART	_	_	21	advmod	_	_
+19	при	при	ADP	_	_	21	case	_	_
+20	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	запуске	запуск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+22	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	SLS	Sls	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 571
+# text = Изначально двигатель RS-25 создавался для программы многоразового транспортного космического корабля Space Shuttle, теперь NASA планирует его использовать на сверхтяжелой ракете SLS.
+1	Изначально	изначально	ADV	_	Degree=Pos	5	advmod	_	_
+2	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	RS-	Rs-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No
+4	25	25	NUM	_	_	3	nummod	_	_
+5	создавался	создавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	многоразового	многоразовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	транспортного	транспортной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+12	Space	space	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Shuttle	shuttle	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	теперь	теперь	ADV	_	Degree=Pos	17	advmod	_	_
+16	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+19	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	сверхтяжелой	сверхтяжелый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	ракете	ракета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+23	SLS	Sls	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 572
+# text = Ракета-носитель SLS создавалась для вывода грузов за пределы околоземной орбиты, первый полет SLS с двигателем RS-25 состоится не раньше 2018 года.Николай Воронцов
+1	Ракета-носитель	Ракета-носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	SLS	Sls	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	создавалась	создаваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	за	за	ADP	_	_	6	case	_	_
+8	пределы	предел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	obj	_	_
+9	околоземной	околоземный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+14	SLS	Sls	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+17	RS-	RS-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	25	25	NUM	_	_	16	nummod	_	_
+19	состоится	состоиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	раньше	рано	ADV	_	Degree=Cmp	19	advmod	_	_
+22	2018	2018	NUM	_	_	23	nummod	_	_
+23	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+25	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 573

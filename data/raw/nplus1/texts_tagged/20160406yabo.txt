@@ -1,0 +1,262 @@
+# text = # newpar
+# sent_id = 5520
+# text = Компания Яндекс запустила в мессенджере Телеграм универсальный поисковый бот, задача которого -- отвечать на запросы пользователей информацией из интернета.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Яндекс	Яндекс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	запустила	запускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	мессенджере	мессенджера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	Телеграм	Телегра	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
+7	универсальный	универсальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	поисковый	поисковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	бот	бот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	запросы	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+17	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	интернета	интернет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5521
+# text = Подробности приводятся в блоге компании.
+1	Подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+2	приводятся	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5522
+# text = Ранее у Яндекса уже было несколько специализированных ботов для отдельных поисковых сервисов (Карты, Картинки).
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	Яндекса	Яндекс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+4	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+5	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	_
+7	специализированных	специализированный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	ботов	бот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+9	для	для	ADP	_	_	12	case	_	_
+10	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	поисковых	поисковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	сервисов	сервис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Карты	карта	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	Картинки	картинка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5523
+# text = Новый бот, @ya, должен стать "специалистом более широкого профиля".
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	бот	бот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	@ya	@ya	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	dep	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	специалистом	специалист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	широкого	широкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	профиля	профиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5524
+# text = Он может искать картинки, видео и музыку по ключевым словам, показывать погоду или адреса ближайших к пользователю заведений.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	картинки	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	ключевым	ключевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	показывать	показывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+14	погоду	погода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	адреса	адрес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	conj	_	_
+17	ближайших	близкий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	16	amod	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	пользователю	пользователь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+20	заведений	заведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5525
+# text = Бот может делать и обратный поиск по картинке -- угадывать, что на ней изображено.
+1	Бот	Бот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	обратный	обратный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	картинке	картинка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	угадывать	угадывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	15	obl	_	_
+15	изображено	изображать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5526
+# text = Важным свойством бота является его интеграция в чаты.
+1	Важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	свойством	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+3	бота	бот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	интеграция	интеграция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	чаты	чат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5527
+# text = Чтобы привлечь бота в разговор, достаточно написать его адрес и сформулировать запрос.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+2	привлечь	привлекать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+3	бота	бото	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	разговор	разговор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	написать	написать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	адрес	адрес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	сформулировать	формулировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+13	запрос	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5528
+# text = Таким образом, можно, например, не выходя из чата проинформировать собеседника о текущей погоде или расписании транспорта.Помимо поиска по ключевым словам, бот может отвечать и на более сложные запросы, которые сформулированы естественным языком.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	выходя	выходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	чата	чат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+12	проинформировать	информировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+13	собеседника	собеседник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	о	о	ADP	_	_	16	case	_	_
+15	текущей	текущий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	погоде	погода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	расписании	расписание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	conj	_	_
+19	транспорта.	транспорта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl:agent	_	SpaceAfter=No
+20	Помимо	помимо	ADP	_	_	21	case	_	_
+21	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	по	по	ADP	_	_	24	case	_	_
+23	ключевым	ключевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	24	amod	_	_
+24	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	бот	бот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+28	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	и	и	PART	_	_	33	advmod	_	_
+30	на	на	ADP	_	_	33	case	_	_
+31	более	более	ADV	_	Degree=Cmp	32	advmod	_	_
+32	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	запросы	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	которые	который	PRON	_	Case=Nom	36	nsubj:pass	_	_
+36	сформулированы	формулировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	33	acl:relcl	_	_
+37	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	языком	язык	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5529
+# text = Адекватность ответов при этом сильно зависит от природы вопроса.
+1	Адекватность	Адекватность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	ответов	ответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+5	сильно	сильно	ADV	_	Degree=Pos	6	advmod	_	_
+6	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	вопроса	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5530
+# text = Так, на запрос "расстояние до Марса" бот отвечает "228 миллионов километров", что соответствует радиусу солнечной орбиты планеты.
+1	Так	так	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	запрос	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+7	до	до	ADP	_	_	8	case	_	_
+8	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	бот	бот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	228	228	NUM	_	_	14	nummod	_	_
+14	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	что	что	PRON	_	Case=Nom	19	nsubj	_	_
+19	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+20	радиусу	радиус	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+21	солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5531
+# text = Вопросно-ответная система Wolfram|Alpha тот же (двусмысленный) запрос интерпретирует как дистанцию от Земли до Марса и показывает график изменения этого расстояния со временем.
+1	Вопросно-	Вопросно-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	ответная	ответный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	Wolfram|Alpha	Wolfram|Alpha	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+6	же	же	PART	_	_	5	advmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	двусмысленный	двусмысленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	запрос	запрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	интерпретирует	интерпретировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	как	как	SCONJ	_	_	13	cc	_	_
+13	дистанцию	дистанция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	до	до	ADP	_	_	17	case	_	_
+17	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+20	график	график	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	23	amod	_	_
+23	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	со	с	ADP	_	_	25	case	_	_
+25	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5532
+# text = Александр Ершов
+1	Александр	александр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ершов	ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5533

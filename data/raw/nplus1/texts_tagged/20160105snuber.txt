@@ -1,0 +1,256 @@
+# text = # newpar
+# sent_id = 1919
+# text = Инженеры из Intelligent Vehicle IT Research Center при Сеульском университете создали беспилотное такси, которое в настоящий момент проходит открытое тестирование на территории университетского кампуса.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Intelligent	Intelligent	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	Vehicle	Vehicle	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	IT	It	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Research	Research	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Center	center	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	Сеульском	Сеульский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	университете	университет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+11	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	беспилотное	беспилотный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	такси	такси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которое	который	PRON	_	Case=Nom	19	nsubj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+19	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	открытое	открытый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	тестирование	тестирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	университетского	университетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	кампуса	кампус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1920
+# text = Об этом сообщает phys.org со ссылкой на The Associated Press.Автомобиль, который назвали Snuber (отсылка к компании Uber), можно вызвать при помощи мобильного приложения.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	phys.org	phys.org	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	со	с	ADP	_	_	6	case	_	_
+6	ссылкой	ссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	The	the	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+9	Associated	Associated	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Press.Автомобиль	Press.Автомобиль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+14	Snuber	Snuber	PROPN	_	Foreign=Yes	22	nsubj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	отсылка	отсылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	компании	компания	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+19	Uber	uber	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	можно	можно	ADV	_	Degree=Pos	10	acl:relcl	_	_
+23	вызвать	вызывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	при	при	ADP	_	_	27	case	_	_
+25	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	fixed	_	_
+26	мобильного	мобильной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1921
+# text = Он умеет подбирать пассажиров и доставлять их в любую точку кампуса с максимальной скоростью 30 километров в час.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	подбирать	подбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	и	и	CCONJ	_	_	3	cc	_	_
+6	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	6	obj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	любую	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+11	кампуса	кампус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	максимальной	максимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+15	30	30	NUM	_	_	16	nummod	_	_
+16	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1922
+# text = В настоящее время беспилотным такси большую часть времени пользуются студенты с ограниченными возможностями передвижения.Крыша Snuber оснащена платформой, на которой располагается необходимое оборудование, например, камера, а также лазерные сканеры и дальномеры.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	такси	такси	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+6	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	пользуются	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	студенты	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	ограниченными	ограничивать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	возможностями	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	nmod	_	_
+14	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Крыша	крыша	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+17	Snuber	Snuber	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	оснащена	оснаскать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+19	платформой	платформа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	которой	который	PRON	_	Case=Loc	23	obl	_	_
+23	располагается	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
+24	необходимое	необходимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	например	например	ADV	_	Degree=Pos	29	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	а	а	CCONJ	_	_	33	cc	_	_
+32	также	также	ADV	_	Degree=Pos	33	advmod	_	_
+33	лазерные	лазерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	сканеры	сканнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	conj	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	дальномеры	дальномер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 1923
+# text = Такси умеет тормозить перед знаками Stop и пешеходными переходами, а также объезжать препятствия по соседней полосе, если оно не создаст помех другим участникам движения.По закону использование полноценных беспилотных автомобилей в Южной Корее еще запрещено, поэтому в Snuber всегда присутствует водитель на случай экстренной ситуации.
+1	Такси	такси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+2	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	тормозить	тормозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	перед	перед	ADP	_	_	5	case	_	_
+5	знаками	знак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	_
+6	Stop	Stop	NOUN	_	_	3	obj	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	пешеходными	пешеходный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	переходами	переход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	объезжать	объезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+14	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	соседней	соседний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	полосе	полоса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	если	если	SCONJ	_	_	0	mark	_	_
+20	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	22	nsubj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	создаст	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+23	помех	топом	DET	_	Case=Gen|Number=Plur	25	amod	_	_
+24	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	_
+25	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	22	obl	_	_
+26	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	По	по	ADP	_	_	29	case	_	_
+29	закону	закон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	38	obl	_	_
+30	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	nsubj:pass	_	_
+31	полноценных	полноценный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+32	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	Корее	корея	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	nmod	_	_
+37	еще	еще	ADV	_	Degree=Pos	38	advmod	_	_
+38	запрещено	запрещать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	поэтому	поэтому	ADV	_	Degree=Pos	44	advmod	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	Snuber	Snuber	PROPN	_	Foreign=Yes	44	flat:foreign	_	_
+43	всегда	всегда	ADV	_	Degree=Pos	44	advmod	_	_
+44	присутствует	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+45	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+46	на	на	ADP	_	_	47	case	_	_
+47	случай	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	nmod	_	_
+48	экстренной	экстренный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 1924
+# text = Создатели такси планируют доработать автомобиль для условий нормального городского трафика.
+1	Создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	такси	такси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	доработать	дорабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+6	для	для	ADP	_	_	5	case	_	_
+7	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	нормального	нормальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	городского	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	трафика	трафик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1925
+# text = Однако, по их словам, эта задача потребует много времени.Snuber -- далеко не первый беспилотный автомобиль на дорогах общего пользования, однако он является чуть ли не первым действующим беспилотным такси.
+1	Однако	однако	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
+5	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	потребует	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	много	много	ADV	_	Degree=Pos	9	advmod	_	_
+11	времени.Snuber	времени.snuber	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	далеко	далеко	ADV	_	Degree=Pos	14	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+20	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	однако	однако	ADV	_	Degree=Pos	25	advmod	_	_
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+25	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	_
+26	чуть	чуть	ADV	_	Degree=Pos	28	advmod	_	_
+27	ли	ли	PART	_	_	26	advmod	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+30	действующим	действуть	VERB	_	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+31	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	такси	такси	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1926
+# text = О намерении создать подобный сервис к 2020 году заявлялаяпонская компания Robot Taxi Inc, а в Греции уже прошли испытания беспилотные автобусы CityMobil2.Тарас Молотилин
+1	О	о	ADP	_	_	2	case	_	_
+2	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+3	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	подобный	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	сервис	сервис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	2020	2020	NUM	_	_	8	nummod	_	_
+8	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+9	заявлялаяпонская	заявлялаяпонской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+11	Robot	Robot	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Taxi	Taxi	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Inc	inc	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Греции	греция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+18	уже	уже	ADV	_	Degree=Pos	19	advmod	_	_
+19	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+21	беспилотные	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+22	автобусы	автобус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	parataxis	_	_
+23	CityMobil2.	CityMobil2.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	Тарас	Тарас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+25	Молотилин	Молотилин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 1927

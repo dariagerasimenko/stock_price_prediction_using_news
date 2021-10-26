@@ -1,0 +1,74 @@
+# text = # newpar
+# sent_id = 2727
+# text = Google произведет "несколько сотен" беспилотных электромобилей собственной разработки.
+1	Google	Google	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	произведет	производить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	несколько	несколько	NUM	_	Case=Nom	5	nummod:gov	_	_
+5	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	собственной	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2728
+# text = Об этом заявила представитель компании Сара Хантер на выступлении передкомиссией по вопросам деятельности коммунальных служб штата Калифорния,сообщаетThe Guardian.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	заявила	заявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Сара	Сар	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Хантер	Хантер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	выступлении	выступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+10	передкомиссией	передкомиссиь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
+13	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	коммунальных	коммунальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	служб	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	Калифорния	Калифорния	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
+18	,сообщаетThe	,сообщаетThe	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Guardian	guardian	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2729
+# text = "Мы собираем несколько сотен машин.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	собираем	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	5	nummod:gov	_	_
+5	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2730
+# text = Подобный опыт помогает нам понять, как правильно организовать процесс производства беспилотных автомобилей с нуля", -- заявила Сара Хантер.
+1	Подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	опыт	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	3	obl	_	_
+5	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	9	mark	_	_
+8	правильно	правильно	ADV	_	Degree=Pos	9	advmod	_	_
+9	организовать	организовывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+10	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	--	--	PUNCT	_	_	15	punct	_	_
+19	заявила	заявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+20	Сара	Сара	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+21	Хантер.	Хантеранцузский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+
+# newpar
+# sent_id = 2731

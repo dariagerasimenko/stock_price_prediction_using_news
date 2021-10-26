@@ -1,0 +1,435 @@
+# text = # newpar
+# sent_id = 1912
+# text = Инженер Джеффри Уильямс, работающий на Международной космической станции, при поддержке специалистов Центра управления полетами в Хьюстоне и компании Bigelow Aerospace успешно надул модуль BEAM.
+1	Инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Джеффри	джеффри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Уильямс	уильямс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+6	на	на	ADP	_	_	9	case	_	_
+7	Международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	космической	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+13	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	Центра	центр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	полетами	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Хьюстоне	Хьюстон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	conj	_	_
+21	Bigelow	Bigelow	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Aerospace	Aerospace	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	успешно	успешно	ADV	_	Degree=Pos	24	advmod	_	_
+24	надул	надуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+26	BEAM	Beam	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1913
+# text = Весь процесс, начавшийся в9 утра по летнему восточному времени (16:00 по московскому времени), занял около восьми часов.
+1	Весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	начавшийся	начинаться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+5	в9	в9	NUM	_	_	6	nummod	_	_
+6	утра	утро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	по	по	ADP	_	_	10	case	_	_
+8	летнему	летний	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	восточному	восточной	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	16	16	NUM	_	_	2	nummod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	00	00	NUM	_	_	12	nummod	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	занял	занимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	около	около	ADP	_	_	23	case	_	_
+22	восьми	восемь	NUM	_	Case=Gen	23	nummod	_	_
+23	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1914
+# text = Прямая трансляция велась на сайте NASA.Воздух со станции в модуль подавался разными под длительности включениями в общей сложности на протяжении чуть менее трех минут.
+1	Прямая	прямой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	трансляция	трансляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	велась	вести	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+7	Воздух	воздух	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	со	со	ADP	_	_	9	case	_	_
+9	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+12	подавался	подавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
+13	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+14	под	под	ADP	_	_	15	case	_	_
+15	длительности	длительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	включениями	включение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	obl	_	_
+17	в	в	ADP	_	_	21	case	_	_
+18	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	fixed	_	_
+19	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	fixed	_	_
+20	на	на	ADP	_	_	17	case	_	_
+21	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+22	чуть	чуть	ADV	_	Degree=Pos	23	advmod	_	_
+23	менее	менее	ADV	_	Degree=Cmp	25	nummod:gov	_	_
+24	трех	три	NUM	_	Case=Gen	25	nummod	_	_
+25	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1915
+# text = Модуль достиг своих проектных размеров и увеличился в длину до 1,7 метра.
+1	Модуль	модуль	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	достиг	достигать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	своих	свой	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+4	проектных	проектный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	увеличился	увеличиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	1,7	1,7	NUM	_	_	12	nummod	_	_
+12	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1916
+# text = После того, как модуль достиг проектных размеров, в нем включили восемь контейнеров с воздухом, которые подняли давление в BEAM чуть выше уровня давления воздуха на международной станции.Процесс нагнетания давления в модуль до уровня 807 миллиметров ртутного столба занял чуть больше девяти минут.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	достиг	достигать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	проектных	проектный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+12	включили	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	восемь	восемь	NUM	_	Case=Acc	14	nummod:gov	_	_
+14	контейнеров	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	подняли	днять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+20	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	BEAM	Beam	PROPN	_	Foreign=Yes	19	obl	_	_
+23	чуть	чуть	ADV	_	Degree=Pos	24	advmod	_	_
+24	выше	высоко	ADV	_	Degree=Cmp	19	advmod	_	_
+25	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	международной	международной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	станции.	станциианица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+32	нагнетания	нагнетание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	_
+36	до	до	ADP	_	_	37	case	_	_
+37	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+38	807	807	NUM	_	_	39	nummod	_	_
+39	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nsubj	_	_
+40	ртутного	ртутный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	столба	столб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+42	занял	занимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+43	чуть	чуть	ADV	_	Degree=Pos	44	advmod	_	_
+44	больше	больше	ADV	_	Degree=Cmp	46	nummod:gov	_	_
+45	девяти	девять	NUM	_	Case=Gen	46	nummod	_	_
+46	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	42	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 1917
+# text = Затем давление выровняли вручную открытием клапана.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	давление	давление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	выровняли	выровнимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вручную	вручную	ADV	_	Degree=Pos	5	advmod	_	_
+5	открытием	открытье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+6	клапана	клапан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1918
+# text = В ближайшее время специалисты будут проверять все показатели BEAM.
+1	В	в	ADP	_	_	3	case	_	_
+2	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	проверять	проверять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	все	весь	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	показатели	показатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	BEAM	Beam	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1919
+# text = Войти в надутый модуль планируется в течение ближайшей недели.
+1	Войти	входить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj:pass	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	надутый	надутый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+5	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	9	case	_	_
+7	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	ближайшей	ближайший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1920
+# text = Окончательное решение о сроках будет принято по итогам исследования показателей BEAM.Около 15:00 по времени Хьюстона (23:00 по времени Москвы) специалисты планировали приостановить процесс надувания модуля, поскольку к этому времени уже заканчивался рабочий день космонавтов на борту космической станции.
+1	Окончательное	окончательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	сроках	сроки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+9	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	показателей	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	BEAM.	Beam.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	nmod	_	SpaceAfter=No
+12	Около	Около	ADP	_	_	13	case	_	_
+13	15	15	NUM	_	_	6	nummod	_	SpaceAfter=No
+14	:00	:00	NUM	_	_	13	nummod	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+17	Хьюстона	Хьюстон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	23	23	NUM	_	_	16	nummod	_	SpaceAfter=No
+20	:00	:00	NUM	_	_	19	nummod	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	_
+23	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	планировали	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+27	приостановить	приостанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	надувания	надувание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+30	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	поскольку	поскольку	SCONJ	_	_	26	mark	_	_
+33	к	к	ADP	_	_	35	case	_	_
+34	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing	35	amod	_	_
+35	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	37	obl	_	_
+36	уже	уже	ADV	_	Degree=Pos	37	advmod	_	_
+37	заканчивался	заканчиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	26	advcl	_	_
+38	рабочий	рабочий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+40	космонавтов	космонавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+43	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 1921
+# text = Возобновить работы планировалось 29 мая, однако чуть позже было принято решение довести процесс до конца.При первой попытке развернуть BEAM 26 мая давление внутри модуля оказалось выше запланированного.
+1	Возобновить	возобновлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+3	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	29	29	NUM	_	_	3	nummod	_	_
+5	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+8	чуть	чуть	ADV	_	Degree=Pos	9	advmod	_	_
+9	позже	поздно	ADV	_	Degree=Cmp	11	advmod	_	_
+10	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+12	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	довести	доводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	до	до	ADP	_	_	16	case	_	_
+16	конца.	конца.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	При	при	ADP	_	_	19	case	_	_
+18	первой	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+20	развернуть	развертывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+21	BEAM	Beam	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	26	26	NUM	_	_	21	nummod	_	_
+23	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+25	внутри	внутри	ADV	_	Degree=Pos	26	advmod	_	_
+26	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	выше	высоко	ADV	_	Degree=Cmp	29	advmod	_	_
+29	запланированного	планировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 1922
+# text = При этом, вопреки ожиданиям, модуль разворачивался существенно медленнее, чем ожидалось.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	вопреки	вопреки	ADP	_	_	5	case	_	_
+5	ожиданиям	ожидание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	разворачивался	разворачивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	существенно	существенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	медленнее	медленно	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	13	mark	_	_
+13	ожидалось	ожидать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1923
+# text = Подачу воздуха несколько раз прекращали, однако устранить быстрый рост давления не удалось.
+1	Подачу	подача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+2	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+5	прекращали	прекращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+8	устранить	устранять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+9	быстрый	быстрый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1924
+# text = В результате было принято решение прекратить процедуру надувания модуля.Позднее компания Bigelow Aerospace, разработчик модуля, объявила, что причиной неудачной попытки надуть модуль стало трение.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	прекратить	прекращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	процедуру	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	надувания	надувание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Позднее	поздний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+13	Bigelow	Bigelow	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Aerospace	Aerospace	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+17	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	19	mark	_	_
+22	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	_
+23	неудачной	неудачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	надуть	надуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	dep	_	_
+26	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	advcl	_	_
+28	трение	трение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1925
+# text = Модуль BEAM находился в упакованном состоянии более 15 месяцев.
+1	Модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	BEAM	Beam	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	упакованном	упаковать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	более	более	ADV	_	Degree=Cmp	9	nummod:gov	_	_
+8	15	15	NUM	_	_	9	nummod	_	_
+9	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1926
+# text = Это на десять месяцев дольше изначально запланированного периода.Согласно заявлению компании, поведение некоторых материалов в космосе пока еще плохо изучено и может быть непредсказуемым.Надувной космический модуль BEAM является первым частным и первым надувным модулем на Международной космической станции.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	десять	десять	NUM	_	Case=Acc	4	nummod:gov	_	_
+4	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+5	дольше	долее	ADV	_	Degree=Cmp	4	advmod	_	_
+6	изначально	изначально	ADV	_	Degree=Pos	7	advmod	_	_
+7	запланированного	планировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+8	периода.	периода.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No
+9	Согласно	согласно	ADP	_	_	10	case	_	_
+10	заявлению	заявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+11	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+14	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+15	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+18	пока	пока	ADV	_	Degree=Pos	21	advmod	_	_
+19	еще	еще	ADV	_	Degree=Pos	21	advmod	_	_
+20	плохо	плохо	ADV	_	Degree=Pos	21	advmod	_	_
+21	изучено	изучать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+24	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	cop	_	_
+25	непредсказуемым.	непредсказуемым.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	Надувной	Надувной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+27	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+29	BEAM	Beam	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+31	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+32	частным	частный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	conj	_	_
+35	надувным	надувный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	модулем	модуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	_
+37	на	на	ADP	_	_	40	case	_	_
+38	Международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+39	космической	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 1927
+# text = В полностью развернутом состоянии объем модуля должен составить около 16 кубических метров.
+1	В	в	ADP	_	_	4	case	_	_
+2	полностью	полностью	ADV	_	Degree=Pos	3	advmod	_	_
+3	развернутом	разворачивать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+5	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	около	около	ADP	_	_	12	case	_	_
+10	16	16	NUM	_	_	12	nummod	_	_
+11	кубических	кубический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1928
+# text = Благодаря возможности расширяться модули, подобные BEAM, занимают существенно меньше места при транспортировке и обладают меньшей массой.Василий Сычёв
+1	Благодаря	Благодаря	ADP	_	_	2	case	_	_
+2	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+3	расширяться	расширяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	nsubj	_	_
+4	модули	модуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	BEAM	Beam	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	занимают	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	существенно	существенно	ADV	_	Degree=Pos	11	advmod	_	_
+11	меньше	мало	NUM	_	_	12	nummod:gov	_	_
+12	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	транспортировке	транспортировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	меньшей	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 1929

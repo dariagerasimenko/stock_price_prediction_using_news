@@ -1,0 +1,137 @@
+# text = # newpar
+# sent_id = 1945
+# text = Космический аппарат Mars Reconnaissance Orbiter с помощью прибора HiRISE сфотографировал долину "Artist's Drive", по которой сейчас двигается марсоход "Кьюриосити".
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Mars	Mars	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Reconnaissance	Reconnaissance	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Orbiter	Orbiter	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	прибора	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+9	HiRISE	Hirise	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	сфотографировал	сфотографировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	долину	долина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Artist's	Artist's	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	Drive	Drive	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	которой	который	PRON	_	Case=Dat	20	obl	_	_
+19	сейчас	сейчас	ADV	_	Degree=Pos	20	advmod	_	_
+20	двигается	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+21	марсоход	марсоход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Кьюриосити	Кьюриосити	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1946
+# text = Снимок опубликован на сайте Jet Propulsion Laboratory (NASA), изображение высокого разрешения доступно по ссылке(1,97 МБ).Снимок получен 8 апреля, во время 949 марсианского дня миссии марсохода.
+1	Снимок	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Jet	Jet	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Propulsion	Propulsion	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Laboratory	Laboratory	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+13	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	доступно	доступный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	amod	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	ссылке(	ссылке(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	1,97	1,97	NUM	_	_	15	nummod	_	_
+19	МБ	мб	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	Снимок	Снимок	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+23	получен	получать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+24	8	8	NUM	_	_	23	nummod	_	_
+25	апреля	апрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	во	во	ADP	_	_	31	case	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	fixed	_	_
+29	949	949	NUM	_	_	31	nummod	_	_
+30	марсианского	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+32	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	марсохода	марсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1947
+# text = В кадр вошла долина, по которой пролегает путь аппарата, а также его нынешний пункт назначения, перевал Логана (Logan's Pass).
+1	В	в	ADP	_	_	2	case	_	_
+2	кадр	кадр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	вошла	входить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	долина	долина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	которой	который	PRON	_	Case=Dat	8	obl	_	_
+8	пролегает	пролегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	19	cc	_	_
+13	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+14	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+15	нынешний	нынешний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	пункт	пункт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+17	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	перевал	перевать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	Логана	Логан	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Logan's	Logan's	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+23	Pass	Pass	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1948
+# text = Север на снимке располагается сверху.
+1	Север	север	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	снимке	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	располагается	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	сверху	сверху	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1949
+# text = При детальном рассмотрении изображения можно заметить тень "Кьюриосити", располагающуюся справа от него.
+1	При	при	ADP	_	_	3	case	_	_
+2	детальном	детальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	рассмотрении	рассмотрение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+4	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	заметить	замечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	тень	тень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Кьюриосити	Кьюриосити	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	располагающуюся	располагаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+13	справа	справа	ADV	_	Degree=Pos	12	advmod	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1950
+# text = Размер области, заснятой камерой HiRISE составляет 500 метров.
+1	Размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	заснятой	заснявать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+5	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	HiRISE	Hirise	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	500	500	NUM	_	_	9	nummod	_	_
+9	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar
+# sent_id = 1951

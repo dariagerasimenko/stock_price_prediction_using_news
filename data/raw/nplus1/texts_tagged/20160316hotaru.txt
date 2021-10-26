@@ -1,0 +1,262 @@
+# text = # newpar
+# sent_id = 1399
+# text = Японская компания Hotaru представила душевую кабину, которая тратит один объем воды на многократное использование.
+1	Японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Hotaru	Hotaru	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	душевую	душевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	кабину	кабина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	тратит	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	один	один	NUM	_	Case=Nom|Gender=Masc	11	nummod:gov	_	_
+11	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	многократное	многократный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 1400
+# text = На устройство обратил внимание портал TechCrunch.
+1	На	на	ADP	_	_	2	case	_	_
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+3	обратил	обращать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	портал	портать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+6	TechCrunch	TechCrunch	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1401
+# text = В душевой установке Hotaru используются фильтрующие элементы, которые, по словам разработчиков, позволяют использовать повторно 95-98 процентов воды, использованной при помывке.
+1	В	в	ADP	_	_	3	case	_	_
+2	душевой	душевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	Hotaru	Hotaru	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	фильтрующие	фильтрующий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	15	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	parataxis	_	_
+13	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+16	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	повторно	повторно	ADV	_	Degree=Pos	18	advmod	_	_
+18	95	95	NUM	_	_	20	nummod	_	SpaceAfter=No
+19	-98	-98	NUM	_	_	18	nummod	_	_
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+21	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	использованной	использовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+24	при	при	ADP	_	_	25	case	_	_
+25	помывке	помывка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1402
+# text = По подсчетам разработчиков, фильтр позволяет семье из трех человек две недели пользоваться душевой кабиной с запасом воды в 20 литров, при этом продолжительность помывки одного человека не должна превышать пять минут.Разработчики считают, что такой подход позволяет чувствовать себя комфортно вдали от привычной инфраструктуры.
+1	По	по	ADP	_	_	2	case	_	_
+2	подсчетам	подсчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	фильтр	фильтр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	семье	семья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	трех	три	NUM	_	Case=Gen	10	nummod	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	12	nummod:gov	_	_
+12	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+13	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+14	душевой	душевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	кабиной	кабина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	запасом	запас	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+18	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	20	20	NUM	_	_	21	nummod	_	_
+21	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	при	при	ADP	_	_	24	case	_	_
+24	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	nmod	_	_
+25	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+26	помывки	помывка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	одного	один	NUM	_	Case=Gen|Gender=Masc	28	nummod	_	_
+28	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	не	не	PART	_	_	30	advmod	_	_
+30	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+31	превышать	превышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	35	xcomp	_	_
+32	пять	пять	NUM	_	Case=Acc	31	nummod:gov	_	_
+33	минут.	минуто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
+34	Разработчики	Разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+35	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	что	что	SCONJ	_	_	35	mark	_	_
+38	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	39	amod	_	_
+39	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+40	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
+41	чувствовать	чувствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	40	xcomp	_	_
+42	себя	себя	PRON	_	Case=Acc	41	obj	_	_
+43	комфортно	комфортно	ADV	_	Degree=Pos	44	advmod	_	_
+44	вдали	вдали	ADV	_	Degree=Pos	47	advmod	_	_
+45	от	от	ADP	_	_	47	case	_	_
+46	привычной	привычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	инфраструктуры	инфраструктура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	_
+
+# sent_id = 1403
+# text = Кроме того, использование фильтров экономит существенный объем воды -- по словам создателей, 20 литров использованной воды в Hotaru эквивалентны 840 литрам воды в обычном душе.Представители компании позиционируют душевую установку как готовое мобильное решение, которое может быть развернуто даже вдали линий электропередач, водопровода и канализации.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	фильтров	фильтер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	экономит	экономать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	существенный	существенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	объем	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	parataxis	_	_
+13	создателей	создатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	20	20	NUM	_	_	16	nummod	_	_
+16	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+17	использованной	использовывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	Hotaru	Hotaru	X	_	Foreign=Yes	0	flat:foreign	_	_
+21	эквивалентны	эквивалентный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+22	840	840	NUM	_	_	23	nummod	_	_
+23	литрам	литр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	_
+24	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	обычном	обычный	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_
+27	душе.	душбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+28	Представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+29	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	позиционируют	позиционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
+31	душевую	душевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+33	как	как	SCONJ	_	_	36	cc	_	_
+34	готовое	готовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+35	мобильное	мобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	которое	который	PRON	_	Case=Nom	39	nsubj	_	_
+39	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	acl:relcl	_	_
+40	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	aux:pass	_	_
+41	развернуто	разверать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	39	xcomp	_	_
+42	даже	даже	PART	_	_	43	advmod	_	_
+43	вдали	вдали	ADV	_	Degree=Pos	45	advmod	_	_
+44	линий	линий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+45	электропередач	электропередач	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	водопровода	водопровод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	conj	_	_
+48	и	и	CCONJ	_	_	49	cc	_	_
+49	канализации	канализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 1404
+# text = Портативная душевая кабина в походном варианте целиком складывается в поддон и помещается в багажник большинства автомобилей, а для работы насоса достаточно подключить Hotaru к автомобильному аккумулятору -- однако в этом случае получится принять только холодный душ.
+1	Портативная	Портативный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	душевая	душевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	кабина	кабина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	походном	походный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	целиком	целиком	ADV	_	Degree=Pos	8	advmod	_	_
+8	складывается	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	поддон	поддон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	помещается	помещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	багажник	багажник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+15	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	22	cc	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+21	насоса	насос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	_
+23	подключить	подключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	Hotaru	Hotaru	X	_	Foreign=Yes	23	flat:foreign	_	_
+25	к	к	ADP	_	_	27	case	_	_
+26	автомобильному	автомобильный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	аккумулятору	аккумулятор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	однако	однако	ADV	_	Degree=Pos	33	advmod	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	32	amod	_	_
+32	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+33	получится	получаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	_
+34	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	nsubj	_	_
+35	только	только	PART	_	_	36	advmod	_	_
+36	холодный	холодный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	душ	душ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 1405
+# text = Для того, чтобы в душе работал встроенный водонагреватель, устройство необходимо подключить к бытовой розетке.Пока что компания представила только прототип душевой кабины, однако разработчики планируют развернуть серийное производство и начать продажу устройств уже в 2017 году.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	душе	душа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	встроенный	встроеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	водонагреватель	водонагреватель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+13	подключить	подключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	бытовой	бытовой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	obl	_	_
+16	розетке.	розеткбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+17	Пока	пока	ADV	_	Degree=Pos	16	advmod	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	_
+21	только	только	PART	_	_	22	advmod	_	_
+22	прототип	прототип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+23	душевой	душевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	кабины	кабина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	однако	однако	ADV	_	Degree=Pos	28	advmod	_	_
+27	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+29	развернуть	развертывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	серийное	серийный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	conj	_	_
+34	продажу	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	nmod	_	_
+36	уже	уже	ADV	_	Degree=Pos	39	advmod	_	_
+37	в	в	ADP	_	_	39	case	_	_
+38	2017	2017	NUM	_	_	39	nummod	_	_
+39	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 1406
+# text = Предварительно озвученная цена Hitaro составляет три тысячи долларов.Николай Воронцов
+1	Предварительно	предварительно	ADV	_	Degree=Pos	2	advmod	_	_
+2	озвученная	озвучивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	Hitaro	Hitaro	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	три	три	NUM	_	Animacy=Inan|Case=Acc	7	nummod:gov	_	_
+7	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+10	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 1407

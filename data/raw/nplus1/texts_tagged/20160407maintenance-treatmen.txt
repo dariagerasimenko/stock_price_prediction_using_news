@@ -1,0 +1,400 @@
+# text = # newpar
+# sent_id = 5683
+# text = Клинические испытания, проведенные вКанаде, показали, что обезболивающий опиоид гидроморфон является эффективным и безопасным средством заместительной терапии тяжелой героиновой зависимости.
+1	Клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	вКанаде	вКанаде	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	обезболивающий	обезболивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	опиоид	опиоид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	гидроморфон	гидроморфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+14	эффективным	эффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	безопасным	безопасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	conj	_	_
+17	средством	средство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+18	заместительной	заместительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	тяжелой	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	героиновой	героиновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5684
+# text = Результаты испытаний опубликованы вJAMA Psychiatry.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вJAMA	вjama	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Psychiatry	Psychiatry	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5685
+# text = Встранах, где разрешена заместительная терапия опиоидами, чаще всего применяют метадон икомбинацию бупренорфина с налоксоном вформе таблеток.
+1	Встранах	Встран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	где	где	ADV	_	Degree=Pos	4	advmod	_	_
+4	разрешена	разрешать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+5	заместительная	заместительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	опиоидами	опиоид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чаще	часто	ADV	_	Degree=Cmp	7	advmod	_	_
+10	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	применяют	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	метадон	метадон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	икомбинацию	икомбинация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	бупренорфина	бупренорфин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	налоксоном	налоксоный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	вформе	вформ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+18	таблеток	таблетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5686
+# text = Однако при особо тяжелых формах зависимости эти препараты немогут заменить инъекционный наркотик.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	при	при	ADP	_	_	5	case	_	_
+3	особо	особо	ADV	_	Degree=Pos	4	advmod	_	_
+4	тяжелых	тяжелой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	формах	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+6	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	эти	этот	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+8	препараты	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+9	немогут	немогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	инъекционный	инъекционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	наркотик	наркотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5687
+# text = Втаких случаях заместительную терапию проводят фармацевтическим героином (диацетилморфином) -- вотличие от"уличного" онпредставляет собой стерильный раствор без примесей и сизвестной дозой препарата, что при правильном применении исключает риск передозировки, отравления изанесения инфекций.
+1	Втаких	Втакой	DET	_	Case=Loc|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+3	заместительную	заместительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	фармацевтическим	фармацевтический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	героином	героин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	диацетилморфином	диацетилморфин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	--	--	PUNCT	_	_	9	punct	_	_
+12	вотличие	вотличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+13	от	от	ADP	_	_	15	case	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	уличного	уличный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	онпредставляет	онпредставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	собой	себя	PRON	_	Case=Ins	17	dep	_	_
+19	стерильный	стерильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	раствор	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+21	без	без	ADP	_	_	22	case	_	_
+22	примесей	примесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	сизвестной	сизвестный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	дозой	доза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	conj	_	_
+26	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	17	mark	_	_
+29	при	при	ADP	_	_	31	case	_	_
+30	правильном	правильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	применении	применение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+32	исключает	исключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+33	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+34	передозировки	передозировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	отравления	отравление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	conj	_	_
+37	изанесения	изанесение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+38	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5688
+# text = Однако производство и применение диацетилморфина жестко ограничены законодательством большинства стран, поэтому канадские ученые решили испытать схожий подействию зарегистрированный обезболивающий препарат гидроморфон.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+5	диацетилморфина	диацетилморфин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	жестко	жестко	ADV	_	Degree=Pos	7	advmod	_	_
+7	ограничены	ограникать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	законодательством	законодательство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+9	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	поэтому	поэтому	ADV	_	Degree=Pos	15	advmod	_	_
+13	канадские	канадский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+16	испытать	испытывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	схожий	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	подействию	подействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
+19	зарегистрированный	зарегистрировывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	обезболивающий	обезболивать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+21	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+22	гидроморфон	гидроморфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 5689
+# text = Вдвойных слепых испытаниях III фазы SALOME (Study toAssess Longer-term Opioid Medication Effectiveness) приняли участие 202 жителя Ванкувера с длительной историей зависимости отинъекционного героина.
+1	Вдвойных	Вдвойный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+2	слепых	слепой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+4	III	Iii	NUM	_	_	5	nummod	_	_
+5	фазы	фаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	SALOME	Salome	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Study	Study	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	toAssess	toAssess	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Longer-term	Longer-term	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Opioid	Opioid	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Medication	Medication	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Effectiveness	Effectiveness	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	202	202	NUM	_	_	16	nummod	_	_
+18	жителя	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Ванкувера	Ванкувер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	длительной	длительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	историей	история	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+23	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	отинъекционного	отинъекционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	героина	героин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5690
+# text = Средний возраст участников составил 44,3года, треть изних были женщинами.
+1	Средний	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	составил	составлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	44,3года	44,3год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	треть	треть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	женщинами	женщинин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5691
+# text = Случайным образом добровольцев разделили наэкспериментальную группу (100человек), получавшую уколы гидроморфона, иконтрольную (102человека), которой вводили фармацевтический диацетилморфин.
+1	Случайным	случайный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	разделили	разделять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	наэкспериментальную	наэкспериментальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	100человек	100человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	получавшую	получать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+12	уколы	укол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	гидроморфона	гидроморфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	иконтрольную	иконтрольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	102человека	102человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	которой	который	PRON	_	Case=Dat	21	obl	_	_
+21	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+22	фармацевтический	фармацевтический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	диацетилморфин	диацетилморфин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5692
+# text = Все участники получали дотрех инъекций вдень (взависимости отфизического состояния) напротяжении полугода.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	получали	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	дотрех	дотри	NUM	_	Animacy=Anim|Case=Acc	5	nummod:gov	_	_
+5	инъекций	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+6	вдень	вдень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	взависимости	взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	_
+9	отфизического	отфизический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	напротяжении	напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+13	полугода	полугод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5693
+# text = Заместительную терапию проводили вусловиях медицинских учреждений под надзором врачей.
+1	Заместительную	Заместительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вусловиях	вусловие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	_
+5	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	учреждений	учреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	надзором	надзор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	врачей	врач	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5694
+# text = Выяснилось, что гидроморфон неуступает диацетилморфину впрофилактике введения "уличного" наркотика (частота его употребления снизилась сежедневной дотрех-пяти дней вмесяц, что было подтверждено анализами мочи).
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	гидроморфон	гидроморфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	неуступает	неуступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	диацетилморфину	диацетилморфина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	впрофилактике	впрофилактика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+8	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	уличного	уличный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	наркотика	наркотик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	частота	частота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	снизилась	снижаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+18	сежедневной	сежедневной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+19	дотрех	дотри	NUM	_	Case=Gen	22	nummod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	пяти	пять	NUM	_	Case=Gen	19	nummod	_	_
+22	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+23	вмесяц	вмесяца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	PRON	_	Case=Nom	27	nsubj	_	_
+26	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	подтверждено	подтверждать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	parataxis	_	_
+28	анализами	анализ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	_
+29	мочи	мочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5695
+# text = Число дней, которые наркоманы посвящали противозаконным действиям, уменьшилась с14,1 доменее четырех вмесяц.
+1	Число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+2	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	которые	который	PRON	_	Case=Acc	6	obj	_	_
+5	наркоманы	наркоман	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	посвящали	посвящать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	противозаконным	противозаконный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	действиям	действие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	уменьшилась	уменьшаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	с14,1	с14,1	NOUN	_	_	10	obl	_	_
+12	доменее	доменее	ADV	_	Degree=Cmp	14	nummod:gov	_	_
+13	четырех	четыре	NUM	_	Case=Gen	14	nummod	_	_
+14	вмесяц	вмесяца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5696
+# text = Полный курс заместительной терапии прошли почти 80процентов участников.
+1	Полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	курс	курс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	заместительной	заместительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	почти	почти	ADV	_	Degree=Pos	7	advmod	_	_
+7	80процентов	80процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+8	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5697
+# text = Изболее чем 88тысяч сделанных всумме инъекций 29привели ксерьезным побочным эффектам: пять вэкспериментальной группе и24в контрольной.
+1	Изболее	Изболее	ADV	_	Degree=Cmp	7	advmod	_	_
+2	чем	чем	SCONJ	_	_	3	cc	_	_
+3	88тысяч	88тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	advmod	_	_
+4	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	всумме	всумма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+6	инъекций	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	29привели	29приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ксерьезным	ксерьезный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+9	побочным	побочный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	эффектам	эффект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	пять	пять	NUM	_	Case=Nom	14	nummod:gov	_	_
+13	вэкспериментальной	вэкспериментальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	группе	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+15	и24в	и24во	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	контрольной	контрольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5698
+# text = В14случаях побочным эффектом была передозировка, еще в11-- судороги.
+1	В14случаях	В14случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	root	_	_
+2	побочным	побочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	эффектом	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+5	передозировка	передозировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	еще	еще	ADV	_	Degree=Pos	9	advmod	_	_
+8	в11--	в11--	PUNCT	_	_	7	punct	_	_
+9	судороги	судорога	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5699
+# text = Всем пациентам оказали необходимую медпомощь.
+1	Всем	весь	DET	_	Case=Dat|Number=Plur	2	amod	_	_
+2	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	оказали	оказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	необходимую	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	медпомощь	медпомощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5700
+# text = Как отмечают исследователи, вне медицинского учреждения эти побочные эффекты моглибы привести клетальному исходу.
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вне	вне	ADP	_	_	7	case	_	_
+6	медицинского	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	учреждения	учреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+8	эти	этот	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+9	побочные	побочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+11	моглибы	моглиба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	клетальному	клетальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	исходу	исход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5701
+# text = Заместительная терапия опиоидной зависимости рекомендована Всемирной организацией здравоохранения иодобрена кприменению во многих странах мира.
+1	Заместительная	заместительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	опиоидной	опиоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	рекомендована	рекомендовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	Всемирной	всемирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	организацией	организация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+8	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	иодобрена	иодобрять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+10	кприменению	кприменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+11	во	в	ADP	_	_	13	case	_	_
+12	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+14	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5702
+# text = ВРоссии любые ееформы строго запрещены.
+1	ВРоссии	ВРоссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	любые	любый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ееформы	ееформа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	строго	строго	ADV	_	Degree=Pos	5	advmod	_	_
+5	запрещены	запрещать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5703
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 5704

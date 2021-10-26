@@ -1,0 +1,318 @@
+# text = # newpar
+# sent_id = 2017
+# text = Группа физиков из Массачусетского Технологического Института поставила эксперимент, имитирующий трение между твердыми телами на атомарном уровне.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	6	case	_	_
+4	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	Технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Института	Институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	поставила	ставить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	имитирующий	имитировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	трение	трение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	между	между	ADP	_	_	14	case	_	_
+13	твердыми	твердый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	телами	теел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	атомарном	атомарный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2018
+# text = Оказалось, что в некоторых условиях этот процесс может происходить почти без потерь энергии.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	6	amod	_	_
+6	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_
+7	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+10	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	почти	почти	ADV	_	Degree=Pos	13	advmod	_	_
+12	без	без	ADP	_	_	13	case	_	_
+13	потерь	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+14	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2019
+# text = Работа коллектива опубликована в журнале Science, а краткое ее изложение доступно на сайте журнала Nature.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	коллектива	коллектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Science	science	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	12	cc	_	_
+9	краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+11	изложение	изложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	доступно	доступный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Nature	nature	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2020
+# text = Имитацию трения двух тел авторы работы создавали следующим образом.
+1	Имитацию	имитация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+2	трения	трение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	создавали	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	следующим	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2021
+# text = Первый из взаимодействующих слоев атомов был составлен из катионов иттербия, удерживаемых кулоновскими силами.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	взаимодействующих	взаимодействуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	составлен	составлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	катионов	катион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	иттербия	иттербие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	удерживаемых	удерживать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	кулоновскими	кулоновский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2022
+# text = Поверхность второго тела ученые имитировали двумя лучами лазера, интерферирующими между собой -- максимумы интенсивности на интерференционной картине соответствовали виртуальным атомам, а минимумы полостям в решетке.
+1	Поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	имитировали	имитировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	двумя	два	NUM	_	Case=Ins	7	nummod	_	_
+7	лучами	луч	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+8	лазера	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	интерферирующими	интерферируть	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	между	между	ADP	_	_	12	case	_	_
+12	собой	себя	PRON	_	Case=Ins	10	obl	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	максимумы	максимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+15	интенсивности	интенсивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	интерференционной	интерференционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	картине	картина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+19	соответствовали	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	виртуальным	виртуальной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	атомам	атом	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	24	cc	_	_
+24	минимумы	минимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+25	полостям	полость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	24	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	решетке	решетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2023
+# text = Трение осуществлялось сдвигом объектов друг относительно друга.
+1	Трение	трение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	осуществлялось	осуществляться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	сдвигом	сдвиг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	fixed	_	_
+6	относительно	относительно	ADP	_	_	7	case	_	_
+7	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2024
+# text = Когда ионы "укладывались" в минимумы интерференции, ученые наблюдали максимальное трение между поверхностями.
+1	Когда	когда	ADV	_	Degree=Pos	11	mark	_	_
+2	ионы	ион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	укладывались	укладываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	advcl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	минимумы	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+8	интерференции	интерференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	максимальное	максимальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	трение	трение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	между	между	ADP	_	_	13	case	_	_
+15	поверхностями	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2025
+# text = Такая ситуация соответствует скольжению одного твердого тела относительно другого.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	скольжению	скольжение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+5	одного	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	твердого	твердый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	относительно	относительно	ADP	_	_	9	case	_	_
+9	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2026
+# text = Но, когда исследователи увеличили расстояние между соседними ионами иттербия настолько, что одна из соседних частиц оказывалась в минимуме интерференции, а вторая в максимуме, то сила трения между слоями падала на порядок.
+1	Но	но	CCONJ	_	_	18	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	когда	когда	SCONJ	_	_	11	mark	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	увеличили	увеличивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+6	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	между	между	ADP	_	_	9	case	_	_
+8	соседними	соседний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+10	иттербия	иттербие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	настолько	настолько	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	одна	один	NUM	_	Case=Nom|Gender=Fem	18	nsubj	_	_
+15	из	из	ADP	_	_	17	case	_	_
+16	соседних	соседний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+18	оказывалась	оказываться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	минимуме	минимум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	интерференции	интерференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	29	cc	_	_
+24	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	максимуме	максимум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	то	то	SCONJ	_	_	24	cc	_	_
+29	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+30	трения	трение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	между	между	ADP	_	_	32	case	_	_
+32	слоями	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	30	nmod	_	_
+33	падала	падать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	порядок	порядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 2027
+# text = Ученые связывают это с изменением механизма перемещения слоев друг относительно друга.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+6	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	fixed	_	_
+10	относительно	относительно	ADP	_	_	11	case	_	_
+11	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2028
+# text = Когда периодичность двух решеток совпадает, то перемещение происходит рывками.
+1	Когда	когда	ADV	_	Degree=Pos	9	mark	_	_
+2	периодичность	периодичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	решеток	решетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	совпадает	совпадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	то	то	SCONJ	_	_	5	cc	_	_
+8	перемещение	перемещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	рывками	рывки	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2029
+# text = Но во второй ситуации, с увеличенными расстояниями между ионами, движение больше напоминало собой поведение гусеницы.
+1	Но	но	CCONJ	_	_	14	cc	_	_
+2	во	в	ADP	_	_	4	case	_	_
+3	второй	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	увеличенными	увеличать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	расстояниями	расстояние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	больше	много	NUM	_	_	12	nummod	_	_
+14	напоминало	напоминать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	собой	себя	PRON	_	Case=Ins	14	dep	_	_
+16	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+17	гусеницы	гусеница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2030
+# text = Другой хорошей аналогией будет сравнить движение поверхностей друг относительно друга с взаимным вращением подходящих шестеренок.
+1	Другой	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	хорошей	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	аналогией	аналогия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	сравнить	сравнивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+6	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	поверхностей	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	fixed	_	_
+9	относительно	относительно	ADP	_	_	10	case	_	_
+10	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	взаимным	взаимный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	вращением	вращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+14	подходящих	подходять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	шестеренок	шестеренка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2031
+# text = Эффект "сверхскользкости" (superlubricity) может найти применение в различных инженерных системах -- уменьшение трения в подвижных частях двигателей, возможно даже наноразмерных, может значительно увеличить их ресурс, или даже создать какие-либо принципиально новые устройства.
+1	Эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	сверхскользкости	сверхскользкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	superlubricity	superlubricity	X	_	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+13	инженерных	инженерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	уменьшение	уменьшение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+17	трения	трение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	подвижных	подвижный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	20	amod	_	_
+20	частях	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_
+21	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+24	даже	даже	PART	_	_	25	advmod	_	_
+25	наноразмерных	наноразмерный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	27	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	значительно	значительно	ADV	_	Degree=Pos	29	advmod	_	_
+29	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+30	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	31	nmod	_	_
+31	ресурс	ресурс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	или	или	CCONJ	_	_	35	cc	_	_
+34	даже	даже	PART	_	_	35	advmod	_	_
+35	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	conj	_	_
+36	какие-либо	какой-либо	DET	_	Case=Acc|Number=Plur	39	amod	_	_
+37	принципиально	принципиально	ADV	_	Degree=Pos	36	advmod	_	_
+38	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	39	amod	_	_
+39	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	35	obj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# newpar
+# sent_id = 2032

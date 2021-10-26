@@ -1,0 +1,304 @@
+# text = # newpar
+# sent_id = 4807
+# text = Инженеры компании Google продемонстрировали существование преимуществ алгоритма квантового отжига, заложенного в "квантовых компьютерах" D-wave, над классическими компьютерами и алгоритмами.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Google	Google	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	существование	существование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	преимуществ	преимущество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	квантового	квантовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	отжига	отжиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	заложенного	заложать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	квантовых	квантовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	компьютерах	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	D-wave	D-wave	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	над	над	ADP	_	_	21	case	_	_
+20	классическими	классический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	компьютерами	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	алгоритмами	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4808
+# text = Для этого исследователи создали специальную задачу на оптимизацию -- поиск минимального значения функции.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	специальную	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	оптимизацию	оптимизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+11	минимального	минимальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	значения	значение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4809
+# text = О результатах рассказывает издание MIT Technology Review, подробнее о тестировании можно прочитать в препринте будущей статьи на arXiv.orgАвторы сравнивали между собой производительность двух алгоритмов -- квантового отжига и имитации отжига.
+1	О	о	ADP	_	_	2	case	_	_
+2	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	MIT	Mit	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Technology	technology	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Review	Review	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	подробнее	подробно	ADV	_	Degree=Cmp	11	advmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	тестировании	тестирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+12	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+13	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	препринте	препринт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	будущей	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	arXiv.org	arXiv.org	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+20	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	между	между	ADP	_	_	23	case	_	_
+23	собой	себя	PRON	_	Case=Ins	21	obl	_	_
+24	производительность	производительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+25	двух	два	NUM	_	Case=Gen	26	nummod	_	_
+26	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	квантового	квантовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	отжига	отжиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	имитации	имитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	conj	_	_
+32	отжига	отжиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 4810
+# text = Суть этих алгоритмов заключается в воспроизведении физических процессов, происходящих при отжиге и кристаллизации твердых тел.
+1	Суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	воспроизведении	воспроизведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	физических	физический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	происходящих	происходить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	отжиге	отжига	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	conj	_	_
+15	твердых	твердый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4811
+# text = Часть атомов уже заняли свои позиции в кристаллической решетке, а часть, благодаря тепловой энергии еще могут перемещаться в объеме в поиске наиболее энергетически выгодных для себя позиций.
+1	Часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	заняли	занимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	свои	свой	DET	_	Case=Acc|Number=Plur	6	amod	_	_
+6	позиции	позиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	кристаллической	кристаллический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	решетке	решетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	12	cc	_	_
+12	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	благодаря	благодаря	ADP	_	_	16	case	_	_
+15	тепловой	тепловой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+17	еще	еще	ADV	_	Degree=Pos	18	advmod	_	_
+18	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	объеме	объем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	поиске	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+24	наиболее	наиболее	ADV	_	Degree=Pos	25	advmod	_	_
+25	энергетически	энергетически	ADV	_	Degree=Pos	26	advmod	_	_
+26	выгодных	выгодный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	себя	себя	PRON	_	Case=Gen	26	nmod	_	_
+29	позиций	позиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4812
+# text = С уменьшением температуры тепловое движение замедляется и атомы постепенно занимают локальные минимумы.В алгоритме имитации отжига последовательный поиск максимума или минимума функции определяется случайным процессом перескоков, причем каждый следующий скачок оказывается ближе к искомому значению.
+1	С	с	ADP	_	_	2	case	_	_
+2	уменьшением	уменьшение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+3	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	тепловое	тепловой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	замедляется	замедляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	атомы	атом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	постепенно	постепенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	занимают	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	локальные	локальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	минимумы	минимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	В	в	ADP	_	_	15	case	_	_
+15	алгоритме	алгоритм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	имитации	имитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	отжига	отжиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	последовательный	последовательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+20	максимума	максимум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	минимума	минимум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_
+23	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	определяется	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	случайным	случайный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	процессом	процесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl:agent	_	_
+27	перескоков	перескок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	причем	причем	CCONJ	_	_	33	cc	_	_
+30	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	следующий	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	скачок	скачок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+33	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+34	ближе	близко	ADV	_	Degree=Cmp	33	advmod	_	_
+35	к	к	ADP	_	_	37	case	_	_
+36	искомому	искомый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	значению	значение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 4813
+# text = Существенным отличием квантового отжига является возможность туннелирования в процессе спуска.
+1	Существенным	существенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	отличием	отличие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+3	квантового	квантовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	отжига	отжиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	туннелирования	туннелирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+10	спуска	спуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4814
+# text = Физической аналогией был бы перескок атома, которому не нашлось своего места в кристаллической ячейке, в соседнюю ячейку при температурах, не допускающих такого простым тепловым движением.
+1	Физической	физический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	аналогией	аналогия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	бы	бы	PART	_	Mood=Cnd	2	aux	_	_
+5	перескок	перескок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	атома	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которому	который	PRON	_	Case=Dat	10	obl	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	нашлось	найтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+11	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	12	amod	_	_
+12	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	кристаллической	кристаллический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	ячейке	ячейка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	соседнюю	соседний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	ячейку	ячейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+20	при	при	ADP	_	_	19	case	_	_
+21	температурах	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	допускающих	допускать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+25	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	28	amod	_	_
+26	простым	простой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	тепловым	тепловой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	движением	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 4815
+# text = Это не позволяет алгоритму "застревать" в локальном минимуме.Для сравнения алгоритмов была предложена задача на оптимизацию функции, зависящей от 945 бит переменных (каждая из переменных принимает значения1).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	алгоритму	алгоритм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	застревать	застревать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	локальном	локальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
+10	минимуме.	минимумбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+11	Для	для	ADP	_	_	12	case	_	_
+12	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	предложена	предкладывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	_	_
+16	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	оптимизацию	оптимизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	зависящей	зависящь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+22	от	от	ADP	_	_	24	case	_	_
+23	945	945	NUM	_	_	24	nummod	_	_
+24	бит	бит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+25	переменных	переменная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	nsubj	_	_
+28	из	из	ADP	_	_	29	case	_	_
+29	переменных	переменная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	принимает	принимавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	значения1	значения1	NOUN	_	_	30	obl	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 4816
+# text = Авторы сравнивали производительность компьютера D-wave 2X (1152 активных кубита) и обычного компьютера с одним ядром.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	производительность	производительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	D-wave	D-wave	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	2X	2x	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	1152	1152	NUM	_	_	10	nummod	_	_
+9	активных	активный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	кубита	кубит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	одним	один	NUM	_	Case=Ins|Gender=Neut	17	nummod	_	_
+17	ядром	ядро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4817
+# text = Тесты показали, что D-wave находит абсолютный минимум с 99-процентной вероятностью до 180 миллионов раз быстрее, чем классические алгоритмы.
+1	Тесты	тест	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	D-wave	D-wave	PROPN	_	Foreign=Yes	6	nsubj	_	_
+6	находит	находеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	абсолютный	абсолютный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	минимум	минимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	99-процентной	99-процентный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	вероятностью	вероятность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	180	180	NUM	_	_	14	nummod	_	_
+14	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+15	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	быстрее	быстро	ADV	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чем	чем	SCONJ	_	_	20	cc	_	_
+19	классические	классический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	алгоритмы	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 4818

@@ -1,0 +1,185 @@
+# text = # newpar
+# sent_id = 4564
+# text = Болгарские археологи обнаружили следы древней мастерской по производству орудий из кремня, существовавшей в пятом тысячелетии до нашей эры.
+1	Болгарские	болгарский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	древней	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	мастерской	мастерская	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	производству	производство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+9	орудий	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	кремня	кремень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	существовавшей	существовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	пятом	пятый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	тысячелетии	тысячелетие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+19	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4565
+# text = По мнению ученых, именно в этой мастерской создавались кремневые орудия, которые впоследствии распространились по большей части Балканского полуострова.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	именно	именно	PART	_	_	8	advmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	8	amod	_	_
+8	мастерской	мастерская	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+9	создавались	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	кремневые	кремневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	орудия	орудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+14	впоследствии	впоследствии	ADV	_	Degree=Pos	15	advmod	_	_
+15	распространились	распространяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	большей	больший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+19	Балканского	Балканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	полуострова	полуостров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4566
+# text = О находке сообщает Archaeology in Bulgaria.Открытие было сделано во время раскопок близ села Каменево Разградской области.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+4	Archaeology	Archaeology	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	in	in	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	Bulgaria.	bulgaria.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+7	Открытие	открытие	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	во	в	ADP	_	_	12	case	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+13	близ	близ	ADP	_	_	14	case	_	_
+14	села	село	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	Каменево	Каменево	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Разградской	Разградский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+17	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4567
+# text = По словам археологов, мастерскую обнаружили случайно: целью исследования было захоронение медного века.Среди находок были как заготовки, так и законченные образцы кремневых орудий.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	мастерскую	мастерская	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	случайно	случайно	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	parataxis	_	_
+10	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+12	захоронение	захоронение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+13	медного	медный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	века.	века.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	Среди	среди	ADP	_	_	16	case	_	_
+16	находок	находка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	как	как	SCONJ	_	_	19	cc	_	_
+19	заготовки	заготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	так	так	ADV	_	Degree=Pos	23	advmod	_	_
+22	и	и	PART	_	_	21	fixed	_	_
+23	законченные	заканчивать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	образцы	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+25	кремневых	кремневой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	орудий	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 4568
+# text = Кроме этого были найдены фрагменты керамики, а также глиняная печь, в которой кремень разогревали перед обработкой.Археологический участок вблизи Каменево датируется халколитом (Медный век), он был впервые изучен в конце XIX века.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	керамики	керамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	11	cc	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	глиняная	глиняной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	печь	печь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	которой	который	PRON	_	Case=Loc	16	obl	_	_
+15	кремень	кремень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	разогревали	разогревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+17	перед	перед	ADP	_	_	18	case	_	_
+18	обработкой.	обработкой.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	Археологический	археологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	участок	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+21	вблизи	вблизи	ADP	_	_	22	case	_	_
+22	Каменево	Каменево	PROPN	_	Animacy=Inan|Gender=Neut|Number=Sing	20	nmod	_	_
+23	датируется	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+24	халколитом	халколит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Медный	медный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	век	век	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	parataxis	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+31	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	aux:pass	_	_
+32	впервые	впервые	ADV	_	Degree=Pos	33	advmod	_	_
+33	изучен	изучать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+36	XIX	xix	NUM	_	_	37	nummod	_	_
+37	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 4569
+# text = По распространенной версии, в этом месте производились кремневые орудия, которые впоследствии были распространены по южной части Балканского полуострова.
+1	По	по	ADP	_	_	3	case	_	_
+2	распространенной	распространенный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	версии	версия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	7	amod	_	_
+7	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+8	производились	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	кремневые	кремневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	орудия	орудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+13	впоследствии	впоследствии	ADV	_	Degree=Pos	15	advmod	_	_
+14	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	распространены	распространять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	южной	южный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+19	Балканского	Балканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	полуострова	полуостров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4570
+# text = Об этом говорила характерная форма орудий, найденных во время раскопок в различных местах полуострова.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорила	говорить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	характерная	характерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	орудий	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	во	во	ADP	_	_	11	case	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	раскопок	раскопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	_
+15	полуострова	полуострово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 4571

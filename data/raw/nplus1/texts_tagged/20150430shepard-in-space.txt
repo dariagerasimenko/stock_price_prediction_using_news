@@ -1,0 +1,180 @@
+# text = # newpar
+# sent_id = 2753
+# text = Blue Origin, принадлежащая Amazon, успешно провела испытания ракеты New Shepard, выведя ее в стратосферу на высоту 93,5 километра.
+1	Blue	Blue	PROPN	_	Foreign=Yes	8	nsubj	_	_
+2	Origin	Origin	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	принадлежащая	принадлежать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	Amazon	Amazon	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	успешно	успешно	ADV	_	Degree=Pos	8	advmod	_	_
+8	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+10	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	New	new	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Shepard	Shepard	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	выведя	выведить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+15	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	стратосферу	стратосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+20	93,5	93,5	NUM	_	_	21	nummod	_	_
+21	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2754
+# text = Об этом сообщает блогДжеффа Безоса на странице компании.В ходе полета капсула, где предполагается размещение команды аппарата, отделилась штатно и мягко приземлилась.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	блогДжеффа	блогДжефф	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	Безоса	Безос	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	странице	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	В	в	ADP	_	_	12	case	_	_
+11	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	капсула	капсул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	где	где	ADV	_	Degree=Pos	16	advmod	_	_
+16	предполагается	предполагаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+17	размещение	размещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+18	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	отделилась	отделяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+22	штатно	штатно	ADV	_	Degree=Pos	21	advmod	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	мягко	мягко	ADV	_	Degree=Pos	25	advmod	_	_
+25	приземлилась	приземляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2755
+# text = New Sheppard разрабатывается как многоразовая система, предполагается, что и разгонный блок и капсула будут использоваться вторично, однако приземлить столь же мягко разгонный блок не удалось.
+1	New	new	PROPN	_	Foreign=Yes	3	nsubj:pass	_	_
+2	Sheppard	Sheppard	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	многоразовая	многоразовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	28	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	и	и	PART	_	_	13	advmod	_	_
+12	разгонный	разгонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	капсула	капсула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+16	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	8	advcl	_	_
+18	вторично	вторично	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	однако	однако	ADV	_	Degree=Pos	21	advmod	_	_
+21	приземлить	приземлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+22	столь	столь	ADV	_	Degree=Pos	24	advmod	_	_
+23	же	же	PART	_	_	22	advmod	_	_
+24	мягко	мягко	ADV	_	Degree=Pos	28	advmod	_	_
+25	разгонный	разгонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2756
+# text = По словам Джеффа, к счастью, компания уже ведет разработку усовершенствованной гидравлической системы аппарата -- проблема именно в этой части ракеты привела к крушению модуля.На данный момент компания уже работает над "старшим братом" ракеты, орбитальным аппаратом оснащенным двигателем BE-4на сжиженном природном газе и кислороде, обладающем тягой 2500 килоньютон, в 4 раза меньшей чем у ракетоносителя "Протон".
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	parataxis	_	_
+3	Джеффа	Джефф	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	счастью	счастье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+12	усовершенствованной	усовершенствовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+13	гидравлической	гидравлический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+18	именно	именно	PART	_	_	21	advmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	21	amod	_	_
+21	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+22	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	привела	приводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	advcl	_	_
+24	к	к	ADP	_	_	25	case	_	_
+25	крушению	крушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+26	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	На	на	ADP	_	_	30	case	_	_
+29	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
+31	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+32	уже	уже	ADV	_	Degree=Pos	33	advmod	_	_
+33	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+34	над	над	ADP	_	_	37	case	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	старшим	старший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	братом	брат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	орбитальным	орбитальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	39	conj	_	_
+43	оснащенным	оснащять	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	44	amod	_	_
+44	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	42	obl:agent	_	_
+45	BE	Be	PROPN	_	Foreign=Yes	44	flat:foreign	_	SpaceAfter=No
+46	-	-	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	4на	4ный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+48	сжиженном	сжиживать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	50	amod	_	_
+49	природном	природный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	газе	газ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	47	nmod	_	_
+51	и	и	CCONJ	_	_	52	cc	_	_
+52	кислороде	кислород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	54	conj	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	обладающем	обладать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	50	amod	_	_
+55	тягой	тяга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	57	nmod	_	_
+56	2500	2500	NUM	_	_	57	nummod	_	_
+57	килоньютон	килоньютон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	47	nsubj	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	в	в	ADP	_	_	61	case	_	_
+60	4	4	NUM	_	_	61	nummod	_	_
+61	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+62	меньшей	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	_
+63	чем	чем	SCONJ	_	_	65	cc	_	_
+64	у	у	ADP	_	_	65	case	_	_
+65	ракетоносителя	ракетоноситель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
+66	"	"	PUNCT	_	_	67	punct	_	SpaceAfter=No
+67	Протон	протон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	65	appos	_	SpaceAfter=No
+68	"	"	PUNCT	_	_	67	punct	_	SpaceAfter=No
+69	.	.	PUNCT	_	_	67	punct	_	_
+
+# sent_id = 2757
+# text = Тяга двигателя BE-3, установленного на испытанной вчера ракете составила примерно 500 килоньютон.
+1	Тяга	тяга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+2	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	BE	Be	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	3	3	NUM	_	_	7	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	установленного	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+8	на	на	ADP	_	_	11	case	_	_
+9	испытанной	испытывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	вчера	вчера	ADV	_	Degree=Pos	9	advmod	_	_
+11	ракете	ракет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+12	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	примерно	примерно	ADV	_	Degree=Pos	14	advmod	_	_
+14	500	500	NUM	_	_	15	nummod	_	_
+15	килоньютон	килоньютон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 2758

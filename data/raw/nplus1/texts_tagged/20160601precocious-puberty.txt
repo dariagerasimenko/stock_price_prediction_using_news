@@ -1,0 +1,474 @@
+# text = # newpar
+# sent_id = 2683
+# text = Индийские врачи столкнулись средким случаем полового созревания угодовалого ребенка, пишет Hindustan Times.
+1	Индийские	индийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	врачи	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	столкнулись	сталкиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	средким	средкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	случаем	случай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	полового	половой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	созревания	созревание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	угодовалого	угодовалый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	Hindustan	Hindustan	PROPN	_	Foreign=Yes	11	nsubj	_	_
+13	Times	times	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2684
+# text = Родители мальчика по имени Вайбхав (Vaibhav) заметили отклонения вего развитии, когда ребенку было полгода.
+1	Родители	родитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	мальчика	мальчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+5	Вайбхав	Вайбхав	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Vaibhav	Vaibhav	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	заметили	замечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	отклонения	отклонение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+11	вего	вий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	когда	когда	SCONJ	_	_	9	mark	_	_
+15	ребенку	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	advcl	_	_
+16	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	полгода	полгод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2685
+# text = Онбыл значительно выше детей своего возраста, иунего начали быстро расти иразвиваться половые органы.
+1	Онбыл	Онбывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	значительно	значительно	ADV	_	Degree=Pos	3	advmod	_	_
+3	выше	высоко	ADV	_	Degree=Cmp	1	advmod	_	_
+4	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	иунего	оиун	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+9	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+10	быстро	быстро	ADV	_	Degree=Pos	11	advmod	_	_
+11	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+12	иразвиваться	иразвиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+13	половые	половой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	органы	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2686
+# text = Ввозрасте 18 месяцев Вайбхав оказался наприеме уврача.
+1	Ввозрасте	Ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	18	18	NUM	_	_	3	nummod	_	_
+3	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+4	Вайбхав	Вайбхав	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	оказался	оказиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	parataxis	_	_
+6	наприеме	наприема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+7	уврача	уврач	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 2687
+# text = Кэтому времени рост мальчика составлял 95 сантиметров (на10--15 сантиметров больше нормы), унего начали расти волосы налице ителе, начал ломаться голос иполностью развились гениталии.
+1	Кэтому	Кэто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	fixed	_	_
+3	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	мальчика	мальчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	составлял	составлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	95	95	NUM	_	_	7	nummod	_	_
+7	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	на10	на10	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	15	15	NUM	_	_	13	nummod	_	_
+13	сантиметров	сантиметры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+14	больше	много	NUM	_	_	15	nummod:gov	_	_
+15	нормы	норма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	унего	оун	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+19	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+20	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	волосы	волос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	налице	налица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+23	ителе	итель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	ломаться	ломаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	xcomp	_	_
+27	голос	голос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	иполностью	иполность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
+29	развились	развиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+30	гениталии	гениталия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 2688
+# text = Пословам лечащего врача, педиатра-эндокринолога Вайшакхи Рустаги (Vaishakhi Rustagi) изделийской Больницы Макс, уровень мужского полового гормона тестостерона вкрови мальчика составлял от500 до600 нанограммов надецилитр (от17,3 до20,8 наномоль налитр), что соответствует норме для 25-летнего мужчины.
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	3	nmod	_	_
+2	лечащего	лечить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	врача	врач	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	педиатра-	педиатра-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	эндокринолога	эндокринолога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+7	Вайшакхи	Вайшакха	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Рустаги	Рустага	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Vaishakhi	Vaishakhi	PROPN	_	Foreign=Yes	6	parataxis	_	_
+11	Rustagi	Rustagi	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	изделийской	изделийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Больницы	больница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+15	Макс	Макс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+18	мужского	мужский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	полового	половой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	гормона	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	тестостерона	тестостерон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	вкрови	вкровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	мальчика	мальчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	составлял	составлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+25	от500	от500	NUM	_	_	27	nummod	_	_
+26	до600	до600	NUM	_	_	27	nummod	_	_
+27	нанограммов	нанограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+28	надецилитр	надецилитр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	от17,3	от17,3	NUM	_	_	31	nummod	_	_
+31	до20,8	до20,8	NOUN	_	_	37	nsubj	_	_
+32	наномоль	наномоль	ADV	_	Degree=Pos	37	advmod	_	_
+33	налитр	налитр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	33	punct	_	_
+36	что	что	PRON	_	Case=Nom	37	nsubj	_	_
+37	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+38	норме	норма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	37	obl	_	_
+39	для	для	ADP	_	_	38	case	_	_
+40	25-летнего	25-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 2689
+# text = Нормальный уровень тестостерона угодовалого ребенка составляет около 20нанограммов надецилитр (0,7 наномоль налитр).
+1	Нормальный	нормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	тестостерона	тестостерон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	угодовалого	угодовалый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	около	около	ADP	_	_	8	case	_	_
+8	20нанограммов	20нанограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+9	надецилитр	надецилитр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	0,7	0,7	NUM	_	_	13	nummod	_	_
+12	наномоль	наномоль	ADV	_	Degree=Pos	13	advmod	_	_
+13	налитр	налитр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2690
+# text = Никакой видимой причины этого гормонального нарушения обнаружить неудалось.
+1	Никакой	никакой	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+2	видимой	видимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	причины	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	6	amod	_	_
+5	гормонального	гормональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	обнаружить	обнаружать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+8	неудалось	неудаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2691
+# text = Вайбхаву поставили диагноз преждевременного полового созревания иназначили ежемесячные инъекции антагониста тестостерона.
+1	Вайбхаву	Вайбхава	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	поставили	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	диагноз	диагноз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	преждевременного	преждевременный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	полового	половой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	созревания	созревание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	иназначили	иназначать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	ежемесячные	ежемесячной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	антагониста	антагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	тестостерона	тестостерон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2692
+# text = Лечение придется продолжать, постепенно снижая дозу, довозраста 10--11 лет, когда организм будет готов вступить впубертатный период.
+1	Лечение	лечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	постепенно	постепенно	ADV	_	Degree=Pos	6	advmod	_	_
+6	снижая	снижать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+7	дозу	доза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	довозраста	довозраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	10	10	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	11	11	NUM	_	_	10	nummod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	когда	когда	SCONJ	_	_	3	mark	_	_
+17	организм	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	готов	готовый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	advcl	_	_
+20	вступить	вступивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	впубертатный	впубертатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2693
+# text = Преждевременное половое созревание-- это развитие вторичных половых признаков удетей препубертатного возраста.
+1	Преждевременное	преждевременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	половое	половой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	созревание-	созревание-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	это	это	PART	_	_	6	cop	_	_
+6	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	вторичных	вторичной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	удетей	удеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	препубертатного	препубертатный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2694
+# text = Поданным Рустаги, оно наблюдается примерно уодного из100 тысяч детей, однако встоль раннем возрасте -- значительно реже.
+1	Поданным	Поданный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Рустаги	Рустаги	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj:pass	_	_
+5	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	примерно	примерно	ADV	_	Degree=Pos	7	advmod	_	_
+7	уодного	уодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	из100	из100	NUM	_	_	9	nummod	_	_
+9	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+10	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+13	встоль	встоль	ADV	_	Degree=Pos	14	advmod	_	_
+14	раннем	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	значительно	значительно	ADV	_	Degree=Pos	18	advmod	_	_
+18	реже	редко	ADV	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2695
+# text = Как правило, преждевременное половое созревание становится результатом таких заболеваний эндокринной системы как: опухоли, инфекции, кисты, травмы, облучение или врожденные дефекты гипоталамо-гипофизарной системы, приводящие кнарушению выработки гормонов, регулирующих работу половых желез (гонадостатинов, гонадолиберинов, гонадотропина);опухоли или гиперплазия половых желез, надпочечников или гоноцитов (первичных половых клеток, изкоторых образуются сперматозоиды и яйцеклетки);нарушения функции щитовидной железы;врожденные аномалии (синдром Маккьюна--Олбрайта, гонадотропиннезависимое семейное преждевременное половое созревание);поступление половых гормонов или ихагонистов извне (лекарства, токсичные вещества).
+1	Как	как	ADV	_	Degree=Pos	4	cc	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	преждевременное	преждевременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	половое	половый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	созревание	созревание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	таких	такой	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+11	эндокринной	эндокринный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	как:	как:	PUNCT	_	_	12	punct	_	_
+14	опухоли	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	кисты	кист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	травмы	травм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	облучение	облучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	conj	_	_
+23	или	или	CCONJ	_	_	25	cc	_	_
+24	врожденные	врожденный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	дефекты	дефект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	conj	_	_
+26	гипоталамо-гипофизарной	гипоталамо-гипофизарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	приводящие	приводить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	27	amod	_	_
+30	кнарушению	кнарушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+31	выработки	выработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	гормонов	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	регулирующих	регулировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+35	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+36	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	желез	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	гонадостатинов	гонадостатин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	parataxis	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	гонадолиберинов	гонадолиберин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	гонадотропина	гонадотропин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	;опухоли	;опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	conj	_	_
+46	или	или	CCONJ	_	_	47	cc	_	_
+47	гиперплазия	гиперплазие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	conj	_	_
+48	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	49	amod	_	_
+49	желез	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	47	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	надпочечников	надпочечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	conj	_	_
+52	или	или	CCONJ	_	_	53	cc	_	_
+53	гоноцитов	гоноцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	conj	_	_
+54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
+55	первичных	первичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	57	amod	_	_
+56	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	57	amod	_	_
+57	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	53	parataxis	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	изкоторых	изкоторый	PRON	_	Case=Acc	60	obj	_	_
+60	образуются	образовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	57	parataxis	_	_
+61	сперматозоиды	сперматозоид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	60	nsubj	_	_
+62	и	и	CCONJ	_	_	63	cc	_	_
+63	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	61	conj	_	SpaceAfter=No
+64	)	)	PUNCT	_	_	63	punct	_	SpaceAfter=No
+65	;нарушения	;нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	70	conj	_	_
+66	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	65	nmod	_	_
+67	щитовидной	щитовидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	68	amod	_	_
+68	железы	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	66	nmod	_	SpaceAfter=No
+69	;врожденные	;врождять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	70	amod	_	_
+70	аномалии	аномалия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	83	nsubj	_	_
+71	(	(	PUNCT	_	_	72	punct	_	SpaceAfter=No
+72	синдром	синдр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	80	parataxis	_	_
+73	Маккьюна-	маккьюна-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	74	amod	_	SpaceAfter=No
+74	-Олбрайта	-Олбрайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	74	punct	_	_
+76	гонадотропиннезависимое	гонадотропиннезависимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	80	amod	_	_
+77	семейное	семейный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	80	amod	_	_
+78	преждевременное	преждевременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	80	amod	_	_
+79	половое	половый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	80	amod	_	_
+80	созревание	созревание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	70	parataxis	_	SpaceAfter=No
+81	)	)	PUNCT	_	_	80	punct	_	SpaceAfter=No
+82	;	;	PUNCT	_	_	80	punct	_	SpaceAfter=No
+83	поступление	поступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	60	conj	_	_
+84	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	85	amod	_	_
+85	гормонов	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	83	nmod	_	_
+86	или	или	CCONJ	_	_	87	cc	_	_
+87	ихагонистов	ихагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	85	conj	_	_
+88	извне	извне	ADV	_	Degree=Pos	93	advmod	_	_
+89	(	(	PUNCT	_	_	90	punct	_	SpaceAfter=No
+90	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	93	parataxis	_	SpaceAfter=No
+91	,	,	PUNCT	_	_	90	punct	_	_
+92	токсичные	токсичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	93	amod	_	_
+93	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	60	conj	_	SpaceAfter=No
+94	)	)	PUNCT	_	_	93	punct	_	SpaceAfter=No
+95	.	.	PUNCT	_	_	93	punct	_	_
+
+# sent_id = 2696
+# text = Если причину установить неудается (как вслучае Вайбхава), говорят обидиопатическом преждевременном половом созревании.
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	причину	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+4	неудается	неудаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	как	как	SCONJ	_	_	0	mark	_	_
+7	вслучае	вслучай	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	Вайбхава	Вайбхава	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	обидиопатическом	обидиопатический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+13	преждевременном	преждевременный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+14	половом	половый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	созревании	созревание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2697
+# text = Вне зависимости отвызвавшего его состояния ранний пубертат связан счрезмерной выработкой половых гормонов.
+1	Вне	вне	ADP	_	_	2	case	_	_
+2	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+3	отвызвавшего	отвызвать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	ранний	ранний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	пубертат	пубертат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	счрезмерной	счрезмерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	выработкой	выработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	половых	половой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	гормонов	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2698
+# text = Без лечения преждевременное половое созревание приводит к раннему прекращению роста (часто сдеформациями или непропорциональностью скелета), атакже психологическим исоциальным расстройствам (ребенок выглядит старше сверстников, унего появляются половые потребности, при этом онне понимает, что происходит).
+1	Без	без	ADP	_	_	2	case	_	_
+2	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	преждевременное	преждевременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	половое	половый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	созревание	созревание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	раннему	ранний	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	прекращению	прекращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+10	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	часто	часто	ADV	_	Degree=Pos	13	advmod	_	_
+13	сдеформациями	сдеформация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	parataxis	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	непропорциональностью	непропорциональность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	_
+16	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	атакже	атакже	CCONJ	_	_	22	cc	_	_
+20	психологическим	психологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	22	amod	_	_
+21	исоциальным	исоциальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	22	amod	_	_
+22	расстройствам	расстройство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	conj	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	выглядит	выглядить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+26	старше	старший	ADJ	_	Degree=Cmp	27	amod	_	_
+27	сверстников	сверстник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	унего	оун	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obj	_	_
+30	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+31	половые	половой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	потребности	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	при	при	ADP	_	_	35	case	_	_
+35	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+36	онне	онне	ADV	_	Degree=Pos	37	advmod	_	_
+37	понимает	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	что	что	PRON	_	Case=Nom	40	nsubj	_	_
+40	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	parataxis	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 2699
+# text = Иллюстрацией этого служат случаи ранней беременности --самая молодая изизвестных матерей перуанка Лина Медина родила в1939 году в возрасте 5лет, 7месяцев и17дней, апервая менструация унее произошла в2года и8месяцев.
+1	Иллюстрацией	иллюстрация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	служат	служать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	случаи	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	ранней	ранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	--самая	--сать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+8	молодая	молодой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+9	изизвестных	изизвестный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	матерей	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	перуанка	перуанка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	Лина	Лина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	_
+13	Медина	Медина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	12	flat:name	_	_
+14	родила	рождать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	в1939	в1939	NUM	_	_	16	nummod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+19	5лет	5год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	7месяцев	7месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_
+22	и17дней	и17дний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	апервая	апервый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	менструация	менструация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+26	унее	унее	ADV	_	Degree=Pos	27	advmod	_	_
+27	произошла	происходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+28	в2года	в2года	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+29	и8месяцев	и8месяец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2700
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2701

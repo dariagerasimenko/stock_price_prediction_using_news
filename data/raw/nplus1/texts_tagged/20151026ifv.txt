@@ -1,0 +1,107 @@
+# text = # newpar
+# sent_id = 3426
+# text = Француз Пьер Муфсконструировал из микрокомпьютера Raspberry Pi камеру одноступенного фотопроцесса.
+1	Француз	француз	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Пьер	пьер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Муфсконструировал	Муфсконструировывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	микрокомпьютера	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	Raspberry	Raspberry	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Pi	Pi	NUM	_	_	8	nummod	_	_
+8	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+9	одноступенного	одноступенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	фотопроцесса	фотопроцесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3427
+# text = Подробнее о проекте под названием Polapi можно прочитать в личном блоге автора, исходный код программного обеспечения опубликован в репозитории GitHub.Камера Polapi представляет собой корпус, в который смонтирована плата Raspberry Pi 2, термопринтер, оптический модуль, 2,8-дюймовый экран и аккумулятор.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	7	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	под	под	ADP	_	_	5	case	_	_
+5	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+6	Polapi	Polapi	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	личном	личный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	исходный	исходный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	код	код	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+16	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	репозитории	репозитория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_
+21	GitHub	GitHub	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Камера	Камер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+24	Polapi	Polapi	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+26	собой	себя	PRON	_	Case=Ins	25	dep	_	_
+27	корпус	корпус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	который	который	PRON	_	Case=Acc	31	obl	_	_
+31	смонтирована	монтировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+32	плата	плата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+33	Raspberry	Raspberry	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Pi	Pi	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	2	2	NUM	_	_	34	nummod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	термопринтер	термопринтер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	оптический	оптический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	2,8-дюймовый	2,8-дюймовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	экран	экран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	conj	_	_
+44	и	и	CCONJ	_	_	45	cc	_	_
+45	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 3428
+# text = За взаимодействие всех частей устройства между собой отвечает написанная на Java программа.
+1	За	за	ADP	_	_	2	case	_	_
+2	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+3	всех	весь	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	собой	себя	PRON	_	Case=Ins	5	nmod	_	_
+8	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	написанная	писать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	Java	Java	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3429
+# text = После включения и ручной установки фокуса необходимо только нажать на спуск, после этого камера тут же печатает снимок на термопринтере.
+1	После	после	ADP	_	_	2	case	_	_
+2	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	ручной	ручной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+6	фокуса	фокус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	нажать	нажать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	спуск	спуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+15	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+16	тут	тут	ADV	_	Degree=Pos	18	advmod	_	_
+17	же	же	PART	_	_	16	advmod	_	_
+18	печатает	печатать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	снимок	снимка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	термопринтере	термопринтер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# newpar
+# sent_id = 3430

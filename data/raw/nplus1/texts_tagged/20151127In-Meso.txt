@@ -1,0 +1,661 @@
+# text = # newpar
+# sent_id = 3257
+# text = Группа биофизиков из Московского физико-технического института совместно с коллегами из Германии, Франции и США обнаружила, что мембранные белки бактериородопсины во время кристаллизации ведут себя словно "каннибалы".
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+2	биофизиков	биофизик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	6	case	_	_
+4	Московского	московский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	физико-технического	физико-технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	совместно	совместно	ADV	_	Degree=Pos	16	advmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Франции	франция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	conj	_	_
+16	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	мембранные	мембранный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+21	бактериородопсины	бактериородопсина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	во	во	ADP	_	_	24	case	_	_
+23	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	_
+24	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+25	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+26	себя	себя	PRON	_	Case=Acc	25	obj	_	_
+27	словно	словно	SCONJ	_	_	29	cc	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	каннибалы	каннибал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	advmod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 3258
+# text = Рост крупных кристаллов происходит за счет "пожирания" более мелких кристаллов вокруг себя.
+1	Рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	за	за	ADP	_	_	8	case	_	_
+6	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	пожирания	пожирание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+13	вокруг	вокруг	ADP	_	_	14	case	_	_
+14	себя	себя	PRON	_	Case=Gen	0	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3259
+# text = Так же ученые установили, что кристаллизация бактериородопсина в специальной среде происходит неслучайным образом -- она всегда имеет паттерн, напоминающий по форме пчелиные соты.
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	кристаллизация	кристаллизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+8	бактериородопсина	бактериородопсин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	специальной	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	среде	среда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+12	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+13	неслучайным	неслучайный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+17	всегда	всегда	ADV	_	Degree=Pos	18	advmod	_	_
+18	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+19	паттерн	паттерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	напоминающий	напоминать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	форме	форма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+24	пчелиные	пчелиный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	соты	сота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3260
+# text = Работа опубликована в журнале Crystal Growth&Design.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Crystal	Crystal	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Growth&Design	Growth&Design	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3261
+# text = Бактериородопсины -- это светочувствительные мембранные белки архей (Archaea), напоминающие родопсин в палочках сетчатки глаз.
+1	Бактериородопсины	Бактериородопсин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	светочувствительные	светочувствительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	мембранные	мембранный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+7	архей	архь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Archaea	Archaea	PROPN	_	Foreign=Yes	6	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	напоминающие	напоминать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+13	родопсин	родопсин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	палочках	палочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+16	сетчатки	сетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3262
+# text = Мембранные белки, как следует из их названия, находятся на поверхности клеточных мембран.
+1	Мембранные	мембрывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	mark	_	_
+5	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+8	названия	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	клеточных	клеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	мембран	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3263
+# text = Их главной особенностью является способность передавать различные вещества сквозь мембрану внутрь клетки (и наоборот), в том числе и различные химические сигналы, запускающие те или иные процессы в клетке.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+2	главной	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	особенностью	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	сквозь	сквозь	ADP	_	_	10	case	_	_
+10	мембрану	мембрана	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+11	внутрь	внутрь	ADP	_	_	12	case	_	_
+12	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	наоборот	наоборот	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	20	amod	_	_
+20	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	advmod	_	_
+21	и	и	PART	_	_	24	advmod	_	_
+22	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+23	химические	химической	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	запускающие	запускать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+27	те	тот	DET	_	Case=Acc|Number=Plur	30	amod	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	иные	иной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	conj	_	_
+30	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	клетке	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3264
+# text = Второе важнейшее свойство этих белков -- они не растворяются в воде и вне клеточной мембраны склонны к денатурации (разрушению третичной и вторичной структуры белка), поэтому, чтобы добиться их кристаллизации, необходима особая среда, напоминающая липидную мембрану клеток.
+1	Второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	важнейшее	важнейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	свойство	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+4	этих	этот	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+5	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	растворяются	растворяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	и	и	CCONJ	_	_	16	cc	_	_
+13	вне	вне	ADP	_	_	15	case	_	_
+14	клеточной	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+16	склонны	склонный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	conj	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	денатурации	денатурация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	разрушению	разрушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	parataxis	_	_
+21	третичной	третичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	вторичной	вторичной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	_
+24	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+25	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	поэтому	поэтому	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+31	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	35	dep	_	_
+32	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	33	nmod	_	_
+33	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	необходима	необходимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	advcl	_	_
+36	особая	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	среда	среда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	напоминающая	напоминать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	37	amod	_	_
+40	липидную	липидный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	мембрану	мембрана	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	_
+42	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3265
+# text = В новой работе российские ученые применили особый тип среды -- липидную кубическую фазу.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+4	российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	применили	применивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	особый	особый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	тип	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	липидную	липидный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	кубическую	кубический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	фазу	фаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3266
+# text = Она не дает белкам денатурировать и, одновременно, они могут свободно перемещаться внутри нее, "пробираясь" к растущему кристаллу.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	белкам	белок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+5	денатурировать	денатурировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+6	и	и	CCONJ	_	_	11	cc	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	одновременно	одновременно	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	свободно	свободно	ADV	_	Degree=Pos	13	advmod	_	_
+13	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+14	внутри	внутри	ADV	_	Degree=Pos	13	advmod	_	_
+15	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	пробираясь	пробираться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	15	advcl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	к	к	ADP	_	_	22	case	_	_
+21	растущему	растуть	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+22	кристаллу	кристалл	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3267
+# text = Также биофизики подобрали ряд необходимых химических компонентов и их концентрацию, "побуждающую" белки к процессу кристаллизации.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	биофизики	биофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	подобрали	подбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	необходимых	необходимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	компонентов	компонент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	концентрацию	концентрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	побуждающую	побуждать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	белки	белка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	процессу	процесс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
+18	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3268
+# text = Далее исследователи, используя метод флюоресцентной микроскопии стали наблюдать за ростом кристаллов.
+1	Далее	далее	ADV	_	Degree=Pos	8	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+5	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	флюоресцентной	флюоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+12	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3269
+# text = Оказалось, в течение первых дней кристаллы образуются на всей поверхности среды достаточно равномерно.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+7	кристаллы	кристалла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	образуются	образовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	всей	весь	DET	_	Case=Loc|Gender=Fem|Number=Sing	11	amod	_	_
+11	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+12	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	достаточно	достаточно	ADV	_	Degree=Pos	14	advmod	_	_
+14	равномерно	равномерно	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3270
+# text = Однако уже спустя неделю можно было наблюдать более крупные кристаллы белков, окруженные "пустошами", в которых можно было встретить только очень маленькие кристаллы.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+3	спустя	спустя	ADP	_	_	4	case	_	_
+4	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+7	наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+9	крупные	крупный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+11	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	окруженные	окружять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	пустошами	пустош	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	которых	который	PRON	_	Case=Loc	20	nmod	_	_
+20	можно	можно	ADV	_	Degree=Pos	15	acl:relcl	_	_
+21	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+22	встретить	встречать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+23	только	только	PART	_	_	24	advmod	_	_
+24	очень	очень	ADV	_	Degree=Pos	25	advmod	_	_
+25	маленькие	маленький	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3271
+# text = Каждая такая "пустошь" имела четко очерченные границы, за пределами которых вновь можно встретить более крупные кристаллы.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	пустошь	пустошь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	имела	иметь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	четко	четко	ADV	_	Degree=Pos	8	advmod	_	_
+8	очерченные	очерчять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	границы	граница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	_
+13	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+14	вновь	вновь	ADV	_	Degree=Pos	15	advmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+16	встретить	встречать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	крупные	крупный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3272
+# text = На основании этих наблюдений биофизики пришли к выводу, что в процессе кристаллизации белков бактериородопсинов, наиболее крупные кристаллам не хватает материалов для роста из раствора и они начинают "поглощать" своих мелких собратьев, однако, вероятно, эта "тактика" роста действует только ограниченное время.Другим интересным наблюдением стал тот факт, что кристаллизация в среде идет по границам областей, по форме напоминающим пчелиные соты.
+1	На	на	ADP	_	_	2	case	_	_
+2	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	биофизики	биофизика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+13	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	бактериородопсинов	бактериородопсин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	наиболее	наиболее	ADV	_	Degree=Pos	18	advmod	_	_
+18	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	кристаллам	кристаллам	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+22	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	из	из	ADP	_	_	26	case	_	_
+26	раствора	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	29	nsubj	_	_
+29	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	поглощать	поглощать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	_
+33	своих	свой	DET	_	Case=Acc|Number=Plur	35	amod	_	_
+34	мелких	мелкий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	_
+35	собратьев	собрат	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	однако	однако	ADV	_	Degree=Pos	46	parataxis	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	вероятно	вероятно	ADV	_	Degree=Pos	43	parataxis	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	43	amod	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	тактика	тактика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	_
+45	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+46	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+47	только	только	PART	_	_	48	advmod	_	_
+48	ограниченное	ограниченный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_
+49	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	54	parataxis	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	Другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	52	amod	_	_
+52	интересным	интересный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	53	amod	_	_
+53	наблюдением	наблюдение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	54	obl	_	_
+54	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	46	conj	_	_
+55	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	56	amod	_	_
+56	факт	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	54	nsubj	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	что	что	SCONJ	_	_	56	mark	_	_
+59	кристаллизация	кристаллизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	62	nsubj	_	_
+60	в	в	ADP	_	_	61	case	_	_
+61	среде	среда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	59	nmod	_	_
+62	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	56	advcl	_	_
+63	по	по	ADP	_	_	64	case	_	_
+64	границам	граница	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	62	obl	_	_
+65	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	64	nmod	_	SpaceAfter=No
+66	,	,	PUNCT	_	_	65	punct	_	_
+67	по	по	ADP	_	_	68	case	_	_
+68	форме	форма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	62	obl	_	_
+69	напоминающим	напоминать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	68	amod	_	_
+70	пчелиные	пчелиный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	71	amod	_	_
+71	соты	сота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	69	obj	_	SpaceAfter=No
+72	.	.	PUNCT	_	_	71	punct	_	_
+
+# sent_id = 3273
+# text = Почему так происходит, ученые пока не понимают, однако предполагают, что это связано с неодноростями в липидной кубической фазе.
+1	Почему	почему	ADV	_	Degree=Pos	3	advmod	_	_
+2	так	так	ADV	_	Degree=Pos	3	advmod	_	_
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	пока	пока	ADV	_	Degree=Pos	8	advmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	понимают	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+11	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	cc	_	_
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	_
+15	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	неодноростями	неоднорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	obl	_	_
+18	в	в	ADP	_	_	17	case	_	_
+19	липидной	липидный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	кубической	кубический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	фазе	фаза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3274
+# text = Если это действительно так, то исследователи получат в свои руки инструмент для контроля размеров получаемых кристаллов (смогут увеличить их размер).
+1	Если	если	SCONJ	_	_	8	mark	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	действительно	действительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	так	так	ADV	_	Degree=Pos	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	то	то	SCONJ	_	_	4	cc	_	_
+7	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	получат	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	свои	свой	DET	_	Case=Acc|Number=Plur	11	amod	_	_
+11	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+12	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	получаемых	получать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+20	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	размер	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3275
+# text = Процесс роста крупных кристаллов за счет более мелких называется Оствальдовским созреванием или переконденсацией.
+1	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	за	за	ADP	_	_	8	case	_	_
+6	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+8	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	_
+9	называется	называваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	Оствальдовским	Оствальдовский	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	созреванием	созревание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	переконденсацией	переконденсация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3276
+# text = Он связан с большей растворимостью вещества в небольших кристаллитах по сравнению с их крупными собратьями.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	растворимостью	растворимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	небольших	небольшой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	кристаллитах	кристаллит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_
+10	по	по	ADP	_	_	15	case	_	_
+11	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	fixed	_	_
+12	с	с	ADP	_	_	11	fixed	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+14	крупными	крупный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	собратьями	собратья	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3277
+# text = Впервые процесс был описан в водных растворах в 1896 году Вильгельмом Оствальдом, однако, впоследствии, явление наблюдалось и в гелевых системах и твердых растворах.Кристаллизация мембранных белков используется для изучения их структуры.
+1	Впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+2	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	описан	описывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	водных	водный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	растворах	раствор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	1896	1896	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	Вильгельмом	Вильгельм	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	appos	_	_
+12	Оствальдом	Оствальд	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	однако	однако	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	впоследствии	впоследствии	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	явление	явление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj:pass	_	_
+19	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+20	и	и	PART	_	_	23	advmod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	гелевых	гелевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+23	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	obl	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	твердых	твердый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	_
+26	растворах	раствор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Кристаллизация	Кристаллизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+29	мембранных	мембранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	белков	белки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	obl	_	_
+34	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	35	nmod	_	_
+35	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3278
+# text = Крупные кристаллы белков изучаются с помощью методов рентгенокристалографии, позволяющих по картине рассеяния излучения очень точно определить их молекулярную структуру.
+1	Крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	белков	белки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	изучаются	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	рентгенокристалографии	рентгенокристалография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	картине	картина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+13	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	очень	очень	ADV	_	Degree=Pos	16	advmod	_	_
+16	точно	точно	ADV	_	Degree=Pos	17	advmod	_	_
+17	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+18	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+19	молекулярную	молекулярный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3279
+# text = В свою очередь, зная структуру белка можно значительно ускорить и удешевить процесс производства лекарств (60 процентов лекарственных препаратов используют мембранные белки в качестве мишени), посредством компьютерного подбора молекул, которые смогут с ними взаимодействовать.
+1	В	в	ADP	_	_	3	case	_	_
+2	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	зная	зный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	значительно	значительно	ADV	_	Degree=Pos	10	advmod	_	_
+10	ускорить	ускоривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	удешевить	удешевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+13	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	60	60	NUM	_	_	18	nummod	_	_
+18	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	parataxis	_	_
+19	лекарственных	лекарственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	мембранные	мембранный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	белки	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	fixed	_	_
+26	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	посредством	посредством	ADP	_	_	31	case	_	_
+30	компьютерного	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	подбора	подбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+32	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	которые	который	PRON	_	Case=Nom	35	nsubj	_	_
+35	смогут	смочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
+36	с	с	ADP	_	_	37	case	_	_
+37	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	35	obl	_	_
+38	взаимодействовать	взаимодействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	35	xcomp	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3280
+# text = Поэтому разработка новых технологий кристаллизации и сопутствующих ей закономерностей в настоящий момент являются одной из наиболее растущих областей исследований в биофизике.Даниил Кузнецов
+1	Поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	_
+2	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+3	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	сопутствующих	сопутствовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+8	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	7	obl	_	_
+9	закономерностей	закономерность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+13	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	одной	один	NUM	_	Case=Ins|Gender=Fem	13	nummod	_	_
+15	из	из	ADP	_	_	18	case	_	_
+16	наиболее	наиболее	ADV	_	Degree=Pos	17	advmod	_	_
+17	растущих	расти	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+18	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+19	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	биофизике.	биофизике.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+22	Даниил	Даниивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+23	Кузнецов	Кузнецов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+
+# newpar
+# sent_id = 3281

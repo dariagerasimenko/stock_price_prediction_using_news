@@ -1,0 +1,287 @@
+# text = # newpar
+# sent_id = 4541
+# text = 7 августа открылся предзаказ на музыкальный альбом Криса Хэдфилда, записанный во время его пребывания на МКС.
+1	7	7	NUM	_	_	3	nummod	_	_
+2	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	открылся	открываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	предзаказ	предзаказ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	музыкальный	музыкальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	альбом	альб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+8	Криса	Крис	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Хэдфилда	Хэдфильд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	записанный	записывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+12	во	во	ADP	_	_	15	case	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	пребывания	пребывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4542
+# text = Это первое музыкальное издание, написанное в невесомости.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	музыкальное	музыкальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	написанное	писать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	невесомости	невесомость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4543
+# text = Об этом сообщаетпортал Space.com.Альбом получил название "Space Sessions: Songs From a Tin Can", что является отсылкой к песне Дэвида Боуи "Space Oddity", кавер на которую Хэдфилд исполнил на борту МКС и опубликовал перед своим возвращением на Землю.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщаетпортал	сообщаетпортановиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	Space.com	Space.com	PROPN	_	Foreign=Yes	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Альбом	Альб	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+8	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Space	space	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Sessions	Sessions	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	Songs	Songs	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	From	From	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	a	a	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Tin	Tin	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Can	Can	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+21	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+22	отсылкой	отсылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+23	к	к	ADP	_	_	24	case	_	_
+24	песне	песня	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
+25	Дэвида	Дэвид	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	Боуи	Боуи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Space	space	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+29	Oddity	Oddity	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	кавер	кавер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	которую	который	PRON	_	Case=Acc	32	nmod	_	_
+35	Хэдфилд	Хэдфилд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
+36	исполнил	исполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+37	на	на	ADP	_	_	38	case	_	_
+38	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	obl	_	_
+39	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+42	перед	перед	ADP	_	_	44	case	_	_
+43	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing	44	amod	_	_
+44	возвращением	возвращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	41	obl	_	_
+45	на	на	ADP	_	_	46	case	_	_
+46	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 4544
+# text = Помимо кавера, в состав альбома войдут еще 11 песен, сочиненных и сыгранных астронавтом во время его третьего визита в космос в составе экипажа МКС-35.Накануне открытия предзаказа Крис Хэдфилд опубликовал на своем канале Youtube сингл из альбома -- "Feet up"По словам астронавта, пребывание в космосе изменило привычный ему стиль игры на гитаре и голос.
+1	Помимо	помимо	ADP	_	_	2	case	_	_
+2	кавера	кавер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+6	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	войдут	войвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	еще	еще	ADV	_	Degree=Pos	9	advmod	_	_
+9	11	11	NUM	_	_	10	nummod	_	_
+10	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сочиненных	сочинять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	сыгранных	сыграть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+15	астронавтом	астронавт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+16	во	во	ADP	_	_	20	case	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	fixed	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
+19	третьего	третий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	визита	визит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+25	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	35	35	NUM	_	_	25	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	Накануне	Накануне	ADP	_	_	31	case	_	_
+31	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+32	предзаказа	предзаказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	Крис	Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+34	Хэдфилд	Хэдфилд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	flat:name	_	_
+35	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+36	на	на	ADP	_	_	38	case	_	_
+37	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	38	amod	_	_
+38	канале	канал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+39	Youtube	Youtube	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	сингл	ингть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+41	из	из	ADP	_	_	42	case	_	_
+42	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
+43	--	--	PUNCT	_	_	42	punct	_	_
+44	"	"	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	Feet	Feet	PROPN	_	Foreign=Yes	42	appos	_	_
+46	up	up	X	_	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	По	по	ADP	_	_	49	case	_	_
+49	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	40	obl	_	_
+50	астронавта	астронавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	пребывание	пребывание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	55	obj	_	_
+53	в	в	ADP	_	_	54	case	_	_
+54	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	55	nmod	_	_
+55	изменило	изменять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+56	привычный	привычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	58	amod	_	_
+57	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	56	nmod	_	_
+58	стиль	стиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	55	nsubj	_	_
+59	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	58	nmod	_	_
+60	на	на	ADP	_	_	61	case	_	_
+61	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	59	nmod	_	_
+62	и	и	CCONJ	_	_	63	cc	_	_
+63	голос	голос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	61	conj	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	63	punct	_	_
+
+# sent_id = 4545
+# text = "Игра на гитаре в отсутствие гравитации не кажется чем-то сложным Ведь они попросту плавает, парит -- ее не нужно держать.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+7	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	чем-то	что-то	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	сложным	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+12	Ведь	ведь	ADV	_	Degree=Pos	15	advmod	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+14	попросту	попросту	PART	_	_	15	advmod	_	_
+15	плавает	плавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	парит	парит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	21	nmod	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	conj	_	_
+22	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4546
+# text = Но если ты сам оказался невесомым, гитара попросту не лежит на твоем колене и тебе нужно придумать какой-то другой способ удерживать ее.
+1	Но	но	CCONJ	_	_	11	cc	_	_
+2	если	если	SCONJ	_	_	11	mark	_	_
+3	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
+4	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	acl	_	_
+5	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+6	невесомым	невесомый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	гитара	гитара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	попросту	попросту	PART	_	_	10	advmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	твоем	твой	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	amod	_	_
+14	колене	колен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	17	nmod	_	_
+17	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	conj	_	_
+18	придумать	придумывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	какой-то	какой-то	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+22	удерживать	удерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	dep	_	_
+23	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4547
+# text = Иначе любое твое движение левой рукой и гитара улетает!".Альбом выйдет 9 октября, стоимость издания на виниле или CD-диске начинается от $12.99.Крис Хэдфилд -- первый канадский астронавт, вышедший в открытый космос.
+1	Иначе	иначе	CCONJ	_	_	4	cc	_	_
+2	любое	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	твое	твой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	левой	левый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	рукой	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	гитара	гитара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+9	улетает	улетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	Альбом	Альб	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+14	выйдет	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+15	9	9	NUM	_	_	16	nummod	_	_
+16	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+19	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	виниле	виниль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	CD	cd	PROPN	_	Foreign=Yes	25	conj	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	диске	диска	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	_
+26	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+27	от	от	ADP	_	_	28	case	_	_
+28	$	доллар-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+29	12.99.Крис	12.99.Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+30	Хэдфилд	Хэдфилд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	канадский	канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	астронавт	астронавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	вышедший	выходить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	34	amod	_	_
+37	в	в	ADP	_	_	39	case	_	_
+38	открытый	открытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 4548
+# text = Он трижды бывал в космосе, один раз на станции "Мир" и дважды на МКС.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	трижды	трижды	ADV	_	Degree=Pos	3	advmod	_	_
+3	бывал	бывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Мир	мир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	дважды	дважды	ADV	_	Degree=Pos	0	conj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4549
+# text = Свой последний перед выходом на пенсию полет он совершил в статусе командира экипажа.
+1	Свой	свой	DET	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+2	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+3	перед	перед	ADP	_	_	4	case	_	_
+4	выходом	выход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	пенсию	пенсия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+7	полет	погод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	статусе	статус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	командира	командир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = 4550

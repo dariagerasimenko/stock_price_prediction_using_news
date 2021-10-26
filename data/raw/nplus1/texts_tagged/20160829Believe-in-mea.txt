@@ -1,0 +1,704 @@
+# text = # newpar
+# sent_id = 3681
+# text = Американские ученые изучили, как люди воспринимают продукты, которые сделаны из мяса животных, выращенных "гуманно", на маленьких фермах, и в "промышленных" условиях, и показали, что убеждения потребителей влияют на восприятие ими пищи.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	3	mark	_	_
+6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	воспринимают	воспринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	выращенных	выращивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	гуманно	гуманно	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	маленьких	маленький	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+23	фермах	ферм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	и	и	CCONJ	_	_	30	cc	_	_
+26	в	в	ADP	_	_	30	case	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	промышленных	промышленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	что	что	SCONJ	_	_	33	mark	_	_
+36	убеждения	убеждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	38	nsubj	_	_
+37	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+38	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	восприятие	восприятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obl	_	_
+41	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	38	obl	_	_
+42	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	_
+
+# sent_id = 3682
+# text = Исследование опубликовано в журнале PLoS ONE.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	PLoS	Plos	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ONE	One	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar
+# sent_id = 3683
+# text = Согласно распространенной точке зрения, животные, которых выращивают для забоя на промышленных фермах или птицефабриках, страдают еще при жизни, так как их содержат в тесных помещениях и кормят гормонами для быстрого роста и антибиотиками.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	распространенной	распространенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	точке	точка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+4	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которых	который	PRON	_	Case=Acc	9	obj	_	_
+9	выращивают	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	забоя	забой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+12	на	на	ADP	_	_	11	case	_	_
+13	промышленных	промышленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	фермах	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	птицефабриках	птицефабрика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	страдают	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	еще	еще	ADV	_	Degree=Pos	21	advmod	_	_
+20	при	при	ADP	_	_	21	case	_	_
+21	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	так	так	ADV	_	Degree=Pos	18	mark	_	_
+24	как	как	SCONJ	_	_	23	fixed	_	_
+25	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	26	obj	_	_
+26	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	тесных	тесный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	26	obl	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	кормят	корметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+32	гормонами	гормон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	_
+33	для	для	ADP	_	_	35	case	_	_
+34	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	антибиотиками	антибиотик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 3684
+# text = Облегчить страдания животных можно, если выращивать их "на природе" и давать только натуральные корма.
+1	Облегчить	облегчать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	страдания	страдание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	если	если	SCONJ	_	_	4	mark	_	_
+7	выращивать	выращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	на	на	ADP	_	_	8	case	_	_
+11	природе	природа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	давать	давать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	натуральные	натуральный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	корма	корм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3685
+# text = Естественно, такое мясо будет стоить дороже, но есть люди, готовые за него платить.
+1	Естественно	естественно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	мясо	мясо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	стоить	стоить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	дороже	дорого	ADV	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	но	но	CCONJ	_	_	11	cc	_	_
+10	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	готовые	готовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	obj	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+16	платить	платить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3686
+# text = Так, в США, Канаде и Австралии можно купить мясо с этикеткой "гуманно выращенное", полученное из животных, которых выращивали на сравнительно небольших фермах по строгим стандартам.
+1	Так	так	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Канаде	Канад	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	купить	покупать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	мясо	мясо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	этикеткой	этикетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	гуманно	гуманно	ADV	_	Degree=Pos	16	advmod	_	_
+16	выращенное	выращивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	полученное	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которых	который	PRON	_	Case=Acc	24	obj	_	_
+24	выращивали	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	на	на	ADP	_	_	28	case	_	_
+26	сравнительно	сравнительно	ADV	_	Degree=Pos	27	advmod	_	_
+27	небольших	небольшой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
+28	фермах	ферм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+29	по	по	ADP	_	_	31	case	_	_
+30	строгим	строгий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	31	amod	_	_
+31	стандартам	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3687
+# text = Однако до сих пор никто не исследовал, как знание о том, что животное вырастили "не гуманно", влияет на потребление мясных продуктов.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	до	до	ADP	_	_	7	advmod	_	_
+3	сих	сей	DET	_	Case=Gen|Number=Plur	2	fixed	_	_
+4	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	fixed	_	_
+5	никто	никто	PRON	_	Case=Nom	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	исследовал	исследовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	знание	знание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	advmod	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	вырастили	выращивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	не	не	PART	_	_	19	advmod	_	_
+19	гуманно	гуманно	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	потребление	потребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+25	мясных	мясной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3688
+# text = Авторы работы предположили, что между уверенностью человека в том, что животные страдали во время откармливания, и восприятием вкуса изготовленных из них мясных продуктов существует прямая связь -- эмпатия к животным приведет к тому, что их мясо на вкус будет казаться хуже.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	уверенностью	уверенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+8	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+14	страдали	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+15	во	во	ADP	_	_	17	case	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	откармливания	откармливание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	восприятием	восприятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	conj	_	_
+21	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	изготовленных	изготовлять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	obl	_	_
+25	мясных	мясной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+27	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+28	прямая	прямой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	эмпатия	эмпатия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+32	к	к	ADP	_	_	33	case	_	_
+33	животным	животное	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	31	nmod	_	_
+34	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	27	conj	_	_
+35	к	к	ADP	_	_	36	case	_	_
+36	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	что	что	SCONJ	_	_	36	mark	_	_
+39	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	40	nmod	_	_
+40	мясо	мясо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	nsubj	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	nmod	_	_
+43	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	aux	_	_
+44	казаться	казаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	36	advcl	_	_
+45	хуже	плохо	ADV	_	Degree=Cmp	44	advmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 3689
+# text = Для того чтобы подтвердить эту гипотезу, исследователи провели три эксперимента.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+4	подтвердить	подтверждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	три	три	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3690
+# text = В первом из них участвовали 117 участников, которым сначала предлагали прочитать два описания мясных продуктов: в одном описывались коровы, выращенные"гуманно", на вольном выпасе и органических кормах, в другом описании было указано, что животных выращивали на промышленной ферме и давали им антибиотики и гормоны.
+1	В	в	ADP	_	_	2	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+5	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	117	117	NUM	_	_	7	nummod	_	_
+7	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которым	который	PRON	_	Case=Dat	11	obl	_	_
+10	сначала	сначала	ADV	_	Degree=Pos	11	advmod	_	_
+11	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	прочитать	прочитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	два	два	NUM	_	Case=Acc|Gender=Neut	14	nummod:gov	_	_
+14	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+15	мясных	мясной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	одном	один	NUM	_	Case=Loc|Gender=Masc	20	nummod	_	_
+20	описывались	описываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
+21	коровы	корова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	выращенные	выращивать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	гуманно	гуманно	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	вольном	вольный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	выпасе	выпас	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+31	и	и	CCONJ	_	_	33	cc	_	_
+32	органических	органический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	33	amod	_	_
+33	кормах	корм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+38	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	39	aux:pass	_	_
+39	указано	указывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	conj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	что	что	SCONJ	_	_	39	mark	_	_
+42	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	43	obl	_	_
+43	выращивали	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	39	advcl	_	_
+44	на	на	ADP	_	_	46	case	_	_
+45	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	ферме	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	43	obl	_	_
+47	и	и	CCONJ	_	_	48	cc	_	_
+48	давали	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	43	conj	_	_
+49	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	48	obl	_	_
+50	антибиотики	антибиотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	48	obj	_	_
+51	и	и	CCONJ	_	_	52	cc	_	_
+52	гормоны	гормон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	50	conj	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	52	punct	_	_
+
+# sent_id = 3691
+# text = Затем участникам исследования предлагали попробовать и оценить два идентичных кусочка органической сушеной говядины с разными этикетками.Один из них были помечен, как мясо "гуманно" выращенной коровы, другой -- как мясо коровы, выращенной на промышленной ферме.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+8	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod:gov	_	_
+9	идентичных	идентичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	кусочка	кусочек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	органической	органический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	сушеной	сушеный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	говядины	говядина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	этикетками	этикетк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Один	один	NUM	_	Case=Nom|Gender=Masc	22	nsubj	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	18	nmod	_	_
+21	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+22	помечен	помечный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	как	как	SCONJ	_	_	25	cc	_	_
+25	мясо	мясо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	гуманно	гуманно	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	выращенной	выращивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+30	коровы	корова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	conj	_	_
+33	--	--	PUNCT	_	_	32	punct	_	_
+34	как	как	SCONJ	_	_	35	cc	_	_
+35	мясо	мясо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	advmod	_	_
+36	коровы	корова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	выращенной	выращивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+39	на	на	ADP	_	_	41	case	_	_
+40	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	ферме	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 3692
+# text = Также участников спрашивали, сколько они согласились бы заплатить за оба вида мяса.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	участников	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	спрашивали	спрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сколько	сколько	ADV	_	Degree=Pos	7	advmod	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	согласились	согласиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+8	бы	бы	PART	_	Mood=Cnd	7	aux	_	_
+9	заплатить	платить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	оба	оба	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	12	nummod:gov	_	_
+12	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+13	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3693
+# text = Как и ожидали исследователи, вид, вкус и запах мяса "гуманно" выращенных животных показались участникам эксперимента привлекательнее, чем в случае с мясом "индустриально" выращенных коров.
+1	Как	как	ADV	_	Degree=Pos	3	advmod	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	ожидали	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	запах	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+11	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	гуманно	гуманно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	выращенных	выращивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+17	показались	казаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+19	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	привлекательнее	привлекательный	ADJ	_	Degree=Cmp	17	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	24	cc	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	advmod	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	мясом	мяс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	индустриально	индустриально	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	выращенных	выращивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	31	amod	_	_
+31	коров	корова	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3694
+# text = Соответственно, испытуемые были готовы заплатить за "гуманно" выращенное мясо на 20 процентов больше.
+1	Соответственно	соответственно	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	испытуемые	испытуемое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	заплатить	платить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	за	за	ADP	_	_	12	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	гуманно	гуманно	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	выращенное	выращать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	мясо	мясо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	20	20	NUM	_	_	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+16	больше	больше	ADV	_	Degree=Cmp	0	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3695
+# text = Второй эксперимент был похож на первый, но с существенным отличием.
+1	Второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	похож	похожий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	существенным	существенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	отличием	отличие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3696
+# text = Чтобы узнать, этикетка ли "гуманно выращенное" улучшает вкус мяса, или маркировка "промышленно выращенное", наоборот, ухудшает его, экспериментаторы добавили еще два описания.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+2	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	этикетка	этикетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	ли	ли	PART	_	_	4	advmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	гуманно	гуманно	ADV	_	Degree=Pos	8	advmod	_	_
+8	выращенное	выращивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	улучшает	улучшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	маркировка	маркировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	промышленно	промышленно	ADV	_	Degree=Pos	18	advmod	_	_
+18	выращенное	выращивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	наоборот	наоборот	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	ухудшает	ухудшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+24	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	экспериментаторы	экспериментатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+27	добавили	добавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+28	еще	еще	ADV	_	Degree=Pos	29	advmod	_	_
+29	два	два	NUM	_	Case=Acc|Gender=Neut	30	nummod:gov	_	_
+30	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3697
+# text = В контрольном описании указывалось, где купили говядину, но не упоминалось, как выращивали животное.
+1	В	в	ADP	_	_	3	case	_	_
+2	контрольном	контрольный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	указывалось	указывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	где	где	ADV	_	Degree=Pos	7	advmod	_	_
+7	купили	покупать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	говядину	говядина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	12	cc	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	упоминалось	упоминать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	как	как	SCONJ	_	_	12	mark	_	_
+15	выращивали	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+16	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 3698
+# text = Еще в одном описании экспериментаторы рассказали о промышленной ферме в более положительном ключе ("ферма+").
+1	Еще	еще	ADV	_	Degree=Pos	4	advmod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	одном	один	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+5	экспериментаторы	экспериментатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	рассказали	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	ферме	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	положительном	положительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	ключе	ключ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ферма+	ферма+	PUNCT	_	_	9	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3699
+# text = Два описания продуктов из первого исследования ученые переписали так, что они стали практически одинаковыми, разница заключалась только в условиях, в которых содержались животные.
+1	Два	два	NUM	_	Case=Nom|Gender=Neut	2	nummod:gov	_	_
+2	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	переписали	переписывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	так	так	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	8	mark	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	8	advcl	_	_
+14	практически	практически	ADV	_	Degree=Pos	15	advmod	_	_
+15	одинаковыми	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	заключалась	заключаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+19	только	только	PART	_	_	21	advmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	которых	который	PRON	_	Case=Loc	25	obl	_	_
+25	содержались	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	21	acl:relcl	_	_
+26	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 3700
+# text = После этого 248 новым участникам предложили сначала прочитать описания, а затем попробовать четыре одинаковых кусочка говядины с разными этикетками.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	248	248	NUM	_	_	5	nummod	_	_
+4	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+6	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	сначала	сначала	ADV	_	Degree=Pos	8	advmod	_	_
+8	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+9	описания	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	затем	затем	ADV	_	Degree=Pos	13	advmod	_	_
+13	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+14	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+15	одинаковых	одинаковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	кусочка	кусочок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+17	говядины	говядина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	этикетками	этикетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3701
+# text = Испытуемые дали примерно одинаковые оценки мясу с контрольным описанием и мясу с этикеткой "гуманно выращенное" животное.
+1	Испытуемые	Испытуть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	дали	даль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+3	примерно	примерно	ADV	_	Degree=Pos	4	advmod	_	_
+4	одинаковые	одинаковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	оценки	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+6	мясу	мяса	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	18	nsubj	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	контрольным	контрольной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	мясу	мяса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	этикеткой	этикетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	гуманно	гуманно	ADV	_	Degree=Pos	16	advmod	_	_
+16	выращенное	выращивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3702
+# text = Зато говядина с маркировкой "выращено на промышленной ферме" получила более низкие оценки.
+1	Зато	зато	CCONJ	_	_	6	cc	_	_
+2	говядина	говядина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	маркировкой	маркировка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	выращено	выращивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	ферме	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	более	более	ADV	_	Degree=Cmp	13	advmod	_	_
+13	низкие	низкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	оценки	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3703
+# text = Почти так же участники оценили и мясо с описанием "ферма+".
+1	Почти	почти	ADV	_	Degree=Pos	2	advmod	_	_
+2	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	оценили	оценивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	мясо	мясо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	ферма+	ферма+	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3704
+# text = "По большей части мы предполагали, что маркировка на продукте "гуманно выращенный" улучшит его вкусовые качества, внешний вид и другие характеристики, -- объясняет ведущий автор статьи Лиза Барретт. -- Но вместо этого мы обнаружили, что маркировка "выращено на промышленной ферме" на продукте ухудшает его восприятие".
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	По	по	ADP	_	_	4	case	_	_
+3	большей	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+6	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	маркировка	маркировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	продукте	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	гуманно	гуманно	ADV	_	Degree=Pos	14	advmod	_	_
+14	выращенный	выращивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	улучшит	улучшать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	advcl	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+18	вкусовые	вкусовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	качества	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	внешний	внешний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	--	--	PUNCT	_	_	25	punct	_	_
+28	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+29	ведущий	ведущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+31	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	Лиза	Лиза	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	30	appos	_	_
+33	Барретт	Барретт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+35	--	--	PUNCT	_	_	33	punct	_	_
+36	Но	но	CCONJ	_	_	40	cc	_	_
+37	вместо	вместо	ADP	_	_	38	case	_	_
+38	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	obl	_	_
+39	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	40	nsubj	_	_
+40	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	что	что	SCONJ	_	_	40	mark	_	_
+43	маркировка	маркировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	45	nsubj:pass	_	_
+44	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	выращено	выращивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	advcl	_	_
+46	на	на	ADP	_	_	48	case	_	_
+47	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	ферме	ферма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	52	obl	_	SpaceAfter=No
+49	"	"	PUNCT	_	_	50	punct	_	_
+50	на	на	ADP	_	_	51	case	_	_
+51	продукте	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	52	obl	_	_
+52	ухудшает	ухудшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	parataxis	_	_
+53	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	54	nmod	_	_
+54	восприятие	восприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	52	nsubj	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	54	punct	_	_
+
+# newpar
+# sent_id = 3705

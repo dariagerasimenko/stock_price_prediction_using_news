@@ -1,0 +1,175 @@
+# text = # newpar
+# sent_id = 971
+# text = !-- @page { margin: 2cm } p { margin-bottom: 0.25cm; line-height: 120% } a:link { so-language: zxx } -- Корейские археологи обнаружили в городе Кёнджугробницу женщины, в которой также находился скелет мужчины, предположительно принесенного в жертву.
+1	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+2	--	--	PUNCT	_	_	19	punct	_	_
+3	@page	@page	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	{	{	PUNCT	_	_	3	punct	_	_
+5	margin	margin	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	2cm	2cm	X	_	Foreign=Yes	18	flat:foreign	_	_
+8	}	}	PUNCT	_	_	7	punct	_	_
+9	p	p	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	{	{	PUNCT	_	_	9	punct	_	_
+11	margin-bottom	margin-bottom	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	0.	0	NUM	_	_	11	nummod	_	SpaceAfter=No
+14	25cm	25cm	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	14	punct	_	_
+16	line-height	line-height	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	120	120	NUM	_	_	5	nummod	_	SpaceAfter=No
+19	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+20	}	}	PUNCT	_	_	19	punct	_	_
+21	a:link	a:link	X	_	Foreign=Yes	19	flat:foreign	_	_
+22	{	{	PUNCT	_	_	21	punct	_	_
+23	so-language	so-language	X	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	zxx	zxx	X	_	Foreign=Yes	30	flat:foreign	_	_
+26	}	}	PUNCT	_	_	25	punct	_	_
+27	--	--	PUNCT	_	_	25	punct	_	_
+28	Корейские	Корейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+30	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	_
+33	Кёнджугробницу	Кёнджугробница	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+34	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	которой	который	PRON	_	Case=Loc	39	obl	_	_
+38	также	также	ADV	_	Degree=Pos	39	advmod	_	_
+39	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	34	acl:relcl	_	_
+40	скелет	скелет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+41	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	предположительно	предположительно	ADV	_	Degree=Pos	44	advmod	_	_
+44	принесенного	принесять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+45	в	в	ADP	_	_	46	case	_	_
+46	жертву	жертва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 972
+# text = Находка относится к V-VI веку,сообщаетKorea JoongAng Daily.
+1	Находка	находка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	V-VI	V-vi	NUM	_	_	5	nummod	_	_
+5	веку	век	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,сообщаетKorea	,сообщаетKorea	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	JoongAng	JoongAng	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Daily.	Daily.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+
+# sent_id = 973
+# text = !-- @page { margin: 2cm } p { margin-bottom: 0.25cm; line-height: 120% } a:link { so-language: zxx } -- Внимание археологов привлекло необычное расположение останков.
+1	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+2	--	--	PUNCT	_	_	19	punct	_	_
+3	@page	@page	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	{	{	PUNCT	_	_	3	punct	_	_
+5	margin	margin	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	2cm	2cm	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+8	}	}	PUNCT	_	_	7	punct	_	_
+9	p	p	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	{	{	PUNCT	_	_	9	punct	_	_
+11	margin-bottom	margin-bottom	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	0.	0	NUM	_	_	11	nummod	_	SpaceAfter=No
+14	25cm	25cm	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	14	punct	_	_
+16	line-height	line-height	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	120	120	NUM	_	_	5	nummod	_	SpaceAfter=No
+19	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+20	}	}	PUNCT	_	_	19	punct	_	_
+21	a:link	a:link	X	_	Foreign=Yes	19	flat:foreign	_	_
+22	{	{	PUNCT	_	_	21	punct	_	_
+23	so-language	so-language	X	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	zxx	zxx	PROPN	_	Foreign=Yes	30	appos	_	_
+26	}	}	PUNCT	_	_	25	punct	_	_
+27	--	--	PUNCT	_	_	25	punct	_	_
+28	Внимание	внимание	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+29	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	привлекло	привлеквать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+31	необычное	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	расположение	расположение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+33	останков	останки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 974
+# text = Мужчина при захоронении был уложен рядом с женщиной таким образом, чтобы их головы соприкасались.
+1	Мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	при	при	ADP	_	_	3	case	_	_
+3	захоронении	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	уложен	улагать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	рядом	рядом	ADV	_	Degree=Pos	5	advmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	женщиной	женщина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	10	amod	_	_
+10	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	головы	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	соприкасались	соприкасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 975
+# text = Это примечательно, поскольку обычно принесённого в жертву кладут в ногах или вместе с утварью, чтобы он охранял усопшего и разговаривал с ним.Найденная в захоронении утварь и сережка на женском скелете свидетельствуют о том, что женщина принадлежала к знатному роду, и гробница была построена именно для нее.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	примечательно	примечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	поскольку	поскольку	SCONJ	_	_	2	mark	_	_
+5	обычно	обычно	ADV	_	Degree=Pos	6	advmod	_	_
+6	принесённого	принесёть	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	жертву	жертва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	кладут	класть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	ногах	нога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	вместе	вместе	ADV	_	Degree=Pos	11	conj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	утварью	утварь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	охранял	охранимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+20	усопшего	усопший	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	разговаривал	разговаривать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	ним.	нимя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+25	Найденная	находить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	захоронении	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+28	утварь	утварь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	сережка	сережка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	conj	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	женском	женский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	скелете	скелет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	_
+34	свидетельствуют	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	о	о	ADP	_	_	36	case	_	_
+36	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	что	что	SCONJ	_	_	36	mark	_	_
+39	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+40	принадлежала	принадлежать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	36	advcl	_	_
+41	к	к	ADP	_	_	43	case	_	_
+42	знатному	знатный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	роду	род	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	и	и	CCONJ	_	_	48	cc	_	_
+46	гробница	гробница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	48	nsubj	_	_
+47	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	48	aux:pass	_	_
+48	построена	строить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	conj	_	_
+49	именно	именно	PART	_	_	51	advmod	_	_
+50	для	для	ADP	_	_	51	case	_	_
+51	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	48	obl	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# newpar
+# sent_id = 976

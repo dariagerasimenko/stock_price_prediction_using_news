@@ -1,0 +1,181 @@
+# text = # newpar
+# sent_id = 513
+# text = Ученый из Национального института астрофизики, оптики и электроники в Мексике создал самообучающийся дрон, который может самостоятельно прокладывать маршрут, распознавая препятствия.
+1	Ученый	ученый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Национального	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	астрофизики	астрофизика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	оптики	оптика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Мексике	мексика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+12	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	самообучающийся	самообучаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+14	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	самостоятельно	самостоятельно	ADV	_	Degree=Pos	19	advmod	_	_
+19	прокладывать	прокладывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	распознавая	распознавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	_	_
+23	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 514
+# text = Работа над системой велась с 2013 года, подробнее можнопрочесть на сайте института.Хосе Мартинез Карранза (Jos Martnez Carranza) разработал систему ориентирования мультикоптера в пространстве, которая не задействует в работе GPS-датчики.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	над	над	ADP	_	_	3	case	_	_
+3	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	велась	вестись	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	2013	2013	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	подробнее	подробно	ADV	_	Degree=Cmp	10	advmod	_	_
+10	можнопрочесть	можнопрочедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	института.	института.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	Хосе	Хосе	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	appos	_	_
+15	Мартинез	Мартинез	ADP	_	_	16	case	_	_
+16	Карранза	Карранз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Jos	Jos	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	Martnez	Martnez	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Carranza	Carranza	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	ориентирования	ориентирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	мультикоптера	мультикоптер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которая	который	PRON	_	Case=Nom	31	nsubj	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	задействует	задействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	obl	_	_
+34	GPS-датчики	GPS-датчика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 515
+# text = Вместо них система RAFAGA опирается на показания акселерометра, гироскопов и камер.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	obl	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	RAFAGA	Rafaga	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	опирается	опираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	показания	показание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obl	_	_
+8	акселерометра	акселерометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	гироскопов	гироскоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 516
+# text = Цель проекта -- создание системы управления беспилотника, которая может осуществлять полет в автоматическом режиме при недоступности навигационных спутников.Система замеряет удаленность окружающих объектов при помощи камер и запоминает их расположение, когда мультикоптер перемещается.
+1	Цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	недоступности	недоступность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+18	навигационных	навигационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	nmod	_	_
+19	спутников.Система	спутников.Система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	замеряет	замерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	удаленность	удаленность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	окружающих	окружающие	NOUN	_	Animacy=Anim|Case=Gen|Number=Plur	21	nmod	_	_
+23	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	при	при	ADP	_	_	26	case	_	_
+25	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	fixed	_	_
+26	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	запоминает	запоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	30	nmod	_	_
+30	расположение	расположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	когда	когда	SCONJ	_	_	0	mark	_	_
+33	мультикоптер	мультикоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+34	перемещается	перемещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 517
+# text = Таким образом, беспилотник постоянно помнит карту препятствий и определяет свое положение на ней, что позволяет избежать столкновения, даже если препятствие в данный момент находится в слепой зоне.Разработчик считает, что система может найти применение в курьерских службах, поскольку в условиях плотной городской застройки сигнал от навигационных спутников может быть нестабилен.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	постоянно	постоянно	ADV	_	Degree=Pos	6	advmod	_	_
+6	помнит	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	препятствий	препятствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	_
+12	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	PRON	_	Case=Nom	17	nsubj	_	_
+17	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	даже	даже	PART	_	_	22	advmod	_	_
+22	если	если	SCONJ	_	_	0	mark	_	_
+23	препятствие	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	_
+27	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	30	nsubj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	слепой	слепый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	obl	_	_
+30	зоне.	зонбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	SpaceAfter=No
+31	Разработчик	Разработчик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+32	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+36	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+37	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+38	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	_
+39	в	в	ADP	_	_	41	case	_	_
+40	курьерских	курьерский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	41	amod	_	_
+41	службах	служба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	37	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	поскольку	поскольку	SCONJ	_	_	36	mark	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	53	obl	_	_
+46	плотной	плотной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+47	городской	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	застройки	застройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	_
+49	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	53	nsubj	_	_
+50	от	от	ADP	_	_	52	case	_	_
+51	навигационных	навигационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+52	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	nmod	_	_
+53	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	55	parataxis	_	_
+54	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	55	cop	_	_
+55	нестабилен	нестабильный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	36	advcl	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# newpar
+# sent_id = 518

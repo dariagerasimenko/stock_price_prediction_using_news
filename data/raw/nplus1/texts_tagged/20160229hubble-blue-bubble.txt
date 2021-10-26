@@ -1,0 +1,245 @@
+# text = # newpar
+# sent_id = 4901
+# text = Телескоп NASA "Хаббл" заснял редкую звезду класса Вольфа-- Райе всозвездии Киля иголубое газовое облако вокруг нее.
+1	Телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	NASA	Nasa	PROPN	_	Foreign=Yes	1	appos	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	заснял	заснимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	редкую	редкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Вольфа--	Вольфа--	PUNCT	_	_	9	punct	_	_
+11	Райе	Райе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+12	всозвездии	всозвездия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Киля	Киль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	иголубое	иголубый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	газовое	газовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	облако	облако	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	_
+17	вокруг	вокруг	ADP	_	_	18	case	_	_
+18	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4902
+# text = Снимок был размещен насайте NASA.
+1	Снимок	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	размещен	размескать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+5	NASA	Nasa	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4903
+# text = Звезда, известная как объект WR31a, расположена нарасстоянии 30тысяч световых лет Земли.
+1	Звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	известная	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+4	как	как	SCONJ	_	_	5	cc	_	_
+5	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	_
+6	WR31a	WR31a	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+9	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+10	30тысяч	30тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4904
+# text = Подобные небесные тела, согласно оценкам ученых, примерно в20раз массивнее Солнца, извезда WR31a должна быть примерно в10-40 раз горячее нашего Солнца.
+1	Подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	небесные	небесный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	тела	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	согласно	согласно	ADP	_	_	6	case	_	_
+6	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	conj	_	_
+7	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	примерно	примерно	ADV	_	Degree=Pos	10	advmod	_	_
+10	в20раз	в20раз	ADV	_	Degree=Pos	11	advmod	_	_
+11	массивнее	массивный	ADJ	_	Degree=Cmp	14	amod	_	_
+12	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	извезда	извезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	WR31a	WR31a	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+17	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	_
+18	примерно	примерно	ADV	_	Degree=Pos	19	advmod	_	_
+19	в10	в10	NUM	_	_	22	nummod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	40	40	NUM	_	_	19	nummod	_	_
+22	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+23	горячее	горячый	ADJ	_	Degree=Cmp	16	nmod	_	_
+24	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	25	amod	_	_
+25	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 4905
+# text = Вокруг звезды имеется облако межзвездной пыли.
+1	Вокруг	вокруг	ADP	_	_	2	case	_	_
+2	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+3	имеется	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	облако	облако	ADV	_	Degree=Pos	3	advmod	_	_
+5	межзвездной	межзвездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	пыли	пыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4906
+# text = Туманность, окружающая звезду, начала формироваться около 20тысяч лет назад ирасширяется соскоростью до220 тысяч км/час.
+1	Туманность	туманность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	окружающая	окружать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+4	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	формироваться	формироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	около	около	ADP	_	_	9	case	_	_
+9	20тысяч	20тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	назад	назад	ADV	_	Degree=Pos	6	advmod	_	_
+12	ирасширяется	ирасширяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+13	соскоростью	соскорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+14	до220	до220	NUM	_	_	15	nummod	_	_
+15	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	км/час	км/час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4907
+# text = Класс Вольфа-Райе-- это всего лишь этап существования светила.
+1	Класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Вольфа-Райе-	Вольфа-Райе-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	это	это	PART	_	_	7	cop	_	_
+5	всего	всего	PART	_	_	6	advmod	_	_
+6	лишь	лишь	PART	_	_	7	advmod	_	_
+7	этап	этап	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	светила	светило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4908
+# text = Звезды Вольфа-Райе, как считают ученые, являются естественным этапом эволюции сверхгигантов и, в большинстве случаев, они представляют собой последнюю форму светила перед взрывом сверхновой.
+1	Звезды	звезд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	Вольфа-Райе	Вольфа-Райй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	8	mark	_	_
+5	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	этапом	этап	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	сверхгигантов	сверхгигант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	20	cc	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+17	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+20	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+21	собой	себя	PRON	_	Case=Ins	20	dep	_	_
+22	последнюю	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+24	светила	светило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	перед	перед	ADP	_	_	26	case	_	_
+26	взрывом	взрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+27	сверхновой	сверхновый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4909
+# text = Втаком виде звезды существуют относительно недолго-- небольше 4-6 миллионов лет, что делает их довольно редкими объектами для наблюдения.
+1	Втаком	Втакой	DET	_	Case=Loc|Gender=Masc|Number=Sing	2	amod	_	_
+2	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	относительно	относительно	ADV	_	Degree=Pos	4	orphan	_	_
+6	недолго-	недолго-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	небольше	небольше	ADV	_	Degree=Cmp	12	advmod	_	_
+9	4	4	NUM	_	_	12	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	6	6	NUM	_	_	9	nummod	_	_
+12	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	_
+18	довольно	довольно	ADV	_	Degree=Pos	19	advmod	_	_
+19	редкими	редкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	объектами	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 4910
+# text = Наданный момент ученым известно неболее 250 звезд Вольфа-Райе.
+1	Наданный	Наданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+4	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	неболее	неболее	ADV	_	Degree=Pos	7	advmod	_	_
+6	250	250	NUM	_	_	7	nummod	_	_
+7	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	Вольфа-Райе	Вольфа-Райй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 4911
+# text = Для подобных звезд характерна высокая температура исветимость-- средняя светимость звезд Вольфа-Райе колеблется отсотен тысяч домиллионов яркостей Солнц.
+1	Для	для	ADP	_	_	3	case	_	_
+2	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+4	характерна	характерный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	высокая	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	исветимость	исветимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	светимость	светимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	Вольфа-Райе	Вольфа-райе	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	nmod	_	_
+14	колеблется	колебаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+15	отсотен	отсотно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	домиллионов	домиллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	яркостей	яркость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	Солнц	Солнц	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 4912
+# text = Однако из-за своей высокой температуры они излучают восновном свет накоротких волнах ипоэтому видимые втелескоп звезды Вольфа-Райе выглядят тусклее без специальных фильтров.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	из-за	из-за	ADP	_	_	5	case	_	_
+3	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+4	высокой	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	излучают	излучавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	восновном	восновн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	накоротких	накороткой	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+11	волнах	волна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	_
+12	ипоэтому	ипоэто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+13	видимые	видимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	втелескоп	втелескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+15	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	Вольфа-Райе	Вольфа-Райй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	nsubj	_	_
+17	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	тусклее	тусклее	ADV	_	Degree=Pos	17	advmod	_	_
+19	без	без	ADP	_	_	21	case	_	_
+20	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	фильтров	фильтр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 4913
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 4914

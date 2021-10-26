@@ -1,0 +1,413 @@
+# text = # newpar
+# sent_id = 1337
+# text = Астрономы под руководствомПаоло Моларо (обсерватория Триеста) обнаружили изменения в отражающей способности пятен кратера Оккатор, расположенного на Церере.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	под	под	ADP	_	_	3	case	_	_
+3	руководствомПаоло	руководствомПаоло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Моларо	Моларо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	обсерватория	обсерватория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_
+7	Триеста	Триест	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	отражающей	отражать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+13	способности	способность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+14	пятен	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Оккатор	Оккатхор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	Церере	Церер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1338
+# text = Авторы связывают изменчивость поверхности с летучестью материала пятен, который, однако, ведет себя по-разному от ночи к ночи.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	изменчивость	изменчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	летучестью	летучесть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+7	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	пятен	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	14	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+15	себя	себя	PRON	_	Case=Acc	14	obj	_	_
+16	по-разному	по-разному	ADV	_	Degree=Pos	14	advmod	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1339
+# text = Исследование опубликовано в журналеMonthly Notices of the Royal Astronomical Society,кратко о нем сообщает пресс-релиз Южной Европейской обсерватории.Наземные наблюдения велись с помощью спектрографа HARPS, установленного на 3,6-метровом телескопе ESO.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	parataxis	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журналеMonthly	журналеMonthly	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Notices	notices	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	of	of	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Royal	royal	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Astronomical	Astronomical	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Society	society	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,кратко	,кратко	ADV	_	Degree=Pos	14	advmod	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+14	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	Южной	Южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	Европейской	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Наземные	наземной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	22	nsubj:pass	_	_
+22	велись	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	14	conj	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	fixed	_	_
+25	спектрографа	спектрограф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+26	HARPS	Harps	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	установленного	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+29	на	на	ADP	_	_	31	case	_	_
+30	3,6-метровом	3,6-метровый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	телескопе	телескоп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+32	ESO	Eso	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1340
+# text = Авторы исследовали изменения в спектре отражения Цереры, связанные с вращением карликовой планеты.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	отражения	отражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Цереры	Церера	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	вращением	вращение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	карликовой	карликовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1341
+# text = Большой вклад в изменения вносят яркие пятна, расположенные внутри кратера Оккатор.
+1	Большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_
+5	вносят	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	яркие	яркий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	расположенные	расположенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	внутри	внутри	ADV	_	Degree=Pos	11	advmod	_	_
+11	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+12	Оккатор	Оккатхор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1342
+# text = Общая продолжительность наблюдений составила около 18 часов -- примерно два полных оборота объекта..Вращение планетоида приводит к тому, что в разное время церерианских суток Оккатор движется с разными скоростями относительно земного наблюдателя.
+1	Общая	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	18	18	NUM	_	_	7	nummod	_	_
+7	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	примерно	примерно	ADV	_	Degree=Pos	10	advmod	_	_
+10	два	два	NUM	_	Case=Nom|Gender=Masc	12	nummod:gov	_	_
+11	полных	полный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	оборота	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+13	объекта.	объекта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Вращение	вращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+16	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	19	mark	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	разное	разный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+25	церерианских	церерианский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	суток	сутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+27	Оккатор	Оккатор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	движется	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	advcl	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	31	amod	_	_
+31	скоростями	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	obl	_	_
+32	относительно	относительно	ADP	_	_	34	case	_	_
+33	земного	земной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	наблюдателя	наблюдатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 1343
+# text = Это приводит к доплеровскому смещению в спектре, фиксировавшемуся исследователями.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	доплеровскому	доплеровский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	смещению	смещение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	спектре	спектра	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	фиксировавшемуся	фиксироваваться	VERB	_	Aspect=Perf|Case=Dat|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	7	amod	_	_
+10	исследователями	исследователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:agent	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1344
+# text = Однако, помимо смещения авторы работы заметили другие явные изменения.
+1	Однако	однако	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	помимо	помимо	ADP	_	_	4	case	_	_
+4	смещения	смещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+5	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	заметили	заметывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	явные	явный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1345
+# text = Во-первых, оказалось, что пятна Оккатора становились ярче в течение дня.
+1	Во-первых	во-первых	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+7	Оккатора	Оккатор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	становились	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+9	ярче	ярче	ADV	_	Degree=Pos	8	advmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1346
+# text = Во-вторых, характер изменения их альбедо отличался в разные периоды наблюдений.Наблюдения авторы связывают с испарением материала пятен.
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	характер	характер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+6	альбедо	альбедо	ADV	_	Degree=Pos	7	advmod	_	_
+7	отличался	отличаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	периоды	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+11	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+14	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	испарением	испарение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+18	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	пятен	пятный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1347
+# text = Он формирует шлейф, хорошо отражающий солнечный свет.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	формирует	формировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	шлейф	шлейф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	_
+6	отражающий	отражать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+7	солнечный	солнечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1348
+# text = Кроме того, на это указывают и ранние наблюдения, согласно которым яркие пятна видны даже в те моменты, когда Оккатор оказывается лимбе (крае диска планетоида).
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+6	указывают	указываять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	PART	_	_	9	advmod	_	_
+8	ранние	ранний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	согласно	согласно	ADP	_	_	12	case	_	_
+12	которым	который	PRON	_	Case=Dat	15	nmod	_	_
+13	яркие	яркой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+15	видны	видный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	acl:relcl	_	_
+16	даже	даже	PART	_	_	19	advmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	те	тот	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+19	моменты	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	когда	когда	SCONJ	_	_	19	mark	_	_
+22	Оккатор	Оккатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	advcl	_	_
+24	лимбе	лимбе	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	крае	крае	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	parataxis	_	_
+27	диска	диск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	планетоида	планетоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1349
+# text = Известно, что пятна располагаются на дне кратера, а значит его стенки должны мешать видеть их напрямую.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	располагаются	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	дне	день	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	14	cc	_	_
+11	значит	значит	ADV	_	Degree=Pos	14	advmod	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	стенки	стенка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+14	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	_
+15	мешать	мешать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	dep	_	_
+16	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	_
+18	напрямую	напрямую	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1350
+# text = Со временем шлейф рассеивается.
+1	Со	с	ADP	_	_	2	case	_	_
+2	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+3	шлейф	шлейф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	рассеивается	рассеиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1351
+# text = По словам ученых это и вызывает образование хаотичных изменений в характере спектра.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	хаотичных	хаотичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	характере	характер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+12	спектра	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1352
+# text = Уточнить выводы удастся продолжением серии наблюдений.Церера -- крупнейшее тело главного пояса астероидов.
+1	Уточнить	уточинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+2	выводы	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	удастся	удаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	продолжением	продолжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Церера	Церер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	крупнейшее	крупнейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	nsubj	_	_
+12	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	пояса	пояс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	астероидов	астероид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1353
+# text = О ее географии мы знаем во многом благодаря миссии космического аппарата Dawn, более года находящегося на ее орбите.
+1	О	о	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	географии	география	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	во	в	ADP	_	_	7	case	_	_
+7	многом	многое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	благодаря	благодаря	ADP	_	_	9	case	_	_
+9	миссии	миссия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+10	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Dawn	Dawn	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	более	более	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+16	находящегося	находиться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	19	nmod	_	_
+19	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1354
+# text = Именно снимки переданные зондом позволили увидеть, что пятна представляют собой не однородный объект, а целую россыпь, а также выдвинуть ряд предположений об их природе.
+1	Именно	именно	ADV	_	Degree=Pos	2	advmod	_	_
+2	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	переданные	передывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+4	зондом	зонд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	позволили	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+10	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	собой	себя	PRON	_	Case=Ins	10	dep	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	однородный	однородный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	целую	целый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	россыпь	россыпь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	22	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	выдвинуть	выдвигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+23	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+24	предположений	предположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
+25	об	о	ADP	_	_	27	case	_	_
+26	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	27	nmod	_	_
+27	природе	природа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 1355
+# text = 22 марта научные сотрудники миссии расскажут о новых наблюдениях, проделанных Dawnd в рамках пресс-брифинга на международной конференции в Техасе.Владимир Королёв
+1	22	22	NUM	_	_	6	nummod	_	_
+2	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	научные	научной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	расскажут	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	наблюдениях	наблюдение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	проделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	Dawnd	Dawnd	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	20	obl	_	_
+15	пресс-брифинга	пресс-брифинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+19	в	в1	ADP	_	_	20	case	_	_
+20	Техасе.	Техасбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+21	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
+
+# newpar
+# sent_id = 1356

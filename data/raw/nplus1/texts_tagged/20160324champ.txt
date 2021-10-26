@@ -1,0 +1,390 @@
+# text = # newpar
+# sent_id = 2971
+# text = Raytheon получила контракт ВВС США на доработку импульсного электромагнитного оружия CHAMP, говорится в сообщении американской компании.
+1	Raytheon	Raytheon	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	доработку	доработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	_
+8	импульсного	импульсный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	электромагнитного	электромагнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	CHAMP	Champ	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+16	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2972
+# text = Сумма сделки составила 4,8 миллиона долларов.
+1	Сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	сделки	сделкa	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	4,8	4,8	NUM	_	_	5	nummod	_	_
+5	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nummod:gov	_	_
+6	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2973
+# text = Помимо доработки компания должна будет передать Исследовательской лаборатории США и две крылатые ракетыAGM-86D CALCM, на которые будут установлены доработанные излучатели.
+1	Помимо	помимо	ADP	_	_	2	case	_	_
+2	доработки	доработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+7	Исследовательской	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	две	два	NUM	_	Case=Nom|Gender=Fem	12	nummod:gov	_	_
+12	крылатые	крылатый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	conj	_	_
+13	ракетыAGM-	ракетыAGM-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	86D	86d	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	CALCM	Calcm	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	которые	который	PRON	_	Case=Acc	20	obl	_	_
+19	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+21	доработанные	доработанный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	излучатели	излучатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 2974
+# text = Другие подробности о запланированных работах не уточняются.В июле прошлого года Исследовательская лаборатория ВВС США объявила о намерении разработать многоразовое импульсное электромагнитное оружие.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	запланированных	планировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	В	в	ADP	_	_	10	case	_	_
+10	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+11	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	Исследовательская	Исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	15	nmod	_	_
+17	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+20	разработать	разработавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	многоразовое	многоразовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+22	импульсное	импульсный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+23	электромагнитное	электромагнитный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2975
+# text = В основу новой разработки планировалось положить модернизированный мощный микроволновый излучатель CHAMP.
+1	В	в	ADP	_	_	2	case	_	_
+2	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+3	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	положить	класть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+7	модернизированный	модернизировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+8	мощный	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	микроволновый	микроволновый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	излучатель	излучатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+11	CHAMP	Champ	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2976
+# text = Новое оружие станет высокоточным и сможет за один полет поражать несколько целей.
+1	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	высокоточным	высокоточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	за	за	ADP	_	_	9	case	_	_
+8	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	поражать	поражать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2977
+# text = В качестве носителя многоразового электромагнитного оружия военные намерены использовать пилотируемый самолет или беспилотный летательный аппарат.Развитие электромагнитного оружия будет вестись последовательно.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+4	многоразового	многоразовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	электромагнитного	электромагнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	пилотируемый	пилотируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	или	или	CCONJ	_	_	16	cc	_	_
+13	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	аппарат.	аппарато	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	Развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	conj	_	_
+17	электромагнитного	электромагнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+20	вестись	вестись	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	dep	_	_
+21	последовательно	последовательно	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2978
+# text = Сперва военные намерены доработать саму излучающую установку, которую будут монтировать на крылатые ракеты AGM-158 JASSM-ER класса "воздух-поверхность" с увеличенной дальностью полета.
+1	Сперва	сперва	ADV	_	Degree=Pos	3	advmod	_	_
+2	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	доработать	дорабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	саму	сам	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	излучающую	излучать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+7	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которую	который	PRON	_	Case=Acc	11	obj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	монтировать	монтировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	acl:relcl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	крылатые	крылатый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	ракеты	ракет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+15	AGM-158	AGM-158	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	JASSM	Jassm	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	ER	Er	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	_
+19	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	воздух-поверхность	воздух-поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	увеличенной	увеличенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	дальностью	дальность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+26	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 2979
+# text = После доработки излучателя и испытания его на крылатых ракетах, ВВС США подберут для него несколько других носителей.
+1	После	после	ADP	_	_	2	case	_	_
+2	доработки	доработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+3	излучателя	излучатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	conj	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	крылатых	крылатой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	ракетах	ракеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	_
+13	подберут	подберать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+16	несколько	несколько	NUM	_	Case=Nom	18	nummod:gov	_	_
+17	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2980
+# text = И только затем модернизированный CHAMP станет частью вооружения самолетов или беспилотников.В конце мая 2015 годасообщалось, что Исследовательская лаборатория ВВС США завершила разработку CHAMP.
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	только	только	PART	_	_	3	advmod	_	_
+3	затем	затем	ADV	_	Degree=Pos	6	advmod	_	_
+4	модернизированный	модернизировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+5	CHAMP	Champ	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	беспилотников.	беспилотниковек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	В	в	ADP	_	_	13	case	_	_
+13	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+14	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	2015	2015	NUM	_	_	14	nummod	_	_
+16	годасообщалось	годасообщать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	6	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	Исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+21	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	21	nmod	_	_
+23	завершила	завершать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	_
+24	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	CHAMP	Champ	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2981
+# text = В проекте принимали участие американские компании Boeing, Raytheon и Lockheed Martin.
+1	В	в	ADP	_	_	2	case	_	_
+2	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	принимали	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Raytheon	Raytheon	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Lockheed	Lockheed	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Martin	Martin	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2982
+# text = Оно представляет собой мощный магнетрон, излучающий микроволны.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	мощный	мощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	магнетрон	магнетрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	излучающий	излучать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	микроволны	микроволн	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2983
+# text = По силе воздействия на электронику он сопоставим с атмосферным атомным взрывом, однако, в отличие от последнего, локально выводит из строя электронику.
+1	По	по	ADP	_	_	2	case	_	_
+2	силе	сила	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+3	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	электронику	электроника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	сопоставим	сопоставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	21	parataxis	_	_
+8	с	с	ADP	_	_	11	case	_	_
+9	атмосферным	атмосферный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	атомным	атомный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	взрывом	взрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	от	от	ADP	_	_	16	fixed	_	_
+18	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	локально	локально	ADV	_	Degree=Pos	21	advmod	_	_
+21	выводит	выводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	из	из	ADP	_	_	23	case	_	_
+23	строя	строй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+24	электронику	электроника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2984
+# text = Так, импульсное электромагнитное оружие можно будет использовать для обесточивания конкретного здания в застроенном районе.Первое летное испытание CHAMP, подтвержденное официально, состоялось в 2012 году.
+1	Так	так	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	импульсное	импульсный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	электромагнитное	электромагнитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	обесточивания	обесточивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	конкретного	конкретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	здания	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	застроенном	застроять	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	районе.	районбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	SpaceAfter=No
+16	Первое	Первой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	летное	летный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	испытание	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+19	CHAMP	Champ	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	подтвержденное	подтверждать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+22	официально	официально	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	состоялось	состояться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	2012	2012	NUM	_	_	27	nummod	_	_
+27	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 2985
+# text = Оружие, установленное на крылатой ракете AGM-86, запустили над полигоном в штате Юта.
+1	Оружие	оружие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	установленное	установливать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	крылатой	крылатый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	ракете	ракета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+7	AGM-86	AGM-86	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	запустили	запускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	над	над	ADP	_	_	11	case	_	_
+11	полигоном	полигон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+14	Юта	Ют	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2986
+# text = Пролетев над одним из целевых зданий установка не только обесточила его, но и полностью вывела из строя несколько десятков компьютеров, расположенных в одной из комнат дома.
+1	Пролетев	лететь	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	над	над	ADP	_	_	3	case	_	_
+3	одним	один	NUM	_	Case=Ins|Gender=Masc	1	obl	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	целевых	целевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	зданий	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+7	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	обесточила	обесточать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	но	но	CCONJ	_	_	16	cc	_	_
+14	и	и	PART	_	_	13	advmod	_	_
+15	полностью	полностью	ADV	_	Degree=Pos	16	advmod	_	_
+16	вывела	выводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	строя	строй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+19	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	20	nummod:gov	_	_
+20	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+21	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	расположенных	расположенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	одной	один	NUM	_	Case=Loc|Gender=Fem	23	nummod	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	комнат	комната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+28	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 2987
+# text = В целом же за один полет были прицельно обесточены семь домов.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	за	за	ADP	_	_	6	case	_	_
+5	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+8	прицельно	прицельно	ADV	_	Degree=Pos	9	advmod	_	_
+9	обесточены	обесточивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	семь	семь	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	домов	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2988
+# text = Другие подробности о CHAMP военные не раскрывают.Василий Сычёв
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	CHAMP	Champ	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	раскрывают	раскрывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 2989

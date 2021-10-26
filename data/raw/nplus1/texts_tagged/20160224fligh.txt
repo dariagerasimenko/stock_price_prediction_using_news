@@ -1,0 +1,272 @@
+# text = # newpar
+# sent_id = 4009
+# text = Трое инженеров из Центра проектирования, исследований и разработок Армии США получили патент на изобретение пуль с прерываемым полетом, говорится всообщенииПикатинского арсенала.
+1	Трое	трое	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Центра	центр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	проектирования	проектирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+10	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	_
+12	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	патент	патент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	изобретение	изобретение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	прерываемым	прерывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis	_	_
+22	всообщенииПикатинского	всообщенииПикатинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	арсенала	арсенал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 4010
+# text = По данным разработчиков, новые снаряды позволят снизить число случайных жертв среди гражданского населения.Согласно патенту, от обычной новая пуля отличается запалом замедленного действия и камерой, содержащей небольшой пороховой заряд.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	7	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	снаряды	снаряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	случайных	случайной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	жертв	жертва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	среди	среди	ADP	_	_	11	case	_	_
+13	гражданского	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Согласно	согласно	ADP	_	_	17	case	_	_
+17	патенту	патент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	от	от	ADP	_	_	22	case	_	_
+20	обычной	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	пуля	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+23	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+24	запалом	запал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+25	замедленного	замедленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	содержащей	содержащий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+31	небольшой	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+32	пороховой	пороховой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	заряд	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 4011
+# text = При выстреле горящий в гильзе порох поджигает запал, который медленно тлеет во время полеты пули.
+1	При	при	ADP	_	_	2	case	_	_
+2	выстреле	выстрел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	горящий	горять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	гильзе	гильза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	порох	пороха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+7	поджигает	поджигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	запал	запала	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+11	медленно	медленно	ADV	_	Degree=Pos	12	advmod	_	_
+12	тлеет	тлеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	во	во	ADP	_	_	14	case	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+15	полеты	полевать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+16	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4012
+# text = Затем запал поджигает порох в специальной камере внутри пули.
+1	Затем	затем	ADV	_	Degree=Pos	2	advmod	_	_
+2	запал	западать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	поджигает	поджигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+4	порох	порох	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	специальной	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	камере	камера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	внутри	внутри	ADV	_	Degree=Pos	9	advmod	_	_
+9	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4013
+# text = После этого пороховые газы проходят по каналу запала и образуют реактивную струю.По данным разработчиков, такая реактивная струя мгновенно нарушает аэродинамическую устойчивость пули, и она практически сразу падает, не причинив никакого ущерба.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	пороховые	пороховый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	газы	газ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	каналу	канал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+8	запала	запать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	образуют	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	реактивную	реактивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	струю	строй	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	По	по	ADP	_	_	15	case	_	_
+15	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	22	parataxis	_	_
+16	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+19	реактивная	реактивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	струя	струя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	мгновенно	мгновенно	ADV	_	Degree=Pos	22	advmod	_	_
+22	нарушает	нарушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+23	аэродинамическую	аэродинамический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	и	и	CCONJ	_	_	31	cc	_	_
+28	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
+29	практически	практически	ADV	_	Degree=Pos	30	advmod	_	_
+30	сразу	сразу	ADV	_	Degree=Pos	31	advmod	_	_
+31	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	не	не	PART	_	_	34	advmod	_	_
+34	причинив	причинять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	31	advcl	_	_
+35	никакого	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing	36	amod	_	_
+36	ущерба	ущерб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 4014
+# text = Дистанцию стрельбы в новых пулях можно задавать временем тления запала.
+1	Дистанцию	дистанция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+2	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	пулях	пуля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	задавать	задавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+9	тления	тление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	запала	запать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4015
+# text = Натурные испытания разработчики новых пуль не проводили, однако использовали компьютерное моделирование для пуль типа M8 и M33 калибра 12,7 миллиметра.Такую технологию, по оценке военных, можно применять практически в любых видах боеприпасов: от пуль калибра 5,56 миллиметра до 155-миллиметровых артиллерийских снарядов.На рассмотрение патентной комиссии также предлагались варианты с самоуничтожением пуль.
+1	Натурные	натурный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+10	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+11	компьютерное	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	моделирование	моделирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	M8	M8	NUM	_	_	15	nummod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	M33	M33	NUM	_	_	16	conj	_	_
+19	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	12,7	12,7	NUM	_	_	21	nummod	_	_
+21	миллиметра.	миллиметра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	Такую	такой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	по	по	ADP	_	_	26	case	_	_
+26	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+27	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	можно	можно	ADV	_	Degree=Pos	7	conj	_	_
+30	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	nsubj	_	_
+31	практически	практически	ADV	_	Degree=Pos	34	advmod	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	любых	любой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	34	amod	_	_
+34	видах	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	30	obl	_	_
+35	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	35	punct	_	_
+37	от	от	ADP	_	_	38	case	_	_
+38	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	parataxis	_	_
+39	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	5,56	5,56	NUM	_	_	41	nummod	_	_
+41	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+42	до	до	ADP	_	_	45	case	_	_
+43	155-миллиметровых	155-миллиметровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+44	артиллерийских	артиллерийский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	снарядов.	снарядованица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	51	obl	_	SpaceAfter=No
+46	На	на	ADP	_	_	47	case	_	_
+47	рассмотрение	рассмотрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	51	obl	_	_
+48	патентной	патентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	комиссии	комиссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	_
+50	также	также	ADV	_	Degree=Pos	51	advmod	_	_
+51	предлагались	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+52	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	51	nsubj:pass	_	_
+53	с	с	ADP	_	_	54	case	_	_
+54	самоуничтожением	самоуничтожение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	52	nmod	_	_
+55	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	54	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 4016
+# text = В первом случае пороховой заряд внутри пули расплавлял сердечник и оболочку, из-за чего пуля теряла форму и аэродинамические характеристики.
+1	В	в	ADP	_	_	3	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	пороховой	пороховый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	заряд	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	внутри	внутри	ADV	_	Degree=Pos	8	advmod	_	_
+7	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	расплавлял	расплавлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	сердечник	сердечник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	оболочку	оболочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	чего	что	PRON	_	Case=Gen	16	obl	_	_
+15	пуля	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	теряла	терять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	аэродинамические	аэродинамический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4017
+# text = Во втором, пороховые газы выдавливали свинцовую пробку на донце пули, после чего из нее выпадал сердечник.
+1	Во	в	ADP	_	_	2	case	_	_
+2	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	пороховые	пороховый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	газы	газ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	выдавливали	выдавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	свинцовую	свинцовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	пробку	пробка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	донце	донец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	чего	что	PRON	_	Case=Gen	17	obl	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	17	obl	_	_
+17	выпадал	выпадать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	сердечник	сердечник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4018
+# text = Все предложенные варианты были объединены в одном патенте.Василий Сычёв
+1	Все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	предложенные	предложять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	объединены	объединять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	одном	один	NUM	_	Case=Loc|Gender=Masc	5	obl	_	_
+8	патенте.	патентбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 4019

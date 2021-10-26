@@ -1,0 +1,112 @@
+# text = # newpar
+# sent_id = 32
+# text = Основатель частной аэрокосмической компании Blue Origin Джеффри Безос заявил на пресс-конференции, что планирует отправить первых пассажиров в космос в 2018 году.
+1	Основатель	основатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	частной	частный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	аэрокосмической	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Blue	Blue	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Origin	Origin	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Джеффри	джеффри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+8	Безос	Безос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	пресс-конференции	пресс-конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+15	отправить	отправать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	первых	первый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	2018	2018	NUM	_	_	22	nummod	_	_
+22	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 33
+# text = Об этом сообщает газета The New York Times.Полет будет проходить на борту космического корабля New Shepard, который рассчитан на шесть пассажиров.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	газета	газета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	The	the	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	New	new	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	York	york	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Times	times	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Полет	погод	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+12	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	New	new	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Shepard	Shepard	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	который	который	PRON	_	Case=Nom	21	nsubj:pass	_	_
+21	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	шесть	шесть	NUM	_	Case=Acc	24	nummod:gov	_	_
+24	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 34
+# text = По словам Безоса, пробные полеты запланированы на 2017 год, при этом в конце 2016 года компания планирует начать окончательные испытания ракетного двигателя BE-4.В будущем Blue Origin намерена осуществлять до ста суборбитальных полетов в год, однако, подчеркивает Безос, на первом месте остается безопасность людей.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	Безоса	Безос	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	пробные	пробный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+7	запланированы	планировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	2017	2017	NUM	_	_	10	nummod	_	_
+10	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+16	2016	2016	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	окончательные	окончательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+23	ракетного	ракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+25	BE	Be	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	4.	4	NUM	_	_	25	nummod	_	SpaceAfter=No
+28	В	в	ADP	_	_	29	case	_	_
+29	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+30	Blue	Blue	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Origin	Origin	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	19	parataxis	_	_
+33	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	nsubj	_	_
+34	до	до	ADP	_	_	37	case	_	_
+35	ста	сто	NUM	_	Case=Gen	37	nummod	_	_
+36	суборбитальных	суборбитальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	obl	_	_
+38	в	в	ADP	_	_	37	case	_	_
+39	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	однако	однако	ADV	_	Degree=Pos	43	parataxis	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	подчеркивает	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+44	Безос	Безос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	на	на	ADP	_	_	48	case	_	_
+47	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_
+48	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	43	obl	_	_
+49	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+50	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	49	nsubj	_	_
+51	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	50	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# newpar
+# sent_id = 35

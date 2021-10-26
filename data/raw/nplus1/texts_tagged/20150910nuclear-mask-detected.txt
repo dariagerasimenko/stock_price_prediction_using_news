@@ -1,0 +1,164 @@
+# text = # newpar
+# sent_id = 2426
+# text = Илон Маск, глава SpaceX и Tesla Motors, в эфире вечерней телепередачи Late Show при беседе с её ведущимСтивеном Кольбертом предложил два метода терраформирования Марса для будущего заселения.
+1	Илон	Илон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	SpaceX	Spacex	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Tesla	Tesla	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Motors	motors	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	эфире	эфир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+12	вечерней	вечерний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	телепередачи	телепередача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	Late	Late	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Show	Show	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	беседе	беседа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
+20	ведущимСтивеном	ведущимСтивен	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+21	Кольбертом	Кольберт	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	appos	_	_
+22	предложил	предкладывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	24	nummod:gov	_	_
+24	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nsubj	_	_
+25	терраформирования	терраформирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	для	для	ADP	_	_	29	case	_	_
+28	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	заселения	заселение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2427
+# text = По словам инженера, наиболее быстро достичь постоянного повышения температуры в атмосфере Марса можно путем ядерной бомбардировки полюсов планет, а повышение концентрации парниковых газов является более медленным способом.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	инженера	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	наиболее	наиболее	ADV	_	Degree=Pos	6	advmod	_	_
+6	быстро	быстро	ADV	_	Degree=Pos	7	advmod	_	_
+7	достичь	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+8	постоянного	постоянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	повышения	повышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+15	путем	путем	ADP	_	_	17	case	_	_
+16	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	бомбардировки	бомбардировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+18	полюсов	полюс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	26	cc	_	_
+22	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+23	концентрации	концентрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+27	более	более	ADV	_	Degree=Cmp	28	advmod	_	_
+28	медленным	медленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 2428
+# text = С записью шоу можноознакомитьсяна YouTube,просмотр видеоролика недоступен на территории России.По словам изобретателя, колонистам на Марсе придется жить в прозрачных домах до тех пор, пока атмосфера планеты не станет пригодна для обитания человека.Также Илон Маск и ведущий и попытались в шуточной форме выяснить, является глава SpaceX как миллиардер и изобретатель супергероем или суперзлодеем.
+1	С	с	ADP	_	_	2	case	_	_
+2	записью	запись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+3	шоу	шоу	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	можноознакомитьсяна	можноознакомитьсян	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	YouTube	ютьюб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,просмотр	,просмотр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	видеоролика	видеоролик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	недоступен	недоступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+11	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	По	по	ADP	_	_	14	case	_	_
+14	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	20	parataxis	_	_
+15	изобретателя	изобретатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	колонистам	колонист	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+21	жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	прозрачных	прозрачный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	домах	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+25	до	до	ADP	_	_	27	case	_	_
+26	тех	тот	DET	_	Case=Gen|Number=Plur	27	amod	_	_
+27	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	пока	пока	SCONJ	_	_	27	mark	_	_
+30	атмосфера	атмосфера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+31	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	не	не	PART	_	_	33	advmod	_	_
+33	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	20	advcl	_	_
+34	пригодна	пригодно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	obl	_	_
+35	для	для	ADP	_	_	36	case	_	_
+36	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+37	человека.	человека.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	Также	также	CCONJ	_	_	44	cc	_	_
+39	Илон	Илон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+40	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	flat:name	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	ведущий	ведущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	conj	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	попытались	пытаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	conj	_	_
+45	в	в	ADP	_	_	47	case	_	_
+46	шуточной	шуточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	48	obl	_	_
+48	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	xcomp	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+51	глава	глава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_
+52	SpaceX	Spacex	PUNCT	_	_	51	punct	_	_
+53	как	как	SCONJ	_	_	54	cc	_	_
+54	миллиардер	миллиардер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	advmod	_	_
+55	и	и	CCONJ	_	_	56	cc	_	_
+56	изобретатель	изобретатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	54	conj	_	_
+57	супергероем	супергерой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	56	nmod	_	_
+58	или	или	CCONJ	_	_	59	cc	_	_
+59	суперзлодеем	суперзлодей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	57	conj	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	59	punct	_	_
+
+# sent_id = 2429
+# text = После реплики о ядерной бомбардировке полюсов Стивен Кольберт однозначно назвал Маска суперзлодеем.
+1	После	после	ADP	_	_	2	case	_	_
+2	реплики	реплика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	ядерной	ядерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	бомбардировке	бомбардировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+6	полюсов	полюс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	Стивен	стивен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	Кольберт	Кольберт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	однозначно	однозначно	ADV	_	Degree=Pos	10	advmod	_	_
+10	назвал	называть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	Маска	маска	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	суперзлодеем	суперзлодей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2430
+# text = Кроме того, в беседе они обсудилизарядное устройство Snake Charger для электромобилей Tesla.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	беседе	беседа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+7	обсудилизарядное	обсудилизарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+9	Snake	Snake	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Charger	Charger	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+13	Tesla.	tesla.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+
+# newpar
+# sent_id = 2431

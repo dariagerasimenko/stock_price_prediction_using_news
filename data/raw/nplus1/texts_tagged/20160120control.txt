@@ -1,0 +1,327 @@
+# text = # newpar
+# sent_id = 3894
+# text = Американские авиакомпании в ближайшие пять-десять лет столкнуться с серьезным дефицитом летчиков, поскольку нынешние пилоты начнут выходить на пенсию, а набор новых не позволит компенсировать число сотрудников.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	пять-десять	пять-десять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+7	столкнуться	сталкиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	dep	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	серьезным	серьезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	дефицитом	дефицит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+11	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+14	нынешние	нынешний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	пилоты	пилот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+17	выходить	выходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	пенсию	пенсия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	25	cc	_	_
+22	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+23	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	obl	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	conj	_	_
+26	компенсировать	компенсировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+28	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3895
+# text = В качестве одного из вариантов решения этой проблемы, как пишетAviation Week, NASA предложило значительно сократить экипажи самолетов, а управление летательными аппаратами в случае аварийных ситуаций передавать наземным "супердиспетчерам".Согласно предложению NASA, минимальный состав экипажа -- капитан и второй пилот -- можно сократить вдвое.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	15	nummod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	как	как	SCONJ	_	_	11	cc	_	_
+11	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+12	Week	Week	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	NASA	Nasa	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	предложило	предлагать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	экипажи	экипаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	40	cc	_	_
+22	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	_
+23	летательными	летательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+27	аварийных	аварийной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	ситуаций	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	dep	_	_
+30	наземным	наземный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	32	amod	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	супердиспетчерам	супердиспетчер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+35	Согласно	согласно	ADP	_	_	36	case	_	_
+36	предложению	предложение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+37	NASA	Nasa	PROPN	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	минимальный	минимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+41	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	--	--	PUNCT	_	_	41	punct	_	_
+43	капитан	капитан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+44	и	и	CCONJ	_	_	46	cc	_	_
+45	второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	пилот	пилот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+47	--	--	PUNCT	_	_	46	punct	_	_
+48	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+49	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	48	nsubj	_	_
+50	вдвое	вдвое	ADV	_	Degree=Pos	49	advmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 3896
+# text = Эксперты полагают, что вести самолет в обычных условиях может и один капитан, тем более, что большая часть полета проходит как правило под управлением автопилота.
+1	Эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+6	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	обычных	обычный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	один	один	NUM	_	Case=Nom|Gender=Masc	13	nummod:gov	_	_
+13	капитан	капитан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	_
+16	более	более	ADV	_	Degree=Cmp	0	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+23	как	как	SCONJ	_	_	24	cc	_	_
+24	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	_
+25	под	под	ADP	_	_	26	case	_	_
+26	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	nmod	_	_
+27	автопилота	автопилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 3897
+# text = Второй пилот при этом должен стать "супердиспетчером" -- он будет находиться в специальном диспетчерском пункте и вести сопровождение сразу нескольких рейсов.
+1	Второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	пилот	пилот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+5	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	dep	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	супердиспетчером	супердиспетчер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	--	--	PUNCT	_	_	8	punct	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	_
+14	в	в	ADP	_	_	17	case	_	_
+15	специальном	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	диспетчерском	диспетчерский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	пункте	пункт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+20	сопровождение	сопровождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	сразу	сразу	ADV	_	Degree=Pos	22	advmod	_	_
+22	нескольких	несколько	NUM	_	Case=Gen	23	nummod	_	_
+23	рейсов	рейс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3898
+# text = При возникновении аварийной ситуации или потере капитана самолета, он будет перехватывать управление.Дистанционное управление самолетом и обмен данными будет производиться по широкополосному каналу связи.
+1	При	при	ADP	_	_	2	case	_	_
+2	возникновении	возникновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+3	аварийной	аварийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	или	или	CCONJ	_	_	6	cc	_	_
+6	потере	потеря	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+7	капитана	капитан	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	перехватывать	перехватывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+13	управление.	управленибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+14	Дистанционное	Дистанционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+16	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	обмен	обмен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	_
+19	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	13	obl	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	производиться	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	xcomp	_	_
+22	по	по	ADP	_	_	24	case	_	_
+23	широкополосному	широкополосный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	каналу	канал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+25	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3899
+# text = Как отмечает издание, некоторые представители авиаперевозчиков с идеей NASA не согласились.
+1	Как	как	ADV	_	Degree=Pos	12	mark	_	_
+2	отмечает	отмечавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+3	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+7	авиаперевозчиков	авиаперевозчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	идеей	идея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+10	NASA	Nasa	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	согласились	соглашаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3900
+# text = По их мнению, экипаж самолета должен состоять минимум из двух человек, поскольку это обеспечивает наибольшую безопасность при нештатной ситуации.
+1	По	по	ADP	_	_	3	case	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	экипаж	экипаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+17	наибольшую	наибольший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	при	при	ADP	_	_	21	case	_	_
+20	нештатной	нештатный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3901
+# text = Если же надо сокращать экипаж, то лучше полностью убрать его из самолета, а полетом при взлете и посадке управлять дистанционно.
+1	Если	если	SCONJ	_	_	8	mark	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	надо	надо	ADV	_	Degree=Pos	8	advcl	_	_
+4	сокращать	сокращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	экипаж	экипаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	то	то	SCONJ	_	_	3	cc	_	_
+8	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	_
+9	полностью	полностью	ADV	_	Degree=Pos	10	advmod	_	_
+10	убрать	убирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	16	cc	_	_
+16	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	взлете	взлет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	посадке	посадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	conj	_	_
+21	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	dep	_	_
+22	дистанционно	дистанционно	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3902
+# text = В этом случае потребуется дублирование систем управления.Между тем, до конца 2018 года, по распоряжению Федерального управления гражданской авиации США, американские авиакомпании должны будут ввести дополнительную подготовку летчиков пассажирских самолетов.
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	дублирование	дублирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Между	между	ADP	_	_	10	case	_	_
+10	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	до	до	ADP	_	_	13	case	_	_
+13	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+14	2018	2018	NUM	_	_	15	nummod	_	_
+15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	распоряжению	распоряжение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	_
+19	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	nsubj	_	_
+27	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	_
+28	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
+29	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	dep	_	_
+30	дополнительную	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+32	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 3903
+# text = Этот курс предусматривает расширенное изучение навигации, а также увеличенное количество часов летной подготовки.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	курс	курс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	предусматривает	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	расширенное	расширеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
+6	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	11	cc	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	увеличенное	увеличивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
+12	часов	часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	летной	летной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3904
+# text = При этом особое внимание будет уделяться ведению самолета в ручном режиме как в обычных условиях, так и в случае нештатной ситуации.Василий Сычёв
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	особое	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	уделяться	уделяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+7	ведению	ведение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	ручном	ручной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+12	как	как	SCONJ	_	_	15	cc	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	обычных	обычный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+18	и	и	PART	_	_	17	fixed	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	parataxis	_	_
+21	нештатной	нештатный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+25	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	_
+
+# newpar
+# sent_id = 3905

@@ -1,0 +1,212 @@
+# text = # newpar
+# sent_id = 3658
+# text = Федеральное управление гражданской авиации США до конца 2016 года одобрит новые правила захода на посадку пассажирских самолетов.
+1	Федеральное	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+3	гражданской	гражданской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	2016	2016	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	одобрит	одобрить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	правила	правило	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+13	захода	заход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	_
+16	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3659
+# text = Как пишетAviation Week, самолетам, оборудованным системами "слепой" посадки, разрешат приземляться при показателях видимости худших, чем для обычных самолетов.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	5	parataxis	_	_
+3	Week	Week	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	самолетам	самолет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	оборудованным	оборудовать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	слепой	слепа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	посадки	посадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	разрешат	разрешать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+15	приземляться	приземляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	показателях	показатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+18	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	худших	худший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	24	cc	_	_
+22	для	для	ADP	_	_	24	case	_	_
+23	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3660
+# text = Возможно, такие самолеты смогут приземляться и в аэропортах, закрытых по причине плохой видимости.Согласно американским правилам, действующим сегодня, самолетам запрещено заходиться на посадку, если видимость в аэропорту меньше 75 метров.
+1	Возможно	возможно	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	такие	такой	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	приземляться	приземлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	5	xcomp	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	аэропортах	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	закрытых	закрывать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+14	плохой	плохой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Согласно	согласно	ADP	_	_	19	case	_	_
+18	американским	американский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	действующим	действовать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+22	сегодня	сегодня	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	самолетам	самолет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+25	запрещено	запрещивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+26	заходиться	заходиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	nsubj:pass	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	если	если	SCONJ	_	_	0	mark	_	_
+31	видимость	видимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	аэропорту	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+34	меньше	мало	NUM	_	_	0	advcl	_	_
+35	75	75	NUM	_	_	36	nummod	_	_
+36	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 3661
+# text = В 2010 году в аэропорту Ла-Гуардия в Нью-Йорке на протяжении шести суток подряд фиксировалась видимость значительно хуже 75 метров.
+1	В	в	ADP	_	_	3	case	_	_
+2	2010	2010	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	аэропорту	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+6	Ла-Гуардия	Ла-Гуардия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Нью-Йорке	нью-йорк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+11	шести	шесть	NUM	_	Case=Gen	12	nummod	_	_
+12	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	подряд	подряд	ADV	_	Degree=Pos	14	advmod	_	_
+14	фиксировалась	фиксироваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	видимость	видимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	хуже	плохой	ADJ	_	Degree=Cmp	14	amod	_	_
+18	75	75	NUM	_	_	19	nummod	_	_
+19	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3662
+# text = Все это время аэропорт не принимал и не отправлял рейсы.В настоящее время сразу несколько американских компанией занимаются разработкой систем "слепой" посадки, которые позволят самолетам приземляться при видимости менее 35 метров.
+1	Все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	obj	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	obl	_	_
+4	аэропорт	аэропорт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	принимал	принимать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	отправлял	отправлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+10	рейсы	рейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	В	в	ADP	_	_	10	case	_	_
+13	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	fixed	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+16	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+17	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+19	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+20	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+21	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	слепой	слепий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	которые	который	PRON	_	Case=Nom	28	nsubj	_	_
+28	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+29	самолетам	самолет	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	28	obl	_	_
+30	приземляться	приземляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	28	xcomp	_	_
+31	при	при	ADP	_	_	32	case	_	_
+32	видимости	видимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	_
+33	менее	менее	ADV	_	Degree=Cmp	35	nummod:gov	_	_
+34	35	35	NUM	_	_	35	nummod	_	_
+35	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 3663
+# text = В состав этих систем входит несколько курсовых сенсоров, включая инфракрасные камеры, и оборудование обмена технической информацией.При заходе на посадку такая система способна выводить на экран в кабине пилотов совмещенные изображения с курсовых сенсоров и различные инструментальные данные.
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	_
+7	курсовых	курсовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	включая	включая	ADV	_	Degree=Pos	12	advmod	_	_
+11	инфракрасные	инфракрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	камеры	камер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	conj	_	_
+16	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+17	технической	технический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+18	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	При	при	ADP	_	_	21	case	_	_
+21	заходе	заход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	_
+25	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	conj	_	_
+27	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	dep	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	экран	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	кабине	кабин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+32	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	совмещенные	совмещенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	37	obj	_	_
+35	с	с	ADP	_	_	37	case	_	_
+36	курсовых	курсовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	_
+38	и	и	CCONJ	_	_	41	cc	_	_
+39	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	41	amod	_	_
+40	инструментальные	инструментальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	41	amod	_	_
+41	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	0	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 3664
+# text = Выдача такой информации осуществляется в режиме реального времени.Василий Сычёв
+1	Выдача	выдача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	осуществляется	осуществляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	реального	реальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	времени.	времени.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+
+# newpar
+# sent_id = 3665

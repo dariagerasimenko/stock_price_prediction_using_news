@@ -1,0 +1,440 @@
+# text = # newpar
+# sent_id = 3326
+# text = Группа лингвистов изАвстралии показала, насколько точно можно описывать семантические связи между двумя словами, если представлять ихввиде векторов ирассчитывать ихсуммы иразности.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	лингвистов	лингвист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	изАвстралии	изАвстралия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	насколько	насколько	ADV	_	Degree=Pos	7	advmod	_	_
+7	точно	точно	ADV	_	Degree=Pos	8	advmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	4	conj	_	_
+9	описывать	описывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	семантические	семантический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+12	между	между	ADP	_	_	14	case	_	_
+13	двумя	два	NUM	_	Case=Ins	14	nummod	_	_
+14	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	если	если	SCONJ	_	_	9	mark	_	_
+17	представлять	представлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	advcl	_	_
+18	ихввиде	ихввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+19	векторов	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	ирассчитывать	ирассчитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	ихсуммы	ихсумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	иразности	иразность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3327
+# text = Например, представьте выражение ("король"-- "мужчина" + "женщина") = "королева".
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	представьте	представлять	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выражение	выражение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	король	король	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+8	"-	"-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	+	+	PUNCT	_	_	11	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	_
+18	=	равно-знак	SYM	_	_	20	case	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	королева	королев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3328
+# text = Авторы выяснили, насколько общим является такой подход, игде заканчивается область его применимости.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	насколько	насколько	ADV	_	Degree=Pos	6	advmod	_	_
+5	общим	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+7	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	игде	игде	ADV	_	Degree=Pos	11	advmod	_	_
+11	заканчивается	заканчиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+12	область	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	применимости	применимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3329
+# text = Препринт исследования выложен наarXiv.org.Ученые рассматривали четыре хорошо известных представления, вкоторых каждому слову сопоставляется вектор.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	выложен	выкладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	наarXiv.org	наarXiv.org	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	рассматривали	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+9	хорошо	хорошо	ADV	_	Degree=Pos	10	advmod	_	_
+10	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	представления	представление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	вкоторых	вкоторый	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+14	каждому	каждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	слову	слов	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+16	сопоставляется	сопоставляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+17	вектор	вектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3330
+# text = Его размерность определяется количеством контекстов, которые учитываются вданном представлении.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	размерность	размерность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	определяется	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	контекстов	контекст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj:pass	_	_
+8	учитываются	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+9	вданном	вдать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	представлении	представление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3331
+# text = Всамом простом случае, например, слово "чай" чаще встречается вконтексте "напиток" иреже вконтексте "животные".
+1	Всамом	Всамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	простом	простый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	чай	чай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	чаще	часто	ADV	_	Degree=Cmp	12	advmod	_	_
+12	встречается	встречаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	вконтексте	вконтекст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	напиток	напиток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	иреже	иреже	ADV	_	Degree=Pos	18	advmod	_	_
+18	вконтексте	вконтеквствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	животные	животной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	obl	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3332
+# text = Врамках дистрибутивной семантики предполагается, что при использовании достаточно большого числа контекстов каждое слово можно сдостаточной степенью описать контекстным вектором.Далее авторы проверяли гипотезу, согласно которой разность двух контекстных векторов несет достаточную информацию осемантической связи между соответствующими словами.
+1	Врамках	Врамк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+2	дистрибутивной	дистрибутивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	семантики	семантика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	advmod	_	_
+10	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+12	контекстов	контекст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	каждое	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	можно	можно	ADV	_	Degree=Pos	4	advcl	_	_
+16	сдостаточной	сдостаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	степенью	степень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+18	описать	описавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+19	контекстным	контекстный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	вектором.	вектором.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	Далее	далее	ADV	_	Degree=Pos	23	advmod	_	_
+22	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	согласно	согласно	ADP	_	_	27	case	_	_
+27	которой	который	PRON	_	Case=Dat	32	obl	_	_
+28	разность	разность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+29	двух	два	NUM	_	Case=Gen	31	nummod	_	_
+30	контекстных	контекстный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+32	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+33	достаточную	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+35	осемантической	осемантический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	между	между	ADP	_	_	39	case	_	_
+38	соответствующими	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	amod	_	_
+39	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 3333
+# text = Например, вектор ("Париж"-- "Франция") должен быть похож навектор ("Копенгаген"-- "Дания").
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	вектор	вектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	_
+4	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Париж	париж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	6	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Франция	франция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+15	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	cop	_	_
+16	похож	похожий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	parataxis	_	_
+17	навектор	навектор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Копенгаген	Копенгаген	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	20	punct	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Дания	дания	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3334
+# text = Для проверки гипотезы ученые проводили два эксперимента: впервом кластеризовали разности векторов, чтобы узнать, насколько "тесные" группы они образуют ввекторном пространстве.
+1	Для	для	ADP	_	_	2	case	_	_
+2	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	два	два	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	_
+7	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	впервом	вперв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	кластеризовали	кластеризовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	разности	разность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+15	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	насколько	насколько	ADV	_	Degree=Pos	19	advmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	тесные	тесный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	группы	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+23	образуют	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	ввекторном	ввекторный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3335
+# text = Вовтором эксперименте авторы при помощи машинного обучения классифицировали пары слов поихсвязи друг сдругом, используя вкачестве признаков разность векторов.
+1	Вовтором	Вовторый	DET	_	Case=Loc|Gender=Masc|Number=Sing	2	amod	_	_
+2	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+4	при	при	ADP	_	_	7	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+8	классифицировали	классифицировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	пары	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	поихсвязи	поихсвяза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	fixed	_	_
+13	сдругом	сдруг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+16	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+17	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	разность	разность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3336
+# text = Например, пара "самолет"-- "кабина" должна быть связана признаком "одно является частью другого".Оказалось, что разности векторов хорошо подвергались кластеризации, хотя встречались иисключения.
+1	Например	например	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	compound	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	5	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	кабина	кабина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	aux:pass	_	_
+14	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	dep	_	_
+15	признаком	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	одно	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+18	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	parataxis	_	_
+19	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+20	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	23	mark	_	_
+26	разности	разность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	_
+27	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	хорошо	хорошо	ADV	_	Degree=Pos	29	advmod	_	_
+29	подвергались	подвергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	23	advcl	_	_
+30	кластеризации	кластеризация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	хотя	хотя	SCONJ	_	_	29	mark	_	_
+33	встречались	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	29	advcl	_	_
+34	иисключения	иисключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	33	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 3337
+# text = Как правило, ими были слова снесколькими значениями.
+1	Как	как	ADV	_	Degree=Pos	4	mark	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	6	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+7	снесколькими	снесколький	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	значениями	значение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3338
+# text = Что касается классификации, результаты оказались очень хороши для случая "закрытой системы", когда все анализируемые пары гарантированно принадлежали кодной из18заранее определенных связей.
+1	Что	что	PRON	_	Case=Nom	2	nsubj	_	_
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl	_	_
+3	классификации	классификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	очень	очень	ADV	_	Degree=Pos	8	advmod	_	_
+8	хороши	хороший	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	6	amod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	случая	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	закрытой	закрытый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	когда	когда	SCONJ	_	_	6	mark	_	_
+17	все	весь	DET	_	Case=Nom|Number=Plur	19	amod	_	_
+18	анализируемые	анализируемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	пары	пар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+20	гарантированно	гарантированно	ADV	_	Degree=Pos	21	advmod	_	_
+21	принадлежали	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+22	кодной	кодной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+23	из18заранее	из18зарано	ADV	_	Degree=Cmp	24	advmod	_	_
+24	определенных	определенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 3339
+# text = Еслиже висследуемую выборку добавить случайные пары слов, между которыми нет определенной связи, результаты классификации значительно ухудшались.
+1	Еслиже	Еслизко	ADV	_	Degree=Cmp	2	advmod	_	_
+2	висследуемую	висследуть	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	выборку	выборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+4	добавить	добавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	случайные	случайный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	пары	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	которыми	который	PRON	_	Case=Ins	11	obl	_	_
+11	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	определенной	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+16	классификации	классификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	значительно	значительно	ADV	_	Degree=Pos	18	advmod	_	_
+18	ухудшались	ухудшаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3340
+# text = Например, программа причислила пару (took,turn) ксвязи "прошедшее время", хотя эти два слова насамом деле никак несвязаны.Витоге ученые отмечают, что разница контекстных векторов действительно является удобным признаком для семантического анализа.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	причислила	причислять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	took	took	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	,turn	,turn	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	ксвязи	ксвязи	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	5	appos	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	прошедшее	проходить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	хотя	хотя	SCONJ	_	_	4	mark	_	_
+17	эти	этот	DET	_	Case=Nom|Number=Plur	18	amod	_	_
+18	два	два	NUM	_	Case=Nom|Gender=Masc	19	nummod:gov	_	_
+19	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+20	насамом	насамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+22	никак	никак	ADV	_	Degree=Pos	23	advmod	_	_
+23	несвязаны.	несвязаны.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	Витоге	Витог	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	23	appos	_	_
+25	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+30	контекстных	контекстный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+32	действительно	действительно	ADV	_	Degree=Pos	33	advmod	_	_
+33	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	advcl	_	_
+34	удобным	удобный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	признаком	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	_
+36	для	для	ADP	_	_	38	case	_	_
+37	семантического	семантический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 3341
+# text = Тем неменее этот метод неочень хорошо подходит для анализа "сырых" данных, вкоторых много шума, так как классификатор находит связи там, где ихнет, опираясь наконтекст, нопропуская какие-либо другие признаки.
+1	Тем	тем	SCONJ	_	_	2	cc	_	_
+2	неменее	неменый	ADJ	_	Degree=Cmp	7	advmod	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	неочень	неочень	ADV	_	Degree=Pos	7	advmod	_	_
+6	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	_
+7	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	сырых	сырой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	вкоторых	вкоторый	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+16	много	много	ADV	_	Degree=Pos	15	advmod	_	_
+17	шума	шум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	так	так	ADV	_	Degree=Pos	7	mark	_	_
+20	как	как	SCONJ	_	_	19	fixed	_	_
+21	классификатор	классификатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	находит	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+23	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+24	там	там	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	где	где	ADV	_	Degree=Pos	27	advmod	_	_
+27	ихнет	ихнуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	опираясь	опираться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	27	advcl	_	_
+30	наконтекст	наконтекст	ADV	_	Degree=Pos	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	нопропуская	нопропускать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	29	advcl	_	_
+33	какие-либо	какой-либо	DET	_	Case=Acc|Number=Plur	35	amod	_	_
+34	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	_
+35	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# newpar
+# sent_id = 3342

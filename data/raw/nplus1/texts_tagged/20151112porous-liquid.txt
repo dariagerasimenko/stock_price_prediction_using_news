@@ -1,0 +1,139 @@
+# text = # newpar
+# sent_id = 508
+# text = Группа химиков изВеликобритании, Аргентины, Германии иФранции синтезировала пористую жидкость, представляющую собой раствор органических "молекул-клеток" в"большом" растворителе.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	химиков	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	изВеликобритании	изВеликобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Аргентины	аргентина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+8	иФранции	иФранция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	синтезировала	интезировать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	пористую	пористий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	представляющую	представлять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	собой	себя	PRON	_	Case=Ins	13	dep	_	_
+15	раствор	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	молекул-клеток	молекул-клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	в"	в"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	23	punct	_	_
+23	растворителе	растворитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 509
+# text = Подобные жидкости могут быть использованы для высокоэффективного разделения газов.
+1	Подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	для	для	ADP	_	_	8	case	_	_
+7	высокоэффективного	высокоэффективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+9	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 510
+# text = Результаты работы опубликованы вNature.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вNature	вNature	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 511
+# text = Исследователи получили молекулы-клетки спомощью двух различных методов.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	appos	_	_
+6	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+8	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 512
+# text = Первый представляет собой многостадийный синтез диамина краун-эфира споследующей конденсацией стриформилбензоле, авторой-- одностадийный синтез, вкотором ученые смешали дихлорметановые растворы триформилбензола, диаминоциклогексана идиаминометилпропана (подробности процессов синтеза описаны тут).
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	многостадийный	многостадийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	диамина	диамин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	краун-эфира	краун-эфир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	споследующей	споследуть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+9	конденсацией	конденсация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	стриформилбензоле	стриформилбензоле	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	авторой-	авторой-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	10	punct	_	_
+14	одностадийный	одностадийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	синтез	синтез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	вкотором	вкотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+18	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	смешали	смешивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
+20	дихлорметановые	дихлорметановый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	растворы	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+22	триформилбензола	триформилбензол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	диаминоциклогексана	диаминоциклогексан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	_
+25	идиаминометилпропана	идиаминометилпропан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	подробности	подробность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	parataxis	_	_
+28	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	описаны	описывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+31	тут	тут-то	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 513
+# text = Впервом методе врезультате синтеза получается индивидуальное вещество, авовтором полученный врезультате реакции конденсации продукт представляет собой смесь семи различных химических соединений, отличающуюся поколичеству молекул различных аминов, три изкоторых имеют две различные изомерные формы.
+1	Впервом	Вперв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+2	методе	методе	ADP	_	_	3	case	_	_
+3	врезультате	врезультат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	индивидуальное	индивидуальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	вещество	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	авовтором	авовтор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	полученный	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+11	врезультате	врезультате	PART	_	_	12	advmod	_	_
+12	реакции	реакция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+13	конденсации	конденсация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	собой	себя	PRON	_	Case=Ins	15	obl	_	_
+17	смесь	смесь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	семи	семь	NUM	_	Case=Gen	21	nummod	_	_
+19	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+20	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	отличающуюся	отличаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	21	amod	_	_
+24	поколичеству	поколичество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+25	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+26	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	аминов	амин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	три	три	NUM	_	Case=Nom	30	nummod:gov	_	_
+30	изкоторых	изкоторой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	две	два	NUM	_	Case=Nom|Gender=Fem	33	nummod:gov	_	_
+33	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+34	изомерные	изомерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+35	формы	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# newpar
+# sent_id = 514

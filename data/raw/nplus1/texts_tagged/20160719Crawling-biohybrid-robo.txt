@@ -1,0 +1,159 @@
+# text = # newpar
+# sent_id = 3825
+# text = Ученые из исследовательского университета Кейс Вестерн Резерв создали биогибридного робота-улитку.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Кейс	кейс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Вестерн	Вестерн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	Резерв	резерв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+8	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	биогибридного	биогибридный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	робота-	робота-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	улитку	улитка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3826
+# text = Для создания киборга они использовали ротовые мышцы калифорнийской морской улитки (Aplysia californica) и 3D-печатные полимерные компоненты.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	киборга	киборг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ротовые	ротовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	мышцы	мышца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	калифорнийской	калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	улитки	улитка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Aplysia	Aplysia	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	californica	californica	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	3D	3d	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+17	-печатные	-печатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+18	полимерные	полимерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	компоненты	компонент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3827
+# text = Биоробот описывается в пресс-релизе университета, также работа будет представлена на конференции Living Machines в Эдинбурге на этой неделе.
+1	Биоробот	Биоробот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	описывается	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+8	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	представлена	представлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	Living	Living	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Machines	Machines	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Эдинбурге	Эдинбург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	amod	_	_
+19	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3828
+# text = Первая версия робота-улитки меньше пяти сантиметров в длину и ползает со скоростью четыре миллиметра в минуту.
+1	Первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	робота-	робота-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	улитки	улитка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+5	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	_
+6	пяти	пять	NUM	_	Case=Gen	7	nummod	_	_
+7	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ползает	ползать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	со	с	ADP	_	_	13	case	_	_
+13	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+16	в	в	ADP	_	_	15	case	_	_
+17	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3829
+# text = Для создания киборга ученые использовали 12 ротовых мышц морской улитки и туловище из гибкого полимера.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	киборга	киборг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	12	12	NUM	_	_	8	nummod	_	_
+7	ротовых	ротовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	мышц	мышца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	улитки	улитка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	туловище	туловище	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+13	из	из	ADP	_	_	12	case	_	_
+14	гибкого	гибкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	полимера	полимер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3830
+# text = Над ртом у Aplysia californica находятся два щупальцевидных выроста, исследователи присоединили их к полимерным "рукам" и телу робота.
+1	Над	над	ADP	_	_	2	case	_	_
+2	ртом	рот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	Aplysia	Aplysia	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	californica	californica	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	два	два	NUM	_	Case=Nom|Gender=Masc	9	nummod:gov	_	_
+8	щупальцевидных	щупальцевидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	выроста	вырост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	присоединили	присоединять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+13	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obj	_	_
+14	к	к	ADP	_	_	17	case	_	_
+15	полимерным	полимерный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	рукам	рука	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	телу	тело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	conj	_	_
+21	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 3831
+# text = Под воздействием внешнего электрического поля ротовые мышцы, сжимаясь и разжимаясь, двигают "руки" биогибрида вперед и назад, таким образом позволяя роботу двигаться.
+1	Под	под	ADP	_	_	2	case	_	_
+2	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+3	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	ротовые	ротовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	мышцы	мышца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сжимаясь	сжимаиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	13	advcl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	разжимаясь	разжиматься	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	двигают	двигить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	биогибрида	биогибрид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	вперед	вперед	ADV	_	Degree=Pos	13	advmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	назад	назад	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	23	amod	_	_
+23	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+24	позволяя	позволять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+25	роботу	робота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	dep	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# newpar
+# sent_id = 3832

@@ -1,0 +1,436 @@
+# text = # newpar
+# sent_id = 4982
+# text = Швейцарская компания ALR занялась разработкой нового учебного самолета Janus, сообщаетAviation Week.
+1	Швейцарская	швейцарский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ALR	Alr	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	учебного	учебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	Janus	Janus	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	сообщаетAviation	сообщаетAviation	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Week	Week	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4983
+# text = Новый самолет должен стать дешевле современных M346 Master, Hawk или T-38 Talon, но одновременно более функциональным.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	dep	_	_
+5	дешевле	дешевый	ADJ	_	Degree=Cmp	3	advmod	_	_
+6	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+7	M346	M346	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Master	master	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Hawk	Hawk	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	T	t	PROPN	_	Foreign=Yes	15	compound	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	38	38	NUM	_	_	15	nummod	_	_
+15	Talon	talon	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	но	но	CCONJ	_	_	20	cc	_	_
+18	одновременно	одновременно	ADV	_	Degree=Pos	20	advmod	_	_
+19	более	более	ADV	_	Degree=Cmp	20	advmod	_	_
+20	функциональным	функциональной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 4984
+# text = По мнению разработчиков, добиться этого удастся благодаря универсализации "летающей парты".В ALR полагают, что могут разработать учебный самолет, с помощью которого можно будет одинаково эффективно проводить базовую и расширенную подготовки летчиков.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+6	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+7	удастся	удаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	благодаря	благодаря	ADP	_	_	9	case	_	_
+9	универсализации	универсализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	летающей	летать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	парты	парта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	ALR	Alr	PROPN	_	Foreign=Yes	17	obl	_	_
+17	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	mark	_	_
+20	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+21	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	учебный	учебный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	с	с	ADP	_	_	27	case	_	_
+26	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	fixed	_	_
+27	которого	который	PRON	_	Case=Gen	28	nmod	_	_
+28	можно	можно	ADV	_	Degree=Pos	23	acl:relcl	_	_
+29	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	_
+30	одинаково	одинаково	ADV	_	Degree=Pos	31	advmod	_	_
+31	эффективно	эффективно	ADV	_	Degree=Pos	32	advmod	_	_
+32	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+33	базовую	базовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	расширенную	расширять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	conj	_	_
+36	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	32	obj	_	_
+37	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 4985
+# text = Его же можно будет использовать в роли"агрессора"во время учений.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	агрессора	агрессор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	во	во	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	учений	учение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 4986
+# text = Все это позволит поддерживать постоянный уровень подготовки летчиков, сократив при этом число летных часов боевых самолетов.Кроме того, в немецкой компании уверены, что Janus можно будет использовать в мирное время для наблюдения с воздуха и патрулирования воздушных границ.
+1	Все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	поддерживать	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	постоянный	постоянный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сократив	сокращать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	24	advcl	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+13	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+14	летных	летный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	часов	часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+16	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+17	самолетов.	самолетовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+18	Кроме	Кроме	ADP	_	_	19	case	_	_
+19	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	немецкой	немецкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+24	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	что	что	SCONJ	_	_	24	mark	_	_
+27	Janus	Janus	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+28	можно	можно	ADV	_	Degree=Pos	24	advcl	_	_
+29	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	_
+30	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	мирное	мирный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obl	_	_
+34	для	для	ADP	_	_	35	case	_	_
+35	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	_
+36	с	с	ADP	_	_	37	case	_	_
+37	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	патрулирования	патрулирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	conj	_	_
+40	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	границ	граница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 4987
+# text = Наконец, перспективным учебным самолетом могут заинтересоваться частные компании, скупающие списанные военные самолеты и по заказу ВВС разных стран играющие роль противника на учениях.Предполагается, что новый самолет будет однодвигательным и двухместным.
+1	Наконец	наконец	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	перспективным	перспективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	учебным	учебный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	заинтересоваться	заинтересоваваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	частные	частный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	скупающие	скупать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	списанные	списанный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+13	военные	военный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	заказу	заказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	conj	_	_
+18	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	играющие	играть	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+22	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	учениях	учение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	SCONJ	_	_	27	mark	_	_
+30	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	cop	_	_
+33	однодвигательным	однодвигательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	27	advcl	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	двухместным	двухместный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 4988
+# text = Janus оснастят электродистанционной системой управления.
+1	Janus	Janus	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	оснастят	оснаскать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	электродистанционной	электродистанционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4989
+# text = "Летающую парту" максимальной взлетной массой всего 4,8 тонны построят по схеме продольного биплана со среднерасположенным крылом.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Летающую	Летать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	парту	парта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	максимальной	максимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	взлетной	взлетный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+8	всего	всего	PART	_	_	9	advmod	_	_
+9	4,8	4,8	NUM	_	_	10	nummod	_	_
+10	тонны	тонна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	построят	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+14	продольного	продольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	биплана	биплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	со	с	ADP	_	_	18	case	_	_
+17	среднерасположенным	среднерасположенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	крылом	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 4990
+# text = Самолет получит турбореактивный двигатель с форсажной камерой, способный выдавать тягу до 4,5 тонны.По оценке разработчиков, Janus сможет развивать скорость до 1,3 числа Маха (1,6 тысячи километров в час).
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	турбореактивный	турбореактивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	форсажной	форсажный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	способный	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+10	выдавать	выдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	4,5	4,5	NUM	_	_	14	nummod	_	_
+14	тонны.	тонны.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+15	По	по	ADP	_	_	16	case	_	_
+16	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+17	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	Janus	Janus	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+20	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+21	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	1,3	1,3	NUM	_	_	25	nummod	_	_
+25	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+26	Маха	Маха	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	1,6	1,6	NUM	_	_	29	nummod	_	_
+29	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nummod:gov	_	_
+30	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 4991
+# text = Конструкция самолета на 50 процентов будет состоять из композиционных материалов.
+1	Конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	50	50	NUM	_	_	5	nummod	_	_
+5	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4992
+# text = В целом же упор планируется сделать на использование уже существующих технологий, что позволит существенно сократить расходы на разработку.В части бортового оборудования Janus получит цифровые системы, которые позволят имитировать вооружение и работу радиолокационной станции.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	упор	упор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj:pass	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	существенно	существенно	ADV	_	Degree=Pos	16	advmod	_	_
+16	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	расходы	расход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	разработку.	разработку.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	В	в	ADP	_	_	21	case	_	_
+21	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+22	бортового	бортовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	Janus	Janus	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	conj	_	_
+26	цифровые	цифровой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	системы	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+31	имитировать	имитировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+32	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	conj	_	_
+35	радиолокационной	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 4993
+# text = Имитированные данные для радара самолет будет получать с наземного пункта.
+1	Имитированные	Имитировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	7	nsubj	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	радара	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	наземного	наземный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 4994
+# text = Собственных систем подвески вооружения -- ракет и бомб -- самолет не получит, однако будет оснащен отсеком для съемной авиационной пушки.Другие подробности о новом швейцарском проекте пока неизвестны.
+1	Собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
+3	подвески	подвеска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	бомб	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	однако	однако	ADV	_	Degree=Pos	16	advmod	_	_
+15	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	29	advcl	_	_
+17	отсеком	отсек	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl:agent	_	_
+18	для	для	ADP	_	_	21	case	_	_
+19	съемной	съемный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	авиационной	авиационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	пушки.	пушки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+24	о	о	ADP	_	_	27	case	_	_
+25	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	швейцарском	швейцарский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_
+28	пока	пока	ADV	_	Degree=Pos	29	advmod	_	_
+29	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	12	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 4995
+# text = В настоящее время военные используют многоступенчатую систему подготовки летчиков.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	многоступенчатую	многоступенчатый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 4996
+# text = Начальная подготовка проводится как правило на поршневых легких самолетах, после чего начинается расширенное обучение на легких реактивных.Затем летчики переходят к тренировкам на специализированных учебно-боевых самолетах.
+1	Начальная	начальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	подготовка	подготовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	как	как	SCONJ	_	_	3	cc	_	_
+5	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+6	на	на	ADP	_	_	9	case	_	_
+7	поршневых	поршневой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+8	легких	легкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	после	после	ADP	_	_	12	case	_	_
+12	чего	что	PRON	_	Case=Gen	5	nmod	_	_
+13	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+14	расширенное	расширеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	легких	легкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	реактивных.	реактивных.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	Затем	тоЗат	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_
+20	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	переходят	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	тренировкам	тренировка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	21	obl	_	_
+24	на	на	ADP	_	_	27	case	_	_
+25	специализированных	специализированный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+26	учебно-боевых	учебно-боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 4997
+# text = И только после этого пилоты получают допуск к управлению боевыми тактическими самолетами.
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	только	только	PART	_	_	4	advmod	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+5	пилоты	пилот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	допуск	допуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	управлению	управление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+10	боевыми	боевой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+11	тактическими	тактический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4998
+# text = В среднем подготовка строевого летчика боевого самолета в разных странах занимает от 54 до 72 недель.Василий Сычёв
+1	В	в	ADP	_	_	2	case	_	_
+2	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+3	подготовка	подготовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+4	строевого	строевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	летчика	летчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	боевого	боевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	_
+11	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	54	54	NUM	_	_	11	nummod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	72	72	NUM	_	_	16	nummod	_	_
+16	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+19	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_
+
+# newpar
+# sent_id = 4999

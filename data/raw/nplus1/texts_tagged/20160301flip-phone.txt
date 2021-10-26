@@ -1,0 +1,218 @@
+# text = # newpar
+# sent_id = 5161
+# text = Инженеры компании Schott создали ультратонкое гибкое стекло, которое в будущем может быть использовано для гибких гаджетов.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Schott	Schott	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ультратонкое	ультратонкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	гибкое	гибкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	стекло	стекло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	aux:pass	_	_
+14	использовано	использовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	гибких	гибкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	гаджетов	гаджет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 5162
+# text = О разработке сообщается на сайте компании.Толщина стекла составляет 25 микрометров -- для сравнения, толщина человеческого волоса колеблется от 80 до 110 микрометров.
+1	О	о	ADP	_	_	2	case	_	_
+2	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Толщина	Толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+9	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	25	25	NUM	_	_	12	nummod	_	_
+12	микрометров	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	для	для	ADP	_	_	12	case	_	_
+15	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+18	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	волоса	волос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	колеблется	колебаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	80	80	NUM	_	_	20	nummod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	110	110	NUM	_	_	25	nummod	_	_
+25	микрометров	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 5163
+# text = Закаленное стекло сгибается до радиуса в девять миллиметров, не выказывая при этом признаков усталости.
+1	Закаленное	Закаленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	стекло	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	сгибается	сгибаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	радиуса	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	девять	девять	NUM	_	Case=Acc	8	nummod:gov	_	_
+8	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	выказывая	выказывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+14	признаков	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	усталости	усталость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5164
+# text = На данный момент компания может производить листы стекла длиной в километр.Прочность стекла достигается с помощью процесса ионного обмена.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	листы	лист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	стекла	стеквать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	в	в1	ADP	_	_	11	case	_	_
+11	километр.	километрождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	Прочность	Прочность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+13	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	достигается	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+18	ионного	ионный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5165
+# text = Подобная технология лежит в основе стекла Gorilla Glass.
+1	Подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Gorilla	Gorilla	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Glass	Glass	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 5166
+# text = Ионнообменный метод упрочнения стекла заключается в вытеснении ионов щелочных металлов из поверхностного слоя нагретого пластичного стекла ионами других щелочных металлов.
+1	Ионнообменный	Ионнообменный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	упрочнения	упрочнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	вытеснении	вытеснение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	ионов	иоен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	щелочных	щелочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	из	из	ADP	_	_	10	case	_	_
+12	поверхностного	поверхностный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+14	нагретого	нагретот	DET	_	Case=Gen|Gender=Neut|Number=Sing	16	amod	_	_
+15	пластичного	пластичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	стекла	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+17	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	nmod	_	_
+18	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	щелочных	щелочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5167
+# text = В случае со стеклом Schott, его погружают в ванну с расплавом калия и ионы натрия, находящиеся в составе стекла, вытесняются ионами калия.Впервые стекло Schott будет использовано для сканера отпечатков пальцев в смартфоне LeTV.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	со	с	ADP	_	_	4	case	_	_
+4	стеклом	стекло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	parataxis	_	_
+5	Schott	Schott	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	погружают	погружать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	ванну	ванна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	расплавом	расплаво	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+13	калия	калие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	ионы	ион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+16	натрия	натрий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	находящиеся	находиться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	21	amod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	стекла	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	23	nsubj:pass	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	вытесняются	вытеснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	31	advcl	_	_
+24	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	_
+25	калия	калий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Впервые	Впервой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	стекло	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+29	Schott	Schott	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	использовано	использовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	сканера	сканнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+34	отпечатков	отпечаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	смартфоне	смартфон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+38	LeTV	Letv	PROPN	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5168
+# text = Кроме того, компания предполагает, что их разработка найдет применение в области гибкой электроники.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+9	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	найдет	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+12	в	в	ADP	_	_	11	case	_	_
+13	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	гибкой	гибкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5169
+# text = Например, не так давно исследователи из Human Media Lab Королевского университета в Кингстоне разработали гибкий смартфон с OLED-экраном.Кристина Уласович
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	так	так	ADV	_	Degree=Pos	15	advmod	_	_
+5	давно	давно	ADV	_	Degree=Pos	6	advmod	_	_
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	Human	Human	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Media	media	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Lab	lab	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+11	Королевского	королевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Кингстоне	Кингстон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+15	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	гибкий	гибкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	OLED	OLEd	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	экраном.	экраном.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+22	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	_
+
+# newpar
+# sent_id = 5170

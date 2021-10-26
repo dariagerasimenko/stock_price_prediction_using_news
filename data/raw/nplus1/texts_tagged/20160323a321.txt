@@ -1,0 +1,186 @@
+# text = # newpar
+# sent_id = 2687
+# text = Европейский авиастроительный концерн Airbus впервые собрал самолет на территории США.
+1	Европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Airbus	Airbus	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	впервые	впервые	ADV	_	Degree=Pos	6	advmod	_	_
+6	собрал	собирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
+8	на	на	ADP	_	_	7	case	_	_
+9	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2688
+# text = КаксообщаетDefense Aerospace, первым собранным в США самолетом Airbus стал пассажирский лайнер A321.
+1	КаксообщаетDefense	КаксообщаетDefense	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+2	Aerospace	Aerospace	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+5	собранным	обрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Ins|Number=Plur	5	obl	_	_
+8	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+9	Airbus	Airbus	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	пассажирский	пассажирский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	лайнер	лайнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	A321	A321	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2689
+# text = Его первый полет состоялся 21 марта 2016 года.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+2	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	21	21	NUM	_	_	4	nummod	_	_
+6	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	2016	2016	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2690
+# text = "Американский" самолет после завершения летных испытаний будет передан авиакомпании JetBlue.Испытательный полет A321 состоялся в аэропорту Мобила в Алабаме.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	завершения	завершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	летных	летный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	передан	передывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	авиакомпании	авиакомпания	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+12	JetBlue.	Jetblue.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	SpaceAfter=No
+13	Испытательный	испытательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	A321	A321	NUM	_	_	14	nummod	_	_
+16	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	аэропорту	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	Мобила	мобил	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Алабаме	Алабам	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2691
+# text = Он продолжался 3 часа 26 минут.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	продолжался	продолжаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	3	3	NUM	_	_	4	nummod	_	_
+4	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	26	26	NUM	_	_	6	nummod	_	_
+6	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 2692
+# text = В воздухе летчики-испытатели проверили работу всех бортовых систем лайнера и двигателей.
+1	В	в	ADP	_	_	2	case	_	_
+2	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+4	-испытатели	-испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	appos	_	_
+5	проверили	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	всех	весь	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+8	бортовых	бортовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	лайнера	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2693
+# text = Как ожидается, A321 будет передан заказчику в ближайшие несколько недель.
+1	Как	как	ADV	_	Degree=Pos	6	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	A321	A321	NOUN	_	_	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	передан	передавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	заказчику	заказчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2694
+# text = Другие подробности об "американском" лайнере не уточняются.A321 относится к семейству пассажирских лайнеров A320.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+3	об	о	ADP	_	_	7	case	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	американском	американский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	лайнере	лайнер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	уточняются.	уточняются.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+10	A321	A321	NOUN	_	_	2	nmod	_	_
+11	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	семейству	семейство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+14	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	лайнеров	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	A320	A320	NUM	_	_	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2695
+# text = От базовой модели семейства этот самолет отличается удлиненным фюзеляжем и двухщелевыми закрылками.
+1	От	от	ADP	_	_	3	case	_	_
+2	базовой	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	удлиненным	удлинять	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	фюзеляжем	фюзеляж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	двухщелевыми	двухщелевый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	закрылками	закрылок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2696
+# text = В зависимости от конфигурации самолет может перевозить от 185 до 199 человек.
+1	В	в	ADP	_	_	2	case	_	_
+2	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	от	от	ADP	_	_	4	case	_	_
+4	конфигурации	конфигурация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	перевозить	переваживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	185	185	NUM	_	_	12	nummod	_	_
+10	до	до	ADP	_	_	11	case	_	_
+11	199	199	NUM	_	_	9	nummod	_	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2697
+# text = Лайнер может выполнять полеты на скорости в 828 километров в час на расстояние до 7,4 тысячи километров.Василий Сычёв
+1	Лайнер	лайнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	скорости	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	828	828	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	7,4	7,4	NUM	_	_	16	nummod	_	_
+16	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nummod:gov	_	_
+17	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+18	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+19	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	_
+
+# newpar
+# sent_id = 2698

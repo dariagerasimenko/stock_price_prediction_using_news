@@ -1,0 +1,333 @@
+# text = # newpar
+# sent_id = 5356
+# text = Компания Toyota объявила о результатах испытаний гибридных автомобилей, оснащенных силовой электроникой, в которой стандартный кремний заменен на карбид кремния.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Toyota	Toyota	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	оснащенных	оснащать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	силовой	силовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	электроникой	электроника	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	которой	который	PRON	_	Case=Loc	18	obl	_	_
+16	стандартный	стандартный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	кремний	кремний	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+18	заменен	заменять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	карбид	карбид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+21	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5357
+# text = Даже без дополнительной оптимизации существующих машин под новую электронику их пробег на том же количестве топлива вырос на пять процентов.
+1	Даже	даже	PART	_	_	4	advmod	_	_
+2	без	без	ADP	_	_	4	case	_	_
+3	дополнительной	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	оптимизации	оптимизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+5	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	под	под	ADP	_	_	9	case	_	_
+8	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	электронику	электроника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+11	пробег	пробьги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	на	на	ADP	_	_	15	case	_	_
+13	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	15	amod	_	_
+14	же	же	PART	_	_	13	advmod	_	_
+15	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+16	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	вырос	вырастать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	пять	пять	NUM	_	Case=Acc	20	nummod:gov	_	_
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5358
+# text = По расчетам инженеров компании, в дальнейшем эта цифра может увеличится вдвое.
+1	По	по	ADP	_	_	2	case	_	_
+2	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+3	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	obl	_	_
+8	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	цифра	цифра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+11	увеличится	увеличиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	вдвое	вдвое	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5359
+# text = Гибриды представили на автомобильной выставке Automotive Engineering Exposition 2015, проходившей в Йокогаме с 20 по 22 мая.
+1	Гибриды	гибрид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	представили	представлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	автомобильной	автомобильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	выставке	выставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	Automotive	automotive	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Engineering	Engineering	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Exposition	Exposition	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	2015	2015	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	проходившей	проходить	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Йокогаме	Йокогам	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	20	20	NUM	_	_	11	nummod	_	_
+16	по	по	ADP	_	_	15	case	_	_
+17	22	22	NUM	_	_	15	nummod	_	_
+18	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 5360
+# text = В современных гибридах и электромобилях кремний используется в биполярных транзисторах с изолированным затвором и диодах.
+1	В	в	ADP	_	_	3	case	_	_
+2	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	гибридах	гибрид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	электромобилях	электромобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	_
+6	кремний	кремние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	биполярных	биполярный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	транзисторах	транзистор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	изолированным	изолировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	затвором	затвор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	диодах	диод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5361
+# text = На них основано управление повышающим преобразователем тока и инвертором, обеспечивающими работу электромоторов.
+1	На	на	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	3	obl	_	_
+3	основано	основать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+5	повышающим	повышать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+6	преобразователем	преобразователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	_
+7	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	инвертором	инвертор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	обеспечивающими	обеспечивать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+13	электромоторов	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5362
+# text = Toyota заменила такие транзисторы и диоды на МОП-транзисторы (полевые транзисторы со структурой металл-оксид-полупроводник), выполненные на основе подложки из карбида кремния диаметром в 100 мм.
+1	Toyota	Toyota	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	заменила	заменять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такие	такой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	транзисторы	транзистора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	диоды	диод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	МОП	Моп	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+9	-транзисторы	-транзистор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	appos	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	полевые	полевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	транзисторы	транзистор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	_
+13	со	с	ADP	_	_	14	case	_	_
+14	структурой	структура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+15	металл-оксид-полупроводник	металл-оксид-полупроводник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	выполненные	выполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+21	подложки	подложка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	из	из	ADP	_	_	23	case	_	_
+23	карбида	карбид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	100	100	NUM	_	_	28	nummod	_	_
+28	мм.	ммя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+
+# sent_id = 5363
+# text = Испытания обновленной силовой электроники проводились на гибридной модели Toyota Camry, в остальном ничем не отличавшейся от "кремниевой" версии.Преимуществом карбида кремния является большая ширина запрещенной зоны (2,4--3,1 электронвольта против 1,1-1,2 у кремния), способность работать в качестве полупроводника до 600 градусов Цельсия и вдесятеро более высокое напряжение пробоя.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	_
+2	обновленной	обновлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	гибридной	гибридный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	модели	модель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	Toyota	Toyota	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Camry	Camry	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	22	case	_	_
+13	остальном	остальной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+14	ничем	ничто	PRON	_	Case=Ins	16	obl	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	отличавшейся	отличаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	22	amod	_	_
+17	от	от	ADP	_	_	21	case	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	кремниевой	кремниевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	версии.	версии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	Преимуществом	преимущество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	obl	_	_
+23	карбида	карбид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+26	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	ширина	ширина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+28	запрещенной	запрещать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+29	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	2,4-	2,4-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+33	3,1	3,1	NUM	_	_	34	nummod	_	_
+34	электронвольта	электронвольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+35	против	против	ADV	_	Degree=Pos	39	advmod	_	_
+36	1,1-	1,1-	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	1,2	1,2	NUM	_	_	39	nummod	_	_
+38	у	у	ADP	_	_	39	case	_	_
+39	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	39	punct	_	_
+42	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+43	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	42	dep	_	_
+44	в	в	ADP	_	_	46	case	_	_
+45	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	44	fixed	_	_
+46	полупроводника	полупроводник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	obl	_	_
+47	до	до	ADP	_	_	49	case	_	_
+48	600	600	NUM	_	_	49	nummod	_	_
+49	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	obl	_	_
+50	Цельсия	Цельсие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_
+51	и	и	CCONJ	_	_	55	cc	_	_
+52	вдесятеро	вдесятеро	ADV	_	Degree=Pos	53	advmod	_	_
+53	более	более	ADV	_	Degree=Cmp	54	advmod	_	_
+54	высокое	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	55	amod	_	_
+55	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	conj	_	_
+56	пробоя	пробой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	_
+
+# sent_id = 5364
+# text = Благодаря этому силовую электронику на его базе можно делать намного более компактной.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+3	силовую	силовий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	электронику	электроника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+7	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	намного	намного	ADV	_	Degree=Pos	11	advmod	_	_
+11	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+12	компактной	компактный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5365
+# text = В случае гибридной Camry общий объем управляющего модуля электромоторов удалось уменьшить на 80 процентов по объему.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+3	гибридной	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	Camry	Camry	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	управляющего	управлять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	электромоторов	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	уменьшить	уменьшять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	80	80	NUM	_	_	14	nummod	_	_
+14	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	по	по	ADP	_	_	14	case	_	_
+16	объему	объем	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 5366
+# text = Кроме того, способность переносить более высокие нагрузки позволила более энергично передавать ток при регенеративном торможении,не опасаясь при этом перегрева и выхода из строя силовой электроники.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+5	переносить	переносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	более	более	ADV	_	Degree=Cmp	7	advmod	_	_
+7	высокие	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+9	позволила	зволить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	энергично	энергично	ADV	_	Degree=Pos	9	advmod	_	_
+12	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	при	при	ADP	_	_	16	case	_	_
+15	регенеративном	регенеративный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	торможении	торможение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+17	,не	,не	ADV	_	Degree=Pos	18	advmod	_	_
+18	опасаясь	опасаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	0	advcl	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+21	перегрева	перегрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	строя	строй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+26	силовой	силовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 5367
+# text = Кроме того, карбид кремния обладает меньшим сопротивлением, что также экономит топливо.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	карбид	карбид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	меньшим	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	сопротивлением	сопротивление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	6	mark	_	_
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	_
+12	экономит	экономить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+13	топливо	топливо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5368
+# text = Испытания на живучесть новой силовой электроники на карбиде кремния компания планирует проводить еще несколько лет, а появление новинки на серийных гибридах автогиганта планируется лишь к 2020 году.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	живучесть	живучесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	карбиде	карбид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+9	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	планирует	планирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	еще	еще	ADV	_	Degree=Pos	14	advmod	_	_
+14	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	24	cc	_	_
+18	появление	появление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj:pass	_	_
+19	новинки	новинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	серийных	серийный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	гибридах	гибрид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
+23	автогиганта	автогигант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj	_	_
+25	лишь	лишь	PART	_	_	28	advmod	_	_
+26	к	к	ADP	_	_	28	case	_	_
+27	2020	2020	NUM	_	_	28	nummod	_	_
+28	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# newpar
+# sent_id = 5369

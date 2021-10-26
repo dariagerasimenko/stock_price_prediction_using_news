@@ -1,0 +1,209 @@
+# text = # newpar
+# sent_id = 219
+# text = Ученые из университета Мута (Mu'tah University) и университета Хусейна ибн Талала (Al-Hussein Bin Tal al University) научили компьютер различать людей по геометрии рук.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Мута	Мут	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Mu'tah	Mu'tah	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	University	university	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+11	Хусейна	хусейн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	ибн	ибн	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+13	Талала	Талал	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Al-Hussein	Al-Hussein	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	Bin	bin	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Tal	Tal	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	al	al	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	University	University	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	научили	научать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+22	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	различать	различать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+25	по	по	ADP	_	_	26	case	_	_
+26	геометрии	геометрия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+27	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 220
+# text = В будущем это поможет установить личности террористов, показывающих знак "V" или Виктория.
+1	В	в	ADP	_	_	2	case	_	_
+2	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	личности	личность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	террористов	террорист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	показывающих	показывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	знак	знак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	V"	V"	PUNCT	_	_	10	punct	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	Виктория	виктория	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 221
+# text = Работа авторов доступна на сайте ArXiv.org.Для того, чтобы научить компьютер идентифицировать людей по геометрии рук, исследователи попросили 50 мужчин и женщин показать знак "V".
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ArXiv.org	ArXiv.org	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Для	для	ADP	_	_	9	case	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+12	научить	научивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+13	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	идентифицировать	идентифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	dep	_	_
+15	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	геометрии	геометрия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+18	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	попросили	попросить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	50	50	NUM	_	_	23	nummod	_	_
+23	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	23	conj	_	_
+26	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+27	знак	знак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	V	v	NOUN	_	_	27	appos	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 222
+# text = Они сфотографировали его на черном фоне с помощью камеры телефона с разрешением в 8 мегапикселей.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	сфотографировали	сфотографировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	черном	черный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	фоне	фон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	fixed	_	_
+9	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+10	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	8	8	NUM	_	_	15	nummod	_	_
+15	мегапикселей	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 223
+# text = Всего исследователи сделали 500 фотографий.Главной проблемой при изучении снимков было их низкое качество и, как следствие, небольшое количество информации, которое могло было быть получено.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	500	500	NUM	_	_	5	nummod	_	_
+5	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Главной	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	изучении	изучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+11	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+14	низкое	низкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+16	и	и	CCONJ	_	_	22	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	как	как	SCONJ	_	_	19	cc	_	_
+19	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	небольшое	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	conj	_	_
+23	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	которое	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+27	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	aux:pass	_	_
+28	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	aux:pass	_	_
+29	получено	получать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 224
+# text = Поэтому авторы работы ограничили анализ до определения двух конечных точек пальцев, самой низкой точки между ними и двух крайних точек ладони.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ограничили	ограничивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+8	двух	два	NUM	_	Case=Gen	10	nummod	_	_
+9	конечных	конечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	самой	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	низкой	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+16	между	между	ADP	_	_	17	case	_	_
+17	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	15	nmod	_	_
+18	и	и	CCONJ	_	_	21	cc	_	_
+19	двух	два	NUM	_	Case=Gen	21	nummod	_	_
+20	крайних	крайний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	conj	_	_
+22	ладони	ладонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 225
+# text = Далее компьютер построил треугольники, проходящие через различные точки на ладонях, и проанализировал их размер и углы.
+1	Далее	далее	ADV	_	Degree=Pos	3	advmod	_	_
+2	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	построил	строить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	треугольники	треугольник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	проходящие	проходить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	через	через	ADP	_	_	9	case	_	_
+8	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	точки	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	ладонях	ладонь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	проанализировал	проанализировал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+16	размер	размера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	углы	угол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 226
+# text = Также был создан и другой алгоритм, с помощью которого компьютер частично анализировал форму руки по координатам в пространстве.
+1	Также	также	ADV	_	Degree=Pos	3	advmod	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
+10	которого	который	PRON	_	Case=Gen	13	obl	_	_
+11	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	частично	частично	ADV	_	Degree=Pos	13	advmod	_	_
+13	анализировал	анализировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+14	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	координатам	координат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 227

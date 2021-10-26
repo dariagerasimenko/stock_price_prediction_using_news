@@ -1,0 +1,267 @@
+# text = # newpar
+# sent_id = 1381
+# text = Томас Стоун, инженер компании IR-LOCK, сконструировал систему автоматической посадки мультикоптера на площадку с беспроводным зарядным устройством.
+1	Томас	томас	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	Стоун	стоун	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	IR-LOCK	Ir-lock	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сконструировал	конструировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	мультикоптера	мультикоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	с	с	ADP	_	_	18	case	_	_
+16	беспроводным	беспроводной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	зарядным	зарядный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1382
+# text = Подробная инструкция опубликована на портале Hackster.На беспилотник 3DR Solo с установленным программным обеспечением проекта APM:Copter установлен инфракрасный датчик IR-lock.
+1	Подробная	подробный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	инструкция	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Hackster	Hackster	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	На	на	ADP	_	_	9	case	_	_
+9	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+10	3DR	3dr	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Solo	Solo	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	с	с	ADP	_	_	15	case	_	_
+13	установленным	устанавливать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	программным	программный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	обеспечением	обеспечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+16	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	APM:Copter	APM:Copter	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+19	инфракрасный	инфракрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+21	IR	ir	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	-lock	-lock	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1383
+# text = Для наземной взлетно-посадочной площадки использовано готовое решение с встроенным беспроводным зарядным устройством Skysense, а в центре площадку размещен инфракрасный маркер.
+1	Для	для	ADP	_	_	4	case	_	_
+2	наземной	наземный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	площадки	площадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	использовано	использовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	готовое	готовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+8	с	с	ADP	_	_	12	case	_	_
+9	встроенным	встраивать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+10	беспроводным	беспроводной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	зарядным	зарядный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+13	Skysense	Skysense	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	19	cc	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+18	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	размещен	размещать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+20	инфракрасный	инфракрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	маркер	маркер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1384
+# text = Благодаря инфракрасному маркеру дрон может сесть на площадку даже в темное время суток.В опубликованном демонстрационном видео квадрокоптер Solo пролетает над крышей дома и автоматически приземляется на площадку для подзарядки.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	инфракрасному	инфракрасный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	маркеру	маркер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+4	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	сесть	садиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	xcomp	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	даже	даже	PART	_	_	12	advmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	темное	темный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+13	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	19	case	_	_
+16	опубликованном	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+17	демонстрационном	демонстрационный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+19	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	Solo	Solo	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	пролетает	пролетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	над	над	ADP	_	_	23	case	_	_
+23	крышей	крыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+24	дома	дома	ADV	_	Degree=Pos	21	advmod	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	автоматически	автоматически	ADV	_	Degree=Pos	27	advmod	_	_
+27	приземляется	приземляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
+30	для	для	ADP	_	_	29	case	_	_
+31	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 1385
+# text = После того, как батареи заряжены, беспилотник вновь поднимается в воздух.
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+6	заряжены	заряжать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	вновь	вновь	ADV	_	Degree=Pos	10	advmod	_	_
+10	поднимается	подниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1386
+# text = В системе предусмотрен запасной вариант посадки, поэтому если после команды оператора или программы управления полетом сенсор не сможет распознать инфракрасный маркер, то активируется штатная система автономной посадки квадрокоптера.Разработчик в шутку отмечает, что при установке 240 зарядочных станций можно будет использовать подобную систему для перевозки 10 писем через Америку.
+1	В	в	ADP	_	_	2	case	_	_
+2	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	предусмотрен	предусмотрять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	запасной	запасной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+6	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+9	если	если	SCONJ	_	_	3	mark	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+12	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	_
+17	сенсор	сенсор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	advcl	_	_
+20	распознать	распознавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	инфракрасный	инфракрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	маркер	маркер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	то	то	SCONJ	_	_	19	cc	_	_
+25	активируется	активировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+26	штатная	штатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+28	автономной	автономный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	квадрокоптера.	квадрокоптера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl:agent	_	SpaceAfter=No
+31	Разработчик	Разработчик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	appos	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	шутку	шутка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+34	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	что	что	SCONJ	_	_	34	mark	_	_
+37	при	при	ADP	_	_	38	case	_	_
+38	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	nmod	_	_
+39	240	240	NUM	_	_	41	nummod	_	_
+40	зарядочных	зарядочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+42	можно	можно	ADV	_	Degree=Pos	34	advcl	_	_
+43	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	cop	_	_
+44	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	42	nsubj	_	_
+45	подобную	подобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
+47	для	для	ADP	_	_	48	case	_	_
+48	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	nmod	_	_
+49	10	10	NUM	_	_	50	nummod	_	_
+50	писем	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	48	nmod	_	_
+51	через	через	ADP	_	_	52	case	_	_
+52	Америку	америка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	52	punct	_	_
+
+# sent_id = 1387
+# text = При этом стоимость доставки одного письма через всю страну составит 24 цента, что в два раза дешевле, чем стоимость почтовой марки.Для систем автоматической посадки беспилотников используются и другие решения.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+4	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	одного	один	NUM	_	Case=Gen|Gender=Masc	6	nummod	_	_
+6	письма	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	через	через	ADP	_	_	9	case	_	_
+8	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+10	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	24	24	NUM	_	_	12	nummod	_	_
+12	цента	цент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	18	nsubj	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	17	nummod:gov	_	_
+17	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	дешевле	дешевый	ADJ	_	Degree=Cmp	0	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	чем	чем	SCONJ	_	_	21	cc	_	_
+21	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	advmod	_	_
+22	почтовой	почтовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	марки.	марки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl:agent	_	SpaceAfter=No
+24	Для	для	ADP	_	_	25	case	_	_
+25	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+26	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+30	и	и	PART	_	_	31	advmod	_	_
+31	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	29	nsubj:pass	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 1388
+# text = Например, исследователи из Нидерландов разработали метод оценки высоты при помощи камеры оптического потока, а специалисты Цюрихского университета создали квадрокоптер, который может в режиме реального времени строить трехмерную карту местности под собой и на ней выбирать безопасное место для посадки.Николай Воронцов
+1	Например	например	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	Нидерландов	нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	при	при	ADP	_	_	12	case	_	_
+11	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
+12	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+13	оптического	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	20	cc	_	_
+17	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	Цюрихского	Цюрихский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	который	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+27	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	строить	строить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+30	трехмерную	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+32	местности	местность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	под	под	ADP	_	_	34	case	_	_
+34	собой	себя	PRON	_	Case=Ins	32	nmod	_	_
+35	и	и	CCONJ	_	_	38	cc	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	38	obl	_	_
+38	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	conj	_	_
+39	безопасное	безопасной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	_
+41	для	для	ADP	_	_	42	case	_	_
+42	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+45	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	flat:name	_	_
+
+# newpar
+# sent_id = 1389

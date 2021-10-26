@@ -1,0 +1,231 @@
+# text = # newpar
+# sent_id = 3835
+# text = Перспективный аргентинский учебный самолет IA-63 Pampa III совершил первый полет,сообщаетDefense Aerospace.
+1	Перспективный	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	аргентинский	аргентинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	учебный	учебный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	IA-	IA-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	63	63	NUM	_	_	4	nummod	_	_
+7	Pampa	Pampa	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+8	III	iii	NUM	_	_	7	nummod	_	_
+9	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	полет,сообщаетDefense	полет,сообщаетDefense	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Aerospace	Aerospace	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3836
+# text = Подробности состоявшихся испытаний не уточняются; известно только, что они были признаны успешными.
+1	Подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	состоявшихся	остояться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	3	amod	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	_
+7	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	amod	_	_
+8	только	только	PART	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	5	mark	_	_
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+14	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3837
+# text = В ближайшее время самолет пройдет еще серию испытаний, после чего начнется его серийное производство.
+1	В	в	ADP	_	_	3	case	_	_
+2	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	еще	еще	ADV	_	Degree=Pos	7	advmod	_	_
+7	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	12	obl	_	_
+12	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+14	серийное	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3838
+# text = ВВС Аргентины должны получить 40 Pampa III: 18 -- в версии учебных самолетов и 22 -- в учебно-боевой версии.Pampa III является модернизированной версией учебного самолета IA-63, совершившей первой полет в 1984 году.
+1	ВВС	ввс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	Аргентины	Аргентина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	40	40	NUM	_	_	4	nummod	_	_
+6	Pampa	Pampa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	III	iii	NUM	_	_	5	nummod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	18	18	NUM	_	_	7	nummod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+13	учебных	учебный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	22	22	NUM	_	_	0	conj	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	учебно-	учебно-	PUNCT	_	_	0	punct	_	SpaceAfter=No
+20	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	версии.Pampa	версии.Pampa	PROPN	_	Foreign=Yes	23	nsubj	_	_
+22	III	Iii	NUM	_	_	21	nummod	_	_
+23	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+24	модернизированной	модернизированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+26	учебного	учебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	IA-	IA-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	63	63	NUM	_	_	23	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	совершившей	овершить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	29	amod	_	_
+32	первой	первой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	1984	1984	NUM	_	_	36	nummod	_	_
+36	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 3839
+# text = Разработкой самолета занимается аргентинская компания FMA.
+1	Разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	аргентинская	аргентинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	FMA	Fma	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3840
+# text = На самолет установлена система симуляции боевых данных и имитации систем вооружения.
+1	На	на	ADP	_	_	2	case	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	симуляции	симуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	имитации	имитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+10	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3841
+# text = Кроме того, в кабине пилотов Pampa III разработчики установили новые многофункциональные жидкокристаллические дисплеи.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	кабине	кабин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+6	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	Pampa	Pampa	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	III	Iii	NUM	_	_	9	nummod	_	_
+9	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+12	многофункциональные	многофункциональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+13	жидкокристаллические	жидкокристаллический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	дисплеи	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3842
+# text = Наконец, самолет получил систему связи, позволяющую ему обмениваться данным с наземным центром управления и с другими летательными аппаратами.Аргентинский самолет имеет в длину 10,9 метра и размах крыла 9,7 метра.
+1	Наконец	наконец	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	obl	_	_
+10	обмениваться	обмениваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	dep	_	_
+11	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	23	parataxis	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	наземным	наземный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	центром	центр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	20	cc	_	_
+17	с	с	ADP	_	_	20	case	_	_
+18	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+19	летательными	летательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	аппаратами.	аппаратами.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+21	Аргентинский	Аргентинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+26	10,9	10,9	NUM	_	_	27	nummod	_	_
+27	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+30	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	9,7	9,7	NUM	_	_	32	nummod	_	_
+32	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3843
+# text = Его максимальная взлетная масса составляет пять тонн.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+2	максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	пять	пять	NUM	_	Case=Acc	7	nummod:gov	_	_
+7	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3844
+# text = Pampa III способен развивать скорость до 819 километров в час и выполнять полеты на расстояние до 1,5 тысячи километров.
+1	Pampa	Pampa	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	III	Iii	NUM	_	_	1	nummod	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+6	до	до	ADP	_	_	5	case	_	_
+7	819	819	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+13	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+14	на	на	ADP	_	_	13	case	_	_
+15	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	1,5	1,5	NUM	_	_	18	nummod	_	_
+18	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nummod:gov	_	_
+19	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3845
+# text = Учебно-боевая версия IA-63 оснащена 30-миллиметровой пушкой и оснащена пятью точками подвески для ракет и бомб разных типов.
+1	Учебно-боевая	Учебно-боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	IA-	IA-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	63	63	NUM	_	_	2	nummod	_	_
+5	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	30-миллиметровой	30-миллиметровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	пушкой	пушка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	оснащена	оснаскать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+10	пятью	пять	NUM	_	Case=Ins	11	nummod	_	_
+11	точками	точка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	_
+12	подвески	подвеска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	бомб	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	_
+17	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# newpar
+# sent_id = 3846

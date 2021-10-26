@@ -1,0 +1,300 @@
+# text = # newpar
+# sent_id = 1937
+# text = Ученые изУниверситета Эксетера иМедицинской школы при Гарвардском Университете обнаружили связь между ростом ивесом людей иихсоциально-экономическим статусом.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	изУниверситета	изУниверситет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Эксетера	Эксетер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	иМедицинской	иМедицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	при	при	ADP	_	_	8	case	_	_
+7	Гарвардском	Гарвардский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	Университете	университет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+9	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	между	между	ADP	_	_	12	case	_	_
+12	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+13	ивесом	ивес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	_
+14	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	иихсоциально-экономическим	иихсоциально-экономический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	статусом	статус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 1938
+# text = Обэтом сообщается вBritish Medical Journal.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вBritish	вBritish	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Medical	Medical	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Journal	journal	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 1939
+# text = Исследователи собрали генетические данные, индексы массы тела (ИМТ) иданные оросте более 119 тысяч человек ввозрасте от37до73лет.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	генетические	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	индексы	индекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+7	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	ИМТ	Имт	ADJ	_	_	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	иданные	иданный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	оросте	оровствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	более	более	ADV	_	Degree=Cmp	16	nummod:gov	_	_
+15	119	119	NUM	_	_	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+17	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	от37до73лет	от37до73лет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1940
+# text = Это информация была полученна спомощью организации UKBiobank.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	полученна	лученть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	UKBiobank	UKBiobank	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1941
+# text = Для проведения анализа ученые использовали метод менделевской рандомизации-- этот математический метод обычно использует изученные генетические вариации известных функций для оценки ихвлияния наразвитие какого-либо заболевания.
+1	Для	для	ADP	_	_	2	case	_	_
+2	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	менделевской	менделевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	рандомизации	рандомизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+12	математический	математический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	обычно	обычно	ADV	_	Degree=Pos	15	advmod	_	_
+15	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	изученные	изучять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	генетические	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	вариации	вариация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+19	известных	известной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+23	ихвлияния	ихвлияние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	наразвитие	наразвитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+25	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Neut|Number=Sing	26	amod	_	_
+26	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 1942
+# text = Социально-экономический статус оценивался при помощи пяти переменных: возраст, вкотором человек закончил получать образование, уровень образования, квалификационный разряд работника, годовой семейный доход ииндекс депривации Таунсенда.
+1	Социально-экономический	Социально-экономический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	статус	статус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	оценивался	оценивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	при	при	ADP	_	_	7	case	_	_
+5	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	пяти	пять	NUM	_	Case=Gen	7	nummod	_	_
+7	переменных	переменная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вкотором	вкотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	закончил	закончать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	_
+18	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	квалификационный	квалификационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	разряд	разряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+22	работника	работник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	годовой	годовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	семейный	семейный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	доход	доход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	conj	_	_
+27	ииндекс	ииндекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+28	депривации	депривация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	Таунсенда	Таунсенд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 1943
+# text = Врезультате исследователи обнаружили, что невысокий рост, особенно умужчин, связан сболее низким уровнем образования идохода, атакже схудшей квалификацией.
+1	Врезультате	Врезультате	PART	_	_	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	невысокий	невысокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	особенно	особенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	умужчин	умужчин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+13	сболее	сболее	ADV	_	Degree=Pos	14	advmod	_	_
+14	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+16	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	идохода	идоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	атакже	атакже	CCONJ	_	_	21	cc	_	_
+20	схудшей	схудать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	amod	_	_
+21	квалификацией	квалификация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1944
+# text = Кроме того, ученые заметили, что женщины сболее высоким ИМТ также имеют меньший доход иболее высокий уровень материальной депривации.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	заметили	замечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	женщины	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+9	сболее	сболее	ADV	_	Degree=Pos	10	advmod	_	_
+10	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ИМТ	Имт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+14	меньший	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	доход	доход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	иболее	иболее	ADV	_	Degree=Pos	17	advmod	_	_
+17	высокий	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+19	материальной	материальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	депривации	депривация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 1945
+# text = Всреднем, поданным генетического анализа, мужчины, которые были на6,3 сантиметра выше среднего имели годовой доход больше почти на 1130 фунтов стерлингов (около 112 тысяч рублей).
+1	Всреднем	Всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	поданным	поданный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	conj	_	_
+4	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+11	на6,3	на6,3	NUM	_	_	12	nummod	_	_
+12	сантиметра	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	acl:relcl	_	_
+13	выше	высокий	ADJ	_	Degree=Cmp	15	nmod	_	_
+14	среднего	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
+15	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+16	годовой	годовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	доход	доход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	больше	больше	ADV	_	Degree=Cmp	19	advmod	_	_
+19	почти	почти	ADV	_	Degree=Pos	22	advmod	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	1130	1130	NUM	_	_	22	nummod	_	_
+22	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+23	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	около	около	ADP	_	_	27	case	_	_
+26	112	112	NUM	_	_	27	nummod	_	_
+27	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	parataxis	_	_
+28	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1946
+# text = Уженщин 4,8 килограмма лишнего веса "съела" около 1890 фунтов стерлингов (около 180 тысяч рублей).По мнению ученых, вряд ли только эти факторы оказывают влияние на социально-экономический статус людей -- с положением человека в обществе могут быть связаны также и самооценка, социальная стигматизация (фактически, стереотипы), позитивная дискриминация и общий уровень интеллекта.
+1	Уженщин	Уженщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
+2	4,8	4,8	NUM	_	_	3	nummod	_	_
+3	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	лишнего	лишний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	съела	ъеть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	около	около	ADP	_	_	11	case	_	_
+10	1890	1890	NUM	_	_	11	nummod	_	_
+11	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+12	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	около	около	ADP	_	_	16	case	_	_
+15	180	180	NUM	_	_	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	parataxis	_	_
+17	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	По	по	ADP	_	_	21	case	_	_
+21	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	parataxis	_	_
+22	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	вряд	вряд	ADV	_	Degree=Pos	26	advmod	_	_
+25	ли	ли	PART	_	_	24	fixed	_	_
+26	только	только	PART	_	_	28	advmod	_	_
+27	эти	этот	DET	_	Case=Nom|Number=Plur	28	amod	_	_
+28	факторы	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	оказывают	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	социально-экономический	социально-экономический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	_
+34	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	--	--	PUNCT	_	_	34	punct	_	_
+36	с	с	ADP	_	_	37	case	_	_
+37	положением	положение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	29	obl	_	_
+38	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	обществе	общество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	nmod	_	_
+41	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
+42	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	43	aux:pass	_	_
+43	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	41	xcomp	_	_
+44	также	также	ADV	_	Degree=Pos	43	advmod	_	_
+45	и	и	PART	_	_	46	advmod	_	_
+46	самооценка	самооценка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	социальная	социальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	стигматизация	стигматизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	conj	_	_
+50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
+51	фактически	фактически	ADV	_	Degree=Pos	53	parataxis	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	стереотипы	стереотип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	49	parataxis	_	SpaceAfter=No
+54	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	53	punct	_	_
+56	позитивная	позитивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_
+57	дискриминация	дискриминация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	conj	_	_
+58	и	и	CCONJ	_	_	60	cc	_	_
+59	общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	60	amod	_	_
+60	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_
+61	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 1947
+# text = Тем не менее, они указывают, что между ИМТ, ростом и социально-экономическим статусом наблюдается видимая связь.Кристина Уласович
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	указывают	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	между	между	ADP	_	_	15	case	_	_
+10	ИМТ	Имт	ADJ	_	_	15	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	социально-экономическим	социально-экономический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
+15	статусом	статус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+16	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
+17	видимая	видимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Кристина	кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_
+21	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+
+# newpar
+# sent_id = 1948

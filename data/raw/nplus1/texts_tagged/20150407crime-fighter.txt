@@ -1,0 +1,541 @@
+# text = # newpar
+# sent_id = 659
+# text = Математики из Австралии и Малайзии создали алгоритм анализа социальных графов, который позволяет выделять небольшие "подсети" связей между подозреваемыми в преступлении по их электронной переписке.
+1	Математики	математик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Малайзии	Малайзия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	социальных	социальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	графов	граф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+14	выделять	выделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	подсети	подсеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	между	между	ADP	_	_	27	case	_	_
+21	подозреваемыми	подозревать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	27	amod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	преступлении	преступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+24	по	по	ADP	_	_	27	case	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	27	nmod	_	_
+26	электронной	электронный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	переписке	переписка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 660
+# text = Новый метод протестировали на базе электронной почты корпорации Enron, обанкротившейся в 2001 году.
+1	Новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	протестировали	тестировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	электронной	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	почты	почта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	корпорации	корпорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	Enron	enron	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	обанкротившейся	обанкротяться	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	0	amod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	2001	2001	NUM	_	_	14	nummod	_	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 661
+# text = Также авторы продемонстрировали преимущество своего алгоритма по сравнению с другими известными подходами к этой задаче.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	продемонстрировали	демонстрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+5	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	по	по	ADP	_	_	12	case	_	_
+8	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	fixed	_	_
+9	с	с	ADP	_	_	8	fixed	_	_
+10	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+11	известными	известный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	подходами	подход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+13	к	к	ADP	_	_	15	case	_	_
+14	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_	_
+15	задаче	задача	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 662
+# text = Преприт работы выложен на сайте arxiv.org.Предложенный алгоритм (SPNSA: shortest paths network search algorithm) использует следующий подход: выделяют список ключевых адресов (в него входят или подозреваемые или просто определенный круг людей, например, только финансовые-менеджеры или только топ-менеджеры); для каждого адреса строится "эго-сеть", то есть граф всех его корреспондентов.
+1	Преприт	Преприт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	выложен	выкладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	arxiv.org	arxiv.org	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Предложенный	предлагать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	SPNSA	Spnsa	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	shortest	shortest	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	paths	paths	X	_	Foreign=Yes	13	flat:foreign	_	_
+15	network	network	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	search	search	X	_	Foreign=Yes	15	flat:foreign	_	_
+17	algorithm	algorithm	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+20	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	выделяют	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	_
+24	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+25	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	адресов	адрес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	в	в	ADP	_	_	29	case	_	_
+29	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obl	_	_
+30	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	подозреваемые	подозревать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	30	conj	_	_
+33	или	или	CCONJ	_	_	36	cc	_	_
+34	просто	просто	PART	_	_	35	advmod	_	_
+35	определенный	определенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	круг	круг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	conj	_	_
+37	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	например	например	ADV	_	Degree=Pos	42	parataxis	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	только	только	PART	_	_	42	advmod	_	_
+42	финансовые-менеджеры	финансовые-менеджер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+43	или	или	CCONJ	_	_	45	cc	_	_
+44	только	только	PART	_	_	45	advmod	_	_
+45	топ-менеджеры	топменеджер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	42	conj	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	;	;	PUNCT	_	_	45	punct	_	_
+48	для	для	ADP	_	_	50	case	_	_
+49	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	адреса	адрес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	obl	_	_
+51	строится	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	parataxis	_	_
+52	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	эго-сеть	эго-сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj:pass	_	SpaceAfter=No
+54	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	53	punct	_	_
+56	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	58	mark	_	_
+57	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	56	fixed	_	_
+58	граф	граф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	53	parataxis	_	_
+59	всех	весь	DET	_	Case=Gen|Number=Plur	61	amod	_	_
+60	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	61	nmod	_	_
+61	корреспондентов	корреспондент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	58	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	61	punct	_	_
+
+# sent_id = 663
+# text = В рамках этого графа выделяется адрес-посредник (Middle Man, MM, по критерию наибольшей центральности по посредничеству) и самый влиятельный адрес (Most Influential, MI, с самой большой центральностью собственного вектора).
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	графа	граф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	выделяется	выделявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	адрес-посредник	адрес-посредник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Middle	Middle	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Man	Man	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	MM	Mm	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	критерию	критерий	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+15	наибольшей	наибольший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	центральности	центральность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	посредничеству	посредничество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	влиятельный	влиятельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	адрес	адрес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Most	Most	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+26	Influential	Influential	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	MI	Mi	NUM	_	_	25	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	с	с	ADP	_	_	33	case	_	_
+31	самой	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	центральностью	центральность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	nmod	_	_
+34	собственного	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	вектора	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 664
+# text = Далее выбираются кратчайшие связи между "эго", MM, MI и другими адресами из первого списка.
+1	Далее	далее	ADV	_	Degree=Pos	2	advmod	_	_
+2	выбираются	выбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	кратчайшие	краткий	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	4	amod	_	_
+4	связи	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+5	между	между	ADP	_	_	10	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	эго	эй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	MM	Mm	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	MI	Mi	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	адресами	адрес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 665
+# text = После проведения такой процедуры для каждого адреса из первого списка авторы строят подграф, содержащий все отобранные связи.Ученые начинали свой анализ с очистки базы электронных писем от "лишних" адресов: @amazon.com, @aircanada.com и т.п.
+1	После	после	ADP	_	_	2	case	_	_
+2	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+3	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	адреса	адрес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+11	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	строят	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	подграф	подграф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	содержащий	содержать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+16	все	весь	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+17	отобранные	отбирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	связи.	связией	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	Ученые	Ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+20	начинали	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+21	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
+22	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+25	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	писем	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+28	от	от	ADP	_	_	32	case	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	лишних	лишний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	адресов	адрес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	32	punct	_	_
+34	@amazon.com	@amazon.com	X	_	Foreign=Yes	32	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	@aircanada.com	@aircanada.com	X	_	Foreign=Yes	34	flat:foreign	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	т.п	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 666
+# text = Они удаляли ящики для автоматической рассылки, адреса с цифрами вида 235643@...
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	удаляли	удалять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ящики	ящик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	obl	_	_
+4	для	для	ADP	_	_	3	case	_	_
+5	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	рассылки	рассылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	адреса	адрес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	цифрами	цифра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	_
+11	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	235643@.	235643@.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 667
+# text = и так далее.
+1	и	и	CCONJ	_	_	3	cc	_	_
+2	так	так	ADV	_	Degree=Pos	3	fixed	_	_
+3	далее	далее	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 668
+# text = После этого они делили базу на две группы по наличию в письмах скрытой копии (bcc:).
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	делили	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	8	nummod:gov	_	_
+8	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	наличию	наличие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	письмах	письмо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	_
+13	скрытой	скрытый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	копии	копия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	bcc	bcc	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 669
+# text = Авторы аргументируют этот шаг тем, что подобные письма часто содержат наиболее важную или приватную информацию, поэтому их анализ позволяет лучше проследить, насколько тесна связь между адресатами.По двум группам -- со скрытой копией (BCC) и без (TO&CC) -- авторы строили графы связей между почтовыми адресами: с учетом "направления" писем (ориентированный граф) и без (неориентированный граф).
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	аргументируют	аргументировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
+4	шаг	шаг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	письма	письмо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+10	часто	часто	ADV	_	Degree=Pos	11	advmod	_	_
+11	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+12	наиболее	наиболее	ADV	_	Degree=Pos	13	advmod	_	_
+13	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	приватную	приватный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	_
+16	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	поэтому	поэтому	ADV	_	Degree=Pos	21	advmod	_	_
+19	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+20	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	лучше	хорошо	ADV	_	Degree=Cmp	23	advmod	_	_
+23	проследить	прослеживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	насколько	насколько	ADV	_	Degree=Pos	26	advmod	_	_
+26	тесна	тесный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	21	advcl	_	_
+27	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+28	между	между	ADP	_	_	29	case	_	_
+29	адресатами	адресата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	По	по	ADP	_	_	33	case	_	_
+32	двум	два	NUM	_	Case=Dat	33	nummod	_	_
+33	группам	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	27	nmod	_	_
+34	--	--	PUNCT	_	_	33	punct	_	_
+35	со	с	ADP	_	_	37	case	_	_
+36	скрытой	скрытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	копией	копия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	nmod	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	BCC	Bcc	PROPN	_	Foreign=Yes	37	parataxis	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	без	без	ADP	_	_	26	conj	_	_
+43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	TO&CC)	TO&CC)	PUNCT	_	_	47	punct	_	_
+45	--	--	PUNCT	_	_	47	punct	_	_
+46	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	47	nsubj	_	_
+47	строили	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	42	parataxis	_	_
+48	графы	граф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	52	obj	_	_
+49	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	52	nmod	_	_
+50	между	между	ADP	_	_	52	case	_	_
+51	почтовыми	почтовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	52	amod	_	_
+52	адресами	адрес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	47	obl	_	SpaceAfter=No
+53	:	:	PUNCT	_	_	52	punct	_	_
+54	с	с	ADP	_	_	55	case	_	_
+55	учетом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	65	nmod	_	_
+56	"	"	PUNCT	_	_	57	punct	_	SpaceAfter=No
+57	направления	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	55	nmod	_	SpaceAfter=No
+58	"	"	PUNCT	_	_	57	punct	_	_
+59	писем	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	57	nmod	_	_
+60	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
+61	ориентированный	ориентировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	62	amod	_	_
+62	граф	граф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	59	parataxis	_	SpaceAfter=No
+63	)	)	PUNCT	_	_	62	punct	_	_
+64	и	и	CCONJ	_	_	65	cc	_	_
+65	без	без	ADP	_	_	52	case	_	_
+66	(	(	PUNCT	_	_	67	punct	_	SpaceAfter=No
+67	неориентированный	неориентированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	68	amod	_	_
+68	граф	граф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	65	parataxis	_	SpaceAfter=No
+69	)	)	PUNCT	_	_	68	punct	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	68	punct	_	_
+
+# sent_id = 670
+# text = На полученных четырех графах строили дальнейший анализ.
+1	На	на	ADP	_	_	4	case	_	_
+2	полученных	лучить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	четырех	четыре	NUM	_	_	4	nummod	_	_
+4	графах	граф	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+5	строили	строать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	дальнейший	дальнейший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 671
+# text = Расматривали 3 возможных сценария: 1) аналитик знает личности преступников или хотя бы ключевых подозреваемых; 2) известны все преступники, кроме одного; 3) личности преступников неизвестны.
+1	Расматривали	Расматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	3	3	NUM	_	_	4	nummod	_	_
+3	возможных	возможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	сценария	сценарий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	1)	1)	PUNCT	_	_	4	punct	_	_
+7	аналитик	аналитик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+9	личности	личность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	преступников	преступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	или	или	CCONJ	_	_	15	cc	_	_
+12	хотя	хотя	PART	_	_	15	advmod	_	_
+13	бы	бы	PART	_	_	12	fixed	_	_
+14	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	подозреваемых	подозреваемый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	15	punct	_	_
+17	2	2	NUM	_	_	9	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	conj	_	_
+20	все	весь	DET	_	Case=Nom|Number=Plur	21	amod	_	_
+21	преступники	преступник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	кроме	кроме	ADP	_	_	24	case	_	_
+24	одного	один	NUM	_	Case=Gen|Gender=Masc	19	conj	_	SpaceAfter=No
+25	;	;	PUNCT	_	_	24	punct	_	_
+26	3	3	NUM	_	_	28	nummod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	личности	личность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nsubj	_	_
+29	преступников	преступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 672
+# text = Во всех случаях авторы использовали свой алгоритм и сравнивали его с другими популярными методами.
+1	Во	в	ADP	_	_	3	case	_	_
+2	всех	весь	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+11	с	с	ADP	_	_	14	case	_	_
+12	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+13	популярными	популярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 673
+# text = Полученные подграфы анализировали по количеству вершин (чем их меньше, тем проще дальнейший "ручной анализ") и наличию в них наибольшего числа известных преступников (из списка обвиненных по делу Enron).Во всех случаях оказалось, что подграфы, полученные при помощи SPNSA, содержали меньше вершин, но больше преступников из первого списка (семь из десяти или больше).
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	подграфы	подграф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	анализировали	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	количеству	количество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+6	вершин	вершина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	чем	чем	SCONJ	_	_	10	cc	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	меньше	мало	NUM	_	_	0	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	тем	тем	SCONJ	_	_	0	mark	_	_
+13	проще	просто	ADV	_	Degree=Cmp	14	advmod	_	_
+14	дальнейший	дальнейший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ручной	ручной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	17	punct	_	_
+20	и	и	CCONJ	_	_	23	cc	_	_
+21	наличию	наличию	ADV	_	Degree=Pos	23	advmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	40	obl	_	_
+24	наибольшего	наибольший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+26	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	преступников	преступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	из	из	ADP	_	_	30	case	_	_
+30	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+31	обвиненных	обвинять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+32	по	по	ADP	_	_	33	case	_	_
+33	делу	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	31	obl	_	_
+34	Enron	enron	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+37	Во	в	ADP	_	_	39	case	_	_
+38	всех	весь	DET	_	Case=Loc|Number=Plur	39	amod	_	_
+39	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	_
+40	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	что	что	SCONJ	_	_	40	mark	_	_
+43	подграфы	подграф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	50	nsubj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_
+46	при	при	ADP	_	_	48	case	_	_
+47	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	46	fixed	_	_
+48	SPNSA	Spnsa	PROPN	_	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	содержали	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	_
+51	меньше	мало	NUM	_	_	52	nummod:gov	_	_
+52	вершин	вершина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	50	obl	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	но	но	CCONJ	_	_	56	cc	_	_
+55	больше	много	NUM	_	_	56	nummod:gov	_	_
+56	преступников	преступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	50	conj	_	_
+57	из	из	ADP	_	_	59	case	_	_
+58	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	59	amod	_	_
+59	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	56	nmod	_	_
+60	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
+61	семь	семь	NUM	_	Case=Nom	65	nsubj	_	_
+62	из	из	ADP	_	_	63	case	_	_
+63	десяти	десять	NUM	_	Case=Gen	61	nummod	_	_
+64	или	или	CCONJ	_	_	65	cc	_	_
+65	больше	больше	ADV	_	Degree=Cmp	59	parataxis	_	SpaceAfter=No
+66	)	)	PUNCT	_	_	65	punct	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	65	punct	_	_
+
+# sent_id = 674
+# text = Авторы делают вывод, что их алгоритм позволяет значительно упростить процедуру анализа социальных связей при расследовании преступлений, совершенных группой лиц.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вывод	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	2	mark	_	_
+6	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	значительно	значительно	ADV	_	Degree=Pos	10	advmod	_	_
+10	упростить	упрощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	процедуру	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	социальных	социальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	расследовании	расследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+17	преступлений	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	совершенных	совершенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+21	лиц	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 675
+# text = Поскольку новый метод не анализирует сам текст письма, он также оказывается одним из самых быстрых алгоритмов на сегодняшний день.
+1	Поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+2	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	анализирует	анализиревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+6	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+8	письма	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	_
+12	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	одним	один	NUM	_	Case=Ins|Gender=Masc	12	nummod	_	_
+14	из	из	ADP	_	_	17	case	_	_
+15	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# newpar
+# sent_id = 676

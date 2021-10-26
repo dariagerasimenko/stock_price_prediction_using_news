@@ -1,0 +1,224 @@
+# text = # newpar
+# sent_id = 3264
+# text = Российские археологи обнаружили на берегу озера Байкал парное захоронение мужчины и женщины.
+1	Российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	берегу	берег	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	озера	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Байкал	байкал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	парное	парный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	захоронение	захоронение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	_
+10	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3265
+# text = В захоронении также были найдены артефакты из редкого белого нефрита.
+1	В	в	ADP	_	_	2	case	_	_
+2	захоронении	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	из	из	ADP	_	_	10	case	_	_
+8	редкого	редкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	нефрита	нефрит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3266
+# text = Ученые оценивают возраст останков в 4000-5000 лет.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	оценивают	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	возраст	возраст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	останков	останки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	в	в	ADP	_	_	9	case	_	_
+6	4000	4000	NUM	_	_	9	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	5000	5000	NUM	_	_	6	nummod	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3267
+# text = О находке сообщает Siberian Times.
+1	О	о	ADP	_	_	2	case	_	_
+2	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Siberian	Siberian	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Times	times	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 3268
+# text = Исследователи обнаружили захоронение этим летом на мысу Малого моря (пролива, который образуют берег Байкала и остров Ольхон).
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	захоронение	захоронение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	5	amod	_	_
+5	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	мысу	мыса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+8	Малого	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	пролива	проливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	образуют	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	берег	берег	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	Байкала	байкал	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	остров	остр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	_
+19	Ольхон	ольхон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 3269
+# text = Археологи предполагают, что останки принадлежат пожилому мужчине и его жене или наложнице, представителям глазковской культуры Бронзового века, распространенной в Прибайкалье 4800-4300 лет назад.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	останки	останк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	принадлежат	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	пожилому	пожилый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	мужчине	мужчина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	жене	жена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	conj	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	наложнице	наложница	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	представителям	представитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	conj	_	_
+16	глазковской	глазковский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	Бронзового	Бронзовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	распространенной	распространять	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Прибайкалье	прибайкалье	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
+24	4800	4800	NUM	_	_	27	nummod	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	4300	4300	NUM	_	_	24	nummod	_	_
+27	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+28	назад	назад	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3270
+# text = В глазнице мужского скелета ученые нашли кольцо, сделанное из белого нефрита.
+1	В	в	ADP	_	_	2	case	_	_
+2	глазнице	глазница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	мужского	мужской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сделанное	делать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	нефрита	нефрит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 3271
+# text = Еще три кольца лежали у него на груди.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	три	три	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	кольца	колец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	лежали	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	груди	грудь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3272
+# text = По мнению археологов, они могли быть связаны с представлениями древних людей о загробной жизни.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	_
+3	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	aux:pass	_	_
+8	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	представлениями	представление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	_
+11	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	о	о	ADP	_	_	15	case	_	_
+14	загробной	загробный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3273
+# text = В коленях скелета нашли кожаный мешочек с металлическими инструментами неизвестного назначения.
+1	В	в	ADP	_	_	2	case	_	_
+2	коленях	колено	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+3	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кожаный	кожаный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	мешочек	мешочек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	металлическими	металлический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	инструментами	инструмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	_
+10	неизвестного	неизвестный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3274
+# text = На черепе и на ногах мужчины были подвески из зубов мускусного и благородного оленей.
+1	На	на	ADP	_	_	2	case	_	_
+2	черепе	череп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	ногах	нога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	conj	_	_
+6	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+8	подвески	подвески	ADV	_	Degree=Pos	10	advmod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	зубов	зуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+11	мускусного	мускусный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	благородного	благородный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
+14	оленей	олень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 3275
+# text = По-видимому, подвески украшали головной убор и обувь.
+1	По-видимому	по-видимому	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	подвески	подвески	ADV	_	Degree=Pos	4	advmod	_	_
+4	украшали	украшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	головной	головной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	убор	убор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	обувь	обувь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3276
+# text = Рядом с женским скелетом лежал нефритовый нож около 13 сантиметров в длину и семи сантиметров в ширину.
+1	Рядом	рядом	ADV	_	Degree=Pos	5	advmod	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	женским	женский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	скелетом	скелет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+5	лежал	лежать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	нефритовый	нефритовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	нож	нож	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	около	около	ADP	_	_	10	case	_	_
+9	13	13	NUM	_	_	10	nummod	_	_
+10	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	семи	семь	NUM	_	Case=Gen	15	nummod	_	_
+15	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	ширину	ширина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 3277

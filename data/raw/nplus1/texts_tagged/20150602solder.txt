@@ -1,0 +1,500 @@
+# text = # newpar
+# sent_id = 1374
+# text = Главное контрольно-финансовое управление (GAO) передало Конгрессу США отчет о состоянии действующей наземной системы противоракетной обороны GMD.
+1	Главное	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+2	контрольно-	контрольно-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	финансовое	финансовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	GAO	Gao	PROPN	_	Foreign=Yes	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	передало	передавать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	Конгрессу	конгресс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+10	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	_
+11	отчет	отчь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+14	действующей	действовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+15	наземной	наземной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+16	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	GMD	GMd	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1375
+# text = КакпишетThe Los Angeles Times, в системе обнаружены две серьезных уязвимости, которые могут существенно снизить эффективность GMD.
+1	КакпишетThe	КакпишетThe	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+2	Los	Los	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Angeles	Angeles	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Times	times	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+8	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	две	два	NUM	_	Case=Nom|Gender=Fem	11	nummod:gov	_	_
+10	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	уязвимости	уязвимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	существенно	существенно	ADV	_	Degree=Pos	16	advmod	_	_
+16	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	GMD	GMd	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1376
+# text = Одной из таких уязвимостей является коррозия припоя, использованного для скрепления соединений внутренней проводки ракет-перехватчиков.По данным GAO, поставщик концерна Boeing, занимающегося производством противоракет, передавал компании припой измененного состава.
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem	5	nummod	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	таких	такой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	уязвимостей	уязвимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	коррозия	коррозия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	припоя	припой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	использованного	использовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	скрепления	скрепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	внутренней	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	проводки	проводка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	ракет-	ракет-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	перехватчиков.	перехватчиковек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+17	По	по	ADP	_	_	18	case	_	_
+18	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	14	parataxis	_	_
+19	GAO	Gao	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	поставщик	поставщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+22	концерна	концерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	занимающегося	заниматься	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	27	amod	_	_
+26	производством	производство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	_
+27	противоракет	противоракет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	передавал	передавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+30	компании	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obj	_	_
+31	припой	припа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
+32	измененного	изменать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1377
+# text = Этот припой может корродировать в условиях повышенной влажности.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	припой	припой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	корродировать	корродировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+7	повышенной	повышенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	влажности	влажность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 1378
+# text = Этот сплав использовался для спайки соединений электропроводки, обеспечивающей электроэнергией системы наведения противоракет GMD.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	сплав	сплав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	спайки	спайка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	электропроводки	электропроводка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	обеспечивающей	обеспечивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	электроэнергией	электроэнергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	_
+11	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+12	наведения	наведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	противоракет	противоракть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+14	GMD	GMd	PROPN	_	Foreign=Yes	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1379
+# text = Этот же припой использовался и для соединения кабелей передачи информации в систему наведения.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	припой	припой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	соединения	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	conj	_	_
+8	кабелей	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+13	наведения.	наведения.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+
+# sent_id = 1380
+# text = В Boeing заявили, что уведомили об уязвимости Агентство противоракетной обороны США еще в прошлом году, однако военные посчитали, что никаких экстренных мер принимать не надо.
+1	В	в	ADP	_	_	2	case	_	_
+2	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	уведомили	уведомать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
+7	об	о	ADP	_	_	8	case	_	_
+8	уязвимости	уязвимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	Агентство	Агентство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+10	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	_
+13	еще	еще	ADV	_	Degree=Pos	16	advmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	однако	однако	ADV	_	Degree=Pos	20	advmod	_	_
+19	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	посчитали	считать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	никаких	никакой	DET	_	Case=Gen|Number=Plur	25	amod	_	_
+24	экстренных	экстренный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	мер	мера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+26	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	надо	надо	ADV	_	Degree=Pos	20	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 1381
+# text = Кроме того, в агентстве заявили, что исправление уязвимостей уже принятых на вооружение противракет может значительно сдвинуть сроки производства новых.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	агентстве	агентство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+6	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	исправление	исправление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+10	уязвимостей	уязвимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	уже	уже	ADV	_	Degree=Pos	12	advmod	_	_
+12	принятых	принимать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+15	противракет	противракть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+16	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+17	значительно	значительно	ADV	_	Degree=Pos	18	advmod	_	_
+18	сдвинуть	сдвитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+19	сроки	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+20	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1382
+# text = В общей сложности, неправильный припой был использован при производстве десяти противоракет, вставших на дежурство в 2009-2010 годах, и еще восьми, готовящихся к передаче военным в 2015 году.Вторая уязвимость представляет собой нестабильную работу управляющих ракетных микродвигателей боевой части противоракеты, которая отвечает за непосредственное поражение баллистических ракет противника в полете.
+1	В	в	ADP	_	_	3	case	_	_
+2	общей	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	неправильный	неправильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	припой	припой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	использован	использовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+11	десяти	десять	NUM	_	Case=Gen	10	nummod	_	_
+12	противоракет	противоракть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вставших	вставать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	дежурство	дежурство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	2009	2009	NUM	_	_	20	nummod	_	SpaceAfter=No
+19	-2010	-2010	NUM	_	_	20	nummod	_	_
+20	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	еще	еще	ADV	_	Degree=Pos	24	advmod	_	_
+24	восьми	восемь	NUM	_	Case=Gen	12	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	готовящихся	готовиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	29	amod	_	_
+27	к	к	ADP	_	_	28	case	_	_
+28	передаче	передача	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+29	военным	военный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	2015	2015	NUM	_	_	32	nummod	_	_
+32	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+33	Вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	уязвимость	уязвимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+35	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+36	собой	себя	PRON	_	Case=Ins	35	dep	_	_
+37	нестабильную	нестабильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+39	управляющих	управлять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	41	amod	_	_
+40	ракетных	ракетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	микродвигателей	микродвигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+42	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+44	противоракеты	противоракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	которая	который	PRON	_	Case=Nom	47	nsubj	_	_
+47	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	acl:relcl	_	_
+48	за	за	ADP	_	_	50	case	_	_
+49	непосредственное	непосредственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	50	amod	_	_
+50	поражение	поражение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	47	obl	_	_
+51	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+52	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	50	nmod	_	_
+53	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+54	в	в	ADP	_	_	55	case	_	_
+55	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 1383
+# text = Каждая боевая часть противоракеты GMD имеет по четыре таких микродвигателя.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	боевая	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	противоракеты	противоракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	GMD	GMd	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	по	по	ADP	_	_	10	case	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+9	таких	такой	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	микродвигателя	микродвигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 1384
+# text = В чем именно заключается нестабильность работы силовых установок управления, неизвестно; информация засекречена.
+1	В	в	ADP	_	_	2	case	_	_
+2	чем	что	PRON	_	Case=Loc	4	obl	_	_
+3	именно	именно	PART	_	_	4	advmod	_	_
+4	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	нестабильность	нестабильность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	силовых	силовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	установок	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	11	punct	_	_
+13	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+14	засекречена	засекречивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1385
+# text = Известно только, что неполадки микродвигателей существенно снижают вероятность перехвата баллистических ракет.Агентству противоракетной обороны США об этой уязвимости было известно с конца 2012 года.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	только	только	PART	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	1	mark	_	_
+5	неполадки	неполадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+6	микродвигателей	микродвигатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	существенно	существенно	ADV	_	Degree=Pos	8	advmod	_	_
+8	снижают	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+10	перехвата	перехват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+11	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	nmod	_	_
+12	ракет.	ракето	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+13	Агентству	агентство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nsubj	_	_
+14	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	15	nmod	_	_
+17	об	о	ADP	_	_	19	case	_	_
+18	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	amod	_	_
+19	уязвимости	уязвимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+20	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	conj	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	2012	2012	NUM	_	_	25	nummod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1386
+# text = Ведомство намеревалось в течение нескольких лет полностью заменить микродвигатели на противоракетах новыми, однако этот план был отменен в ноябре 2013 года.
+1	Ведомство	ведомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	намеревалось	намеревать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	6	nummod	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	полностью	полностью	ADV	_	Degree=Pos	8	advmod	_	_
+8	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+9	микродвигатели	микродвигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	противоракетах	противоракет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+12	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	однако	однако	ADV	_	Degree=Pos	18	advmod	_	_
+15	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	план	план	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	отменен	отменять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	2013	2013	NUM	_	_	22	nummod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 1387
+# text = Причиной этого стали провальные испытания альтернативного управляющего ракетного микродвигателя.
+1	Причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	провальные	провальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+6	альтернативного	альтернативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	управляющего	управляющий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	ракетного	ракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	микродвигателя	микродвигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1388
+# text = Такую уязвимость имеют все 33 противоракеты системы GMD, расположенные на авиабазе "Ванденберг" в Калифорнии и "Форт-Грили" на Аляске.Система противоракетной обороны GMD, хотя и принята на вооружение, все еще находится в разработке.
+1	Такую	такой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	уязвимость	уязвимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	все	все	PART	_	_	5	advmod	_	_
+5	33	33	NUM	_	_	6	nummod	_	_
+6	противоракеты	противоракет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	GMD	GMd	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	расположенные	расположенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	nsubj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	авиабазе	авиабаза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Ванденберг	Ванденберг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Форт-Грили	Форт-Грять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	Аляске.	Аляскбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
+24	Система	система	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+25	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	GMD	GMd	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	хотя	хотя	SCONJ	_	_	31	mark	_	_
+30	и	и	PART	_	_	31	advmod	_	_
+31	принята	принимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	37	advcl	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	все	все	PART	_	_	36	advmod	_	_
+36	еще	еще	ADV	_	Degree=Pos	37	advmod	_	_
+37	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	23	conj	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 1389
+# text = Проект должен завершиться в 2018 году.
+1	Проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	завершиться	завершаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	dep	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	2018	2018	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 1390
+# text = Система состоит из радиолокационных станций раннего оповещения, противоракет GBI, разработанных на базе баллистических ракет Minuteman III, и боевых блоков EKV.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	радиолокационных	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+6	раннего	ранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	оповещения	оповещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	противоракет	противоракть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	GBI	Gbi	NUM	_	_	12	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	разработанных	разрабатывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	Minuteman	Minuteman	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	III	iii	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	блоков	блок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	_
+23	EKV	eKv	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1391
+# text = После запуска GBI должна выводить EKV на расчетную траекторию.
+1	После	после	ADP	_	_	2	case	_	_
+2	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+3	GBI	Gbi	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	EKV	eKv	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	расчетную	расчетный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 1392
+# text = Затем боевая часть отделяется от разгонной ступени и за счет собственных двигателей выходит на траекторию столкновения с боеголовкой баллистической ракеты на заатмосферном участке полета.К настоящему времени США провели 18 испытаний противоракетной системы GMD, девять из которых были неудачными.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	боевая	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	отделяется	отделяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	разгонной	разгонный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+8	и	и	CCONJ	_	_	13	cc	_	_
+9	за	за	ADP	_	_	12	case	_	_
+10	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	fixed	_	_
+11	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	выходит	выходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	боеголовкой	боеголовка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+19	баллистической	баллистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	заатмосферном	заатмосферный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	участке	участк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	_
+24	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+25	К	к	ADP	_	_	27	case	_	_
+26	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	_
+28	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	27	nmod	_	_
+29	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	18	18	NUM	_	_	31	nummod	_	_
+31	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	obl	_	_
+32	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	GMD	GMd	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	девять	девять	NUM	_	Case=Nom	40	nsubj	_	_
+37	из	из	ADP	_	_	38	case	_	_
+38	которых	который	PRON	_	Case=Gen	36	nmod	_	_
+39	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	40	cop	_	_
+40	неудачными	неудачный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	acl:relcl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 1393
+# text = Разработка противоракетной системы GMD ведется в США с первой половины 1990-х годов.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+2	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	GMD	GMd	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	5	obl	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+11	1990-х	1990-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 1394

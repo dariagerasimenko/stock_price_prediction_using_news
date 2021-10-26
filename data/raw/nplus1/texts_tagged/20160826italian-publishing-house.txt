@@ -1,0 +1,317 @@
+# text = # newpar
+# sent_id = 3479
+# text = Испанский издательский дом Silo получил право на публикацию ограниченной серии копий рукописи Войнича, сообщает The Washington Post.
+1	Испанский	испанский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	издательский	издательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Silo	Silo	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	право	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	публикацию	публикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	ограниченной	ограничеть	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	копий	копия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	рукописи	рукопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Войнича	Войнич	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+16	The	the	PROPN	_	Foreign=Yes	15	nsubj	_	_
+17	Washington	washington	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Post	post	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 3480
+# text = Этот кодекс, предположительно созданный в центральной Европе на рубеже XV--XVI веков, написан на неизвестном языке, расшифровать который пока никому не удалось.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	кодекс	кодекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	предположительно	предположительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	созданный	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	центральной	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	рубеже	рубеж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	XV--XVI	Xv--xvi	NUM	_	_	12	nummod	_	_
+12	веков	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	написан	писать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	неизвестном	неизвестный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	языке	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	расшифровать	расшифровывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+20	который	который	PRON	_	Case=Acc	19	obj	_	_
+21	пока	пока	ADV	_	Degree=Pos	19	advmod	_	_
+22	никому	никто	PRON	_	Case=Dat	24	obl	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3481
+# text = По мнению сотрудников Библиотеки Бейнеке, где хранится рукопись, публикация поможет приблизиться к прочтению таинственного текста.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	_
+3	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Бейнеке	Бейнеке	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	где	где	ADV	_	Degree=Pos	8	advmod	_	_
+8	хранится	хранаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	рукопись	рукопись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	публикация	публикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	_
+13	приблизиться	приближаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	прочтению	прочтение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+16	таинственного	таинственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3482
+# text = Электронная копия рукописи Войнича из Библиотеки редких книг и рукописей Бейнеке при Йельском университете сегодня доступна всем желающим, однако увидеть ее оригинал неспециалисты могут только на выставках.
+1	Электронная	электронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	копия	копия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+3	рукописи	рукопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Войнича	Войнич	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	Библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	редких	редкой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	рукописей	рукопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+11	Бейнеке	Бейнек	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+12	при	при	ADP	_	_	14	case	_	_
+13	Йельском	Йельский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	университете	университет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+15	сегодня	сегодня	ADV	_	Degree=Pos	16	advmod	_	_
+16	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+17	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	16	nmod	_	_
+18	желающим	желать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	однако	однако	ADV	_	Degree=Pos	21	advmod	_	_
+21	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	dep	_	_
+22	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obj	_	_
+23	оригинал	оригинал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	неспециалисты	неспециалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+26	только	только	PART	_	_	28	advmod	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	выставках	выставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 3483
+# text = Учитывая повышенный интерес к рукописи, испанское издательство Silo, специализация которого -- выпуск факсимильных изданий, опубликует точные копии древнего кодекса, в которых воспроизведет не только текст и рисунки, но и текстуру бумаги -- вплоть до мельчайших особенностей каждой страницы.
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+2	повышенный	повышенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	интерес	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	рукописи	рукопись	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	испанское	испанский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	издательство	издательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+9	Silo	Silo	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	специализация	специализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+15	факсимильных	факсимильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	изданий	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	опубликует	опубликовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+19	точные	точный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	копии	копия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+21	древнего	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	кодекса	кодекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	которых	который	PRON	_	Case=Loc	26	obl	_	_
+26	воспроизведет	воспроизвезжать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	только	только	PART	_	_	29	advmod	_	_
+29	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	рисунки	рисунка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	но	но	CCONJ	_	_	35	cc	_	_
+34	и	и	PART	_	_	33	advmod	_	_
+35	текстуру	текстура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_
+36	бумаги	бумага	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	--	--	PUNCT	_	_	36	punct	_	_
+38	вплоть	вплоть	ADV	_	Degree=Pos	41	case	_	_
+39	до	до	ADP	_	_	38	fixed	_	_
+40	мельчайших	мелкий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	41	amod	_	_
+41	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+42	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 3484
+# text = "Прикосновение кэтой книге вызывает особые ощущения.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Прикосновение	Прикосновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	кэтой	кэтот	DET	_	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	книге	книга	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+5	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	особые	особый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	ощущения	ощущение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3485
+# text = Она обладает такой аурой таинственности, что, увидев еевпервый раз... вы переживаете эмоции, которые трудно описать",-- рассказал в интервью AFP директор издательства Silo Хуан Хосе Гарсия.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	4	amod	_	_
+4	аурой	аура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	таинственности	таинственность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	увидев	видеть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	15	advcl	_	_
+10	еевпервый	еевпервый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	раз.	раз.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+14	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	15	nsubj	_	_
+15	переживаете	переживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+16	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Acc	19	obj	_	_
+19	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	16	acl:relcl	_	_
+20	описать	описывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	nsubj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,--	,--	PUNCT	_	_	20	punct	_	_
+23	рассказал	рассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	интервью	интервью	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+26	AFP	Afp	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+28	издательства	издательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	Silo	Silo	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	Хуан	хуан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	_
+31	Хосе	Хосе	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	flat:name	_	_
+32	Гарсия	Гарсий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 3486
+# text = Замысел издать необычный манускрипт возник у владельцев Silo в2005году.
+1	Замысел	замысевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	издать	издавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	необычный	необычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	манускрипт	манускрипт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	возник	возникать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	владельцев	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+8	Silo	Silo	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	в2005году	в2005год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3487
+# text = Спустя некоторое время они направили проект будущего факсимиле в Библиотеку Бейнеке.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	направили	направлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	факсимиле	факсимиле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	8	case	_	_
+10	Библиотеку	библиотека	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	appos	_	_
+11	Бейнеке	Бейнек	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3488
+# text = Руководство библиотеки долго выбирало между рядом крупных издателей повсему миру, но в конце концов признало наиболее удовлетворительным качество работы именно этого небольшого издательства.
+1	Руководство	руководство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	долго	долго	ADV	_	Degree=Pos	4	advmod	_	_
+4	выбирало	выбирать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	между	между	ADP	_	_	10	case	_	_
+6	рядом	рядом	ADV	_	Degree=Pos	10	advmod	_	_
+7	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	издателей	издатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+9	повсему	повсий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	16	cc	_	_
+13	в	в	ADP	_	_	16	advmod	_	_
+14	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	fixed	_	_
+16	признало	признавать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	наиболее	наиболее	ADV	_	Degree=Pos	18	advmod	_	_
+18	удовлетворительным	удовлетворительной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+19	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+20	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	именно	именно	PART	_	_	22	advmod	_	_
+22	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	24	amod	_	_
+23	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	издательства	издательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 3489
+# text = Принципиальное согласие Silo получило около трех лет назад, но на согласование вопросов о порядке работы срукописью потребовалось дополнительное время.
+1	Принципиальное	принципиальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	согласие	согласие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	Silo	Silo	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	получило	получать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	трех	три	NUM	_	Case=Gen	7	nummod	_	_
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+8	назад	назад	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	18	cc	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	согласование	согласование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+13	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	о	о	ADP	_	_	15	case	_	_
+15	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	срукописью	срукопись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+18	потребовалось	требоваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+19	дополнительное	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3490
+# text = В феврале 2016 года испанцы посетили Йельский университет, где сфотографировали и изучили особенности каждой страницы рукописи.
+1	В	в	ADP	_	_	2	case	_	_
+2	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	2016	2016	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	испанцы	испанец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	посетили	посещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Йельский	Йельский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	университет	университет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+11	сфотографировали	сфотографировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	изучили	изучить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+14	особенности	особенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	рукописи	рукопись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3491
+# text = Работа над изданием уже начата, завершить ееSilo планирует после 2017 года.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+2	над	над	ADP	_	_	3	case	_	_
+3	изданием	издание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	начата	начинать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	завершить	завершать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	ееSilo	ееSilo	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+10	после	после	ADP	_	_	12	case	_	_
+11	2017	2017	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 3492

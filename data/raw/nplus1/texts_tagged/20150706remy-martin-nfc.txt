@@ -1,0 +1,154 @@
+# text = # newpar
+# sent_id = 5755
+# text = Коньячный домRmy Martin совместно с компанией Selinko разработали"умную бутылку" для коньяка.
+1	Коньячный	Коньячный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+2	домRmy	домRmy	ADJ	_	Foreign=Yes	1	flat:foreign	_	_
+3	Martin	Martin	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	совместно	совместно	ADV	_	Degree=Pos	2	advmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+7	Selinko	Selinko	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	умную	умный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	бутылку	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	коньяка	коньяк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5756
+# text = Соответствующее сообщениеопубликованона сайтеSelinko.Пробка с встроенным NFC-чипомпозиционируется, как активная защита от подделки: если бутылку открыть, то чип пометит статус бутылки как"открыто", и любой клиент с установленным приложениемRmy Martin сможет легко отличить оригинальный напиток от подделки, не покупая его.Кроме функции защиты от подделки пробка с чипомсодержит информацию о напитке и уникальный идентификатор конкретной бутылки.
+1	Соответствующее	соответствующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	сообщениеопубликованона	сообщениеопубликованон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+3	сайтеSelinko.	сайтеSelinkoей	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+4	Пробка	пробк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	встроенным	встраивать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	NFC-чипомпозиционируется	NFC-чипомпозиционируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	11	cc	_	_
+10	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+11	защита	защита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	подделки	подделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	13	punct	_	_
+15	если	если	SCONJ	_	_	21	mark	_	_
+16	бутылку	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	открыть	открывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	то	то	SCONJ	_	_	17	cc	_	_
+20	чип	чип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	пометит	помететь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+22	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+23	бутылки	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+24	как	как	SCONJ	_	_	26	cc	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	открыто	открыто	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	клиент	клиент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	установленным	устанавливать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	приложениемRmy	приложениемRmy	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+35	Martin	Martin	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+37	легко	легко	ADV	_	Degree=Pos	38	advmod	_	_
+38	отличить	отличать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+39	оригинальный	оригинальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	напиток	напиток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	_	_
+41	от	от	ADP	_	_	42	case	_	_
+42	подделки	подделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	не	не	PART	_	_	45	advmod	_	_
+45	покупая	покупать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	54	advcl	_	_
+46	его.	его	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	45	obj	_	SpaceAfter=No
+47	Кроме	Кроме	ADP	_	_	48	case	_	_
+48	функции	функция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	46	nmod	_	_
+49	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	_
+50	от	от	ADP	_	_	49	case	_	_
+51	подделки	подделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+52	пробка	пробк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+53	с	с	ADP	_	_	54	case	_	_
+54	чипомсодержит	чипомсодерживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+55	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	54	obj	_	_
+56	о	о	ADP	_	_	57	case	_	_
+57	напитке	напитка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	55	nmod	_	_
+58	и	и	CCONJ	_	_	60	cc	_	_
+59	уникальный	уникальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	60	amod	_	_
+60	идентификатор	идентификатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	57	conj	_	_
+61	конкретной	конкретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	62	amod	_	_
+62	бутылки	бутылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	_
+
+# sent_id = 5757
+# text = После сканирования смартфоном уже открытой бутылки покупателю предлагаются различные бонусы и специальные цены на продукцию коньячного дома.NFC-- технология высокочастотной связи малого радиуса действия.
+1	После	после	ADP	_	_	2	case	_	_
+2	сканирования	сканирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+3	смартфоном	смартфон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	открытой	открывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+6	бутылки	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	покупателю	покупатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+8	предлагаются	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	бонусы	бонусы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	цены	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	conj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
+16	коньячного	коньячный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	дома.NFC--	дома.nfc--	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+19	высокочастотной	высокочастотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	малого	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	радиуса	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5758
+# text = Технология получила распространение как способ осуществления бесконтактных платежей при помощи мобильного телефона, совместима с существующими стандартами смарт-карт и RFID.
+1	Технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	как	как	SCONJ	_	_	5	cc	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	_
+6	осуществления	осуществление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	бесконтактных	бесконтактный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	платежей	платеж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	при	при	ADP	_	_	12	case	_	_
+10	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	fixed	_	_
+11	мобильного	мобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	совместима	совместима	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	существующими	существовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+17	стандартами	стандарт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	_
+18	смарт-карт	смарт-карт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	RFID	Rfid	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 5759
+# text = Ожидается, что первые бутылки с NFC-чипами появятся этой осенью в Китае.
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	бутылки	бутылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	NFC-чипами	NFC-чип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+8	появятся	появиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+9	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	10	amod	_	_
+10	осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Китае	китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# newpar
+# sent_id = 5760

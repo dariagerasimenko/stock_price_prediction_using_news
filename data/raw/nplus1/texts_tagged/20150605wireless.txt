@@ -1,0 +1,220 @@
+# text = # newpar
+# sent_id = 2033
+# text = Военные инженеры Армии США предложили сделать командные пункты беспроводными,сообщаетDefense Aerospace.
+1	Военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	командные	командный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	пункты	пункт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	беспроводными	беспроводный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+10	,сообщаетDefense	,сообщаетDefense	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+11	Aerospace	Aerospace	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2034
+# text = Благодаря такому решению времени на их свертывание и развертывание на новом месте потребуется в несколько раз меньше.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
+7	свертывание	свертывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	развертывание	развертывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+17	меньше	малый	ADJ	_	Degree=Cmp	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2035
+# text = Рассекреченная и секретная версии новых командных постов, как ожидается, будут продемонстрированы осенью 2015 года в рамках армейского форума NIE 16.1.Для отказа от проводов в командных постах будут использоваться Wi-Fi-роутеры.
+1	Рассекреченная	Рассекреченный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	секретная	секретный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+5	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	командных	командный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	постов	пост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	13	mark	_	_
+10	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	продемонстрированы	демонстрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+14	осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl:agent	_	_
+15	2015	2015	NUM	_	_	16	nummod	_	_
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+19	армейского	армейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	форума	форум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	NIE	Nie	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	16.	16	NUM	_	_	31	nummod	_	SpaceAfter=No
+23	1.Для	1.для	ADP	_	_	24	case	_	_
+24	отказа	отказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	проводов	провод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	командных	командный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	постах	пост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	nmod	_	_
+30	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	dep	_	_
+32	Wi-	Wi-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	Fi-роутеры	Fi-роутер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2036
+# text = Подробности о стандарте беспроводной связи и средствах ее защиты не раскрываются.
+1	Подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	стандарте	стандарт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	беспроводной	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	средствах	средство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	conj	_	_
+8	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+9	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 2037
+# text = По оценке военных, использование беспроводных роутеров позволит подключить большинство вычислительных систем к сети в течение нескольких минут с начала развертывания командного пункта.В настоящее время на развертывание армейского командного пункта необходимо несколько часов, причем компьютерная сеть задействуется в самую последнюю очередь.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	parataxis	_	_
+3	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	беспроводных	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	роутеров	роутер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	подключить	дключить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	большинство	большинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	вычислительных	вычислительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	сети	сеть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	нескольких	несколько	NUM	_	Case=Gen	18	nummod	_	_
+18	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+21	развертывания	развертывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	командного	командный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	В	в	ADP	_	_	33	advmod	_	_
+26	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	fixed	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	fixed	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	развертывание	развертывание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	nmod	_	_
+30	армейского	армейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	командного	командный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+33	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+34	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	35	nummod:gov	_	_
+35	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	причем	причем	CCONJ	_	_	40	cc	_	_
+38	компьютерная	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+40	задействуется	задействуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	33	conj	_	_
+41	в	в	ADP	_	_	44	case	_	_
+42	самую	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+43	последнюю	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 2038
+# text = На ее протяжку необходимы 17 бухт по 305 метров сетевого кабеля пятой категории в каждой.
+1	На	на	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	протяжку	протяжка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+4	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	17	17	NUM	_	_	6	nummod	_	_
+6	бухт	бухта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	по	по	ADP	_	_	9	case	_	_
+8	305	305	NUM	_	_	9	nummod	_	_
+9	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+10	сетевого	сетевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	пятой	пятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	категории	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2039
+# text = При протяжке сети кабели надо нарезать и обжать.Военные полагают, что беспроводную сеть можно будет задействовать практически первой -- роутеры можно будет включать по мере установки тентов и палаток.
+1	При	при	ADP	_	_	2	case	_	_
+2	протяжке	протяжка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+3	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	кабели	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	надо	надо	ADV	_	Degree=Pos	0	root	_	_
+6	нарезать	нарезать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	обжать	обжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	nsubj	_	_
+11	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	беспроводную	беспроводной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	можно	можно	ADV	_	Degree=Pos	11	advcl	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+18	задействовать	задействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+19	практически	практически	ADV	_	Degree=Pos	20	advmod	_	_
+20	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	роутеры	роутер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+23	можно	можно	ADV	_	Degree=Pos	11	conj	_	_
+24	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+25	включать	включать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+26	по	по	ADP	_	_	28	case	_	_
+27	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	fixed	_	_
+28	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+29	тентов	тент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	палаток	палатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2040
+# text = Инженеры Армии США пока не уточнили, каким образом планируется защищать беспроводную сеть командного пункта от возможных помех и воздействия средств радиоэлектронного подавления.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	пока	пока	ADV	_	Degree=Pos	6	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	уточнили	уточнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+9	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+10	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp	_	_
+11	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj:pass	_	_
+12	беспроводную	беспроводной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	командного	командный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	возможных	возможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	помех	помехи	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	радиоэлектронного	радиоэлектронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	подавления	подавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# newpar
+# sent_id = 2041

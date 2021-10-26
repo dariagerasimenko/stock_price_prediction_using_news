@@ -1,0 +1,400 @@
+# text = # newpar
+# sent_id = 488
+# text = Крупномасштабное исследование, проведенное британскими, австралийскими иамериканскими учеными, выявило девять участков генома, связанных сневротизмом.
+1	Крупномасштабное	крупномасштабной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проведенное	проводить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	британскими	британский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	австралийскими	австралийский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+8	иамериканскими	иамериканский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	выявило	выявлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	девять	девять	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+17	сневротизмом	сневротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 489
+# text = Отчет оработе опубликован вжурнале Molecular Psychiatry.
+1	Отчет	отчет	ADV	_	Degree=Pos	2	advmod	_	_
+2	оработе	оработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	опубликован	опубликовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Molecular	Molecular	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Psychiatry	Psychiatry	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 490
+# text = Невротизм-- это фундаментальная личностная черта, которая состоит внеспособности эффективно регулировать негативные эмоции.
+1	Невротизм-	Невротизм-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	это	это	PART	_	_	4	cop	_	_
+4	фундаментальная	фундаментальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	личностная	личностный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	черта	черта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	состоит	состоать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	внеспособности	внеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	эффективно	эффективно	ADV	_	Degree=Pos	12	advmod	_	_
+12	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	негативные	негативной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 491
+# text = Она проявляется эмоциональной нестабильностью, повышенным уровнем тревожности, страха, стеснительности, чувством вины ираздражительностью.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	проявляется	проявляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	эмоциональной	эмоциональный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	нестабильностью	нестабильность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	повышенным	повышать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+8	тревожности	тревожность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	страха	страх	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	стеснительности	стеснительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	чувством	чувство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	conj	_	_
+15	вины	вина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	ираздражительностью	ираздражительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 492
+# text = Невротизм является фактором риска депрессии, тревожных расстройств, фобий, синдромов зависимости, атакже ряда соматических заболеваний.
+1	Невротизм	Невротизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	фактором	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	тревожных	тревожный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	фобий	фобия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	синдромов	синдром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+13	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	атакже	атакже	CCONJ	_	_	16	cc	_	_
+16	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+17	соматических	соматический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 493
+# text = Научный коллектив под руководством Университета Глазго провел метаанализ данных трех популяционных исследований сучастием более 106 тысяч человек.
+1	Научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+5	Университета	Университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Глазго	Глазго	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+7	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	метаанализ	метаанализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	трех	три	NUM	_	Case=Gen	12	nummod	_	_
+11	популяционных	популяционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+13	сучастием	сучастие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+14	более	более	ADV	_	Degree=Cmp	16	nummod:gov	_	_
+15	106	106	NUM	_	_	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+17	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 494
+# text = Ихличностные черты оценивали поКраткому пересмотренному личностному опроснику Айзенка (EPQ-R-S).
+1	Ихличностные	Ихличностный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	черты	черта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	оценивали	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	поКраткому	поКраткому	ADV	_	Degree=Pos	5	advmod	_	_
+5	пересмотренному	пересмотрать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	личностному	личностный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	опроснику	опросник	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+8	Айзенка	Айзенк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	EPQ	Epq	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	R-S	R-s	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 495
+# text = Всем участникам провели полногеномный анализ однонуклеотидных полиморфизмов, связанных сневротизмом.
+1	Всем	весь	DET	_	Case=Dat|Number=Plur	2	amod	_	_
+2	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	полногеномный	полногеномный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	однонуклеотидных	однонуклеотидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	полиморфизмов	полиморфизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	сневротизмом	сневротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 496
+# text = Пооценкам исследователей, наследуемость невротизма составляет около 15процентов.
+1	Пооценкам	Пооценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	наследуемость	наследуемость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	невротизма	невротизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	около	около	ADP	_	_	8	case	_	_
+8	15процентов	15процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 497
+# text = Анализ полученных данных выявил девять локусов генома, независимо отпола связанных спроявлением этой личностной черты.
+1	Анализ	анализ	ADP	_	_	3	case	_	_
+2	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	4	obl	_	_
+4	выявил	выявливать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	девять	девять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	локусов	локус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+7	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	независимо	независимо	ADV	_	Degree=Pos	4	advmod	_	_
+10	отпола	отпол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	спроявлением	спроявление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+13	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+14	личностной	личностный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	черты	черта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 498
+# text = Наиболее значимый изних емкостью четыре мегабайта расположен в8хромосоме исодержит не менее 36генов.
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	advmod	_	_
+2	значимый	значеть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	2	obl	_	_
+4	емкостью	емкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+5	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	мегабайта	мегабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	расположен	расположенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	в8хромосоме	в8хромосоме	ADP	_	_	9	case	_	_
+9	исодержит	исодерживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	менее	мено	ADV	_	Degree=Cmp	12	nummod:gov	_	_
+12	36генов	36ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 499
+# text = Из-за неравновесного сцепления генов вэтом локусе выявить среди них отвечающий заассоциацию сневротизмом неудалось.
+1	Из-за	из-за	ADP	_	_	3	case	_	_
+2	неравновесного	неравновесный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	сцепления	сцепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+4	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	вэтом	вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	6	amod	_	_
+6	локусе	локус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	выявить	выявливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+8	среди	среди	ADP	_	_	9	case	_	_
+9	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	obl	_	_
+10	отвечающий	отвечать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+11	заассоциацию	заассоциация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	сневротизмом	сневротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+13	неудалось	неудать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 500
+# text = Такаяже ситуация наблюдалась влокусе на17хромосоме, однако онсодержит значимый ген-кандидат CRHR1, играющий важную роль ввыработке "гормона стресса" кортизола.
+1	Такаяже	Такаяже	PART	_	_	3	advmod	_	_
+2	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	влокусе	влокуса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	на17хромосоме	на17хромосома	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+8	онсодержит	онсодержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+9	значимый	значимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	кандидат	кандидат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	CRHR1	CRHR1	NOUN	_	_	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	играющий	играть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+16	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	ввыработке	ввыработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	гормона	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	стресса	стресс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	кортизола	кортизол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 501
+# text = Еще один ген-кандидат вэтом локусе-- MAPT-- кодирует Тау-белок, присутствующий в постсинаптических структурах многих нейронов.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	ген-кандидат	ген-кандидат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+4	вэтом	вэт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+5	локусе-	локусе-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	MAPT-	MAPT-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	4	punct	_	_
+9	кодирует	кодировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+10	Тау-белок	Тау-белок	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	присутствующий	присутствовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	постсинаптических	постсинаптический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	структурах	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+16	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 502
+# text = Другие обнаруженные локусы содержат гены CELF4 (кодирует белок-переключатель изоформ Тау-белка), GRIK3 (глутаматергический каинатный рецептор; глутаматная система вовлечена вразвитие большой депрессии и суицидальных наклонностей), KLHL2 (участвует вформировании нейрональных мембранных структур, содержащих актин) иPTPRD (кодирует тирозинфосфатазу, регулирующую синаптическую пластичность).
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	обнаруженные	обнаружать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	локусы	локус	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+6	CELF4	CELF4	X	_	Foreign=Yes	8	nsubj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	кодирует	кодировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+9	белок-	белок-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	переключатель	переключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	изоформ	изоформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	Тау-белка	Тау-белка	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	GRIK3	gRIK3	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	глутаматергический	глутаматергический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	каинатный	каинатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	рецептор	рецептор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	19	punct	_	_
+21	глутаматная	глутаматный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+23	вовлечена	вовлечать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+24	вразвитие	вразвитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	суицидальных	суицидальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	наклонностей	наклонность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	KLHL2	KLHL2	NOUN	_	_	24	conj	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	parataxis	_	_
+35	вформировании	вформирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	_
+36	нейрональных	нейрональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+37	мембранных	мембранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	содержащих	содержать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+41	актин	актин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	_
+43	иPTPRD	иPTPRd	PROPN	_	Foreign=Yes	41	parataxis	_	_
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	кодирует	кодировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	parataxis	_	_
+46	тирозинфосфатазу	тирозинфосфатаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	регулирующую	регулировать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	50	amod	_	_
+49	синаптическую	синаптический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	_
+50	пластичность	пластичность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	46	conj	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 503
+# text = Сопоставление полученных результатов сданными Консорциума по психиатрической генетике выявило сильную генетическую корреляцию между невротизмом ибольшим депрессивным расстройством, менее сильную, нозначимую -- между невротизмом ишизофренией, иотсутствие корреляции между невротизмом и биполярным расстройством.
+1	Сопоставление	сопоставление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	полученных	получеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	сданными	дать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	Консорциума	консорциум	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	психиатрической	психиатрический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	генетике	генетика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+9	выявило	выявлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	сильную	сильной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	генетическую	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	корреляцию	корреляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	между	между	ADP	_	_	14	case	_	_
+14	невротизмом	невротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+15	ибольшим	ибольший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+16	депрессивным	депрессивный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	менее	менее	ADV	_	Degree=Cmp	20	advmod	_	_
+20	сильную	сильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	нозначимую	нозначимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	_
+23	--	--	PUNCT	_	_	22	punct	_	_
+24	между	между	ADP	_	_	25	case	_	_
+25	невротизмом	невротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+26	ишизофренией	ишизофрения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	иотсутствие	иотсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	conj	_	_
+29	корреляции	корреляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	между	между	ADP	_	_	31	case	_	_
+31	невротизмом	невротизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	nmod	_	_
+32	и	и	CCONJ	_	_	34	cc	_	_
+33	биполярным	биполярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 504
+# text = "Мывпервые обнаружили генетическую предрасположенность к персональной черте, что имеет фундаментальное значение для психологии.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мывпервые	Мывпервые	ADV	_	Degree=Pos	3	advmod	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	генетическую	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	предрасположенность	предрасположенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	персональной	персональный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	черте	черта	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	3	mark	_	_
+11	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+12	фундаментальное	фундаментальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	психологии	психология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 505
+# text = Наша работа открывает путь кновым исследованиям иподходам ктерапии депрессии и тревожности",-- заявил исследователь Дэниэл Смит (Daniel Smith).
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	кновым	кновый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+7	иподходам	иподход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+8	ктерапии	ктерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	тревожности	тревожность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,--	,--	PUNCT	_	_	11	punct	_	_
+14	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+15	исследователь	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	Дэниэл	Дэниэл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	Смит	смит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Daniel	Daniel	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+20	Smith	Smith	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 506
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 507

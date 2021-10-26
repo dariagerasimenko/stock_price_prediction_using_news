@@ -1,0 +1,230 @@
+# text = # newpar
+# sent_id = 1709
+# text = Ученые создали систему машинного обучения, которая может находить "пьяные" записи в Twitter, а также вычислять по их тексту, где именно пьют пользователи в данный момент.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+9	находить	находить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	пьяные	пьяный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	записи	запись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Twitter	Twitter	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+19	вычислять	вычислять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+20	по	по	ADP	_	_	22	case	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	тексту	текста	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	где	где	ADV	_	Degree=Pos	26	advmod	_	_
+25	именно	именно	PART	_	_	26	advmod	_	_
+26	пьют	пить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+27	пользователи	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1710
+# text = Об этом сообщает MIT Technology Review, с исследованиемможно ознакомиться на сайте arXiv.org.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	MIT	Mit	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Technology	technology	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Review	Review	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	исследованиемможно	исследованиемможно	ADV	_	Degree=Pos	10	advmod	_	_
+10	ознакомиться	ознакомляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	arXiv.org	arXiv.org	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1711
+# text = Для своей работы ученые изРочестерского университета в течение года собирали в Нью-Йорке и округе Монро твиты с геотегами.
+1	Для	для	ADP	_	_	3	case	_	_
+2	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+5	изРочестерского	изРочестерский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+10	собирали	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Нью-Йорке	нью-йорк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	округе	округ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	_
+15	Монро	Монро	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	твиты	твита	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	геотегами	геотег	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1712
+# text = Среди них исследователи выбрали твиты, в которых упоминается алкоголь и относящиеся к нему по контексту слова, такие как "вечеринка", "пиво", "пьяный" и другие.
+1	Среди	среди	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	твиты	твит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	которых	который	PRON	_	Case=Loc	9	obl	_	_
+9	упоминается	упоминавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+10	алкоголь	алкоголь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	относящиеся	относиться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	10	amod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	контексту	контекст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+17	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	такие	такой	DET	_	Case=Nom|Number=Plur	22	amod	_	_
+20	как	как	SCONJ	_	_	22	cc	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	вечеринка	вечеринка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	advmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	пиво	пиво	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	пьяный	пьяный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 1713
+# text = Затем, при помощи сервиса Amazon Mechanical Turk отобранные посты из Twitter отфильтровали, оставив только те, которые имели непосредственное отношение к употреблению алкоголя.
+1	Затем	затем	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	при	при	ADP	_	_	5	case	_	_
+4	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	сервиса	сервис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+6	Amazon	Amazon	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Mechanical	Mechanical	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Turk	Turk	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	отобранные	отбирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	посты	пост	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	Twitter	Twitter	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	отфильтровали	отфильтровывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	оставив	оставлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	13	advcl	_	_
+16	только	только	PART	_	_	17	advmod	_	_
+17	те	тот	DET	_	Case=Nom|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Acc	20	obj	_	_
+20	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	непосредственное	непосредственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	отношение	отношение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	к	к	ADP	_	_	24	case	_	_
+24	употреблению	употребление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	_
+25	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 1714
+# text = Твиты отбирались по трем ключевым вопросам: делает ли твит ссылки на употребление алкоголя; если да, то относится ли этот твит к автору поста непосредственно; если да, вероятно ли то, что пост был на писан во время и в месте распития спиртных напитков.
+1	Твиты	Твит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	отбирались	отбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	по	по	ADP	_	_	6	case	_	_
+4	трем	три	NUM	_	Case=Dat	6	nummod	_	_
+5	ключевым	ключевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	ли	ли	PART	_	_	8	advmod	_	_
+10	твит	твить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	nsubj	_	_
+11	ссылки	ссылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	употребление	употребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+14	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	14	punct	_	_
+16	если	если	SCONJ	_	_	10	mark	_	_
+17	да	да	PART	_	_	20	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	то	то	SCONJ	_	_	20	cc	_	_
+20	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	advcl	_	_
+21	ли	ли	PART	_	_	20	advmod	_	_
+22	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
+23	твит	твит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+24	к	к	ADP	_	_	25	case	_	_
+25	автору	автор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+26	поста	пост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	непосредственно	непосредственно	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	27	punct	_	_
+29	если	если	SCONJ	_	_	20	mark	_	_
+30	да	да	PART	_	_	32	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	вероятно	вероятно	ADV	_	Degree=Pos	20	advcl	_	_
+33	ли	ли	PART	_	_	32	advmod	_	_
+34	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	что	что	SCONJ	_	_	34	mark	_	_
+37	пост	пост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+38	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	40	cop	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	писан	писать	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	advcl	_	_
+41	во	во	ADP	_	_	45	case	_	_
+42	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	fixed	_	_
+43	и	и	CCONJ	_	_	45	cc	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	obl	_	_
+46	распития	распитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	спиртных	спиртной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	48	amod	_	_
+48	напитков	напиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	_
+
+# sent_id = 1715
+# text = Всего было проанализировано около 11 тысяч твитов.
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	проанализировано	анализировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	около	около	ADP	_	_	6	case	_	_
+5	11	11	NUM	_	_	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	твитов	твит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1716
+# text = На основе этих данных группа ученых обучила машину опорных векторов (SVM), распознавать "пьяные" посты по содержанию.
+1	На	на	ADP	_	_	2	case	_	_
+2	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+5	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	обучила	обучать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	опорных	опорный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	SVM	svm	NOUN	_	_	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	пьяные	пьяный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	посты	пост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	содержанию	содержание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# newpar
+# sent_id = 1717

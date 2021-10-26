@@ -1,0 +1,429 @@
+# text = # newpar
+# sent_id = 2769
+# text = Биологи во главе с Эндрю Бьенером (Andrew A.
+1	Биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	во	во	ADP	_	_	0	root	_	_
+3	главе	глава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	Эндрю	Эндрю	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Бьенером	Бьенер	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Andrew	Andrew	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+9	A	a	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2770
+# text = Biewener) из Гарвардского университета (США) разобрались в том, как у американских поганок получается бегать по воде.
+1	Biewener	Biewener	PROPN	_	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+2	)	)	PUNCT	_	_	1	punct	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	Гарвардского	Гарвардский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	разобрались	разбираться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	11	mark	_	_
+14	у	у	ADP	_	_	16	case	_	_
+15	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	поганок	поганка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	_
+17	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+18	бегать	бегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	воде	вода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2771
+# text = Результаты ониизложили свои выводы вThe Journal of Experimental Biology.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	ониизложили	ониизложивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	свои	свой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	выводы	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	вThe	вThe	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Journal	journal	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	of	of	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Experimental	Experimental	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Biology	Biology	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2772
+# text = Западноамериканские поганки-- самые крупные живые существа, способные бегать по воде.
+1	Западноамериканские	Западноамериканский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	поганки	поганка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	живые	живой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	существа	существо	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+11	бегать	бегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	воде	вода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 2773
+# text = Они весят во много раз больше ящериц из рода василисков, также умеющих перемещаться таким образом.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	весят	весить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	во	в	ADP	_	_	5	case	_	_
+4	много	много	ADV	_	Degree=Pos	5	nummod:gov	_	_
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+6	больше	много	NUM	_	_	7	nummod:gov	_	_
+7	ящериц	ящерйцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	василисков	василиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	умеющих	уметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+14	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	16	amod	_	_
+16	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2774
+# text = Масса этих птиц достигает двух килограммов, поэтому для них это не самое простое занятие, и поганки как правило прибегают к нему лишь для того, чтобы впечатлить представителей противоположного пола во время ежегодных брачных танцев.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	двух	два	NUM	_	Case=Gen	6	nummod	_	_
+6	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	15	advmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	простое	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	занятие	занятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	поганки	поганка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+19	как	как	SCONJ	_	_	20	cc	_	_
+20	правило	правило	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	advmod	_	_
+21	прибегают	прибегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	21	obl	_	_
+24	лишь	лишь	PART	_	_	26	advmod	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	чтобы	чтобы	SCONJ	_	Mood=Cnd	26	mark	_	_
+29	впечатлить	впечатлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	advcl	_	_
+30	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+31	противоположного	противоположный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	во	во	ADP	_	_	37	case	_	_
+34	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	fixed	_	_
+35	ежегодных	ежегодный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+36	брачных	брачной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	танцев	танец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 2775
+# text = Засняв брачный бег поганок на высокоскоростную камеру, исследователи выяснили, что победить физику птицам не удается.
+1	Засняв	Заснимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	брачный	брачный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	бег	бег	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	поганок	поганка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	высокоскоростную	высокоскоростный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	победить	побеждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+14	физику	физика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	птицам	птиец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 2776
+# text = Будучи намного тяжелее василисков, они чуть глубже погружают свои лапы в воду при ударе, что, в теории, должно означать резкий рост сопротивления при беге с последующим погружением.
+1	Будучи	быть	AUX	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	cop	_	_
+2	намного	намного	ADV	_	Degree=Pos	3	advmod	_	_
+3	тяжелее	тяжелый	ADJ	_	Degree=Cmp	0	root	_	_
+4	василисков	василиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+7	чуть	чуть	ADV	_	Degree=Pos	8	advmod	_	_
+8	глубже	глубоко	ADV	_	Degree=Cmp	9	advmod	_	_
+9	погружают	погружать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+10	свои	свой	DET	_	Case=Acc|Number=Plur	11	amod	_	_
+11	лапы	лапа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	ударе	удар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	PRON	_	Case=Nom	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	acl:relcl	_	_
+23	означать	означать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	резкий	резкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	при	при	ADP	_	_	28	case	_	_
+28	беге	бег	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	последующим	последующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	погружением	погружение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2777
+# text = Компенсировать этот фактор просто частыми ударами лап о воду, как у тех же василисков, поганки не могут: они не делают больше 20 шагов в секунду, в то время как более мелкие ящерицы за то же время успевают сделать несколько десятков шагов.
+1	Компенсировать	компенсировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	фактор	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	просто	просто	PART	_	_	5	advmod	_	_
+5	частыми	частый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	ударами	удар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_
+7	лап	лапа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	как	как	SCONJ	_	_	15	cc	_	_
+12	у	у	ADP	_	_	15	case	_	_
+13	тех	тот	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+14	же	же	PART	_	_	13	advmod	_	_
+15	василисков	василиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	поганки	поганок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	advcl	_	_
+24	больше	больше	ADV	_	Degree=Cmp	26	nummod:gov	_	_
+25	20	20	NUM	_	_	26	nummod	_	_
+26	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	в	в	ADP	_	_	41	advmod	_	_
+31	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	fixed	_	_
+32	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	fixed	_	_
+33	как	как	SCONJ	_	_	32	fixed	_	_
+34	более	более	ADV	_	Degree=Cmp	35	advmod	_	_
+35	мелкие	мелкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	36	amod	_	_
+36	ящерицы	ящериц	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	41	obj	_	_
+37	за	за	ADP	_	_	40	case	_	_
+38	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	40	amod	_	_
+39	же	же	PART	_	_	38	advmod	_	_
+40	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	obl	_	_
+41	успевают	успевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	conj	_	_
+42	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+43	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	44	nummod:gov	_	_
+44	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	obl	_	_
+45	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 2778
+# text = По расчетам ученых, летунам частично помогает значительно больший размер лапы и большая кинетическая энергия, с которой они обрушивают её на воду.
+1	По	по	ADP	_	_	2	case	_	_
+2	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	летунам	летуна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+6	частично	частично	ADV	_	Degree=Pos	7	advmod	_	_
+7	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	значительно	значительно	ADV	_	Degree=Pos	9	advmod	_	_
+9	больший	больший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	размер	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	лапы	лапа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	кинетическая	кинетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	энергия	энергия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	которой	который	PRON	_	Case=Ins	20	obl	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+20	обрушивают	обрушивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+21	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	20	obj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2779
+# text = Но даже несмотря на это, одними ударами лап о воду поганки могут обеспечить лишь 30--55 процентов от нужной подъемной силы.
+1	Но	но	CCONJ	_	_	13	cc	_	_
+2	даже	даже	PART	_	_	5	advmod	_	_
+3	несмотря	несмотря	ADV	_	Polarity=Neg	5	case	_	_
+4	на	на	ADP	_	_	3	fixed	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	одними	один	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	ударами	удар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+9	лап	лапа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	поганки	поганок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	лишь	лишь	PART	_	_	16	advmod	_	_
+16	30	30	NUM	_	_	19	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-55	-55	NUM	_	_	16	nummod	_	_
+19	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+20	от	от	ADP	_	_	19	case	_	_
+21	нужной	нужный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	подъемной	подъемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 2780
+# text = Чтобы обеспечить остальную часть подъемной силы птицы используют необычный ход: когда их растопыренная лапа слегка погружается в поверхностный слой воды, они резко отводят ее в сторону, делая что-то вроде микрогребка.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+2	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+3	остальную	остальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	подъемной	подъемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	птицы	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	необычный	необычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	ход	ход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	когда	когда	SCONJ	_	_	8	mark	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+14	растопыренная	растопырать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	лапа	лапа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	слегка	слегка	ADV	_	Degree=Pos	17	advmod	_	_
+17	погружается	погружаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	поверхностный	поверхностный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+21	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	25	nsubj	_	_
+24	резко	резко	ADV	_	Degree=Pos	25	advmod	_	_
+25	отводят	отводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+26	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	25	obj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	делая	делать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	advcl	_	_
+31	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+32	вроде	вроде	ADP	_	_	33	case	_	_
+33	микрогребка	микрогребок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 2781
+# text = В конце каждого такого движения поганки сжимают лапу "в кулак" и резко выдергивают в воздух, минимизируя гидродинамическое сопротивление.
+1	В	в	ADP	_	_	2	case	_	_
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	amod	_	_
+5	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	поганки	поганок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	сжимают	сжимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	лапу	лапа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	в	в	ADP	_	_	11	case	_	_
+11	кулак	кулак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	резко	резко	ADV	_	Degree=Pos	15	advmod	_	_
+15	выдергивают	выдергивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	минимизируя	минимизировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+20	гидродинамическое	гидродинамической	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2782
+# text = По мнению ученых, такой механизм перемещения может пригодиться в биомиметических приложениях, подобно тому, как копирование деталей гекконовых лап недавно привело к созданию перчаток, позволяющий передвигаться по вертикальным поверхностям.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	пригодиться	пригождаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	xcomp	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	биомиметических	биомиметический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	приложениях	приложение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	подобно	подобно	ADP	_	_	15	case	_	_
+15	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	как	как	SCONJ	_	_	15	mark	_	_
+18	копирование	копирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+19	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	гекконовых	гекконовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	лап	лапа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	недавно	недавно	ADV	_	Degree=Pos	23	advmod	_	_
+23	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+24	к	к	ADP	_	_	25	case	_	_
+25	созданию	создание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+26	перчаток	перчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	позволяющий	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+29	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	28	dep	_	_
+30	по	по	ADP	_	_	32	case	_	_
+31	вертикальным	вертикальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	32	amod	_	_
+32	поверхностям	поверхность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 2783
+# text = С биологической же точки зрения, отмечают авторы работы, такая уникальная для крупного позвоночного черта, как способность бегать по воде, показывает насколько сильно эволюция может усовершенствовать механизмы локомоции под влиянием одного только полового отбора.
+1	С	с	ADP	_	_	4	case	_	_
+2	биологической	биологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+5	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
+12	уникальная	уникальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+13	для	для	ADP	_	_	16	case	_	_
+14	крупного	крупный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	позвоночного	позвоночный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	черта	черт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	как	как	SCONJ	_	_	19	cc	_	_
+19	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+20	бегать	бегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	воде	вода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+25	насколько	насколько	ADV	_	Degree=Pos	28	advmod	_	_
+26	сильно	сильно	ADV	_	Degree=Pos	28	advmod	_	_
+27	эволюция	эволюция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+28	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+29	усовершенствовать	совершенствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+31	локомоции	локомоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	под	под	ADP	_	_	33	case	_	_
+33	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	29	obl	_	_
+34	одного	один	NUM	_	Case=Gen|Gender=Masc	37	nummod	_	_
+35	только	только	PART	_	_	36	advmod	_	_
+36	полового	половой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	_
+
+# newpar
+# sent_id = 2784

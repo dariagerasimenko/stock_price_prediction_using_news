@@ -1,0 +1,116 @@
+# text = # newpar
+# sent_id = 5040
+# text = Американская компания GE Aviation испытала реактивные двигатели LEAP-1A, собранные с использованием "напечатанных" деталей, на пассажирском самолете A320neo.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	GE	Ge	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Aviation	Aviation	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	испытала	испытывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	реактивные	реактивной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
+8	LEAP	Leap	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	1A	1a	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	собранные	собирать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	напечатанных	напечатать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	пассажирском	пассажирский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+23	A320neo	A320neo	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 5041
+# text = Согласносообщениюкомпании, лайнер с такими двигателями выполнил первый полет продолжительностью 2,5 часа 19 мая.
+1	Согласносообщениюкомпании	Согласносообщениюкомпания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	лайнер	лайнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	такими	такой	DET	_	Case=Ins|Number=Plur	6	amod	_	_
+6	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_
+7	выполнил	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	продолжительностью	продолжительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+11	2,5	2,5	NUM	_	_	12	nummod	_	_
+12	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	19	19	NUM	_	_	12	nummod	_	_
+14	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5042
+# text = В двигателях были установлены по 19 "напечатанных" топливных форсунок.Распылители топлива для двигателей LEAP-1A произведены методом прямого лазерного спекания из кобальто-хромового сплава.
+1	В	в	ADP	_	_	2	case	_	_
+2	двигателях	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	19	19	NUM	_	_	4	nummod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	напечатанных	напечатанный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	топливных	топливный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	nmod	_	_
+11	форсунок.	форсуноколо	ADP	_	_	12	case	_	SpaceAfter=No
+12	Распылители	распылитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+13	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	13	case	_	_
+15	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	LEAP	Leap	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	1A	1a	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	произведены	произведать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+20	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+21	прямого	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+22	лазерного	лазерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	спекания	спекание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+24	из	из	ADP	_	_	23	case	_	_
+25	кобальто-хромового	кобальто-хромовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	сплава	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5043
+# text = Такой сплав широко используется при производстве медицинских инструментов и различных протезов.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	сплав	сплав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	широко	широко	ADV	_	Degree=Pos	4	advmod	_	_
+4	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	протезов	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5044
+# text = Он достаточно прочен и легок, поэтому инженеры GE Aviation сочли возможным его использование при производстве деталей для двигателей.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	достаточно	достаточно	ADV	_	Degree=Pos	3	advmod	_	_
+3	прочен	прочный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	легок	легкий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	поэтому	поэтому	ADV	_	Degree=Pos	11	advmod	_	_
+8	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	GE	Ge	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Aviation	Aviation	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	сочли	считать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	obj	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+17	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# newpar
+# sent_id = 5045

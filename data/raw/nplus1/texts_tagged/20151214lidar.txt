@@ -1,0 +1,460 @@
+# text = # newpar
+# sent_id = 5438
+# text = Агентство перспективных оборонных разработок (DARPA) министерства обороны США инициировало пятилетнюю программу MOABB, в рамках которой планируется разработать универсальную замену оптическим телескопам и электронно-оптическим системам наблюдения.
+1	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+2	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	DARPA	Darpa	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	министерства	министерство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+9	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	_
+11	инициировало	инициировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	пятилетнюю	пятилетний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	MOABB	Moabb	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	obl	_	_
+18	которой	который	PRON	_	Case=Gen	17	nmod	_	_
+19	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	_	_
+20	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	nsubj:pass	_	_
+21	универсальную	универсальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	оптическим	оптический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	24	amod	_	_
+24	телескопам	телескоп	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	электронно-оптическим	электронно-оптический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	27	amod	_	_
+27	системам	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	24	conj	_	_
+28	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5439
+# text = Как пишетAviation Week, речь идет о "лидаре для всего".
+1	Как	как	ADV	_	Degree=Pos	6	cc	_	_
+2	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	6	parataxis	_	_
+3	Week	Week	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	лидаре	лидар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 5440
+# text = Финансирование программы составит 58 миллионов долларов.По итогам программы военные рассчитывают получить лидар размером с DVD, который можно будет использовать в различных целях: поиска и обнаружения объектов, скрытых листвой деревьев, предотвращения столкновений техники, в качестве части систем машинного зрения или оптических систем связи.Новый лидар по своим характеристикам должен соответствовать или превосходить современные оптические устройства такого класса, использующие телескопические детекторы.
+1	Финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	58	58	NUM	_	_	5	nummod	_	_
+5	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	По	по	ADP	_	_	8	case	_	_
+8	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	_
+9	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+12	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	лидар	лидар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	DVD	дивиди	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	который	который	PRON	_	Case=Acc	19	obj	_	_
+19	можно	можно	ADV	_	Degree=Pos	14	acl:relcl	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+21	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	целях	цель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	24	punct	_	_
+26	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	conj	_	_
+29	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	скрытых	скрывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+32	листвой	листва	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	obl	_	_
+33	деревьев	дерево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	предотвращения	предотвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	conj	_	_
+36	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	35	nmod	_	_
+37	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	в	в	ADP	_	_	41	case	_	_
+40	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	39	fixed	_	_
+41	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	nmod	_	_
+42	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+43	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	_
+45	или	или	CCONJ	_	_	47	cc	_	_
+46	оптических	оптический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	47	amod	_	_
+47	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	44	conj	_	_
+48	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+50	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+51	лидар	лидар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	55	nsubj	_	_
+52	по	по	ADP	_	_	54	case	_	_
+53	своим	свой	DET	_	Case=Dat|Number=Plur	54	amod	_	_
+54	характеристикам	характеристика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	51	nmod	_	_
+55	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	24	parataxis	_	_
+56	соответствовать	соответствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	55	dep	_	_
+57	или	или	CCONJ	_	_	58	cc	_	_
+58	превосходить	превосходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	56	conj	_	_
+59	современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	61	amod	_	_
+60	оптические	оптический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	61	amod	_	_
+61	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	58	obj	_	_
+62	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	63	amod	_	_
+63	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	использующие	использовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	63	amod	_	_
+66	телескопические	телескопический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	67	amod	_	_
+67	детекторы	детектор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	65	obj	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	67	punct	_	_
+
+# sent_id = 5441
+# text = В целом на диске площадью около десяти квадратных сантиметров, по оценке военных, должны разместиться около десяти тысяч оптических приемо-передатчиков, которые и сформируют лидар.Проект MOABB будет развиваться в три этапа.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	диске	диск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	площадью	площадь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+6	около	около	ADP	_	_	9	case	_	_
+7	десяти	десять	NUM	_	Case=Gen	9	nummod	_	_
+8	квадратных	квадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	сантиметров	сантиметры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+13	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+16	разместиться	разместяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	dep	_	_
+17	около	около	ADP	_	_	19	case	_	_
+18	десяти	десять	NUM	_	Case=Gen	19	nummod	_	_
+19	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+20	оптических	оптической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	приемо-передатчиков	приемо-передатчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которые	который	PRON	_	Case=Nom	25	nsubj	_	_
+24	и	и	PART	_	_	25	advmod	_	_
+25	сформируют	сформируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+26	лидар.	лидарождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+27	Проект	проект	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	MOABB	Moabb	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+30	развиваться	развиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	dep	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	три	три	NUM	_	Animacy=Inan|Case=Acc	33	nummod:gov	_	_
+33	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	_
+
+# sent_id = 5442
+# text = На первом планируется разработать непосредственно приемо-передатчик.
+1	На	на	ADP	_	_	2	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	непосредственно	непосредственне	ADV	_	Degree=Pos	4	advmod	_	_
+6	приемо-передатчик	приемо-передатчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 5443
+# text = На втором эти приемо-передатчики нужно будет объединить в массив из ста единиц на чипе площадью в один квадратный сантиметр.
+1	На	на	ADP	_	_	4	case	_	_
+2	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	эти	этот	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	приемо-передатчики	приемо-передатчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+5	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+7	объединить	объединять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	массив	массив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	ста	сто	NUM	_	Case=Gen	12	nummod	_	_
+12	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	чипе	чип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	площадью	площадь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	19	nummod:gov	_	_
+18	квадратный	квадратный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	сантиметр	сантиметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5444
+# text = На третьем этапе уже нужно будет создать лидар на чипе размером с DVD.В конце мая текущего годастало известноо создании лидара SWEEPER без подвижных механических частей.
+1	На	на	ADP	_	_	3	case	_	_
+2	третьем	третий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+7	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+8	лидар	лидар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	чипе	чип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	DVD.	DVD.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	В	в	ADP	_	_	15	case	_	_
+15	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+16	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	nmod	_	_
+18	годастало	годастать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	известноо	известноо	ADV	_	Degree=Pos	18	advmod	_	_
+20	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+21	лидара	лидар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	SWEEPER	Sweeper	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	без	без	ADP	_	_	26	case	_	_
+24	подвижных	подвижный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+25	механических	механический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 5445
+# text = В устройстве реализована технология немеханического оптического сканирования на одной микросхеме.
+1	В	в	ADP	_	_	2	case	_	_
+2	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	реализована	реализовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	немеханического	немеханический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	оптического	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	сканирования	сканирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	одной	один	NUM	_	Case=Loc|Gender=Fem	10	nummod	_	_
+10	микросхеме	микросхема	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5446
+# text = Благодаря этому стоимость перспективных лидаров значительно снизится, а их конструкция станет намного проще.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	перспективных	перспективной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	лидаров	лидар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	значительно	значительно	ADV	_	Degree=Pos	7	advmod	_	_
+7	снизится	снижаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	12	cc	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+11	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	7	conj	_	_
+13	намного	намного	ADV	_	Degree=Pos	14	advmod	_	_
+14	проще	простой	ADJ	_	Degree=Cmp	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5447
+# text = Разработка велась при финансировании DARPA.При создании SWEEPER инженеры использовали технологию, схожую с технологией активной фазированной антенной решетки, в которой управление радиолокационным лучом осуществляется при помощи множества небольших приемо-передающих модулей.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	велась	вести	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	финансировании	финансирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	DARPA.	Darpa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No
+6	При	при	ADP	_	_	7	case	_	_
+7	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+8	SWEEPER	Sweeper	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	схожую	схожий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	технологией	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+16	активной	активный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+17	фазированной	фазировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	антенной	антенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	решетки	решетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	которой	который	PRON	_	Case=Loc	26	obl	_	_
+23	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+24	радиолокационным	радиолокационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	лучом	луч	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	_
+26	осуществляется	осуществляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
+27	при	при	ADP	_	_	29	case	_	_
+28	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	fixed	_	_
+29	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+30	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	приемо-передающих	приемо-передать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+
+# sent_id = 5448
+# text = Каким образом удалось адаптировать технологию АФАР для использования на немеханических лидарах, DARPA не уточнило.По утверждению агентства, получившееся устройство обеспечивает сканирование окружающего пространства за счет перемещения луча с частотой до ста тысяч раз в секунду.
+1	Каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	адаптировать	адаптировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	АФАР	Афар	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	немеханических	немеханический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	лидарах	лидар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	DARPA	Darpa	PROPN	_	Foreign=Yes	11	nsubj	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	уточнило	уточнять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	По	по	ADP	_	_	18	case	_	_
+18	утверждению	утверждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	parataxis	_	_
+19	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	получившееся	получаться	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	23	advcl	_	_
+22	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	сканирование	сканирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	окружающего	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+26	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	за	за	ADP	_	_	29	case	_	_
+28	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	fixed	_	_
+29	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+30	луча	луч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	с	с	ADP	_	_	32	case	_	_
+32	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	nmod	_	_
+33	до	до	ADP	_	_	35	case	_	_
+34	ста	сто	NUM	_	Case=Gen	35	nummod	_	_
+35	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	_
+36	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 5449
+# text = Это примерно в десять тысяч раз быстрее существующих механических лидаров.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	примерно	примерно	ADV	_	Degree=Pos	5	advmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	десять	десять	NUM	_	Case=Acc	5	nummod:gov	_	_
+5	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+6	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+7	быстрее	быстро	ADV	_	Degree=Cmp	5	advmod	_	_
+8	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+9	механических	механической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	лидаров	лидар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5450
+# text = Прибор также может вести сканирование пространства с повышенной точностью с углом раствора в 51 градус.Лидар представляет собой активную оптическую систему, использующую явления отражения света и его рассеяния в прозрачных средах для получения и обработки информации об объектах.
+1	Прибор	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	сканирование	сканирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	повышенной	повышенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+12	раствора	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	51	51	NUM	_	_	15	nummod	_	_
+15	градус.	градусяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+16	Лидар	Лидар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	собой	себя	PRON	_	Case=Ins	17	obl	_	_
+19	активную	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	оптическую	оптический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	использующую	использовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+24	явления	явление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	obj	_	_
+25	отражения	отражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
+29	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	conj	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	прозрачных	прозрачный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	32	amod	_	_
+32	средах	среда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	29	obl	_	_
+33	для	для	ADP	_	_	34	case	_	_
+34	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	_
+37	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	об	о	ADP	_	_	39	case	_	_
+39	объектах	объект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 5451
+# text = Сегодня в системах машинного зрения используются как правило сканирующие лидары, формирующие трехмерную картину окружающего пространства.В сканирующих лидарах для направления лазерного луча используется вращающийся оптический блок.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+4	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	как	как	SCONJ	_	_	6	mark	_	_
+8	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+9	сканирующие	сканировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+10	лидары	лидар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	формирующие	формировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	трехмерную	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	картину	картина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	окружающего	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	20	case	_	_
+19	сканирующих	сканировать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	лидарах	лидар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	направления	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+23	лазерного	лазерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	луча	луч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	parataxis	_	_
+26	вращающийся	вращаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	28	amod	_	_
+27	оптический	оптический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 5452
+# text = Такие системы устанавливаются на самой высокой точке машины для обеспечения наилучшего обзора.
+1	Такие	такой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	устанавливаются	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	7	case	_	_
+5	самой	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	высокой	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	точке	точка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	наилучшего	наилучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5453
+# text = В маломощных системах, предназначенных для работы в небольших помещениях, вместо лазера могут использоваться обычные светодиоды.Василий Сычёв
+1	В	в	ADP	_	_	3	case	_	_
+2	маломощных	маломощной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	предназначенных	предназначать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	небольших	небольшой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	вместо	вместо	ADP	_	_	13	case	_	_
+13	лазера	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	14	xcomp	_	_
+16	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	светодиоды	светодиод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+20	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	_
+
+# newpar
+# sent_id = 5454

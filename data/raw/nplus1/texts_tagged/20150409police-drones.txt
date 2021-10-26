@@ -1,0 +1,183 @@
+# text = # newpar
+# sent_id = 889
+# text = !-- @page { margin: 2cm } p { margin-bottom: 0.25cm; line-height: 120% } a:link { so-language: zxx } -- Полиция индийского города Лакхнау закупила мультикоптеры,снаряженные перцовым аэрозолем для пресечения массовых беспорядков, сообщаетThe Guardian.Городская полиция закупила пять дронов по цене $9,600 за штуку.
+1	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+2	--	--	PUNCT	_	_	19	punct	_	_
+3	@page	@page	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	{	{	PUNCT	_	_	3	punct	_	_
+5	margin	margin	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	2cm	2cm	X	_	Foreign=Yes	18	flat:foreign	_	_
+8	}	}	PUNCT	_	_	7	punct	_	_
+9	p	p	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	{	{	PUNCT	_	_	9	punct	_	_
+11	margin-bottom	margin-bottom	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	0.	0	NUM	_	_	11	nummod	_	SpaceAfter=No
+14	25cm	25cm	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	14	punct	_	_
+16	line-height	line-height	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	120	120	NUM	_	_	5	nummod	_	SpaceAfter=No
+19	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+20	}	}	PUNCT	_	_	19	punct	_	_
+21	a:link	a:link	X	_	Foreign=Yes	19	flat:foreign	_	_
+22	{	{	PUNCT	_	_	21	punct	_	_
+23	so-language	so-language	X	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	zxx	zxx	X	_	Foreign=Yes	32	appos	_	_
+26	}	}	PUNCT	_	_	25	punct	_	_
+27	--	--	PUNCT	_	_	25	punct	_	_
+28	Полиция	полиция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	appos	_	_
+29	индийского	индийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	Лакхнау	Лакхнау	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
+32	закупила	закупивать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	46	parataxis	_	_
+33	мультикоптеры	мультикоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	SpaceAfter=No
+34	,снаряженные	,снаряжять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+35	перцовым	перцовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	аэрозолем	аэрозоль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+37	для	для	ADP	_	_	38	case	_	_
+38	пресечения	пресечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+39	массовых	массовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	беспорядков	беспорядки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	сообщаетThe	сообщаетThe	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+43	Guardian.	guardian.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	SpaceAfter=No
+44	Городская	городской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
+46	закупила	закупать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+47	пять	пять	NUM	_	Case=Acc	48	nummod:gov	_	_
+48	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	obl	_	_
+49	по	по	ADP	_	_	50	case	_	_
+50	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	46	obl	_	_
+51	$	доллар-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+52	9,600	9,600	NUM	_	_	51	nummod	_	_
+53	за	за	ADP	_	_	54	case	_	_
+54	штуку	штука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 890
+# text = Дрон поднимает в воздух два килограмма перцовой смеси и способен удаляться от оператора на один километр.
+1	Дрон	Дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	поднимает	поднимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	два	два	NUM	_	Case=Nom|Gender=Masc	6	nummod:gov	_	_
+6	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+7	перцовой	перцовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	смеси	смесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	способен	способйный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	_
+11	удаляться	удаляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	dep	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	оператора	оператор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	16	nummod:gov	_	_
+16	километр	километр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 891
+# text = "Мы провели испытания и результаты отличные.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
+7	отличные	отличный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 892
+# text = Мы можем с высокой точностью применять аэрозоль даже в местах скопления людей", --заявил глава полиции города Яшасви Ядав.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	аэрозоль	аэрозоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	даже	даже	PART	_	_	10	advmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+11	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	--заявил	--заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+16	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+17	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Яшасви	Яшасви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+20	Ядав	Ядав	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 893
+# text = Полиция Лакхнау и раньше использовала дроны, но только для наблюдения и оценки ситуации при проведении массовых мероприятий.
+1	Полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Лакхнау	Лакхнау	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	раньше	рано	ADV	_	Degree=Cmp	5	advmod	_	_
+5	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	только	только	PART	_	_	11	advmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_
+17	массовых	массовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	мероприятий	мероприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 894
+# text = В Лакхнау проживает три миллиона человек, это второй по величине город индийского штата Уттар-Прадеш. !-- @page { margin: 2cm } p { margin-bottom: 0.25cm; line-height: 120% } a:link { so-language: zxx } --
+1	В	в	ADP	_	_	2	case	_	_
+2	Лакхнау	Лакхнау	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	проживает	проживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	три	три	NUM	_	Case=Nom	5	nummod:gov	_	_
+5	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nummod:gov	_	_
+6	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	величине	величина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+12	город	город	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+13	индийского	индийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+15	Уттар-Прадеш.	Уттар-прадеш.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+16	!	!	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	--	--	PUNCT	_	_	15	punct	_	_
+18	@page	@page	X	_	Foreign=Yes	34	flat:foreign	_	_
+19	{	{	PUNCT	_	_	18	punct	_	_
+20	margin	margin	X	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	20	punct	_	_
+22	2cm	2cm	X	_	Foreign=Yes	34	flat:foreign	_	_
+23	}	}	PUNCT	_	_	22	punct	_	_
+24	p	p	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	{	{	PUNCT	_	_	24	punct	_	_
+26	margin-bottom	margin-bottom	X	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	26	punct	_	_
+28	0.	0	NUM	_	_	26	nummod	_	SpaceAfter=No
+29	25cm	25cm	X	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	;	;	PUNCT	_	_	29	punct	_	_
+31	line-height	line-height	X	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	31	punct	_	_
+33	120	120	NUM	_	_	34	nummod	_	SpaceAfter=No
+34	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+35	}	}	PUNCT	_	_	34	punct	_	_
+36	a:link	a:link	X	_	Foreign=Yes	34	flat:foreign	_	_
+37	{	{	PUNCT	_	_	36	punct	_	_
+38	so-language	so-language	X	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+39	:	:	PUNCT	_	_	38	punct	_	_
+40	zxx	zxx	PUNCT	_	_	38	punct	_	_
+41	}	}	PUNCT	_	_	38	punct	_	_
+42	--	--	PUNCT	_	_	38	punct	_	_
+
+# newpar
+# sent_id = 895

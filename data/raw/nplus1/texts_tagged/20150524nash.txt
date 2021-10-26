@@ -1,0 +1,388 @@
+# text = # newpar
+# sent_id = 51
+# text = В США в возрасте 86 лет погиб математик, экономист, лауреат Нобелевской премии по экономике Джон Нэш.
+1	В	в	ADP	_	_	2	case	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	7	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+5	86	86	NUM	_	_	6	nummod	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	погиб	погибать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	математик	математик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	экономист	экономист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	лауреат	лауреат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+13	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	экономике	экономика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	Джон	джон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+18	Нэш	Нэш	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 52
+# text = Об этом сообщает американский канал ABC.В сообщении говорится, что такси, на котором ехали математик с супругой Алисией, попало в аварию.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	канал	канал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+6	ABC.	Abc.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+7	В	в	ADP	_	_	8	case	_	_
+8	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+9	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	такси	такси	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	котором	который	PRON	_	Case=Loc	12	obl	_	_
+16	ехали	ехать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+17	математик	математик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	супругой	супруга	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Алисией	Алисия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	попало	попадать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	аварию	авария	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 53
+# text = Алисия также погибла.Джон Нэш известен своими работами по дифференциальной геометрии и теории игр.
+1	Алисия	Алисия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	погибла.	погибла.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	Джон	джон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Нэш	Нэш	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	своими	свой	DET	_	Case=Ins|Number=Plur	8	amod	_	_
+8	работами	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	дифференциальной	дифференциальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	геометрии	геометрия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	теории	теория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	conj	_	_
+14	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 54
+# text = В 50-х годах прошлого века Нэш опубликовал несколько работ по теории игр с ненулевой суммой, грубо говоря, игр, в которых выигрыш по модулю отличается от проигрыша.
+1	В	в	ADP	_	_	3	case	_	_
+2	50-х	50-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Нэш	Нэш	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	теории	теория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+12	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	ненулевой	ненулевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	суммой	сумма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	грубо	грубо	ADV	_	Degree=Pos	18	advmod	_	_
+18	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	игр	игр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	которых	который	PRON	_	Case=Loc	27	obl	_	_
+24	выигрыш	выигрыш	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+25	по	по	ADP	_	_	26	case	_	_
+26	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	_
+27	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	_
+28	от	от	ADP	_	_	29	case	_	_
+29	проигрыша	проигрыш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 55
+# text = Им было создано понятие равновесия по Нэшу, особый тип равновесия, в котором ни один из игроков не может изменить условия равновесия, не потеряв при этом чего-то.Примером такого равновесия называют, например, переговоры профсоюзов и руководства компании об увеличении зарплаты.
+1	Им	они	PRON	_	Case=Dat|Number=Plur|Person=3	3	obl	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	создано	создавать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	понятие	понятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	равновесия	равновесие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	Нэшу	Нэш	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	особый	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	тип	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+11	равновесия	равновесие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	котором	который	PRON	_	Case=Loc	20	obl	_	_
+15	ни	ни	PART	_	_	16	advmod	_	_
+16	один	один	NUM	_	Case=Nom|Gender=Masc	19	nummod:gov	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	игроков	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+21	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	_
+23	равновесия	равновесие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	потеряв	терять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	33	advcl	_	_
+27	при	при	ADP	_	_	28	case	_	_
+28	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+29	чего-то.	чего-тотец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No
+30	Примером	Пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	nmod	_	_
+31	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	32	amod	_	_
+32	равновесия	равновесие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+33	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	например	например	ADV	_	Degree=Pos	33	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	переговоры	переговоры	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+38	профсоюзов	профсоюз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	руководства	руководство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	conj	_	_
+41	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	об	о	ADP	_	_	43	case	_	_
+43	увеличении	увеличение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	nmod	_	_
+44	зарплаты	зарплата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 56
+# text = Такие переговоры могут завершиться либо длительной забастовкой и потерями с обеих сторон, либо взаимовыгодным соглашением.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	переговоры	переговоры	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	завершиться	завершаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	либо	либо	CCONJ	_	_	7	cc	_	_
+6	длительной	длительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	забастовкой	забастовка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	потерями	потеря	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	conj	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	обеих	оба	NUM	_	Case=Gen|Gender=Fem	12	nummod	_	_
+12	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	либо	либо	CCONJ	_	_	16	cc	_	_
+15	взаимовыгодным	взаимовыгодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	соглашением	соглашение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 57
+# text = Более того, взаимовыгодное соглашение при этом не может быть нарушено ни одной из сторон, так как такое нарушение приведет к потерям.В дифференциальной геометрии Нэш занимался геометрическими приложениями теории дифференциальных уравнений в частных производных.
+1	Более	более	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	взаимовыгодное	взаимовыгодный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	aux:pass	_	_
+11	нарушено	нарусать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12	ни	ни	PART	_	_	13	advmod	_	_
+13	одной	один	NUM	_	Case=Gen|Gender=Fem	17	nummod	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	так	так	ADV	_	Degree=Pos	11	advmod	_	_
+18	как	как	SCONJ	_	_	17	fixed	_	_
+19	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	20	amod	_	_
+20	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	28	advcl	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	потерям.	потерямя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	В	в	ADP	_	_	26	case	_	_
+25	дифференциальной	дифференциальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	геометрии	геометрия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+27	Нэш	Нэш	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+28	занимался	заниматься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	34	conj	_	_
+29	геометрическими	геометрический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+30	приложениями	приложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	28	obl	_	_
+31	теории	теория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	дифференциальных	дифференциальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	уравнений	уравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	частных	частный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	производных	производная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 58
+# text = В частности, до работ Нэша было известно два определения риманово многообразия.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+6	Нэша	Нэш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	два	два	NUM	_	Case=Nom|Gender=Neut	10	nummod:gov	_	_
+10	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nsubj	_	_
+11	риманово	римановый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	parataxis	_	_
+12	многообразия	многообразие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 59
+# text = В одном случае оно определялось абстрактно, исходя из наборов множеств с некоторыми дополнительными структурами, именуемых атласами.
+1	В	в	ADP	_	_	3	case	_	_
+2	одном	один	NUM	_	Case=Loc|Gender=Masc	3	nummod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj:pass	_	_
+5	определялось	определять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	абстрактно	абстрактно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	исходя	исходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	наборов	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	множеств	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+12	с	с	ADP	_	_	15	case	_	_
+13	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur	15	amod	_	_
+14	дополнительными	дополнительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	структурами	структура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	именуемых	именовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	атласами	атлас	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 60
+# text = В другом многообразие представлялось как поверхность в пространстве достаточно большой размерности.До работ Нэша было известно, что любое многообразие без римановой метрики можно представить в виде поверхности в пространстве достаточно большой размерности (теорема Уитни).
+1	В	в	ADP	_	_	2	case	_	_
+2	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	многообразие	многообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	представлялось	представляться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	как	как	SCONJ	_	_	6	cc	_	_
+6	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	advmod	_	_
+10	большой	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	размерности	размерность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	До	до	ADP	_	_	14	case	_	_
+14	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+15	Нэша	Нэш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	cc	_	_
+20	любое	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	многообразие	многообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+22	без	без	ADP	_	_	24	case	_	_
+23	римановой	римановый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	метрики	метрика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+25	можно	можно	ADV	_	Degree=Pos	17	advcl	_	_
+26	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	fixed	_	_
+29	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+32	достаточно	достаточно	ADV	_	Degree=Pos	33	advmod	_	_
+33	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	размерности	размерность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	теорема	теорема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	parataxis	_	_
+37	Уитни	Уитнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	_
+
+# sent_id = 61
+# text = Американцу удалось доказать, что то же самое верно и для многообразий уже с римановой структурой.
+1	Американцу	американец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+7	же	же	PART	_	_	6	advmod	_	_
+8	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+9	верно	верно	ADV	_	Degree=Pos	10	advmod	_	_
+10	и	и	PART	_	_	12	advmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	многообразий	многообразия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+13	уже	уже	ADV	_	Degree=Pos	16	advmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	римановой	римановый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	структурой	структура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 62
+# text = Таким образом ему удалось, по сути, доказать эквивалентность двух определений.Джон Нэш был лауреатом множества наград.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+10	эквивалентность	эквивалентность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	определений	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Джон	джон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+15	Нэш	Нэш	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	_
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	лауреатом	лауреат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	parataxis	_	_
+18	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	наград	награда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 63
+# text = В 1994 году он получил премию памяти Нобеля по экономике за теорию игр, а в 2015 году он удостоился Абелевской премии за вклад в дифференциальную геометрию.
+1	В	в	ADP	_	_	3	case	_	_
+2	1994	1994	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	премию	премия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Нобеля	Нобель	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	экономике	экономика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	теорию	теория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	20	cc	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	2015	2015	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+20	удостоился	удостаиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+21	Абелевской	Абелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	за	за	ADP	_	_	24	case	_	_
+24	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	дифференциальную	дифференциальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	геометрию	геометрия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 64
+# text = В 2001 году на экраны вышел биографический фильм, посвященный истории жизни Нэша, "Игры разума".
+1	В	в	ADP	_	_	3	case	_	_
+2	2001	2001	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	экраны	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+6	вышел	выходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	биографический	биографический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	посвященный	посвящать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	истории	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	conj	_	_
+12	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Нэша	Нэш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Игры	игра	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+17	разума	разум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 65

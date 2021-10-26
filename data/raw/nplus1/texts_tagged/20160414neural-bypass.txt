@@ -1,0 +1,312 @@
+# text = # newpar
+# sent_id = 908
+# text = Новая технология, разработанная американскими учеными, позволила восстановить функции руки парализованному пациенту.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	американскими	американский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	парализованному	парализовать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+13	пациенту	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 909
+# text = Результаты работы опубликованы вжурнале Nature.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 910
+# text = Иэн Беркхарт (Ian Burkhart) изДублина, штат Огайо, получил перелом шейного отдела позвоночника, нырнув вводу, после чего все его четыре конечности остались парализованными.
+1	Иэн	Иен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	Беркхарт	Беркхарт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Ian	Ian	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Burkhart	Burkhart	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	изДублина	изДублина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	штат	штать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	Огайо	Огайо	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+13	перелом	перел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	шейного	шейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	позвоночника	позвоночник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	нырнув	ныртывать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	advcl	_	_
+19	вводу	ввода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	после	после	ADP	_	_	22	case	_	_
+22	чего	что	PRON	_	Case=Gen	27	obl	_	_
+23	все	весь	DET	_	Case=Nom|Number=Plur	25	amod	_	_
+24	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	25	nmod	_	_
+25	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	26	nummod:gov	_	_
+26	конечности	конечность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+27	остались	оставаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+28	парализованными	парализованный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 911
+# text = Спустя четыре года сотрудники Университета штата Огайо иМемориального института Баттеля пригласили 24-летнего пациента для испытаний новой технологии.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+4	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+5	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Огайо	Огайо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+8	иМемориального	иМемориальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Баттеля	Баттель	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	пригласили	приглашать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	24-летнего	24-летний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	пациента	пациент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+14	для	для	ADP	_	_	13	case	_	_
+15	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 912
+# text = Наподготовительном этапе ему предлагали воображать движения руки, показанные наэкране.
+1	Наподготовительном	Наподготовительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+4	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	воображать	воображать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	показанные	показанный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	наэкране	наэкранин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 913
+# text = Вэто время активность его моторной коры регистрировали спомощью функциональной МРТ.
+1	Вэто	Вэтот	DET	_	Case=Acc|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+3	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+5	моторной	моторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	регистрировали	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	функциональной	функциональной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	МРТ	мрт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 914
+# text = Затем вкартированную область мозга Беркхарта вживили гибкий микрочип с96микроэлектродами.
+1	Затем	затем	ADV	_	Degree=Pos	2	advmod	_	_
+2	вкартированную	вкартировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	область	область	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+4	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Беркхарта	Беркхарт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	вживили	вживлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	гибкий	гибкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	микрочип	микрочип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+9	с96микроэлектродами	с96микроэлектрод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 915
+# text = Через интерфейс машинного обучения этот микрочип подключили киндивидуально созданному нервно-мышечному чрескожному электростимулятору со130электродами, наложенными направое предплечье.
+1	Через	через	ADP	_	_	2	case	_	_
+2	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+3	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	микрочип	микрочип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	подключили	дключить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	киндивидуально	киндивидуально	ADV	_	Degree=Pos	9	advmod	_	_
+9	созданному	создывать	VERB	_	Aspect=Perf|Case=Dat|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+10	нервно-мышечному	нервно-мышечный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	чрескожному	чрескожный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	электростимулятору	электростимулятор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+13	со130электродами	со130электрод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	наложенными	наложять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	направое	направый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	предплечье	предплечье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 916
+# text = После этого пациент трижды внеделю втечение 15месяцев тренировался использовать эту систему нервного шунтирования (NBS) для совершения движений кистью и пальцами.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	пациент	пациент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	трижды	трижды	ADV	_	Degree=Pos	5	advmod	_	_
+5	внеделю	внедеить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	15месяцев	15месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	тренировался	тренироваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
+11	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	нервного	нервной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	шунтирования	шунтирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	NBS	Nbs	PROPN	_	Foreign=Yes	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	совершения	совершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+19	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	кистью	кисть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 917
+# text = Кконцу обучения система смогла четко определять 33динамических стереотипа сосредним отношением сигнала кшуму 3,05.
+1	Кконцу	Кконец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	смогла	мочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	четко	четко	ADV	_	Degree=Pos	6	advmod	_	_
+6	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	33динамических	33динамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	стереотипа	стереотип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	сосредним	сосредний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	отношением	отношение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+11	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	кшуму	кшум	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+13	3,05	3,05	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 918
+# text = Кконцу обучения Беркхарт смог управлять отдельными пальцами, совершать шесть типов движений кистью, брать иперемещать предметы.
+1	Кконцу	Кконец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	Беркхарт	Беркхарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	отдельными	отдельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+10	шесть	шесть	NUM	_	Case=Acc	11	nummod:gov	_	_
+11	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+12	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	кистью	кисть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	брать	брать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+16	иперемещать	иперемещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 919
+# text = Онв состоянии, например, налить воду избутылки встакан, взять банковскую карточку ивоспользоваться ейидаже сыграть нагитарном симуляторе Guitar Hero.
+1	Онв	Онв	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	состоянии	состояния	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	например	например	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	налить	наливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+7	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	избутылки	избутылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	встакан	встакан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+12	банковскую	банковский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	карточку	карточка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	ивоспользоваться	ивоспользоваваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+15	ейидаже	ейидаже	PART	_	_	16	advmod	_	_
+16	сыграть	сыграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	нагитарном	нагитарный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	симуляторе	симулятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	Guitar	Guitar	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Hero	Hero	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 920
+# text = Пословам руководителя исследования Чеда Баутона (Chad Bouton), полученные результаты свидетельствуют отом, что реорганизация нейрональных связей вмозге после спинальной травмы ненастолько глубока, как считалось до сих пор.
+1	Пословам	Послова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+2	руководителя	руководитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Чеда	Чед	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Баутона	Баутон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Chad	Chad	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+8	Bouton	Bouton	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	свидетельствуют	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	13	mark	_	_
+17	реорганизация	реорганизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+18	нейрональных	нейрональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	вмозге	вмозга	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	_
+21	после	после	ADP	_	_	23	case	_	_
+22	спинальной	спинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	травмы	травма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+24	ненастолько	ненастолько	ADV	_	Degree=Pos	25	advmod	_	_
+25	глубока	глубокий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	13	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	как	как	SCONJ	_	_	28	mark	_	_
+28	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	25	advmod	_	_
+29	до	до	ADP	_	_	28	advmod	_	_
+30	сих	сей	DET	_	Case=Gen|Number=Plur	29	fixed	_	_
+31	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	fixed	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 921
+# text = Пока использование NBS имеет серьезные ограничения.
+1	Пока	пока	SCONJ	_	_	4	advmod	_	_
+2	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	NBS	Nbs	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	серьезные	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 922
+# text = Оно возможно только при подключении клабораторному компьютеру итребует калибровки перед каждым сеансом работы.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	только	только	PART	_	_	2	advmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	подключении	подключение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+6	клабораторному	клабораторный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	компьютеру	компьютер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	итребует	итребовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	перед	перед	ADP	_	_	12	case	_	_
+11	каждым	каждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	сеансом	сеанс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+13	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 923
+# text = Разработчики занимаются совершенствованием методики, адаптируя еедля повседневного пользования.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	совершенствованием	совершенствование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+4	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	адаптируя	адаптиревать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	_
+7	еедля	еедля	ADP	_	_	9	case	_	_
+8	повседневного	повседневный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 924
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 925

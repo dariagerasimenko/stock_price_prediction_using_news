@@ -1,0 +1,243 @@
+# text = # newpar
+# sent_id = 2145
+# text = Несколько ведущих медицинских организаций иавторитетных рецензируемых журналов подписали декларацию освободном доступе клюбым данным, которые могут помочь вборьбе сэпидемией лихорадки Зика, говорится вихсовместном заявлении.
+1	Несколько	несколько	NUM	_	Case=Nom	4	nummod:gov	_	_
+2	ведущих	ведущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	организаций	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nsubj	_	_
+5	иавторитетных	иавторитетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	рецензируемых	рецензируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	журналов	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	подписали	дписать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	декларацию	декларация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	освободном	освободный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	доступе	доступе	ADV	_	Degree=Pos	10	advmod	_	_
+12	клюбым	клюбой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	8	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	вборьбе	вборьба	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+19	сэпидемией	сэпидемиий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	Зика	Зик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+24	вихсовместном	вихсовместный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 2146
+# text = Среди подписантов декларации--
+1	Среди	среди	ADP	_	_	2	case	_	_
+2	подписантов	подписант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+3	декларации	декларация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2147
+# text = Национальные институты здоровья США (NIH), "Врачи без границ", Wellcome Trust, Фонд Билла иМелинды Гейтс, атакже журналы Nature, Science, PLOS, New England Journal ofMedicine иряд региональных медицинских фондов.
+1	Национальные	национальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	институты	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	_
+3	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	NIH	Nih	PROPN	_	Foreign=Yes	4	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Врачи	Врачи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+11	без	без	ADP	_	_	12	case	_	_
+12	границ	граница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	Wellcome	Wellcome	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+16	Trust	Trust	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Фонд	фонд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+19	Билла	Билла	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	иМелинды	иМелинда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	Гейтс	Гейтс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	атакже	атакже	CCONJ	_	_	24	cc	_	_
+24	журналы	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+25	Nature	nature	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	Science	science	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	PLOS	Plos	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	New	new	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+32	England	England	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	Journal	journal	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	ofMedicine	ofMedicine	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	иряд	иряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+36	региональных	региональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+37	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	фондов	фонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	_
+
+# sent_id = 2148
+# text = Они выразили надежду, что кним присоединятся другие мировые медицинские организации ииздания.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	выразили	выражать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	надежду	надежда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	кним	окни	PRON	_	Case=Dat|Number=Plur|Person=3	7	obl	_	_
+7	присоединятся	присоединяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+8	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+9	мировые	мировый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	медицинские	медицинский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	организации	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+12	ииздания	ииздание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 2149
+# text = Цель декларации -- обеспечить международному сообществу максимально быстрый иоткрытый доступ ко всей информации, касающейся вируса Зика, вызываемой имлихорадки и эпидемиологии этого заболевания.
+1	Цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	декларации	декларация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+5	международному	международный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сообществу	сообщество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+7	максимально	максимально	ADV	_	Degree=Pos	4	advmod	_	_
+8	быстрый	быстрый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	иоткрытый	иоткрытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+11	ко	к	ADP	_	_	13	case	_	_
+12	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	касающейся	касаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	16	amod	_	_
+16	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+17	Зика	Зик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	вызываемой	вызывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	имлихорадки	имлихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	эпидемиологии	эпидемиология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+23	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	24	amod	_	_
+24	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2150
+# text = Ееподписание последовало заизданием руководства поработам, связанным сугрозой общественному здоровью, которое разработано экспертами Всемирной организации здравоохранения всентябре 2015 года.
+1	Ееподписание	Ееподписание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	последовало	последовать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	заизданием	заиздание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+4	руководства	руководство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	поработам	поработ	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	связанным	связывать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+8	сугрозой	сугроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl:agent	_	_
+9	общественному	общественной	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	здоровью	здоровье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которое	который	PRON	_	Case=Nom	13	nsubj:pass	_	_
+13	разработано	разрабатывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	acl:relcl	_	_
+14	экспертами	эксперт	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl:agent	_	_
+15	Всемирной	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	всентябре	всентябра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	_
+19	2015	2015	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 2151
+# text = Вэтом руководстве говорится, что уисследователей "есть фундаментальная моральная обязанность делиться предварительными результатами работы втот момент, когда ихкачество подтверждено".
+1	Вэтом	Вэтот	DET	_	Case=Loc|Gender=Neut|Number=Sing	2	amod	_	_
+2	руководстве	руководство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	уисследователей	уисследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	advcl	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+9	фундаментальная	фундаментальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	моральная	моральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	обязанность	обязанность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+12	делиться	делиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	dep	_	_
+13	предварительными	предварительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	результатами	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	_
+15	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	втот	втот	DET	_	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	_
+17	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	когда	когда	SCONJ	_	_	17	mark	_	_
+20	ихкачество	ихкачество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+21	подтверждено	подтверждать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2152
+# text = Журналы ифонды, помнению экспертов, должны сделать бесплатную публикацию критических данных "практикой поумолчанию".
+1	Журналы	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	ифонды	ифонда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	помнению	помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	conj	_	_
+5	экспертов	эксперт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	бесплатную	бесплатный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	публикацию	публикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	критических	критической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	практикой	практикий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	поумолчанию	поумолчани	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 2153
+# text = Нынешняя эпидемия лихорадки Зика началась весной 2015 года вБразилии икнастоящему времени охватила более 20государств и территорий.
+1	Нынешняя	нынешний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	эпидемия	эпидемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Зика	Зик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	началась	начинаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	2015	2015	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	вБразилии	вбразилии	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	икнастоящему	икнастоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	охватила	охващать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	более	более	ADV	_	Degree=Cmp	14	nummod:gov	_	_
+14	20государств	20государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	территорий	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 2154
+# text = Сама посебе лихорадка относительно неопасна, однако она резко повышает риск рождения детей санацефалией иневрологических расстройств у взрослых.
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	посебе	посебй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	лихорадка	лихорадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	относительно	относительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	неопасна	неопасный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	10	advmod	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+9	резко	резко	ADV	_	Degree=Pos	10	advmod	_	_
+10	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	санацефалией	санацефалия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+15	иневрологических	иневрологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+17	у	у	ADP	_	_	18	case	_	_
+18	взрослых	взрослый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 2155
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 2156

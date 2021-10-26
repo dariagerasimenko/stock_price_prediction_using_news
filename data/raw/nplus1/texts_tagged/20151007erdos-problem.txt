@@ -1,0 +1,312 @@
+# text = # newpar
+# sent_id = 491
+# text = Лауреат Филдсовской премии Теренс Тао заявил о доказательстве так называемой гипотезы Эрдеша о расходимости (The Erds discrepancy problem).
+1	Лауреат	лауреат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Филдсовской	Филдсовский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Теренс	Теренс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Тао	Тао	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	доказательстве	доказательство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	так	так	ADV	_	Degree=Pos	10	advmod	_	_
+10	называемой	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+12	Эрдеша	Эрдеш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	о	о	ADP	_	_	14	case	_	_
+14	расходимости	расходимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	The	the	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	Erds	Erds	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	discrepancy	discrepancy	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	problem	problem	X	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 492
+# text = Статья Тао появилась на arXiv.org.Гипотеза Эрдеша формулируется следующим образом: рассмотрим последовательность, состоящую из единиц и минус единиц.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Тао	Тао	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	появилась	появляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	arXiv.org	arXiv.org	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	Эрдеша	Эрдеш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	формулируется	формулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+10	следующим	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	рассмотрим	рассматривать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+14	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	состоящую	состоять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	минус	минус	ADP	_	_	21	case	_	_
+21	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 493
+# text = Тогда для каждой такой последовательности можно определить такие целые числа d и k, что сумма элементов, стоящих на местах с номерами 0, d, 2d, ..., dk будет по модулю больше любого наперед заданного C.В феврале 2014 года математики Борис Конев и Алексей Лисица объявили, что им удалось частично доказать гипотезу с помощью компьютера.
+1	Тогда	тогда	ADV	_	Degree=Pos	6	advmod	_	_
+2	для	для	ADP	_	_	5	case	_	_
+3	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	такие	такой	DET	_	Case=Acc|Number=Plur	10	amod	_	_
+9	целые	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	числа	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+11	d	d	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	k	k	PROPN	_	Foreign=Yes	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	0	cc	_	_
+16	сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+17	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	стоящих	стоять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	obl	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	номерами	номер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+24	0	0	NUM	_	_	16	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	d	d	X	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	2d	2d	X	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	28	punct	_	_
+34	dk	dk	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+35	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	cop	_	_
+36	по	по	ADP	_	_	37	case	_	_
+37	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	advcl	_	_
+38	больше	больше	ADV	_	Degree=Cmp	48	nummod:gov	_	_
+39	любого	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	nmod	_	_
+40	наперед	наперед	ADV	_	Degree=Pos	41	advmod	_	_
+41	заданного	задавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	44	amod	_	_
+42	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	41	obl:agent	_	SpaceAfter=No
+43	В	в	ADP	_	_	44	case	_	_
+44	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	nmod	_	_
+45	2014	2014	NUM	_	_	46	nummod	_	_
+46	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+47	математики	математика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	nmod	_	_
+48	Борис	борис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	53	nsubj	_	_
+49	Конев	Конев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	flat:name	_	_
+50	и	и	CCONJ	_	_	51	cc	_	_
+51	Алексей	алексей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	conj	_	_
+52	Лисица	Лисица	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	flat:name	_	_
+53	объявили	объявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	37	parataxis	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	что	что	SCONJ	_	_	53	mark	_	_
+56	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	57	obl	_	_
+57	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	53	advcl	_	_
+58	частично	частично	ADV	_	Degree=Pos	59	advmod	_	_
+59	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	57	nsubj	_	_
+60	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	59	obl	_	_
+61	с	с	ADP	_	_	60	case	_	_
+62	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	61	fixed	_	_
+63	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	63	punct	_	_
+
+# sent_id = 494
+# text = Они свели задачу к доказательству гипотезы для специального класса последовательностей: в них произвольным образом единицы и минус единицы расставляются только на местах, номера которых простые числа.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	свели	сводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	доказательству	доказательство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+6	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+10	последовательностей	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	0	nmod	_	_
+14	произвольным	произвольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+16	единицы	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	20	cc	_	_
+18	минус	минус	ADP	_	_	19	case	_	_
+19	единицы	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+20	расставляются	расставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+21	только	только	PART	_	_	23	advmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	номера	номер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+26	которых	который	PRON	_	Case=Gen	25	nmod	_	_
+27	простые	простый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	числа	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	23	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 495
+# text = На i-м же месте оказывается произведение чисел, стоящих на местах, соответствующих простым делителям числа i.
+1	На	на	ADP	_	_	4	case	_	_
+2	i-м	i-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+5	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	произведение	произведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	стоящих	стоять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	соответствующих	соответствующий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+14	простым	простый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	делителям	делитель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+16	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	i	i	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 496
+# text = То есть, в такой проследовательности на 15-ме месте, например, будет стоять произведение чисел на 5-м и 3-м местах.При этом Коневу и Лисице не удалось доказать, что C может быть сколь угодно большим - они доказали для случая C = 2.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	mark	_	_
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	6	amod	_	_
+6	проследовательности	проследовательность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	15-ме	15-м	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+14	стоять	стоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+15	произведение	произведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+17	на	на	ADP	_	_	21	case	_	_
+18	5-м	5-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	3-м	3-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_
+21	местах.	местахутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+22	При	при	ADP	_	_	23	case	_	_
+23	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	obl	_	_
+24	Коневу	Конев	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	Лисице	Лисиц	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	conj	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	conj	_	_
+29	доказать	доказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	C	c	PROPN	_	Foreign=Yes	33	nsubj	_	_
+33	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	parataxis	_	_
+34	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	35	cop	_	_
+35	сколь	сколь	ADV	_	Degree=Pos	37	advmod	_	_
+36	угодно	угодно	ADV	_	Degree=Pos	35	fixed	_	_
+37	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	33	obl	_	_
+38	-	-	PUNCT	_	_	37	punct	_	_
+39	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	40	nsubj	_	_
+40	доказали	доказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	44	conj	_	_
+41	для	для	ADP	_	_	42	case	_	_
+42	случая	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
+43	C	c	PROPN	_	Foreign=Yes	42	flat:foreign	_	_
+44	=	=	SYM	_	_	45	advmod	_	_
+45	2	2	NUM	_	_	29	advcl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 497
+# text = Кроме этого для работы пришлось написать программу, которая выдала в общей сложности 13 гигабайт данных по результатам работы.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	написать	писать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	выдала	выать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	в	в	ADP	_	_	15	advmod	_	_
+12	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	fixed	_	_
+13	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
+14	13	13	NUM	_	_	15	nummod	_	_
+15	гигабайт	гигабайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+16	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	15	nmod	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	результатам	результат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+19	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 498
+# text = Для сравнения, все тексты Википедии без картинок занимают примерно 10 гигабайт.Тао удалось найти новый подход к решению задачи.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	все	весь	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	тексты	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	Википедии	Википедия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	без	без	ADP	_	_	8	case	_	_
+8	картинок	картинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	занимают	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	13	advmod	_	_
+11	10	10	NUM	_	_	13	nummod	_	_
+12	гигабайт.	гигабайто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+13	Тао	Тао	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+14	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	conj	_	_
+15	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 499
+# text = В частности, он решал совершенно иную задачу, а то, что его задача связана с гипотезой Эрдеша, ему подсказал один из комментариев в его собственном блоге.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	решал	решать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	совершенно	совершенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	иную	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	11	cc	_	_
+11	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	mark	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+16	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	advcl	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	гипотезой	гипотеза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+19	Эрдеша	Эрдеш	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+22	подсказал	дсказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+23	один	один	NUM	_	Case=Nom|Gender=Masc	22	nsubj	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	комментариев	комментарий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	в	в	ADP	_	_	29	case	_	_
+27	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
+28	собственном	собственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 500
+# text = В настоящее время доказательство проходит проверку.Андрей Коняев
+1	В	в	ADP	_	_	5	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	доказательство	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	проверку.	проверкуент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+7	Андрей	андрей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	Коняев	Коняев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+
+# newpar
+# sent_id = 501

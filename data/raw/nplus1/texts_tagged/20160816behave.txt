@@ -1,0 +1,345 @@
+# text = # newpar
+# sent_id = 1748
+# text = Британские исследователи обнаружили, что прием парацетамола вовремя беременности связан споведенческими расстройствами убудущего ребенка.
+1	Британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	прием	прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+7	парацетамола	парацетамол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	вовремя	вовремя	ADV	_	Degree=Pos	10	advmod	_	_
+9	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+11	споведенческими	споведенческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	расстройствами	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	obl	_	_
+13	убудущего	убудущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 1749
+# text = Результаты работы опубликованы вJAMA Pediatrics.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вJAMA	вjama	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Pediatrics	Pediatrics	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 1750
+# text = Сотрудники Бристольского иКардиффского университетов в течение года собирали ианализировали данные 7796 участников проспективного исследования ALSPAC (Avon Longitudinal Study of Parents and Children), наблюдение закоторыми велось втечение 25лет.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	Бристольского	Бристольский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	иКардиффского	иКардиффский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+8	собирали	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ианализировали	ианализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	advcl	_	_
+10	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	9	obj	_	_
+11	7796	7796	NUM	_	_	12	nummod	_	_
+12	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	проспективного	проспективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	ALSPAC	Alspaс	ADP	_	_	26	case	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Avon	Avon	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Longitudinal	Longitudinal	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Study	Study	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	of	of	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	Parents	Parents	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	and	and	X	_	Foreign=Yes	21	flat:foreign	_	_
+23	Children	Children	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	obl	_	_
+27	закоторыми	закоторый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	_
+28	велось	веться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	parataxis	_	_
+29	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+30	25лет	25год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 1751
+# text = Прием парацетамола регистрировался на18и32неделе беременности, атакже когда ребенок был ввозрасте 61месяца.
+1	Прием	Прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	парацетамола	парацетамол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	регистрировался	регистрировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на18и32неделе	на18и32недель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+5	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	атакже	атакже	CCONJ	_	_	11	cc	_	_
+8	когда	когда	SCONJ	_	_	7	mark	_	_
+9	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	ввозрасте	ввозраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	_
+12	61месяца	61месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 1752
+# text = Поведенческие расстройства оценивали с помощью родительского опросника "Сильные стороны итрудности" (SDQ), когда детям исполнялось семь лет.
+1	Поведенческие	поведенческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	оценивали	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	с	с	ADP	_	_	7	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	родительского	родительский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	опросника	опросник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Сильные	сильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	стороны	сторон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+11	итрудности	итрудность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	SDQ	Sdq	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	когда	когда	SCONJ	_	_	3	mark	_	_
+18	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+19	исполнялось	исполнять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	advcl	_	_
+20	семь	семь	NUM	_	Case=Acc	21	nummod:gov	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nsubj:pass	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# newpar
+# sent_id = 1753
+# text = На18неделе беременности парацетамол принимали 4415 (53 процента), ана32 неделе -- 3381 (42процента) женщин.
+1	На18неделе	На18неделе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	парацетамол	парацетамола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	принимали	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	4415	4415	NUM	_	_	8	nummod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	53	53	NUM	_	_	5	nummod	_	_
+8	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	ана32	ана32	NUM	_	_	12	nummod	_	_
+12	неделе	недел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	3381	3381	NUM	_	_	16	nummod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	42процента	42процент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	женщин	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 1754
+# text = Вобоих случаях это оказалось связано сповышенным риском нарушений поведения (на42процента) исимптомов гиперактивности (на31процент) уребенка, достигшего семилетия.
+1	Вобоих	Воба	NUM	_	Case=Loc|Gender=Masc	2	nummod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	связано	связано	ADV	_	Degree=Pos	6	advmod	_	_
+6	сповышенным	повышеть	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	риском	риск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	нарушений	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	на42процента	на42процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	исимптомов	исимптом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+14	гиперактивности	гиперактивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	на31процент	на31процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	уребенка	уребенка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	достигшего	достигать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	amod	_	_
+21	семилетия	семилетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 1755
+# text = Кроме того, использование препарата на32неделе беременности ассоциировалось также сповышенной частотой эмоциональных расстройств (на29процентов) иобщих сложностей (на46процентов) усемилетних детей.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	на32неделе	на32неделе	PART	_	_	7	advmod	_	_
+7	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	ассоциировалось	ассоциироваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	также	также	ADV	_	Degree=Pos	8	advmod	_	_
+10	сповышенной	сповышенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+12	эмоциональных	эмоциональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	на29процентов	на29процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	иобщих	иобщий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	сложностей	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	parataxis	_	_
+19	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	на46процентов	на46процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	усемилетних	усемилетний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# newpar
+# sent_id = 1756
+# text = Применение парацетамола половым партнером или женщиной после беременности наэти показатели никак невлияло, что исключает влияние потенциальных поведенческих исоциальных факторов, связанных сего приемом, отмечают ученые.
+1	Применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+2	парацетамола	парацетамол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	половым	половой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	партнером	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	или	или	CCONJ	_	_	6	cc	_	_
+6	женщиной	женщина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	4	conj	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+9	наэти	наэтот	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+10	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+11	никак	никак	ADV	_	Degree=Pos	12	advmod	_	_
+12	невлияло	невлияло	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+15	исключает	исключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	потенциальных	потенциальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+18	поведенческих	поведенческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	исоциальных	исоциальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	сего	сей	DET	_	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	_
+24	приемом	прием	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+27	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# newpar
+# sent_id = 1757
+# text = Природа подобной взаимосвязи остается неуточненной, однако исследователи считают наиболее вероятным, что она связана свнутриутробным действием парацетамола наплод.
+1	Природа	природа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	взаимосвязи	взаимосвязь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	неуточненной	неуточненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+10	наиболее	наиболее	ADV	_	Degree=Pos	11	advmod	_	_
+11	вероятным	вероятный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	9	mark	_	_
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj:pass	_	_
+15	связана	вязать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	advcl	_	_
+16	свнутриутробным	свнутриутробный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+18	парацетамола	парацетамол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	наплод	наплод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 1758
+# text = Учитывая широкое применение препарата беременными женщинами, даже небольшой риск побочных эффектов может иметь серьезные последствия для общественного здоровья, подчеркивают авторы работы.
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+2	широкое	широкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	беременными	беременный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	женщинами	женщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	даже	даже	PART	_	_	9	advmod	_	_
+9	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	побочных	побочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	эффектов	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	parataxis	_	_
+14	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	серьезные	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	последствия	последствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+17	для	для	ADP	_	_	19	case	_	_
+18	общественного	общественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+23	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1759
+# text = По ихсловам, для более глубокого понимания этого риска илежащих вего основе механизмов необходимы дальнейшие исследования.
+1	По	по	ADP	_	_	2	case	_	_
+2	ихсловам	ихсловы	PRON	_	Case=Dat|Number=Plur|Person=2	14	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	для	для	ADP	_	_	7	case	_	_
+5	более	более	ADV	_	Degree=Cmp	6	advmod	_	_
+6	глубокого	глубокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+8	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	илежащих	илежать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+11	вего	вий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+15	дальнейшие	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# newpar
+# sent_id = 1760
+# text = Парацетамол-- одно изсамых распространенных обезболивающих ижаропонижающих средств.
+1	Парацетамол--	Парацетамол--	PUNCT	_	_	2	punct	_	_
+2	одно	один	NUM	_	Case=Nom|Gender=Neut	7	nummod:gov	_	_
+3	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+4	распространенных	распространенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+5	обезболивающих	обезболивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+6	ижаропонижающих	ижаропонижать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+7	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 1761
+# text = При приеме впределах рекомендованной суточной дозы (4000 миллиграммов, еепревышение грозит необратимым повреждением печени исмертью) онсчитается малотоксичным инепротивопоказан налюбом сроке беременности.
+1	При	при	ADP	_	_	2	case	_	_
+2	приеме	прием	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+3	впределах	впредел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+4	рекомендованной	рекомендовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+5	суточной	суточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	дозы	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	4000	4000	NUM	_	_	9	nummod	_	_
+9	миллиграммов	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	еепревышение	еепревышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	грозит	грозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	необратимым	необратимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	повреждением	повреждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	исмертью	исмерть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl:agent	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	онсчитается	онсчитаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+19	малотоксичным	малотоксичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+20	инепротивопоказан	инепротивопоказывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+21	налюбом	налюб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:agent	_	_
+22	сроке	сроке	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	_
+23	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 1762
+# text = Недавно американские ученые обнаружили, что парацетамол ослабляет чувство сопереживания чужим болезненным ощущениям.
+1	Недавно	недавно	ADV	_	Degree=Pos	4	advmod	_	_
+2	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	парацетамол	парацетамол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	ослабляет	ослаблять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	чувство	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	сопереживания	сопереживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	чужим	чужой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+12	болезненным	болезненный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	ощущениям	ощущение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 1763
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+
+# newpar
+# sent_id = 1764
