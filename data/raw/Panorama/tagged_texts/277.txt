@@ -1,0 +1,268 @@
+# sent_id = 1918
+# text = Инцидент произошел 17 мая на улице Шолом-Алейхема, недалеко от памятника писателю.
+1	Инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	произошел	происходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	17	17	NUM	_	_	2	nummod	_	_
+4	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	улице	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+7	Шолом-Алейхема	Шолом-Алейхем	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	недалеко	недалеко	ADV	_	Degree=Pos	2	advmod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	памятника	памятник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	писателю	писатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 1919
+# text = В 15:00 там начался согласованный с администрацией города митинг, посвященный профессиональному празднику всех программистов, системных администраторов, интернет-провайдеров, веб-дизайнеров, редакторов интернет-изданий и всех остальных людей, занятых в сфере информационных технологий.
+1	В	в	ADP	_	_	2	case	_	_
+2	15	15	NUM	_	_	4	nummod	_	SpaceAfter=No
+3	:00	:00	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	там	там	ADV	_	Degree=Pos	5	advmod	_	_
+5	начался	начинаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	согласованный	огласовать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	администрацией	администрация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	митинг	митинг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	посвященный	посвящать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	профессиональному	профессиональный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	празднику	праздник	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+15	всех	весь	DET	_	Case=Gen|Number=Plur	16	amod	_	_
+16	программистов	программист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	системных	системный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	администраторов	администратор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+22	-провайдеров	-провайдер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	веб-дизайнеров	веб-дизайнер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	редакторов	редактор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	_
+27	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	изданий	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	_
+30	и	и	CCONJ	_	_	33	cc	_	_
+31	всех	весь	DET	_	Case=Gen|Number=Plur	33	amod	_	_
+32	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	занятых	занимать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_
+38	информационных	информационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 1920
+# text = Праздник был учреждён 27 марта 2006 года резолюцией Генеральной Ассамблеей ООН как "World Telecommunication and Information Society Day".
+1	Праздник	праздник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	учреждён	учреждать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	27	27	NUM	_	_	8	nummod	_	_
+5	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	2006	2006	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	резолюцией	резолюция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+9	Генеральной	Генеральный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Ассамблеей	ассамблея	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+11	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	как	как	SCONJ	_	_	14	cc	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	World	world	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+15	Telecommunication	Telecommunication	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	and	and	X	_	Foreign=Yes	15	flat:foreign	_	_
+17	Information	information	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Society	society	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Day	Day	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 1921
+# text = Участники митинга принесли с собой флаги России и Еврейской автономной области, что привело к нелепой случайности.
+1	Участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	митинга	митинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	принесли	приносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	собой	себя	PRON	_	Case=Ins	6	obl	_	_
+6	флаги	флага	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	11	cc	_	_
+9	Еврейской	еврейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	автономной	автономный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+15	к	к	ADP	_	_	17	case	_	_
+16	нелепой	нелепый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	случайности	случайность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 1922
+# text = Через полчаса после начала мероприятия возле места проведения акции возникла толпа пожилых женщин, которая стала забрасывать митингующих навозом и тухлыми овощами, выкрикивая лозунги "Нет извращенцам!
+1	Через	через	ADP	_	_	2	case	_	_
+2	полчаса	полчас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	мероприятия	мероприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	возле	возле	ADP	_	_	7	case	_	_
+7	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+8	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	акции	акция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	возникла	возникать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	толпа	толпа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	пожилых	пожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+17	забрасывать	забрасывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	митингующих	митинговать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	навозом	навоз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	тухлыми	тухлый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	овощами	овощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	выкрикивая	выкрикивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	_
+25	лозунги	лозунг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Нет	нет	PART	_	_	25	appos	_	_
+28	извращенцам	извращенец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	!	!	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 1923
+# text = ", "Долой гомосеков!
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Долой	долой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	гомосеков	гомосеков	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 1924
+# text = ", "Прочь подстилки Запада!
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Прочь	Прочь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	подстилки	подстилка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Запада	запад	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 1925
+# text = ", "Валите из России глинобесы!
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	Валите	Валять	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	глинобесы	глинобес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 1926
+# text = ", "Хватит бездуховности!".
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Хватит	Хватить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	бездуховности	бездуховность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 1927
+# text = "Мне внук Сёма сказал, что на Шолом-Алейхема проходит гей-парад, что эти уроды флагами радужными размахивают.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	5	obl	_	_
+3	внук	внук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Сёма	Сёма	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Шолом-Алейхема	Шолом-Алейхема	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	гей-	гей-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	парад	парад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	10	mark	_	_
+15	эти	этот	DET	_	Case=Nom|Number=Plur	16	amod	_	_
+16	уроды	урод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+17	флагами	флаг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+18	радужными	радужной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+19	размахивают	размахивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 1928
+# text = Куда власть смотрит Почему этих гомосексов допустили свои парады устраивать У нас вот эта вся бездуховность американская не в почёте.
+1	Куда	куда	ADV	_	Degree=Pos	3	advmod	_	_
+2	власть	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	смотрит	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Почему	почему	ADV	_	Degree=Pos	7	advmod	_	_
+5	этих	этот	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	гомосексов	гомосекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	допустили	допусчивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	свои	свой	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	парады	парад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	устраивать	устраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+11	У	у	ADP	_	_	12	case	_	_
+12	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	10	obl	_	_
+13	вот	вот	PART	_	_	14	advmod	_	_
+14	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+15	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+16	бездуховность	бездуховность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+17	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+18	не	не	PART	_	_	20	advmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	почёте	почёт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 1929
+# text = Моя активная гражданская позиция не позволила мне молча сидеть сложа руки, наблюдая подобные сатанинские выходки.
+1	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+2	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	гражданская	гражданский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	позиция	позиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	6	obl	_	_
+8	молча	молча	ADV	_	Degree=Pos	9	advmod	_	_
+9	сидеть	сидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+10	сложа	складывать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	_
+11	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	наблюдая	наблюдать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+14	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	сатанинские	сатанинский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	выходки	выходка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 1930
+# text = Я собрала своих подруг, и мы таки пошли разгонять этих нехристей", -- рассказала одна из участниц акции.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	собрала	собирать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	своих	свой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	подруг	подруга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+8	таки	таки	PART	_	_	9	advmod	_	_
+9	пошли	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	разгонять	разгонять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	этих	этот	DET	_	Case=Gen|Number=Plur	12	amod	_	_
+12	нехристей	нехристь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	--	--	PUNCT	_	_	12	punct	_	_
+16	рассказала	рассказывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	одна	один	NUM	_	Case=Nom|Gender=Fem	16	nummod:gov	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	участниц	участница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	акции	акция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

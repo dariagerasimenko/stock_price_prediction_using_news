@@ -1,0 +1,113 @@
+# sent_id = 3763
+# text = Московский метрополитен планирует назвать одну из строящихся станций подземки именем нобелевского лауреата, писателя Александра Солженицына, сообщается в пресс-релизе.
+1	Московский	московский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метрополитен	метрополитен	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	одну	один	NUM	_	Case=Acc|Gender=Fem	4	nummod:gov	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	строящихся	строить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	подземки	подземка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	именем	имя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl:agent	_	_
+11	нобелевского	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	лауреата	лауреат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	писателя	писатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nsubj	_	_
+15	Александра	александр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	appos	_	_
+16	Солженицына	солженицын	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 3764
+# text = Для этого в проект станции внесены корректировки.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+5	станции	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+6	внесены	внесать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	корректировки	корректировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 3765
+# text = В частности, изменения коснутся оформления вестибюля, где предлагается установить бюст писателя.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	коснутся	касаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	оформления	оформление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+7	вестибюля	вестибюль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	10	advmod	_	_
+10	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
+11	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj:pass	_	_
+12	бюст	бюст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	писателя	писатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 3766
+# text = Для усиления эффекта присутствия, в перерыве между прибытием поездов, голосами известных актёров будут декламироваться лучшие произведения автора.
+1	Для	для	ADP	_	_	2	case	_	_
+2	усиления	усиление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+3	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	присутствия	присутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	перерыве	перерыв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	прибытием	прибытие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+10	поездов	поезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	голосами	голос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+13	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	актёров	актёр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	декламироваться	декламировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+17	лучшие	лучший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	произведения	произведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+19	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 3767
+# text = Первых пассажиров "Солженицынская" примет в 2020 году.
+1	Первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Солженицынская	Солженицынская	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	примет	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	2020	2020	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 3768
+# text = Ранее "Панорама" сообщала о намерении Московского метрополитена выпустить специальные карточки для попрошаек и будет продавать их с тремя тарифами.
+1	Ранее	рано	ADV	_	Degree=Cmp	5	advmod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Панорама	Панорама	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	сообщала	сообщать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	Московского	московский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	метрополитена	метрополитен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+11	специальные	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	карточки	карточка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	попрошаек	попрошака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+17	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+18	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	obj	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	тремя	три	NUM	_	Case=Ins	21	nummod	_	_
+21	тарифами	тариф	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+

@@ -1,0 +1,200 @@
+# sent_id = 2066
+# text = Учёные из университета Манчестера сообщили об опасности для человека, которую несёт мытьё головы шампунем.
+1	Учёные	учёной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Манчестера	Манчестер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	об	о	ADP	_	_	7	case	_	_
+7	опасности	опасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которую	который	PRON	_	Case=Acc	12	obj	_	_
+12	несёт	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	мытьё	мытье	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+14	головы	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+15	шампунем	шампуень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 2067
+# text = По результатам научных опытов, были сделаны выводы, что чем чаще человек использует шампунь, тем больше убивается клеток, отвечающих за интеллект.
+1	По	по	ADP	_	_	2	case	_	_
+2	результатам	результат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	parataxis	_	_
+3	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	опытов	опыт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	сделаны	сделывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	чем	чем	SCONJ	_	_	10	fixed	_	_
+12	чаще	часто	ADV	_	Degree=Cmp	14	advmod	_	_
+13	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	шампунь	шампунь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	тем	тем	SCONJ	_	_	14	mark	_	_
+18	больше	много	NUM	_	_	19	nummod:gov	_	_
+19	убивается	убиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+20	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	отвечающих	отвечать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+23	за	за	ADP	_	_	24	case	_	_
+24	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 2068
+# text = "Безусловно шампунь плохо влияет на корневую структуру волос и ускоряет их выпадение, но это не самое страшное.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Безусловно	безусловно	ADV	_	Degree=Pos	5	advmod	_	_
+3	шампунь	шампунь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	плохо	плохо	ADV	_	Degree=Pos	5	advmod	_	_
+5	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	корневую	корневой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+9	волос	волос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ускоряет	ускорять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	выпадение	выпадение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	но	но	CCONJ	_	_	19	cc	_	_
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	страшное	страшный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 2069
+# text = Если каждый день использовать шампунь, то буквально за 5-10 лет можно стать идиотом.
+1	Если	если	SCONJ	_	_	14	mark	_	_
+2	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	advcl	_	_
+5	шампунь	шампунь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	то	то	SCONJ	_	_	4	cc	_	_
+8	буквально	буквально	ADV	_	Degree=Pos	13	advmod	_	_
+9	за	за	ADP	_	_	13	case	_	_
+10	5	5	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	10	10	NUM	_	_	10	nummod	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+14	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+15	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	nsubj	_	_
+16	идиотом	идиот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 2070
+# text = К счастью, этот процесс можно остановить в любой момент и клетки головного мозга начнут восстанавливаться.
+1	К	к	ADP	_	_	2	case	_	_
+2	счастью	счастье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	остановить	останавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	любой	любой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
+13	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	восстанавливаться	восстанавливаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 2071
+# text = Однажды я спас от этой неприятности знаменитого политика Бориса Джонсона, и он мне очень благодарен.
+1	Однажды	однажды	ADV	_	Degree=Pos	3	advmod	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	спас	спасать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	от	от	ADP	_	_	6	case	_	_
+5	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	неприятности	неприятность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	знаменитого	знаменитый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	политика	политик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+9	Бориса	борис	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	Джонсона	Джонсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	16	cc	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+14	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	16	nmod	_	_
+15	очень	очень	ADV	_	Degree=Pos	16	advmod	_	_
+16	благодарен	благодарный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 2072
+# text = Советую всем людям планеты пересмотреть свои гигиенические взгляды и отказаться от использования шампуня для волос, в крайнем случае, мыть им голову раз в неделю.
+1	Советую	советовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	всем	весь	DET	_	Case=Dat|Number=Plur	3	amod	_	_
+3	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+4	планеты	планета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+5	пересмотреть	пересматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	_
+6	свои	свой	DET	_	Case=Acc|Number=Plur	8	amod	_	_
+7	гигиенические	гигиенический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	взгляды	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	отказаться	отказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	conj	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	шампуня	шампуень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	волос	волос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	крайнем	крайний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	мыть	мыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+22	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	21	obl	_	_
+23	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+25	в	в	ADP	_	_	24	case	_	_
+26	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 2073
+# text = Может быть это и неудобно, но здоровье дороже", -- заключил доктор химических наук Мэтт Киллингсворт.
+1	Может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+2	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	неудобно	неудобный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	но	но	CCONJ	_	_	9	cc	_	_
+8	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	дороже	дорогой	ADJ	_	Degree=Cmp	1	conj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	--	--	PUNCT	_	_	9	punct	_	_
+13	заключил	заключать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	доктор	доктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	наук	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	Мэтт	Мэтт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+18	Киллингсворт	Киллингсворт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 2074
+# text = Идеальным средством для безопасного мытья головы, по мнению учёного, является хозяйственное мыло.
+1	Идеальным	идеальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	средством	средство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	безопасного	безопасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	мытья	мытье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	головы	голова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	parataxis	_	_
+10	учёного	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	хозяйственное	хозяйственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	мыло	мыло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

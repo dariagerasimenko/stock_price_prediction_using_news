@@ -1,0 +1,77 @@
+# text = # newpar
+# sent_id = 22480
+# text = Лектор разбирает две кантаты-жалобы на совершенно душераздирающий сюжет, аналогов которому в эпоху барокко не было, рассказывает о людоедах в Библии и истории матери-людоеда у Тита Флавия и объясняет, как два итальянских композитора обращаются с этим сюжетом.
+1	Лектор	лектор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	разбирает	разбиравать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	две	два	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+4	кантаты	кантат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	жалобы	жалобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+7	на	на	ADP	_	_	10	case	_	_
+8	совершенно	совершенно	ADV	_	Degree=Pos	9	advmod	_	_
+9	душераздирающий	душераздирать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	аналогов	аналог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+13	которому	который	PRON	_	Case=Dat	20	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	эпоху	эпоха	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+16	барокко	барокко	ADV	_	Degree=Pos	20	advmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+21	о	о	ADP	_	_	22	case	_	_
+22	людоедах	людоеда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	20	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	Библии	Библие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	conj	_	_
+27	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	людоеда	людоед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	appos	_	_
+30	у	у	ADP	_	_	31	case	_	_
+31	Тита	тит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+32	Флавия	Флавие	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	как	как	SCONJ	_	_	37	cc	_	_
+37	два	два	NUM	_	Case=Nom|Gender=Masc	39	nummod:gov	_	_
+38	итальянских	итальянской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	композитора	композитор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nsubj	_	_
+40	обращаются	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+41	с	с	ADP	_	_	43	case	_	_
+42	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	43	amod	_	_
+43	сюжетом	сюжет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	_
+
+# sent_id = 22481
+# text = Лекция была организована проектом "Эшколот" совместно с Итальянским институтом культуры в Москве.
+1	Лекция	лекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	организована	организовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Эшколот	Эшколот	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	совместно	совместно	ADV	_	Degree=Pos	11	advmod	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	Итальянским	итальянский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	институтом	институт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+12	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 22482
+# text = Конспект лекции можно прочесть здесь.
+1	Конспект	конспект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	лекции	лекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	прочесть	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = 22483

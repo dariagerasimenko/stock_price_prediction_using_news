@@ -1,0 +1,189 @@
+# sent_id = 3439
+# text = Новые стандарты для дорожного покрытия были приняты Федеральным дорожным агентством (Росавтодор).
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	стандарты	стандарт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	приняты	принимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	Федеральным	Федеральной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	дорожным	дорожный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	агентством	агентство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Росавтодор	Росавтодор	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 3440
+# text = По новым нормам, ямами будут считаться углубления, насчитывающие 10 и больше сантиметров, углубления 5-10 см будут считаться выемками, меньше 5 см будут проходить в документах как небольшие шероховатости дорожного покрытия.
+1	По	по	ADP	_	_	3	case	_	_
+2	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	нормам	норма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ямами	яма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl:agent	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	считаться	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+8	углубления	углубление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	насчитывающие	насчитывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+11	10	10	NUM	_	_	10	nummod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	больше	больше	ADV	_	Degree=Cmp	10	conj	_	_
+14	сантиметров	сантиметры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	углубления	углубление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+17	5	5	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	10	10	NUM	_	_	17	nummod	_	_
+20	см	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+21	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux:pass	_	_
+22	считаться	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	7	dep	_	_
+23	выемками	выемка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	меньше	мало	NUM	_	_	27	nummod:gov	_	_
+26	5	5	NUM	_	_	27	nummod	_	_
+27	см	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
+28	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	_
+29	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	conj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	документах	документ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	obl	_	_
+32	как	как	SCONJ	_	_	34	cc	_	_
+33	небольшие	небольшой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	шероховатости	шероховатость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	29	advmod	_	_
+35	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 3441
+# text = "Какие-то мерзавцы-активисты составили так называемую карту убитых дорог.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Какие-то	какой-то	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	мерзавцы	мерзавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	активисты	активист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	appos	_	_
+6	составили	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	так	так	ADV	_	Degree=Pos	8	advmod	_	_
+8	называемую	называть	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10	убитых	убивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	дорог	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 3442
+# text = Спрашивается, зачем будоражить общественность Я лично отправился проинспектировать некоторые места на своём внедорожнике.
+1	Спрашивается	спрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	зачем	зачем	ADV	_	Degree=Pos	4	advmod	_	_
+4	будоражить	будоражать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+5	общественность	общественность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+7	лично	лично	ADV	_	Degree=Pos	8	advmod	_	_
+8	отправился	отправаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	_
+9	проинспектировать	инспектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpacesAfter=\s\s
+10	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	11	amod	_	_
+11	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	своём	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	14	amod	_	_
+14	внедорожнике	внедорожник	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 3443
+# text = Всё замечательно, там меньше 5 сантиметров.
+1	Всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	замечательно	замечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	там	там	ADV	_	Degree=Pos	5	advmod	_	_
+5	меньше	малый	ADJ	_	Degree=Cmp	2	conj	_	_
+6	5	5	NUM	_	_	7	nummod	_	_
+7	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 3444
+# text = Только и делают, что выискивают какие-то мелкие недостатки в нашей работе.
+1	Только	только	CCONJ	_	_	3	cc	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	выискивают	выискивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+7	какие-то	какой-то	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+8	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	недостатки	недостаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	12	amod	_	_
+12	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 3445
+# text = Если мы так начнём у них недостатки выискивать, что будет Чтобы покончить с этим беспределом, мы изменили стандарты, и теперь всё, что меньше 10 сантиметров -- не яма.
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+3	так	так	ADV	_	Degree=Pos	4	advmod	_	_
+4	начнём	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+7	недостатки	недостатки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	выискивать	выискивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	8	mark	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+12	Чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	_
+13	покончить	покончить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	advcl	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	16	amod	_	_
+16	беспределом	беспредел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	19	nsubj	_	_
+19	изменили	изменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
+20	стандарты	стандарт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	теперь	теперь	ADV	_	Degree=Pos	24	advmod	_	_
+24	всё	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	что	что	SCONJ	_	_	24	mark	_	_
+27	меньше	мало	NUM	_	_	29	nummod:gov	_	_
+28	10	10	NUM	_	_	29	nummod	_	_
+29	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nsubj	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	яма	яма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 3446
+# text = Так себе и запишите!
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	себе	себя	PRON	_	Case=Dat	4	obl	_	_
+3	и	и	PART	_	_	4	advmod	_	_
+4	запишите	записывать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 3447
+# text = Таким образом, буквально за пару часов мы сократили количество ям втрое", -- сказал на брифинге руководитель регламентного отдела Росавтодора Иван Шуйский.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	буквально	буквально	ADV	_	Degree=Pos	6	advmod	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+7	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+9	сократили	сокращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	ям	е	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+12	втрое	втрое	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	--	--	PUNCT	_	_	12	punct	_	_
+16	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	брифинге	брифинг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+20	регламентного	регламентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	Росавтодора	Росавтодор	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Иван	иван	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+24	Шуйский	Шуйский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+

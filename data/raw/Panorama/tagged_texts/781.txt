@@ -1,0 +1,133 @@
+# sent_id = 6912
+# text = Австралийский парламент разрешил операции по перемене пола кенгуру.
+1	Австралийский	австралийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	парламент	парламент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	разрешил	разрешать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	операции	операция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	перемене	перемена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	кенгуру	кенгура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 6913
+# text = Об этом сообщает New Zealand Press.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	New	new	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Zealand	Zealand	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Press	press	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 6914
+# text = За положительное решение проголосовали 73,4 % парламентариев, остальные воздержались.
+1	За	за	ADP	_	_	3	case	_	_
+2	положительное	положительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	проголосовали	голосовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	73,4	73,4	NUM	_	_	6	nummod	_	_
+6	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+7	парламентариев	парламентарий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	_
+10	воздержались	воздержаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 6915
+# text = "Это великий день в истории Австралии" -- заявил депутат Майкл Стерджесс, -- "Теперь мы уравняли в правах граждан Австралии с кенгуру -- животными, которые являются нашим национальным символом.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	великий	великий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	--	--	PUNCT	_	_	7	punct	_	_
+10	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+11	депутат	депутат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Майкл	майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	Стерджесс	Стерджесс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	--	--	PUNCT	_	_	13	punct	_	_
+16	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+17	Теперь	теперь	ADV	_	Degree=Pos	19	advmod	_	_
+18	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	19	nsubj	_	_
+19	уравняли	уравнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	правах	право	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	obl	_	_
+22	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	кенгуру	кенгура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
+26	--	--	PUNCT	_	_	25	punct	_	_
+27	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	acl:relcl	_	_
+31	нашим	наш	DET	_	Case=Ins|Gender=Masc|Number=Sing	33	amod	_	_
+32	национальным	национальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	символом	символ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 6916
+# text = Чем они хуже людей Они тоже должны иметь возможность сменить пол".
+1	Чем	что	PRON	_	Case=Ins	7	nmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+3	хуже	плохой	ADJ	_	Degree=Cmp	4	amod	_	_
+4	людей	людя	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+6	тоже	тоже	PART	_	_	7	advmod	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	сменить	сменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	пол	пол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 6917
+# text = Директор зоопарка Брисбена Джеральд Фокс тоже выразил поддержку парламентариям: -- У нас в зоопарке есть два самца и они пока не научились воспроизводить потомство, а с помощью нового закона мы можем исправить эту ситуацию" -- заявил он.
+1	Директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	зоопарка	зоопарк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Брисбена	Брисбен	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Джеральд	Джеральд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Фокс	Фокс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	тоже	тоже	PART	_	_	7	advmod	_	_
+7	выразил	выражать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	парламентариям	парламентарий	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	--	--	PUNCT	_	_	39	punct	_	_
+12	У	у	ADP	_	_	13	case	_	_
+13	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	39	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	зоопарке	зоопарка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	39	obl	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	два	два	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+18	самца	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	_
+19	и	и	CCONJ	_	_	23	cc	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+21	пока	пока	ADV	_	Degree=Pos	23	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	научились	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	_
+24	воспроизводить	воспроизводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	потомство	потомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	а	а	CCONJ	_	_	33	cc	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	fixed	_	_
+30	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	закона	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
+32	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	33	nsubj	_	_
+33	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+34	исправить	исправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+35	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	36	amod	_	_
+36	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	_
+38	--	--	PUNCT	_	_	36	punct	_	_
+39	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+40	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	39	nsubj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+

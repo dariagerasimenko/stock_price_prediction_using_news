@@ -1,0 +1,183 @@
+# sent_id = 2139
+# text = Активистки ассоциации профессоров-феминисток, зарегистрированной в нидерландском Роттердаме, провели необычную акцию в одной из университетских аудиторий.
+1	Активистки	Активистка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+2	ассоциации	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	профессоров-	профессоров-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	феминисток	феминистка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	зарегистрированной	регистрировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	нидерландском	нидерландский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	Роттердаме	Роттердам	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	необычную	необычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	акцию	акция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	одной	один	NUM	_	Case=Loc|Gender=Fem	11	nummod	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	университетских	университетский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	аудиторий	аудитория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 2140
+# text = Педагоги сожгли более 100 книг русского писателя Льва Толстого, особое внимание было уделено роману "Анна Каренина".
+1	Педагоги	педагог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сожгли	ожгть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	более	более	ADV	_	Degree=Cmp	5	nummod:gov	_	_
+4	100	100	NUM	_	_	5	nummod	_	_
+5	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+6	русского	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	писателя	писатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Льва	лев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+9	Толстого	толстой	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	особое	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	внимание	внимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	уделено	уделеть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+15	роману	романа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Анна	Анн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Каренина	Каренин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 2141
+# text = "Толстой -- ужасный писатель.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Толстой	толстой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	ужасный	ужасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	писатель	писатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 2142
+# text = Он пропагандировал безудержную эксплуатацию женщин.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	пропагандировал	пропагандировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	безудержную	безудержный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	эксплуатацию	эксплуатация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 2143
+# text = Сочувствую его супруге, она оказалась в заточении и была вынуждена рожать ему много детей без права на аборт.
+1	Сочувствую	Сочувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	супруге	супруг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+6	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	заточении	заточение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	вынуждена	вынуждать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	_
+12	рожать	рожать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+14	много	много	ADV	_	Degree=Pos	15	nummod:gov	_	_
+15	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+16	без	без	ADP	_	_	15	case	_	_
+17	права	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	аборт	аборт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 2144
+# text = В романе "Анна Каренина" видно настоящее лицо Толстого.
+1	В	в	ADP	_	_	2	case	_	_
+2	романе	роман	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Анна	анна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+5	Каренина	Каренина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	7	punct	_	_
+7	видно	видно	ADV	_	Degree=Pos	2	advmod	_	_
+8	настоящее	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	лицо	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	Толстого	толстой	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 2145
+# text = То, что он не смог сделать в реальной жизни, он осуществил в книге.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	реальной	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	осуществил	осуществать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 2146
+# text = Как можно давать читать литературу людям, которая учит убивать женщин"- сказала профессор Роттердамского университета Рене Схаар.
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	давать	давать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	литературу	литература	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	учит	учить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	убивать	убивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	женщин	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	"-	"-	PUNCT	_	_	11	punct	_	_
+13	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+14	профессор	профессор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	Роттердамского	Роттердамский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Рене	рене	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	appos	_	_
+18	Схаар	Схаар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 2147
+# text = Феминистки сообщили, что уже подготовили письмо в министерство образования Нидерландов с требованием изъять книги Льва Толстого из всех учебных заведений страны.
+1	Феминистки	Феминистка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	подготовили	подготавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	министерство	министерство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	Нидерландов	нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	требованием	требование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+14	изъять	изъять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+15	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+16	Льва	лев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	Толстого	толстой	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+18	из	из	ADP	_	_	21	case	_	_
+19	всех	весь	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+20	учебных	учебный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	заведений	заведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+22	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 2148
+# text = В противном случае педагоги грозят повторением своих акций по сожжению произведений писателя.
+1	В	в	ADP	_	_	3	case	_	_
+2	противном	противный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	педагоги	педагог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	грозят	грозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	повторением	повторение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+7	своих	свой	DET	_	Case=Gen|Number=Plur	8	amod	_	_
+8	акций	акция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	сожжению	сожжение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+11	произведений	произведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+12	писателя	писатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

@@ -1,0 +1,166 @@
+# sent_id = 43
+# text = Кабинет министров Великобритании прекратил подготовку к выходу страны из Евросоюза и объявил об отказе от Brexit.
+1	Кабинет	кабинет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	министров	министр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	прекратил	прекращать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	выходу	выход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	Евросоюза	евросоюз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	об	о	ADP	_	_	14	case	_	_
+14	отказе	отказ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	Brexit	Brexit	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 44
+# text = Премьер-министр Тереза Мэй сообщила, что такое решение было принято по итогам интернет-опроса, который проводился с 5 по 7 июля на сайте правительства.
+1	Премьер-министр	премьер-министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Тереза	Тереза	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Мэй	Мэй	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	сообщила	сообщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+13	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	18	nsubj:pass	_	_
+18	проводился	проводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	5	5	NUM	_	_	18	nummod	_	_
+21	по	по	ADP	_	_	23	case	_	_
+22	7	7	NUM	_	_	23	nummod	_	_
+23	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+26	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 45
+# text = 52% его участников проголосовали против Brexit.
+1	52	52	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	%	процент-знак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	проголосовали	голосовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	против	против	ADP	_	_	7	case	_	_
+7	Brexit	Brexit	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 46
+# text = "Страна может вздохнуть с облегчением.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вздохнуть	вздыхать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	облегчением	облегчение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 47
+# text = Граждане сказали своё слово в онлайн-опросе и на основании этой информации мы отменяем дорогостоящую и ненужную для британского народа процедуру", -- объявила она.
+1	Граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сказали	сказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+4	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	онлайн	онлайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	опросе	опрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+9	и	и	CCONJ	_	_	15	cc	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+12	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	15	nsubj	_	_
+15	отменяем	отменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	дорогостоящую	дорогостоящий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	ненужную	ненужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
+19	для	для	ADP	_	_	21	case	_	_
+20	британского	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	народа	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+22	процедуру	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	--	--	PUNCT	_	_	22	punct	_	_
+26	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+27	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 48
+# text = По словам Мэй, опрос был проведён после того, как "многие эксперты" усомнились в итогах референдума, на котором было принято решение о выходе из ЕС.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	Мэй	Мэй	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	опрос	опрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	проведён	ведёть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	как	как	SCONJ	_	_	9	mark	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	усомнились	усомниться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	итогах	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+19	референдума	референдум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	котором	который	PRON	_	Case=Loc	24	obl	_	_
+23	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+25	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+26	о	о	ADP	_	_	27	case	_	_
+27	выходе	выход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	из	из	ADP	_	_	29	case	_	_
+29	ЕС	ес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 49
+# text = В то же время премьер-министр затруднилась назвать этих экспертов.
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+5	премьер-министр	премьер-министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	затруднилась	затрудниться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	этих	этот	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	экспертов	эксперт	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 50
+# text = Отвечая на просьбу прокомментировать недовольство оппозиции, она предложила своим противникам обращаться в суд.
+1	Отвечая	отвечать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	просьбу	просьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+4	прокомментировать	комментировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	недовольство	недовольство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	оппозиции	оппозиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+9	предложила	предлагать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	своим	свой	DET	_	Case=Dat|Number=Plur	11	amod	_	_
+11	противникам	противник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+12	обращаться	обращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	суд	суд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

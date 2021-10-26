@@ -1,0 +1,217 @@
+# sent_id = 1962
+# text = "Уралвагонзавод" объявил о приостановке разработки танка Т-14 "Армата" и резкой смене приоритетов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Уралвагонзавод	Уралвагонзавод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	приостановке	приостановка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	танка	танк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Т-14	Т-14	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Армата	Армат	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	резкой	резкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	смене	смена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	conj	_	_
+16	приоритетов	приоритет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 1963
+# text = Вместо триумфатора парада Победы-2015, предприятие намерено сосредоточиться на выпуске "нестареющей классики" -- танках ИС-1 (Иосиф Сталин) Этот тяжёлый танк, разработанный в 1943 году, по мнению инженеров, гораздо лучше подходит для современных реалий, чем разрекламированная новинка Т-14.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	триумфатора	триумфатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+3	парада	парад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Победы	победа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	2015	2015	NUM	_	_	4	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	предприятие	предприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	намерено	намерен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+10	сосредоточиться	сосредоточяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	dep	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	выпуске	выпуска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	нестареющей	нестареющий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	классики	классика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	--	--	PUNCT	_	_	15	punct	_	_
+18	танках	танк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	parataxis	_	_
+19	ИС-1	ИС-1	NUM	_	_	20	nummod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Иосиф	иосиф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	parataxis	_	_
+22	Сталин	сталин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+24	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	26	amod	_	_
+25	тяжёлый	тяжёлый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	танк	танк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	1943	1943	NUM	_	_	31	nummod	_	_
+31	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	по	по	ADP	_	_	34	case	_	_
+34	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	39	parataxis	_	_
+35	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	гораздо	гораздо	ADV	_	Degree=Pos	38	advmod	_	_
+38	лучше	хорошо	ADV	_	Degree=Cmp	39	advmod	_	_
+39	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+40	для	для	ADP	_	_	42	case	_	_
+41	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	реалий	реалия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	obl	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	чем	чем	SCONJ	_	_	46	cc	_	_
+45	разрекламированная	разрекламировывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	46	amod	_	_
+46	новинка	новинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	advmod	_	_
+47	Т-14	Т-14	X	_	Foreign=Yes	46	flat:foreign	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 1964
+# text = "Зачем все эти спорные новинки, если есть надёжная техника, триумфально прошедшая Великую Отечественную войну.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Зачем	Зачто	PRON	_	Case=Ins	6	nmod	_	_
+3	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+5	спорные	спорный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	новинки	новинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	если	если	SCONJ	_	_	6	mark	_	_
+9	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	надёжная	надёжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	техника	техника	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	триумфально	триумфально	ADV	_	Degree=Pos	14	advmod	_	_
+14	прошедшая	проходить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+15	Великую	Великий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	Отечественную	отечественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	войну	война	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 1965
+# text = Раз уж ИСы были эффективны во время самой страшной войны в истории человечества, то в современных конфликтах и подавно будут превосходить соперника.
+1	Раз	раз	ADV	_	Degree=Pos	3	advmod	_	_
+2	уж	уж	PART	_	_	3	advmod	_	_
+3	ИСы	ИСый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	эффективны	эффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	во	во	ADP	_	_	10	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	самой	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	страшной	страшный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	SCONJ	_	_	0	cc	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	конфликтах	конфликты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	_
+19	и	и	CCONJ	_	_	22	cc	_	_
+20	подавно	подавно	ADV	_	Degree=Pos	22	advmod	_	_
+21	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	_
+22	превосходить	превосходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+23	соперника	соперник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 1966
+# text = Тем более, денег нет, а нам держаться", -- прокомментировал ситуацию вице-премьер по делам ВПК Юрий Борисов.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	более	более	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	9	cc	_	_
+8	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	9	obl	_	_
+9	держаться	держаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	conj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	--	--	PUNCT	_	_	9	punct	_	_
+13	прокомментировал	комментировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	вице-премьер	вице-премьер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	по	по	ADP	_	_	17	case	_	_
+17	делам	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	_
+18	ВПК	Впк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Юрий	юрий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+20	Борисов	борисов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 1967
+# text = "Машина хорошая, управлять ей одно удовольствие и всякой ненужной электроники нет", -- сказал испытатель "Уралвагонзавода".
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+6	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	obl	_	_
+7	одно	один	NUM	_	Case=Acc|Gender=Neut	8	nummod:gov	_	_
+8	удовольствие	удовольствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	всякой	всякий	DET	_	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
+11	ненужной	ненужный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	--	--	PUNCT	_	_	17	punct	_	_
+17	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+18	испытатель	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Уралвагонзавода	Уралвагонзавода	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 1968
+# text = Дебютную партию новых танков ИС-1 собираются выпустить уже в декабре этого года.
+1	Дебютную	Дебютный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	партию	партия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+3	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	танков	танк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	ИС	ис	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	1	1	NUM	_	_	5	nummod	_	_
+8	собираются	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 1969
+# text = Первые танковые взводы, укомплектованные ИС, будут сформированы в Улан-Удэ в ближайшее время.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	танковые	танковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	взводы	взвод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	укомплектованные	укомплектовать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	ИС	ис	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	сформированы	сформировывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Улан-Удэ	улан-удэ	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 1970
+# text = Прототипы танков уже доставлены в военную часть в Бурятии.
+1	Прототипы	прототип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+2	танков	танк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	доставлены	доставлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	военную	военный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Бурятии	бурятия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+

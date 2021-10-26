@@ -1,0 +1,123 @@
+# sent_id = 1667
+# text = 24 мая в Санкт-Петербурге 10 человек были госпитализированы из гостиницы "Прибалтийская Park Inn" с признаками тяжелого отравления.
+1	24	24	NUM	_	_	6	nummod	_	_
+2	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Санкт-Петербурге	санкт-петербург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	10	10	NUM	_	_	6	nummod	_	_
+6	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	госпитализированы	госпитализировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	гостиницы	гостиница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Прибалтийская	Прибалтийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Park	Park	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+14	Inn	Inn	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	признаками	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+18	тяжелого	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	отравления	отравление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 1668
+# text = В подсобных помещениях конференц-зала, где проходила церемония открытия Санкт-Петербургской интернет-конференции, криминалисты нашли несколько пятилитровых бутылей с остатками розовой жидкости и надписью "Стеклоомывающая жидкость "Дед Мороз".
+1	В	в	ADP	_	_	3	case	_	_
+2	подсобных	подсобный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+4	конференц	конференц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	зала	зать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	где	где	ADV	_	Degree=Pos	9	advmod	_	_
+9	проходила	проходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	церемония	церемония	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+11	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Санкт-Петербургской	Санкт-Петербургский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+14	-конференции	-конференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	криминалисты	криминалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+17	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+18	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	20	nummod:gov	_	_
+19	пятилитровых	пятилитровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	бутылей	бутыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	остатками	остатки	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	_
+23	розовой	розовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	надписью	надпись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	conj	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Стеклоомывающая	Стеклоомывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+29	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	appos	_	_
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	Дед	дед	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	appos	_	_
+32	Мороз	мороз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 1669
+# text = Экспертиза установила, что вещество содержащееся в бутылях, имеет в составе метиловый спирт -- сильный яд, употребление которого приводит к летальному исходу.
+1	Экспертиза	экспертиза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	установила	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	вещество	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	содержащееся	содержаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	бутылях	бутыль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	метиловый	метиловый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	спирт	спирт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	сильный	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	яд	яд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+20	которого	который	PRON	_	Case=Gen	19	nmod	_	_
+21	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+22	к	к	ADP	_	_	24	case	_	_
+23	летальному	летальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	исходу	исход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 1670
+# text = Пострадавшие были доставлены в Клиническую Больницу Святителя Луки и в данный момент находятся без сознания.
+1	Пострадавшие	пострадавший	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	доставлены	доставлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	Клиническую	клинический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Больницу	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	Святителя	Святитель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Луки	лука	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+13	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+14	без	без	ADP	_	_	15	case	_	_
+15	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 1671
+# text = Ранее врач из Иркутска несколько лет прописывал пациентам стекломой для лечения печени.
+1	Ранее	раный	ADJ	_	Degree=Cmp	7	advmod	_	_
+2	врач	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	Иркутска	иркутск	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+7	прописывал	прописывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+9	стекломой	стеклома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+10	для	для	ADP	_	_	9	case	_	_
+11	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

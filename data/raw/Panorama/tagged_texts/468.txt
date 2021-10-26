@@ -1,0 +1,111 @@
+# sent_id = 4020
+# text = Люксембург принял решение выслать из страны пса посла России в Герцогстве -- Барбоса.
+1	Люксембург	Люксембург	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	выслать	высылать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	пса	пс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	посла	посол	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Герцогстве	Герцогство	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	Барбоса	Барбоса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 4021
+# text = Такое решение было принято по итогам совещания посла Герцогства в РФ Жана Клода Кнебелера и руководителя МИД Жана Ассельборна.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\s\s
+5	по	по	ADP	_	_	6	case	_	_
+6	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+7	совещания	совещание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	посла	посол	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Герцогства	Герцогство	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	РФ	рф	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+12	Жана	Жан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	appos	_	_
+13	Клода	Клодь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	Кнебелера	Кнебелер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	руководителя	руководитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+17	МИД	мид	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Жана	Жан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
+19	Ассельборна	Ассельборн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 4022
+# text = "Мы не смогли найти шпиона среди российских дипломатов, поэтому в знак солидарности со странами ЕС, вышлем собаку российского дипломата.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	шпиона	шпион	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	среди	среди	ADP	_	_	9	case	_	_
+8	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	дипломатов	дипломат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	знак	знак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+14	солидарности	солидарность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	со	с	ADP	_	_	16	case	_	_
+16	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	_
+17	ЕС	ес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	вышлем	вышлем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+20	собаку	собак	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	_
+21	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	дипломата	дипломат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 4023
+# text = Не думаем, что нас ждут ответные меры, поскольку у наших дипломатов в Москве нет собак", -- сказал Ассельборн.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	думаем	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	6	obj	_	_
+6	ждут	жсти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	ответные	ответный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	меры	мера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	поскольку	поскольку	SCONJ	_	_	6	mark	_	_
+11	у	у	ADP	_	_	13	case	_	_
+12	наших	наш	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	дипломатов	дипломат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+16	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+17	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	--	--	PUNCT	_	_	17	punct	_	_
+21	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+22	Ассельборн	Ассельборн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 4024
+# text = Ранее "Панорама" сообщала о решении властей Лихтенштейна выслать из страны 0,7 российских дипломатов.
+1	Ранее	рано	ADV	_	Degree=Cmp	5	advmod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Панорама	Панорама	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	сообщала	сообщать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	решении	решение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	властей	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	Лихтенштейна	Лихтенштейн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	выслать	высылать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+13	0,7	0,7	NUM	_	_	15	nummod	_	_
+14	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	дипломатов	дипломат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

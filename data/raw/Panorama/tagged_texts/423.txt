@@ -1,0 +1,200 @@
+# sent_id = 3567
+# text = В одном из парков столицы Эстонии Таллина появился новый аттракцион "Ударь Путина".
+1	В	в	ADP	_	_	2	case	_	_
+2	одном	один	NUM	_	Case=Loc|Gender=Masc	8	nummod	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	парков	парк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	столицы	столица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Эстонии	Эстония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	Таллина	Таллин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	аттракцион	аттракцион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Ударь	Ударь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+13	Путина	путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 3568
+# text = Несмотря на простоту задумки, он сразу получил огромную популярность среди жителей города и туристов.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	простоту	простота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+4	задумки	задумка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	сразу	сразу	ADV	_	Degree=Pos	8	advmod	_	_
+8	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	огромную	огромный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	популярность	популярность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	среди	среди	ADP	_	_	10	case	_	_
+12	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	туристов	турист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 3569
+# text = За плату в 5 евро любой желающий может ударить картонную статью Президента России Владимира Путина.
+1	За	за	ADP	_	_	2	case	_	_
+2	плату	плата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	5	5	NUM	_	_	5	nummod	_	_
+5	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	любой	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	желающий	желать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ударить	ударять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	картонную	картонный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	статью	статья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	Президента	президент	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	Владимира	владимир	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	_
+15	Путина	путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 3570
+# text = Администратор аттракциона рассказал, что "российский президент" иногда приносит прибыль в несколько тысяч евро за день.
+1	Администратор	Администратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	аттракциона	аттракцион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	рассказал	рассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	иногда	иногда	ADV	_	Degree=Pos	11	advmod	_	_
+11	приносит	приносеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+12	прибыль	прибыль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
+16	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 3571
+# text = "Это невероятно.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	невероятно	невероятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 3572
+# text = Когда людям стало известно о возможности ударить Путина всего за 5 евро, к нам потянулись посетители из соседних стран.
+1	Когда	когда	ADV	_	Degree=Pos	16	mark	_	_
+2	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	advcl	_	_
+4	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	amod	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	возможности	возможность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	ударить	ударивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+8	Путина	путин	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	всего	всего	PART	_	_	12	advmod	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	5	5	NUM	_	_	12	nummod	_	_
+12	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	3	obl	_	_
+16	потянулись	потянуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	посетители	посетитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	соседних	соседний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 3573
+# text = Этот аттракцион гораздо выгоднее "американских горок" и других, на содержание которых уходит много денег", -- сказал администратор.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аттракцион	аттракцион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	гораздо	гораздо	ADV	_	Degree=Pos	4	advmod	_	_
+4	выгоднее	выгодный	ADJ	_	Degree=Cmp	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	горок	горка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+14	которых	который	PRON	_	Case=Gen	13	nmod	_	_
+15	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+16	много	много	ADV	_	Degree=Pos	17	nummod:gov	_	_
+17	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	--	--	PUNCT	_	_	17	punct	_	_
+21	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	администратор	администратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 3574
+# text = В будущем организаторы хотят выручить ещё больше дохода от "картонного Путина" путём открытия нового аттракциона "Плюнь в Путина".
+1	В	в	ADP	_	_	2	case	_	_
+2	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	организаторы	организатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	выручить	выручать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	ещё	еще	ADV	_	Degree=Pos	7	advmod	_	_
+7	больше	много	NUM	_	_	8	nummod:gov	_	_
+8	дохода	доход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	от	от	ADP	_	_	12	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	картонного	картонный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Путина	путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	путём	путем	ADP	_	_	15	case	_	_
+15	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+16	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	аттракциона	аттракцион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Плюнь	Плюнь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Путина	путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 3575
+# text = Стоимость одного плевка составит 2 евро.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	одного	один	NUM	_	Case=Gen|Gender=Masc	3	nummod	_	_
+3	плевка	плевк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	2	2	NUM	_	_	6	nummod	_	_
+6	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3576
+# text = Ранее стало известно о приговоре к четырем годам заключения в эстонской тюрьме 20-ти летнего студента из России Алексея Васильева за репост в социальной сети ВКонтакте.
+1	Ранее	ранее	ADV	_	Degree=Cmp	2	advmod	_	_
+2	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	amod	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	приговоре	приговор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	четырем	четыре	NUM	_	Case=Dat	8	nummod	_	_
+8	годам	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+9	заключения	заключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	эстонской	эстонский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+13	20-ти	20	NUM	_	_	15	nummod	_	_
+14	летнего	летний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	студента	студент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	Алексея	алексей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	appos	_	_
+19	Васильева	Васильев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	_
+20	за	за	ADP	_	_	21	case	_	_
+21	репост	репост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	социальной	социальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	сети	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+25	ВКонтакте	ВКонтакт	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+

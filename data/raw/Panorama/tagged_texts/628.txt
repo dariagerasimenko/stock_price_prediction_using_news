@@ -1,0 +1,112 @@
+# sent_id = 5397
+# text = Актёр Сергей Безруков рассказал, что снимается в новом художественном фильме, в котором исполняет роль Президента России Владимира Путина.
+1	Актёр	Актёр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Сергей	сергей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Безруков	Безруков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	рассказал	рассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	снимается	снимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	художественном	художественный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	фильме	фильм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	котором	который	PRON	_	Case=Loc	15	obl	_	_
+15	исполняет	исполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	Президента	президент	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+19	Владимира	владимир	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+20	Путина	путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 5398
+# text = "Владимир Владимирович -- одна из немногих ролей, которую я ещё не играл.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Владимир	владимир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Владимирович	владимирович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	одна	один	NUM	_	Case=Nom|Gender=Fem	0	root	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	немногих	немногие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	ролей	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которую	который	PRON	_	Case=Acc	14	obj	_	_
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	14	nsubj	_	_
+12	ещё	еще	ADV	_	Degree=Pos	13	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 5399
+# text = Возможно, это станет апогеем моей карьеры.
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	апогеем	апогей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	моей	мой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	карьеры	карьера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 5400
+# text = Я очень долго шёл к этой роли.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	_
+3	долго	долго	ADV	_	Degree=Pos	4	advmod	_	_
+4	шёл	шести	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	роли	роль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 5401
+# text = Внешне, мне кажется, я очень на него похож, практически одно лицо.
+1	Внешне	внешне	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	obl	_	_
+4	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+7	очень	очень	ADV	_	Degree=Pos	9	advmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	похож	похожий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	практически	практически	ADV	_	Degree=Pos	13	advmod	_	_
+13	одно	один	NUM	_	Case=Nom|Gender=Neut	14	nummod:gov	_	_
+14	лицо	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 5402
+# text = Может чуточку гримёрам нужно будет поработать", -- сказал Безруков.
+1	Может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	чуточку	чуточек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+3	гримёрам	гримёр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+4	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	поработать	работать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	--	--	PUNCT	_	_	6	punct	_	_
+10	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+11	Безруков	Безруков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 5403
+# text = О названии и сюжете фильма Безруков умолчал, решив сохранить интригу.
+1	О	о	ADP	_	_	2	case	_	_
+2	названии	название	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	сюжете	сюжет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	_
+5	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Безруков	Безруков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	умолчал	умалчивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	решив	решать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+10	сохранить	сохранять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	интригу	интрига	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+

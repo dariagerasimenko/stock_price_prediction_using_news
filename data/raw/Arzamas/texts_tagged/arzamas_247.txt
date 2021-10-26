@@ -1,0 +1,170 @@
+# text = # newpar
+# sent_id = 5307
+# text = Дмитрий Опарин -- кандидат исторических наук, этнолог, старший преподаватель исторического факультета МГУ им.
+1	Дмитрий	дмитрий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Опарин	Опарин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	кандидат	кандидат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	исторических	исторический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	наук	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	этнолог	этнолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	старший	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	преподаватель	преподаватель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+12	исторического	исторический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	факультета	факультет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	МГУ	мгу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	им.	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+
+# sent_id = 5308
+# text = Ломоносова, младший научный сотрудник НИУ ВШЭ.
+1	Ломоносова	Ломоносов	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	младший	младший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	сотрудник	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	НИУ	Ниу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	ВШЭ	вшэ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5309
+# text = Читает курсы "Современные процессы в приполярном регионе (Чукотка и Нунавут, Канада)", "Источниковедение".
+1	Читает	читать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	курсы	курс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Современные	Современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	приполярном	приполярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	регионе	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Чукотка	Чукотка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Нунавут	Нунавут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Канада	канада	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Источниковедение	Источниковедение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	appos	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 5310
+# text = Специалист по ритуальному пространству Чукотки, ведет полевую работу на Чукотке и в Ханты-Мансийском автономном округе, автор более 20 научных статей по истории и культуре коренных народов Сибири.
+1	Специалист	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	по	по	ADP	_	_	4	case	_	_
+3	ритуальному	ритуальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	пространству	пространство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+5	Чукотки	Чукотка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	полевую	полевый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	Чукотке	чукотка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	16	cc	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	Ханты-Мансийском	Ханты-Мансийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	автономном	автономной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	округе	округ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+19	более	более	ADV	_	Degree=Cmp	22	advmod	_	_
+20	20	20	NUM	_	_	22	nummod	_	_
+21	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	истории	история	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	культуре	культура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	conj	_	_
+27	коренных	коренной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	народов	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	Сибири	сибирь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 5311
+# text = Тема кандидатской диссертации -- "Вариативность современного ритуального пространства Нового Чаплино и Сиреников, Чукотка".
+1	Тема	тема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	кандидатской	кандидатский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	диссертации	диссертация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	Вариативность	Вариативность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	современного	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	ритуального	ритуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	Нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	Чаплино	Чаплино	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	Сиреников	Сиреников	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Чукотка	Чукотка	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 5312
+# text = В последнее время ведет полевые исследования среди мигрантов-мусульман в Москве.
+1	В	в	ADP	_	_	3	case	_	_
+2	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	полевые	полевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	nsubj	_	_
+7	среди	среди	ADP	_	_	6	case	_	_
+8	мигрантов	мигрант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	мусульман	мусульманин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	appos	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5313
+# text = Журналист, москвовед, куратор выставки и исследовательского проекта Музея М. А. Булгакова "Дом на Большой Садовой", посвященного истории дома 10.
+1	Журналист	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	москвовед	москвовед	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	куратор	куратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	выставки	выставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+10	Музея	Музей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	М.	м.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	А.	а.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	_
+13	Булгакова	булгаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Дом	дом	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	Большой	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Садовой	Садова	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	посвященного	посвящать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+22	истории	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+23	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	10	10	NUM	_	_	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5314
+# text = К печати готовится книга "Истории московских домов, рассказанные их жителями".
+1	К	к	ADP	_	_	2	case	_	_
+2	печати	печать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	готовится	готовиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Истории	история	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	московских	московский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	домов	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	рассказанные	рассказывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	жителями	житель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	obl:agent	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar
+# sent_id = 5315

@@ -1,0 +1,255 @@
+# sent_id = 3221
+# text = В Коломенском районе Московской области завершается строительство санатория "Кисельные берега", предназначенного для отдыха сотрудников ВГТРК.
+1	В	в	ADP	_	_	3	case	_	_
+2	Коломенском	Коломенский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	Московской	московский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	завершается	завершаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	строительство	строительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	санатория	санаторий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Кисельные	Кисельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	берега	берег	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	предназначенного	предназначять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	отдыха	отдых	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+17	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	ВГТРК	ВГТРк	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 3222
+# text = Санаторий будет расположен в хвойном лесу.
+1	Санаторий	санаторий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	расположен	расположенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	хвойном	хвойный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	лесу	лес	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3223
+# text = Отдыхающие смогут воспользоваться гольф-клубом, вертолётной площадкой и искусственным водоёмом.
+1	Отдыхающие	отдыхающий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	воспользоваться	пользоваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	гольф-клубом	гольф-клуб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вертолётной	вертолётный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	площадкой	площадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	conj	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	искусственным	искусственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	водоёмом	водоём	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3224
+# text = Для лечения журналистов ВГТРК кроме традиционных методов (душа Шарко, радоновых ванн и грязетерапии) планируется использование ноу-хау в виде лечения просмотром телевизионных программ холдинга.
+1	Для	для	ADP	_	_	2	case	_	_
+2	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+3	журналистов	журналист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ВГТРК	Вгтрк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	кроме	кроме	ADP	_	_	7	case	_	_
+6	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	душа	душа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	parataxis	_	_
+10	Шарко	шарко	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	радоновых	радоновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	ванн	ванна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	грязетерапии	грязетерапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+18	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
+19	ноу-хау	ноу-хау	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	fixed	_	_
+22	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+23	просмотром	просмотр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+24	телевизионных	телевизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	холдинга	холдинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 3225
+# text = На территории комплекса будет разбит парк, состоящий из нескольких аллей, названных в честь лучших журналистов телеканалов холдинга.
+1	На	на	ADP	_	_	2	case	_	_
+2	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	разбит	разбивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	парк	парк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	состоящий	состоять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	из	из	ADP	_	_	11	case	_	_
+10	нескольких	несколько	NUM	_	Case=Gen	11	nummod	_	_
+11	аллей	алль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	названных	называть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	лучших	лучший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	журналистов	журналист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	телеканалов	телеканал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	холдинга	холдинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 3226
+# text = Основными будут аллеи Дмитрия Киселёва и Владимира Соловьёва.
+1	Основными	основной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	_
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	аллеи	аллей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+4	Дмитрия	дмитрий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Киселёва	Киселев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Владимира	владимир	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+8	Соловьёва	Соловьёв	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 3227
+# text = "ВГТРК ценит своих журналистов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	ВГТРК	Вгтрк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ценит	ценить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	своих	свой	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	журналистов	журналист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 3228
+# text = Они регулярно трудятся, чтобы донести до зрителей самую честную и объективную информацию, поэтому они заслужили право на качественный отдых.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	регулярно	регулярно	ADV	_	Degree=Pos	3	advmod	_	_
+3	трудятся	трудиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+6	донести	доносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	_
+7	до	до	ADP	_	_	8	case	_	_
+8	зрителей	зритель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+9	самую	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	честную	честный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	объективную	объективной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+13	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	поэтому	поэтому	ADV	_	Degree=Pos	17	advmod	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
+17	заслужили	заслуживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+18	право	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	качественный	качественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	отдых	отдых	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 3229
+# text = Где можно отдохнуть лучше чем в Подмосковье Думаю, очень приятно ежедневно видеть своих коллег не только на работе, а и на отдыхе.
+1	Где	где	ADV	_	Degree=Pos	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	11	conj	_	_
+3	отдохнуть	отдохать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+4	лучше	хорошо	ADV	_	Degree=Cmp	11	advmod	_	_
+5	чем	чем	SCONJ	_	_	8	mark	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Подмосковье	подмосковье	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+8	Думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+12	ежедневно	ежедневно	ADV	_	Degree=Pos	13	advmod	_	_
+13	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+14	своих	свой	DET	_	Case=Acc|Number=Plur	15	amod	_	_
+15	коллег	коллега	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	только	только	PART	_	_	19	advmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	24	cc	_	_
+22	и	и	PART	_	_	21	advmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	отдыхе	отдых	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 3230
+# text = Это укрепляет корпоративный дух", -- сказал генеральный директор информационного агентства "Россия сегодня" Дмитрий Киселёв.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	укрепляет	укреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	корпоративный	корпоративной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	дух	дух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	--	--	PUNCT	_	_	4	punct	_	_
+8	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	информационного	информационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Россия	россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_
+15	сегодня	сегодня	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	Дмитрий	дмитрий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+18	Киселёв	Киселев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 3231
+# text = Также Киселёв рассказал об этимологии названия учреждения: -- Прошу не искать здесь никаких намёков.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	Киселёв	Киселев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	рассказал	рассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	об	о	ADP	_	_	5	case	_	_
+5	этимологии	этимология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	учреждения	учреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	--	--	PUNCT	_	_	10	punct	_	_
+10	Прошу	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+13	здесь	здесь	ADV	_	Degree=Pos	12	advmod	_	_
+14	никаких	никакой	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+15	намёков	намёк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 3232
+# text = Нам хотелось вспомнить что-нибудь из эпоса, из наших корней.
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	obl	_	_
+2	хотелось	хотеться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вспомнить	вспоминать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	что-нибудь	что-нибудь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	эпоса	эпос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	наших	наш	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	корней	корень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 3233
+# text = По-моему, название очень хорошее и звучное, -- заключил он.
+1	По-моему	по-моему	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	_
+5	хорошее	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	звучное	звучный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	--	--	PUNCT	_	_	5	punct	_	_
+10	заключил	заключать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 3234
+# text = Первый заезд отдыхающих запланирован на июль-август 2018 года.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	заезд	заезд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	отдыхающих	отдыхать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	запланирован	планировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	июль-август	июль-август	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	2018	2018	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+

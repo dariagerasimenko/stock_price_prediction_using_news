@@ -1,0 +1,342 @@
+# text = # newpar
+# sent_id = 3756
+# text = "Журнал "Тапир" основан Даниилом Ивановичем Хармсом.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	Тапир	Тапир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	Даниилом	Даниил	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	_
+8	Ивановичем	иванович	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	Хармсом	Хармс	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 3757
+# text = Сотрудничать в журнале может всякий человек, достигший совершеннолетия, но право приема или отклонения материала принадлежит всецело одному Даниилу Ивановичу Хармсу.
+1	Сотрудничать	сотрудничать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+5	всякий	всякий	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	достигший	достигать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+9	совершеннолетия	совершеннолетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	но	но	CCONJ	_	_	12	cc	_	_
+12	право	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+13	приема	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	отклонения	отклонение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	conj	_	_
+16	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	всецело	всецело	ADV	_	Degree=Pos	19	advmod	_	_
+19	одному	один	NUM	_	Case=Dat|Gender=Masc	20	nummod	_	_
+20	Даниилу	Даниил	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+21	Ивановичу	Иванович	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+22	Хармсу	Хармс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3758
+# text = Сотрудничать в журнале могут также и покойники, из коих главными и почетными будут: 1) Козьма Петрович Прутков и 2)
+1	Сотрудничать	сотрудничать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	покойники	покойник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	из	из	ADP	_	_	11	case	_	_
+10	коих	кое	NUM	_	Case=Gen	11	nummod	_	_
+11	главными	главный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	почетными	почетный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	conj	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	1	1	NUM	_	_	18	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	Козьма	Козьм	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+19	Петрович	петрович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+20	Прутков	прутков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	2	2	NUM	_	_	19	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 3759
+# text = Густав Мейринк.
+1	Густав	Густавать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	root	_	_
+2	Мейринк	Мейринк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3760
+# text = В журнале "Тапир" не допускаются вещи содержания: 1) антирелигиозного, 2) либерального, 3) антиалкогольного, 4) политического, 5) сатирического, 6) пародийного.
+1	В	в	ADP	_	_	2	case	_	_
+2	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Тапир	Тапир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	допускаются	допускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	вещи	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+9	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	1)	1)	PUNCT	_	_	12	punct	_	_
+12	антирелигиозного	антирелигиозный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	2	2	NUM	_	_	12	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	либерального	либеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	3	3	NUM	_	_	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	антиалкогольного	антиалкогольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	4	4	NUM	_	_	12	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	политического	политический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	5	5	NUM	_	_	24	conj	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	сатирического	сатирический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	6)	6)	PUNCT	_	_	12	punct	_	_
+31	пародийного	пародийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3761
+# text = Желающим сотрудничать в "Тапире" следует запомнить, что каждая вещь должна удовлетворять шести условиям запрещения и быть такой величины, чтобы умещалась на двух столбцах одной журнальной страницы.
+1	Желающим	желать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	сотрудничать	сотрудничать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Тапире	Тапир	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	2	punct	_	_
+7	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	запомнить	запоминать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	вещь	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	8	advcl	_	_
+14	удовлетворять	удовлетворять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	шести	шесть	NUM	_	Case=Dat	16	nummod	_	_
+16	условиям	условие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	14	obl	_	_
+17	запрещения	запрещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	21	cc	_	_
+19	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	cop	_	_
+20	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+24	умещалась	умещаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	двух	два	NUM	_	Case=Loc	27	nummod	_	_
+27	столбцах	столбц	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+28	одной	один	NUM	_	Case=Gen|Gender=Fem	30	nummod	_	_
+29	журнальной	журнальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 3762
+# text = Выбор страницы производится Д. И. Хармсом.
+1	Выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	Д.	д.	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl:agent	_	_
+5	И.	и.	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	Хармсом	Хармс	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3763
+# text = Оплата: I проза: за 1 стран.
+1	Оплата	оплата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	I	i	NUM	_	_	4	nummod	_	_
+4	проза	проз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	за	за	ADP	_	_	8	case	_	_
+7	1	1	NUM	_	_	8	nummod	_	_
+8	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3764
+# text = -- 1 руб., за 1 колонку -- 50 коп., за кол. -- 25 коп. II стихи: 2 коп. за строчку.
+1	--	--	PUNCT	_	_	2	punct	_	_
+2	1	1	NUM	_	_	18	nummod	_	_
+3	руб.	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	за	за	ADP	_	_	7	case	_	_
+6	1	1	NUM	_	_	7	nummod	_	_
+7	колонку	колонк	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	50	50	NUM	_	_	18	nummod	_	_
+10	коп.	коподобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	за	за	ADP	_	_	13	case	_	_
+13	кол.	колица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	25	25	NUM	_	_	18	nummod	_	_
+16	коп.	коподобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	II	Ii	NUM	_	_	18	nummod	_	_
+18	стихи	стиха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	18	punct	_	_
+20	2	2	NUM	_	_	21	nummod	_	_
+21	коп.	коподобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	parataxis	_	_
+22	за	за	ADP	_	_	23	case	_	_
+23	строчку	строчка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 3765
+# text = Журнал из помещения квартиры Д.
+1	Журнал	Журнать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	помещения	помещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+4	квартиры	квартира	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Д.	д.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = 3766
+# text = И. Хармса не выносится.
+1	И.	и.	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	Хармса	Хармса	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	выносится	выносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 3767
+# text = За прочтение номера "Тапира" читатель платит Д. И. Хармсу 5 копеек.
+1	За	за	ADP	_	_	2	case	_	_
+2	прочтение	прочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+3	номера	номер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Тапира	Тапира	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	читатель	читатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	платит	плакать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	Д.	д.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+10	И.	и.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+11	Хармсу	Хармс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	5	5	NUM	_	_	13	nummod	_	_
+13	копеек	копейка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3768
+# text = Деньги поступают в кассу Д. И.
+1	Деньги	деньги	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	поступают	поступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	кассу	касса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	Д.	д.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	И.	и.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	_
+
+# sent_id = 3769
+# text = Хармса.
+1	Хармса	Хармса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 3770
+# text = Об этих деньгах Д. И. Хармс никому отчета не отдает.
+1	Об	о	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	деньгах	деньга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+4	Д.	д.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	И.	и.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	Хармс	Хармс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	никому	никто	PRON	_	Case=Dat	8	nmod	_	_
+8	отчета	отчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	отдает	отдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3771
+# text = За Д. И. Хармсом сохраняется право повышения и понижения гонорара за принятие в журнал вещи, а также повышения и понижения платы за прочтение номера, но с условием, что всякое такое повышение и понижение будет оговорено в номере предыдущем: Желающие могут заказать Д. И. Хармсу копию с "Тапира".
+1	За	за	ADP	_	_	2	case	_	_
+2	Д.	д.	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	И.	и.	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	Хармсом	Хармс	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	сохраняется	сохраняваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	право	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	повышения	повышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	понижения	понижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+10	гонорара	гонорар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	принятие	принятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	журнал	журнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	вещи	вещь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+19	повышения	повышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	понижения	понижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	conj	_	_
+22	платы	плата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	за	за	ADP	_	_	24	case	_	_
+24	прочтение	прочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+25	номера	номер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	но	но	CCONJ	_	_	29	cc	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	условием	условие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	PRON	_	Case=Nom	0	conj	_	_
+32	всякое	всякой	DET	_	Case=Nom|Gender=Neut|Number=Sing	34	amod	_	_
+33	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	34	amod	_	_
+34	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+35	и	и	CCONJ	_	_	38	cc	_	_
+36	понижение	понижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_
+37	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux:pass	_	_
+38	оговорено	оговаривать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	conj	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	номере	номер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	41	obl	_	_
+41	предыдущем	предыдуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	xcomp	_	SpaceAfter=No
+42	:	:	PUNCT	_	_	41	punct	_	_
+43	Желающие	желать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	44	xcomp	_	_
+44	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	parataxis	_	_
+45	заказать	заказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	xcomp	_	_
+46	Д.	д.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	45	obl	_	_
+47	И.	и.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	46	flat:name	_	_
+48	Хармсу	Хармс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	45	obl	_	_
+49	копию	копия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	_
+50	с	с	ADP	_	_	52	case	_	_
+51	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
+52	Тапира	Тапир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+53	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	52	punct	_	_
+
+# sent_id = 3772
+# text = I-ая коп. с одного -- стоит 100 руб.
+1	I-ая	I-ать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+2	коп.	копункт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	одного	один	NUM	_	Case=Gen|Gender=Masc	1	obl	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	100	100	NUM	_	_	8	nummod	_	_
+8	руб	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 3773
+# text = II-ая коп. -- 150, III -- 175, IV -- 200 и т. д.".
+1	II-ая	II-ать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	root	_	_
+2	коп.	копункт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	150	150	NUM	_	_	2	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	III	iii	NUM	_	_	2	conj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	175	175	NUM	_	_	6	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	IV	iv	NUM	_	_	8	nummod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	200	200	NUM	_	_	10	nummod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	т.	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+15	д.	далее	ADV	_	Degree=Pos	14	fixed	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar
+# sent_id = 3774
