@@ -1,26 +1,34 @@
-Датасеты:
+ТГ каналы были выбраны по убыванию числа подписчиков и релевантности темы. Аналитика ТГ каналов: https://tgstat.ru/economics
 
-1. https://tatianashavrina.github.io/taiga_site/downloads - данные о фейковых и правдивых новостях на русском языке
-2. https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv - данные на англ языке
-3. https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction - true/fake job description
-4. https://www.kaggle.com/mohamadalhasan/a-fake-news-dataset-around-the-syrian-war - спарсенные и размеченные политические данные (про войну в Сирии)
-5. https://www.kaggle.com/mrisdal/fake-news 
+Сами ТГ каналы:
 
-ТГ каналы:
+1. @vtbmyinvestments - ВТБ Мои Инвестиции
+2. @angelovcap - AngelovCapital
+3. @tinkoff_invest_official - Тинькофф Инвестиции
+4. @lemonfortea - Лимон на чай
+5. @investfuture - InvestFuture
+6. @SberInvestments - СберИнвестиции
+7. @Coin_Post - Coin Post – Деньги,
+8. @investingcorp - Кабинет инвестора
+9. @banksta - Банкста
+10. @profinansy - Канал Ольги Гогаладзе
+11. @markettwits - MarketTwits
+12. @AK47pfl - РынкиДеньгиВласть | РДВ
+13. @if_stocks - IF Stocks
+14. @INSTARDING - INSTARDING ИНВЕСТИЦИИ
+15. @alfawealth - Alfa Wealth
+16. @Kondrashovinvest - KondrashovInvest
+17. @forbesrussia - Forbes Russia
+18. @cbrstocks - Сигналы РЦБ
+19. @investorbiz - Инвест Ревью
+20. @tinkoffjournal - Т—Ж
+21. @ifinvest - investify!
+22. @alfa_investments - Альфа-Инвестиции
+23. @dohod - ДОХОДЪ
+24. @selfinvestor - Сам ты инвестор!
+25. @nastya_docs - Сам Себе Финансист
 
-1. https://tlgrm.ru/channels/@banksta -  Здесь публикуются инсайды из финансового мира и конспирология. 
-2. https://tlgrm.ru/channels/@AK47pfl - финансовой аналитикой, событиями и инсайдами с рынка, практическими советами по управлению капиталом и ценным бумагам, дает прогнозы
-3. https://tlgrm.ru/channels/@bitkogan - канал профессора из ВШЭ: идеи по инвестированию, про финансовую грамотность итд
-4. https://tlgrm.ru/channels/@tinkoffjournal - здесь публикуются статьи о том, как вкладывать, получать скидки, защищать свои права и общаться с банками.
-5. https://tlgrm.ru/channels/@investacademy - про инвестиции (куда лучше инвестировать И так далее)
+Структура полученных данных:
 
-Данные с тайги (https://linghub.ru/static/Taiga/):
-1. Арзамас - просветительский проект, посвящённый истории культуры
-2. Панорама - фейковые новости
-3. n+1 - Научно-популярный источник про науку и технику.
-4. Есть еще много данных которые много весят
+Данные содержат текст поста, дату и время поста, количество просмотров, количество репостов и другие колонки
 
-Структура:
-1. метаданные (ссылка на ресурс, тема, автор, название, направление)
-2. Тексты
-3. Tagged тексты (с частями речи)
