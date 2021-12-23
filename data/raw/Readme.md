@@ -37,3 +37,5 @@
 Источник финансовых данных (цены на акции, ежедневные):
 
 https://ru.investing.com/
+
+https://www.finam.ru/profile/moex-akcii/pllc-yandex-n-v/export/?market=1&em=388383&token=&code=YNDX&apply=0&df=23&mf=11&yf=2021&from=23.12.2021&dt=23&mt=11&yt=2021&to=23.12.2021&p=7&f=YNDX_211223_211223&e=.txt&cn=YNDX&dtf=1&tmf=1&MSOR=1&mstime=on&mstimever=1&sep=1&sep2=1&datf=1&at=1
