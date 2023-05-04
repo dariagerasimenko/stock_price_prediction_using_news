@@ -29,11 +29,11 @@ config.read("config.ini")
 
 
 # Setting configuration values
-api_id = 15595904
-api_hash = 'ea9e7d3c60f18d0f5b7615cd8c8f260c'
-username = '@daxa_tyan'
+api_id = "api_id"
+api_hash = 'api_hash'
+username = '@username'
 
-phone = '+79251215424'
+phone = '+7numer'
 
 # Create the client and connect
 client = TelegramClient(username, api_id, api_hash)
